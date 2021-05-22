@@ -1,0 +1,9 @@
+C:\Users\sanji\OneDrive\Desktop\ImmersiveOffice365\Office365DataHubStub\Office365DataHubStub\bin\Debug\netstandard2.0\Office365DataHub.deps.json
+C:\Users\sanji\OneDrive\Desktop\ImmersiveOffice365\Office365DataHubStub\Office365DataHubStub\bin\Debug\netstandard2.0\Office365DataHub.dll
+C:\Users\sanji\OneDrive\Desktop\ImmersiveOffice365\Office365DataHubStub\Office365DataHubStub\bin\Debug\netstandard2.0\Office365DataHub.pdb
+C:\Users\sanji\OneDrive\Desktop\ImmersiveOffice365\Office365DataHubStub\Office365DataHubStub\obj\Debug\netstandard2.0\Office365DataHubStub.csprojAssemblyReference.cache
+C:\Users\sanji\OneDrive\Desktop\ImmersiveOffice365\Office365DataHubStub\Office365DataHubStub\obj\Debug\netstandard2.0\Office365DataHubStub.AssemblyInfoInputs.cache
+C:\Users\sanji\OneDrive\Desktop\ImmersiveOffice365\Office365DataHubStub\Office365DataHubStub\obj\Debug\netstandard2.0\Office365DataHubStub.AssemblyInfo.cs
+C:\Users\sanji\OneDrive\Desktop\ImmersiveOffice365\Office365DataHubStub\Office365DataHubStub\obj\Debug\netstandard2.0\Office365DataHubStub.csproj.CoreCompileInputs.cache
+C:\Users\sanji\OneDrive\Desktop\ImmersiveOffice365\Office365DataHubStub\Office365DataHubStub\obj\Debug\netstandard2.0\Office365DataHub.dll
+C:\Users\sanji\OneDrive\Desktop\ImmersiveOffice365\Office365DataHubStub\Office365DataHubStub\obj\Debug\netstandard2.0\Office365DataHub.pdb

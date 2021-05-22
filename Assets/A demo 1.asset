@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbbee1e78b7c55c4e852463080fa0698, type: 3}
+  m_Name: A demo 1
+  m_EditorClassIdentifier: 
+  subjectRecordings:
+  - subjectID: 26188
+    subjectName: another thing
+    metadataKeys: []
+    metadataValues: []
+    capturedPositions:
+    - time: 0.35333335
+      vector: {x: 1.1, y: 1.54, z: 3.11}
+    - time: 14.824202
+      vector: {x: 1.1, y: 1.54, z: 3.11}
+    - time: 15.026381
+      vector: {x: 1.1, y: 0.86, z: 3.11}
+    - time: 15.22652
+      vector: {x: 1.1, y: 0.64, z: 3.11}
+    - time: 15.427551
+      vector: {x: 1.1, y: 0.6, z: 3.11}
+    - time: 16.04314
+      vector: {x: 1.1, y: 0.6, z: 3.11}
+    - time: 16.244684
+      vector: {x: -0.14, y: 0.6, z: 3.11}
+    - time: 16.452093
+      vector: {x: -0.22, y: 0.6, z: 3.11}
+    - time: 16.653484
+      vector: {x: -0.65, y: 0.6, z: 3.11}
+    - time: 19.120573
+      vector: {x: -0.65, y: 0.6, z: 3.11}
+    capturedRotations:
+    - time: 0.35333335
+      vector: {x: -0, y: 0, z: 0}
+    - time: 19.120573
+      vector: {x: -0, y: 0, z: 0}
+    capturedLifeCycleEvents: []
+    capturedCustomSubjectEvents: []
+  - subjectID: 26216
+    subjectName: Cube
+    metadataKeys: []
+    metadataValues: []
+    capturedPositions:
+    - time: 0.35333335
+      vector: {x: 1, y: 1.425, z: 0.8}
+    - time: 5.2405357
+      vector: {x: 1, y: 1.425, z: 0.8}
+    - time: 5.3438673
+      vector: {x: 1.158, y: 1.425, z: 0.8}
+    - time: 5.4440074
+      vector: {x: 1.495, y: 1.425, z: 0.8}
+    - time: 5.555313
+      vector: {x: 1.803, y: 1.425, z: 0.8}
+    - time: 5.6662517
+      vector: {x: 2.556, y: 1.425, z: 0.8}
+    - time: 5.7682495
+      vector: {x: 2.95, y: 1.425, z: 0.8}
+    - time: 5.8746967
+      vector: {x: 3.37, y: 1.425, z: 0.8}
+    - time: 5.980185
+      vector: {x: 3.65, y: 1.425, z: 0.8}
+    - time: 6.088362
+      vector: {x: 3.93, y: 1.425, z: 0.8}
+    - time: 6.198832
+      vector: {x: 3.98, y: 1.425, z: 0.8}
+    - time: 6.7194476
+      vector: {x: 3.98, y: 1.425, z: 0.8}
+    - time: 6.832952
+      vector: {x: 3.97, y: 1.425, z: 0.8}
+    - time: 6.9358935
+      vector: {x: 3.68, y: 1.425, z: 0.8}
+    - time: 7.0478773
+      vector: {x: 3.35, y: 1.425, z: 0.8}
+    - time: 7.1517444
+      vector: {x: 3.28, y: 1.425, z: 0.8}
+    - time: 7.2554173
+      vector: {x: 3.09, y: 1.425, z: 0.8}
+    - time: 7.3580704
+      vector: {x: 1.537, y: 1.425, z: 0.8}
+    - time: 9.256788
+      vector: {x: 1.537, y: 1.425, z: 0.8}
+    - time: 9.369326
+      vector: {x: 1.09, y: 1.425, z: 0.8}
+    - time: 9.471778
+      vector: {x: -1.55, y: 1.425, z: 0.8}
+    - time: 9.573436
+      vector: {x: -1.7, y: 1.425, z: 0.8}
+    - time: 9.685409
+      vector: {x: -2.05, y: 1.425, z: 0.8}
+    - time: 10.001171
+      vector: {x: -2.05, y: 1.425, z: 0.8}
+    - time: 10.110997
+      vector: {x: -1.84, y: 1.425, z: 0.8}
+    - time: 10.212959
+      vector: {x: -1.29, y: 1.425, z: 0.8}
+    - time: 10.327093
+      vector: {x: -1.2, y: 1.425, z: 0.8}
+    - time: 11.067269
+      vector: {x: -1.2, y: 1.425, z: 0.8}
+    - time: 11.173824
+      vector: {x: -1.2, y: 1.425, z: 1.43}
+    - time: 11.283912
+      vector: {x: -1.2, y: 1.425, z: 4.45}
+    - time: 11.392455
+      vector: {x: -1.2, y: 1.425, z: 5.39}
+    - time: 11.506993
+      vector: {x: -1.2, y: 1.425, z: 5.39}
+    - time: 11.615767
+      vector: {x: -1.2, y: 1.425, z: 5.63}
+    - time: 11.725108
+      vector: {x: -1.2, y: 1.425, z: 5.97}
+    - time: 11.833126
+      vector: {x: -1.2, y: 1.425, z: 6.3}
+    - time: 11.942706
+      vector: {x: -1.2, y: 1.425, z: 6.88}
+    - time: 12.052258
+      vector: {x: -1.2, y: 1.425, z: 7.11}
+    - time: 19.25354
+      vector: {x: -1.2, y: 1.425, z: 7.11}
+    capturedRotations:
+    - time: 0.35333335
+      vector: {x: -0, y: 0, z: 0}
+    - time: 19.25354
+      vector: {x: -0, y: 0, z: 0}
+    capturedLifeCycleEvents: []
+    capturedCustomSubjectEvents: []
+  capturedCustomEvents: []
+  metadataKeys: []
+  metadataValues: []

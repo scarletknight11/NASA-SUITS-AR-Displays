@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2h1oA/mNBm7rc+DheEeO9spy3U4ed9k5Wdwa/+acviNkfNsQ+PR30iGEHAturAcSiqSG57jJLNroFDVAfr3yAQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sanji\\OneDrive\\Desktop\\ImmersiveOffice365\\Office365DataHub\\Office365DataHub\\Office365DataHub.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sanji\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\sanji\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
