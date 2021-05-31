@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - UI
+  - Wall
+  - Ground
   layers:
   - Default
   - TransparentFX

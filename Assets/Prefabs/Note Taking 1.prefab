@@ -1453,6 +1453,7 @@ MonoBehaviour:
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 2
   m_ReadOnly: 0
+  m_ShouldActivateOnSelect: 1
 --- !u!95 &254173282428512976
 Animator:
   serializedVersion: 3
@@ -2999,6 +3000,7 @@ MonoBehaviour:
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 2
   m_ReadOnly: 0
+  m_ShouldActivateOnSelect: 1
 --- !u!1 &480205493859151431
 GameObject:
   m_ObjectHideFlags: 0
@@ -9191,7 +9193,6 @@ GameObject:
   - component: {fileID: 853983300}
   - component: {fileID: 853983301}
   - component: {fileID: 853983277}
-  - component: {fileID: 5335788190805943831}
   m_Layer: 0
   m_Name: Note Taking 1
   m_TagString: Untagged
@@ -9208,7 +9209,7 @@ RectTransform:
   m_GameObject: {fileID: 480205494613104378}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 3.858}
-  m_LocalScale: {x: 0.01132323, y: 0.010396895, z: 0.006}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children:
   - {fileID: 480205494092842216}
   - {fileID: 480205493616830232}
@@ -9700,6 +9701,9 @@ MonoBehaviour:
   autoFollowAtDistance: 0
   autoFollowDistance: 2
   autoFollowTransformTarget: {fileID: 0}
+  autoFollowTriggered:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &853983299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9707,16 +9711,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 480205494613104378}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4684083f6dff4a1d8a790bccc354fcf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  updateLinkedTransform: 0
+  updateLinkedTransform: 1
   moveLerpTime: 0
   rotateLerpTime: 0
   scaleLerpTime: 0
-  maintainScale: 1
+  maintainScaleOnInitialization: 1
   smoothing: 1
   lifetime: 0
   referenceDirection: 1
@@ -9783,6 +9787,7 @@ MonoBehaviour:
   boundsCalculationMethod: 0
   activation: 0
   flattenAxis: 0
+  uniformScaleOnFlattenedAxis: 1
   boxPadding: {x: 0, y: 0, z: 0}
   boxDisplayConfiguration: {fileID: 0}
   linksConfiguration: {fileID: 0}
@@ -9879,27 +9884,7 @@ MonoBehaviour:
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
---- !u!114 &5335788190805943831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 480205494613104378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22217b78c404b3d41816e937276869ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onShowKeyboard:
-    m_PersistentCalls:
-      m_Calls: []
-  onCommitText:
-    m_PersistentCalls:
-      m_Calls: []
-  onHideKeyboard:
-    m_PersistentCalls:
-      m_Calls: []
+  m_ShouldActivateOnSelect: 1
 --- !u!1 &480205494689072496
 GameObject:
   m_ObjectHideFlags: 0

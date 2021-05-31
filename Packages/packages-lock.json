@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.microsoft.maps.unity": {
-      "version": "0.10.1",
+      "version": "0.10.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {},

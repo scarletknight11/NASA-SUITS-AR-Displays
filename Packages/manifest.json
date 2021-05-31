@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.microsoft.maps.unity": "0.10.1",
+    "com.microsoft.maps.unity": "0.10.2",
     "com.unity.cinemachine": "2.6.4",
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ext.nunit": "1.0.6",
