@@ -2,18 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DataResponse{
+public class DataResponse {
     public string _id { get; set; }
     public double time { get; set; }
     public string timer { get; set; }
     public System.DateTime started_at { get; set; }
     public int heart_bpm { get; set; }
-    public string p_sub { get; set; }
-    public string p_suit { get; set; }
-    public string t_sub { get; set; }
-    public string v_fan { get; set; }
-    public string p_o2 { get; set; }
-    public string rate_o2 { get; set; }
+    public double p_sub { get; set; }
+    public double p_suit { get; set; }
+    public double t_sub { get; set; }
+    public int v_fan { get; set; }
+    public double p_o2 { get; set; }
+    public double rate_o2 { get; set; }
     public double batteryPercent { get; set; }
     public int battery_out { get; set; }
     public int cap_battery { get; set; }

@@ -33,7 +33,13 @@ public class DataRequest : MonoBehaviour
    Text t_oxygen;
    Text cap_water;
    Text t_water;
- 
+
+   public GameObject heartwarner;
+   public GameObject psubwarning;
+   public GameObject fanwarning;
+
+
+
     // Update is called once per frame
     void Update()
     {
@@ -62,7 +68,7 @@ public class DataRequest : MonoBehaviour
             p_sub.text = "External Pressure: "+(data.p_sub.ToString()) + " PSIA";
 
             p_suit = GameObject.Find("p_suit").GetComponent<Text>();
-            p_suit.text = "Suit Pressure: "+(data.p_suit.ToString()) + " PSID";
+            p_suit.text = "Suit Pressure: " + (data.p_suit.ToString()) + " PSID";
 
             t_sub = GameObject.Find("t_sub").GetComponent<Text>();
             t_sub.text = "External Temp: "+(data.t_sub.ToString()) + "F";
@@ -87,6 +93,8 @@ public class DataRequest : MonoBehaviour
 
             t_battery = GameObject.Find("t_battery").GetComponent<Text>();
             t_battery.text = "Battery Time Left: "+(data.t_battery.ToString()) + "";
+
+          
 
             p_h2o_g = GameObject.Find("p_h2o_g").GetComponent<Text>();
             p_h2o_g.text = "H20 Gas Pressure: "+(data.p_h2o_g.ToString()) + " PSIA";
@@ -120,9 +128,26 @@ public class DataRequest : MonoBehaviour
 
             t_water = GameObject.Find("t_water").GetComponent<Text>();
             t_water.text = "H20 Time: "+(data.t_water.ToString()) + "";
-
             
+            //Warnings
+            if (data.heart_bpm < 80 || data.heart_bpm > 100)
+            {
+                heartwarner.SetActive(true);
+            }
+
+            if (data.p_sub < 2 || data.p_sub > 4)
+            {
+                psubwarning.SetActive(true);
+            }
+
+            if (data.v_fan < 10000 || data.v_fan > 40000) 
+            {
+                fanwarning.SetActive(true);
+            }
+
+
         }
 
+        
     }
 }

@@ -102,7 +102,11 @@ namespace UnityEngine.UIElements
             var eventSystem = UIElementsRuntimeUtility.activeEventSystem as EventSystem;
             var pointerId = eventSystem.currentInputModule.ConvertUIToolkitPointerId(eventData);
 
-            if (m_Panel.GetCapturingElement(pointerId) == null)
+            var capturingElement = m_Panel.GetCapturingElement(pointerId);
+            if (capturingElement is VisualElement ve && ve.panel != m_Panel)
+                return;
+
+            if (capturingElement == null)
             {
                 if (!m_Panel.ScreenToPanel(position, delta, out var panelPosition, out _))
                     return;
