@@ -18,14 +18,14 @@ public class DataResponse {
     public int battery_out { get; set; }
     public int cap_battery { get; set; }
     public string t_battery { get; set; }
-    public string p_h2o_g { get; set; }
-    public string p_h2o_l { get; set; }
-    public string p_sop { get; set; }
-    public string rate_sop { get; set; }
-    public string t_oxygenPrimary { get; set; }
-    public string t_oxygenSec { get; set; }
-    public string ox_primary { get; set; }
-    public string ox_secondary { get; set; }
+    public double p_h2o_g { get; set; }
+    public double p_h2o_l { get; set; }
+    public double p_sop { get; set; }
+    public double rate_sop { get; set; }
+    public float t_oxygenPrimary { get; set; }
+    public float t_oxygenSec { get; set; }
+    public float ox_primary { get; set; }
+    public float ox_secondary { get; set; }
     public string t_oxygen { get; set; }
     public double cap_water { get; set; }
     public string t_water { get; set; }

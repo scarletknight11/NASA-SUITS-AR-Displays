@@ -37,6 +37,14 @@ public class DataRequest : MonoBehaviour
    public GameObject heartwarner;
    public GameObject psubwarning;
    public GameObject fanwarning;
+   public GameObject po2;
+   public GameObject rateo2;
+   public GameObject batterycapwarning;
+   public GameObject ph20gwarning;
+   public GameObject ph20lwarning;
+   public GameObject psopwarning;
+   public GameObject ratesopwarning;
+   public GameObject waterwarning;
 
 
 
@@ -145,7 +153,42 @@ public class DataRequest : MonoBehaviour
                 fanwarning.SetActive(true);
             }
 
+            if (data.p_o2 < 750.0 || data.p_o2 > 950.0)
+            {
+                po2.SetActive(true);
+            }
 
+            if (data.rate_o2 < 0.5 || data.rate_o2 > 1.0)
+            {
+                rateo2.SetActive(true);
+            }
+
+            if (data.cap_battery < 0.0 || data.cap_battery > 30.0)
+            {
+                batterycapwarning.SetActive(true);
+            }
+
+            if (data.p_h2o_g < 14.0 || data.p_h2o_g > 16.0)
+            {
+                ph20gwarning.SetActive(true);
+            }
+
+            if (data.p_h2o_l < 14.0 || data.p_h2o_l > 16.0)
+            {
+                ph20lwarning.SetActive(true);
+            }
+
+            if (data.p_sop < 750.0 || data.p_sop > 950.0)
+            {
+                psopwarning.SetActive(true);
+            }
+
+            if (data.rate_sop < 0.5 || data.rate_sop > 1.0)
+            {
+                ratesopwarning.SetActive(true);
+            }
+
+          
         }
 
         

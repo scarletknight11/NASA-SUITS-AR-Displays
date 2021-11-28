@@ -1,3 +1,17 @@
+ActionBasedControllerEditor
+UnityEngine
+XR
+Interaction
+Toolkit
+XRBaseControllerEditor
+XRControllerEditor
+XRControllerRecorderEditor
+XRControllerRecordingEditor
+XRRigEditor
+PackageManagerEditorHelper
+Utilities
+InputHelpers
+
 Sysroot
 UnityEditor
 LinuxStandalone

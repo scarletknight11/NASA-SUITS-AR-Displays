@@ -16,6 +16,8 @@ Library\Bee\artifacts\movedfrom\Unity.Timeline.ref.dll_3828562329367179096.moved
 Library\Bee\artifacts\movedfrom\Unity.Toolchain.Win-x86_64-Linux-x86_64.ref.dll_15869811924262562191.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.VSCode.Editor.ref.dll_10403179026861259008.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.VisualStudio.Editor.ref.dll_3478756489252060724.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.XR.CoreUtils.Editor.ref.dll_11649595602565437692.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.XR.CoreUtils.ref.dll_5921323101785495045.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.XR.Interaction.Toolkit.Editor.ref.dll_6759722715692627196.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.XR.Interaction.Toolkit.ref.dll_8675740338598279685.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.XR.InteractionSubsystems.ref.dll_15390958442465170761.movedfrom
@@ -113,5 +115,5 @@ Library\Bee\artifacts\movedfrom\UnityEditor.OSXStandalone.Extensions.dll_5538034
 Library\Bee\artifacts\movedfrom\UnityEditor.UWP.Extensions.dll_17206418664792643983.movedfrom
 Library\Bee\artifacts\movedfrom\UnityEditor.WebGL.Extensions.dll_17690569560407906164.movedfrom
 Library\Bee\artifacts\movedfrom\UnityEditor.WindowsStandalone.Extensions.dll_6626020424801710180.movedfrom
-Library\Bee\artifacts\movedfrom\Unity.Plastic.Antlr3.Runtime.dll_1165203930338895943.movedfrom
-Library\Bee\artifacts\movedfrom\Unity.Plastic.Newtonsoft.Json.dll_6906198586292347134.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.Plastic.Antlr3.Runtime.dll_10075900087132558196.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.Plastic.Newtonsoft.Json.dll_7006647713325557889.movedfrom
