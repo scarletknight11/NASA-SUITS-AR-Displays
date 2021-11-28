@@ -1,0 +1,32 @@
+{
+    "name": "Unity.XR.CoreUtils",
+    "rootNamespace": "",
+    "references": [
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.modules.physics",
+            "expression": "1.0.0",
+            "define": "INCLUDE_PHYSICS_MODULE"
+        },
+        {
+            "name": "com.unity.ugui",
+            "expression": "1.0.0",
+            "define": "INCLUDE_UGUI"
+        },
+        {      
+            "name": "com.unity.inputsystem",
+            "expression": "1.0.0",
+            "define": "INCLUDE_INPUT_SYSTEM"
+        }
+    ],
+    "noEngineReferences": false
+}
