@@ -69,6 +69,28 @@ MonoBehaviour:
     runtimePlatform: 208
     deviceManagerProfile: {fileID: 11400000, guid: d2689537ddb3c334394b449d94f86d7f,
       type: 2}
+  - componentType:
+      reference: Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealityDeviceManager,
+        Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality
+    componentName: XR SDK Windows Mixed Reality Device Manager
+    priority: 0
+    runtimePlatform: 9
+    deviceManagerProfile: {fileID: 0}
+  - componentType:
+      reference: Microsoft.MixedReality.Toolkit.XRSDK.Oculus.Input.OculusXRSDKDeviceManager,
+        Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus
+    componentName: XR SDK Oculus Device Manager
+    priority: 0
+    runtimePlatform: 33
+    deviceManagerProfile: {fileID: 11400000, guid: 8f48cb9c26fb518499c65c9f9e8bb4ed,
+      type: 2}
+  - componentType:
+      reference: Microsoft.MixedReality.Toolkit.XRSDK.OpenXR.OpenXRDeviceManager,
+        Microsoft.MixedReality.Toolkit.Providers.OpenXR
+    componentName: OpenXR XRSDK Device Manager
+    priority: 0
+    runtimePlatform: -1
+    deviceManagerProfile: {fileID: 0}
   focusProviderType:
     reference: Microsoft.MixedReality.Toolkit.Input.FocusProvider, Microsoft.MixedReality.Toolkit.Services.InputSystem
   raycastProviderType:
@@ -88,5 +110,5 @@ MonoBehaviour:
     type: 2}
   controllerVisualizationProfile: {fileID: 11400000, guid: 345c06fdf3732db46b96299bd3cba653,
     type: 2}
-  handTrackingProfile: {fileID: 11400000, guid: b7268bd57cec9b04088d476cd1e5b0e8,
+  handTrackingProfile: {fileID: 11400000, guid: 7f1e3cd673742f94ca860ac7ae733024,
     type: 2}

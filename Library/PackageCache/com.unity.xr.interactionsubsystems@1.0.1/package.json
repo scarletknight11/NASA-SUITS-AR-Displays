@@ -10,11 +10,11 @@
     "Interaction"
   ],
   "dependencies": {
-    "com.unity.subsystemregistration": "1.0.5"
+    "com.unity.subsystemregistration": "1.0.6"
   },
   "repository": {
     "type": "git",
     "url": "git@github.cds.internal.unity3d.com:unity/com.unity.xr.interactionsubsystems.git",
-    "revision": "c9d1e6a52c5806d8ec4d9f74ec9eaaf54f07d2c6"
+    "revision": "e4d74ea2d737ed36976840f753a2817ef9e4e56d"
   }
 }

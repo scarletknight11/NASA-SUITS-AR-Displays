@@ -137,23 +137,23 @@ namespace Microsoft.MixedReality.Toolkit.Experimental.Physics
         /// <param name="targetTransform">Precalculated target transform that's influenced by elastics</param>
         /// <param name="transformsToApply">Indicates which types of transforms are going to be applied. Default is Move, Rotate and Scale.</param>
         /// <returns>Modified transform types.</returns>
-        public TransformFlags ApplyTargetTransform(MixedRealityTransform targetTransform, TransformFlags transformsToApply = TransformFlags.Move|TransformFlags.Rotate|TransformFlags.Scale)
+        public TransformFlags ApplyTargetTransform(MixedRealityTransform targetTransform, TransformFlags transformsToApply = TransformFlags.Move | TransformFlags.Rotate | TransformFlags.Scale)
         {
             Debug.Assert(hostTransform != null, "Can't apply target before calling Initialize with a valid transform reference.");
             if (hostTransform != null)
             {
                 TransformFlags enabledTransformTypes = transformsToApply & elasticTypes;
-                if (enabledTransformTypes.HasFlag(TransformFlags.Move))
+                if (enabledTransformTypes.IsMaskSet(TransformFlags.Move))
                 {
                     hostTransform.position = translationElastic.ComputeIteration(targetTransform.Position, Time.deltaTime);
                 }
 
-                if (enabledTransformTypes.HasFlag(TransformFlags.Rotate))
+                if (enabledTransformTypes.IsMaskSet(TransformFlags.Rotate))
                 {
                     hostTransform.rotation = rotationElastic.ComputeIteration(targetTransform.Rotation, Time.deltaTime);
                 }
 
-                if (enabledTransformTypes.HasFlag(TransformFlags.Scale))
+                if (enabledTransformTypes.IsMaskSet(TransformFlags.Scale))
                 {
                     hostTransform.localScale = scaleElastic.ComputeIteration(targetTransform.Scale, Time.deltaTime);
                 }
@@ -161,7 +161,7 @@ namespace Microsoft.MixedReality.Toolkit.Experimental.Physics
                 elasticTypesSimulating = enabledTransformTypes;
                 return elasticTypes;
             }
-            else 
+            else
             {
                 return 0;
             }
@@ -175,21 +175,21 @@ namespace Microsoft.MixedReality.Toolkit.Experimental.Physics
         public void InitializeElastics(Transform elasticsTransform)
         {
             hostTransform = elasticsTransform;
-            if (elasticTypes.HasFlag(TransformFlags.Move))
+            if (elasticTypes.IsMaskSet(TransformFlags.Move))
             {
                 translationElastic = new VolumeElasticSystem(hostTransform.position,
                                                              translationElastic?.GetCurrentVelocity() ?? Vector3.zero,
                                                              translationElasticExtent,
                                                              translationElasticConfigurationObject.ElasticProperties);
             }
-            if (elasticTypes.HasFlag(TransformFlags.Rotate))
+            if (elasticTypes.IsMaskSet(TransformFlags.Rotate))
             {
                 rotationElastic = new QuaternionElasticSystem(hostTransform.rotation,
                                                               rotationElastic?.GetCurrentVelocity() ?? Quaternion.identity,
                                                               rotationElasticExtent,
                                                               rotationElasticConfigurationObject.ElasticProperties);
             }
-            if (elasticTypes.HasFlag(TransformFlags.Scale))
+            if (elasticTypes.IsMaskSet(TransformFlags.Scale))
             {
                 scaleElastic = new VolumeElasticSystem(hostTransform.localScale,
                                                        scaleElastic?.GetCurrentVelocity() ?? Vector3.zero,
@@ -229,8 +229,8 @@ namespace Microsoft.MixedReality.Toolkit.Experimental.Physics
 
         private bool ShouldUpdateElastics<T>(TransformFlags elasticType, IElasticSystem<T> elasticSystem)
         {
-            return (elasticTypes.HasFlag(elasticType) && 
-                elasticTypesSimulating.HasFlag(elasticType) && 
+            return (elasticTypes.IsMaskSet(elasticType) &&
+                elasticTypesSimulating.IsMaskSet(elasticType) &&
                 elasticSystem != null);
         }
 

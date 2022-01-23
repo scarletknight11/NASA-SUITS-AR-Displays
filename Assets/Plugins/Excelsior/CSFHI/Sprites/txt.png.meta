@@ -467,6 +467,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -475,9 +476,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 1
     aniso: 16
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -1560,6 +1561,56 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      txt_25: 21300246
+      txt_36: 21300268
+      txt_43: 21300282
+      txt_26: 21300248
+      txt_4: 21300204
+      txt_27: 21300250
+      txt_6: 21300208
+      txt_22: 21300240
+      txt_28: 21300252
+      txt_9: 21300214
+      txt_21: 21300238
+      txt_23: 21300242
+      txt_44: 21300284
+      txt_30: 21300256
+      txt_47: 21300290
+      txt_15: 21300226
+      txt_33: 21300262
+      txt_24: 21300244
+      txt_19: 21300234
+      txt_41: 21300278
+      txt_42: 21300280
+      txt_31: 21300258
+      txt_35: 21300266
+      txt_11: 21300218
+      txt_8: 21300212
+      txt_7: 21300210
+      txt_39: 21300274
+      txt_45: 21300286
+      txt_46: 21300288
+      txt_40: 21300276
+      txt_20: 21300236
+      txt_0: 21300196
+      txt_32: 21300260
+      txt_34: 21300264
+      txt_10: 21300216
+      txt_5: 21300206
+      txt_29: 21300254
+      txt_2: 21300200
+      txt_16: 21300228
+      txt_17: 21300230
+      txt_13: 21300222
+      txt_14: 21300224
+      txt_38: 21300272
+      txt_1: 21300198
+      txt_37: 21300270
+      txt_48: 21300292
+      txt_18: 21300232
+      txt_3: 21300202
+      txt_12: 21300220
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

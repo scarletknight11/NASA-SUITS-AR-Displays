@@ -168,6 +168,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -176,9 +177,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 1
     aniso: 16
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -736,6 +737,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      hexaTiles02_1: 21300050
+      hexaTiles02_7: 21300062
+      hexaTiles02_19: 21300086
+      hexaTiles02_20: 21300088
+      hexaTiles02_10: 21300068
+      hexaTiles02_15: 21300078
+      hexaTiles02_8: 21300064
+      hexaTiles02_14: 21300076
+      hexaTiles02_6: 21300060
+      hexaTiles02_11: 21300070
+      hexaTiles02_17: 21300082
+      hexaTiles02_16: 21300080
+      hexaTiles02_22: 21300092
+      hexaTiles02_2: 21300052
+      hexaTiles02_4: 21300056
+      hexaTiles02_0: 21300048
+      hexaTiles02_23: 21300094
+      hexaTiles02_5: 21300058
+      hexaTiles02_12: 21300072
+      hexaTiles02_13: 21300074
+      hexaTiles02_18: 21300084
+      hexaTiles02_3: 21300054
+      hexaTiles02_9: 21300066
+      hexaTiles02_21: 21300090
   spritePackingTag: 
   pSDRemoveMatte: 1
   pSDShowRemoveMatteOption: 1

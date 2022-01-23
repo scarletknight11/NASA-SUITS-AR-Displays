@@ -13,7 +13,7 @@ namespace UnityEngine.UI
     /// Turn a simple label into a interactable input field.
     /// </summary>
 
-    [AddComponentMenu("UI/Input Field", 31)]
+    [AddComponentMenu("UI/Legacy/Input Field", 103)]
     public class InputField
         : Selectable,
         IUpdateSelectedHandler,
@@ -241,12 +241,15 @@ namespace UnityEngine.UI
         [SerializeField]
         private int m_CharacterLimit = 0;
 
+        [FormerlySerializedAs("onSubmit")]
+        [FormerlySerializedAs("m_OnSubmit")]
         [FormerlySerializedAs("m_EndEdit")]
-        [SerializeField]
-        private EndEditEvent m_OnEndEdit = new EndEditEvent();
-
+        [FormerlySerializedAs("m_OnEndEdit")]
         [SerializeField]
         private SubmitEvent m_OnSubmit = new SubmitEvent();
+
+        [SerializeField]
+        private EndEditEvent m_OnDidEndEdit = new EndEditEvent();
 
         [FormerlySerializedAs("onValueChange")]
         [FormerlySerializedAs("m_OnValueChange")]
@@ -268,6 +271,7 @@ namespace UnityEngine.UI
         private Color m_SelectionColor = new Color(168f / 255f, 206f / 255f, 255f / 255f, 192f / 255f);
 
         [SerializeField]
+        [Multiline]
         [FormerlySerializedAs("mValue")]
         protected string m_Text = string.Empty;
 
@@ -674,7 +678,7 @@ namespace UnityEngine.UI
         /// ]]>
         ///</code>
         /// </example>
-        public EndEditEvent onEndEdit { get { return m_OnEndEdit; } set { SetPropertyUtility.SetClass(ref m_OnEndEdit, value); } }
+        public EndEditEvent onEndEdit { get { return m_OnDidEndEdit; } set { SetPropertyUtility.SetClass(ref m_OnDidEndEdit, value); } }
 
         /// <summary>
         /// The Unity Event to call when editing has ended
@@ -2258,7 +2262,7 @@ namespace UnityEngine.UI
             }
             else
             {
-                if (caretPositionInternal > 0)
+                if (caretPositionInternal > 0 && caretPositionInternal - 1 < text.Length)
                 {
                     m_Text = text.Remove(caretPositionInternal - 1, 1);
                     caretSelectPositionInternal = caretPositionInternal = caretPositionInternal - 1;

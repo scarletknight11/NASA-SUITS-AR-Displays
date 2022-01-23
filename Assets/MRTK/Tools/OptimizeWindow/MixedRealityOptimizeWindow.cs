@@ -6,10 +6,10 @@ using Microsoft.MixedReality.Toolkit.Utilities.Editor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 namespace Microsoft.MixedReality.Toolkit.Editor
 {
@@ -45,17 +45,17 @@ namespace Microsoft.MixedReality.Toolkit.Editor
 
         private string TotalPolyCountStr
         {
-            get => $"Total Scene PolyCount: {TotalPolyCount.ToString("N0")} ";
+            get => $"Total Scene PolyCount: {TotalPolyCount:N0} ";
         }
 
         private string TotalActivePolyCountStr
         {
-            get => $"Total PolyCount (Active): {totalActivePolyCount.ToString("N0")} ";
+            get => $"Total PolyCount (Active): {totalActivePolyCount:N0} ";
         }
 
         private string TotalInactivePolyCountStr
         {
-            get => $"Total PolyCount (Inactive): {totalInActivePolyCount.ToString("N0")} ";
+            get => $"Total PolyCount (Inactive): {totalInActivePolyCount:N0} ";
         }
 
         private MeshFilter[] MeshesOrderedByPolyCountDesc;
@@ -109,7 +109,7 @@ namespace Microsoft.MixedReality.Toolkit.Editor
         [SerializeField]
         private PerformanceTarget PerfTarget = PerformanceTarget.AR_Headsets;
 
-        [MenuItem("Mixed Reality Toolkit/Utilities/Optimize Window", false, 0)]
+        [MenuItem("Mixed Reality/Toolkit/Utilities/Optimize Window", false, 0)]
         public static void OpenWindow()
         {
             // Dock it next to the Scene View.
@@ -146,12 +146,12 @@ namespace Microsoft.MixedReality.Toolkit.Editor
             EditorGUILayout.HelpBox(PerformanceTargetDescriptions[(int)PerfTarget], MessageType.Info);
             EditorGUILayout.Space();
 
-            if (!XRSettingsUtilities.LegacyXREnabled)
+            if (!Utilities.Editor.XRSettingsUtilities.LegacyXREnabled && Utilities.Editor.XRSettingsUtilities.LegacyXRAvailable)
             {
                 EditorGUILayout.HelpBox("Virtual reality support is not enabled in player settings", MessageType.Error);
                 if (GUILayout.Button("Enable Virtual Reality Support"))
                 {
-                    XRSettingsUtilities.LegacyXREnabled = true;
+                    Utilities.Editor.XRSettingsUtilities.LegacyXREnabled = true;
                 }
             }
             else
