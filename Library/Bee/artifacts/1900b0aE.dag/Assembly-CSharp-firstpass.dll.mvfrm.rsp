@@ -1,3 +1,4 @@
+Library\Bee\artifacts\mvdfrm\Unity.EditorCoroutines.Editor.ref.dll_34ED10A34098B2DB.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.InputSystem.ref.dll_FD2EC87C14EBE081.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.PlasticSCM.Editor.ref.dll_257AEB342BE77856.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Postprocessing.Editor.ref.dll_1C9CD17610FFA3F0.mvfrm
@@ -5,6 +6,8 @@ Library\Bee\artifacts\mvdfrm\Unity.Postprocessing.Runtime.ref.dll_3152B6A9836FBF
 Library\Bee\artifacts\mvdfrm\Unity.Recorder.Base.ref.dll_EF7F95D386759C59.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Recorder.Editor.ref.dll_1902ED81DEF11A55.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Recorder.ref.dll_173FFB8F7F73131C.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.RemoteRendering.Editor.ref.dll_BCB85CD2EF190C23.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.RemoteRendering.ref.dll_AE4694021D32DC6E.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Rider.Editor.ref.dll_9B5591808ABA37AF.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Subsystem.Registration.ref.dll_6F73CCF373812FF6.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Sysroot.Linux_x86_64.ref.dll_24C7B1A47E18827F.mvfrm
@@ -16,6 +19,14 @@ Library\Bee\artifacts\mvdfrm\Unity.Timeline.ref.dll_621CDDF9C514DF8F.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Toolchain.Win-x86_64-Linux-x86_64.ref.dll_224B50E477DB13E8.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VSCode.Editor.ref.dll_3628369EB48E4C19.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualStudio.Editor.ref.dll_3A975DBA53ABA4AD.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.ARCore.Editor.ref.dll_2FD3F097F4490305.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.ARCore.ref.dll_6286C253F7085F6C.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.ARFoundation.Editor.ref.dll_20E48050365C5D21.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.ARFoundation.ref.dll_ECD427E0715F1390.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.ARKit.Editor.ref.dll_15EA26B465CD4042.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.ARKit.ref.dll_72BFB188529A325F.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.ARSubsystems.Editor.ref.dll_A82E1A049415A890.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.ARSubsystems.ref.dll_875816C5D1041D31.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.XR.CoreUtils.Editor.ref.dll_ABFC049C4594FF75.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.XR.CoreUtils.ref.dll_3CA2B461938B5BFC.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.XR.Interaction.Toolkit.Editor.ref.dll_13D11C44DBE92115.mvfrm

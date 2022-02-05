@@ -119,6 +119,7 @@
 -define:CROSS_PLATFORM_INPUT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll"
 -r:"Assets/LitJson.dll"
 -r:"Assets/Office365DataHub.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -324,9 +325,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Runtime.Serialization.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
--r:"C:/Users/pauld/Desktop/NASA-SUITS-AR-Displays/Library/PackageCache/com.microsoft.maps.unity@0.11.1/Plugins/Microsoft.Maps.Unity.dll"
--r:"C:/Users/pauld/Desktop/NASA-SUITS-AR-Displays/Library/PackageCache/com.unity.cinemachine@2.8.2/Runtime/ThirdParty/clipper_library.dll"
--r:"C:/Users/pauld/Desktop/NASA-SUITS-AR-Displays/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
+-r:"C:/Users/pauld/Desktop/NASA-SUITS-AR-Displays/Library/PackageCache/com.unity.cinemachine@2.8.4/Runtime/ThirdParty/clipper_library.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Microsoft.MixedReality.Toolkit.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Microsoft.MixedReality.Toolkit.SDK.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Microsoft.MixedReality.Toolkit.Services.InputSystem.ref.dll"

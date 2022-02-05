@@ -1,0 +1,38 @@
+{
+    "name": "Unity.RemoteRendering.Editor",
+    "references": [
+        "GUID:d0230f68c4b40e4419987063ca06f213",
+        "Unity.XR.Management",
+        "Unity.XR.Management.Editor",
+        "Unity.XR.WindowsMixedReality",
+        "Unity.XR.WindowsMixedReality.Editor",
+        "Unity.XR.OpenXR"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.management",
+            "expression": "3.1",
+            "define": "XR_MANAGEMENT_PLUGIN_AVAILABLE"
+        },
+        {
+            "name": "com.unity.xr.windowsmr",
+            "expression": "2.1.5",
+            "define": "XR_PLUGIN_AVAILABLE"
+        },
+        {
+            "name": "com.microsoft.mixedreality.openxr",
+            "expression": "0.1.4",
+            "define": "MR_OPENXR_PLUGIN_AVAILABLE"
+        }
+    ]
+}
