@@ -1,0 +1,42 @@
+{
+    "name": "Unity.RemoteRendering",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.XR.WindowsMixedReality",
+        "Unity.XR.Management",
+		"Unity.XR.OpenXR"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "7.2.1",
+            "define": "URP_AVAILABLE"
+        },
+        {
+            "name": "com.unity.xr.windowsmr",
+            "expression": "2.1.5",
+            "define": "XR_PLUGIN_AVAILABLE"
+        },
+		{
+            "name": "com.unity.xr.management",
+            "expression": "3.1",
+            "define": "XR_MANAGEMENT_PLUGIN_AVAILABLE"
+        },
+        {
+            "name": "com.microsoft.mixedreality.openxr",
+            "expression": "0.1.4",
+            "define": "MR_OPENXR_PLUGIN_AVAILABLE"
+        }
+    ],
+    "noEngineReferences": false
+}

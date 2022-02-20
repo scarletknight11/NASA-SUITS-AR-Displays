@@ -169,7 +169,7 @@ MonoBehaviour:
       AmbientIntensity: 1
       AmbientMode: 1
       SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-      SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 3}
+      SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
       DefaultReflectionMode: 0
       DefaultReflectionResolution: 128
       ReflectionBounces: 1
