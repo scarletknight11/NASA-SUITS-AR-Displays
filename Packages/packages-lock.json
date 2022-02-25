@@ -1,59 +1,5 @@
 {
   "dependencies": {
-    "com.microsoft.azure.object-anchors.runtime": {
-      "version": "file:MixedReality/com.microsoft.azure.object-anchors.runtime-0.18.0.tgz",
-      "depth": 0,
-      "source": "local-tarball",
-      "dependencies": {}
-    },
-    "com.microsoft.azure.remote-rendering": {
-      "version": "file:MixedReality/com.microsoft.azure.remote-rendering-1.0.41.tgz",
-      "depth": 0,
-      "source": "local-tarball",
-      "dependencies": {}
-    },
-    "com.microsoft.azure.spatial-anchors-sdk.android": {
-      "version": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.android-2.11.0.tgz",
-      "depth": 0,
-      "source": "local-tarball",
-      "dependencies": {
-        "com.unity.xr.arcore": "4.0.12",
-        "com.microsoft.azure.spatial-anchors-sdk.core": "2.11.0"
-      }
-    },
-    "com.microsoft.azure.spatial-anchors-sdk.core": {
-      "version": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.core-2.11.0.tgz",
-      "depth": 0,
-      "source": "local-tarball",
-      "dependencies": {
-        "com.unity.subsystemregistration": "1.0.6",
-        "com.unity.xr.arsubsystems": "4.0.8",
-        "com.unity.xr.arfoundation": "4.0.12"
-      }
-    },
-    "com.microsoft.azure.spatial-anchors-sdk.ios": {
-      "version": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.ios-2.11.0.tgz",
-      "depth": 0,
-      "source": "local-tarball",
-      "dependencies": {
-        "com.unity.xr.arkit": "4.0.12",
-        "com.microsoft.azure.spatial-anchors-sdk.core": "2.11.0"
-      }
-    },
-    "com.microsoft.azure.spatial-anchors-sdk.windows": {
-      "version": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.windows-2.11.0.tgz",
-      "depth": 0,
-      "source": "local-tarball",
-      "dependencies": {
-        "com.microsoft.azure.spatial-anchors-sdk.core": "2.11.0"
-      }
-    },
-    "com.microsoft.mixedreality.toolkit.planefinding": {
-      "version": "file:MixedReality/com.microsoft.mixedreality.toolkit.planefinding-1.0.0.tgz",
-      "depth": 0,
-      "source": "local-tarball",
-      "dependencies": {}
-    },
     "com.unity.cinemachine": {
       "version": "2.8.4",
       "depth": 0,
@@ -62,19 +8,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "1.15.12",
+      "version": "1.15.13",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.services.core": "1.0.1"
       },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.editorcoroutines": {
-      "version": "1.0.0",
-      "depth": 2,
-      "source": "registry",
-      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {
@@ -103,14 +42,14 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.vscode": {
-      "version": "1.2.4",
+      "version": "1.2.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.2.0",
+      "version": "1.3.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -119,7 +58,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.postprocessing": {
-      "version": "3.2.0",
+      "version": "3.2.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -171,7 +110,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.30",
+      "version": "1.1.31",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -221,18 +160,6 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
-    "com.unity.xr.arcore": {
-      "version": "4.2.1",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.xr.arsubsystems": "4.2.1",
-        "com.unity.xr.management": "4.0.1",
-        "com.unity.modules.androidjni": "1.0.0",
-        "com.unity.modules.unitywebrequest": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.xr.arfoundation": {
       "version": "4.2.2",
       "depth": 0,
@@ -241,17 +168,6 @@
         "com.unity.xr.arsubsystems": "4.2.2",
         "com.unity.xr.management": "4.0.1",
         "com.unity.modules.particlesystem": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.xr.arkit": {
-      "version": "4.2.1",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.editorcoroutines": "1.0.0",
-        "com.unity.xr.arsubsystems": "4.2.1",
-        "com.unity.xr.management": "4.0.1"
       },
       "url": "https://packages.unity.com"
     },

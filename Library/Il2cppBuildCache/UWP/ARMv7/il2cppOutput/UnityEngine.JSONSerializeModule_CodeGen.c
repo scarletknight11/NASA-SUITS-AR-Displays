@@ -13,44 +13,45 @@
 
 
 // 0x00000001 System.String UnityEngine.JsonUtility::ToJsonInternal(System.Object,System.Boolean)
-extern void JsonUtility_ToJsonInternal_mDAAB37A1A4B7452DD48256B6884A11FB8E48B38D (void);
+extern void JsonUtility_ToJsonInternal_m55BF38958854796C9A5296AD0DCDE29BB9D0C8CF (void);
 // 0x00000002 System.Object UnityEngine.JsonUtility::FromJsonInternal(System.String,System.Object,System.Type)
-extern void JsonUtility_FromJsonInternal_m7353836E98A52C702E713DBE5E9C431BD8EC830A (void);
+extern void JsonUtility_FromJsonInternal_m09DB5F8C633417622AD3F43780975B39EFACC364 (void);
 // 0x00000003 System.String UnityEngine.JsonUtility::ToJson(System.Object)
-extern void JsonUtility_ToJson_mF4F097C9AEC7699970E3E7E99EF8FF2F44DA1B5C (void);
+extern void JsonUtility_ToJson_mD0FB24DC5A8621A2473FC208E9B15AF43944EBCD (void);
 // 0x00000004 System.String UnityEngine.JsonUtility::ToJson(System.Object,System.Boolean)
-extern void JsonUtility_ToJson_m624247F6B1FDBD1B02C133B4878E4F3C8CEA30DA (void);
+extern void JsonUtility_ToJson_mA7B20656D12861446AAA157DF6E9ACBBD78EC0AC (void);
 // 0x00000005 T UnityEngine.JsonUtility::FromJson(System.String)
 // 0x00000006 System.Object UnityEngine.JsonUtility::FromJson(System.String,System.Type)
-extern void JsonUtility_FromJson_m81FC2A7DCB9231E8E201EAD8E160F921B1D2E25C (void);
+extern void JsonUtility_FromJson_mCA93DB12788DA2F120D6EC81758D3189D9341815 (void);
 static Il2CppMethodPointer s_methodPointers[6] = 
 {
-	JsonUtility_ToJsonInternal_mDAAB37A1A4B7452DD48256B6884A11FB8E48B38D,
-	JsonUtility_FromJsonInternal_m7353836E98A52C702E713DBE5E9C431BD8EC830A,
-	JsonUtility_ToJson_mF4F097C9AEC7699970E3E7E99EF8FF2F44DA1B5C,
-	JsonUtility_ToJson_m624247F6B1FDBD1B02C133B4878E4F3C8CEA30DA,
+	JsonUtility_ToJsonInternal_m55BF38958854796C9A5296AD0DCDE29BB9D0C8CF,
+	JsonUtility_FromJsonInternal_m09DB5F8C633417622AD3F43780975B39EFACC364,
+	JsonUtility_ToJson_mD0FB24DC5A8621A2473FC208E9B15AF43944EBCD,
+	JsonUtility_ToJson_mA7B20656D12861446AAA157DF6E9ACBBD78EC0AC,
 	NULL,
-	JsonUtility_FromJson_m81FC2A7DCB9231E8E201EAD8E160F921B1D2E25C,
+	JsonUtility_FromJson_mCA93DB12788DA2F120D6EC81758D3189D9341815,
 };
 static const int32_t s_InvokerIndices[6] = 
 {
-	9441,
-	8876,
-	10244,
-	9441,
-	-1,
-	9440,
+	12482,
+	11694,
+	13645,
+	12482,
+	0,
+	12481,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
 	{ 0x06000005, { 0, 2 } },
 };
+extern const uint32_t g_rgctx_T_t0037DA0459BEFFA16888D5FD2547306EF5E49173;
+extern const uint32_t g_rgctx_T_t0037DA0459BEFFA16888D5FD2547306EF5E49173;
 static const Il2CppRGCTXDefinition s_rgctxValues[2] = 
 {
-	{ (Il2CppRGCTXDataType)1, 391 },
-	{ (Il2CppRGCTXDataType)2, 391 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t0037DA0459BEFFA16888D5FD2547306EF5E49173 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t0037DA0459BEFFA16888D5FD2547306EF5E49173 },
 };
-extern const CustomAttributesCacheGenerator g_UnityEngine_JSONSerializeModule_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_JSONSerializeModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_JSONSerializeModule_CodeGenModule = 
 {
@@ -67,7 +68,6 @@ const Il2CppCodeGenModule g_UnityEngine_JSONSerializeModule_CodeGenModule =
 	2,
 	s_rgctxValues,
 	NULL,
-	g_UnityEngine_JSONSerializeModule_AttributeGenerators,
 	NULL, // module initializer,
 	NULL,
 	NULL,

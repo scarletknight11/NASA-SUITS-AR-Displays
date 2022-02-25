@@ -1,0 +1,5 @@
+{"msg":"init","dagFile":"D:/NASA-SUITS-AR-Displays/Library/Il2cppBuildCache/UWP/ARMv7/buildstate/bee.dag","targets":["FinalProgram"]}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"FinalProgram","enqueuedNodeIndex":2}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"IL2CPP_CodeGen D:/NASA-SUITS-AR-Displays/Library/Il2cppBuildCache/UWP/ARMv7/buildstate/artifacts/il2cpp_conv_hcip.traceevents","enqueuedNodeIndex":1,"enqueueingNodeAnnotation":"FinalProgram","enqueueingNodeIndex":2}
+{"msg":"newNode","annotation":"FinalProgram","index":2}
+{"msg":"runNodeAction","annotation":"FinalProgram","index":2}

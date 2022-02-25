@@ -13,119 +13,119 @@
 
 
 // 0x00000001 System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::.ctor(Microsoft.MixedReality.Toolkit.IMixedRealityServiceRegistrar)
-extern void MixedRealityTeleportSystem__ctor_mB8CD021C409A19519294FED9D75063C52CE00482 (void);
+extern void MixedRealityTeleportSystem__ctor_m5B1B58A906A38FC509D7A2ED1A8B39C327530692 (void);
 // 0x00000002 System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::.ctor()
-extern void MixedRealityTeleportSystem__ctor_mD5412438911C204689A84D6730AF38C06F18A1CB (void);
+extern void MixedRealityTeleportSystem__ctor_m189E40BD89491FE8D9A77129C576244E811055A1 (void);
 // 0x00000003 System.String Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::get_Name()
-extern void MixedRealityTeleportSystem_get_Name_m4F24A53E6E40DBA20EB220FDBB2C3400927B4A61 (void);
+extern void MixedRealityTeleportSystem_get_Name_m669F4B562C59C5B52C66FCC65DAD964D88729405 (void);
 // 0x00000004 System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::set_Name(System.String)
-extern void MixedRealityTeleportSystem_set_Name_mCE0062DCDA4E79539DEC17B5B418616A1A22A85A (void);
+extern void MixedRealityTeleportSystem_set_Name_m0F33FEA077A104D710CE427343F951D466499F0C (void);
 // 0x00000005 System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::Initialize()
-extern void MixedRealityTeleportSystem_Initialize_mFB011336A9F2A7B01E570B45D7F534B3F6EFD836 (void);
+extern void MixedRealityTeleportSystem_Initialize_mC9EA6C873B608D57EFFC09AADCDEA8502DEFDEDA (void);
 // 0x00000006 System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::InitializeInternal()
-extern void MixedRealityTeleportSystem_InitializeInternal_mC9CCE5D9766C100F9E44CA6E41263ADA270EA1FF (void);
+extern void MixedRealityTeleportSystem_InitializeInternal_m01C3989347B18ADB0C7B93AF0E2AF331CA1F5CCB (void);
 // 0x00000007 System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::Destroy()
-extern void MixedRealityTeleportSystem_Destroy_m9B74A0C25929987A421B24E5792787477B233733 (void);
+extern void MixedRealityTeleportSystem_Destroy_m9739520468CEF268831369A484C24499485894C2 (void);
 // 0x00000008 System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::HandleEvent(UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<T>)
 // 0x00000009 System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::Register(UnityEngine.GameObject)
-extern void MixedRealityTeleportSystem_Register_mDFE2905F9FF78BEA4739C433A8E9E9A093F19FE2 (void);
+extern void MixedRealityTeleportSystem_Register_m2EEB5760977FB1D501AE86525597A5A4658BB220 (void);
 // 0x0000000A System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::Unregister(UnityEngine.GameObject)
-extern void MixedRealityTeleportSystem_Unregister_mE7280C7FB0322BEFD012E9DA252986BF537D7F93 (void);
+extern void MixedRealityTeleportSystem_Unregister_m8A63783324FEA4B9EDBFF6795E56311405CF8EFC (void);
 // 0x0000000B System.Boolean Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::get_IsInputSystemEnabled()
-extern void MixedRealityTeleportSystem_get_IsInputSystemEnabled_mF1325C4191746C5FD5B40B60500E51D8603000C7 (void);
+extern void MixedRealityTeleportSystem_get_IsInputSystemEnabled_m149A9BE7C8F0AFE5222D7336D5C76A61DAE47B29 (void);
 // 0x0000000C System.Single Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::get_TeleportDuration()
-extern void MixedRealityTeleportSystem_get_TeleportDuration_m78EBB2752A55123480C3ACD073ED2C1A98F3157F (void);
+extern void MixedRealityTeleportSystem_get_TeleportDuration_m5B7C8ED2AD115587D833E8EF759DAFE5FC91A122 (void);
 // 0x0000000D System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::set_TeleportDuration(System.Single)
-extern void MixedRealityTeleportSystem_set_TeleportDuration_mAA9237DEDEBFF14581F3851354B802A87397BCC4 (void);
-// 0x0000000E System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::RaiseTeleportRequest(Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointer,Microsoft.MixedReality.Toolkit.Teleport.IMixedRealityTeleportHotSpot)
-extern void MixedRealityTeleportSystem_RaiseTeleportRequest_mA6D198DEFD94937FAAFA1A887DDCFABEB87B6F40 (void);
-// 0x0000000F System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::RaiseTeleportStarted(Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointer,Microsoft.MixedReality.Toolkit.Teleport.IMixedRealityTeleportHotSpot)
-extern void MixedRealityTeleportSystem_RaiseTeleportStarted_m09503656EDB811EDA182CD31BC0F612F814458BB (void);
-// 0x00000010 System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::RaiseTeleportComplete(Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointer,Microsoft.MixedReality.Toolkit.Teleport.IMixedRealityTeleportHotSpot)
-extern void MixedRealityTeleportSystem_RaiseTeleportComplete_mA24E587B826C24DB1F7BD39C95924B5265488859 (void);
-// 0x00000011 System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::RaiseTeleportCanceled(Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointer,Microsoft.MixedReality.Toolkit.Teleport.IMixedRealityTeleportHotSpot)
-extern void MixedRealityTeleportSystem_RaiseTeleportCanceled_mF5027EF33360C2585317F181DADDFE67218A5FEB (void);
+extern void MixedRealityTeleportSystem_set_TeleportDuration_m15CB277BE24DCA65E09A81BE929D8B7496D49ABE (void);
+// 0x0000000E System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::RaiseTeleportRequest(Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointer,Microsoft.MixedReality.Toolkit.Teleport.IMixedRealityTeleportHotspot)
+extern void MixedRealityTeleportSystem_RaiseTeleportRequest_m86C89592DC9BAF19E4EDA6213504833CC8BDBEC7 (void);
+// 0x0000000F System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::RaiseTeleportStarted(Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointer,Microsoft.MixedReality.Toolkit.Teleport.IMixedRealityTeleportHotspot)
+extern void MixedRealityTeleportSystem_RaiseTeleportStarted_m2606B06324FCBF8EEFC037316393EB58A69E75F4 (void);
+// 0x00000010 System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::RaiseTeleportComplete(Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointer,Microsoft.MixedReality.Toolkit.Teleport.IMixedRealityTeleportHotspot)
+extern void MixedRealityTeleportSystem_RaiseTeleportComplete_m164AA27A89F007C8E5FBB9C8A19089E4E27B0E4E (void);
+// 0x00000011 System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::RaiseTeleportCanceled(Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointer,Microsoft.MixedReality.Toolkit.Teleport.IMixedRealityTeleportHotspot)
+extern void MixedRealityTeleportSystem_RaiseTeleportCanceled_mC27ABEF35BFE4C9464E450A8D1BD2DD249DDD049 (void);
 // 0x00000012 System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::ProcessTeleportationRequest(Microsoft.MixedReality.Toolkit.Teleport.TeleportEventData)
-extern void MixedRealityTeleportSystem_ProcessTeleportationRequest_mA8AAC38882AE875AF964DD4246DA8BC8DCFB3D6D (void);
+extern void MixedRealityTeleportSystem_ProcessTeleportationRequest_m33CD4858EDC95E6192AB3DA09926047B21C2A731 (void);
 // 0x00000013 System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem::.cctor()
-extern void MixedRealityTeleportSystem__cctor_m79A9A47697CD2697E1EE8E334885C62CF633EF1B (void);
+extern void MixedRealityTeleportSystem__cctor_m9D313E2ECE9E66A01B26A117971CB2EF0A9A295F (void);
 // 0x00000014 System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem/<>c::.cctor()
-extern void U3CU3Ec__cctor_m29B22AA666005FC5B340C5A7CEF913ED5CE4F7BC (void);
+extern void U3CU3Ec__cctor_m9AE40CA4E4E70796E9263218BB6B260D14A53B7A (void);
 // 0x00000015 System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem/<>c::.ctor()
-extern void U3CU3Ec__ctor_mF77FDCB3B81878C53FDF0682DF3851157B2AD155 (void);
+extern void U3CU3Ec__ctor_m8FD71549A55797F9EE2292E92D4D19BB1DED1C74 (void);
 // 0x00000016 System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem/<>c::<.cctor>b__39_0(Microsoft.MixedReality.Toolkit.Teleport.IMixedRealityTeleportHandler,UnityEngine.EventSystems.BaseEventData)
-extern void U3CU3Ec_U3C_cctorU3Eb__39_0_m3350453A9351A2CBC21F965206275A84D5B365B1 (void);
+extern void U3CU3Ec_U3C_cctorU3Eb__39_0_m61ECDD4F134D9DB91802612C339810CFC928466A (void);
 // 0x00000017 System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem/<>c::<.cctor>b__39_1(Microsoft.MixedReality.Toolkit.Teleport.IMixedRealityTeleportHandler,UnityEngine.EventSystems.BaseEventData)
-extern void U3CU3Ec_U3C_cctorU3Eb__39_1_mBE277A232CAA406C1FB422C38980537FEEE41487 (void);
+extern void U3CU3Ec_U3C_cctorU3Eb__39_1_m1AB98CFA3892C922FEB39013A720E325B34F35A7 (void);
 // 0x00000018 System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem/<>c::<.cctor>b__39_2(Microsoft.MixedReality.Toolkit.Teleport.IMixedRealityTeleportHandler,UnityEngine.EventSystems.BaseEventData)
-extern void U3CU3Ec_U3C_cctorU3Eb__39_2_m6FCE7AED63E912FCDC5E27F798C0E29E4876502F (void);
+extern void U3CU3Ec_U3C_cctorU3Eb__39_2_m7AF9C7F8305D8015C7697C4AF25E5CC715D25B3B (void);
 // 0x00000019 System.Void Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem/<>c::<.cctor>b__39_3(Microsoft.MixedReality.Toolkit.Teleport.IMixedRealityTeleportHandler,UnityEngine.EventSystems.BaseEventData)
-extern void U3CU3Ec_U3C_cctorU3Eb__39_3_m184D71243C949AD710AF36B96588A5E8CEEF5C6C (void);
+extern void U3CU3Ec_U3C_cctorU3Eb__39_3_mA4BA227399985B40F3A9B369B07D8EAD7F5218A0 (void);
 static Il2CppMethodPointer s_methodPointers[25] = 
 {
-	MixedRealityTeleportSystem__ctor_mB8CD021C409A19519294FED9D75063C52CE00482,
-	MixedRealityTeleportSystem__ctor_mD5412438911C204689A84D6730AF38C06F18A1CB,
-	MixedRealityTeleportSystem_get_Name_m4F24A53E6E40DBA20EB220FDBB2C3400927B4A61,
-	MixedRealityTeleportSystem_set_Name_mCE0062DCDA4E79539DEC17B5B418616A1A22A85A,
-	MixedRealityTeleportSystem_Initialize_mFB011336A9F2A7B01E570B45D7F534B3F6EFD836,
-	MixedRealityTeleportSystem_InitializeInternal_mC9CCE5D9766C100F9E44CA6E41263ADA270EA1FF,
-	MixedRealityTeleportSystem_Destroy_m9B74A0C25929987A421B24E5792787477B233733,
+	MixedRealityTeleportSystem__ctor_m5B1B58A906A38FC509D7A2ED1A8B39C327530692,
+	MixedRealityTeleportSystem__ctor_m189E40BD89491FE8D9A77129C576244E811055A1,
+	MixedRealityTeleportSystem_get_Name_m669F4B562C59C5B52C66FCC65DAD964D88729405,
+	MixedRealityTeleportSystem_set_Name_m0F33FEA077A104D710CE427343F951D466499F0C,
+	MixedRealityTeleportSystem_Initialize_mC9EA6C873B608D57EFFC09AADCDEA8502DEFDEDA,
+	MixedRealityTeleportSystem_InitializeInternal_m01C3989347B18ADB0C7B93AF0E2AF331CA1F5CCB,
+	MixedRealityTeleportSystem_Destroy_m9739520468CEF268831369A484C24499485894C2,
 	NULL,
-	MixedRealityTeleportSystem_Register_mDFE2905F9FF78BEA4739C433A8E9E9A093F19FE2,
-	MixedRealityTeleportSystem_Unregister_mE7280C7FB0322BEFD012E9DA252986BF537D7F93,
-	MixedRealityTeleportSystem_get_IsInputSystemEnabled_mF1325C4191746C5FD5B40B60500E51D8603000C7,
-	MixedRealityTeleportSystem_get_TeleportDuration_m78EBB2752A55123480C3ACD073ED2C1A98F3157F,
-	MixedRealityTeleportSystem_set_TeleportDuration_mAA9237DEDEBFF14581F3851354B802A87397BCC4,
-	MixedRealityTeleportSystem_RaiseTeleportRequest_mA6D198DEFD94937FAAFA1A887DDCFABEB87B6F40,
-	MixedRealityTeleportSystem_RaiseTeleportStarted_m09503656EDB811EDA182CD31BC0F612F814458BB,
-	MixedRealityTeleportSystem_RaiseTeleportComplete_mA24E587B826C24DB1F7BD39C95924B5265488859,
-	MixedRealityTeleportSystem_RaiseTeleportCanceled_mF5027EF33360C2585317F181DADDFE67218A5FEB,
-	MixedRealityTeleportSystem_ProcessTeleportationRequest_mA8AAC38882AE875AF964DD4246DA8BC8DCFB3D6D,
-	MixedRealityTeleportSystem__cctor_m79A9A47697CD2697E1EE8E334885C62CF633EF1B,
-	U3CU3Ec__cctor_m29B22AA666005FC5B340C5A7CEF913ED5CE4F7BC,
-	U3CU3Ec__ctor_mF77FDCB3B81878C53FDF0682DF3851157B2AD155,
-	U3CU3Ec_U3C_cctorU3Eb__39_0_m3350453A9351A2CBC21F965206275A84D5B365B1,
-	U3CU3Ec_U3C_cctorU3Eb__39_1_mBE277A232CAA406C1FB422C38980537FEEE41487,
-	U3CU3Ec_U3C_cctorU3Eb__39_2_m6FCE7AED63E912FCDC5E27F798C0E29E4876502F,
-	U3CU3Ec_U3C_cctorU3Eb__39_3_m184D71243C949AD710AF36B96588A5E8CEEF5C6C,
+	MixedRealityTeleportSystem_Register_m2EEB5760977FB1D501AE86525597A5A4658BB220,
+	MixedRealityTeleportSystem_Unregister_m8A63783324FEA4B9EDBFF6795E56311405CF8EFC,
+	MixedRealityTeleportSystem_get_IsInputSystemEnabled_m149A9BE7C8F0AFE5222D7336D5C76A61DAE47B29,
+	MixedRealityTeleportSystem_get_TeleportDuration_m5B7C8ED2AD115587D833E8EF759DAFE5FC91A122,
+	MixedRealityTeleportSystem_set_TeleportDuration_m15CB277BE24DCA65E09A81BE929D8B7496D49ABE,
+	MixedRealityTeleportSystem_RaiseTeleportRequest_m86C89592DC9BAF19E4EDA6213504833CC8BDBEC7,
+	MixedRealityTeleportSystem_RaiseTeleportStarted_m2606B06324FCBF8EEFC037316393EB58A69E75F4,
+	MixedRealityTeleportSystem_RaiseTeleportComplete_m164AA27A89F007C8E5FBB9C8A19089E4E27B0E4E,
+	MixedRealityTeleportSystem_RaiseTeleportCanceled_mC27ABEF35BFE4C9464E450A8D1BD2DD249DDD049,
+	MixedRealityTeleportSystem_ProcessTeleportationRequest_m33CD4858EDC95E6192AB3DA09926047B21C2A731,
+	MixedRealityTeleportSystem__cctor_m9D313E2ECE9E66A01B26A117971CB2EF0A9A295F,
+	U3CU3Ec__cctor_m9AE40CA4E4E70796E9263218BB6B260D14A53B7A,
+	U3CU3Ec__ctor_m8FD71549A55797F9EE2292E92D4D19BB1DED1C74,
+	U3CU3Ec_U3C_cctorU3Eb__39_0_m61ECDD4F134D9DB91802612C339810CFC928466A,
+	U3CU3Ec_U3C_cctorU3Eb__39_1_m1AB98CFA3892C922FEB39013A720E325B34F35A7,
+	U3CU3Ec_U3C_cctorU3Eb__39_2_m7AF9C7F8305D8015C7697C4AF25E5CC715D25B3B,
+	U3CU3Ec_U3C_cctorU3Eb__39_3_mA4BA227399985B40F3A9B369B07D8EAD7F5218A0,
 };
 static const int32_t s_InvokerIndices[25] = 
 {
-	5876,
-	7110,
-	6990,
-	5876,
-	7110,
-	7110,
-	7110,
-	-1,
-	5876,
-	5876,
-	7042,
-	7050,
-	5930,
-	3508,
-	3508,
-	3508,
-	3508,
-	5876,
-	10612,
-	10612,
-	7110,
-	3508,
-	3508,
-	3508,
-	3508,
+	7481,
+	9274,
+	9100,
+	7481,
+	9274,
+	9274,
+	9274,
+	0,
+	7481,
+	7481,
+	9166,
+	9177,
+	7549,
+	4321,
+	4321,
+	4321,
+	4321,
+	7481,
+	14134,
+	14134,
+	9274,
+	4321,
+	4321,
+	4321,
+	4321,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
 	{ 0x06000008, { 0, 1 } },
 };
+extern const uint32_t g_rgctx_BaseEventSystem_HandleEvent_TisT_tA195DF2F9CB7768BD47EAB9DA935316CC470176F_m7EAAEEB047D3C03021428057A3CC2A4B32CBCB14;
 static const Il2CppRGCTXDefinition s_rgctxValues[1] = 
 {
-	{ (Il2CppRGCTXDataType)3, 81601 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_BaseEventSystem_HandleEvent_TisT_tA195DF2F9CB7768BD47EAB9DA935316CC470176F_m7EAAEEB047D3C03021428057A3CC2A4B32CBCB14 },
 };
-extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_Toolkit_Services_TeleportSystem_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_TeleportSystem_CodeGenModule;
 const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_TeleportSystem_CodeGenModule = 
 {
@@ -142,7 +142,6 @@ const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_TeleportSyst
 	1,
 	s_rgctxValues,
 	NULL,
-	g_Microsoft_MixedReality_Toolkit_Services_TeleportSystem_AttributeGenerators,
 	NULL, // module initializer,
 	NULL,
 	NULL,

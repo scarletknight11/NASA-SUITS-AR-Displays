@@ -13,40 +13,39 @@
 
 
 // 0x00000001 System.Void Microsoft.MixedReality.Toolkit.Tools.Runtime.DisplayInputResult::OnValidate()
-extern void DisplayInputResult_OnValidate_m1265F2443704F1BF4A113F0232F1957E95988E59 (void);
+extern void DisplayInputResult_OnValidate_m467ACC8B2115466A59CD2E42FFE9C65E7A76E4BF (void);
 // 0x00000002 System.Void Microsoft.MixedReality.Toolkit.Tools.Runtime.DisplayInputResult::Update()
-extern void DisplayInputResult_Update_m5A23ABCBC6CA97354ECA3FCB2A23A49BD71F2D67 (void);
+extern void DisplayInputResult_Update_m805BFE83BF4A21410D82657D278BF293349C1B26 (void);
 // 0x00000003 System.Void Microsoft.MixedReality.Toolkit.Tools.Runtime.DisplayInputResult::.ctor()
-extern void DisplayInputResult__ctor_m29997494C408E4A01B2DD19FA17CD1BC3044AC54 (void);
+extern void DisplayInputResult__ctor_m61F16F2BF5AD4A14CDA25466CD9D69ED6CA11DEB (void);
 // 0x00000004 System.Void Microsoft.MixedReality.Toolkit.Tools.Runtime.ListInputFeatureUsages::Update()
-extern void ListInputFeatureUsages_Update_m022EF1BB937BE9F2EBCC62B3A47BAA5AA8B83DAC (void);
+extern void ListInputFeatureUsages_Update_mCEFD64C606C118B9FA37C259D18C773AFBFC4B95 (void);
 // 0x00000005 System.Void Microsoft.MixedReality.Toolkit.Tools.Runtime.ListInputFeatureUsages::.ctor()
-extern void ListInputFeatureUsages__ctor_m06E6E9CF536DAD7C9E2A9347D7CD9CFD27026987 (void);
+extern void ListInputFeatureUsages__ctor_m2C3A14B769AAE2BE314A9CB9FDAD7EE2BB1DAA90 (void);
 // 0x00000006 System.Void Microsoft.MixedReality.Toolkit.Tools.Runtime.MixedRealityInteractionTool::Update()
-extern void MixedRealityInteractionTool_Update_m9AFE3D2208A006B806E312E898D2F1353EFC0429 (void);
+extern void MixedRealityInteractionTool_Update_m0B7020DB43A6B272228D2EE95ADBB2BFB53DD225 (void);
 // 0x00000007 System.Void Microsoft.MixedReality.Toolkit.Tools.Runtime.MixedRealityInteractionTool::.ctor()
-extern void MixedRealityInteractionTool__ctor_m1F80645EAF7EDB19216656EE4369CE02C1ED49E8 (void);
+extern void MixedRealityInteractionTool__ctor_mCF66B5A8EC02F49E33449062D959FFC3CBCF15F7 (void);
 static Il2CppMethodPointer s_methodPointers[7] = 
 {
-	DisplayInputResult_OnValidate_m1265F2443704F1BF4A113F0232F1957E95988E59,
-	DisplayInputResult_Update_m5A23ABCBC6CA97354ECA3FCB2A23A49BD71F2D67,
-	DisplayInputResult__ctor_m29997494C408E4A01B2DD19FA17CD1BC3044AC54,
-	ListInputFeatureUsages_Update_m022EF1BB937BE9F2EBCC62B3A47BAA5AA8B83DAC,
-	ListInputFeatureUsages__ctor_m06E6E9CF536DAD7C9E2A9347D7CD9CFD27026987,
-	MixedRealityInteractionTool_Update_m9AFE3D2208A006B806E312E898D2F1353EFC0429,
-	MixedRealityInteractionTool__ctor_m1F80645EAF7EDB19216656EE4369CE02C1ED49E8,
+	DisplayInputResult_OnValidate_m467ACC8B2115466A59CD2E42FFE9C65E7A76E4BF,
+	DisplayInputResult_Update_m805BFE83BF4A21410D82657D278BF293349C1B26,
+	DisplayInputResult__ctor_m61F16F2BF5AD4A14CDA25466CD9D69ED6CA11DEB,
+	ListInputFeatureUsages_Update_mCEFD64C606C118B9FA37C259D18C773AFBFC4B95,
+	ListInputFeatureUsages__ctor_m2C3A14B769AAE2BE314A9CB9FDAD7EE2BB1DAA90,
+	MixedRealityInteractionTool_Update_m0B7020DB43A6B272228D2EE95ADBB2BFB53DD225,
+	MixedRealityInteractionTool__ctor_mCF66B5A8EC02F49E33449062D959FFC3CBCF15F7,
 };
 static const int32_t s_InvokerIndices[7] = 
 {
-	7110,
-	7110,
-	7110,
-	7110,
-	7110,
-	7110,
-	7110,
+	9274,
+	9274,
+	9274,
+	9274,
+	9274,
+	9274,
+	9274,
 };
-extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_Toolkit_Tools_Runtime_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Tools_Runtime_CodeGenModule;
 const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Tools_Runtime_CodeGenModule = 
 {
@@ -63,7 +62,6 @@ const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Tools_Runtime_CodeGen
 	0,
 	NULL,
 	NULL,
-	g_Microsoft_MixedReality_Toolkit_Tools_Runtime_AttributeGenerators,
 	NULL, // module initializer,
 	NULL,
 	NULL,

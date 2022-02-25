@@ -13,63 +13,62 @@
 
 
 // 0x00000001 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.Gltf.TestGlbLoading::Start()
-extern void TestGlbLoading_Start_m4506F172D3A38FC517B71F066F0F0503C269FE22 (void);
+extern void TestGlbLoading_Start_m97CE43E37071EDA28E1504BD806A56C6027512CA (void);
 // 0x00000002 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.Gltf.TestGlbLoading::.ctor()
-extern void TestGlbLoading__ctor_m0789B948B5B8FEC788D2D0E08C7A4E46006EEEA9 (void);
+extern void TestGlbLoading__ctor_m4834CB48B91CB6DF28817EB78DC6FA6573098E3C (void);
 // 0x00000003 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.Gltf.TestGlbLoading/<Start>d__1::MoveNext()
-extern void U3CStartU3Ed__1_MoveNext_mD2433ED03D24800F122F312C1F94C8FF6A43C53D (void);
+extern void U3CStartU3Ed__1_MoveNext_m4F7885D41F0AEC95923F9937C26D00774CE1032E (void);
 // 0x00000004 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.Gltf.TestGlbLoading/<Start>d__1::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CStartU3Ed__1_SetStateMachine_mC8613ABB063CFA77854A27CCAF46F1F3250D1B53 (void);
+extern void U3CStartU3Ed__1_SetStateMachine_m6D760BBAFAD0DBA85271F089576350AA1088D3C6 (void);
 // 0x00000005 System.String Microsoft.MixedReality.Toolkit.Examples.Demos.Gltf.TestGltfLoading::get_RelativePath()
-extern void TestGltfLoading_get_RelativePath_m53D4B4BBB341B808686ED4593A20B9ABD948FE78 (void);
+extern void TestGltfLoading_get_RelativePath_m5E3659F9C2550307E0F2632593DA6307D7D9D42A (void);
 // 0x00000006 System.String Microsoft.MixedReality.Toolkit.Examples.Demos.Gltf.TestGltfLoading::get_AbsolutePath()
-extern void TestGltfLoading_get_AbsolutePath_m736C6EAE86B6B051ED4F99F865B166CA509D425E (void);
+extern void TestGltfLoading_get_AbsolutePath_m98BA34C87EEFF0F1A380E3EB70238EC9B263BCE9 (void);
 // 0x00000007 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.Gltf.TestGltfLoading::Start()
-extern void TestGltfLoading_Start_m5859E2027B34C32AA633CC4CAF4598F9758F8267 (void);
+extern void TestGltfLoading_Start_m3729902DC02B1C350975153872346D698C6689E3 (void);
 // 0x00000008 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.Gltf.TestGltfLoading::.ctor()
-extern void TestGltfLoading__ctor_mCD86F4B9B83C02D710296DCF0688B57DA3B3F5BC (void);
+extern void TestGltfLoading__ctor_m78BFFAF5829A26F92E3632B4DB855EEF0B7CBA9D (void);
 // 0x00000009 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.Gltf.TestGltfLoading/<Start>d__7::MoveNext()
-extern void U3CStartU3Ed__7_MoveNext_mECE852746BCE6CD6FF46C32E9892E8B1BEE278AB (void);
+extern void U3CStartU3Ed__7_MoveNext_mB30E3F29025C68E99EC01651D0C48CADC11F233A (void);
 // 0x0000000A System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.Gltf.TestGltfLoading/<Start>d__7::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CStartU3Ed__7_SetStateMachine_mA9FDE81AC3EE1A5028D0B0D22B97D054A6FBE0A3 (void);
+extern void U3CStartU3Ed__7_SetStateMachine_m037FC5F19922401D075D92F43C01CED4284F2EFE (void);
 static Il2CppMethodPointer s_methodPointers[10] = 
 {
-	TestGlbLoading_Start_m4506F172D3A38FC517B71F066F0F0503C269FE22,
-	TestGlbLoading__ctor_m0789B948B5B8FEC788D2D0E08C7A4E46006EEEA9,
-	U3CStartU3Ed__1_MoveNext_mD2433ED03D24800F122F312C1F94C8FF6A43C53D,
-	U3CStartU3Ed__1_SetStateMachine_mC8613ABB063CFA77854A27CCAF46F1F3250D1B53,
-	TestGltfLoading_get_RelativePath_m53D4B4BBB341B808686ED4593A20B9ABD948FE78,
-	TestGltfLoading_get_AbsolutePath_m736C6EAE86B6B051ED4F99F865B166CA509D425E,
-	TestGltfLoading_Start_m5859E2027B34C32AA633CC4CAF4598F9758F8267,
-	TestGltfLoading__ctor_mCD86F4B9B83C02D710296DCF0688B57DA3B3F5BC,
-	U3CStartU3Ed__7_MoveNext_mECE852746BCE6CD6FF46C32E9892E8B1BEE278AB,
-	U3CStartU3Ed__7_SetStateMachine_mA9FDE81AC3EE1A5028D0B0D22B97D054A6FBE0A3,
+	TestGlbLoading_Start_m97CE43E37071EDA28E1504BD806A56C6027512CA,
+	TestGlbLoading__ctor_m4834CB48B91CB6DF28817EB78DC6FA6573098E3C,
+	U3CStartU3Ed__1_MoveNext_m4F7885D41F0AEC95923F9937C26D00774CE1032E,
+	U3CStartU3Ed__1_SetStateMachine_m6D760BBAFAD0DBA85271F089576350AA1088D3C6,
+	TestGltfLoading_get_RelativePath_m5E3659F9C2550307E0F2632593DA6307D7D9D42A,
+	TestGltfLoading_get_AbsolutePath_m98BA34C87EEFF0F1A380E3EB70238EC9B263BCE9,
+	TestGltfLoading_Start_m3729902DC02B1C350975153872346D698C6689E3,
+	TestGltfLoading__ctor_m78BFFAF5829A26F92E3632B4DB855EEF0B7CBA9D,
+	U3CStartU3Ed__7_MoveNext_mB30E3F29025C68E99EC01651D0C48CADC11F233A,
+	U3CStartU3Ed__7_SetStateMachine_m037FC5F19922401D075D92F43C01CED4284F2EFE,
 };
-extern void U3CStartU3Ed__1_MoveNext_mD2433ED03D24800F122F312C1F94C8FF6A43C53D_AdjustorThunk (void);
-extern void U3CStartU3Ed__1_SetStateMachine_mC8613ABB063CFA77854A27CCAF46F1F3250D1B53_AdjustorThunk (void);
-extern void U3CStartU3Ed__7_MoveNext_mECE852746BCE6CD6FF46C32E9892E8B1BEE278AB_AdjustorThunk (void);
-extern void U3CStartU3Ed__7_SetStateMachine_mA9FDE81AC3EE1A5028D0B0D22B97D054A6FBE0A3_AdjustorThunk (void);
+extern void U3CStartU3Ed__1_MoveNext_m4F7885D41F0AEC95923F9937C26D00774CE1032E_AdjustorThunk (void);
+extern void U3CStartU3Ed__1_SetStateMachine_m6D760BBAFAD0DBA85271F089576350AA1088D3C6_AdjustorThunk (void);
+extern void U3CStartU3Ed__7_MoveNext_mB30E3F29025C68E99EC01651D0C48CADC11F233A_AdjustorThunk (void);
+extern void U3CStartU3Ed__7_SetStateMachine_m037FC5F19922401D075D92F43C01CED4284F2EFE_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[4] = 
 {
-	{ 0x06000003, U3CStartU3Ed__1_MoveNext_mD2433ED03D24800F122F312C1F94C8FF6A43C53D_AdjustorThunk },
-	{ 0x06000004, U3CStartU3Ed__1_SetStateMachine_mC8613ABB063CFA77854A27CCAF46F1F3250D1B53_AdjustorThunk },
-	{ 0x06000009, U3CStartU3Ed__7_MoveNext_mECE852746BCE6CD6FF46C32E9892E8B1BEE278AB_AdjustorThunk },
-	{ 0x0600000A, U3CStartU3Ed__7_SetStateMachine_mA9FDE81AC3EE1A5028D0B0D22B97D054A6FBE0A3_AdjustorThunk },
+	{ 0x06000003, U3CStartU3Ed__1_MoveNext_m4F7885D41F0AEC95923F9937C26D00774CE1032E_AdjustorThunk },
+	{ 0x06000004, U3CStartU3Ed__1_SetStateMachine_m6D760BBAFAD0DBA85271F089576350AA1088D3C6_AdjustorThunk },
+	{ 0x06000009, U3CStartU3Ed__7_MoveNext_mB30E3F29025C68E99EC01651D0C48CADC11F233A_AdjustorThunk },
+	{ 0x0600000A, U3CStartU3Ed__7_SetStateMachine_m037FC5F19922401D075D92F43C01CED4284F2EFE_AdjustorThunk },
 };
 static const int32_t s_InvokerIndices[10] = 
 {
-	7110,
-	7110,
-	7110,
-	5876,
-	6990,
-	6990,
-	7110,
-	7110,
-	7110,
-	5876,
+	9274,
+	9274,
+	9274,
+	7481,
+	9100,
+	9100,
+	9274,
+	9274,
+	9274,
+	7481,
 };
-extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_Toolkit_Demos_Gltf_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Demos_Gltf_CodeGenModule;
 const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Demos_Gltf_CodeGenModule = 
 {
@@ -86,7 +85,6 @@ const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Demos_Gltf_CodeGenMod
 	0,
 	NULL,
 	NULL,
-	g_Microsoft_MixedReality_Toolkit_Demos_Gltf_AttributeGenerators,
 	NULL, // module initializer,
 	NULL,
 	NULL,

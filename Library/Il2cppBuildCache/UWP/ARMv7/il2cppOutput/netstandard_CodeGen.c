@@ -12,7 +12,6 @@
 
 
 
-extern const CustomAttributesCacheGenerator g_netstandard_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_netstandard_CodeGenModule;
 const Il2CppCodeGenModule g_netstandard_CodeGenModule = 
 {
@@ -29,7 +28,6 @@ const Il2CppCodeGenModule g_netstandard_CodeGenModule =
 	0,
 	NULL,
 	NULL,
-	g_netstandard_AttributeGenerators,
 	NULL, // module initializer,
 	NULL,
 	NULL,

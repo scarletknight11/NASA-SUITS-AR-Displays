@@ -6,8 +6,9 @@ using UnityEngine.Networking;
 using UnityEngine.UI;
 
 public class DataRequest : MonoBehaviour {
-   string url = "http://localhost:3000/api/simulation/state";
-    
+    //string url = "http://localhost:3000/api/simulation/state";
+    string url = "http://localhost:8080/api/simulationstate/1";
+
    Text timer; 
    Text heart_bpm;
    Text p_sub;

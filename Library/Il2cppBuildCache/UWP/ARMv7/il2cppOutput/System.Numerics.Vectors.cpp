@@ -25,20 +25,10 @@ IL2CPP_EXTERN_C_END
 #endif
 
 // <Module>
-struct U3CModuleU3E_t46C2E0D92E4E14F4940B9C4DEFEB9C68CD554EE4 
+struct U3CModuleU3E_t6D0F1BCBBFA9F12E864978356E2FA7B1C98A6C3D 
 {
-public:
-
-public:
 };
-
-
-// System.Object
-
 struct Il2CppArrayBounds;
-
-// System.Array
-
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

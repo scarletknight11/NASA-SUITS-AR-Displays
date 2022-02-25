@@ -5,272 +5,23 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637806243822090419
-    m_Hash: 707340444
+      ticks: 637813635413782635
+    m_Hash: 1996065374
   m_LockFileStatus:
     m_FilePath: D:/NASA-SUITS-AR-Displays/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637806243822120377
-    m_Hash: 1738668166
+      ticks: 637813635414562629
+    m_Hash: 3930825303
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
-  m_LocalFileStatus:
-  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.object-anchors.runtime-0.18.0.tgz/package.json
-    m_PathExists: 0
-    m_ContentTrackingEnabled: 1
-    m_ModificationDate:
-      serializedVersion: 2
-      ticks: 0
-    m_Hash: 0
-  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.object-anchors.runtime-0.18.0.tgz
-    m_PathExists: 1
-    m_ContentTrackingEnabled: 1
-    m_ModificationDate:
-      serializedVersion: 2
-      ticks: 637806243811220383
-    m_Hash: 1636453730
-  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.remote-rendering-1.0.41.tgz/package.json
-    m_PathExists: 0
-    m_ContentTrackingEnabled: 1
-    m_ModificationDate:
-      serializedVersion: 2
-      ticks: 0
-    m_Hash: 0
-  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.remote-rendering-1.0.41.tgz
-    m_PathExists: 1
-    m_ContentTrackingEnabled: 1
-    m_ModificationDate:
-      serializedVersion: 2
-      ticks: 637806243812910358
-    m_Hash: 2637774289
-  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.planefinding-1.0.0.tgz/package.json
-    m_PathExists: 0
-    m_ContentTrackingEnabled: 1
-    m_ModificationDate:
-      serializedVersion: 2
-      ticks: 0
-    m_Hash: 0
-  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.planefinding-1.0.0.tgz
-    m_PathExists: 1
-    m_ContentTrackingEnabled: 1
-    m_ModificationDate:
-      serializedVersion: 2
-      ticks: 637806243822030379
-    m_Hash: 2612967325
-  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.android-2.11.0.tgz/package.json
-    m_PathExists: 0
-    m_ContentTrackingEnabled: 1
-    m_ModificationDate:
-      serializedVersion: 2
-      ticks: 0
-    m_Hash: 0
-  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.android-2.11.0.tgz
-    m_PathExists: 1
-    m_ContentTrackingEnabled: 1
-    m_ModificationDate:
-      serializedVersion: 2
-      ticks: 637806243813930364
-    m_Hash: 2146753352
-  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.core-2.11.0.tgz/package.json
-    m_PathExists: 0
-    m_ContentTrackingEnabled: 1
-    m_ModificationDate:
-      serializedVersion: 2
-      ticks: 0
-    m_Hash: 0
-  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.core-2.11.0.tgz
-    m_PathExists: 1
-    m_ContentTrackingEnabled: 1
-    m_ModificationDate:
-      serializedVersion: 2
-      ticks: 637806243813970362
-    m_Hash: 3795053758
-  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.ios-2.11.0.tgz/package.json
-    m_PathExists: 0
-    m_ContentTrackingEnabled: 1
-    m_ModificationDate:
-      serializedVersion: 2
-      ticks: 0
-    m_Hash: 0
-  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.ios-2.11.0.tgz
-    m_PathExists: 1
-    m_ContentTrackingEnabled: 1
-    m_ModificationDate:
-      serializedVersion: 2
-      ticks: 637806243819390370
-    m_Hash: 2532815435
-  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.windows-2.11.0.tgz/package.json
-    m_PathExists: 0
-    m_ContentTrackingEnabled: 1
-    m_ModificationDate:
-      serializedVersion: 2
-      ticks: 0
-    m_Hash: 0
-  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.windows-2.11.0.tgz
-    m_PathExists: 1
-    m_ContentTrackingEnabled: 1
-    m_ModificationDate:
-      serializedVersion: 2
-      ticks: 637806243821900380
-    m_Hash: 519280238
+  m_LocalFileStatus: []
 m_ProjectPath: D:/NASA-SUITS-AR-Displays/Packages
-m_EditorVersion: 2021.2.8f1 (d0e5f0a7b06a)
+m_EditorVersion: 2021.2.12f1 (48b1aa000234)
 m_ResolvedPackages:
-- packageId: com.microsoft.azure.object-anchors.runtime@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.object-anchors.runtime-0.18.0.tgz
-  testable: 0
-  isDirectDependency: 1
-  version: 0.18.0
-  source: 6
-  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.azure.object-anchors.runtime@abfc53772d40-1645027581122
-  assetPath: Packages/com.microsoft.azure.object-anchors.runtime
-  name: com.microsoft.azure.object-anchors.runtime
-  displayName: Microsoft Azure Object Anchors
-  author:
-    name: Microsoft
-    email: 
-    url: https://docs.microsoft.com/azure/object-anchors/
-  category: 
-  type: 
-  description: Azure Object Anchors enables an application to detect an object in
-    the physical world.
-  status: 4
-  errors: []
-  versions:
-    all: []
-    compatible: []
-    verified: 
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - microsoft
-  - azure
-  - mixed-reality
-  - object-anchors
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
-- packageId: com.microsoft.azure.remote-rendering@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.remote-rendering-1.0.41.tgz
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.41
-  source: 6
-  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.azure.remote-rendering@36f91b7a5a17-1645027581291
-  assetPath: Packages/com.microsoft.azure.remote-rendering
-  name: com.microsoft.azure.remote-rendering
-  displayName: Microsoft Azure Remote Rendering
-  author:
-    name: Microsoft
-    email: azuremrs@microsoft.com
-    url: aka.ms/AzureRemoteRendering
-  category: 
-  type: 
-  description: Azure Remote Rendering enables you to render highly complex 3D models
-    in real time on devices such as HoloLens 2.
-  status: 4
-  errors: []
-  versions:
-    all: []
-    compatible: []
-    verified: 
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - microsoft
-  - azure
-  - mixedreality
-  - remoterendering
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
-- packageId: com.microsoft.mixedreality.toolkit.planefinding@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.planefinding-1.0.0.tgz
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 6
-  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.toolkit.planefinding@31e0e166cbb3-1645027582203
-  assetPath: Packages/com.microsoft.mixedreality.toolkit.planefinding
-  name: com.microsoft.mixedreality.toolkit.planefinding
-  displayName: Mixed Reality Toolkit Plane Finding
-  author:
-    name: Microsoft
-    email: 
-    url: 
-  category: 
-  type: 
-  description: Provides utilities to calculate planes based on a mesh.
-  status: 4
-  errors: []
-  versions:
-    all: []
-    compatible: []
-    verified: 
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - mrtk
-  - microsoft
-  - mixed
-  - reality
-  - xr
-  - hololens
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/microsoft/MixedRealityToolkit.git
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
 - packageId: com.unity.cinemachine@2.8.4
   testable: 0
   isDirectDependency: 1
@@ -351,7 +102,6 @@ m_ResolvedPackages:
     - 2.9.0-pre.1
     - 2.9.0-pre.6
     compatible:
-    - 2.8.3
     - 2.8.4
     - 2.9.0-pre.1
     - 2.9.0-pre.6
@@ -399,14 +149,14 @@ m_ResolvedPackages:
     revision: 15a386e047f93d18479f6ae075bd3dcc985d3c34
     path: 
   unityLifecycle:
-    version: 2.8.3
+    version: 2.8.4
     nextVersion: 
-- packageId: com.unity.collab-proxy@1.15.12
+- packageId: com.unity.collab-proxy@1.15.13
   testable: 0
   isDirectDependency: 1
-  version: 1.15.12
+  version: 1.15.13
   source: 1
-  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.collab-proxy@1.15.12
+  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.collab-proxy@1.15.13
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -474,8 +224,6 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.15.7
-    - 1.15.9
     - 1.15.12
     - 1.15.13
     - 2.0.0-preview.6
@@ -520,16 +268,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637789721280000000
+  datePublishedTicks: 637807003040000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 5ca1fd4ca9f999e087d19e98afaf99905a582771
+    revision: 825774911ad2d1440ac844c9be1ae2c9b5dc7966
     path: 
   unityLifecycle:
-    version: 1.15.7
+    version: 1.15.12
     nextVersion: 
 - packageId: com.unity.ext.nunit@1.0.6
   testable: 0
@@ -640,8 +388,6 @@ m_ResolvedPackages:
     - 3.0.10
     - 3.0.12
     compatible:
-    - 3.0.9
-    - 3.0.10
     - 3.0.12
     verified: 3.0.12
   dependencies:
@@ -669,7 +415,7 @@ m_ResolvedPackages:
     revision: 453b1e1578da65dafbc7ad6fb71a95ca6b8730f7
     path: 
   unityLifecycle:
-    version: 3.0.9
+    version: 3.0.12
     nextVersion: 
 - packageId: com.unity.ide.visualstudio@2.0.14
   testable: 0
@@ -711,7 +457,6 @@ m_ResolvedPackages:
     - 2.0.12
     - 2.0.14
     compatible:
-    - 2.0.12
     - 2.0.14
     verified: 2.0.14
   dependencies:
@@ -719,7 +464,7 @@ m_ResolvedPackages:
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.30
+    version: 1.1.31
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -745,14 +490,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 2.0.12
+    version: 2.0.14
     nextVersion: 
-- packageId: com.unity.ide.vscode@1.2.4
+- packageId: com.unity.ide.vscode@1.2.5
   testable: 0
   isDirectDependency: 1
-  version: 1.2.4
+  version: 1.2.5
   source: 1
-  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.ide.vscode@1.2.4
+  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -798,23 +543,23 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637660806170000000
+  datePublishedTicks: 637800255360000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: git+https://github.com/Unity-Technologies/com.unity.ide.vscode.git
-    revision: 1f4f605d5c988cb610c372b5c5216c46cc8f5d30
+    url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
+    revision: b0740c80bfc2440527c317109f7c3d9100132722
     path: 
   unityLifecycle:
     version: 1.2.4
     nextVersion: 
-- packageId: com.unity.postprocessing@3.2.0
+- packageId: com.unity.postprocessing@3.2.1
   testable: 0
   isDirectDependency: 1
-  version: 3.2.0
+  version: 3.2.1
   source: 1
-  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.postprocessing@3.2.0
+  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.postprocessing@3.2.1
   assetPath: Packages/com.unity.postprocessing
   name: com.unity.postprocessing
   displayName: Post Processing
@@ -865,9 +610,11 @@ m_ResolvedPackages:
     - 3.1.0
     - 3.1.1
     - 3.2.0
+    - 3.2.1
     compatible:
     - 3.2.0
-    verified: 3.2.0
+    - 3.2.1
+    verified: 3.2.1
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -884,13 +631,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637726687760000000
+  datePublishedTicks: 637810554450000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/Graphics.git
-    revision: b0e3273299e678bccb11e08d28c49d481c731c7e
+    revision: ffa21b54c20545786dd5e691f58f41468f0c153a
     path: 
   unityLifecycle:
     version: 3.2.0
@@ -994,12 +741,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.3
     nextVersion: 
-- packageId: com.unity.test-framework@1.1.30
+- packageId: com.unity.test-framework@1.1.31
   testable: 0
   isDirectDependency: 1
-  version: 1.1.30
+  version: 1.1.31
   source: 1
-  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.test-framework@1.1.30
+  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.test-framework@1.1.31
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1082,13 +829,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637702469360000000
+  datePublishedTicks: 637804266210000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: 4a3f541cb46e2f6875b3a938daba8c7113020873
+    revision: 438b0defc147c9be5c969ca79ff03a722b4590ed
     path: 
   unityLifecycle:
     version: 1.1.29
@@ -1436,25 +1183,8 @@ m_ResolvedPackages:
     - 0.1.21-preview
     - 1.0.0
     compatible:
-    - 0.1.4-preview
-    - 0.1.5-preview
-    - 0.1.6-preview
-    - 0.1.7-preview
-    - 0.1.8-preview
-    - 0.1.9-preview
-    - 0.1.10-preview
-    - 0.1.11-preview
-    - 0.1.13-preview
-    - 0.1.14-preview
-    - 0.1.15-preview
-    - 0.1.16-preview
-    - 0.1.17-preview
-    - 0.1.18-preview
-    - 0.1.19-preview
-    - 0.1.20-preview
-    - 0.1.21-preview
     - 1.0.0
-    verified: 
+    verified: 1.0.0
   dependencies:
   - name: com.unity.sysroot
     version: 1.0.0
@@ -1488,7 +1218,7 @@ m_ResolvedPackages:
     revision: 0b6b1770930fd9a6c9365613ff2cba3eb81810dd
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
@@ -1660,7 +1390,6 @@ m_ResolvedPackages:
     - 5.0.0-pre.7
     - 5.0.0-pre.8
     compatible:
-    - 4.2.1
     - 4.2.2
     - 5.0.0-pre.5
     - 5.0.0-pre.6
@@ -1722,7 +1451,7 @@ m_ResolvedPackages:
     revision: 4d976dcd6bddc72b23fc429829985fa08be9646e
     path: 
   unityLifecycle:
-    version: 4.2.1
+    version: 4.2.2
     nextVersion: 
 - packageId: com.unity.xr.interaction.toolkit@2.0.0-pre.5
   testable: 0
@@ -1767,6 +1496,7 @@ m_ResolvedPackages:
     - 2.0.0-pre.5
     - 2.0.0-pre.6
     - 2.0.0-pre.7
+    - 2.0.0
     compatible:
     - 0.0.6-preview
     - 0.9.0-preview
@@ -1785,6 +1515,7 @@ m_ResolvedPackages:
     - 2.0.0-pre.5
     - 2.0.0-pre.6
     - 2.0.0-pre.7
+    - 2.0.0
     verified: 
   dependencies:
   - name: com.unity.inputsystem
@@ -1803,7 +1534,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.inputsystem
-    version: 1.2.0
+    version: 1.3.0
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -2107,7 +1838,7 @@ m_ResolvedPackages:
   - name: com.unity.subsystemregistration
     version: 1.1.0
   - name: com.unity.inputsystem
-    version: 1.2.0
+    version: 1.3.0
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -3770,777 +3501,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.microsoft.azure.spatial-anchors-sdk.android@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.android-2.11.0.tgz
-  testable: 0
-  isDirectDependency: 1
-  version: 2.11.0
-  source: 6
-  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.azure.spatial-anchors-sdk.android@4ef24a6a4cf0-1645027581393
-  assetPath: Packages/com.microsoft.azure.spatial-anchors-sdk.android
-  name: com.microsoft.azure.spatial-anchors-sdk.android
-  displayName: Azure Spatial Anchors SDK for Android
-  author:
-    name: Microsoft
-    email: 
-    url: 
-  category: 
-  type: 
-  description: Unity Android SDK for Azure Spatial Anchors
-  status: 4
-  errors: []
-  versions:
-    all: []
-    compatible: []
-    verified: 
-  dependencies:
-  - name: com.unity.xr.arcore
-    version: 4.0.12
-  - name: com.microsoft.azure.spatial-anchors-sdk.core
-    version: 2.11.0
-  resolvedDependencies:
-  - name: com.unity.xr.arcore
-    version: 4.2.1
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.2
-  - name: com.unity.subsystemregistration
-    version: 1.1.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.xr.management
-    version: 4.2.1
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.8
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.microsoft.azure.spatial-anchors-sdk.core
-    version: 2.11.0
-  - name: com.unity.xr.arfoundation
-    version: 4.2.2
-  - name: com.unity.modules.particlesystem
-    version: 1.0.0
-  keywords:
-  - microsoft
-  - mixed
-  - reality
-  - augmented
-  - xr
-  - android
-  - azure
-  - spatial
-  - anchors
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: git+https://github.com/Azure/azure-spatial-anchors-samples.git
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
-- packageId: com.microsoft.azure.spatial-anchors-sdk.core@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.core-2.11.0.tgz
-  testable: 0
-  isDirectDependency: 1
-  version: 2.11.0
-  source: 6
-  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.azure.spatial-anchors-sdk.core@94e7806416b9-1645027581397
-  assetPath: Packages/com.microsoft.azure.spatial-anchors-sdk.core
-  name: com.microsoft.azure.spatial-anchors-sdk.core
-  displayName: Azure Spatial Anchors SDK Core
-  author:
-    name: Microsoft
-    email: 
-    url: 
-  category: 
-  type: 
-  description: Unity SDK Core for Azure Spatial Anchors
-  status: 4
-  errors: []
-  versions:
-    all: []
-    compatible: []
-    verified: 
-  dependencies:
-  - name: com.unity.subsystemregistration
-    version: 1.0.6
-  - name: com.unity.xr.arsubsystems
-    version: 4.0.8
-  - name: com.unity.xr.arfoundation
-    version: 4.0.12
-  resolvedDependencies:
-  - name: com.unity.subsystemregistration
-    version: 1.1.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.2
-  - name: com.unity.xr.management
-    version: 4.2.1
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.8
-  - name: com.unity.xr.arfoundation
-    version: 4.2.2
-  - name: com.unity.modules.particlesystem
-    version: 1.0.0
-  keywords:
-  - microsoft
-  - mixed
-  - reality
-  - augmented
-  - xr
-  - hololens
-  - ios
-  - android
-  - azure
-  - spatial
-  - anchors
-  - core
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: git+https://github.com/Azure/azure-spatial-anchors-samples.git
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
-- packageId: com.microsoft.azure.spatial-anchors-sdk.ios@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.ios-2.11.0.tgz
-  testable: 0
-  isDirectDependency: 1
-  version: 2.11.0
-  source: 6
-  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.azure.spatial-anchors-sdk.ios@0b593de995c9-1645027581939
-  assetPath: Packages/com.microsoft.azure.spatial-anchors-sdk.ios
-  name: com.microsoft.azure.spatial-anchors-sdk.ios
-  displayName: Azure Spatial Anchors SDK for iOS
-  author:
-    name: Microsoft
-    email: 
-    url: 
-  category: 
-  type: 
-  description: Unity iOS SDK for Azure Spatial Anchors
-  status: 4
-  errors: []
-  versions:
-    all: []
-    compatible: []
-    verified: 
-  dependencies:
-  - name: com.unity.xr.arkit
-    version: 4.0.12
-  - name: com.microsoft.azure.spatial-anchors-sdk.core
-    version: 2.11.0
-  resolvedDependencies:
-  - name: com.unity.xr.arkit
-    version: 4.2.1
-  - name: com.unity.editorcoroutines
-    version: 1.0.0
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.2
-  - name: com.unity.subsystemregistration
-    version: 1.1.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.xr.management
-    version: 4.2.1
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.8
-  - name: com.microsoft.azure.spatial-anchors-sdk.core
-    version: 2.11.0
-  - name: com.unity.xr.arfoundation
-    version: 4.2.2
-  - name: com.unity.modules.particlesystem
-    version: 1.0.0
-  keywords:
-  - microsoft
-  - mixed
-  - reality
-  - augmented
-  - xr
-  - ios
-  - azure
-  - spatial
-  - anchors
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: git+https://github.com/Azure/azure-spatial-anchors-samples.git
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
-- packageId: com.microsoft.azure.spatial-anchors-sdk.windows@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.windows-2.11.0.tgz
-  testable: 0
-  isDirectDependency: 1
-  version: 2.11.0
-  source: 6
-  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.azure.spatial-anchors-sdk.windows@59433b8d58bc-1645027582190
-  assetPath: Packages/com.microsoft.azure.spatial-anchors-sdk.windows
-  name: com.microsoft.azure.spatial-anchors-sdk.windows
-  displayName: Azure Spatial Anchors SDK for Windows
-  author:
-    name: Microsoft
-    email: 
-    url: 
-  category: 
-  type: 
-  description: Unity Windows SDK for Azure Spatial Anchors
-  status: 4
-  errors: []
-  versions:
-    all: []
-    compatible: []
-    verified: 
-  dependencies:
-  - name: com.microsoft.azure.spatial-anchors-sdk.core
-    version: 2.11.0
-  resolvedDependencies:
-  - name: com.microsoft.azure.spatial-anchors-sdk.core
-    version: 2.11.0
-  - name: com.unity.subsystemregistration
-    version: 1.1.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.2
-  - name: com.unity.xr.management
-    version: 4.2.1
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.8
-  - name: com.unity.xr.arfoundation
-    version: 4.2.2
-  - name: com.unity.modules.particlesystem
-    version: 1.0.0
-  keywords:
-  - microsoft
-  - mixed
-  - reality
-  - augmented
-  - xr
-  - hololens
-  - azure
-  - spatial
-  - anchors
-  - windows
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: git+https://github.com/Azure/azure-spatial-anchors-samples.git
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
-- packageId: com.unity.xr.arkit@4.2.1
-  testable: 0
-  isDirectDependency: 0
-  version: 4.2.1
-  source: 1
-  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.arkit@4.2.1
-  assetPath: Packages/com.unity.xr.arkit
-  name: com.unity.xr.arkit
-  displayName: ARKit XR Plugin
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: 'Provides native Apple ARKit integration for use with Unity''s multi-platform
-    XR API.
-
-    Supports the following features:
-
-    -Efficient Background Rendering
-
-    -Horizontal
-    Planes
-
-    -Depth Data
-
-    -Anchors
-
-    -Hit Testing
-
-    -Face Tracking
-
-    -Environment
-    Probes
-
-    -Meshing
-
-    -Occlusion'
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview.11
-    - 1.0.0-preview.12
-    - 1.0.0-preview.13
-    - 1.0.0-preview.14
-    - 1.0.0-preview.15
-    - 1.0.0-preview.16
-    - 1.0.0-preview.17
-    - 1.0.0-preview.20
-    - 1.0.0-preview.23
-    - 1.0.0-preview.27
-    - 2.0.1
-    - 2.1.0-preview.3
-    - 2.1.0-preview.5
-    - 2.1.1
-    - 2.1.2
-    - 2.1.4
-    - 2.1.9
-    - 2.1.10
-    - 2.1.14
-    - 2.1.16
-    - 2.1.18
-    - 2.1.19
-    - 2.2.0-preview.1
-    - 2.2.0-preview.2
-    - 2.2.0-preview.3
-    - 2.2.0-preview.4
-    - 2.2.0-preview.5
-    - 2.2.0-preview.6
-    - 3.0.0-preview.1
-    - 3.0.0-preview.2
-    - 3.0.0-preview.3
-    - 3.0.0-preview.4
-    - 3.0.1
-    - 3.0.3
-    - 3.0.4
-    - 3.1.0-preview.1
-    - 3.1.0-preview.2
-    - 3.1.0-preview.4
-    - 3.1.0-preview.6
-    - 3.1.0-preview.7
-    - 3.1.0-preview.8
-    - 3.1.3
-    - 3.1.7
-    - 3.1.8
-    - 3.1.10
-    - 4.0.0-preview.1
-    - 4.0.0-preview.3
-    - 4.0.1
-    - 4.0.2
-    - 4.0.8
-    - 4.0.9
-    - 4.0.10
-    - 4.0.12
-    - 4.1.0-preview.1
-    - 4.1.0-preview.2
-    - 4.1.0-preview.3
-    - 4.1.0-preview.5
-    - 4.1.0-preview.6
-    - 4.1.0-preview.7
-    - 4.1.0-preview.9
-    - 4.1.0-preview.10
-    - 4.1.0-preview.11
-    - 4.1.0-preview.12
-    - 4.1.0-preview.13
-    - 4.1.1
-    - 4.1.3
-    - 4.1.5
-    - 4.1.7
-    - 4.1.9
-    - 4.2.0-pre.2
-    - 4.2.0-pre.3
-    - 4.2.0-pre.4
-    - 4.2.0-pre.7
-    - 4.2.0-pre.8
-    - 4.2.0-pre.9
-    - 4.2.0-pre.10
-    - 4.2.0-pre.12
-    - 4.2.0
-    - 4.2.1
-    - 4.2.2
-    - 5.0.0-pre.5
-    - 5.0.0-pre.6
-    - 5.0.0-pre.7
-    - 5.0.0-pre.8
-    compatible:
-    - 4.2.1
-    - 4.2.2
-    - 5.0.0-pre.5
-    - 5.0.0-pre.6
-    - 5.0.0-pre.7
-    - 5.0.0-pre.8
-    verified: 4.2.2
-  dependencies:
-  - name: com.unity.editorcoroutines
-    version: 1.0.0
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.1
-  - name: com.unity.xr.management
-    version: 4.0.1
-  resolvedDependencies:
-  - name: com.unity.editorcoroutines
-    version: 1.0.0
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.2
-  - name: com.unity.subsystemregistration
-    version: 1.1.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.xr.management
-    version: 4.2.1
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.8
-  keywords:
-  - arkit
-  - ar
-  - augmented
-  - xr
-  - reality
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637696535230000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-    revision: c2ff116257e1911422543239c929c29955c27510
-    path: 
-  unityLifecycle:
-    version: 4.2.1
-    nextVersion: 
-- packageId: com.unity.subsystemregistration@1.1.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.1.0
-  source: 1
-  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.subsystemregistration@1.1.0
-  assetPath: Packages/com.unity.subsystemregistration
-  name: com.unity.subsystemregistration
-  displayName: Subsystem Registration
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: Provides internal registration mechanism for standalone subsystems. 
-    It allows a standalone subsystem to inform the Subsystem Manager of its existence.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview.4
-    - 1.0.4
-    - 1.0.5
-    - 1.0.6
-    - 1.1.0
-    - 1.1.1
-    compatible:
-    - 1.1.0
-    - 1.1.1
-    verified: 1.1.1
-  dependencies:
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  keywords:
-  - subsystem
-  - registration
-  - internal
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637314426150000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.subsystemregistration.git
-    revision: 72584ba5248fbe79e560e795ad819f876954fceb
-    path: 
-  unityLifecycle:
-    version: 1.1.0
-    nextVersion: 
-- packageId: com.unity.xr.arcore@4.2.1
-  testable: 0
-  isDirectDependency: 0
-  version: 4.2.1
-  source: 1
-  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.arcore@4.2.1
-  assetPath: Packages/com.unity.xr.arcore
-  name: com.unity.xr.arcore
-  displayName: ARCore XR Plugin
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: 'Provides native Google ARCore integration for use with Unity''s multi-platform
-    XR API.
-
-    Supports the following features:
-
-    -Efficient Background Rendering
-
-    -Horizontal
-    Planes
-
-    -Depth Data
-
-    -Anchors
-
-    -Hit Testing
-
-    -Occlusion'
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview.24
-    - 2.0.2
-    - 2.1.0-preview.4
-    - 2.1.0-preview.5
-    - 2.1.0
-    - 2.1.1
-    - 2.1.2
-    - 2.1.4
-    - 2.1.8
-    - 2.1.11
-    - 2.1.12
-    - 2.1.14
-    - 2.1.16
-    - 2.1.18
-    - 2.1.19
-    - 2.2.0-preview.1
-    - 2.2.0-preview.2
-    - 2.2.0-preview.6
-    - 3.0.0-preview.1
-    - 3.0.0-preview.2
-    - 3.0.0-preview.3
-    - 3.0.0-preview.4
-    - 3.0.1
-    - 3.0.3
-    - 3.0.4
-    - 3.1.0-preview.1
-    - 3.1.0-preview.2
-    - 3.1.0-preview.4
-    - 3.1.0-preview.6
-    - 3.1.0-preview.7
-    - 3.1.0-preview.8
-    - 3.1.3
-    - 3.1.4
-    - 3.1.5
-    - 3.1.7
-    - 3.1.8
-    - 3.1.10
-    - 4.0.0-preview.1
-    - 4.0.0-preview.3
-    - 4.0.3
-    - 4.0.4
-    - 4.0.8
-    - 4.0.9
-    - 4.0.10
-    - 4.0.12
-    - 4.1.0-preview.2
-    - 4.1.0-preview.3
-    - 4.1.0-preview.5
-    - 4.1.0-preview.6
-    - 4.1.0-preview.7
-    - 4.1.0-preview.9
-    - 4.1.0-preview.10
-    - 4.1.0-preview.11
-    - 4.1.0-preview.12
-    - 4.1.0-preview.13
-    - 4.1.1
-    - 4.1.3
-    - 4.1.5
-    - 4.1.7
-    - 4.1.9
-    - 4.2.0-pre.2
-    - 4.2.0-pre.3
-    - 4.2.0-pre.4
-    - 4.2.0-pre.5
-    - 4.2.0-pre.7
-    - 4.2.0-pre.8
-    - 4.2.0-pre.9
-    - 4.2.0-pre.10
-    - 4.2.0-pre.12
-    - 4.2.0
-    - 4.2.1
-    - 4.2.2
-    - 5.0.0-pre.5
-    - 5.0.0-pre.6
-    - 5.0.0-pre.7
-    - 5.0.0-pre.8
-    compatible:
-    - 4.2.1
-    - 4.2.2
-    - 5.0.0-pre.5
-    - 5.0.0-pre.6
-    - 5.0.0-pre.7
-    - 5.0.0-pre.8
-    verified: 4.2.2
-  dependencies:
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.1
-  - name: com.unity.xr.management
-    version: 4.0.1
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.2
-  - name: com.unity.subsystemregistration
-    version: 1.1.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.xr.management
-    version: 4.2.1
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.8
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  keywords:
-  - arcore
-  - ar
-  - augmented
-  - xr
-  - reality
-  - core
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637696535020000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-    revision: c2ff116257e1911422543239c929c29955c27510
-    path: 
-  unityLifecycle:
-    version: 4.2.1
-    nextVersion: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
@@ -4700,9 +3660,11 @@ m_ResolvedPackages:
     - 2.1.6
     - 2.1.7
     - 2.1.8
+    - 2.1.9
     compatible:
     - 2.1.8
-    verified: 2.1.8
+    - 2.1.9
+    verified: 2.1.9
   dependencies:
   - name: com.unity.modules.vr
     version: 1.0.0
@@ -4745,12 +3707,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 2.1.8
     nextVersion: 
-- packageId: com.unity.inputsystem@1.2.0
+- packageId: com.unity.inputsystem@1.3.0
   testable: 0
   isDirectDependency: 0
-  version: 1.2.0
+  version: 1.3.0
   source: 1
-  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.inputsystem@1.2.0
+  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.inputsystem@1.3.0
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -4799,9 +3761,8 @@ m_ResolvedPackages:
     - 1.2.0
     - 1.3.0
     compatible:
-    - 1.2.0
     - 1.3.0
-    verified: 1.2.0
+    verified: 1.3.0
   dependencies:
   - name: com.unity.modules.uielements
     version: 1.0.0
@@ -4834,16 +3795,79 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637714457070000000
+  datePublishedTicks: 637769972190000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/InputSystem.git
-    revision: 0343e557f75946cf6fad4be48dd10276d535f490
+    revision: 76d3fd182183dff9e9793431de614fd1e69e363c
     path: 
   unityLifecycle:
-    version: 1.2.0
+    version: 1.3.0
+    nextVersion: 
+- packageId: com.unity.subsystemregistration@1.1.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.1.0
+  source: 1
+  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.subsystemregistration@1.1.0
+  assetPath: Packages/com.unity.subsystemregistration
+  name: com.unity.subsystemregistration
+  displayName: Subsystem Registration
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Provides internal registration mechanism for standalone subsystems. 
+    It allows a standalone subsystem to inform the Subsystem Manager of its existence.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.4
+    - 1.0.4
+    - 1.0.5
+    - 1.0.6
+    - 1.1.0
+    - 1.1.1
+    compatible:
+    - 1.1.0
+    - 1.1.1
+    verified: 1.1.1
+  dependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords:
+  - subsystem
+  - registration
+  - internal
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637314426150000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.subsystemregistration.git
+    revision: 72584ba5248fbe79e560e795ad819f876954fceb
+    path: 
+  unityLifecycle:
+    version: 1.1.0
     nextVersion: 
 - packageId: com.unity.xr.core-utils@2.0.0-pre.5
   testable: 0
@@ -4875,10 +3899,12 @@ m_ResolvedPackages:
     - 2.0.0-pre.3
     - 2.0.0-pre.5
     - 2.0.0-pre.6
+    - 2.0.0
     compatible:
     - 2.0.0-pre.3
     - 2.0.0-pre.5
     - 2.0.0-pre.6
+    - 2.0.0
     verified: 
   dependencies:
   - name: com.unity.modules.xr
@@ -5009,12 +4035,13 @@ m_ResolvedPackages:
     - 5.0.0-pre.5
     - 5.0.0-pre.6
     - 5.0.0-pre.7
+    - 5.0.0-pre.8
     compatible:
-    - 4.2.1
     - 4.2.2
     - 5.0.0-pre.5
     - 5.0.0-pre.6
     - 5.0.0-pre.7
+    - 5.0.0-pre.8
     verified: 4.2.2
   dependencies:
   - name: com.unity.subsystemregistration
@@ -5060,7 +4087,7 @@ m_ResolvedPackages:
     revision: 4d976dcd6bddc72b23fc429829985fa08be9646e
     path: 
   unityLifecycle:
-    version: 4.2.1
+    version: 4.2.2
     nextVersion: 
 - packageId: com.unity.sysroot@1.0.0
   testable: 0
@@ -5097,20 +4124,8 @@ m_ResolvedPackages:
     - 0.1.19-preview
     - 1.0.0
     compatible:
-    - 0.1.7-preview
-    - 0.1.8-preview
-    - 0.1.9-preview
-    - 0.1.10-preview
-    - 0.1.11-preview
-    - 0.1.12-preview
-    - 0.1.14-preview
-    - 0.1.15-preview
-    - 0.1.16-preview
-    - 0.1.17-preview
-    - 0.1.18-preview
-    - 0.1.19-preview
     - 1.0.0
-    verified: 
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -5135,7 +4150,7 @@ m_ResolvedPackages:
     revision: 0b6b1770930fd9a6c9365613ff2cba3eb81810dd
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.sysroot.linux-x86_64@1.0.0
   testable: 0
@@ -5169,18 +4184,8 @@ m_ResolvedPackages:
     - 0.1.15-preview
     - 1.0.0
     compatible:
-    - 0.1.6-preview
-    - 0.1.7-preview
-    - 0.1.8-preview
-    - 0.1.9-preview
-    - 0.1.10-preview
-    - 0.1.11-preview
-    - 0.1.12-preview
-    - 0.1.13-preview
-    - 0.1.14-preview
-    - 0.1.15-preview
     - 1.0.0
-    verified: 
+    verified: 1.0.0
   dependencies:
   - name: com.unity.sysroot
     version: 1.0.0
@@ -5209,7 +4214,7 @@ m_ResolvedPackages:
     revision: 0b6b1770930fd9a6c9365613ff2cba3eb81810dd
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.services.core@1.0.1
   testable: 0
@@ -5280,61 +4285,3 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.1
     nextVersion: 1.1.0-pre.8
-- packageId: com.unity.editorcoroutines@1.0.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.0
-  source: 1
-  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.editorcoroutines@1.0.0
-  assetPath: Packages/com.unity.editorcoroutines
-  name: com.unity.editorcoroutines
-  displayName: Editor Coroutines
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: 'The editor coroutines package allows developers to start constructs
-    similar to Unity''s monobehaviour based coroutines within the editor using abitrary
-    objects. '
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 0.0.1-preview.3
-    - 0.0.1-preview.4
-    - 0.0.1-preview.5
-    - 0.0.2-preview.1
-    - 0.1.0-preview.1
-    - 0.1.0-preview.2
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    verified: 1.0.0
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - coroutine
-  - coroutines
-  - editor
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637232611380000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git
-    revision: f67fc9992bbc7a553b17375de53a8b2db136528e
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 

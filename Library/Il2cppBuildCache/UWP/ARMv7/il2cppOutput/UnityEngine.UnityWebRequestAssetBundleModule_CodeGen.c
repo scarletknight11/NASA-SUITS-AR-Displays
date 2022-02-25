@@ -13,44 +13,43 @@
 
 
 // 0x00000001 UnityEngine.Networking.UnityWebRequest UnityEngine.Networking.UnityWebRequestAssetBundle::GetAssetBundle(System.String,UnityEngine.CachedAssetBundle,System.UInt32)
-extern void UnityWebRequestAssetBundle_GetAssetBundle_m2C155DBCEF9A2047E3E833A346B4BBBF8A4DA219 (void);
+extern void UnityWebRequestAssetBundle_GetAssetBundle_mFC27B07145A063ED2D6FE1B2D9D7405663570587 (void);
 // 0x00000002 System.IntPtr UnityEngine.Networking.DownloadHandlerAssetBundle::CreateCached(UnityEngine.Networking.DownloadHandlerAssetBundle,System.String,System.String,UnityEngine.Hash128,System.UInt32)
-extern void DownloadHandlerAssetBundle_CreateCached_mE8DEDE3622B495AE1CA534BAD70F86A3AF41477D (void);
+extern void DownloadHandlerAssetBundle_CreateCached_m389F1B318AE85B280060DAF2179D519317879750 (void);
 // 0x00000003 System.Void UnityEngine.Networking.DownloadHandlerAssetBundle::InternalCreateAssetBundleCached(System.String,System.String,UnityEngine.Hash128,System.UInt32)
-extern void DownloadHandlerAssetBundle_InternalCreateAssetBundleCached_m2F4C9DD99E26350A7DC685CD918DE5792D9B7106 (void);
+extern void DownloadHandlerAssetBundle_InternalCreateAssetBundleCached_m31658EBFF60F6E044DEF618E94332377959B2850 (void);
 // 0x00000004 System.Void UnityEngine.Networking.DownloadHandlerAssetBundle::.ctor(System.String,UnityEngine.CachedAssetBundle,System.UInt32)
-extern void DownloadHandlerAssetBundle__ctor_m491425D31D005ED9B500067D776DE58FD1A41D6E (void);
+extern void DownloadHandlerAssetBundle__ctor_mB0E3A11A3124CD8FBA475FC66E7459C78BD003A5 (void);
 // 0x00000005 System.Byte[] UnityEngine.Networking.DownloadHandlerAssetBundle::GetData()
-extern void DownloadHandlerAssetBundle_GetData_m559C00EFAE6DAEFB753A247C6B842F32191923D3 (void);
+extern void DownloadHandlerAssetBundle_GetData_m31E29D90C0EA4ACAF65EB86F423464FC46717B25 (void);
 // 0x00000006 System.String UnityEngine.Networking.DownloadHandlerAssetBundle::GetText()
-extern void DownloadHandlerAssetBundle_GetText_mF7330136649D26AACD775000E871F44B83891885 (void);
+extern void DownloadHandlerAssetBundle_GetText_m8E10F95D9293C3406521AD495600762CEC2E88DC (void);
 // 0x00000007 UnityEngine.AssetBundle UnityEngine.Networking.DownloadHandlerAssetBundle::get_assetBundle()
-extern void DownloadHandlerAssetBundle_get_assetBundle_m083E8230E8A5644AE6176135C86B4E1A6283190D (void);
+extern void DownloadHandlerAssetBundle_get_assetBundle_m9D07F738F7014C26AF2B7FD89132FD1CB5DDE0FE (void);
 // 0x00000008 System.IntPtr UnityEngine.Networking.DownloadHandlerAssetBundle::CreateCached_Injected(UnityEngine.Networking.DownloadHandlerAssetBundle,System.String,System.String,UnityEngine.Hash128&,System.UInt32)
-extern void DownloadHandlerAssetBundle_CreateCached_Injected_m225667904F10871FC65304B9DBCB4578FE9377D2 (void);
+extern void DownloadHandlerAssetBundle_CreateCached_Injected_m3C77E65727F94D3BA47E2C2A536DC45F781EE73D (void);
 static Il2CppMethodPointer s_methodPointers[8] = 
 {
-	UnityWebRequestAssetBundle_GetAssetBundle_m2C155DBCEF9A2047E3E833A346B4BBBF8A4DA219,
-	DownloadHandlerAssetBundle_CreateCached_mE8DEDE3622B495AE1CA534BAD70F86A3AF41477D,
-	DownloadHandlerAssetBundle_InternalCreateAssetBundleCached_m2F4C9DD99E26350A7DC685CD918DE5792D9B7106,
-	DownloadHandlerAssetBundle__ctor_m491425D31D005ED9B500067D776DE58FD1A41D6E,
-	DownloadHandlerAssetBundle_GetData_m559C00EFAE6DAEFB753A247C6B842F32191923D3,
-	DownloadHandlerAssetBundle_GetText_mF7330136649D26AACD775000E871F44B83891885,
-	DownloadHandlerAssetBundle_get_assetBundle_m083E8230E8A5644AE6176135C86B4E1A6283190D,
-	DownloadHandlerAssetBundle_CreateCached_Injected_m225667904F10871FC65304B9DBCB4578FE9377D2,
+	UnityWebRequestAssetBundle_GetAssetBundle_mFC27B07145A063ED2D6FE1B2D9D7405663570587,
+	DownloadHandlerAssetBundle_CreateCached_m389F1B318AE85B280060DAF2179D519317879750,
+	DownloadHandlerAssetBundle_InternalCreateAssetBundleCached_m31658EBFF60F6E044DEF618E94332377959B2850,
+	DownloadHandlerAssetBundle__ctor_mB0E3A11A3124CD8FBA475FC66E7459C78BD003A5,
+	DownloadHandlerAssetBundle_GetData_m31E29D90C0EA4ACAF65EB86F423464FC46717B25,
+	DownloadHandlerAssetBundle_GetText_m8E10F95D9293C3406521AD495600762CEC2E88DC,
+	DownloadHandlerAssetBundle_get_assetBundle_m9D07F738F7014C26AF2B7FD89132FD1CB5DDE0FE,
+	DownloadHandlerAssetBundle_CreateCached_Injected_m3C77E65727F94D3BA47E2C2A536DC45F781EE73D,
 };
 static const int32_t s_InvokerIndices[8] = 
 {
-	8857,
-	7955,
-	1374,
-	2000,
-	6990,
-	6990,
-	6990,
-	7954,
+	11675,
+	10334,
+	1632,
+	2240,
+	9100,
+	9100,
+	9100,
+	10333,
 };
-extern const CustomAttributesCacheGenerator g_UnityEngine_UnityWebRequestAssetBundleModule_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestAssetBundleModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestAssetBundleModule_CodeGenModule = 
 {
@@ -67,7 +66,6 @@ const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestAssetBundleModule_CodeGen
 	0,
 	NULL,
 	NULL,
-	g_UnityEngine_UnityWebRequestAssetBundleModule_AttributeGenerators,
 	NULL, // module initializer,
 	NULL,
 	NULL,

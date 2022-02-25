@@ -13,1020 +13,1450 @@
 
 
 // 0x00000001 System.String Locale::GetText(System.String)
-extern void Locale_GetText_m17007920E374AE1058DDEFCC0A368F83E9D2F7E0 (void);
-// 0x00000002 System.Void Mono.Security.ASN1::.ctor(System.Byte)
-extern void ASN1__ctor_mC8594B7A2376B58F26F1D0457B0F9F5880D87142 (void);
-// 0x00000003 System.Void Mono.Security.ASN1::.ctor(System.Byte,System.Byte[])
-extern void ASN1__ctor_mB8A19279E6079D30BB6A594ADAC7FEE89E822CDC (void);
-// 0x00000004 System.Void Mono.Security.ASN1::.ctor(System.Byte[])
-extern void ASN1__ctor_mE534D499DABEAAA35E0F30572CD295A9FCFA1C7E (void);
-// 0x00000005 System.Int32 Mono.Security.ASN1::get_Count()
-extern void ASN1_get_Count_mBF134B153CFA218C251FB692A25AA392DCF9F583 (void);
-// 0x00000006 System.Byte Mono.Security.ASN1::get_Tag()
-extern void ASN1_get_Tag_mA82F15B6EB97BF0F3EBAA69C21765909D7A675D3 (void);
-// 0x00000007 System.Int32 Mono.Security.ASN1::get_Length()
-extern void ASN1_get_Length_mDC54AC43779B1704DE94DC80E7D94724CB68B37B (void);
-// 0x00000008 System.Byte[] Mono.Security.ASN1::get_Value()
-extern void ASN1_get_Value_m95545A82635424B999816713F09A224ED01DF0C2 (void);
-// 0x00000009 System.Void Mono.Security.ASN1::set_Value(System.Byte[])
-extern void ASN1_set_Value_mCA987F3A4CA629E76A62EB82CC0C9D448A66C13D (void);
-// 0x0000000A System.Boolean Mono.Security.ASN1::CompareArray(System.Byte[],System.Byte[])
-extern void ASN1_CompareArray_m75225C0D69F5453457497EEC2222D3AAC0387260 (void);
-// 0x0000000B System.Boolean Mono.Security.ASN1::CompareValue(System.Byte[])
-extern void ASN1_CompareValue_m97CD48E9C0E7F8498F7387FA79ED52999ACBE2BF (void);
-// 0x0000000C Mono.Security.ASN1 Mono.Security.ASN1::Add(Mono.Security.ASN1)
-extern void ASN1_Add_m35AB44F469BE9C185A91D2E265A7DA6B27311F7B (void);
-// 0x0000000D System.Byte[] Mono.Security.ASN1::GetBytes()
-extern void ASN1_GetBytes_mDE8FEDD6687DE65668CA9C987B5A50063AAEDC02 (void);
-// 0x0000000E System.Void Mono.Security.ASN1::Decode(System.Byte[],System.Int32&,System.Int32)
-extern void ASN1_Decode_mFB5F309ED41074BEB2D4FCC6C49E6901EDCF3D87 (void);
-// 0x0000000F System.Void Mono.Security.ASN1::DecodeTLV(System.Byte[],System.Int32&,System.Byte&,System.Int32&,System.Byte[]&)
-extern void ASN1_DecodeTLV_m469B49047A31E0DE6D8E37D3153C284D4945EB03 (void);
-// 0x00000010 Mono.Security.ASN1 Mono.Security.ASN1::get_Item(System.Int32)
-extern void ASN1_get_Item_mBA4AF2346A0847038957881A98202AF8DAF09B50 (void);
-// 0x00000011 Mono.Security.ASN1 Mono.Security.ASN1::Element(System.Int32,System.Byte)
-extern void ASN1_Element_m4E95516A1A40A1CB12213D4FD39CA07DA81DD0C3 (void);
-// 0x00000012 System.String Mono.Security.ASN1::ToString()
-extern void ASN1_ToString_m5BCBD4583786543E88D243E197C218C748ADC356 (void);
-// 0x00000013 Mono.Security.ASN1 Mono.Security.ASN1Convert::FromInt32(System.Int32)
-extern void ASN1Convert_FromInt32_m2EB0E4A8D3D06D4EE1BEFD4F50E9021FF6B82FA2 (void);
-// 0x00000014 Mono.Security.ASN1 Mono.Security.ASN1Convert::FromOid(System.String)
-extern void ASN1Convert_FromOid_mB7601D9CF044DB51F7B944AFCEC2E3F5ECD027CB (void);
-// 0x00000015 Mono.Security.ASN1 Mono.Security.ASN1Convert::FromUnsignedBigInteger(System.Byte[])
-extern void ASN1Convert_FromUnsignedBigInteger_mAAE91D78A45905F09EF49AB626DD17B236A4708F (void);
-// 0x00000016 System.Int32 Mono.Security.ASN1Convert::ToInt32(Mono.Security.ASN1)
-extern void ASN1Convert_ToInt32_m381CC48A18572F6F58C4332C3E07906562034A77 (void);
-// 0x00000017 System.String Mono.Security.ASN1Convert::ToOid(Mono.Security.ASN1)
-extern void ASN1Convert_ToOid_m6F617C7AC370CC5D6EAC2F813D8F7B73A3D8F61F (void);
-// 0x00000018 System.DateTime Mono.Security.ASN1Convert::ToDateTime(Mono.Security.ASN1)
-extern void ASN1Convert_ToDateTime_mD2EC7545320E6CAFD22E5A6F2F8409D1159118C9 (void);
-// 0x00000019 System.Byte[] Mono.Security.BitConverterLE::GetUIntBytes(System.Byte*)
-extern void BitConverterLE_GetUIntBytes_m3771CE625EE76BB13B8C60BCBB038E412514E939 (void);
-// 0x0000001A System.Byte[] Mono.Security.BitConverterLE::GetULongBytes(System.Byte*)
-extern void BitConverterLE_GetULongBytes_mD1736555672A4C65073AC11A4834C4154E98FB62 (void);
-// 0x0000001B System.Byte[] Mono.Security.BitConverterLE::GetBytes(System.Int32)
-extern void BitConverterLE_GetBytes_mD4BDBCF2894D9C49D53420C8CAD0933372E8B698 (void);
-// 0x0000001C System.Byte[] Mono.Security.BitConverterLE::GetBytes(System.Int64)
-extern void BitConverterLE_GetBytes_mAC0A31D5BDECDED46B74E6237B43E0C06942C202 (void);
-// 0x0000001D System.Void Mono.Security.BitConverterLE::UShortFromBytes(System.Byte*,System.Byte[],System.Int32)
-extern void BitConverterLE_UShortFromBytes_mBD469A82102F3D353966478866504938B56A8426 (void);
-// 0x0000001E System.Void Mono.Security.BitConverterLE::UIntFromBytes(System.Byte*,System.Byte[],System.Int32)
-extern void BitConverterLE_UIntFromBytes_mA36A034275C86200AA54C5F926D5237509EC2FFB (void);
-// 0x0000001F System.UInt16 Mono.Security.BitConverterLE::ToUInt16(System.Byte[],System.Int32)
-extern void BitConverterLE_ToUInt16_m438310417017612011A2C4A2EAC3E78214BAEE2E (void);
-// 0x00000020 System.UInt32 Mono.Security.BitConverterLE::ToUInt32(System.Byte[],System.Int32)
-extern void BitConverterLE_ToUInt32_mC8279D5D93E3D4DAD1057AAF78ADD3A4F6C13754 (void);
-// 0x00000021 System.Void Mono.Security.PKCS7/ContentInfo::.ctor()
-extern void ContentInfo__ctor_mF4223283B123E27B30F936CCEFE18BEE4CC6430E (void);
-// 0x00000022 System.Void Mono.Security.PKCS7/ContentInfo::.ctor(System.String)
-extern void ContentInfo__ctor_m41A77A944949D15779BAF339738C337872DB32F9 (void);
-// 0x00000023 System.Void Mono.Security.PKCS7/ContentInfo::.ctor(System.Byte[])
-extern void ContentInfo__ctor_m3314A5824571AE429FD8181D94314025223D39F6 (void);
-// 0x00000024 System.Void Mono.Security.PKCS7/ContentInfo::.ctor(Mono.Security.ASN1)
-extern void ContentInfo__ctor_mEFAA11C9FAA8A91A3F5F7AC896B79AFB354569F6 (void);
-// 0x00000025 Mono.Security.ASN1 Mono.Security.PKCS7/ContentInfo::get_ASN1()
-extern void ContentInfo_get_ASN1_m9F6079ADC3917582F67F7E4E9AFD596DABF57FDD (void);
-// 0x00000026 Mono.Security.ASN1 Mono.Security.PKCS7/ContentInfo::get_Content()
-extern void ContentInfo_get_Content_m36F75EEFBB1ED3608A6270E02F059BDB553546EA (void);
-// 0x00000027 System.Void Mono.Security.PKCS7/ContentInfo::set_Content(Mono.Security.ASN1)
-extern void ContentInfo_set_Content_mD1D8952C8B0DFD36F7F811F11F2A4DB35EA9A992 (void);
-// 0x00000028 System.String Mono.Security.PKCS7/ContentInfo::get_ContentType()
-extern void ContentInfo_get_ContentType_m3042D4F065AD15EA03B33F6A266C9F1381D6A5FC (void);
-// 0x00000029 System.Void Mono.Security.PKCS7/ContentInfo::set_ContentType(System.String)
-extern void ContentInfo_set_ContentType_m21AC696B1C2DADCF1F39F12AA7B37160D5DA415D (void);
-// 0x0000002A Mono.Security.ASN1 Mono.Security.PKCS7/ContentInfo::GetASN1()
-extern void ContentInfo_GetASN1_m76B0C44E6F6A92A8EE1811B7A635AF5383482939 (void);
-// 0x0000002B System.Void Mono.Security.PKCS7/EncryptedData::.ctor()
-extern void EncryptedData__ctor_m34900CCFBD74FE77EC9FD67B2E59A684410ECFF4 (void);
-// 0x0000002C System.Void Mono.Security.PKCS7/EncryptedData::.ctor(Mono.Security.ASN1)
-extern void EncryptedData__ctor_m9A93E0A9F1A322DD1161E80CD97BBBF33E1518BC (void);
-// 0x0000002D Mono.Security.PKCS7/ContentInfo Mono.Security.PKCS7/EncryptedData::get_EncryptionAlgorithm()
-extern void EncryptedData_get_EncryptionAlgorithm_m144F3DFCF4DB066A6A0E06DD048A8ADB8C2C5F0E (void);
-// 0x0000002E System.Byte[] Mono.Security.PKCS7/EncryptedData::get_EncryptedContent()
-extern void EncryptedData_get_EncryptedContent_mBA18486D808A211596313C21AD8D1CC4CA7AD675 (void);
-// 0x0000002F System.Void Mono.Security.X509.SafeBag::.ctor(System.String,Mono.Security.ASN1)
-extern void SafeBag__ctor_m973276E257F603A177341BF83CCE800308572428 (void);
-// 0x00000030 System.String Mono.Security.X509.SafeBag::get_BagOID()
-extern void SafeBag_get_BagOID_m343540F0D4671738426700CC96B54363F5764EF3 (void);
-// 0x00000031 Mono.Security.ASN1 Mono.Security.X509.SafeBag::get_ASN1()
-extern void SafeBag_get_ASN1_m6C25FC014EC17D3DFBF1776501F399BFB5B801FE (void);
-// 0x00000032 System.Void Mono.Security.X509.PKCS12::.ctor()
-extern void PKCS12__ctor_m2C3A9D367266B97FC064A3104F33F14E7CA336B2 (void);
-// 0x00000033 System.Void Mono.Security.X509.PKCS12::.ctor(System.Byte[])
-extern void PKCS12__ctor_mC3435853B3886DB71A02EF9BB5DA50B14FE6F568 (void);
-// 0x00000034 System.Void Mono.Security.X509.PKCS12::.ctor(System.Byte[],System.String)
-extern void PKCS12__ctor_m4AFF7725F36989AD1EA655F0FFF08131080935F7 (void);
-// 0x00000035 System.Void Mono.Security.X509.PKCS12::Decode(System.Byte[])
-extern void PKCS12_Decode_m92F85AD166F6FD30B8095A1802A67B71C4EF16F9 (void);
-// 0x00000036 System.Void Mono.Security.X509.PKCS12::Finalize()
-extern void PKCS12_Finalize_m6C21E70EAE916B8B15F54B77B11EF4D721AB41F7 (void);
-// 0x00000037 System.Void Mono.Security.X509.PKCS12::set_Password(System.String)
-extern void PKCS12_set_Password_mA9595BF56C8818CEA990CDFDF070F8CCE3712508 (void);
-// 0x00000038 System.Int32 Mono.Security.X509.PKCS12::get_IterationCount()
-extern void PKCS12_get_IterationCount_mD6667CEE876C66BB29AB55C452C3A465F99EBEB8 (void);
-// 0x00000039 System.Void Mono.Security.X509.PKCS12::set_IterationCount(System.Int32)
-extern void PKCS12_set_IterationCount_m94CB8346FCD5BCE07B4926677BF9160A7E589C7E (void);
-// 0x0000003A System.Collections.ArrayList Mono.Security.X509.PKCS12::get_Keys()
-extern void PKCS12_get_Keys_mF69C21C35BE9D58466CBE352CDEC5A0AE3902538 (void);
-// 0x0000003B Mono.Security.X509.X509CertificateCollection Mono.Security.X509.PKCS12::get_Certificates()
-extern void PKCS12_get_Certificates_mE05BEE6C455D980C46349BE7C82BE2FF72F85B90 (void);
-// 0x0000003C System.Security.Cryptography.RandomNumberGenerator Mono.Security.X509.PKCS12::get_RNG()
-extern void PKCS12_get_RNG_mE557DA5512C63B0ADC8F56335450EEE761A6BDE7 (void);
-// 0x0000003D System.Boolean Mono.Security.X509.PKCS12::Compare(System.Byte[],System.Byte[])
-extern void PKCS12_Compare_m1C812D4B2A828A8515A83C0B71332694C61B1212 (void);
-// 0x0000003E System.Security.Cryptography.SymmetricAlgorithm Mono.Security.X509.PKCS12::GetSymmetricAlgorithm(System.String,System.Byte[],System.Int32)
-extern void PKCS12_GetSymmetricAlgorithm_m68640DA1843E0C7B3D7E6E997B664D1D50925413 (void);
-// 0x0000003F System.Byte[] Mono.Security.X509.PKCS12::Decrypt(System.String,System.Byte[],System.Int32,System.Byte[])
-extern void PKCS12_Decrypt_mA078FC6312A5C6C61A3CE809298D9E2050DED87E (void);
-// 0x00000040 System.Byte[] Mono.Security.X509.PKCS12::Decrypt(Mono.Security.PKCS7/EncryptedData)
-extern void PKCS12_Decrypt_m6782F064501C10164112A00EFD967D2344DB6063 (void);
-// 0x00000041 System.Byte[] Mono.Security.X509.PKCS12::Encrypt(System.String,System.Byte[],System.Int32,System.Byte[])
-extern void PKCS12_Encrypt_m1640A390A879462A656D073A2267C6AD38E61CB5 (void);
-// 0x00000042 System.Security.Cryptography.DSAParameters Mono.Security.X509.PKCS12::GetExistingParameters(System.Boolean&)
-extern void PKCS12_GetExistingParameters_m49980E57F84DD26EBD0FED15B74BC7487B763638 (void);
-// 0x00000043 System.Void Mono.Security.X509.PKCS12::AddPrivateKey(Mono.Security.Cryptography.PKCS8/PrivateKeyInfo)
-extern void PKCS12_AddPrivateKey_m8E91D17BD87567983B254E7EB719F44A8047837E (void);
-// 0x00000044 System.Void Mono.Security.X509.PKCS12::ReadSafeBag(Mono.Security.ASN1)
-extern void PKCS12_ReadSafeBag_m16BFBB40B927D1B274255CF57741141FBCB834DB (void);
-// 0x00000045 Mono.Security.ASN1 Mono.Security.X509.PKCS12::CertificateSafeBag(Mono.Security.X509.X509Certificate,System.Collections.IDictionary)
-extern void PKCS12_CertificateSafeBag_m587E31F0A421678447232D6D8ECAD7BC063AE54D (void);
-// 0x00000046 System.Byte[] Mono.Security.X509.PKCS12::MAC(System.Byte[],System.Byte[],System.Int32,System.Byte[])
-extern void PKCS12_MAC_m1EF1FB9F78CBD90D875D6BAB93378DBA0FFE61BA (void);
-// 0x00000047 System.Byte[] Mono.Security.X509.PKCS12::GetBytes()
-extern void PKCS12_GetBytes_m0B19E45AA29DC127A38A85A63A829ABDCFEC9519 (void);
-// 0x00000048 Mono.Security.PKCS7/ContentInfo Mono.Security.X509.PKCS12::EncryptedContentInfo(Mono.Security.ASN1,System.String)
-extern void PKCS12_EncryptedContentInfo_m9AC465A9CA767FB62CF6B259CCA7378A9F4D57D3 (void);
-// 0x00000049 System.Void Mono.Security.X509.PKCS12::AddCertificate(Mono.Security.X509.X509Certificate)
-extern void PKCS12_AddCertificate_mEEFA7AA96BF3F499CE0336B916A25754D0319279 (void);
-// 0x0000004A System.Void Mono.Security.X509.PKCS12::AddCertificate(Mono.Security.X509.X509Certificate,System.Collections.IDictionary)
-extern void PKCS12_AddCertificate_m16BB5FCA34E2D10F9D7F19E591E0A89B1A923182 (void);
-// 0x0000004B System.Void Mono.Security.X509.PKCS12::RemoveCertificate(Mono.Security.X509.X509Certificate)
-extern void PKCS12_RemoveCertificate_mF336A1EB38CE70BA57854AE11E8058C4914C5B1D (void);
-// 0x0000004C System.Void Mono.Security.X509.PKCS12::RemoveCertificate(Mono.Security.X509.X509Certificate,System.Collections.IDictionary)
-extern void PKCS12_RemoveCertificate_m11339855E109F5EB8C987EA4FDD41174ED44E3A6 (void);
-// 0x0000004D System.Object Mono.Security.X509.PKCS12::Clone()
-extern void PKCS12_Clone_mD16A0ABD06350861F3D334A873D1790CAA13AF0C (void);
-// 0x0000004E System.Int32 Mono.Security.X509.PKCS12::get_MaximumPasswordLength()
-extern void PKCS12_get_MaximumPasswordLength_mEB3EAAFECAB13715A0D20670E3DF2C6BE1D3A20C (void);
-// 0x0000004F System.Void Mono.Security.X509.PKCS12::.cctor()
-extern void PKCS12__cctor_m83F93331904B1843A598D57ADF9FA1873F9933CA (void);
-// 0x00000050 System.Void Mono.Security.X509.PKCS12/DeriveBytes::.ctor()
-extern void DeriveBytes__ctor_m2019E1467DEBC9341D451E160A88FDB35311526B (void);
-// 0x00000051 System.Void Mono.Security.X509.PKCS12/DeriveBytes::set_HashName(System.String)
-extern void DeriveBytes_set_HashName_m0F931681375810B9E08DA4280BADE04FE4AC998A (void);
-// 0x00000052 System.Void Mono.Security.X509.PKCS12/DeriveBytes::set_IterationCount(System.Int32)
-extern void DeriveBytes_set_IterationCount_mA03E73C42D2C1A4E81E537CDFAEB128B629AD05A (void);
-// 0x00000053 System.Void Mono.Security.X509.PKCS12/DeriveBytes::set_Password(System.Byte[])
-extern void DeriveBytes_set_Password_mF8409B8C5B608689A8054B8118494EE5B4F26B2B (void);
-// 0x00000054 System.Void Mono.Security.X509.PKCS12/DeriveBytes::set_Salt(System.Byte[])
-extern void DeriveBytes_set_Salt_m4276D3746D53D4CD49A54E99A94B5936CB325143 (void);
-// 0x00000055 System.Void Mono.Security.X509.PKCS12/DeriveBytes::Adjust(System.Byte[],System.Int32,System.Byte[])
-extern void DeriveBytes_Adjust_mD75D44B02A7BD2A607D6B00853917CA6096A9259 (void);
-// 0x00000056 System.Byte[] Mono.Security.X509.PKCS12/DeriveBytes::Derive(System.Byte[],System.Int32)
-extern void DeriveBytes_Derive_mCDAFFDF120F6CD3F058A5A86FA1F4D9DC735850F (void);
-// 0x00000057 System.Byte[] Mono.Security.X509.PKCS12/DeriveBytes::DeriveKey(System.Int32)
-extern void DeriveBytes_DeriveKey_m2FBFDDCCA679D069B66CAC8D868761B663AF0176 (void);
-// 0x00000058 System.Byte[] Mono.Security.X509.PKCS12/DeriveBytes::DeriveIV(System.Int32)
-extern void DeriveBytes_DeriveIV_m6D75D59C79495FB8E22C3E9334D7465FE95495F5 (void);
-// 0x00000059 System.Byte[] Mono.Security.X509.PKCS12/DeriveBytes::DeriveMAC(System.Int32)
-extern void DeriveBytes_DeriveMAC_mD9A65467231155B8627A9DCE61292B62E2C0FF4C (void);
-// 0x0000005A System.Void Mono.Security.X509.PKCS12/DeriveBytes::.cctor()
-extern void DeriveBytes__cctor_m2AA51D34DE85F489C9083EEBB16C1F20388828D2 (void);
-// 0x0000005B System.String Mono.Security.X509.X501::ToString(Mono.Security.ASN1)
-extern void X501_ToString_m5642D66AE92CB5912DD4FB596765E0D22D7CBDCE (void);
-// 0x0000005C System.String Mono.Security.X509.X501::ToString(Mono.Security.ASN1,System.Boolean,System.String,System.Boolean)
-extern void X501_ToString_m8D5865C9B957913400DFD4616B029E4C51534AF4 (void);
-// 0x0000005D System.Void Mono.Security.X509.X501::AppendEntry(System.Text.StringBuilder,Mono.Security.ASN1,System.Boolean)
-extern void X501_AppendEntry_mDFC68FB812C06981FCF382A207324D17262A0C0D (void);
-// 0x0000005E System.Void Mono.Security.X509.X501::.cctor()
-extern void X501__cctor_m36610A2EA5490C1343744129669F70D22E919119 (void);
-// 0x0000005F System.Void Mono.Security.X509.X509Certificate::Parse(System.Byte[])
-extern void X509Certificate_Parse_m15676F2FCCCC09A464A379388E72EF516294EE4A (void);
-// 0x00000060 System.Void Mono.Security.X509.X509Certificate::.ctor(System.Byte[])
-extern void X509Certificate__ctor_m7FA1715862C599E29CCABC13D2BE7C60B5BA4792 (void);
-// 0x00000061 System.Byte[] Mono.Security.X509.X509Certificate::GetUnsignedBigInteger(System.Byte[])
-extern void X509Certificate_GetUnsignedBigInteger_m4CC94B40B76210414C947B214FE5F29ED45D7300 (void);
-// 0x00000062 System.Security.Cryptography.DSA Mono.Security.X509.X509Certificate::get_DSA()
-extern void X509Certificate_get_DSA_m79778FCE598BC3DD9574A1FC4CF1D303B2795BEE (void);
-// 0x00000063 System.Void Mono.Security.X509.X509Certificate::set_DSA(System.Security.Cryptography.DSA)
-extern void X509Certificate_set_DSA_m511B0FC59596BFF6E0F8CC3A32EDFECC7FCC309A (void);
-// 0x00000064 System.String Mono.Security.X509.X509Certificate::get_IssuerName()
-extern void X509Certificate_get_IssuerName_mF4DE5485C1769E236507A06AB9A019D4CBEC2DBC (void);
-// 0x00000065 System.String Mono.Security.X509.X509Certificate::get_KeyAlgorithm()
-extern void X509Certificate_get_KeyAlgorithm_m3B359051CA12475AF2F5D272BA50A21638C38060 (void);
-// 0x00000066 System.Byte[] Mono.Security.X509.X509Certificate::get_KeyAlgorithmParameters()
-extern void X509Certificate_get_KeyAlgorithmParameters_m7FB8B497058805070A26ED01B044762BA8DAD208 (void);
-// 0x00000067 System.Byte[] Mono.Security.X509.X509Certificate::get_PublicKey()
-extern void X509Certificate_get_PublicKey_m7F0D3BB209A1D53384A6B9B64B150A0114600B40 (void);
-// 0x00000068 System.Security.Cryptography.RSA Mono.Security.X509.X509Certificate::get_RSA()
-extern void X509Certificate_get_RSA_m8023D47A5A328CC36542F011FAE442C55DF5484C (void);
-// 0x00000069 System.Void Mono.Security.X509.X509Certificate::set_RSA(System.Security.Cryptography.RSA)
-extern void X509Certificate_set_RSA_m5A79E3ADA7C161152EC22B8BAEB50A5DF64E67B2 (void);
-// 0x0000006A System.Byte[] Mono.Security.X509.X509Certificate::get_RawData()
-extern void X509Certificate_get_RawData_m45921F514ED4F62E16860CB29C7F6EB0A22B8D55 (void);
-// 0x0000006B System.Byte[] Mono.Security.X509.X509Certificate::get_SerialNumber()
-extern void X509Certificate_get_SerialNumber_mD54E528D75C47789C4A827C08CF0C1D74BEFA800 (void);
-// 0x0000006C System.String Mono.Security.X509.X509Certificate::get_SignatureAlgorithm()
-extern void X509Certificate_get_SignatureAlgorithm_m374034F77CE5EA3F3313D7288EA813BB8B55076D (void);
-// 0x0000006D System.String Mono.Security.X509.X509Certificate::get_SubjectName()
-extern void X509Certificate_get_SubjectName_mF5717476467F963787451A91B29EFF5DEE68A196 (void);
-// 0x0000006E System.DateTime Mono.Security.X509.X509Certificate::get_ValidFrom()
-extern void X509Certificate_get_ValidFrom_mC6CA06F65FD18BE153C6630672F66AA41CD87905 (void);
-// 0x0000006F System.DateTime Mono.Security.X509.X509Certificate::get_ValidUntil()
-extern void X509Certificate_get_ValidUntil_m90D8928517FDA09867F85CFCA12DBD83B1ADD936 (void);
-// 0x00000070 System.Int32 Mono.Security.X509.X509Certificate::get_Version()
-extern void X509Certificate_get_Version_m7F5AC7485BDA381B4DB38AAE166C99099A30F807 (void);
-// 0x00000071 Mono.Security.ASN1 Mono.Security.X509.X509Certificate::GetIssuerName()
-extern void X509Certificate_GetIssuerName_m1836645D98FFEA2DEDD0908739BE9BAAEF941C8F (void);
-// 0x00000072 Mono.Security.ASN1 Mono.Security.X509.X509Certificate::GetSubjectName()
-extern void X509Certificate_GetSubjectName_m203434EA1EE1423391C7C3C207678547F6FB30B9 (void);
-// 0x00000073 System.Void Mono.Security.X509.X509Certificate::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern void X509Certificate_GetObjectData_m63BC5426BF07B5B664E07F88035C91FFCA764FE6 (void);
-// 0x00000074 System.Byte[] Mono.Security.X509.X509Certificate::PEM(System.String,System.Byte[])
-extern void X509Certificate_PEM_mD8104BC57E70AB093D2CC738064FE105C92DEA3C (void);
-// 0x00000075 System.Void Mono.Security.X509.X509Certificate::.cctor()
-extern void X509Certificate__cctor_mE95E24A9AA1D95948E877ABEF88FDF009B66DE0A (void);
-// 0x00000076 System.Void Mono.Security.X509.X509CertificateCollection::.ctor()
-extern void X509CertificateCollection__ctor_m396311D5C3AD79E6C5E57D1DB95A2CC5337CC27F (void);
-// 0x00000077 Mono.Security.X509.X509Certificate Mono.Security.X509.X509CertificateCollection::get_Item(System.Int32)
-extern void X509CertificateCollection_get_Item_m4E96E557BD88971E73DA7208A98FCEB9ED4224CE (void);
-// 0x00000078 System.Int32 Mono.Security.X509.X509CertificateCollection::Add(Mono.Security.X509.X509Certificate)
-extern void X509CertificateCollection_Add_m2D0875CC263D621BD6FA6C64D78DCB1027AB4F0B (void);
-// 0x00000079 Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator Mono.Security.X509.X509CertificateCollection::GetEnumerator()
-extern void X509CertificateCollection_GetEnumerator_m050B5C64D03FBAA3D67803F0FF4240C708C08BD4 (void);
-// 0x0000007A System.Collections.IEnumerator Mono.Security.X509.X509CertificateCollection::System.Collections.IEnumerable.GetEnumerator()
-extern void X509CertificateCollection_System_Collections_IEnumerable_GetEnumerator_mB99852AD08EAD5895FF680CD9C2F34F6A2D05973 (void);
-// 0x0000007B System.Int32 Mono.Security.X509.X509CertificateCollection::GetHashCode()
-extern void X509CertificateCollection_GetHashCode_mB7BB3C4C18D899CB171C25878FDB34DDA65874D4 (void);
-// 0x0000007C System.Void Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator::.ctor(Mono.Security.X509.X509CertificateCollection)
-extern void X509CertificateEnumerator__ctor_m121D2627B82462B1F3AF7637F188AA1013879E1D (void);
-// 0x0000007D Mono.Security.X509.X509Certificate Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator::get_Current()
-extern void X509CertificateEnumerator_get_Current_mA9AD4D624A06130CD4A92FCDC0B03A52425D5BE6 (void);
-// 0x0000007E System.Object Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator::System.Collections.IEnumerator.get_Current()
-extern void X509CertificateEnumerator_System_Collections_IEnumerator_get_Current_m60E14E055A388DEF34E5D4AB19A73C2789D8B00B (void);
-// 0x0000007F System.Boolean Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator::System.Collections.IEnumerator.MoveNext()
-extern void X509CertificateEnumerator_System_Collections_IEnumerator_MoveNext_m7F2C17CFD3DFD79B14CCEF343CA9C593C064169F (void);
-// 0x00000080 System.Void Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator::System.Collections.IEnumerator.Reset()
-extern void X509CertificateEnumerator_System_Collections_IEnumerator_Reset_m6B7E6EE6C087A2833A11BAF537C0D162619AF889 (void);
-// 0x00000081 System.Boolean Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator::MoveNext()
-extern void X509CertificateEnumerator_MoveNext_m6D9B757FF19EE0AB676DF601D145009646579840 (void);
-// 0x00000082 System.Void Mono.Security.X509.X509Extension::.ctor(Mono.Security.ASN1)
-extern void X509Extension__ctor_m3BD78211E43E218299519AF5F88401FB04125D5E (void);
-// 0x00000083 System.Void Mono.Security.X509.X509Extension::Decode()
-extern void X509Extension_Decode_mDBF2A6CD351657AC30CF814773875980B8416B6D (void);
-// 0x00000084 System.Boolean Mono.Security.X509.X509Extension::Equals(System.Object)
-extern void X509Extension_Equals_m403EE7A4F4D43675B0BB6730A39CD42912B7599A (void);
-// 0x00000085 System.Int32 Mono.Security.X509.X509Extension::GetHashCode()
-extern void X509Extension_GetHashCode_mA7830F122F939F9EB6D5646EFB9291C88AE13BD8 (void);
-// 0x00000086 System.Void Mono.Security.X509.X509Extension::WriteLine(System.Text.StringBuilder,System.Int32,System.Int32)
-extern void X509Extension_WriteLine_m1DBD25537F4F46111B5C26CAA1C5C3AEEC46457F (void);
-// 0x00000087 System.String Mono.Security.X509.X509Extension::ToString()
-extern void X509Extension_ToString_m07EA0FEC3637C52634AD5F6F23C3B849F1A10E97 (void);
-// 0x00000088 System.Void Mono.Security.X509.X509ExtensionCollection::.ctor()
-extern void X509ExtensionCollection__ctor_mA4B27732F618D126931E8402D567F66D798652BE (void);
-// 0x00000089 System.Void Mono.Security.X509.X509ExtensionCollection::.ctor(Mono.Security.ASN1)
-extern void X509ExtensionCollection__ctor_m8EBE054B35F089A5E46889F53CFB3D16B6FAD07A (void);
-// 0x0000008A System.Collections.IEnumerator Mono.Security.X509.X509ExtensionCollection::System.Collections.IEnumerable.GetEnumerator()
-extern void X509ExtensionCollection_System_Collections_IEnumerable_GetEnumerator_m5EFA7D8288E00B93FE4BFEBA2C380B444B7D0077 (void);
-// 0x0000008B System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse::.ctor()
-extern void ChallengeResponse__ctor_m9AB5BB314A3B4DA781379FDA60EDACE1B612D4DA (void);
-// 0x0000008C System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse::.ctor(System.String,System.Byte[])
-extern void ChallengeResponse__ctor_mD3249EC1AC5791EDED79465BDA7B1D0AB77F5BAB (void);
-// 0x0000008D System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse::Finalize()
-extern void ChallengeResponse_Finalize_m41DC5E1AC5386B987F8BE1DE2DC4FDBB20929279 (void);
-// 0x0000008E System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse::set_Password(System.String)
-extern void ChallengeResponse_set_Password_m2C40AAC4DBCB2A21C86BA4E843F8940EE3E3AA74 (void);
-// 0x0000008F System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse::set_Challenge(System.Byte[])
-extern void ChallengeResponse_set_Challenge_m9A643069958E5736F347B896EAA4036F212619AF (void);
-// 0x00000090 System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse::get_LM()
-extern void ChallengeResponse_get_LM_m1AEFEEE449F34F9C182DB77604FEAACA23B18692 (void);
-// 0x00000091 System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse::get_NT()
-extern void ChallengeResponse_get_NT_m95D486C2DA61C32DD3D6D32121152F1377E160AC (void);
-// 0x00000092 System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse::Dispose()
-extern void ChallengeResponse_Dispose_m351D50B1024F5C998E8F7CD2BC0378836F762E68 (void);
-// 0x00000093 System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse::Dispose(System.Boolean)
-extern void ChallengeResponse_Dispose_m8D2FF46F25966BC750707577091D1D5BEB6A88D4 (void);
-// 0x00000094 System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse::GetResponse(System.Byte[])
-extern void ChallengeResponse_GetResponse_mE63016701E0F71486B265CFA8479176E60E6BBCF (void);
-// 0x00000095 System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse::PrepareDESKey(System.Byte[],System.Int32)
-extern void ChallengeResponse_PrepareDESKey_m79CC400AD38861BB663761F665083FC51D9F4806 (void);
-// 0x00000096 System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse::PasswordToKey(System.String,System.Int32)
-extern void ChallengeResponse_PasswordToKey_m33769E342E40CA6B41ECFADD47A089A4FA105A19 (void);
-// 0x00000097 System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse::.cctor()
-extern void ChallengeResponse__cctor_mB87674F8C8BF2A25B0F00AFBEE93AE06FB71F6A5 (void);
-// 0x00000098 System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse2::Compute_LM(System.String,System.Byte[])
-extern void ChallengeResponse2_Compute_LM_m67DF53AB590CCD39DC08F9C64D0643A44C964409 (void);
-// 0x00000099 System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse2::Compute_NTLM_Password(System.String)
-extern void ChallengeResponse2_Compute_NTLM_Password_m0774C73D0A81C974FFFBF5ED82C9A64A5E0BC43E (void);
-// 0x0000009A System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse2::Compute_NTLM(System.String,System.Byte[])
-extern void ChallengeResponse2_Compute_NTLM_mB60677954C7D2E1F6BBCCF3F8AE144E00EC83750 (void);
-// 0x0000009B System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse2::Compute_NTLMv2_Session(System.String,System.Byte[],System.Byte[]&,System.Byte[]&)
-extern void ChallengeResponse2_Compute_NTLMv2_Session_m68A2A2ED92A7FA474246DB7374141E1ACD867EC7 (void);
-// 0x0000009C System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse2::Compute_NTLMv2(Mono.Security.Protocol.Ntlm.Type2Message,System.String,System.String,System.String)
-extern void ChallengeResponse2_Compute_NTLMv2_mB4AF4279146889D2701751C7CF8C22F354BBF790 (void);
-// 0x0000009D System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse2::Compute(Mono.Security.Protocol.Ntlm.Type2Message,Mono.Security.Protocol.Ntlm.NtlmAuthLevel,System.String,System.String,System.String,System.Byte[]&,System.Byte[]&)
-extern void ChallengeResponse2_Compute_m4437BC09F39276EDC80E4EC3D9787E661B36285D (void);
-// 0x0000009E System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse2::GetResponse(System.Byte[],System.Byte[])
-extern void ChallengeResponse2_GetResponse_mA50AB3012F89CA95472EC7A42537DF2899C02770 (void);
-// 0x0000009F System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse2::PrepareDESKey(System.Byte[],System.Int32)
-extern void ChallengeResponse2_PrepareDESKey_m2DB3EAC3E1FFCEABB2D3A015DCB2F14E74B10A62 (void);
-// 0x000000A0 System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse2::PasswordToKey(System.String,System.Int32)
-extern void ChallengeResponse2_PasswordToKey_m71F2837B4BAD276D72D459BDBAC9D1DD8EADFE4B (void);
-// 0x000000A1 System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse2::.cctor()
-extern void ChallengeResponse2__cctor_mD9C56C2F966A924A7A5A4596E07663AC19C3A71B (void);
-// 0x000000A2 System.Void Mono.Security.Protocol.Ntlm.MessageBase::.ctor(System.Int32)
-extern void MessageBase__ctor_m50DC62C3817557901B57A9DA379FC72C471D06C9 (void);
-// 0x000000A3 Mono.Security.Protocol.Ntlm.NtlmFlags Mono.Security.Protocol.Ntlm.MessageBase::get_Flags()
-extern void MessageBase_get_Flags_mCE07CBFE2DC30070AF05C0CEAC5F9037A0F95388 (void);
-// 0x000000A4 System.Void Mono.Security.Protocol.Ntlm.MessageBase::set_Flags(Mono.Security.Protocol.Ntlm.NtlmFlags)
-extern void MessageBase_set_Flags_m541C31E93BBBD1DB08B57CD52070479CE33D6CA6 (void);
-// 0x000000A5 System.Int32 Mono.Security.Protocol.Ntlm.MessageBase::get_Type()
-extern void MessageBase_get_Type_m077A1703299E133EBBEC74D1A2273D9C2E8C0591 (void);
-// 0x000000A6 System.Byte[] Mono.Security.Protocol.Ntlm.MessageBase::PrepareMessage(System.Int32)
-extern void MessageBase_PrepareMessage_m8D013C3AAF44609F8027202C66E307D6325FCC58 (void);
-// 0x000000A7 System.Void Mono.Security.Protocol.Ntlm.MessageBase::Decode(System.Byte[])
-extern void MessageBase_Decode_mF3B45F0056F12C90B6E6D1953C5EA9E45A9875A7 (void);
-// 0x000000A8 System.Boolean Mono.Security.Protocol.Ntlm.MessageBase::CheckHeader(System.Byte[])
-extern void MessageBase_CheckHeader_m5F11E8B2C1F41543DFBED6711F1C8BC3652B3E40 (void);
-// 0x000000A9 System.Byte[] Mono.Security.Protocol.Ntlm.MessageBase::GetBytes()
-// 0x000000AA System.Void Mono.Security.Protocol.Ntlm.MessageBase::.cctor()
-extern void MessageBase__cctor_mE8AEE7E5A8A8790B3B932F33BF6436E1546770A1 (void);
-// 0x000000AB Mono.Security.Protocol.Ntlm.NtlmAuthLevel Mono.Security.Protocol.Ntlm.NtlmSettings::get_DefaultAuthLevel()
-extern void NtlmSettings_get_DefaultAuthLevel_m735BFF525B64E87BB561BD481210A5494E576F8B (void);
-// 0x000000AC System.Void Mono.Security.Protocol.Ntlm.NtlmSettings::.cctor()
-extern void NtlmSettings__cctor_m07E0C8BC13C5BB892017416171C92693469661CC (void);
-// 0x000000AD System.Void Mono.Security.Protocol.Ntlm.Type1Message::.ctor()
-extern void Type1Message__ctor_m395D0C93B2BB6810831A2D5DF36C15EFDC93DE08 (void);
-// 0x000000AE System.Void Mono.Security.Protocol.Ntlm.Type1Message::set_Domain(System.String)
-extern void Type1Message_set_Domain_m38C0D490939A07EE001A4F1CD68C0158E258096B (void);
-// 0x000000AF System.Void Mono.Security.Protocol.Ntlm.Type1Message::set_Host(System.String)
-extern void Type1Message_set_Host_m4DADB35E49A8FBD538A1AD49E73C30973AB7BDB5 (void);
-// 0x000000B0 System.Void Mono.Security.Protocol.Ntlm.Type1Message::Decode(System.Byte[])
-extern void Type1Message_Decode_m614A700BB20577D907D8BD66796EBAFCADC81B62 (void);
-// 0x000000B1 System.Byte[] Mono.Security.Protocol.Ntlm.Type1Message::GetBytes()
-extern void Type1Message_GetBytes_m6AD590F28D7E840F279F6A2D7D39EE24FF9CCC6C (void);
-// 0x000000B2 System.Void Mono.Security.Protocol.Ntlm.Type2Message::.ctor(System.Byte[])
-extern void Type2Message__ctor_mF86941DD8A7EF8888CDF790C8E4FC49673D21FA0 (void);
-// 0x000000B3 System.Void Mono.Security.Protocol.Ntlm.Type2Message::Finalize()
-extern void Type2Message_Finalize_mEEC0D84B67163440B1A9DC4C868D0FD13FB3267E (void);
-// 0x000000B4 System.Byte[] Mono.Security.Protocol.Ntlm.Type2Message::get_Nonce()
-extern void Type2Message_get_Nonce_mB6FEEA67D50C4395AB545C91F06F30C4DE71DBF3 (void);
-// 0x000000B5 System.String Mono.Security.Protocol.Ntlm.Type2Message::get_TargetName()
-extern void Type2Message_get_TargetName_mBA446F3B266BBEC1B56A3C8C320FF004105D8A2F (void);
-// 0x000000B6 System.Byte[] Mono.Security.Protocol.Ntlm.Type2Message::get_TargetInfo()
-extern void Type2Message_get_TargetInfo_m6EA54F5C8020067B45960FBD55D0FE8BEE002BBC (void);
-// 0x000000B7 System.Void Mono.Security.Protocol.Ntlm.Type2Message::Decode(System.Byte[])
-extern void Type2Message_Decode_m69B2777BF0D111CEAB31DBF1DB88BF30258018E7 (void);
-// 0x000000B8 System.Byte[] Mono.Security.Protocol.Ntlm.Type2Message::GetBytes()
-extern void Type2Message_GetBytes_m2F1677E7C49619D99881E52F99D6809B9B1C2CD4 (void);
-// 0x000000B9 System.Void Mono.Security.Protocol.Ntlm.Type3Message::.ctor(Mono.Security.Protocol.Ntlm.Type2Message)
-extern void Type3Message__ctor_mCE4962FBD2E02548911C84E16883C5A09000D216 (void);
-// 0x000000BA System.Void Mono.Security.Protocol.Ntlm.Type3Message::Finalize()
-extern void Type3Message_Finalize_m834B5B8F8702B4E948C4053E0CE6E17103A83B17 (void);
-// 0x000000BB System.Void Mono.Security.Protocol.Ntlm.Type3Message::set_Domain(System.String)
-extern void Type3Message_set_Domain_mA62BE8C9225B57D959F636664EB4C44D6CF4F125 (void);
-// 0x000000BC System.Void Mono.Security.Protocol.Ntlm.Type3Message::set_Password(System.String)
-extern void Type3Message_set_Password_m73943B4C66A60ECFC287DE55FC0C284371A3F37C (void);
-// 0x000000BD System.Void Mono.Security.Protocol.Ntlm.Type3Message::set_Username(System.String)
-extern void Type3Message_set_Username_m6FF8B1FAF6720A561A339F4DBFC9DC5138F3B3BF (void);
-// 0x000000BE System.Void Mono.Security.Protocol.Ntlm.Type3Message::Decode(System.Byte[])
-extern void Type3Message_Decode_m33FA8CE104BDAF3213E6E302A231DF8F013EA55D (void);
-// 0x000000BF System.String Mono.Security.Protocol.Ntlm.Type3Message::DecodeString(System.Byte[],System.Int32,System.Int32)
-extern void Type3Message_DecodeString_m217609F9F466DB06CDB43810BDD62F4C61DB5E13 (void);
-// 0x000000C0 System.Byte[] Mono.Security.Protocol.Ntlm.Type3Message::EncodeString(System.String)
-extern void Type3Message_EncodeString_m6366EF5F1CFB8459CD9C4D1ACDC8B8DD4C89065F (void);
-// 0x000000C1 System.Byte[] Mono.Security.Protocol.Ntlm.Type3Message::GetBytes()
-extern void Type3Message_GetBytes_mCC6E1AB3AD93CDD7A752EDD7E20A85F0CF09F6C1 (void);
-// 0x000000C2 Mono.Security.Interface.AlertLevel Mono.Security.Interface.Alert::get_Level()
-extern void Alert_get_Level_m79BFD90DAFD793E70EC7AA52BBECC3AB912A43DF (void);
-// 0x000000C3 Mono.Security.Interface.AlertDescription Mono.Security.Interface.Alert::get_Description()
-extern void Alert_get_Description_m8F45D04A2D23CA262BEC40D9631BADAF778436CB (void);
-// 0x000000C4 System.Void Mono.Security.Interface.Alert::.ctor(Mono.Security.Interface.AlertDescription)
-extern void Alert__ctor_mCE2F521FC464249C0FC0EA1D3ABEA59834F0BECD (void);
-// 0x000000C5 System.Void Mono.Security.Interface.Alert::inferAlertLevel()
-extern void Alert_inferAlertLevel_mCD714B35DC5FD584905C43D7E9B81D8E0EC05C4A (void);
-// 0x000000C6 System.String Mono.Security.Interface.Alert::ToString()
-extern void Alert_ToString_m6193989BA5ED51533F862A9DE745449D8FFBC1AE (void);
-// 0x000000C7 System.Void Mono.Security.Interface.ValidationResult::.ctor(System.Boolean,System.Boolean,System.Int32,System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors>)
-extern void ValidationResult__ctor_mC7440C9DCE339A6050A327757E3D9966638C4C18 (void);
-// 0x000000C8 System.Boolean Mono.Security.Interface.ValidationResult::get_Trusted()
-extern void ValidationResult_get_Trusted_mFDD8BFA1C1EC21DC970A55810381205D7841D35A (void);
-// 0x000000C9 System.Boolean Mono.Security.Interface.ValidationResult::get_UserDenied()
-extern void ValidationResult_get_UserDenied_m1E4095C966C2AC586B421485A171FF6BA45DE002 (void);
-// 0x000000CA Mono.Security.Interface.MonoTlsSettings Mono.Security.Interface.ICertificateValidator::get_Settings()
-// 0x000000CB System.Boolean Mono.Security.Interface.ICertificateValidator::SelectClientCertificate(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String[],System.Security.Cryptography.X509Certificates.X509Certificate&)
-// 0x000000CC Mono.Security.Interface.ValidationResult Mono.Security.Interface.ICertificateValidator2::ValidateCertificate(System.String,System.Boolean,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain)
-// 0x000000CD System.Void Mono.Security.Interface.CertificateValidationHelper::.cctor()
-extern void CertificateValidationHelper__cctor_m2195A12FC046EB30FB224645A9752E1EC22E89D1 (void);
-// 0x000000CE Mono.Security.Interface.ICertificateValidator2 Mono.Security.Interface.CertificateValidationHelper::GetInternalValidator(Mono.Security.Interface.MonoTlsSettings,Mono.Security.Interface.MonoTlsProvider)
-extern void CertificateValidationHelper_GetInternalValidator_mA9423272BF9414FEC789EFC299B8E55B998C73D5 (void);
-// 0x000000CF System.Void Mono.Security.Interface.IMonoSslStream::AuthenticateAsClient(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Authentication.SslProtocols,System.Boolean)
-// 0x000000D0 System.Threading.Tasks.Task Mono.Security.Interface.IMonoSslStream::AuthenticateAsClientAsync(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Authentication.SslProtocols,System.Boolean)
-// 0x000000D1 System.Int32 Mono.Security.Interface.IMonoSslStream::Read(System.Byte[],System.Int32,System.Int32)
-// 0x000000D2 System.Void Mono.Security.Interface.IMonoSslStream::Write(System.Byte[],System.Int32,System.Int32)
-// 0x000000D3 System.IAsyncResult Mono.Security.Interface.IMonoSslStream::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-// 0x000000D4 System.Int32 Mono.Security.Interface.IMonoSslStream::EndRead(System.IAsyncResult)
-// 0x000000D5 System.IAsyncResult Mono.Security.Interface.IMonoSslStream::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-// 0x000000D6 System.Void Mono.Security.Interface.IMonoSslStream::EndWrite(System.IAsyncResult)
-// 0x000000D7 System.Threading.Tasks.Task Mono.Security.Interface.IMonoSslStream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
-// 0x000000D8 System.Boolean Mono.Security.Interface.IMonoSslStream::get_IsAuthenticated()
-// 0x000000D9 System.Boolean Mono.Security.Interface.IMonoSslStream::get_CanRead()
-// 0x000000DA System.Boolean Mono.Security.Interface.IMonoSslStream::get_CanWrite()
-// 0x000000DB System.Int64 Mono.Security.Interface.IMonoSslStream::get_Length()
-// 0x000000DC System.Int64 Mono.Security.Interface.IMonoSslStream::get_Position()
-// 0x000000DD System.Net.Security.AuthenticatedStream Mono.Security.Interface.IMonoSslStream::get_AuthenticatedStream()
-// 0x000000DE System.Int32 Mono.Security.Interface.IMonoSslStream::get_ReadTimeout()
-// 0x000000DF System.Void Mono.Security.Interface.IMonoSslStream::set_ReadTimeout(System.Int32)
-// 0x000000E0 System.Int32 Mono.Security.Interface.IMonoSslStream::get_WriteTimeout()
-// 0x000000E1 System.Security.Cryptography.X509Certificates.X509Certificate Mono.Security.Interface.IMonoSslStream::get_InternalLocalCertificate()
-// 0x000000E2 Mono.Security.Interface.CipherSuiteCode Mono.Security.Interface.MonoTlsConnectionInfo::get_CipherSuiteCode()
-extern void MonoTlsConnectionInfo_get_CipherSuiteCode_mACB7AF8D79D12CC21D69FAAC2BD54A474E794CDD (void);
-// 0x000000E3 System.Void Mono.Security.Interface.MonoTlsConnectionInfo::set_CipherSuiteCode(Mono.Security.Interface.CipherSuiteCode)
-extern void MonoTlsConnectionInfo_set_CipherSuiteCode_m253BA016164BDD9512F5B04565060EBA07556912 (void);
-// 0x000000E4 Mono.Security.Interface.TlsProtocols Mono.Security.Interface.MonoTlsConnectionInfo::get_ProtocolVersion()
-extern void MonoTlsConnectionInfo_get_ProtocolVersion_m5239605736E2D8CB19D90E91C5E6B300DB60DB3E (void);
-// 0x000000E5 System.Void Mono.Security.Interface.MonoTlsConnectionInfo::set_ProtocolVersion(Mono.Security.Interface.TlsProtocols)
-extern void MonoTlsConnectionInfo_set_ProtocolVersion_m299D388762D5115E7CE0A49EB7F0BD9DAFD36708 (void);
-// 0x000000E6 System.Void Mono.Security.Interface.MonoTlsConnectionInfo::set_PeerDomainName(System.String)
-extern void MonoTlsConnectionInfo_set_PeerDomainName_m369B7685E07044B0BE92325A3F7A61A143A9145A (void);
-// 0x000000E7 System.String Mono.Security.Interface.MonoTlsConnectionInfo::ToString()
-extern void MonoTlsConnectionInfo_ToString_m6CC2E3691FEBFD440159152C83525F9EE23C85FB (void);
-// 0x000000E8 System.Void Mono.Security.Interface.MonoTlsConnectionInfo::.ctor()
-extern void MonoTlsConnectionInfo__ctor_m6AA817B4610065EEE20089782EBD3CCBF7D47C21 (void);
-// 0x000000E9 System.Void Mono.Security.Interface.MonoRemoteCertificateValidationCallback::.ctor(System.Object,System.IntPtr)
-extern void MonoRemoteCertificateValidationCallback__ctor_m6ED284D2291C47D34C738D3BB5E562B07A99723A (void);
-// 0x000000EA System.Boolean Mono.Security.Interface.MonoRemoteCertificateValidationCallback::Invoke(System.String,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,Mono.Security.Interface.MonoSslPolicyErrors)
-extern void MonoRemoteCertificateValidationCallback_Invoke_mB9C5C0E8793A64E367BCB9A448EDF6957BE0F967 (void);
-// 0x000000EB System.IAsyncResult Mono.Security.Interface.MonoRemoteCertificateValidationCallback::BeginInvoke(System.String,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,Mono.Security.Interface.MonoSslPolicyErrors,System.AsyncCallback,System.Object)
-extern void MonoRemoteCertificateValidationCallback_BeginInvoke_m85925B5010BEE3C94711FCC54E9E40C58DF47465 (void);
-// 0x000000EC System.Boolean Mono.Security.Interface.MonoRemoteCertificateValidationCallback::EndInvoke(System.IAsyncResult)
-extern void MonoRemoteCertificateValidationCallback_EndInvoke_m12D6AC7EDF856BCBF86A8A134AA873D4DD4F7DF2 (void);
-// 0x000000ED System.Void Mono.Security.Interface.MonoLocalCertificateSelectionCallback::.ctor(System.Object,System.IntPtr)
-extern void MonoLocalCertificateSelectionCallback__ctor_m2C90E472414C4A3B1B1E23C123A2FF0570B94903 (void);
-// 0x000000EE System.Security.Cryptography.X509Certificates.X509Certificate Mono.Security.Interface.MonoLocalCertificateSelectionCallback::Invoke(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String[])
-extern void MonoLocalCertificateSelectionCallback_Invoke_m33848CFEAEC89ADE40CE4A00134634B11492A153 (void);
-// 0x000000EF System.IAsyncResult Mono.Security.Interface.MonoLocalCertificateSelectionCallback::BeginInvoke(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String[],System.AsyncCallback,System.Object)
-extern void MonoLocalCertificateSelectionCallback_BeginInvoke_m0D2BC17668DE12F1D99490613422D3650D3AE7FD (void);
-// 0x000000F0 System.Security.Cryptography.X509Certificates.X509Certificate Mono.Security.Interface.MonoLocalCertificateSelectionCallback::EndInvoke(System.IAsyncResult)
-extern void MonoLocalCertificateSelectionCallback_EndInvoke_m8323C9E39AE668C854BBE764050064E2CD93B04E (void);
-// 0x000000F1 System.Void Mono.Security.Interface.MonoTlsProvider::.ctor()
-extern void MonoTlsProvider__ctor_m158F98FFC13985AEA169D93B13728FE5018B4352 (void);
-// 0x000000F2 System.Guid Mono.Security.Interface.MonoTlsProvider::get_ID()
-// 0x000000F3 System.String Mono.Security.Interface.MonoTlsProvider::get_Name()
-// 0x000000F4 System.Boolean Mono.Security.Interface.MonoTlsProvider::get_SupportsSslStream()
-// 0x000000F5 System.Boolean Mono.Security.Interface.MonoTlsProvider::get_SupportsConnectionInfo()
-// 0x000000F6 System.Boolean Mono.Security.Interface.MonoTlsProvider::get_SupportsMonoExtensions()
-// 0x000000F7 System.Security.Authentication.SslProtocols Mono.Security.Interface.MonoTlsProvider::get_SupportedProtocols()
-// 0x000000F8 Mono.Security.Interface.IMonoSslStream Mono.Security.Interface.MonoTlsProvider::CreateSslStream(System.IO.Stream,System.Boolean,Mono.Security.Interface.MonoTlsSettings)
-// 0x000000F9 Mono.Security.Interface.IMonoSslStream Mono.Security.Interface.MonoTlsProvider::CreateSslStreamInternal(System.Net.Security.SslStream,System.IO.Stream,System.Boolean,Mono.Security.Interface.MonoTlsSettings)
-// 0x000000FA System.Boolean Mono.Security.Interface.MonoTlsProvider::ValidateCertificate(Mono.Security.Interface.ICertificateValidator2,System.String,System.Boolean,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Boolean,System.Security.Cryptography.X509Certificates.X509Chain&,Mono.Security.Interface.MonoSslPolicyErrors&,System.Int32&)
-// 0x000000FB System.Boolean Mono.Security.Interface.MonoTlsProvider::get_SupportsCleanShutdown()
-// 0x000000FC Mono.Security.Interface.MonoRemoteCertificateValidationCallback Mono.Security.Interface.MonoTlsSettings::get_RemoteCertificateValidationCallback()
-extern void MonoTlsSettings_get_RemoteCertificateValidationCallback_m75D6DE3A10E67B8E5BF73AEDA2CB4EA3647254B5 (void);
-// 0x000000FD System.Void Mono.Security.Interface.MonoTlsSettings::set_RemoteCertificateValidationCallback(Mono.Security.Interface.MonoRemoteCertificateValidationCallback)
-extern void MonoTlsSettings_set_RemoteCertificateValidationCallback_m4727CA0470D108748A8D73E255621E3910747200 (void);
-// 0x000000FE Mono.Security.Interface.MonoLocalCertificateSelectionCallback Mono.Security.Interface.MonoTlsSettings::get_ClientCertificateSelectionCallback()
-extern void MonoTlsSettings_get_ClientCertificateSelectionCallback_mFE8E90C0D3E5200210CC9CB235DE5E5533A82017 (void);
-// 0x000000FF System.Void Mono.Security.Interface.MonoTlsSettings::set_ClientCertificateSelectionCallback(Mono.Security.Interface.MonoLocalCertificateSelectionCallback)
-extern void MonoTlsSettings_set_ClientCertificateSelectionCallback_m59891142180E21ADE370A36C12A8D4CF86DF285F (void);
-// 0x00000100 System.Nullable`1<System.Boolean> Mono.Security.Interface.MonoTlsSettings::get_UseServicePointManagerCallback()
-extern void MonoTlsSettings_get_UseServicePointManagerCallback_m28672345E25C0ED1BD4B3E64B8A8A89CCEE86060 (void);
-// 0x00000101 System.Void Mono.Security.Interface.MonoTlsSettings::set_UseServicePointManagerCallback(System.Nullable`1<System.Boolean>)
-extern void MonoTlsSettings_set_UseServicePointManagerCallback_m824D204EDA7D9819914E41351ABC95B05B204720 (void);
-// 0x00000102 System.Boolean Mono.Security.Interface.MonoTlsSettings::get_CallbackNeedsCertificateChain()
-extern void MonoTlsSettings_get_CallbackNeedsCertificateChain_m22912D04EC8EB9DD9093028D0335F5602469CF46 (void);
-// 0x00000103 System.Nullable`1<System.DateTime> Mono.Security.Interface.MonoTlsSettings::get_CertificateValidationTime()
-extern void MonoTlsSettings_get_CertificateValidationTime_m22AC20BD497D64BFFBD56649A26488CC7A88A1E6 (void);
-// 0x00000104 System.Void Mono.Security.Interface.MonoTlsSettings::set_CertificateValidationTime(System.Nullable`1<System.DateTime>)
-extern void MonoTlsSettings_set_CertificateValidationTime_m70332A4AC8116E874D86BE8FBF8C973A28444CA4 (void);
-// 0x00000105 System.Security.Cryptography.X509Certificates.X509CertificateCollection Mono.Security.Interface.MonoTlsSettings::get_TrustAnchors()
-extern void MonoTlsSettings_get_TrustAnchors_mEBC0221CE33DCA689174469D4869AB0A88D533F7 (void);
-// 0x00000106 System.Void Mono.Security.Interface.MonoTlsSettings::set_TrustAnchors(System.Security.Cryptography.X509Certificates.X509CertificateCollection)
-extern void MonoTlsSettings_set_TrustAnchors_m9EFA88A3222857B12554E29FF4BD5FDC865D2F4F (void);
-// 0x00000107 System.Object Mono.Security.Interface.MonoTlsSettings::get_UserSettings()
-extern void MonoTlsSettings_get_UserSettings_m88C0F390E712A6AFB04BAC5C6B81AC5E3F0AE6CA (void);
-// 0x00000108 System.Void Mono.Security.Interface.MonoTlsSettings::set_UserSettings(System.Object)
-extern void MonoTlsSettings_set_UserSettings_mCC8557F5796FD20CFA47B1ADF1D8B1B6CF3ED94C (void);
-// 0x00000109 System.String[] Mono.Security.Interface.MonoTlsSettings::get_CertificateSearchPaths()
-extern void MonoTlsSettings_get_CertificateSearchPaths_mD08803556DCF8EC5220A2DA5E50D3A43310DB2E1 (void);
-// 0x0000010A System.Void Mono.Security.Interface.MonoTlsSettings::set_CertificateSearchPaths(System.String[])
-extern void MonoTlsSettings_set_CertificateSearchPaths_m194ED111193D17E9A5FB4CBD0A977CB4DEB1BCFB (void);
-// 0x0000010B System.Boolean Mono.Security.Interface.MonoTlsSettings::get_SendCloseNotify()
-extern void MonoTlsSettings_get_SendCloseNotify_m18E22AF7BB290C1C1B88EC0B25A087E27A8ACBAE (void);
-// 0x0000010C System.Void Mono.Security.Interface.MonoTlsSettings::set_SendCloseNotify(System.Boolean)
-extern void MonoTlsSettings_set_SendCloseNotify_mB5E4FD7408ECEA4FB6CA4F266CAD1657922A3C59 (void);
-// 0x0000010D System.Nullable`1<Mono.Security.Interface.TlsProtocols> Mono.Security.Interface.MonoTlsSettings::get_EnabledProtocols()
-extern void MonoTlsSettings_get_EnabledProtocols_m01021B4494DA5DE509BB0B40DECCDA9BCDC979BB (void);
-// 0x0000010E System.Void Mono.Security.Interface.MonoTlsSettings::set_EnabledProtocols(System.Nullable`1<Mono.Security.Interface.TlsProtocols>)
-extern void MonoTlsSettings_set_EnabledProtocols_mAD0AB5F09295401C49796C95E3A617916F245A13 (void);
-// 0x0000010F Mono.Security.Interface.CipherSuiteCode[] Mono.Security.Interface.MonoTlsSettings::get_EnabledCiphers()
-extern void MonoTlsSettings_get_EnabledCiphers_mE119485E2178A50C4AE29FDC7AD43A9530FC545B (void);
-// 0x00000110 System.Void Mono.Security.Interface.MonoTlsSettings::set_EnabledCiphers(Mono.Security.Interface.CipherSuiteCode[])
-extern void MonoTlsSettings_set_EnabledCiphers_mFF3FD677F2163E0A841C948DFF8619CEAF6F0FED (void);
-// 0x00000111 System.Void Mono.Security.Interface.MonoTlsSettings::.ctor()
-extern void MonoTlsSettings__ctor_m1CFBA5D423BDCB7107863C1E8519267F0EA2C180 (void);
-// 0x00000112 Mono.Security.Interface.MonoTlsSettings Mono.Security.Interface.MonoTlsSettings::get_DefaultSettings()
-extern void MonoTlsSettings_get_DefaultSettings_mEAE6B9CA2EBD7A5646819B402088804FB433AFDD (void);
-// 0x00000113 Mono.Security.Interface.MonoTlsSettings Mono.Security.Interface.MonoTlsSettings::CopyDefaultSettings()
-extern void MonoTlsSettings_CopyDefaultSettings_mCAE63D35A1593ACEBFBEAB9C94A27493501CA537 (void);
-// 0x00000114 Mono.Security.Interface.ICertificateValidator Mono.Security.Interface.MonoTlsSettings::get_CertificateValidator()
-extern void MonoTlsSettings_get_CertificateValidator_m6578EC980AC6961145A77D1F87C213857623040D (void);
-// 0x00000115 Mono.Security.Interface.MonoTlsSettings Mono.Security.Interface.MonoTlsSettings::CloneWithValidator(Mono.Security.Interface.ICertificateValidator)
-extern void MonoTlsSettings_CloneWithValidator_m2FF8E65806B460D8D1026F35F1FE122CC3BFD8F5 (void);
-// 0x00000116 Mono.Security.Interface.MonoTlsSettings Mono.Security.Interface.MonoTlsSettings::Clone()
-extern void MonoTlsSettings_Clone_m05B631EBD15B008E8B3EF59890C6763069E5EE97 (void);
-// 0x00000117 System.Void Mono.Security.Interface.MonoTlsSettings::.ctor(Mono.Security.Interface.MonoTlsSettings)
-extern void MonoTlsSettings__ctor_m3F78FC0AFF01BCBF07C6BF42EC3DDB17A3B0D465 (void);
-// 0x00000118 System.Void Mono.Security.Interface.TlsException::.ctor(Mono.Security.Interface.Alert,System.String)
-extern void TlsException__ctor_mB13770041DB9489AE621BBD5737A40B9F7E4A973 (void);
-// 0x00000119 System.Void Mono.Security.Interface.TlsException::.ctor(Mono.Security.Interface.AlertDescription,System.String)
-extern void TlsException__ctor_m3A87593B9EED79C7E1E0EDA7618CF0BAC393C2B3 (void);
-// 0x0000011A System.String Mono.Security.Cryptography.CryptoConvert::ToHex(System.Byte[])
-extern void CryptoConvert_ToHex_m567E8BF67E972F8A8AC9DC37BEE4F06521082EF4 (void);
-// 0x0000011B System.Void Mono.Security.Cryptography.MD2::.ctor()
-extern void MD2__ctor_m9633AC3A406B8AD10E76FF3DBB0B7EAD50A73C35 (void);
-// 0x0000011C Mono.Security.Cryptography.MD2 Mono.Security.Cryptography.MD2::Create()
-extern void MD2_Create_m1D4C355C7CCB293BD294B8226C441C85A242CA86 (void);
-// 0x0000011D System.Byte[] Mono.Security.Cryptography.MD2Managed::Padding(System.Int32)
-extern void MD2Managed_Padding_mA9CEBC789540AB10D6F2BFEF5D01141D83E11FEE (void);
-// 0x0000011E System.Void Mono.Security.Cryptography.MD2Managed::.ctor()
-extern void MD2Managed__ctor_mE3AA2A57E8553989C046303967FFCACFD14FDAA7 (void);
-// 0x0000011F System.Void Mono.Security.Cryptography.MD2Managed::Initialize()
-extern void MD2Managed_Initialize_mEB275EAC42F1802F35F9168D5A7D8CE7B9E75FB7 (void);
-// 0x00000120 System.Void Mono.Security.Cryptography.MD2Managed::HashCore(System.Byte[],System.Int32,System.Int32)
-extern void MD2Managed_HashCore_m06260BB1674FBF5C600EB83E46B9E1C7EF5EE3E0 (void);
-// 0x00000121 System.Byte[] Mono.Security.Cryptography.MD2Managed::HashFinal()
-extern void MD2Managed_HashFinal_m510784808BD92EA3224559C89EF49315761DBE67 (void);
-// 0x00000122 System.Void Mono.Security.Cryptography.MD2Managed::MD2Transform(System.Byte[],System.Byte[],System.Byte[],System.Int32)
-extern void MD2Managed_MD2Transform_m8EB84EC950AF3D39C8B216D34AA7B30F86F42058 (void);
-// 0x00000123 System.Void Mono.Security.Cryptography.MD2Managed::.cctor()
-extern void MD2Managed__cctor_m3BC8A30C0C77779DE9B7C4FFE9142150B07F37F1 (void);
-// 0x00000124 System.Void Mono.Security.Cryptography.MD4::.ctor()
-extern void MD4__ctor_mAF3861BF5A1B04B8B9548B3FA3F86D1885AF6E2C (void);
-// 0x00000125 Mono.Security.Cryptography.MD4 Mono.Security.Cryptography.MD4::Create()
-extern void MD4_Create_mF77104ACC4400D868B959C44B0A80EF589E5C234 (void);
-// 0x00000126 System.Void Mono.Security.Cryptography.MD4Managed::.ctor()
-extern void MD4Managed__ctor_mD9002725FBF610D5D90707D63A7A3F53F9B2D48D (void);
-// 0x00000127 System.Void Mono.Security.Cryptography.MD4Managed::Initialize()
-extern void MD4Managed_Initialize_m6D55ABD03BC735582AB3BD81FE908ED0C6956ECA (void);
-// 0x00000128 System.Void Mono.Security.Cryptography.MD4Managed::HashCore(System.Byte[],System.Int32,System.Int32)
-extern void MD4Managed_HashCore_mA84F459B2627C0D8EA928DD40211529B771697CD (void);
-// 0x00000129 System.Byte[] Mono.Security.Cryptography.MD4Managed::HashFinal()
-extern void MD4Managed_HashFinal_mF9223C2032C3413EC485E1D994EBEA7B9FAABAFE (void);
-// 0x0000012A System.Byte[] Mono.Security.Cryptography.MD4Managed::Padding(System.Int32)
-extern void MD4Managed_Padding_m5163C8C0AC12498DC792C609536687445910A064 (void);
-// 0x0000012B System.UInt32 Mono.Security.Cryptography.MD4Managed::F(System.UInt32,System.UInt32,System.UInt32)
-extern void MD4Managed_F_mC216E91A076CF927BA28B434D41118FA94107A2A (void);
-// 0x0000012C System.UInt32 Mono.Security.Cryptography.MD4Managed::G(System.UInt32,System.UInt32,System.UInt32)
-extern void MD4Managed_G_mDD15D1D0F50623D6D57F4C14E146B648C133C7D1 (void);
-// 0x0000012D System.UInt32 Mono.Security.Cryptography.MD4Managed::H(System.UInt32,System.UInt32,System.UInt32)
-extern void MD4Managed_H_mEA3A56D4D2D40FCDACA31166AA69CB18DE4A3A1C (void);
-// 0x0000012E System.UInt32 Mono.Security.Cryptography.MD4Managed::ROL(System.UInt32,System.Byte)
-extern void MD4Managed_ROL_m21E74B8E160CEEB17D89E334605C397424F6C335 (void);
-// 0x0000012F System.Void Mono.Security.Cryptography.MD4Managed::FF(System.UInt32&,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Byte)
-extern void MD4Managed_FF_m7A0746589F1F7054B04004B55E724A4DAFE7B5D1 (void);
-// 0x00000130 System.Void Mono.Security.Cryptography.MD4Managed::GG(System.UInt32&,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Byte)
-extern void MD4Managed_GG_mCFCC9923ED49ECFEAFBB53D75CFCC6D3827D4511 (void);
-// 0x00000131 System.Void Mono.Security.Cryptography.MD4Managed::HH(System.UInt32&,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Byte)
-extern void MD4Managed_HH_m3A124ED6DFE9243C988A8B060614E1FB19D9520E (void);
-// 0x00000132 System.Void Mono.Security.Cryptography.MD4Managed::Encode(System.Byte[],System.UInt32[])
-extern void MD4Managed_Encode_m74D2EABDDEC7F39C91E2C6059CBB8B0CDB23CA7E (void);
-// 0x00000133 System.Void Mono.Security.Cryptography.MD4Managed::Decode(System.UInt32[],System.Byte[],System.Int32)
-extern void MD4Managed_Decode_mC73EFCA8AD16AA45D2060F8BA07D1E61D5999912 (void);
-// 0x00000134 System.Void Mono.Security.Cryptography.MD4Managed::MD4Transform(System.UInt32[],System.Byte[],System.Int32)
-extern void MD4Managed_MD4Transform_mA40D74E0BD5037A627DEB9192BA4C4009BE96C45 (void);
-// 0x00000135 System.Security.Cryptography.HashAlgorithm Mono.Security.Cryptography.PKCS1::CreateFromName(System.String)
-extern void PKCS1_CreateFromName_mBBB3D4843B9B1E678C85DDAD8EDE2FDF8169D7B5 (void);
-// 0x00000136 System.Void Mono.Security.Cryptography.PKCS1::.cctor()
-extern void PKCS1__cctor_m5E165FA0DC8A3260D23BC5B0EEBFEA2363668309 (void);
-// 0x00000137 System.Void Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::.ctor()
-extern void PrivateKeyInfo__ctor_m513A5BDF96132DFA8D718CB5E761D1C39C214DAC (void);
-// 0x00000138 System.Void Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::.ctor(System.Byte[])
-extern void PrivateKeyInfo__ctor_m8640F581031D199E229D4A6AA31026B8EA756040 (void);
-// 0x00000139 System.Byte[] Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::get_PrivateKey()
-extern void PrivateKeyInfo_get_PrivateKey_mFDE27BD70465C0C71949DA3E3E4F752AB7AE1263 (void);
-// 0x0000013A System.Void Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::Decode(System.Byte[])
-extern void PrivateKeyInfo_Decode_mD156E6A6B78A2A93B6D1BDF524AD9FCE9EBB1A62 (void);
-// 0x0000013B System.Byte[] Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::RemoveLeadingZero(System.Byte[])
-extern void PrivateKeyInfo_RemoveLeadingZero_m095360C99508EC21B354AF0AC6C4EA67AC48A6BB (void);
-// 0x0000013C System.Byte[] Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::Normalize(System.Byte[],System.Int32)
-extern void PrivateKeyInfo_Normalize_mFBBB9676EB34EAF23E711BFC6A1DAD13EAE52525 (void);
-// 0x0000013D System.Security.Cryptography.RSA Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::DecodeRSA(System.Byte[])
-extern void PrivateKeyInfo_DecodeRSA_mEAF2C11CDFF27504F19297E9BFFC7AEA5E76C457 (void);
-// 0x0000013E System.Byte[] Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::Encode(System.Security.Cryptography.RSA)
-extern void PrivateKeyInfo_Encode_m5BD66DC87E5D2E9BE4538390321D06C44ED7140C (void);
-// 0x0000013F System.Security.Cryptography.DSA Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::DecodeDSA(System.Byte[],System.Security.Cryptography.DSAParameters)
-extern void PrivateKeyInfo_DecodeDSA_m079B9B162482341C9AE062D24CE3BB86D6723416 (void);
-// 0x00000140 System.Byte[] Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::Encode(System.Security.Cryptography.DSA)
-extern void PrivateKeyInfo_Encode_m5959F34D6EB743D351A0E0E6B2B24910D43EE139 (void);
-// 0x00000141 System.Byte[] Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::Encode(System.Security.Cryptography.AsymmetricAlgorithm)
-extern void PrivateKeyInfo_Encode_m0B6682733B5764EC52E9E2551BBEDDC3F4C74133 (void);
-// 0x00000142 System.Void Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::.ctor()
-extern void EncryptedPrivateKeyInfo__ctor_m6DD099BABFA876AF0B42EB38B46C14EEBCB2CC5B (void);
-// 0x00000143 System.Void Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::.ctor(System.Byte[])
-extern void EncryptedPrivateKeyInfo__ctor_m342DBA8F50EBE7CC3E8C72FA55A086A44EB0595A (void);
-// 0x00000144 System.String Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::get_Algorithm()
-extern void EncryptedPrivateKeyInfo_get_Algorithm_m6E3979843B72EAD0345E7D190562A054347B26E7 (void);
-// 0x00000145 System.Byte[] Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::get_EncryptedData()
-extern void EncryptedPrivateKeyInfo_get_EncryptedData_m41DB5DB34320FF2B84BF2811ADFF9B449E3B9868 (void);
-// 0x00000146 System.Byte[] Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::get_Salt()
-extern void EncryptedPrivateKeyInfo_get_Salt_m5529731CFA0E535CA09D34EC420D78E143E8C879 (void);
-// 0x00000147 System.Int32 Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::get_IterationCount()
-extern void EncryptedPrivateKeyInfo_get_IterationCount_m0FFFFF80E6542001E3AFEC28F9F8DBBA7FEC5FF1 (void);
-// 0x00000148 System.Void Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::Decode(System.Byte[])
-extern void EncryptedPrivateKeyInfo_Decode_m3B7FB3D3766A4617DF21A37E87F9D568B807AAC1 (void);
-// 0x00000149 System.Void Mono.Security.Cryptography.RSAManaged::GenerateKeyPair()
-extern void RSAManaged_GenerateKeyPair_mCF5E65E83533C4515E3B0F7AA80B0D1C13D71191 (void);
-// 0x0000014A System.Boolean Mono.Security.Cryptography.RSAManaged::get_PublicOnly()
-extern void RSAManaged_get_PublicOnly_m7C2ACC9429A47CD9B2C8EF9A881695BD3D6A7E06 (void);
-// 0x0000014B System.Security.Cryptography.RSAParameters Mono.Security.Cryptography.RSAManaged::ExportParameters(System.Boolean)
-extern void RSAManaged_ExportParameters_m2FB27DED4EDC0045C1A7659813E016C6AC5D68A8 (void);
-// 0x0000014C System.Void Mono.Security.Cryptography.RSAManaged::ImportParameters(System.Security.Cryptography.RSAParameters)
-extern void RSAManaged_ImportParameters_m1200237AAD564D262E93EEEB437CD94E4900008B (void);
-// 0x0000014D System.Byte[] Mono.Security.Cryptography.RSAManaged::GetPaddedValue(Mono.Math.BigInteger,System.Int32)
-extern void RSAManaged_GetPaddedValue_mEEE62E8FD9CDBFA014DF4CAC5D8E5B0FB6579FDD (void);
-// 0x0000014E System.Void Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler::.ctor(System.Object,System.IntPtr)
-extern void KeyGeneratedEventHandler__ctor_mEC2E71CDD44D771B588C8E2B263DAA18A161AFF1 (void);
-// 0x0000014F System.Void Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler::Invoke(System.Object,System.EventArgs)
-extern void KeyGeneratedEventHandler_Invoke_mB39E17F6641982F45D5C147AB8D82E0A17D5ABC0 (void);
-// 0x00000150 System.IAsyncResult Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler::BeginInvoke(System.Object,System.EventArgs,System.AsyncCallback,System.Object)
-extern void KeyGeneratedEventHandler_BeginInvoke_mFFF44EBD0D651258101E1458AB1B0AD29CF24375 (void);
-// 0x00000151 System.Void Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler::EndInvoke(System.IAsyncResult)
-extern void KeyGeneratedEventHandler_EndInvoke_mEE04B5ACD0BC9E784EC2211D7138C3E6309491BF (void);
-// 0x00000152 System.Void Mono.Math.BigInteger::.ctor(Mono.Math.BigInteger/Sign,System.UInt32)
-extern void BigInteger__ctor_mCC2E747B046C8ED9773CCACA21F56F90A2CD4D42 (void);
-// 0x00000153 System.Void Mono.Math.BigInteger::.ctor(Mono.Math.BigInteger)
-extern void BigInteger__ctor_m9C372289E672EC45500A2346BD39BCBBB1B1E111 (void);
-// 0x00000154 System.Void Mono.Math.BigInteger::.ctor(Mono.Math.BigInteger,System.UInt32)
-extern void BigInteger__ctor_m32F3FC1BBD22BBD41BEF443E9D510555DDD336C1 (void);
-// 0x00000155 System.Void Mono.Math.BigInteger::.ctor(System.Byte[])
-extern void BigInteger__ctor_m1332FE3CBD15BE962DF128AB329CD86EE0450EA4 (void);
-// 0x00000156 System.Void Mono.Math.BigInteger::.ctor(System.UInt32)
-extern void BigInteger__ctor_m2D9EC292E7198117AACAD6C1306C971BC74B5E83 (void);
-// 0x00000157 Mono.Math.BigInteger Mono.Math.BigInteger::op_Implicit(System.UInt32)
-extern void BigInteger_op_Implicit_m1FC11FDE7ECF4D251F510EF8EB9DC9B5357D742F (void);
-// 0x00000158 Mono.Math.BigInteger Mono.Math.BigInteger::op_Implicit(System.Int32)
-extern void BigInteger_op_Implicit_m2A8665726D0DA223774962B8139259EAC255A104 (void);
-// 0x00000159 Mono.Math.BigInteger Mono.Math.BigInteger::op_Subtraction(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern void BigInteger_op_Subtraction_mEB2B6795E0AF13288A96D87826031CEC054E6052 (void);
-// 0x0000015A System.UInt32 Mono.Math.BigInteger::op_Modulus(Mono.Math.BigInteger,System.UInt32)
-extern void BigInteger_op_Modulus_m09E68D30D670ED308F34F02EBC047FD60B91D78F (void);
-// 0x0000015B Mono.Math.BigInteger Mono.Math.BigInteger::op_Modulus(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern void BigInteger_op_Modulus_mF4B55A9D8FCFF2B70A1A55BA31A6E0D75367D779 (void);
-// 0x0000015C Mono.Math.BigInteger Mono.Math.BigInteger::op_Division(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern void BigInteger_op_Division_mBB896F6E9247AB3B3D47E1B125624FA68EE5C4EC (void);
-// 0x0000015D Mono.Math.BigInteger Mono.Math.BigInteger::op_Multiply(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern void BigInteger_op_Multiply_m28820029500895BCAE0C547024B6BD72A9688500 (void);
-// 0x0000015E Mono.Math.BigInteger Mono.Math.BigInteger::op_LeftShift(Mono.Math.BigInteger,System.Int32)
-extern void BigInteger_op_LeftShift_mD63F9627F80FBAF4DE122CE66DC18FC3BF54EC64 (void);
-// 0x0000015F Mono.Math.BigInteger Mono.Math.BigInteger::op_RightShift(Mono.Math.BigInteger,System.Int32)
-extern void BigInteger_op_RightShift_m908AD9F9676FCE3A9AFB5A75E2ACA708E584B10D (void);
-// 0x00000160 System.Security.Cryptography.RandomNumberGenerator Mono.Math.BigInteger::get_Rng()
-extern void BigInteger_get_Rng_mED248B5F69559800CD101728FF2F1C604B57E362 (void);
-// 0x00000161 Mono.Math.BigInteger Mono.Math.BigInteger::GenerateRandom(System.Int32,System.Security.Cryptography.RandomNumberGenerator)
-extern void BigInteger_GenerateRandom_mBF43DEB351D628870DA3B410AF7E51561CB0ABB3 (void);
-// 0x00000162 Mono.Math.BigInteger Mono.Math.BigInteger::GenerateRandom(System.Int32)
-extern void BigInteger_GenerateRandom_m5A8D5BD2E42BAF3E88561F63B659331320DBDE9E (void);
-// 0x00000163 System.Int32 Mono.Math.BigInteger::BitCount()
-extern void BigInteger_BitCount_m45B7662F932C61BE4F5587C5C54C09F04B186825 (void);
-// 0x00000164 System.Boolean Mono.Math.BigInteger::TestBit(System.Int32)
-extern void BigInteger_TestBit_m42A773C5309B8F9B3441C33FC07FFD5022EC9029 (void);
-// 0x00000165 System.Void Mono.Math.BigInteger::SetBit(System.UInt32)
-extern void BigInteger_SetBit_m63E76C0C3E8DEFA49448853F788157B726A54074 (void);
-// 0x00000166 System.Void Mono.Math.BigInteger::SetBit(System.UInt32,System.Boolean)
-extern void BigInteger_SetBit_mCB21AD7EF7A2D5447F20AB222F1D5F6A5ADB82FE (void);
-// 0x00000167 System.Int32 Mono.Math.BigInteger::LowestSetBit()
-extern void BigInteger_LowestSetBit_mF8C2977FB890527F2266940AE195781B6A1B1CCD (void);
-// 0x00000168 System.Byte[] Mono.Math.BigInteger::GetBytes()
-extern void BigInteger_GetBytes_m44C3D34E6D3D241D5624EB3C606DB836800FB8CA (void);
-// 0x00000169 System.Boolean Mono.Math.BigInteger::op_Equality(Mono.Math.BigInteger,System.UInt32)
-extern void BigInteger_op_Equality_m8C3BE7CDEE443C682DB5E7DDCDF69293D773D663 (void);
-// 0x0000016A System.Boolean Mono.Math.BigInteger::op_Inequality(Mono.Math.BigInteger,System.UInt32)
-extern void BigInteger_op_Inequality_m6B8B6D52141713E7267691469F79A0990DBB5E63 (void);
-// 0x0000016B System.Boolean Mono.Math.BigInteger::op_Equality(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern void BigInteger_op_Equality_m5C5EE2AB42889F73925C8EABEE659B4B0FA22F64 (void);
-// 0x0000016C System.Boolean Mono.Math.BigInteger::op_Inequality(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern void BigInteger_op_Inequality_mD61A5FCAFD6C1988AC65022BB1125E8A15C3C4DF (void);
-// 0x0000016D System.Boolean Mono.Math.BigInteger::op_GreaterThan(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern void BigInteger_op_GreaterThan_m67BB32BE6636B141DD00245C130BE236C8C18A9C (void);
-// 0x0000016E System.Boolean Mono.Math.BigInteger::op_LessThan(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern void BigInteger_op_LessThan_mB88504CCF6B0A00CAF65AC4A17C1417F89AF03FD (void);
-// 0x0000016F System.Boolean Mono.Math.BigInteger::op_GreaterThanOrEqual(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern void BigInteger_op_GreaterThanOrEqual_m34669FCE574F8B3EF00808F69DB97CA5504D2C85 (void);
-// 0x00000170 System.Boolean Mono.Math.BigInteger::op_LessThanOrEqual(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern void BigInteger_op_LessThanOrEqual_m4225BB4FF0A26B307FD6C34A44CCA3BFB104BC30 (void);
-// 0x00000171 System.String Mono.Math.BigInteger::ToString(System.UInt32)
-extern void BigInteger_ToString_m285B9E673586DFF6DBB4EC46B3CB5667725A2A0A (void);
-// 0x00000172 System.String Mono.Math.BigInteger::ToString(System.UInt32,System.String)
-extern void BigInteger_ToString_mCC667096E01C81AE62D042E465FA2612B47B8B98 (void);
-// 0x00000173 System.Void Mono.Math.BigInteger::Normalize()
-extern void BigInteger_Normalize_m2D677E543A7DCC6CDCA4F4ADA126649A5668729B (void);
-// 0x00000174 System.Int32 Mono.Math.BigInteger::GetHashCode()
-extern void BigInteger_GetHashCode_m6F80CD19E6ADB93169F89E39089EBE3EF275521A (void);
-// 0x00000175 System.String Mono.Math.BigInteger::ToString()
-extern void BigInteger_ToString_m765153117590BBB66DF8E68BD0C58F71401F7AC5 (void);
-// 0x00000176 System.Boolean Mono.Math.BigInteger::Equals(System.Object)
-extern void BigInteger_Equals_m6663F8A6599EE7F42DA5CA40BC983E50ED878373 (void);
-// 0x00000177 Mono.Math.BigInteger Mono.Math.BigInteger::ModInverse(Mono.Math.BigInteger)
-extern void BigInteger_ModInverse_mD2D17248B9BEE7A63C225309B7EDFEC39FA4C80D (void);
-// 0x00000178 Mono.Math.BigInteger Mono.Math.BigInteger::GeneratePseudoPrime(System.Int32)
-extern void BigInteger_GeneratePseudoPrime_m429EBF650501034FD40CB4F0512EBA6DBBB7FA11 (void);
-// 0x00000179 System.Void Mono.Math.BigInteger::Incr2()
-extern void BigInteger_Incr2_m3B781075BBDCDA172B7E9EA863AE0A5997B4758E (void);
-// 0x0000017A System.Void Mono.Math.BigInteger::.cctor()
-extern void BigInteger__cctor_m1D4896EDD51FBD6D85008DE5ED62EC9C483623AF (void);
-// 0x0000017B System.Void Mono.Math.BigInteger/ModulusRing::.ctor(Mono.Math.BigInteger)
-extern void ModulusRing__ctor_m97D99B27E28AB20BBE2836B04D5466DA81456BCC (void);
-// 0x0000017C System.Void Mono.Math.BigInteger/ModulusRing::BarrettReduction(Mono.Math.BigInteger)
-extern void ModulusRing_BarrettReduction_mEF6900BAA295B45A7661C70DA47EB31193670AB5 (void);
-// 0x0000017D Mono.Math.BigInteger Mono.Math.BigInteger/ModulusRing::Multiply(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern void ModulusRing_Multiply_m3246E3E3C60AA391E6D442E9CE85AF73C972AAB8 (void);
-// 0x0000017E Mono.Math.BigInteger Mono.Math.BigInteger/ModulusRing::Difference(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern void ModulusRing_Difference_mF52990DBAC72533606158C406FE5055D550EE8B1 (void);
-// 0x0000017F Mono.Math.BigInteger Mono.Math.BigInteger/ModulusRing::Pow(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern void ModulusRing_Pow_m6AA03EF88208478DB150ADF4E8ABC327B2369192 (void);
-// 0x00000180 Mono.Math.BigInteger Mono.Math.BigInteger/ModulusRing::Pow(System.UInt32,Mono.Math.BigInteger)
-extern void ModulusRing_Pow_m66800E0D88B48BEBF441FBE4B509555E03FC1382 (void);
-// 0x00000181 Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::Subtract(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern void Kernel_Subtract_mF62E0A4C04E4DCE6C4F66719F57DED7BD71BD9B7 (void);
-// 0x00000182 System.Void Mono.Math.BigInteger/Kernel::MinusEq(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern void Kernel_MinusEq_m0A41AF713CCF44AB62FD5E1288AA2C5BD470E967 (void);
-// 0x00000183 System.Void Mono.Math.BigInteger/Kernel::PlusEq(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern void Kernel_PlusEq_m4C2965A8B169E32B98FE7A60AE8C09505428B246 (void);
-// 0x00000184 Mono.Math.BigInteger/Sign Mono.Math.BigInteger/Kernel::Compare(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern void Kernel_Compare_m2C45218B8EE4E2ECDC85068A37BDB93E07FA5858 (void);
-// 0x00000185 System.UInt32 Mono.Math.BigInteger/Kernel::SingleByteDivideInPlace(Mono.Math.BigInteger,System.UInt32)
-extern void Kernel_SingleByteDivideInPlace_mA797A6BBEB759D97847E10A6A8B8ADD53B5B8F27 (void);
-// 0x00000186 System.UInt32 Mono.Math.BigInteger/Kernel::DwordMod(Mono.Math.BigInteger,System.UInt32)
-extern void Kernel_DwordMod_m174B02D0DE310C71A61CEE61C44274FB706FE5DE (void);
-// 0x00000187 Mono.Math.BigInteger[] Mono.Math.BigInteger/Kernel::DwordDivMod(Mono.Math.BigInteger,System.UInt32)
-extern void Kernel_DwordDivMod_mA55718811BFF0286A3DB25B4EEF0B0FF005BB2B5 (void);
-// 0x00000188 Mono.Math.BigInteger[] Mono.Math.BigInteger/Kernel::multiByteDivide(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern void Kernel_multiByteDivide_mEB8FB4B5D405F43102EF158131E33806DF03588B (void);
-// 0x00000189 Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::LeftShift(Mono.Math.BigInteger,System.Int32)
-extern void Kernel_LeftShift_mEEEE8733CA2CC152C4CD9A782C063CC93DB573DF (void);
-// 0x0000018A Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::RightShift(Mono.Math.BigInteger,System.Int32)
-extern void Kernel_RightShift_m609BADF35E34FDE8AF59E5BA07E5224F7C194541 (void);
-// 0x0000018B System.Void Mono.Math.BigInteger/Kernel::Multiply(System.UInt32[],System.UInt32,System.UInt32,System.UInt32[],System.UInt32,System.UInt32,System.UInt32[],System.UInt32)
-extern void Kernel_Multiply_m47EE24F797DD6009167F0F5B9059C72CBD31D8CD (void);
-// 0x0000018C System.Void Mono.Math.BigInteger/Kernel::MultiplyMod2p32pmod(System.UInt32[],System.Int32,System.Int32,System.UInt32[],System.Int32,System.Int32,System.UInt32[],System.Int32,System.Int32)
-extern void Kernel_MultiplyMod2p32pmod_mE8E796D86E0098053DEF7755FF1605D774AAED49 (void);
-// 0x0000018D System.UInt32 Mono.Math.BigInteger/Kernel::modInverse(Mono.Math.BigInteger,System.UInt32)
-extern void Kernel_modInverse_mAE70326F9AD6797DD3FC42DE574E855FB63EFAB4 (void);
-// 0x0000018E Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::modInverse(Mono.Math.BigInteger,Mono.Math.BigInteger)
-extern void Kernel_modInverse_mF0EFBFDE4FB6CF7E807BDB10EAB681452C8B27D9 (void);
-// 0x0000018F System.Void Mono.Math.Prime.PrimalityTest::.ctor(System.Object,System.IntPtr)
-extern void PrimalityTest__ctor_m30CE19F32C098EEE77598B50CFF1A5214B145BDB (void);
-// 0x00000190 System.Boolean Mono.Math.Prime.PrimalityTest::Invoke(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
-extern void PrimalityTest_Invoke_m028D0C6E9367E09AB2E97E719B2CD9B826ADAD38 (void);
-// 0x00000191 System.IAsyncResult Mono.Math.Prime.PrimalityTest::BeginInvoke(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor,System.AsyncCallback,System.Object)
-extern void PrimalityTest_BeginInvoke_mF38A30D28C20AD0BEDA929215AEE48D61BB77852 (void);
-// 0x00000192 System.Boolean Mono.Math.Prime.PrimalityTest::EndInvoke(System.IAsyncResult)
-extern void PrimalityTest_EndInvoke_m1B62ECEDA5FD124DDB539B64E484F171D2E3AC2D (void);
-// 0x00000193 System.Int32 Mono.Math.Prime.PrimalityTests::GetSPPRounds(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
-extern void PrimalityTests_GetSPPRounds_mE7B1E8DE5E1C111E8D520A0F896CE47B63B8F869 (void);
-// 0x00000194 System.Boolean Mono.Math.Prime.PrimalityTests::RabinMillerTest(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
-extern void PrimalityTests_RabinMillerTest_m59EDFCB116261012D20CCA91A39263CEE8F2EAB9 (void);
-// 0x00000195 Mono.Math.Prime.ConfidenceFactor Mono.Math.Prime.Generator.PrimeGeneratorBase::get_Confidence()
-extern void PrimeGeneratorBase_get_Confidence_mA51F9D94806DC7451E16B8DF9F7C27179EB0B856 (void);
-// 0x00000196 Mono.Math.Prime.PrimalityTest Mono.Math.Prime.Generator.PrimeGeneratorBase::get_PrimalityTest()
-extern void PrimeGeneratorBase_get_PrimalityTest_m58868EBF050B911EEF3DE63F6198A949B9DCB4CB (void);
-// 0x00000197 System.Int32 Mono.Math.Prime.Generator.PrimeGeneratorBase::get_TrialDivisionBounds()
-extern void PrimeGeneratorBase_get_TrialDivisionBounds_mFD1DCEC1C325B3828F3A10E8EDA890298D5A4F51 (void);
-// 0x00000198 Mono.Math.BigInteger Mono.Math.Prime.Generator.PrimeGeneratorBase::GenerateNewPrime(System.Int32)
-// 0x00000199 System.Void Mono.Math.Prime.Generator.PrimeGeneratorBase::.ctor()
-extern void PrimeGeneratorBase__ctor_m12BDBF1F487723D1E872C1373C3E7885FA2EB56F (void);
-// 0x0000019A Mono.Math.BigInteger Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase::GenerateSearchBase(System.Int32,System.Object)
-extern void SequentialSearchPrimeGeneratorBase_GenerateSearchBase_m5E35D962A17A69F195837C3B5C6F1459741CE9CB (void);
-// 0x0000019B Mono.Math.BigInteger Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase::GenerateNewPrime(System.Int32)
-extern void SequentialSearchPrimeGeneratorBase_GenerateNewPrime_mC3B026D6D5291AFA9EB96DE3F91A8DEE0B909517 (void);
-// 0x0000019C Mono.Math.BigInteger Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase::GenerateNewPrime(System.Int32,System.Object)
-extern void SequentialSearchPrimeGeneratorBase_GenerateNewPrime_m28F971E0582CC8A0EFF57850840F6EEE3683EA9A (void);
-// 0x0000019D System.Boolean Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase::IsPrimeAcceptable(Mono.Math.BigInteger,System.Object)
-extern void SequentialSearchPrimeGeneratorBase_IsPrimeAcceptable_m4DB1A1AC4B92C6F16F995FEF35A20338309AC66C (void);
-// 0x0000019E System.Void Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase::.ctor()
-extern void SequentialSearchPrimeGeneratorBase__ctor_mC10DBB518955FE5BCC22E9482B4114A942BAF137 (void);
-// 0x0000019F System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
-extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m22BD35ED6ACEE075A95775B5056B1CE0903AC2C3 (void);
-static Il2CppMethodPointer s_methodPointers[415] = 
+extern void Locale_GetText_mBF03E5F490A30E7BDF18D916A1D7A904C07A4F1E (void);
+// 0x00000002 System.String Locale::GetText(System.String,System.Object[])
+extern void Locale_GetText_m2CD7CCD229D8F3DDFF65B3A064F87756C3A1AFDF (void);
+// 0x00000003 System.Void Mono.Security.ASN1::.ctor(System.Byte)
+extern void ASN1__ctor_mA9AE2197367C1E13DBFDA67E0A383167F52CC114 (void);
+// 0x00000004 System.Void Mono.Security.ASN1::.ctor(System.Byte,System.Byte[])
+extern void ASN1__ctor_mAA538F9E1BE0DE739E9747BC3BC71DC030B018AA (void);
+// 0x00000005 System.Void Mono.Security.ASN1::.ctor(System.Byte[])
+extern void ASN1__ctor_m950BFCCF44A987ACBA12142624AA222200EE503E (void);
+// 0x00000006 System.Int32 Mono.Security.ASN1::get_Count()
+extern void ASN1_get_Count_mBE45E73126FAD2694E9059CAC53B7AC9A5F60833 (void);
+// 0x00000007 System.Byte Mono.Security.ASN1::get_Tag()
+extern void ASN1_get_Tag_m1984CF0DDF54424E61BA3650D93CBA0DCB58F232 (void);
+// 0x00000008 System.Int32 Mono.Security.ASN1::get_Length()
+extern void ASN1_get_Length_mC03E8FE25B4BD7B97EA3D8591E01A457F491C7FE (void);
+// 0x00000009 System.Byte[] Mono.Security.ASN1::get_Value()
+extern void ASN1_get_Value_mA6F9BE5AC19AC060AC42673C8FD5AA864EA046B6 (void);
+// 0x0000000A System.Void Mono.Security.ASN1::set_Value(System.Byte[])
+extern void ASN1_set_Value_mAFFA885810928715B379EAD478AA3961E8ACD589 (void);
+// 0x0000000B System.Boolean Mono.Security.ASN1::CompareArray(System.Byte[],System.Byte[])
+extern void ASN1_CompareArray_mA7A05EE692B23D6D9A7C0E5B8CCC4CDECDAC0A79 (void);
+// 0x0000000C System.Boolean Mono.Security.ASN1::CompareValue(System.Byte[])
+extern void ASN1_CompareValue_m7397F4657555C6ACAF6622DE143C89E9E7593554 (void);
+// 0x0000000D Mono.Security.ASN1 Mono.Security.ASN1::Add(Mono.Security.ASN1)
+extern void ASN1_Add_m4C61487A6CCF48D5CEB0D97B248FE31F9FCD849F (void);
+// 0x0000000E System.Byte[] Mono.Security.ASN1::GetBytes()
+extern void ASN1_GetBytes_m3B7DABFDBE6BF7F9C926E4C8A16FC6BE6D1CE67B (void);
+// 0x0000000F System.Void Mono.Security.ASN1::Decode(System.Byte[],System.Int32&,System.Int32)
+extern void ASN1_Decode_mC4CF3CB2CC1DB454AA9C720BA79520956FB1F77B (void);
+// 0x00000010 System.Void Mono.Security.ASN1::DecodeTLV(System.Byte[],System.Int32&,System.Byte&,System.Int32&,System.Byte[]&)
+extern void ASN1_DecodeTLV_mD4465394202DA7B0D37B9453CDE039233969E9DF (void);
+// 0x00000011 Mono.Security.ASN1 Mono.Security.ASN1::get_Item(System.Int32)
+extern void ASN1_get_Item_mF105DA24F3BE9FA3697229CF99B1602B736B647F (void);
+// 0x00000012 Mono.Security.ASN1 Mono.Security.ASN1::Element(System.Int32,System.Byte)
+extern void ASN1_Element_m97C1D5E39B14AC29D2F7AB0226A6E6CA2952B7C9 (void);
+// 0x00000013 System.String Mono.Security.ASN1::ToString()
+extern void ASN1_ToString_m4995F083B02F8FEF578ECA6EE73A257821F50A00 (void);
+// 0x00000014 Mono.Security.ASN1 Mono.Security.ASN1Convert::FromInt32(System.Int32)
+extern void ASN1Convert_FromInt32_m9095C18057D59AF7CF8A46687596506E4DD51137 (void);
+// 0x00000015 Mono.Security.ASN1 Mono.Security.ASN1Convert::FromOid(System.String)
+extern void ASN1Convert_FromOid_m52B6C819090CC0108855EA536BE49C238A035333 (void);
+// 0x00000016 Mono.Security.ASN1 Mono.Security.ASN1Convert::FromUnsignedBigInteger(System.Byte[])
+extern void ASN1Convert_FromUnsignedBigInteger_m02FCA27FD400AD7C2A1F38283D38A56486924783 (void);
+// 0x00000017 System.Int32 Mono.Security.ASN1Convert::ToInt32(Mono.Security.ASN1)
+extern void ASN1Convert_ToInt32_m9A470D9CBF2F909B72C2A463DD2BA95BA8B6E9B8 (void);
+// 0x00000018 System.String Mono.Security.ASN1Convert::ToOid(Mono.Security.ASN1)
+extern void ASN1Convert_ToOid_mA14AFFFD01E1AC0ADA5149B502CBBEB3A5035DBC (void);
+// 0x00000019 System.DateTime Mono.Security.ASN1Convert::ToDateTime(Mono.Security.ASN1)
+extern void ASN1Convert_ToDateTime_mFC0728584C74F8A86DCB36EA9D076805D8769C26 (void);
+// 0x0000001A System.Byte[] Mono.Security.BitConverterLE::GetUIntBytes(System.Byte*)
+extern void BitConverterLE_GetUIntBytes_mFADA7EFA8289488D269C88C2ED1B0787F6CCE124 (void);
+// 0x0000001B System.Byte[] Mono.Security.BitConverterLE::GetULongBytes(System.Byte*)
+extern void BitConverterLE_GetULongBytes_mC40E59DF2C865567C4449B8E0CA04D3C628E00EA (void);
+// 0x0000001C System.Byte[] Mono.Security.BitConverterLE::GetBytes(System.Int32)
+extern void BitConverterLE_GetBytes_mDA42058C891A6EAF96066B6E621888A629B9C990 (void);
+// 0x0000001D System.Byte[] Mono.Security.BitConverterLE::GetBytes(System.Int64)
+extern void BitConverterLE_GetBytes_m320EEACA4BC7E4DA18AF68994F0E20A5A94E0EB0 (void);
+// 0x0000001E System.Void Mono.Security.BitConverterLE::UShortFromBytes(System.Byte*,System.Byte[],System.Int32)
+extern void BitConverterLE_UShortFromBytes_mFBC4E143EDF81135EC290C2BF86A8135053A00BE (void);
+// 0x0000001F System.Void Mono.Security.BitConverterLE::UIntFromBytes(System.Byte*,System.Byte[],System.Int32)
+extern void BitConverterLE_UIntFromBytes_mAED3B5DC091503AB5C5999238154FF84F8B522F9 (void);
+// 0x00000020 System.Int32 Mono.Security.BitConverterLE::ToInt32(System.Byte[],System.Int32)
+extern void BitConverterLE_ToInt32_m2297FAB5095F11250B3F11D2C4F3CDC5FF410CC8 (void);
+// 0x00000021 System.UInt16 Mono.Security.BitConverterLE::ToUInt16(System.Byte[],System.Int32)
+extern void BitConverterLE_ToUInt16_mCEF75C82E29791EE2719AC882211226BFCC84021 (void);
+// 0x00000022 System.UInt32 Mono.Security.BitConverterLE::ToUInt32(System.Byte[],System.Int32)
+extern void BitConverterLE_ToUInt32_mDADBC5CAD1DE74FD9A0611F70C4C3F01F66BEAA0 (void);
+// 0x00000023 System.Void Mono.Security.PKCS7/ContentInfo::.ctor()
+extern void ContentInfo__ctor_m1B4B1B164D5159FE64E1346E1DE36B4E7B6F4078 (void);
+// 0x00000024 System.Void Mono.Security.PKCS7/ContentInfo::.ctor(System.String)
+extern void ContentInfo__ctor_m95EA3D16DCE96C9504DFC08940380C6983F41036 (void);
+// 0x00000025 System.Void Mono.Security.PKCS7/ContentInfo::.ctor(System.Byte[])
+extern void ContentInfo__ctor_m7D3DD72DA482A68007DB183975E3F649EEE308CD (void);
+// 0x00000026 System.Void Mono.Security.PKCS7/ContentInfo::.ctor(Mono.Security.ASN1)
+extern void ContentInfo__ctor_mBC763695FB9DCE655DC9F64E932679635A8A803B (void);
+// 0x00000027 Mono.Security.ASN1 Mono.Security.PKCS7/ContentInfo::get_ASN1()
+extern void ContentInfo_get_ASN1_m3A32CA99ED50DDA79761FC779979489927D0ABE3 (void);
+// 0x00000028 Mono.Security.ASN1 Mono.Security.PKCS7/ContentInfo::get_Content()
+extern void ContentInfo_get_Content_m85ECCB3CF732981E207598428EF008D95F754F98 (void);
+// 0x00000029 System.Void Mono.Security.PKCS7/ContentInfo::set_Content(Mono.Security.ASN1)
+extern void ContentInfo_set_Content_mC885DF149B5AB25343766F00FB7749A77BEFBC36 (void);
+// 0x0000002A System.String Mono.Security.PKCS7/ContentInfo::get_ContentType()
+extern void ContentInfo_get_ContentType_m4ACE1C1CD7330D35EF0C2C422CF48E3BA0FFD7D1 (void);
+// 0x0000002B System.Void Mono.Security.PKCS7/ContentInfo::set_ContentType(System.String)
+extern void ContentInfo_set_ContentType_mE3356914A7D44048391DCD32316D00C026415791 (void);
+// 0x0000002C Mono.Security.ASN1 Mono.Security.PKCS7/ContentInfo::GetASN1()
+extern void ContentInfo_GetASN1_m52EF51C772714542A1263FCABF334391397F08AD (void);
+// 0x0000002D System.Void Mono.Security.PKCS7/EncryptedData::.ctor()
+extern void EncryptedData__ctor_m355455E414AB2547674FDB62A72BFF4EE98BDDF1 (void);
+// 0x0000002E System.Void Mono.Security.PKCS7/EncryptedData::.ctor(Mono.Security.ASN1)
+extern void EncryptedData__ctor_m5C149670A898E43CCCC28D6B30568138D4098E72 (void);
+// 0x0000002F Mono.Security.PKCS7/ContentInfo Mono.Security.PKCS7/EncryptedData::get_EncryptionAlgorithm()
+extern void EncryptedData_get_EncryptionAlgorithm_mF1F3CE667E2558EC146D7086A64C5735DEB37BF4 (void);
+// 0x00000030 System.Byte[] Mono.Security.PKCS7/EncryptedData::get_EncryptedContent()
+extern void EncryptedData_get_EncryptedContent_m28A275C350840EAD2C448DF76D9116D49000DC5C (void);
+// 0x00000031 System.Void Mono.Security.PKCS7/SignedData::.ctor(Mono.Security.ASN1)
+extern void SignedData__ctor_m4609283D3F9F231C0B5156FAE7C2DCF89A3AD7A6 (void);
+// 0x00000032 Mono.Security.X509.X509CertificateCollection Mono.Security.PKCS7/SignedData::get_Certificates()
+extern void SignedData_get_Certificates_m2F2280AA69C4903FD8CAA75FAECEFC7586EF6D7E (void);
+// 0x00000033 Mono.Security.PKCS7/ContentInfo Mono.Security.PKCS7/SignedData::get_ContentInfo()
+extern void SignedData_get_ContentInfo_m91409FC043E8C6FF741A922FC69BB9E98B5B7F09 (void);
+// 0x00000034 System.Void Mono.Security.PKCS7/SignedData::set_HashName(System.String)
+extern void SignedData_set_HashName_mFDAB9AC05B7FDB00F646E3E44D4E9FF91CD0B4E7 (void);
+// 0x00000035 Mono.Security.PKCS7/SignerInfo Mono.Security.PKCS7/SignedData::get_SignerInfo()
+extern void SignedData_get_SignerInfo_mAE14D45F3CE393345D41AD231A382765E551D604 (void);
+// 0x00000036 System.String Mono.Security.PKCS7/SignedData::OidToName(System.String)
+extern void SignedData_OidToName_m910B0AD432C05A196504A1933374C93086027DD1 (void);
+// 0x00000037 System.Void Mono.Security.PKCS7/SignerInfo::.ctor()
+extern void SignerInfo__ctor_mD8D5B3BEC47BCB44044A801365EE363D24922FE3 (void);
+// 0x00000038 System.Void Mono.Security.PKCS7/SignerInfo::.ctor(Mono.Security.ASN1)
+extern void SignerInfo__ctor_mDB114E56EC2F9D5820B2F48A00CF14972B3BCCED (void);
+// 0x00000039 System.String Mono.Security.PKCS7/SignerInfo::get_IssuerName()
+extern void SignerInfo_get_IssuerName_m30347CCCF2ED4EF05618DD9AF4F71030E4A5A324 (void);
+// 0x0000003A System.Byte[] Mono.Security.PKCS7/SignerInfo::get_SerialNumber()
+extern void SignerInfo_get_SerialNumber_m6B855067A7C4CEF6758805C18E8417729BA62BD7 (void);
+// 0x0000003B System.Collections.ArrayList Mono.Security.PKCS7/SignerInfo::get_AuthenticatedAttributes()
+extern void SignerInfo_get_AuthenticatedAttributes_m52500C3AC3793C89F0296BBEF64698F2ED20B8F4 (void);
+// 0x0000003C System.String Mono.Security.PKCS7/SignerInfo::get_HashName()
+extern void SignerInfo_get_HashName_m1FCB2FBBA2DEC8F246B2ECE65997A2972B60B424 (void);
+// 0x0000003D System.Void Mono.Security.PKCS7/SignerInfo::set_HashName(System.String)
+extern void SignerInfo_set_HashName_m5C681833EF9E8380311B609BE25BE33911140E37 (void);
+// 0x0000003E System.Byte[] Mono.Security.PKCS7/SignerInfo::get_Signature()
+extern void SignerInfo_get_Signature_m6FA43681D705A53BA0857AF55624483A9AE94CA8 (void);
+// 0x0000003F System.Collections.ArrayList Mono.Security.PKCS7/SignerInfo::get_UnauthenticatedAttributes()
+extern void SignerInfo_get_UnauthenticatedAttributes_m718FE21E74C9898E7B4060A5BE1264C68D3171FA (void);
+// 0x00000040 System.Byte Mono.Security.PKCS7/SignerInfo::get_Version()
+extern void SignerInfo_get_Version_m0CFF6A1B831986936100F7F4A27D6386D65CFB37 (void);
+// 0x00000041 System.Void Mono.Security.X509.SafeBag::.ctor(System.String,Mono.Security.ASN1)
+extern void SafeBag__ctor_m0AE5FFE8783310FAC265D1A911F5F6FA6A1CE9BF (void);
+// 0x00000042 System.String Mono.Security.X509.SafeBag::get_BagOID()
+extern void SafeBag_get_BagOID_m1218C83BAD5C56D41AFF31B58784848A27A265E6 (void);
+// 0x00000043 Mono.Security.ASN1 Mono.Security.X509.SafeBag::get_ASN1()
+extern void SafeBag_get_ASN1_m699A375228725122D8B9EE455013B215FBB87D05 (void);
+// 0x00000044 System.Void Mono.Security.X509.PKCS12::.ctor()
+extern void PKCS12__ctor_mC4CC29A25D40F4799AB2715A3C7FB270C74EEFDD (void);
+// 0x00000045 System.Void Mono.Security.X509.PKCS12::.ctor(System.Byte[])
+extern void PKCS12__ctor_m77EA8CF7C0DD214E25C7C8B9580339F1E2134E31 (void);
+// 0x00000046 System.Void Mono.Security.X509.PKCS12::.ctor(System.Byte[],System.String)
+extern void PKCS12__ctor_m2C6FBB30C343DA9D9E1753FBB72F01AD4E1F7FFC (void);
+// 0x00000047 System.Void Mono.Security.X509.PKCS12::Decode(System.Byte[])
+extern void PKCS12_Decode_m750703D9B730F5A8A355252F92DCD2D039C3FCDF (void);
+// 0x00000048 System.Void Mono.Security.X509.PKCS12::Finalize()
+extern void PKCS12_Finalize_m123C72042CF1A6A425005642408FF60B04D99462 (void);
+// 0x00000049 System.Void Mono.Security.X509.PKCS12::set_Password(System.String)
+extern void PKCS12_set_Password_mB7CC3D7C9B194C6CF6E82B289EB1FD98EA002646 (void);
+// 0x0000004A System.Int32 Mono.Security.X509.PKCS12::get_IterationCount()
+extern void PKCS12_get_IterationCount_m2034EE21157689975AE4DC6E1F6B8628DB4539B4 (void);
+// 0x0000004B System.Void Mono.Security.X509.PKCS12::set_IterationCount(System.Int32)
+extern void PKCS12_set_IterationCount_m3F155BE5145E6356037FCEB58E1811255F80A6D3 (void);
+// 0x0000004C System.Collections.ArrayList Mono.Security.X509.PKCS12::get_Keys()
+extern void PKCS12_get_Keys_mFF1C9F9DEF54D27CC472AA46DDBBE224F67DC46B (void);
+// 0x0000004D Mono.Security.X509.X509CertificateCollection Mono.Security.X509.PKCS12::get_Certificates()
+extern void PKCS12_get_Certificates_m6FB30DF4377FE4FC725153AC237CBC59786E719E (void);
+// 0x0000004E System.Security.Cryptography.RandomNumberGenerator Mono.Security.X509.PKCS12::get_RNG()
+extern void PKCS12_get_RNG_m3C2B6A93761E38174AAB889781AB78E0A3A5B003 (void);
+// 0x0000004F System.Boolean Mono.Security.X509.PKCS12::Compare(System.Byte[],System.Byte[])
+extern void PKCS12_Compare_mB111BD413CF9B26BBFEA519F7AFE6531BF5E2C1E (void);
+// 0x00000050 System.Security.Cryptography.SymmetricAlgorithm Mono.Security.X509.PKCS12::GetSymmetricAlgorithm(System.String,System.Byte[],System.Int32)
+extern void PKCS12_GetSymmetricAlgorithm_m10BEA3D381B4DF46D904219E1CB9297E8D7CD439 (void);
+// 0x00000051 System.Byte[] Mono.Security.X509.PKCS12::Decrypt(System.String,System.Byte[],System.Int32,System.Byte[])
+extern void PKCS12_Decrypt_mDA2EFC82AEC5616D5E0CBCF64315B9E9523FF02A (void);
+// 0x00000052 System.Byte[] Mono.Security.X509.PKCS12::Decrypt(Mono.Security.PKCS7/EncryptedData)
+extern void PKCS12_Decrypt_m9734C9729FDAD344DBE41EC3E3641F34F8F5A2B1 (void);
+// 0x00000053 System.Byte[] Mono.Security.X509.PKCS12::Encrypt(System.String,System.Byte[],System.Int32,System.Byte[])
+extern void PKCS12_Encrypt_mFF1143A709115E5239D21DB9BB2BA795AC16B504 (void);
+// 0x00000054 System.Security.Cryptography.DSAParameters Mono.Security.X509.PKCS12::GetExistingParameters(System.Boolean&)
+extern void PKCS12_GetExistingParameters_m2350C6BD29DDCE4EACCCDE545B7621624FCF90F0 (void);
+// 0x00000055 System.Void Mono.Security.X509.PKCS12::AddPrivateKey(Mono.Security.Cryptography.PKCS8/PrivateKeyInfo)
+extern void PKCS12_AddPrivateKey_m9387CE382E87E7C38F49ECFC7D96078B7FB4463F (void);
+// 0x00000056 System.Void Mono.Security.X509.PKCS12::ReadSafeBag(Mono.Security.ASN1)
+extern void PKCS12_ReadSafeBag_m8DDA9FAD730EE4A90C18689EFB0837AEEAE492B9 (void);
+// 0x00000057 Mono.Security.ASN1 Mono.Security.X509.PKCS12::Pkcs8ShroudedKeyBagSafeBag(System.Security.Cryptography.AsymmetricAlgorithm,System.Collections.IDictionary)
+extern void PKCS12_Pkcs8ShroudedKeyBagSafeBag_m709E0123F26B2AA286664D1706B5B22A34AA4FFF (void);
+// 0x00000058 Mono.Security.ASN1 Mono.Security.X509.PKCS12::CertificateSafeBag(Mono.Security.X509.X509Certificate,System.Collections.IDictionary)
+extern void PKCS12_CertificateSafeBag_mC0BC2105B927BC138FB90EEDDEA95BD8A8DA024A (void);
+// 0x00000059 System.Byte[] Mono.Security.X509.PKCS12::MAC(System.Byte[],System.Byte[],System.Int32,System.Byte[])
+extern void PKCS12_MAC_mBAD3C0B24FD8CA6FFE0F4A56CC29BE3E0D6F68A4 (void);
+// 0x0000005A System.Byte[] Mono.Security.X509.PKCS12::GetBytes()
+extern void PKCS12_GetBytes_mDB4325D82327A46832138F16A8CBD3AA006B3A7F (void);
+// 0x0000005B Mono.Security.PKCS7/ContentInfo Mono.Security.X509.PKCS12::EncryptedContentInfo(Mono.Security.ASN1,System.String)
+extern void PKCS12_EncryptedContentInfo_m670295BC933FE6D756A18DEC50779443A1A9FB7F (void);
+// 0x0000005C System.Void Mono.Security.X509.PKCS12::AddCertificate(Mono.Security.X509.X509Certificate)
+extern void PKCS12_AddCertificate_m11EC4FA6E1AF1BCEE6483B5601225CD6A043D183 (void);
+// 0x0000005D System.Void Mono.Security.X509.PKCS12::AddCertificate(Mono.Security.X509.X509Certificate,System.Collections.IDictionary)
+extern void PKCS12_AddCertificate_m19F5576C596335EB6DD4E737D0CD4701884D91EF (void);
+// 0x0000005E System.Void Mono.Security.X509.PKCS12::RemoveCertificate(Mono.Security.X509.X509Certificate)
+extern void PKCS12_RemoveCertificate_m65A709EDC4D5409904E14C738840252177D5E589 (void);
+// 0x0000005F System.Void Mono.Security.X509.PKCS12::RemoveCertificate(Mono.Security.X509.X509Certificate,System.Collections.IDictionary)
+extern void PKCS12_RemoveCertificate_m3A6B9EF29379012C8495C7A71332C93EA4733D29 (void);
+// 0x00000060 System.Boolean Mono.Security.X509.PKCS12::CompareAsymmetricAlgorithm(System.Security.Cryptography.AsymmetricAlgorithm,System.Security.Cryptography.AsymmetricAlgorithm)
+extern void PKCS12_CompareAsymmetricAlgorithm_mEE368C0A5F8D7C27A6C4D1FD146DF41DACE696DC (void);
+// 0x00000061 System.Void Mono.Security.X509.PKCS12::AddPkcs8ShroudedKeyBag(System.Security.Cryptography.AsymmetricAlgorithm,System.Collections.IDictionary)
+extern void PKCS12_AddPkcs8ShroudedKeyBag_m270345FF04644145B23EC638522B390554D2AC0D (void);
+// 0x00000062 System.Object Mono.Security.X509.PKCS12::Clone()
+extern void PKCS12_Clone_m50D19F50BDEC33F80386C00F4BA4A409D37297C9 (void);
+// 0x00000063 System.Int32 Mono.Security.X509.PKCS12::get_MaximumPasswordLength()
+extern void PKCS12_get_MaximumPasswordLength_mAF04814D73F41CFF2B1F22C5FD33038A76192B4F (void);
+// 0x00000064 System.Void Mono.Security.X509.PKCS12::.cctor()
+extern void PKCS12__cctor_m122789D790CE1AAB0B595298DA773724083A7534 (void);
+// 0x00000065 System.Void Mono.Security.X509.PKCS12/DeriveBytes::.ctor()
+extern void DeriveBytes__ctor_mE49888D87CB6AA78648DF0D8129838DC91CF891A (void);
+// 0x00000066 System.Void Mono.Security.X509.PKCS12/DeriveBytes::set_HashName(System.String)
+extern void DeriveBytes_set_HashName_m8C49265C77E164C659E6B11840289B0BFF7A0AA2 (void);
+// 0x00000067 System.Void Mono.Security.X509.PKCS12/DeriveBytes::set_IterationCount(System.Int32)
+extern void DeriveBytes_set_IterationCount_m0C50A49409C1B40DB50FA5123C89B2EF10C76E1D (void);
+// 0x00000068 System.Void Mono.Security.X509.PKCS12/DeriveBytes::set_Password(System.Byte[])
+extern void DeriveBytes_set_Password_mE6A98520EA50E2A62428C9A8850D1C05B2A7FAFC (void);
+// 0x00000069 System.Void Mono.Security.X509.PKCS12/DeriveBytes::set_Salt(System.Byte[])
+extern void DeriveBytes_set_Salt_m9B502480F116A9B921146E849553EFC60DB94A7B (void);
+// 0x0000006A System.Void Mono.Security.X509.PKCS12/DeriveBytes::Adjust(System.Byte[],System.Int32,System.Byte[])
+extern void DeriveBytes_Adjust_m39BE20F4725D07DCBF711117748BE7AD654BE568 (void);
+// 0x0000006B System.Byte[] Mono.Security.X509.PKCS12/DeriveBytes::Derive(System.Byte[],System.Int32)
+extern void DeriveBytes_Derive_m4CF08A181B9E46EDB98691BB4C6D00BD75D08EE8 (void);
+// 0x0000006C System.Byte[] Mono.Security.X509.PKCS12/DeriveBytes::DeriveKey(System.Int32)
+extern void DeriveBytes_DeriveKey_m52FB070FC8822D470918BAE70E27A5C57CDC662A (void);
+// 0x0000006D System.Byte[] Mono.Security.X509.PKCS12/DeriveBytes::DeriveIV(System.Int32)
+extern void DeriveBytes_DeriveIV_mDEECB1C384C67AF716AFE91FC210FC496B3334FE (void);
+// 0x0000006E System.Byte[] Mono.Security.X509.PKCS12/DeriveBytes::DeriveMAC(System.Int32)
+extern void DeriveBytes_DeriveMAC_m99726BCF64068E24CC03C4258AFF6831E235D774 (void);
+// 0x0000006F System.Void Mono.Security.X509.PKCS12/DeriveBytes::.cctor()
+extern void DeriveBytes__cctor_mDB2911C441DE687816467D6C33B628023A0638B0 (void);
+// 0x00000070 System.String Mono.Security.X509.X501::ToString(Mono.Security.ASN1)
+extern void X501_ToString_mD36C5B852716ABC949533C30E842BC05BFA73B2F (void);
+// 0x00000071 System.String Mono.Security.X509.X501::ToString(Mono.Security.ASN1,System.Boolean,System.String,System.Boolean)
+extern void X501_ToString_m2D3799730A3C7400AD6DE94538D41E210D5C0BB5 (void);
+// 0x00000072 System.Void Mono.Security.X509.X501::AppendEntry(System.Text.StringBuilder,Mono.Security.ASN1,System.Boolean)
+extern void X501_AppendEntry_m38DE2C3827B5B932A34C970C88842F5E38937A8E (void);
+// 0x00000073 Mono.Security.X509.X520/AttributeTypeAndValue Mono.Security.X509.X501::GetAttributeFromOid(System.String)
+extern void X501_GetAttributeFromOid_m9C2C70FE52F1756A408045D4C9DB1EF8FB4C6B02 (void);
+// 0x00000074 System.Boolean Mono.Security.X509.X501::IsOid(System.String)
+extern void X501_IsOid_mD391A5822B7BAEE1D636B640607F08F917C67FB6 (void);
+// 0x00000075 Mono.Security.X509.X520/AttributeTypeAndValue Mono.Security.X509.X501::ReadAttribute(System.String,System.Int32&)
+extern void X501_ReadAttribute_m099C2FD90F5F4430FDD8457BDB580A4FB1C6F1D5 (void);
+// 0x00000076 System.Boolean Mono.Security.X509.X501::IsHex(System.Char)
+extern void X501_IsHex_m0F6A74D68255FF41EDDAF8963366C3D997C0B634 (void);
+// 0x00000077 System.String Mono.Security.X509.X501::ReadHex(System.String,System.Int32&)
+extern void X501_ReadHex_mF38C5C3BA8AC594609941B4715FC3148716585EB (void);
+// 0x00000078 System.Int32 Mono.Security.X509.X501::ReadEscaped(System.Text.StringBuilder,System.String,System.Int32)
+extern void X501_ReadEscaped_m98ABB14487EE961DB83338D639F0037A4303620E (void);
+// 0x00000079 System.Int32 Mono.Security.X509.X501::ReadQuoted(System.Text.StringBuilder,System.String,System.Int32)
+extern void X501_ReadQuoted_m1E85CC2DAC43F222F205108B2899BC560C6E2A43 (void);
+// 0x0000007A System.String Mono.Security.X509.X501::ReadValue(System.String,System.Int32&)
+extern void X501_ReadValue_mA4DB5F1F5A73188D4B44D39C3BDFD6AEA05FD10B (void);
+// 0x0000007B Mono.Security.ASN1 Mono.Security.X509.X501::FromString(System.String)
+extern void X501_FromString_mD55735FA04C02B2AEDEB810B2B9490B523F432DD (void);
+// 0x0000007C System.Void Mono.Security.X509.X501::.cctor()
+extern void X501__cctor_m70E1C62EDF778FB1F92FD65C3F1D9770E551C678 (void);
+// 0x0000007D System.Void Mono.Security.X509.X509Crl::.ctor(System.Byte[])
+extern void X509Crl__ctor_mE8AE92D0023939007B09AA12D066EBED204CD674 (void);
+// 0x0000007E System.Void Mono.Security.X509.X509Crl::Parse(System.Byte[])
+extern void X509Crl_Parse_mBFF8B04C60CD9047169F7F3CB5E9026D66B266B4 (void);
+// 0x0000007F Mono.Security.X509.X509ExtensionCollection Mono.Security.X509.X509Crl::get_Extensions()
+extern void X509Crl_get_Extensions_mC3F9AF029FB2AA579EA6E940EE7827BCDA2614DF (void);
+// 0x00000080 System.Byte[] Mono.Security.X509.X509Crl::get_Hash()
+extern void X509Crl_get_Hash_m4A8044B7D2C67FD6C32DAC39542CDD42B3F2C9C0 (void);
+// 0x00000081 System.String Mono.Security.X509.X509Crl::get_IssuerName()
+extern void X509Crl_get_IssuerName_m88AADDAC80012372BE645AA7CADE49FE090CCB68 (void);
+// 0x00000082 System.DateTime Mono.Security.X509.X509Crl::get_NextUpdate()
+extern void X509Crl_get_NextUpdate_mA171254E41B8FD9672F8767B1C65588F75DAF072 (void);
+// 0x00000083 System.Boolean Mono.Security.X509.X509Crl::Compare(System.Byte[],System.Byte[])
+extern void X509Crl_Compare_mB585F4CCA3B1FAD5815FDA71976D5FC6842BD46E (void);
+// 0x00000084 Mono.Security.X509.X509Crl/X509CrlEntry Mono.Security.X509.X509Crl::GetCrlEntry(Mono.Security.X509.X509Certificate)
+extern void X509Crl_GetCrlEntry_m824AEE6406406298D8740660A24F87CAD854936C (void);
+// 0x00000085 Mono.Security.X509.X509Crl/X509CrlEntry Mono.Security.X509.X509Crl::GetCrlEntry(System.Byte[])
+extern void X509Crl_GetCrlEntry_m93093BA86976CEC62DFFDB28FFFE2353ECE35BB1 (void);
+// 0x00000086 System.Boolean Mono.Security.X509.X509Crl::VerifySignature(System.Security.Cryptography.DSA)
+extern void X509Crl_VerifySignature_m91D8FC43DAB9C5688E85FDA94C176AF73E665389 (void);
+// 0x00000087 System.Boolean Mono.Security.X509.X509Crl::VerifySignature(System.Security.Cryptography.RSA)
+extern void X509Crl_VerifySignature_m68859DEF40F3BB35F9DC79A025FED8981E0CE800 (void);
+// 0x00000088 System.Boolean Mono.Security.X509.X509Crl::VerifySignature(System.Security.Cryptography.AsymmetricAlgorithm)
+extern void X509Crl_VerifySignature_m4FBC30F86E1BAF545D86876CF90C9105A01D8553 (void);
+// 0x00000089 System.Void Mono.Security.X509.X509Crl/X509CrlEntry::.ctor(Mono.Security.ASN1)
+extern void X509CrlEntry__ctor_m1CE31E179C47AA73774CE7C57CA24C879741EE81 (void);
+// 0x0000008A System.Byte[] Mono.Security.X509.X509Crl/X509CrlEntry::get_SerialNumber()
+extern void X509CrlEntry_get_SerialNumber_mC1CD9010A26A5983B2DDD1A459FDC15619107478 (void);
+// 0x0000008B System.DateTime Mono.Security.X509.X509Crl/X509CrlEntry::get_RevocationDate()
+extern void X509CrlEntry_get_RevocationDate_m46DE2560B090EC69ECD7B9D819297E544C5386DA (void);
+// 0x0000008C Mono.Security.X509.X509ExtensionCollection Mono.Security.X509.X509Crl/X509CrlEntry::get_Extensions()
+extern void X509CrlEntry_get_Extensions_m9756808EA9F465E76B8FC88417819B051538BB3B (void);
+// 0x0000008D System.Void Mono.Security.X509.X509Certificate::Parse(System.Byte[])
+extern void X509Certificate_Parse_m52B3A2D924074F675F699C569C548DD521D5CF81 (void);
+// 0x0000008E System.Void Mono.Security.X509.X509Certificate::.ctor(System.Byte[])
+extern void X509Certificate__ctor_m4F437D7E76C6CCB0941AB5801946076C82583946 (void);
+// 0x0000008F System.Byte[] Mono.Security.X509.X509Certificate::GetUnsignedBigInteger(System.Byte[])
+extern void X509Certificate_GetUnsignedBigInteger_mCFCA46D7C07D96A6B33AAB09A68BEA6E653E4BD3 (void);
+// 0x00000090 System.Security.Cryptography.DSA Mono.Security.X509.X509Certificate::get_DSA()
+extern void X509Certificate_get_DSA_m661EA8FA79C2108403B685495B961422BC531AA6 (void);
+// 0x00000091 System.Void Mono.Security.X509.X509Certificate::set_DSA(System.Security.Cryptography.DSA)
+extern void X509Certificate_set_DSA_m35B061538E1BA0B2492CA50F46092FB3C48927B8 (void);
+// 0x00000092 Mono.Security.X509.X509ExtensionCollection Mono.Security.X509.X509Certificate::get_Extensions()
+extern void X509Certificate_get_Extensions_m74416980E0AF90FAD180B10AF4BAE2727E3C6EA6 (void);
+// 0x00000093 System.Byte[] Mono.Security.X509.X509Certificate::get_Hash()
+extern void X509Certificate_get_Hash_m116CA9E5DFB48CE5464E79C1941A0E78F20EB1F6 (void);
+// 0x00000094 System.String Mono.Security.X509.X509Certificate::get_IssuerName()
+extern void X509Certificate_get_IssuerName_mAB4FC4E65427A67DBEA87A6182336AF6870D900A (void);
+// 0x00000095 System.String Mono.Security.X509.X509Certificate::get_KeyAlgorithm()
+extern void X509Certificate_get_KeyAlgorithm_m7538B572B9ACFCE48CAD7B8B2F5DF0EA3299D4DF (void);
+// 0x00000096 System.Byte[] Mono.Security.X509.X509Certificate::get_KeyAlgorithmParameters()
+extern void X509Certificate_get_KeyAlgorithmParameters_m198AAE45BF470804D29A79EDF6CC0EFB4DF8A247 (void);
+// 0x00000097 System.Void Mono.Security.X509.X509Certificate::set_KeyAlgorithmParameters(System.Byte[])
+extern void X509Certificate_set_KeyAlgorithmParameters_m61198F54A91C2FDC7175E12C2E77E30A77D8E1D8 (void);
+// 0x00000098 System.Byte[] Mono.Security.X509.X509Certificate::get_PublicKey()
+extern void X509Certificate_get_PublicKey_m5504C97766FD6A8B0AF72CC6255A09A7397C819C (void);
+// 0x00000099 System.Security.Cryptography.RSA Mono.Security.X509.X509Certificate::get_RSA()
+extern void X509Certificate_get_RSA_mB74DAA8EF4132B0917C236F0F2617D95F23005E8 (void);
+// 0x0000009A System.Void Mono.Security.X509.X509Certificate::set_RSA(System.Security.Cryptography.RSA)
+extern void X509Certificate_set_RSA_m92B549DE372ABD58211BE846490719E5511D6D9C (void);
+// 0x0000009B System.Byte[] Mono.Security.X509.X509Certificate::get_RawData()
+extern void X509Certificate_get_RawData_m322C38993C6E083A2FB1425C2E4D846FF905472E (void);
+// 0x0000009C System.Byte[] Mono.Security.X509.X509Certificate::get_SerialNumber()
+extern void X509Certificate_get_SerialNumber_m851B2E32EF2F46323798CBFD8450E4B8A82F264C (void);
+// 0x0000009D System.Byte[] Mono.Security.X509.X509Certificate::get_Signature()
+extern void X509Certificate_get_Signature_m9B024ABD17D5320621904317E66A36BCC2B0FA46 (void);
+// 0x0000009E System.String Mono.Security.X509.X509Certificate::get_SubjectName()
+extern void X509Certificate_get_SubjectName_m75A5BA36DC4F00694DC5F3797EA89F04C095A48D (void);
+// 0x0000009F System.DateTime Mono.Security.X509.X509Certificate::get_ValidFrom()
+extern void X509Certificate_get_ValidFrom_m735D09A81A642542E2509EDED48399D671FE2CE9 (void);
+// 0x000000A0 System.DateTime Mono.Security.X509.X509Certificate::get_ValidUntil()
+extern void X509Certificate_get_ValidUntil_m58C8212E0E011376733C1DE57F78796483815AA7 (void);
+// 0x000000A1 System.Int32 Mono.Security.X509.X509Certificate::get_Version()
+extern void X509Certificate_get_Version_mE2DE4C0948C42ECECCA2C1B87F1C2524C2E10128 (void);
+// 0x000000A2 System.Boolean Mono.Security.X509.X509Certificate::get_IsCurrent()
+extern void X509Certificate_get_IsCurrent_mEBC52E38B22A633B0047BAA006F2446905473BDE (void);
+// 0x000000A3 System.Boolean Mono.Security.X509.X509Certificate::WasCurrent(System.DateTime)
+extern void X509Certificate_WasCurrent_mA995BED12113288539D2BAB184B16AEF38844CEC (void);
+// 0x000000A4 System.Boolean Mono.Security.X509.X509Certificate::VerifySignature(System.Security.Cryptography.DSA)
+extern void X509Certificate_VerifySignature_mE51967C4A00FD61035443B3E31358F40A1719AA1 (void);
+// 0x000000A5 System.Boolean Mono.Security.X509.X509Certificate::VerifySignature(System.Security.Cryptography.RSA)
+extern void X509Certificate_VerifySignature_m7FCB318B8E4049EFDD072092C0EE96A552DBF417 (void);
+// 0x000000A6 System.Boolean Mono.Security.X509.X509Certificate::VerifySignature(System.Security.Cryptography.AsymmetricAlgorithm)
+extern void X509Certificate_VerifySignature_m2CB811C31D526CF4ECDEC02E59297A94DE8826AE (void);
+// 0x000000A7 System.Boolean Mono.Security.X509.X509Certificate::get_IsSelfSigned()
+extern void X509Certificate_get_IsSelfSigned_mAC256ADBF25A2572AAA95F126D3A466E1E3D00AA (void);
+// 0x000000A8 System.Void Mono.Security.X509.X509Certificate::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern void X509Certificate_GetObjectData_mD8D5BD0C35EAB48243C4330A842755738B1CD9F3 (void);
+// 0x000000A9 System.Byte[] Mono.Security.X509.X509Certificate::PEM(System.String,System.Byte[])
+extern void X509Certificate_PEM_mE8A7F8964220C0BFBFEA85C27E0685DEFADED510 (void);
+// 0x000000AA System.Void Mono.Security.X509.X509Certificate::.cctor()
+extern void X509Certificate__cctor_m7AF8C2F2F06BECF8F9DE899087602A96C39C1F68 (void);
+// 0x000000AB System.Void Mono.Security.X509.X509CertificateCollection::.ctor()
+extern void X509CertificateCollection__ctor_m0267958C4891BC9525E8E9A21A0CE4076205B457 (void);
+// 0x000000AC Mono.Security.X509.X509Certificate Mono.Security.X509.X509CertificateCollection::get_Item(System.Int32)
+extern void X509CertificateCollection_get_Item_m68CBCD6C145B7EC4E4BDF6BA208576976385A538 (void);
+// 0x000000AD System.Int32 Mono.Security.X509.X509CertificateCollection::Add(Mono.Security.X509.X509Certificate)
+extern void X509CertificateCollection_Add_mBCBAC33FB2690C8D03BCB29FDD1A8D4CAF87F1D4 (void);
+// 0x000000AE System.Void Mono.Security.X509.X509CertificateCollection::AddRange(Mono.Security.X509.X509CertificateCollection)
+extern void X509CertificateCollection_AddRange_mE0BA8C454C23FDBF0247A2EE7D60D4E51B1656D3 (void);
+// 0x000000AF System.Boolean Mono.Security.X509.X509CertificateCollection::Contains(Mono.Security.X509.X509Certificate)
+extern void X509CertificateCollection_Contains_mEA5C9F87BCF0425AD8138CC821624B89EDDD30EE (void);
+// 0x000000B0 Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator Mono.Security.X509.X509CertificateCollection::GetEnumerator()
+extern void X509CertificateCollection_GetEnumerator_m602E7163983BF2C8F8B5C09652D5E74771969B56 (void);
+// 0x000000B1 System.Collections.IEnumerator Mono.Security.X509.X509CertificateCollection::System.Collections.IEnumerable.GetEnumerator()
+extern void X509CertificateCollection_System_Collections_IEnumerable_GetEnumerator_mEAAECD2F051D47457F594F88E7C8BF46AAFE2363 (void);
+// 0x000000B2 System.Int32 Mono.Security.X509.X509CertificateCollection::GetHashCode()
+extern void X509CertificateCollection_GetHashCode_m56991888E2D575A6B43E41F227F00A22D9260A05 (void);
+// 0x000000B3 System.Int32 Mono.Security.X509.X509CertificateCollection::IndexOf(Mono.Security.X509.X509Certificate)
+extern void X509CertificateCollection_IndexOf_mA6F3226C3883B9111BFE552A616B8EAFCBD8B2EF (void);
+// 0x000000B4 System.Boolean Mono.Security.X509.X509CertificateCollection::Compare(System.Byte[],System.Byte[])
+extern void X509CertificateCollection_Compare_m3569EC2D68F7500E898AC53B8A3826DCAE939B5D (void);
+// 0x000000B5 System.Void Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator::.ctor(Mono.Security.X509.X509CertificateCollection)
+extern void X509CertificateEnumerator__ctor_mC58E29412F64C3ADB016F51920CD5AEBC0B4A82E (void);
+// 0x000000B6 Mono.Security.X509.X509Certificate Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator::get_Current()
+extern void X509CertificateEnumerator_get_Current_mA12833D7DAE7B1E3FB58D8596D266CA30A6BCD69 (void);
+// 0x000000B7 System.Object Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator::System.Collections.IEnumerator.get_Current()
+extern void X509CertificateEnumerator_System_Collections_IEnumerator_get_Current_m8323BD8E1C9E4C6F2E57EDB8FA6BFCB396C03D14 (void);
+// 0x000000B8 System.Boolean Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator::System.Collections.IEnumerator.MoveNext()
+extern void X509CertificateEnumerator_System_Collections_IEnumerator_MoveNext_m3619B756D91F5E808E1D9C7F2A9C5ADCB4214C80 (void);
+// 0x000000B9 System.Void Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator::System.Collections.IEnumerator.Reset()
+extern void X509CertificateEnumerator_System_Collections_IEnumerator_Reset_mED5725981288EFF1B4F7F6CFEE1F9DC6A7C69F20 (void);
+// 0x000000BA System.Boolean Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator::MoveNext()
+extern void X509CertificateEnumerator_MoveNext_mAB0C32FB96AD574439B87E0E7D2553CBD7DF37C7 (void);
+// 0x000000BB System.Void Mono.Security.X509.X509Chain::.ctor()
+extern void X509Chain__ctor_m5220D6FE9477D3D63B902475BDBFDC3CB63B3A79 (void);
+// 0x000000BC Mono.Security.X509.X509CertificateCollection Mono.Security.X509.X509Chain::get_TrustAnchors()
+extern void X509Chain_get_TrustAnchors_m988C77FD4F945D35E2D846CA169141CA56756681 (void);
+// 0x000000BD System.Void Mono.Security.X509.X509Chain::LoadCertificates(Mono.Security.X509.X509CertificateCollection)
+extern void X509Chain_LoadCertificates_m5EA569474D1608E1292B8CF39917841C20278825 (void);
+// 0x000000BE System.Boolean Mono.Security.X509.X509Chain::Build(Mono.Security.X509.X509Certificate)
+extern void X509Chain_Build_m664E7F7A48510E8F5D538A932D1D5E6EC0095C33 (void);
+// 0x000000BF System.Void Mono.Security.X509.X509Chain::Reset()
+extern void X509Chain_Reset_m55EC23EC313B197F439649DF941228B8D799645F (void);
+// 0x000000C0 System.Boolean Mono.Security.X509.X509Chain::IsValid(Mono.Security.X509.X509Certificate)
+extern void X509Chain_IsValid_m38DBBC21B1224A7302D7A82720352CFDC0B16CB9 (void);
+// 0x000000C1 Mono.Security.X509.X509Certificate Mono.Security.X509.X509Chain::FindCertificateParent(Mono.Security.X509.X509Certificate)
+extern void X509Chain_FindCertificateParent_mD6853ABA9E077A8C1B9F0F67FBEE7482A3D10325 (void);
+// 0x000000C2 Mono.Security.X509.X509Certificate Mono.Security.X509.X509Chain::FindCertificateRoot(Mono.Security.X509.X509Certificate)
+extern void X509Chain_FindCertificateRoot_mBD78F5BA569075F991BE2A4BEAA8AEC157DA450D (void);
+// 0x000000C3 System.Boolean Mono.Security.X509.X509Chain::IsTrusted(Mono.Security.X509.X509Certificate)
+extern void X509Chain_IsTrusted_m589BA3644A2F6BB355CF1EA7B168E1828257E5F0 (void);
+// 0x000000C4 System.Boolean Mono.Security.X509.X509Chain::IsParent(Mono.Security.X509.X509Certificate,Mono.Security.X509.X509Certificate)
+extern void X509Chain_IsParent_mE63AED9211A8A4CE11B0A5305F553403234C5282 (void);
+// 0x000000C5 System.Void Mono.Security.X509.X509Extension::.ctor(Mono.Security.ASN1)
+extern void X509Extension__ctor_m5B747C6BA6D46A064A6B1523D6A7A54E0EB140EB (void);
+// 0x000000C6 System.Void Mono.Security.X509.X509Extension::.ctor(Mono.Security.X509.X509Extension)
+extern void X509Extension__ctor_m655F9DCB2706C0574ECF0D7CC3DC2CB91BE80FF8 (void);
+// 0x000000C7 System.Void Mono.Security.X509.X509Extension::Decode()
+extern void X509Extension_Decode_m6D6D2679F86BAC039665B67771CCA784915A6FDC (void);
+// 0x000000C8 System.Void Mono.Security.X509.X509Extension::Encode()
+extern void X509Extension_Encode_m94400983A2BD91C905232850DB45B21D535C7FC3 (void);
+// 0x000000C9 System.String Mono.Security.X509.X509Extension::get_Oid()
+extern void X509Extension_get_Oid_m234B001E81AAE28787443F391F00C72D7521FDF0 (void);
+// 0x000000CA System.Boolean Mono.Security.X509.X509Extension::get_Critical()
+extern void X509Extension_get_Critical_m5EB6ACF6B4FE3FCCF30C4EA477361DD10DF72656 (void);
+// 0x000000CB Mono.Security.ASN1 Mono.Security.X509.X509Extension::get_Value()
+extern void X509Extension_get_Value_m4852A46DF3018862BCB63F9ED94C2483DB5668BC (void);
+// 0x000000CC System.Boolean Mono.Security.X509.X509Extension::Equals(System.Object)
+extern void X509Extension_Equals_m310018B67B736E83554F698D4377D3850960606E (void);
+// 0x000000CD System.Int32 Mono.Security.X509.X509Extension::GetHashCode()
+extern void X509Extension_GetHashCode_mED3B0BC75A49EEF7C13AF9BE6C54855CFE2BE024 (void);
+// 0x000000CE System.Void Mono.Security.X509.X509Extension::WriteLine(System.Text.StringBuilder,System.Int32,System.Int32)
+extern void X509Extension_WriteLine_m07945F4C60FA5F7A7AEFEDF6413F63BCB73A28A7 (void);
+// 0x000000CF System.String Mono.Security.X509.X509Extension::ToString()
+extern void X509Extension_ToString_m3F1D37C68357CBF1AD086FBE6839CC4516EA1782 (void);
+// 0x000000D0 System.Void Mono.Security.X509.X509ExtensionCollection::.ctor()
+extern void X509ExtensionCollection__ctor_m3D13DF7788DD26AE9A0E8F01FCDA5DC26381C7C9 (void);
+// 0x000000D1 System.Void Mono.Security.X509.X509ExtensionCollection::.ctor(Mono.Security.ASN1)
+extern void X509ExtensionCollection__ctor_mA36C635BC1A08C7FA3E1E43E94226F208C98E892 (void);
+// 0x000000D2 System.Int32 Mono.Security.X509.X509ExtensionCollection::IndexOf(System.String)
+extern void X509ExtensionCollection_IndexOf_m199A01C1E4623E410C326AFEA184ED2D2E0CBEB6 (void);
+// 0x000000D3 System.Collections.IEnumerator Mono.Security.X509.X509ExtensionCollection::System.Collections.IEnumerable.GetEnumerator()
+extern void X509ExtensionCollection_System_Collections_IEnumerable_GetEnumerator_mCDF956BE91129236725221A834C635FBD093CD97 (void);
+// 0x000000D4 Mono.Security.X509.X509Extension Mono.Security.X509.X509ExtensionCollection::get_Item(System.String)
+extern void X509ExtensionCollection_get_Item_mD4FA6BBB2423E92B6315410E4C1E9C467BCD93BC (void);
+// 0x000000D5 System.Void Mono.Security.X509.X509Store::.ctor(System.String,System.Boolean,System.Boolean)
+extern void X509Store__ctor_m8BEE6CD856A9E81B3953DAC2B491C101E669FEDF (void);
+// 0x000000D6 Mono.Security.X509.X509CertificateCollection Mono.Security.X509.X509Store::get_Certificates()
+extern void X509Store_get_Certificates_mCC4F7B25DDC42CA505656FC1F9EB239925FC7422 (void);
+// 0x000000D7 System.Collections.ArrayList Mono.Security.X509.X509Store::get_Crls()
+extern void X509Store_get_Crls_m1AF25E9FC526E23F8B7266CF2465C6A6CFB8B73E (void);
+// 0x000000D8 System.Byte[] Mono.Security.X509.X509Store::Load(System.String)
+extern void X509Store_Load_m6552D5345CC28C527318EC2E4517FCD1BEF62C5E (void);
+// 0x000000D9 Mono.Security.X509.X509Certificate Mono.Security.X509.X509Store::LoadCertificate(System.String)
+extern void X509Store_LoadCertificate_m967F101849658106BFC35A16C02E94C8EC3B8B73 (void);
+// 0x000000DA Mono.Security.X509.X509Crl Mono.Security.X509.X509Store::LoadCrl(System.String)
+extern void X509Store_LoadCrl_m8021617FF1675FE822613E822B08E9F41461E28C (void);
+// 0x000000DB System.Boolean Mono.Security.X509.X509Store::CheckStore(System.String,System.Boolean)
+extern void X509Store_CheckStore_mD370453EBECDAD77FAC283E9F99F5CC6BC0FE866 (void);
+// 0x000000DC Mono.Security.X509.X509CertificateCollection Mono.Security.X509.X509Store::BuildCertificatesCollection(System.String)
+extern void X509Store_BuildCertificatesCollection_m32DDAF019B82B6F1BB94E8803538940502F313C6 (void);
+// 0x000000DD System.Collections.ArrayList Mono.Security.X509.X509Store::BuildCrlsCollection(System.String)
+extern void X509Store_BuildCrlsCollection_m88F1863305698A5E11DF747BCC6606EDE1DD1636 (void);
+// 0x000000DE System.String Mono.Security.X509.X509StoreManager::get_CurrentUserPath()
+extern void X509StoreManager_get_CurrentUserPath_m327E22921D4B311073DF6A8233EC88A20BBA3121 (void);
+// 0x000000DF System.String Mono.Security.X509.X509StoreManager::get_LocalMachinePath()
+extern void X509StoreManager_get_LocalMachinePath_m2668A18A01877DCCC826C41B6CD73D0CCA744E5F (void);
+// 0x000000E0 System.String Mono.Security.X509.X509StoreManager::get_NewCurrentUserPath()
+extern void X509StoreManager_get_NewCurrentUserPath_m1D6641F6A75653371AAF847565AB5E2A3103128C (void);
+// 0x000000E1 System.String Mono.Security.X509.X509StoreManager::get_NewLocalMachinePath()
+extern void X509StoreManager_get_NewLocalMachinePath_m9FC33D0218E915F3C7C73390B1AD5B1FB60D8843 (void);
+// 0x000000E2 Mono.Security.X509.X509Stores Mono.Security.X509.X509StoreManager::get_CurrentUser()
+extern void X509StoreManager_get_CurrentUser_m66660EA2A0893194823DA79EDF351DE5648F072A (void);
+// 0x000000E3 Mono.Security.X509.X509Stores Mono.Security.X509.X509StoreManager::get_LocalMachine()
+extern void X509StoreManager_get_LocalMachine_m06611EBC19F972B43978E1D20FE6E567DFC89A52 (void);
+// 0x000000E4 Mono.Security.X509.X509CertificateCollection Mono.Security.X509.X509StoreManager::get_TrustedRootCertificates()
+extern void X509StoreManager_get_TrustedRootCertificates_m36D616BDA4BD309135C006689F316B8442474C34 (void);
+// 0x000000E5 System.Void Mono.Security.X509.X509Stores::.ctor(System.String,System.Boolean)
+extern void X509Stores__ctor_m4F280AF2E389D2220F3A12601EAFB1AB89D30D18 (void);
+// 0x000000E6 Mono.Security.X509.X509Store Mono.Security.X509.X509Stores::get_TrustedRoot()
+extern void X509Stores_get_TrustedRoot_mEE0DF930C63F042A2C953BB22544517E6E338042 (void);
+// 0x000000E7 Mono.Security.X509.X509Store Mono.Security.X509.X509Stores::Open(System.String,System.Boolean)
+extern void X509Stores_Open_m698AC1CCEC5ABF81319C2C85D6760FC5DACC9371 (void);
+// 0x000000E8 System.Void Mono.Security.X509.X520/AttributeTypeAndValue::.ctor(System.String,System.Int32)
+extern void AttributeTypeAndValue__ctor_m0A14A72F4A402FB1148F35004606CEB384E925A3 (void);
+// 0x000000E9 System.Void Mono.Security.X509.X520/AttributeTypeAndValue::.ctor(System.String,System.Int32,System.Byte)
+extern void AttributeTypeAndValue__ctor_m40E94D9ED5B0F72063517B6C0CDBB91263105FFE (void);
+// 0x000000EA System.Void Mono.Security.X509.X520/AttributeTypeAndValue::set_Value(System.String)
+extern void AttributeTypeAndValue_set_Value_m2E3475AD5CFE44BCD90BC614E942883B15FAB573 (void);
+// 0x000000EB Mono.Security.ASN1 Mono.Security.X509.X520/AttributeTypeAndValue::GetASN1(System.Byte)
+extern void AttributeTypeAndValue_GetASN1_m82ED8B612C140A123F632E447FC088850B4591AB (void);
+// 0x000000EC Mono.Security.ASN1 Mono.Security.X509.X520/AttributeTypeAndValue::GetASN1()
+extern void AttributeTypeAndValue_GetASN1_m2FA0A8F7D3D9CD0C5E35DA2F1FDC5421B53E5C0E (void);
+// 0x000000ED System.Byte Mono.Security.X509.X520/AttributeTypeAndValue::SelectBestEncoding()
+extern void AttributeTypeAndValue_SelectBestEncoding_m72C48E5F1ADECC8E6136FE1E15B3C87C00552FF4 (void);
+// 0x000000EE System.Void Mono.Security.X509.X520/CommonName::.ctor()
+extern void CommonName__ctor_m50657B991C1F5420BA7FA0508A81FB1307412581 (void);
+// 0x000000EF System.Void Mono.Security.X509.X520/SerialNumber::.ctor()
+extern void SerialNumber__ctor_m80A7CDE222052C2A36D3E1CDE83BFB864CBF7328 (void);
+// 0x000000F0 System.Void Mono.Security.X509.X520/LocalityName::.ctor()
+extern void LocalityName__ctor_mFC01FEC695DB77503D07B54F4E8762148A8A9B76 (void);
+// 0x000000F1 System.Void Mono.Security.X509.X520/StateOrProvinceName::.ctor()
+extern void StateOrProvinceName__ctor_m57E49869B92AE375A64144550C807A7DC8F1C456 (void);
+// 0x000000F2 System.Void Mono.Security.X509.X520/OrganizationName::.ctor()
+extern void OrganizationName__ctor_m40A14F9995FEDC3E8C1ED6B0F4DBB7B3C4E42A20 (void);
+// 0x000000F3 System.Void Mono.Security.X509.X520/OrganizationalUnitName::.ctor()
+extern void OrganizationalUnitName__ctor_mC8A85A0A786B1065353DA74B029C05AF0122EAE9 (void);
+// 0x000000F4 System.Void Mono.Security.X509.X520/EmailAddress::.ctor()
+extern void EmailAddress__ctor_m124894EF32144A006A01E21CD129547782911F63 (void);
+// 0x000000F5 System.Void Mono.Security.X509.X520/DomainComponent::.ctor()
+extern void DomainComponent__ctor_m2C4609BE598921B06E4EC62C157463AFCC65F068 (void);
+// 0x000000F6 System.Void Mono.Security.X509.X520/UserId::.ctor()
+extern void UserId__ctor_m6375205B83C6B18E2ECA07A193A4872F55289BA4 (void);
+// 0x000000F7 System.Void Mono.Security.X509.X520/Oid::.ctor(System.String)
+extern void Oid__ctor_m03E078EABA0993CC112FF3943D61AFFD4831DB1C (void);
+// 0x000000F8 System.Void Mono.Security.X509.X520/Title::.ctor()
+extern void Title__ctor_m3F09882917FC1340A80614E0ED16B75A1CA6F553 (void);
+// 0x000000F9 System.Void Mono.Security.X509.X520/CountryName::.ctor()
+extern void CountryName__ctor_m2E75E653E83275667377FBD5680BDA0B1F6B359D (void);
+// 0x000000FA System.Void Mono.Security.X509.X520/DnQualifier::.ctor()
+extern void DnQualifier__ctor_mF2EEEB8A7105DD27023F4598E229D1A706E38C7C (void);
+// 0x000000FB System.Void Mono.Security.X509.X520/Surname::.ctor()
+extern void Surname__ctor_m63F83A2875092860ED49EB2CDE2DC410331C71E0 (void);
+// 0x000000FC System.Void Mono.Security.X509.X520/GivenName::.ctor()
+extern void GivenName__ctor_m661ADEE5928D634B5412BC647D637C153D21531A (void);
+// 0x000000FD System.Void Mono.Security.X509.X520/Initial::.ctor()
+extern void Initial__ctor_m4E984AAFD236C08DB2E3B894538AB90609C2E9DF (void);
+// 0x000000FE System.Void Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtension::.ctor(Mono.Security.X509.X509Extension)
+extern void AuthorityKeyIdentifierExtension__ctor_mBB385C9A2A0B68770410545DF038A9D07F77BD50 (void);
+// 0x000000FF System.Void Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtension::Decode()
+extern void AuthorityKeyIdentifierExtension_Decode_m3AF4A819293A215392229CF0BC19F04E40790560 (void);
+// 0x00000100 System.Void Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtension::Encode()
+extern void AuthorityKeyIdentifierExtension_Encode_mBAA9D48407882B6297213AF5B5E3AAA602D67AF9 (void);
+// 0x00000101 System.Byte[] Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtension::get_Identifier()
+extern void AuthorityKeyIdentifierExtension_get_Identifier_m02042068ED75CB7EF4E3A491A15A6B9DCDA44EC8 (void);
+// 0x00000102 System.String Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtension::ToString()
+extern void AuthorityKeyIdentifierExtension_ToString_m2B2DC5EB6E9A693509A2FAF2700E91C62AC340AA (void);
+// 0x00000103 System.Void Mono.Security.X509.Extensions.BasicConstraintsExtension::.ctor(Mono.Security.X509.X509Extension)
+extern void BasicConstraintsExtension__ctor_mEBC34AF4DC736BB726ECC8C063E686A6E6707CCC (void);
+// 0x00000104 System.Void Mono.Security.X509.Extensions.BasicConstraintsExtension::Decode()
+extern void BasicConstraintsExtension_Decode_m9EE042A5689B98D6657E45B453A216579C6391A8 (void);
+// 0x00000105 System.Void Mono.Security.X509.Extensions.BasicConstraintsExtension::Encode()
+extern void BasicConstraintsExtension_Encode_m89859CE03C9F471E1ECD94F2A88246872D419AF4 (void);
+// 0x00000106 System.Boolean Mono.Security.X509.Extensions.BasicConstraintsExtension::get_CertificateAuthority()
+extern void BasicConstraintsExtension_get_CertificateAuthority_m5BCC384C91B4A0B11CA41B7C12148457A0B56549 (void);
+// 0x00000107 System.String Mono.Security.X509.Extensions.BasicConstraintsExtension::ToString()
+extern void BasicConstraintsExtension_ToString_mBAA34F73F2A1FFE3B50A367760D4C22C31725EE6 (void);
+// 0x00000108 System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse::.ctor()
+extern void ChallengeResponse__ctor_m69113B692194F152705FB0B10D5F5DE3C9E946D9 (void);
+// 0x00000109 System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse::.ctor(System.String,System.Byte[])
+extern void ChallengeResponse__ctor_m0FF7511212760424A602D3EA720303764373341F (void);
+// 0x0000010A System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse::Finalize()
+extern void ChallengeResponse_Finalize_m613FCBBBBAAFB1C4D08D287CAD2C4EBFC1E62980 (void);
+// 0x0000010B System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse::set_Password(System.String)
+extern void ChallengeResponse_set_Password_mC4D21D00DD2094E296AA66D435EC9DFDB326F1A6 (void);
+// 0x0000010C System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse::set_Challenge(System.Byte[])
+extern void ChallengeResponse_set_Challenge_m99A9D9CEAD09286DAA811D78A80ECA7B67748753 (void);
+// 0x0000010D System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse::get_LM()
+extern void ChallengeResponse_get_LM_mBF82535F35B084711977D987CBE5743D44A35A46 (void);
+// 0x0000010E System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse::get_NT()
+extern void ChallengeResponse_get_NT_m62844C0A7C8B42B02BBB1B95AD3ACB463EE71D94 (void);
+// 0x0000010F System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse::Dispose()
+extern void ChallengeResponse_Dispose_m2A0E32CF84BA5E17353C06534E90F7313D5C8F9B (void);
+// 0x00000110 System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse::Dispose(System.Boolean)
+extern void ChallengeResponse_Dispose_m869AC64D371E202E47894DD149BAEC83326A5F44 (void);
+// 0x00000111 System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse::GetResponse(System.Byte[])
+extern void ChallengeResponse_GetResponse_m802B1B862E6D746161952D582125FC41547468EF (void);
+// 0x00000112 System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse::PrepareDESKey(System.Byte[],System.Int32)
+extern void ChallengeResponse_PrepareDESKey_mD974958EF21A6ECD302202460212B1D220926A2B (void);
+// 0x00000113 System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse::PasswordToKey(System.String,System.Int32)
+extern void ChallengeResponse_PasswordToKey_m459F4457FF12282E9557CE2D3F01423F00FA7501 (void);
+// 0x00000114 System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse::.cctor()
+extern void ChallengeResponse__cctor_mBFE52C6DA316CE23D49CD87087089F0CC1CEA780 (void);
+// 0x00000115 System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse2::Compute_LM(System.String,System.Byte[])
+extern void ChallengeResponse2_Compute_LM_m5960F5EE61905D818205D0AD8178BADBD4E1DB87 (void);
+// 0x00000116 System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse2::Compute_NTLM_Password(System.String)
+extern void ChallengeResponse2_Compute_NTLM_Password_m5295EA183EBCB987ED70F69B74B6B8DC45484D5A (void);
+// 0x00000117 System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse2::Compute_NTLM(System.String,System.Byte[])
+extern void ChallengeResponse2_Compute_NTLM_m339EC0BC0E0D46AADF9A774A88CFF341DF67DF1B (void);
+// 0x00000118 System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse2::Compute_NTLMv2_Session(System.String,System.Byte[],System.Byte[]&,System.Byte[]&)
+extern void ChallengeResponse2_Compute_NTLMv2_Session_mFEC11443C78DDF2821746A56CE920DC87010CB15 (void);
+// 0x00000119 System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse2::Compute_NTLMv2(Mono.Security.Protocol.Ntlm.Type2Message,System.String,System.String,System.String)
+extern void ChallengeResponse2_Compute_NTLMv2_m7F0A8553E629979B1FF9C4BD19927A19E66C04C1 (void);
+// 0x0000011A System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse2::Compute(Mono.Security.Protocol.Ntlm.Type2Message,Mono.Security.Protocol.Ntlm.NtlmAuthLevel,System.String,System.String,System.String,System.Byte[]&,System.Byte[]&)
+extern void ChallengeResponse2_Compute_mE663475F7329CEDB0DF90F6D37BDCFA05B6108F7 (void);
+// 0x0000011B System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse2::GetResponse(System.Byte[],System.Byte[])
+extern void ChallengeResponse2_GetResponse_m9FD4B25DC713C83206FB18879E535C0BDB207336 (void);
+// 0x0000011C System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse2::PrepareDESKey(System.Byte[],System.Int32)
+extern void ChallengeResponse2_PrepareDESKey_m7E48F80E6D6F48C03E83637F9A7247A7ED078408 (void);
+// 0x0000011D System.Byte[] Mono.Security.Protocol.Ntlm.ChallengeResponse2::PasswordToKey(System.String,System.Int32)
+extern void ChallengeResponse2_PasswordToKey_m05A23D181818AFC8BCC0D4CEB5167F47AC5808D3 (void);
+// 0x0000011E System.Void Mono.Security.Protocol.Ntlm.ChallengeResponse2::.cctor()
+extern void ChallengeResponse2__cctor_mCEF31AE687BC387C502E0AEB3107FCF500818AA8 (void);
+// 0x0000011F System.Void Mono.Security.Protocol.Ntlm.MessageBase::.ctor(System.Int32)
+extern void MessageBase__ctor_m1CB51503E88E16AC1808FCEBEBE3DE8BB50DC3D8 (void);
+// 0x00000120 Mono.Security.Protocol.Ntlm.NtlmFlags Mono.Security.Protocol.Ntlm.MessageBase::get_Flags()
+extern void MessageBase_get_Flags_m4A5BBB1791D770EE5B78682F35F7289627B96643 (void);
+// 0x00000121 System.Void Mono.Security.Protocol.Ntlm.MessageBase::set_Flags(Mono.Security.Protocol.Ntlm.NtlmFlags)
+extern void MessageBase_set_Flags_m4BA4AA3CA1819FFDF10A8A5ABBE9A891BB31A95E (void);
+// 0x00000122 System.Int32 Mono.Security.Protocol.Ntlm.MessageBase::get_Type()
+extern void MessageBase_get_Type_m9A3BCA375EA72DEE93AC6814A2D042F12CE2189B (void);
+// 0x00000123 System.Byte[] Mono.Security.Protocol.Ntlm.MessageBase::PrepareMessage(System.Int32)
+extern void MessageBase_PrepareMessage_mA2ECCEC352A8A4B4CDE8A273E2CCED50C05AE2BF (void);
+// 0x00000124 System.Void Mono.Security.Protocol.Ntlm.MessageBase::Decode(System.Byte[])
+extern void MessageBase_Decode_m155B9651CFCE85CD9B3858FF0A6DF89800767391 (void);
+// 0x00000125 System.Boolean Mono.Security.Protocol.Ntlm.MessageBase::CheckHeader(System.Byte[])
+extern void MessageBase_CheckHeader_mDC37298D388D893A6328373D7DA29B3CED469929 (void);
+// 0x00000126 System.Byte[] Mono.Security.Protocol.Ntlm.MessageBase::GetBytes()
+// 0x00000127 System.Void Mono.Security.Protocol.Ntlm.MessageBase::.cctor()
+extern void MessageBase__cctor_m045DF16176ADFE8EB9503EB727645898E6B931FE (void);
+// 0x00000128 Mono.Security.Protocol.Ntlm.NtlmAuthLevel Mono.Security.Protocol.Ntlm.NtlmSettings::get_DefaultAuthLevel()
+extern void NtlmSettings_get_DefaultAuthLevel_mF83628BB4813619EAD21B977855A59088E5D3CF0 (void);
+// 0x00000129 System.Void Mono.Security.Protocol.Ntlm.NtlmSettings::.cctor()
+extern void NtlmSettings__cctor_m4AECBEAA20F79BB6D5A8DA35FFC9A8493577BF2B (void);
+// 0x0000012A System.Void Mono.Security.Protocol.Ntlm.Type1Message::.ctor()
+extern void Type1Message__ctor_mEB49FA35D05F01172DF3C164F97163C277AEF914 (void);
+// 0x0000012B System.Void Mono.Security.Protocol.Ntlm.Type1Message::set_Domain(System.String)
+extern void Type1Message_set_Domain_mE06516CC741E4D12787911A9F1BCE92047DBA316 (void);
+// 0x0000012C System.Void Mono.Security.Protocol.Ntlm.Type1Message::set_Host(System.String)
+extern void Type1Message_set_Host_mAB5F72A7D281D31E9F9EC69B7D7518762AEE6CDA (void);
+// 0x0000012D System.Void Mono.Security.Protocol.Ntlm.Type1Message::Decode(System.Byte[])
+extern void Type1Message_Decode_m6B6B1FAD887619D49C8CC60ABA5F444056059741 (void);
+// 0x0000012E System.Byte[] Mono.Security.Protocol.Ntlm.Type1Message::GetBytes()
+extern void Type1Message_GetBytes_m8CAB2AE6CECDB5641EFD51A01649E75BB51DA1D1 (void);
+// 0x0000012F System.Void Mono.Security.Protocol.Ntlm.Type2Message::.ctor(System.Byte[])
+extern void Type2Message__ctor_m7A630E10D6C79B19A67A0068102655D998172E69 (void);
+// 0x00000130 System.Void Mono.Security.Protocol.Ntlm.Type2Message::Finalize()
+extern void Type2Message_Finalize_m212EDBA6307D2A6469A1755E084959C4F416D132 (void);
+// 0x00000131 System.Byte[] Mono.Security.Protocol.Ntlm.Type2Message::get_Nonce()
+extern void Type2Message_get_Nonce_mA371E0DBB0EFD643493BDE7AD6593DB3B64F11E3 (void);
+// 0x00000132 System.String Mono.Security.Protocol.Ntlm.Type2Message::get_TargetName()
+extern void Type2Message_get_TargetName_m2D376951E07D21EB9CF72CECDC877DF4E4FB077D (void);
+// 0x00000133 System.Byte[] Mono.Security.Protocol.Ntlm.Type2Message::get_TargetInfo()
+extern void Type2Message_get_TargetInfo_m26739FCB3FF9F56A86779C9A4B759FF3AFC03746 (void);
+// 0x00000134 System.Void Mono.Security.Protocol.Ntlm.Type2Message::Decode(System.Byte[])
+extern void Type2Message_Decode_m4DC375D0224F5F7A9C1205ED4CC51650D0F3521A (void);
+// 0x00000135 System.Byte[] Mono.Security.Protocol.Ntlm.Type2Message::GetBytes()
+extern void Type2Message_GetBytes_m7C4E5D7F49EF6535DD53262395F446ED6426F3F7 (void);
+// 0x00000136 System.Void Mono.Security.Protocol.Ntlm.Type3Message::.ctor(Mono.Security.Protocol.Ntlm.Type2Message)
+extern void Type3Message__ctor_m3A46F07DA05999471A34A64EB248160225F06768 (void);
+// 0x00000137 System.Void Mono.Security.Protocol.Ntlm.Type3Message::Finalize()
+extern void Type3Message_Finalize_m3367B5EC62552132F0F6779EC3A2590FB143D2A1 (void);
+// 0x00000138 System.Void Mono.Security.Protocol.Ntlm.Type3Message::set_Domain(System.String)
+extern void Type3Message_set_Domain_mA29F199E40EDFDB8CBEC22F50925889A1F8510E0 (void);
+// 0x00000139 System.Void Mono.Security.Protocol.Ntlm.Type3Message::set_Password(System.String)
+extern void Type3Message_set_Password_m04828A9F18AE9301885B4BD3C1F7F151DE63B300 (void);
+// 0x0000013A System.Void Mono.Security.Protocol.Ntlm.Type3Message::set_Username(System.String)
+extern void Type3Message_set_Username_mE76160F96BD8EEFF971C3E04B2AD2579080E3BF8 (void);
+// 0x0000013B System.Void Mono.Security.Protocol.Ntlm.Type3Message::Decode(System.Byte[])
+extern void Type3Message_Decode_m8066F0309CECA25CD455B91432F3679BB59B448C (void);
+// 0x0000013C System.String Mono.Security.Protocol.Ntlm.Type3Message::DecodeString(System.Byte[],System.Int32,System.Int32)
+extern void Type3Message_DecodeString_m44283D90E42F25A5F5ECC66AEBBFBA9306725B25 (void);
+// 0x0000013D System.Byte[] Mono.Security.Protocol.Ntlm.Type3Message::EncodeString(System.String)
+extern void Type3Message_EncodeString_m725085621A1177AD700EB63AA81FDAF9D04B2732 (void);
+// 0x0000013E System.Byte[] Mono.Security.Protocol.Ntlm.Type3Message::GetBytes()
+extern void Type3Message_GetBytes_mBC207BD47ECFF12866B4786766066A4D9D146E87 (void);
+// 0x0000013F Mono.Security.Interface.AlertLevel Mono.Security.Interface.Alert::get_Level()
+extern void Alert_get_Level_mA4A4833EBDC2FBFA4EA36634126A3E3C6EF4703C (void);
+// 0x00000140 Mono.Security.Interface.AlertDescription Mono.Security.Interface.Alert::get_Description()
+extern void Alert_get_Description_m704CDCA746F96A89493B7435D2F07920A1B7F3C5 (void);
+// 0x00000141 System.Void Mono.Security.Interface.Alert::.ctor(Mono.Security.Interface.AlertDescription)
+extern void Alert__ctor_mEF460A440F5C6CBD4B90FB0CD2665A73BFCE345E (void);
+// 0x00000142 System.Void Mono.Security.Interface.Alert::inferAlertLevel()
+extern void Alert_inferAlertLevel_mCA51E78E9C51F283831F685C1CECA4FD20087043 (void);
+// 0x00000143 System.String Mono.Security.Interface.Alert::ToString()
+extern void Alert_ToString_m000BBF1E597BF854C362203244F8E2DC4EC7045B (void);
+// 0x00000144 System.Void Mono.Security.Interface.ValidationResult::.ctor(System.Boolean,System.Boolean,System.Int32,System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors>)
+extern void ValidationResult__ctor_m4CAB4B31530A8CD62E46F8B3FAC6A36A4E615D5D (void);
+// 0x00000145 System.Boolean Mono.Security.Interface.ValidationResult::get_Trusted()
+extern void ValidationResult_get_Trusted_mC74B0DA857D9879C6A7428DB31DEA8A2DCD9DFF2 (void);
+// 0x00000146 System.Boolean Mono.Security.Interface.ValidationResult::get_UserDenied()
+extern void ValidationResult_get_UserDenied_m8714FE685A3F0214EE05C59AFE8ABC71CE614E0B (void);
+// 0x00000147 Mono.Security.Interface.CipherSuiteCode Mono.Security.Interface.MonoTlsConnectionInfo::get_CipherSuiteCode()
+extern void MonoTlsConnectionInfo_get_CipherSuiteCode_m413E7FB4252CE0D6C904D722107F0A4B59C79B08 (void);
+// 0x00000148 System.Void Mono.Security.Interface.MonoTlsConnectionInfo::set_CipherSuiteCode(Mono.Security.Interface.CipherSuiteCode)
+extern void MonoTlsConnectionInfo_set_CipherSuiteCode_m3BC21FD10B760939C96F6FBDB39DFEADDE50CCF5 (void);
+// 0x00000149 Mono.Security.Interface.TlsProtocols Mono.Security.Interface.MonoTlsConnectionInfo::get_ProtocolVersion()
+extern void MonoTlsConnectionInfo_get_ProtocolVersion_m12ADA52C235AF895D9462B2B4820EEF8325505AF (void);
+// 0x0000014A System.Void Mono.Security.Interface.MonoTlsConnectionInfo::set_ProtocolVersion(Mono.Security.Interface.TlsProtocols)
+extern void MonoTlsConnectionInfo_set_ProtocolVersion_m166E8E558B961F343E719D333A892E597AB17404 (void);
+// 0x0000014B System.Void Mono.Security.Interface.MonoTlsConnectionInfo::set_PeerDomainName(System.String)
+extern void MonoTlsConnectionInfo_set_PeerDomainName_mDCAB6395BFE1BEF3ACEF680AEA6A3FA4DDEA2A97 (void);
+// 0x0000014C System.String Mono.Security.Interface.MonoTlsConnectionInfo::ToString()
+extern void MonoTlsConnectionInfo_ToString_mA9F63B760E6919F545A716A7619F8786CAA7C38C (void);
+// 0x0000014D System.Void Mono.Security.Interface.MonoTlsConnectionInfo::.ctor()
+extern void MonoTlsConnectionInfo__ctor_m795EBB319F254C648313E21E85ABD2A4CBE4F93C (void);
+// 0x0000014E System.Void Mono.Security.Interface.MonoRemoteCertificateValidationCallback::.ctor(System.Object,System.IntPtr)
+extern void MonoRemoteCertificateValidationCallback__ctor_mEBD94D46C068D03E0F3A827F0875FE424C03B22A (void);
+// 0x0000014F System.Boolean Mono.Security.Interface.MonoRemoteCertificateValidationCallback::Invoke(System.String,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,Mono.Security.Interface.MonoSslPolicyErrors)
+extern void MonoRemoteCertificateValidationCallback_Invoke_m8BE32AE7FE1BE89EFB6A49559431916F785D2BD9 (void);
+// 0x00000150 System.Void Mono.Security.Interface.MonoLocalCertificateSelectionCallback::.ctor(System.Object,System.IntPtr)
+extern void MonoLocalCertificateSelectionCallback__ctor_mCA81824D698BD5808E501A9AC4DA99758B69D3FC (void);
+// 0x00000151 System.Security.Cryptography.X509Certificates.X509Certificate Mono.Security.Interface.MonoLocalCertificateSelectionCallback::Invoke(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String[])
+extern void MonoLocalCertificateSelectionCallback_Invoke_m32D010A24184A7BEEE6191B19F04E2E8AC8C3CEE (void);
+// 0x00000152 System.Void Mono.Security.Interface.MonoTlsProvider::.ctor()
+extern void MonoTlsProvider__ctor_m65BF846CE616D13609A5EFB2F42AE03A38E5CB8D (void);
+// 0x00000153 System.Guid Mono.Security.Interface.MonoTlsProvider::get_ID()
+// 0x00000154 System.String Mono.Security.Interface.MonoTlsProvider::get_Name()
+// 0x00000155 System.Boolean Mono.Security.Interface.MonoTlsProvider::get_SupportsSslStream()
+// 0x00000156 System.Boolean Mono.Security.Interface.MonoTlsProvider::get_SupportsConnectionInfo()
+// 0x00000157 System.Boolean Mono.Security.Interface.MonoTlsProvider::get_SupportsMonoExtensions()
+// 0x00000158 System.Security.Authentication.SslProtocols Mono.Security.Interface.MonoTlsProvider::get_SupportedProtocols()
+// 0x00000159 System.Boolean Mono.Security.Interface.MonoTlsProvider::get_SupportsCleanShutdown()
+// 0x0000015A Mono.Security.Interface.MonoTlsProvider Mono.Security.Interface.MonoTlsProviderFactory::GetProvider()
+extern void MonoTlsProviderFactory_GetProvider_m78A0B860DB25698EE7FB098ADA9BE356D4476567 (void);
+// 0x0000015B Mono.Security.Interface.MonoRemoteCertificateValidationCallback Mono.Security.Interface.MonoTlsSettings::get_RemoteCertificateValidationCallback()
+extern void MonoTlsSettings_get_RemoteCertificateValidationCallback_mE07825B4A75DAE2A4BB5037D504A36311814446C (void);
+// 0x0000015C System.Void Mono.Security.Interface.MonoTlsSettings::set_RemoteCertificateValidationCallback(Mono.Security.Interface.MonoRemoteCertificateValidationCallback)
+extern void MonoTlsSettings_set_RemoteCertificateValidationCallback_m6CEA8A6E38C85A96C2D26613407C13DD4F965C87 (void);
+// 0x0000015D Mono.Security.Interface.MonoLocalCertificateSelectionCallback Mono.Security.Interface.MonoTlsSettings::get_ClientCertificateSelectionCallback()
+extern void MonoTlsSettings_get_ClientCertificateSelectionCallback_mCFE63487D867109AD1AF856ECC8BA0996C0AA605 (void);
+// 0x0000015E System.Void Mono.Security.Interface.MonoTlsSettings::set_ClientCertificateSelectionCallback(Mono.Security.Interface.MonoLocalCertificateSelectionCallback)
+extern void MonoTlsSettings_set_ClientCertificateSelectionCallback_mB404DFD0C0475254CC129740A472D6D9615C56FD (void);
+// 0x0000015F System.Nullable`1<System.Boolean> Mono.Security.Interface.MonoTlsSettings::get_UseServicePointManagerCallback()
+extern void MonoTlsSettings_get_UseServicePointManagerCallback_m11F6CF11F844ED2F6D54497CBAB18E04E6AFD754 (void);
+// 0x00000160 System.Void Mono.Security.Interface.MonoTlsSettings::set_UseServicePointManagerCallback(System.Nullable`1<System.Boolean>)
+extern void MonoTlsSettings_set_UseServicePointManagerCallback_mE3EBA2F2886B024A4ACC303EE792190A5784E18B (void);
+// 0x00000161 System.Boolean Mono.Security.Interface.MonoTlsSettings::get_CallbackNeedsCertificateChain()
+extern void MonoTlsSettings_get_CallbackNeedsCertificateChain_m02260798D928BDA7F6D9A2356B7CE688650BF176 (void);
+// 0x00000162 System.Nullable`1<System.DateTime> Mono.Security.Interface.MonoTlsSettings::get_CertificateValidationTime()
+extern void MonoTlsSettings_get_CertificateValidationTime_mB7E248DE19CACA783A465F59859729C726DF2F9E (void);
+// 0x00000163 System.Void Mono.Security.Interface.MonoTlsSettings::set_CertificateValidationTime(System.Nullable`1<System.DateTime>)
+extern void MonoTlsSettings_set_CertificateValidationTime_mE632C0A1BAB7608158B8EF05D2122B87AB6C34A6 (void);
+// 0x00000164 System.Security.Cryptography.X509Certificates.X509CertificateCollection Mono.Security.Interface.MonoTlsSettings::get_TrustAnchors()
+extern void MonoTlsSettings_get_TrustAnchors_m4CA73EEBF73B4344C5334F3BC5BBFE1BC27BC7AE (void);
+// 0x00000165 System.Void Mono.Security.Interface.MonoTlsSettings::set_TrustAnchors(System.Security.Cryptography.X509Certificates.X509CertificateCollection)
+extern void MonoTlsSettings_set_TrustAnchors_m08A22767288F1FB5AF812D0FDE8ACCDA47116661 (void);
+// 0x00000166 System.Object Mono.Security.Interface.MonoTlsSettings::get_UserSettings()
+extern void MonoTlsSettings_get_UserSettings_m9ADCEFD59E6429580D053F5AC0AF492B59353920 (void);
+// 0x00000167 System.Void Mono.Security.Interface.MonoTlsSettings::set_UserSettings(System.Object)
+extern void MonoTlsSettings_set_UserSettings_mE1E6ED54BB439AE8012FD17D7230515CAB11D55D (void);
+// 0x00000168 System.String[] Mono.Security.Interface.MonoTlsSettings::get_CertificateSearchPaths()
+extern void MonoTlsSettings_get_CertificateSearchPaths_mD6BE6C9347446D742B29CAB987AEB76FF845A050 (void);
+// 0x00000169 System.Void Mono.Security.Interface.MonoTlsSettings::set_CertificateSearchPaths(System.String[])
+extern void MonoTlsSettings_set_CertificateSearchPaths_mD7846BCF7B9292F85FEF0BE4A671779AD6C9AC32 (void);
+// 0x0000016A System.Boolean Mono.Security.Interface.MonoTlsSettings::get_SendCloseNotify()
+extern void MonoTlsSettings_get_SendCloseNotify_m1D35BCF28142455EC9CDF16CA36A8DEF57B05625 (void);
+// 0x0000016B System.Void Mono.Security.Interface.MonoTlsSettings::set_SendCloseNotify(System.Boolean)
+extern void MonoTlsSettings_set_SendCloseNotify_m903943162225A7267CA3AD1E1E6E76EA71BCC5BF (void);
+// 0x0000016C System.String[] Mono.Security.Interface.MonoTlsSettings::get_ClientCertificateIssuers()
+extern void MonoTlsSettings_get_ClientCertificateIssuers_m6FB58C63262D146231256A969DC2F3B60CE5C498 (void);
+// 0x0000016D System.Void Mono.Security.Interface.MonoTlsSettings::set_ClientCertificateIssuers(System.String[])
+extern void MonoTlsSettings_set_ClientCertificateIssuers_m0866718DAECFD44FC53370D23AB4C789CE0759B8 (void);
+// 0x0000016E System.Boolean Mono.Security.Interface.MonoTlsSettings::get_DisallowUnauthenticatedCertificateRequest()
+extern void MonoTlsSettings_get_DisallowUnauthenticatedCertificateRequest_m15B7CAB13F2301D201AAD092DF2FCB49366ABDF6 (void);
+// 0x0000016F System.Void Mono.Security.Interface.MonoTlsSettings::set_DisallowUnauthenticatedCertificateRequest(System.Boolean)
+extern void MonoTlsSettings_set_DisallowUnauthenticatedCertificateRequest_mCC9D044ACAD032758F91CC5A3AD1E69F8C5C7FE4 (void);
+// 0x00000170 System.Nullable`1<Mono.Security.Interface.TlsProtocols> Mono.Security.Interface.MonoTlsSettings::get_EnabledProtocols()
+extern void MonoTlsSettings_get_EnabledProtocols_m6368286BF3E5703DB56F0EDE7B6AD2EF9C98D4C8 (void);
+// 0x00000171 System.Void Mono.Security.Interface.MonoTlsSettings::set_EnabledProtocols(System.Nullable`1<Mono.Security.Interface.TlsProtocols>)
+extern void MonoTlsSettings_set_EnabledProtocols_m41991C8F073B85156818A906815AC4AE5623E77D (void);
+// 0x00000172 Mono.Security.Interface.CipherSuiteCode[] Mono.Security.Interface.MonoTlsSettings::get_EnabledCiphers()
+extern void MonoTlsSettings_get_EnabledCiphers_m7BD72B78EF53FAF51FEEBF5B3657187EC876394A (void);
+// 0x00000173 System.Void Mono.Security.Interface.MonoTlsSettings::set_EnabledCiphers(Mono.Security.Interface.CipherSuiteCode[])
+extern void MonoTlsSettings_set_EnabledCiphers_mA89F7C73A29959710230593DCC689F4B9860156A (void);
+// 0x00000174 System.Void Mono.Security.Interface.MonoTlsSettings::.ctor()
+extern void MonoTlsSettings__ctor_mE939325F3FC3A8950048CD299F395C8C823EA925 (void);
+// 0x00000175 Mono.Security.Interface.MonoTlsSettings Mono.Security.Interface.MonoTlsSettings::get_DefaultSettings()
+extern void MonoTlsSettings_get_DefaultSettings_m1A98FFBA09E1F2A23F128090959A396A353F4297 (void);
+// 0x00000176 Mono.Security.Interface.MonoTlsSettings Mono.Security.Interface.MonoTlsSettings::CopyDefaultSettings()
+extern void MonoTlsSettings_CopyDefaultSettings_mE5970D083778040231805379F970AB869548029E (void);
+// 0x00000177 Mono.Security.Interface.ICertificateValidator Mono.Security.Interface.MonoTlsSettings::get_CertificateValidator()
+extern void MonoTlsSettings_get_CertificateValidator_m2DC79DA38E7CB5E87A21E315A29F21E1D9ACF367 (void);
+// 0x00000178 Mono.Security.Interface.MonoTlsSettings Mono.Security.Interface.MonoTlsSettings::CloneWithValidator(Mono.Security.Interface.ICertificateValidator)
+extern void MonoTlsSettings_CloneWithValidator_mF20535B6DE43DD45FAE2ECC6871C85C15F260D6B (void);
+// 0x00000179 Mono.Security.Interface.MonoTlsSettings Mono.Security.Interface.MonoTlsSettings::Clone()
+extern void MonoTlsSettings_Clone_mC4F9A27889ADD0B275018B32BCDA67C30865EA7D (void);
+// 0x0000017A System.Void Mono.Security.Interface.MonoTlsSettings::.ctor(Mono.Security.Interface.MonoTlsSettings)
+extern void MonoTlsSettings__ctor_m93F7300159A30C4B08C4A9A9B0C0CAA6B16E0D6F (void);
+// 0x0000017B System.Void Mono.Security.Interface.TlsException::.ctor(Mono.Security.Interface.Alert)
+extern void TlsException__ctor_m790E4F01EE46A1D10C353B331F6354B3ECF97CFF (void);
+// 0x0000017C System.Void Mono.Security.Interface.TlsException::.ctor(Mono.Security.Interface.Alert,System.String)
+extern void TlsException__ctor_m343EBA01616A2B8649875A19BE4E56BBF46C6D81 (void);
+// 0x0000017D System.Void Mono.Security.Interface.TlsException::.ctor(Mono.Security.Interface.AlertDescription)
+extern void TlsException__ctor_m6D862D6D21E46E91EC116FF6FD1E5ED2F6D35A68 (void);
+// 0x0000017E System.Void Mono.Security.Interface.TlsException::.ctor(Mono.Security.Interface.AlertDescription,System.String)
+extern void TlsException__ctor_m4E03D70F9BCA4C0CA737720A43ABAB696CEA6209 (void);
+// 0x0000017F System.String Mono.Security.Cryptography.CryptoConvert::ToHex(System.Byte[])
+extern void CryptoConvert_ToHex_m372F8F7845B638F6C6BD17F0390A1641A51C2E21 (void);
+// 0x00000180 System.Byte Mono.Security.Cryptography.CryptoConvert::FromHexChar(System.Char)
+extern void CryptoConvert_FromHexChar_m1645CEA986C0BDF8D390F7B93C95F85C8E45F981 (void);
+// 0x00000181 System.Byte[] Mono.Security.Cryptography.CryptoConvert::FromHex(System.String)
+extern void CryptoConvert_FromHex_m05E2DF14D77F36E160F7E88CF290299C357886A0 (void);
+// 0x00000182 System.Void Mono.Security.Cryptography.MD2::.ctor()
+extern void MD2__ctor_m490777410D02CD92B398D20C6A2DAE7448A00E8B (void);
+// 0x00000183 Mono.Security.Cryptography.MD2 Mono.Security.Cryptography.MD2::Create()
+extern void MD2_Create_m8D8916FDE8D3D1610CD85450B021F880E7E27550 (void);
+// 0x00000184 System.Byte[] Mono.Security.Cryptography.MD2Managed::Padding(System.Int32)
+extern void MD2Managed_Padding_m661705CFE5C0683685E84E1CD503326477C7138F (void);
+// 0x00000185 System.Void Mono.Security.Cryptography.MD2Managed::.ctor()
+extern void MD2Managed__ctor_m4E661935AEFB98EDCB3EEFE7D6EECAD10C807A2B (void);
+// 0x00000186 System.Void Mono.Security.Cryptography.MD2Managed::Initialize()
+extern void MD2Managed_Initialize_m578DBD3B8265ABD7FE060D4DD958EA986301698F (void);
+// 0x00000187 System.Void Mono.Security.Cryptography.MD2Managed::HashCore(System.Byte[],System.Int32,System.Int32)
+extern void MD2Managed_HashCore_m2B4BED309AC3C80A6E8D14ADDE4BF9AC9CC266F6 (void);
+// 0x00000188 System.Byte[] Mono.Security.Cryptography.MD2Managed::HashFinal()
+extern void MD2Managed_HashFinal_mDB2FA7F5A7A8A4FEE85BD56B47801B12BCDFCAF1 (void);
+// 0x00000189 System.Void Mono.Security.Cryptography.MD2Managed::MD2Transform(System.Byte[],System.Byte[],System.Byte[],System.Int32)
+extern void MD2Managed_MD2Transform_mCA2AD9EF038AC46E69F4726153B9C0DC03FC09D3 (void);
+// 0x0000018A System.Void Mono.Security.Cryptography.MD2Managed::.cctor()
+extern void MD2Managed__cctor_m4A97F7EE439FE55705B9B2AB478CD29A0FBCD202 (void);
+// 0x0000018B System.Void Mono.Security.Cryptography.MD4::.ctor()
+extern void MD4__ctor_m0E07C929BDAF3BB0CFD4EC360D22849566538CBB (void);
+// 0x0000018C Mono.Security.Cryptography.MD4 Mono.Security.Cryptography.MD4::Create()
+extern void MD4_Create_mCB4921FC30437A53D26E6BFA45D5D31F9F2F6014 (void);
+// 0x0000018D System.Void Mono.Security.Cryptography.MD4Managed::.ctor()
+extern void MD4Managed__ctor_m89BE94F7DEB019FA53E6B1F46DCFB6B4CA36CD1C (void);
+// 0x0000018E System.Void Mono.Security.Cryptography.MD4Managed::Initialize()
+extern void MD4Managed_Initialize_mFC1E0B77E8CF24894ECF37C54EC3D3527E36DDFB (void);
+// 0x0000018F System.Void Mono.Security.Cryptography.MD4Managed::HashCore(System.Byte[],System.Int32,System.Int32)
+extern void MD4Managed_HashCore_m41A5263D2F078402E912B70E7DD08B9D12085E66 (void);
+// 0x00000190 System.Byte[] Mono.Security.Cryptography.MD4Managed::HashFinal()
+extern void MD4Managed_HashFinal_m5BDA517A8D12C62F62C5EFBBCBC661DE9C198EFC (void);
+// 0x00000191 System.Byte[] Mono.Security.Cryptography.MD4Managed::Padding(System.Int32)
+extern void MD4Managed_Padding_mD7BB9A7A7F78490A4B8EC89A21ED240CB85E39F4 (void);
+// 0x00000192 System.UInt32 Mono.Security.Cryptography.MD4Managed::F(System.UInt32,System.UInt32,System.UInt32)
+extern void MD4Managed_F_mD8312B8925BE2A23E1E9B1A13054A95D815F06C4 (void);
+// 0x00000193 System.UInt32 Mono.Security.Cryptography.MD4Managed::G(System.UInt32,System.UInt32,System.UInt32)
+extern void MD4Managed_G_mCCB055CECFE7296853DF7DB9336A670549C8423A (void);
+// 0x00000194 System.UInt32 Mono.Security.Cryptography.MD4Managed::H(System.UInt32,System.UInt32,System.UInt32)
+extern void MD4Managed_H_mA7897D3B979E6627EB9A44E6FB6C894D4B338910 (void);
+// 0x00000195 System.UInt32 Mono.Security.Cryptography.MD4Managed::ROL(System.UInt32,System.Byte)
+extern void MD4Managed_ROL_mAEE08B95D3EA8EB7EF09EB7CC1E97CF6F3E1F31F (void);
+// 0x00000196 System.Void Mono.Security.Cryptography.MD4Managed::FF(System.UInt32&,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Byte)
+extern void MD4Managed_FF_mA227BE16EECCB0BC298BA664D40D8703152D5AA0 (void);
+// 0x00000197 System.Void Mono.Security.Cryptography.MD4Managed::GG(System.UInt32&,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Byte)
+extern void MD4Managed_GG_m57C28D2EE1C3AC5241943AEB683989331AFB2415 (void);
+// 0x00000198 System.Void Mono.Security.Cryptography.MD4Managed::HH(System.UInt32&,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Byte)
+extern void MD4Managed_HH_m35ABC1BD17ADB7103B07BAE99ED070EA850FB197 (void);
+// 0x00000199 System.Void Mono.Security.Cryptography.MD4Managed::Encode(System.Byte[],System.UInt32[])
+extern void MD4Managed_Encode_m1E02CBE5A0E99DFF36299CCEAC13F92124422D55 (void);
+// 0x0000019A System.Void Mono.Security.Cryptography.MD4Managed::Decode(System.UInt32[],System.Byte[],System.Int32)
+extern void MD4Managed_Decode_m01D0E808B7F05B50EC6A1B146F5BE6AB909DA396 (void);
+// 0x0000019B System.Void Mono.Security.Cryptography.MD4Managed::MD4Transform(System.UInt32[],System.Byte[],System.Int32)
+extern void MD4Managed_MD4Transform_m3BEBC5DA2F365EA60233EB3849D6B670AF44835A (void);
+// 0x0000019C System.Boolean Mono.Security.Cryptography.PKCS1::Compare(System.Byte[],System.Byte[])
+extern void PKCS1_Compare_m2191E9428696E154E5B525C0023A0E6452BCBAB8 (void);
+// 0x0000019D System.Byte[] Mono.Security.Cryptography.PKCS1::I2OSP(System.Byte[],System.Int32)
+extern void PKCS1_I2OSP_m09188E6F6B2F1875A5AD568F5DA5A7517755715C (void);
+// 0x0000019E System.Byte[] Mono.Security.Cryptography.PKCS1::OS2IP(System.Byte[])
+extern void PKCS1_OS2IP_mA051090D7B03C2052FA7B7F6419376D33C438A65 (void);
+// 0x0000019F System.Byte[] Mono.Security.Cryptography.PKCS1::RSAVP1(System.Security.Cryptography.RSA,System.Byte[])
+extern void PKCS1_RSAVP1_m116E9A26C499655F19805E3A878A21380431B0F6 (void);
+// 0x000001A0 System.Boolean Mono.Security.Cryptography.PKCS1::Verify_v15(System.Security.Cryptography.RSA,System.Security.Cryptography.HashAlgorithm,System.Byte[],System.Byte[],System.Boolean)
+extern void PKCS1_Verify_v15_m43A88872056E2CC8A5B15534134EC647E246097E (void);
+// 0x000001A1 System.Byte[] Mono.Security.Cryptography.PKCS1::Encode_v15(System.Security.Cryptography.HashAlgorithm,System.Byte[],System.Int32)
+extern void PKCS1_Encode_v15_mE68AC16F70E21E3961689BDC50F35982B014EAAD (void);
+// 0x000001A2 System.String Mono.Security.Cryptography.PKCS1::HashNameFromOid(System.String,System.Boolean)
+extern void PKCS1_HashNameFromOid_mB154086B9DBD3A7A261B29E356577283BD96EF6A (void);
+// 0x000001A3 System.Security.Cryptography.HashAlgorithm Mono.Security.Cryptography.PKCS1::CreateFromOid(System.String)
+extern void PKCS1_CreateFromOid_m28E10EF2DAA6C7900493AB6676078FAA20C57A09 (void);
+// 0x000001A4 System.Security.Cryptography.HashAlgorithm Mono.Security.Cryptography.PKCS1::CreateFromName(System.String)
+extern void PKCS1_CreateFromName_mD94C873F9E6755D6B46EAD204FF120A42AF0655E (void);
+// 0x000001A5 System.Void Mono.Security.Cryptography.PKCS1::.cctor()
+extern void PKCS1__cctor_m590A6175AF1A39399AF936FDA81A827026765308 (void);
+// 0x000001A6 System.Void Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::.ctor()
+extern void PrivateKeyInfo__ctor_m22D9C0E05AA5534D7874D9779D81BA12CB675862 (void);
+// 0x000001A7 System.Void Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::.ctor(System.Byte[])
+extern void PrivateKeyInfo__ctor_mF8536B2938ED0774AEAFAC0D16AF8FAD636F904A (void);
+// 0x000001A8 System.String Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::get_Algorithm()
+extern void PrivateKeyInfo_get_Algorithm_m544D7A80C2BD7DE45C080DF09D88221A58DB9459 (void);
+// 0x000001A9 System.Void Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::set_Algorithm(System.String)
+extern void PrivateKeyInfo_set_Algorithm_mFD8F5D740F42A4FB5F140746F66344C482214461 (void);
+// 0x000001AA System.Byte[] Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::get_PrivateKey()
+extern void PrivateKeyInfo_get_PrivateKey_m08A332D04C22BE19ED55E82B4D3804336502D13B (void);
+// 0x000001AB System.Void Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::set_PrivateKey(System.Byte[])
+extern void PrivateKeyInfo_set_PrivateKey_mF2063F5270C3292963169D6AD956F805B708EA9A (void);
+// 0x000001AC System.Void Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::Decode(System.Byte[])
+extern void PrivateKeyInfo_Decode_m0418E893A9C18998D461DF559BEE133012C54B41 (void);
+// 0x000001AD System.Byte[] Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::GetBytes()
+extern void PrivateKeyInfo_GetBytes_m7D3AFC62DC76180A827AC8B1D549BB181165B71A (void);
+// 0x000001AE System.Byte[] Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::RemoveLeadingZero(System.Byte[])
+extern void PrivateKeyInfo_RemoveLeadingZero_mCFBEBB4A2B8B6BF60A07951E042D5C8524F8E55A (void);
+// 0x000001AF System.Byte[] Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::Normalize(System.Byte[],System.Int32)
+extern void PrivateKeyInfo_Normalize_mF76CD1FC00E20C1C35AC8757E761064307BA3C33 (void);
+// 0x000001B0 System.Security.Cryptography.RSA Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::DecodeRSA(System.Byte[])
+extern void PrivateKeyInfo_DecodeRSA_m82CA806E057F3381929C3A2B1CCE85F813B8685F (void);
+// 0x000001B1 System.Byte[] Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::Encode(System.Security.Cryptography.RSA)
+extern void PrivateKeyInfo_Encode_m65BED66F892EB07E6CA404094D13BACB167496C4 (void);
+// 0x000001B2 System.Security.Cryptography.DSA Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::DecodeDSA(System.Byte[],System.Security.Cryptography.DSAParameters)
+extern void PrivateKeyInfo_DecodeDSA_mD376BC5F172B6308F4D5DE9519FE8799328D02E2 (void);
+// 0x000001B3 System.Byte[] Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::Encode(System.Security.Cryptography.DSA)
+extern void PrivateKeyInfo_Encode_m3396C4C782EF8EA952C7DE98B570E25CE0D4E062 (void);
+// 0x000001B4 System.Byte[] Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::Encode(System.Security.Cryptography.AsymmetricAlgorithm)
+extern void PrivateKeyInfo_Encode_mE4EDCBEED688E2625A19F871FABAB9A9C5D93CB5 (void);
+// 0x000001B5 System.Void Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::.ctor()
+extern void EncryptedPrivateKeyInfo__ctor_mE231E160F0541E832A29C009CD95AFF578E51918 (void);
+// 0x000001B6 System.Void Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::.ctor(System.Byte[])
+extern void EncryptedPrivateKeyInfo__ctor_m5CF5C6296CD6DA1A655FDEEF0701F4E6600E5D7F (void);
+// 0x000001B7 System.String Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::get_Algorithm()
+extern void EncryptedPrivateKeyInfo_get_Algorithm_mA143C07290B65E429244DBD3C98CD7E4F2FDA061 (void);
+// 0x000001B8 System.Void Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::set_Algorithm(System.String)
+extern void EncryptedPrivateKeyInfo_set_Algorithm_m5D20F5C3A27178F750D8EA9284487B0CB000BDF2 (void);
+// 0x000001B9 System.Byte[] Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::get_EncryptedData()
+extern void EncryptedPrivateKeyInfo_get_EncryptedData_m0CE09A1279C5BD7DCFC30BD5D9D59921D7082583 (void);
+// 0x000001BA System.Void Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::set_EncryptedData(System.Byte[])
+extern void EncryptedPrivateKeyInfo_set_EncryptedData_m85863E848EA3BC76741E57B631EEE3F2E5D351FC (void);
+// 0x000001BB System.Byte[] Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::get_Salt()
+extern void EncryptedPrivateKeyInfo_get_Salt_m9535A0F6F11ABF70C3DAEEBB61E437CB21042F61 (void);
+// 0x000001BC System.Int32 Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::get_IterationCount()
+extern void EncryptedPrivateKeyInfo_get_IterationCount_m0027F1C5D6D120B70924F3DFCDFAAA48C064F410 (void);
+// 0x000001BD System.Void Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::set_IterationCount(System.Int32)
+extern void EncryptedPrivateKeyInfo_set_IterationCount_m7A4A4C5E7B52ADBDF9003DD75880F7071E07A34D (void);
+// 0x000001BE System.Void Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::Decode(System.Byte[])
+extern void EncryptedPrivateKeyInfo_Decode_m1C9F94B949283DE27932FACE345EE2C314982C85 (void);
+// 0x000001BF System.Byte[] Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::GetBytes()
+extern void EncryptedPrivateKeyInfo_GetBytes_mEFEA6CB0E64BE8B64BD20281E9F2F4ED6A910693 (void);
+// 0x000001C0 System.Void Mono.Security.Cryptography.RSAManaged::.ctor()
+extern void RSAManaged__ctor_m3DC50713376908C5D1B7EDE7662070DBC185597A (void);
+// 0x000001C1 System.Void Mono.Security.Cryptography.RSAManaged::.ctor(System.Int32)
+extern void RSAManaged__ctor_mC9FD969A9C89A836300989CC0A3B20E40025D8BE (void);
+// 0x000001C2 System.Void Mono.Security.Cryptography.RSAManaged::Finalize()
+extern void RSAManaged_Finalize_mFD07D39251303051B9DF8AF29AB6B4CF9FA7FDCB (void);
+// 0x000001C3 System.Void Mono.Security.Cryptography.RSAManaged::GenerateKeyPair()
+extern void RSAManaged_GenerateKeyPair_m3E0EB3C2ADA16EE8FE2A8AE7071333CB6795F55D (void);
+// 0x000001C4 System.Int32 Mono.Security.Cryptography.RSAManaged::get_KeySize()
+extern void RSAManaged_get_KeySize_m17BA4753AA6967ADFBEBF49035158532F23DB7A3 (void);
+// 0x000001C5 System.Boolean Mono.Security.Cryptography.RSAManaged::get_PublicOnly()
+extern void RSAManaged_get_PublicOnly_m12DE914F7BDDD2E850EDD7F34BA9CF3114C333BF (void);
+// 0x000001C6 System.Byte[] Mono.Security.Cryptography.RSAManaged::EncryptValue(System.Byte[])
+extern void RSAManaged_EncryptValue_mAED1DAF6891C6F20546DD23272193471BB495242 (void);
+// 0x000001C7 System.Security.Cryptography.RSAParameters Mono.Security.Cryptography.RSAManaged::ExportParameters(System.Boolean)
+extern void RSAManaged_ExportParameters_mD63F6ED165F8CA27D9F2BBA4C7FDD232D6C2A53F (void);
+// 0x000001C8 System.Void Mono.Security.Cryptography.RSAManaged::ImportParameters(System.Security.Cryptography.RSAParameters)
+extern void RSAManaged_ImportParameters_m585D1CB6F017A3FDA42FEFEAFD14029F8E41EBC8 (void);
+// 0x000001C9 System.Void Mono.Security.Cryptography.RSAManaged::Dispose(System.Boolean)
+extern void RSAManaged_Dispose_mE2C5CCB287A79986DFB8A3A2380E6666291C982B (void);
+// 0x000001CA System.String Mono.Security.Cryptography.RSAManaged::ToXmlString(System.Boolean)
+extern void RSAManaged_ToXmlString_m05B2E2182E8223F5242E8C0D8A0BF70750A9CB93 (void);
+// 0x000001CB System.Byte[] Mono.Security.Cryptography.RSAManaged::GetPaddedValue(Mono.Math.BigInteger,System.Int32)
+extern void RSAManaged_GetPaddedValue_m228CFE67E9EF6B3659E761E55D06AD18B6DFF1FD (void);
+// 0x000001CC System.Void Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler::.ctor(System.Object,System.IntPtr)
+extern void KeyGeneratedEventHandler__ctor_m5B52F3B7F5A33F1A0BDC378D304EF8F681A1D8FB (void);
+// 0x000001CD System.Void Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler::Invoke(System.Object,System.EventArgs)
+extern void KeyGeneratedEventHandler_Invoke_mD73F8C7BC0305037EC520C3F4AF3DE74E5481DDA (void);
+// 0x000001CE System.Void Mono.Security.Authenticode.AuthenticodeBase::.ctor()
+extern void AuthenticodeBase__ctor_m0439483FE9A59BB7E27DE3A8D9EA1D1265BF968C (void);
+// 0x000001CF System.Int32 Mono.Security.Authenticode.AuthenticodeBase::get_PEOffset()
+extern void AuthenticodeBase_get_PEOffset_mC4BFB80BAEF28B712FD9048C85B3F20B3DC81C5B (void);
+// 0x000001D0 System.Void Mono.Security.Authenticode.AuthenticodeBase::Open(System.String)
+extern void AuthenticodeBase_Open_m6D97F062F4176730B6020ACAAD47ED4353B35465 (void);
+// 0x000001D1 System.Void Mono.Security.Authenticode.AuthenticodeBase::Open(System.Byte[])
+extern void AuthenticodeBase_Open_mB75CCA77F829FC8F99FDFCDC639AE5ADA3B32A81 (void);
+// 0x000001D2 System.Void Mono.Security.Authenticode.AuthenticodeBase::Close()
+extern void AuthenticodeBase_Close_m1FA42AD55310BAF64DB00FFE6563ED06D44980E9 (void);
+// 0x000001D3 System.Void Mono.Security.Authenticode.AuthenticodeBase::ReadFirstBlock()
+extern void AuthenticodeBase_ReadFirstBlock_m7F5A9F2A9C8FAA6C6685E0F3322E8D69E7324545 (void);
+// 0x000001D4 System.Int32 Mono.Security.Authenticode.AuthenticodeBase::ProcessFirstBlock()
+extern void AuthenticodeBase_ProcessFirstBlock_m3FB173D7CA309AA1119CFB86D5E4768DA1DCCC1A (void);
+// 0x000001D5 System.Byte[] Mono.Security.Authenticode.AuthenticodeBase::GetSecurityEntry()
+extern void AuthenticodeBase_GetSecurityEntry_m3690E0D6B4D14F2A8979F1BE0CCE6F7327C2E24E (void);
+// 0x000001D6 System.Byte[] Mono.Security.Authenticode.AuthenticodeBase::GetHash(System.Security.Cryptography.HashAlgorithm)
+extern void AuthenticodeBase_GetHash_mF881D2926F2FABC3ACDA646842954F83A9434066 (void);
+// 0x000001D7 System.Void Mono.Security.Authenticode.AuthenticodeDeformatter::.ctor()
+extern void AuthenticodeDeformatter__ctor_m2695F107A500029472C7B519B00F5F8F86918114 (void);
+// 0x000001D8 System.Void Mono.Security.Authenticode.AuthenticodeDeformatter::.ctor(System.Byte[])
+extern void AuthenticodeDeformatter__ctor_mE7D65775E1289E0DBB208034BE5EB40AB6469BA0 (void);
+// 0x000001D9 System.Void Mono.Security.Authenticode.AuthenticodeDeformatter::set_RawData(System.Byte[])
+extern void AuthenticodeDeformatter_set_RawData_m0D90817618D3ED52A415A898F0037018A777D07A (void);
+// 0x000001DA Mono.Security.X509.X509Certificate Mono.Security.Authenticode.AuthenticodeDeformatter::get_SigningCertificate()
+extern void AuthenticodeDeformatter_get_SigningCertificate_m5C675A2AB0464670DF6C557C4433871014EB52CC (void);
+// 0x000001DB System.Boolean Mono.Security.Authenticode.AuthenticodeDeformatter::CheckSignature()
+extern void AuthenticodeDeformatter_CheckSignature_mCC125D2B04750C3581E9C60593C4212BC54077F0 (void);
+// 0x000001DC System.Boolean Mono.Security.Authenticode.AuthenticodeDeformatter::CompareIssuerSerial(System.String,System.Byte[],Mono.Security.X509.X509Certificate)
+extern void AuthenticodeDeformatter_CompareIssuerSerial_m3EE0CDFEE995FAB1C96A8B358D15F1D5EB4F2413 (void);
+// 0x000001DD System.Boolean Mono.Security.Authenticode.AuthenticodeDeformatter::VerifySignature(Mono.Security.PKCS7/SignedData,System.Byte[],System.Security.Cryptography.HashAlgorithm)
+extern void AuthenticodeDeformatter_VerifySignature_mEA4B444611069CAADC507D771CFBA1A571CD8973 (void);
+// 0x000001DE System.Boolean Mono.Security.Authenticode.AuthenticodeDeformatter::VerifyCounterSignature(Mono.Security.PKCS7/SignerInfo,System.Byte[])
+extern void AuthenticodeDeformatter_VerifyCounterSignature_mCC865AF6E1CE3E6917FF161182D64EDCFE94DBCD (void);
+// 0x000001DF System.Void Mono.Security.Authenticode.AuthenticodeDeformatter::Reset()
+extern void AuthenticodeDeformatter_Reset_mD15DE78C062103550A42BEE536E78F9526585B90 (void);
+// 0x000001E0 System.Void Mono.Math.BigInteger::.ctor(Mono.Math.BigInteger/Sign,System.UInt32)
+extern void BigInteger__ctor_m49DCBBD82981761C45EBC2350A1F16DB886E5F50 (void);
+// 0x000001E1 System.Void Mono.Math.BigInteger::.ctor(Mono.Math.BigInteger)
+extern void BigInteger__ctor_m42B232CF6F76C15DAA3C02C3F5DE1B1F7C7BBC51 (void);
+// 0x000001E2 System.Void Mono.Math.BigInteger::.ctor(Mono.Math.BigInteger,System.UInt32)
+extern void BigInteger__ctor_mD26E0224E82674AFA9A6E4BF4F0674BB0B7BECBF (void);
+// 0x000001E3 System.Void Mono.Math.BigInteger::.ctor(System.Byte[])
+extern void BigInteger__ctor_m8E3F4B6BB64E6F4A2FCB66402F58C192453ECB45 (void);
+// 0x000001E4 System.Void Mono.Math.BigInteger::.ctor(System.UInt32)
+extern void BigInteger__ctor_m9AFFDE2505C2B712D5F89EF501A2D163B7855E02 (void);
+// 0x000001E5 Mono.Math.BigInteger Mono.Math.BigInteger::op_Implicit(System.UInt32)
+extern void BigInteger_op_Implicit_mA366B11D70EEA5E05CB0A27A253EA22DC3D47F3E (void);
+// 0x000001E6 Mono.Math.BigInteger Mono.Math.BigInteger::op_Implicit(System.Int32)
+extern void BigInteger_op_Implicit_m62A62BEDAE7A2C4349BF7139FD915204A599EEAC (void);
+// 0x000001E7 Mono.Math.BigInteger Mono.Math.BigInteger::op_Subtraction(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void BigInteger_op_Subtraction_mA77D9B0690E545E5E81E024DE2D005A4E5904CA7 (void);
+// 0x000001E8 System.UInt32 Mono.Math.BigInteger::op_Modulus(Mono.Math.BigInteger,System.UInt32)
+extern void BigInteger_op_Modulus_m6A12610F6997190C6C35ED211AE4AEE01683E92F (void);
+// 0x000001E9 Mono.Math.BigInteger Mono.Math.BigInteger::op_Modulus(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void BigInteger_op_Modulus_m98F6CFD9441247CCBBB866E72F26356E62A61E6D (void);
+// 0x000001EA Mono.Math.BigInteger Mono.Math.BigInteger::op_Division(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void BigInteger_op_Division_mE30CB264DE7622B5EFBC03D42881F5E6C5EBDFD0 (void);
+// 0x000001EB Mono.Math.BigInteger Mono.Math.BigInteger::op_Multiply(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void BigInteger_op_Multiply_m2182A109D6378FF4DC89B2C0C0D05131DE978BCE (void);
+// 0x000001EC Mono.Math.BigInteger Mono.Math.BigInteger::op_LeftShift(Mono.Math.BigInteger,System.Int32)
+extern void BigInteger_op_LeftShift_m83EA1C925821636CC6E2788E6FFA9F1E31D21EB4 (void);
+// 0x000001ED Mono.Math.BigInteger Mono.Math.BigInteger::op_RightShift(Mono.Math.BigInteger,System.Int32)
+extern void BigInteger_op_RightShift_m338EE513BA46D08DFDA593D76CC1FD60B594D0E8 (void);
+// 0x000001EE System.Security.Cryptography.RandomNumberGenerator Mono.Math.BigInteger::get_Rng()
+extern void BigInteger_get_Rng_m60AF9F9656E3A53330A19B61A1F31B9E994A75CB (void);
+// 0x000001EF Mono.Math.BigInteger Mono.Math.BigInteger::GenerateRandom(System.Int32,System.Security.Cryptography.RandomNumberGenerator)
+extern void BigInteger_GenerateRandom_mF80D714145C0298E0CAED6DAFFB00D5D153FBDF5 (void);
+// 0x000001F0 Mono.Math.BigInteger Mono.Math.BigInteger::GenerateRandom(System.Int32)
+extern void BigInteger_GenerateRandom_mA6D7DE4D0B18C143D555FFF251F5FC9BDC47A1DB (void);
+// 0x000001F1 System.Int32 Mono.Math.BigInteger::BitCount()
+extern void BigInteger_BitCount_m6FD831E1BA71E84748B08A7A5B1FFE9AB2C62551 (void);
+// 0x000001F2 System.Boolean Mono.Math.BigInteger::TestBit(System.Int32)
+extern void BigInteger_TestBit_m2EAAC171F87CAB5FEDA0DEC79A83A68E56762C35 (void);
+// 0x000001F3 System.Void Mono.Math.BigInteger::SetBit(System.UInt32)
+extern void BigInteger_SetBit_m3E67DE35B0E691FCB886C60252CAAFC3FCB92A39 (void);
+// 0x000001F4 System.Void Mono.Math.BigInteger::SetBit(System.UInt32,System.Boolean)
+extern void BigInteger_SetBit_m60B275C4579C541B806FECB49EBBDA1579DA70BE (void);
+// 0x000001F5 System.Int32 Mono.Math.BigInteger::LowestSetBit()
+extern void BigInteger_LowestSetBit_m6443AF5F1F7C864A65365DD731FC7DAC1495DE20 (void);
+// 0x000001F6 System.Byte[] Mono.Math.BigInteger::GetBytes()
+extern void BigInteger_GetBytes_mE1CA6C5DC5B8AA9014B4169BD55307040E668439 (void);
+// 0x000001F7 System.Boolean Mono.Math.BigInteger::op_Equality(Mono.Math.BigInteger,System.UInt32)
+extern void BigInteger_op_Equality_m95C17323F96738CA91AC0402D8E4E1FB26829FFB (void);
+// 0x000001F8 System.Boolean Mono.Math.BigInteger::op_Inequality(Mono.Math.BigInteger,System.UInt32)
+extern void BigInteger_op_Inequality_m7B8F0C5A75587F235E5EB82AF07817B90C9AC830 (void);
+// 0x000001F9 System.Boolean Mono.Math.BigInteger::op_Equality(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void BigInteger_op_Equality_mD2A10886EA565159572D083855080AD55FC517D7 (void);
+// 0x000001FA System.Boolean Mono.Math.BigInteger::op_Inequality(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void BigInteger_op_Inequality_m026BCC8D6A527AD7D1BF20E5BC10187D8CF324FC (void);
+// 0x000001FB System.Boolean Mono.Math.BigInteger::op_GreaterThan(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void BigInteger_op_GreaterThan_mB88C29784044E8CDBE75D9ADFB72725093EA0665 (void);
+// 0x000001FC System.Boolean Mono.Math.BigInteger::op_LessThan(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void BigInteger_op_LessThan_m6B49D00910D0474566294F331B8E2959414C87C7 (void);
+// 0x000001FD System.Boolean Mono.Math.BigInteger::op_GreaterThanOrEqual(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void BigInteger_op_GreaterThanOrEqual_mC840A5F96C2E572E4DA967F778348FEEFDF09F7E (void);
+// 0x000001FE System.Boolean Mono.Math.BigInteger::op_LessThanOrEqual(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void BigInteger_op_LessThanOrEqual_mE13A82E3B45939FB4614756D81930A0C8E59401C (void);
+// 0x000001FF System.String Mono.Math.BigInteger::ToString(System.UInt32)
+extern void BigInteger_ToString_m02A324A776BF09756B1BB3B6BFF6DBD7EA98852D (void);
+// 0x00000200 System.String Mono.Math.BigInteger::ToString(System.UInt32,System.String)
+extern void BigInteger_ToString_m007BCE771B1D0C61761EF1F3D98B8C508EC6DF9D (void);
+// 0x00000201 System.Void Mono.Math.BigInteger::Normalize()
+extern void BigInteger_Normalize_mC7C8E5FF4D3DE66DE886D541352D3A091D84DC47 (void);
+// 0x00000202 System.Void Mono.Math.BigInteger::Clear()
+extern void BigInteger_Clear_m1BFEB305789595395EEB68C5150A5331E0207323 (void);
+// 0x00000203 System.Int32 Mono.Math.BigInteger::GetHashCode()
+extern void BigInteger_GetHashCode_mEAB87BB7A4882FEAF1D7D65B6713E31C0A6F07EE (void);
+// 0x00000204 System.String Mono.Math.BigInteger::ToString()
+extern void BigInteger_ToString_m80A151A5EF5ABF1F5FF16660E78042B85241E3E9 (void);
+// 0x00000205 System.Boolean Mono.Math.BigInteger::Equals(System.Object)
+extern void BigInteger_Equals_mEC32AE6F06C0C113291158D434ED2A92B07E6453 (void);
+// 0x00000206 Mono.Math.BigInteger Mono.Math.BigInteger::ModInverse(Mono.Math.BigInteger)
+extern void BigInteger_ModInverse_m7E87B8BE468B504ED2BD533629D4E9089E5768E5 (void);
+// 0x00000207 Mono.Math.BigInteger Mono.Math.BigInteger::ModPow(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void BigInteger_ModPow_m534E775DEFD6DEDC75F71FA21492843EAA9CEC9D (void);
+// 0x00000208 Mono.Math.BigInteger Mono.Math.BigInteger::GeneratePseudoPrime(System.Int32)
+extern void BigInteger_GeneratePseudoPrime_mB8FFD10652E0D48BECE2AF33F7B29B64A0BC89E1 (void);
+// 0x00000209 System.Void Mono.Math.BigInteger::Incr2()
+extern void BigInteger_Incr2_mE5DCADCC1DEDD4F3E48E326940D3C926E1A37808 (void);
+// 0x0000020A System.Void Mono.Math.BigInteger::.cctor()
+extern void BigInteger__cctor_m276F063532FC0A35DE1FACAF95D0EB2D6C2B2AAD (void);
+// 0x0000020B System.Void Mono.Math.BigInteger/ModulusRing::.ctor(Mono.Math.BigInteger)
+extern void ModulusRing__ctor_mA5C74C954C8ABD6F9843F41BBF197F7F00F8D00A (void);
+// 0x0000020C System.Void Mono.Math.BigInteger/ModulusRing::BarrettReduction(Mono.Math.BigInteger)
+extern void ModulusRing_BarrettReduction_mA753465B3A0DC2E9DEC32D345C24DCA1B56115D5 (void);
+// 0x0000020D Mono.Math.BigInteger Mono.Math.BigInteger/ModulusRing::Multiply(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void ModulusRing_Multiply_mDBAD6831070EE1661E3B7EEC4786A515DE5C229A (void);
+// 0x0000020E Mono.Math.BigInteger Mono.Math.BigInteger/ModulusRing::Difference(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void ModulusRing_Difference_mE4B31BBB8F73710EC6AA7D3F87719672EF683AAD (void);
+// 0x0000020F Mono.Math.BigInteger Mono.Math.BigInteger/ModulusRing::Pow(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void ModulusRing_Pow_mE14DBD510D57E2A1CF1BFB2B237439A8EB08A418 (void);
+// 0x00000210 Mono.Math.BigInteger Mono.Math.BigInteger/ModulusRing::Pow(System.UInt32,Mono.Math.BigInteger)
+extern void ModulusRing_Pow_m9F2BB905682A6999D33B598EE7A61755DC240C6D (void);
+// 0x00000211 Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::Subtract(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void Kernel_Subtract_mEBC7BB392F4EDBC7050684F8626424ED8DB82142 (void);
+// 0x00000212 System.Void Mono.Math.BigInteger/Kernel::MinusEq(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void Kernel_MinusEq_mBED90EC10DF65E164E9A5CB80D19BAB81F80F0D6 (void);
+// 0x00000213 System.Void Mono.Math.BigInteger/Kernel::PlusEq(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void Kernel_PlusEq_m8AE5BF895CCCA850E8B1BCE05824CA22BBE22196 (void);
+// 0x00000214 Mono.Math.BigInteger/Sign Mono.Math.BigInteger/Kernel::Compare(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void Kernel_Compare_mF966D0878812817B24C5E375C0CB895E9D8FB7BC (void);
+// 0x00000215 System.UInt32 Mono.Math.BigInteger/Kernel::SingleByteDivideInPlace(Mono.Math.BigInteger,System.UInt32)
+extern void Kernel_SingleByteDivideInPlace_m449DBBAD9250C051D8DE7331770FE47548E786CA (void);
+// 0x00000216 System.UInt32 Mono.Math.BigInteger/Kernel::DwordMod(Mono.Math.BigInteger,System.UInt32)
+extern void Kernel_DwordMod_m076999ABA0D65211B6CB6F53E225E4043B7805E8 (void);
+// 0x00000217 Mono.Math.BigInteger[] Mono.Math.BigInteger/Kernel::DwordDivMod(Mono.Math.BigInteger,System.UInt32)
+extern void Kernel_DwordDivMod_m5D1999F64EAD588314733A5857FFFFA5C45A0C6A (void);
+// 0x00000218 Mono.Math.BigInteger[] Mono.Math.BigInteger/Kernel::multiByteDivide(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void Kernel_multiByteDivide_mC719C7FBCF592D8720F30B4CD8B74F8DD95385D6 (void);
+// 0x00000219 Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::LeftShift(Mono.Math.BigInteger,System.Int32)
+extern void Kernel_LeftShift_m9CEBA619E5AC2F607F9E40F6B93C75CBD38C23AD (void);
+// 0x0000021A Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::RightShift(Mono.Math.BigInteger,System.Int32)
+extern void Kernel_RightShift_mEC7E9AAD72738A600FF11DC8BED7457F66CB104B (void);
+// 0x0000021B System.Void Mono.Math.BigInteger/Kernel::Multiply(System.UInt32[],System.UInt32,System.UInt32,System.UInt32[],System.UInt32,System.UInt32,System.UInt32[],System.UInt32)
+extern void Kernel_Multiply_m7AAB50B2C6C1E0F696E1CC9E8AC5BE5299BE44B8 (void);
+// 0x0000021C System.Void Mono.Math.BigInteger/Kernel::MultiplyMod2p32pmod(System.UInt32[],System.Int32,System.Int32,System.UInt32[],System.Int32,System.Int32,System.UInt32[],System.Int32,System.Int32)
+extern void Kernel_MultiplyMod2p32pmod_m6A2EB428755580C05A03D6831BD77AEAE2EDDBEA (void);
+// 0x0000021D System.UInt32 Mono.Math.BigInteger/Kernel::modInverse(Mono.Math.BigInteger,System.UInt32)
+extern void Kernel_modInverse_m6AC9B89937D3B998F633DEABB5272EAFE22EC00E (void);
+// 0x0000021E Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::modInverse(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void Kernel_modInverse_m741905D9CCEC274288E9144E69BC4862576082A6 (void);
+// 0x0000021F System.Void Mono.Math.Prime.PrimalityTest::.ctor(System.Object,System.IntPtr)
+extern void PrimalityTest__ctor_m73483F9E5D166F74E0340F479376C61D9280266A (void);
+// 0x00000220 System.Boolean Mono.Math.Prime.PrimalityTest::Invoke(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
+extern void PrimalityTest_Invoke_m7E9F9413908598A1270792B565D71288027AA552 (void);
+// 0x00000221 System.Int32 Mono.Math.Prime.PrimalityTests::GetSPPRounds(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
+extern void PrimalityTests_GetSPPRounds_m7FEAADFD0D1ECC40855567E4B7EE927D78E53C57 (void);
+// 0x00000222 System.Boolean Mono.Math.Prime.PrimalityTests::RabinMillerTest(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
+extern void PrimalityTests_RabinMillerTest_m8CB7357EAAB8F33F542625238BEDA04D02D3FEE1 (void);
+// 0x00000223 Mono.Math.Prime.ConfidenceFactor Mono.Math.Prime.Generator.PrimeGeneratorBase::get_Confidence()
+extern void PrimeGeneratorBase_get_Confidence_m8A53DA3C670504B629434C990508D4B77642B875 (void);
+// 0x00000224 Mono.Math.Prime.PrimalityTest Mono.Math.Prime.Generator.PrimeGeneratorBase::get_PrimalityTest()
+extern void PrimeGeneratorBase_get_PrimalityTest_m96C5E1866F96043982AF493BE7EAB5969F770E1D (void);
+// 0x00000225 System.Int32 Mono.Math.Prime.Generator.PrimeGeneratorBase::get_TrialDivisionBounds()
+extern void PrimeGeneratorBase_get_TrialDivisionBounds_m706A348C994861A2B92CE9156FE20DCF7474E286 (void);
+// 0x00000226 Mono.Math.BigInteger Mono.Math.Prime.Generator.PrimeGeneratorBase::GenerateNewPrime(System.Int32)
+// 0x00000227 System.Void Mono.Math.Prime.Generator.PrimeGeneratorBase::.ctor()
+extern void PrimeGeneratorBase__ctor_mECF0CD5B964A7E6FCE4F504719164114B8A678E9 (void);
+// 0x00000228 Mono.Math.BigInteger Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase::GenerateSearchBase(System.Int32,System.Object)
+extern void SequentialSearchPrimeGeneratorBase_GenerateSearchBase_mD12A7AC0A052FA228E0F4918BBA1B2B59AD605CE (void);
+// 0x00000229 Mono.Math.BigInteger Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase::GenerateNewPrime(System.Int32)
+extern void SequentialSearchPrimeGeneratorBase_GenerateNewPrime_m6AC834873702FE49B85FB261931CA31BC239FFCD (void);
+// 0x0000022A Mono.Math.BigInteger Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase::GenerateNewPrime(System.Int32,System.Object)
+extern void SequentialSearchPrimeGeneratorBase_GenerateNewPrime_m6599A58FA9EBD14FEB9D18073419FF8341365B8B (void);
+// 0x0000022B System.Boolean Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase::IsPrimeAcceptable(Mono.Math.BigInteger,System.Object)
+extern void SequentialSearchPrimeGeneratorBase_IsPrimeAcceptable_m2682AEC2B91FC89D1EB0799BFE5DA4C0F7F8C1D0 (void);
+// 0x0000022C System.Void Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase::.ctor()
+extern void SequentialSearchPrimeGeneratorBase__ctor_mFE1A43FA14390E871ED0C9025B57B84D9A7AA754 (void);
+// 0x0000022D System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
+extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m5FD260C639BDBF6B570A90B23653DE3779848418 (void);
+static Il2CppMethodPointer s_methodPointers[557] = 
 {
-	Locale_GetText_m17007920E374AE1058DDEFCC0A368F83E9D2F7E0,
-	ASN1__ctor_mC8594B7A2376B58F26F1D0457B0F9F5880D87142,
-	ASN1__ctor_mB8A19279E6079D30BB6A594ADAC7FEE89E822CDC,
-	ASN1__ctor_mE534D499DABEAAA35E0F30572CD295A9FCFA1C7E,
-	ASN1_get_Count_mBF134B153CFA218C251FB692A25AA392DCF9F583,
-	ASN1_get_Tag_mA82F15B6EB97BF0F3EBAA69C21765909D7A675D3,
-	ASN1_get_Length_mDC54AC43779B1704DE94DC80E7D94724CB68B37B,
-	ASN1_get_Value_m95545A82635424B999816713F09A224ED01DF0C2,
-	ASN1_set_Value_mCA987F3A4CA629E76A62EB82CC0C9D448A66C13D,
-	ASN1_CompareArray_m75225C0D69F5453457497EEC2222D3AAC0387260,
-	ASN1_CompareValue_m97CD48E9C0E7F8498F7387FA79ED52999ACBE2BF,
-	ASN1_Add_m35AB44F469BE9C185A91D2E265A7DA6B27311F7B,
-	ASN1_GetBytes_mDE8FEDD6687DE65668CA9C987B5A50063AAEDC02,
-	ASN1_Decode_mFB5F309ED41074BEB2D4FCC6C49E6901EDCF3D87,
-	ASN1_DecodeTLV_m469B49047A31E0DE6D8E37D3153C284D4945EB03,
-	ASN1_get_Item_mBA4AF2346A0847038957881A98202AF8DAF09B50,
-	ASN1_Element_m4E95516A1A40A1CB12213D4FD39CA07DA81DD0C3,
-	ASN1_ToString_m5BCBD4583786543E88D243E197C218C748ADC356,
-	ASN1Convert_FromInt32_m2EB0E4A8D3D06D4EE1BEFD4F50E9021FF6B82FA2,
-	ASN1Convert_FromOid_mB7601D9CF044DB51F7B944AFCEC2E3F5ECD027CB,
-	ASN1Convert_FromUnsignedBigInteger_mAAE91D78A45905F09EF49AB626DD17B236A4708F,
-	ASN1Convert_ToInt32_m381CC48A18572F6F58C4332C3E07906562034A77,
-	ASN1Convert_ToOid_m6F617C7AC370CC5D6EAC2F813D8F7B73A3D8F61F,
-	ASN1Convert_ToDateTime_mD2EC7545320E6CAFD22E5A6F2F8409D1159118C9,
-	BitConverterLE_GetUIntBytes_m3771CE625EE76BB13B8C60BCBB038E412514E939,
-	BitConverterLE_GetULongBytes_mD1736555672A4C65073AC11A4834C4154E98FB62,
-	BitConverterLE_GetBytes_mD4BDBCF2894D9C49D53420C8CAD0933372E8B698,
-	BitConverterLE_GetBytes_mAC0A31D5BDECDED46B74E6237B43E0C06942C202,
-	BitConverterLE_UShortFromBytes_mBD469A82102F3D353966478866504938B56A8426,
-	BitConverterLE_UIntFromBytes_mA36A034275C86200AA54C5F926D5237509EC2FFB,
-	BitConverterLE_ToUInt16_m438310417017612011A2C4A2EAC3E78214BAEE2E,
-	BitConverterLE_ToUInt32_mC8279D5D93E3D4DAD1057AAF78ADD3A4F6C13754,
-	ContentInfo__ctor_mF4223283B123E27B30F936CCEFE18BEE4CC6430E,
-	ContentInfo__ctor_m41A77A944949D15779BAF339738C337872DB32F9,
-	ContentInfo__ctor_m3314A5824571AE429FD8181D94314025223D39F6,
-	ContentInfo__ctor_mEFAA11C9FAA8A91A3F5F7AC896B79AFB354569F6,
-	ContentInfo_get_ASN1_m9F6079ADC3917582F67F7E4E9AFD596DABF57FDD,
-	ContentInfo_get_Content_m36F75EEFBB1ED3608A6270E02F059BDB553546EA,
-	ContentInfo_set_Content_mD1D8952C8B0DFD36F7F811F11F2A4DB35EA9A992,
-	ContentInfo_get_ContentType_m3042D4F065AD15EA03B33F6A266C9F1381D6A5FC,
-	ContentInfo_set_ContentType_m21AC696B1C2DADCF1F39F12AA7B37160D5DA415D,
-	ContentInfo_GetASN1_m76B0C44E6F6A92A8EE1811B7A635AF5383482939,
-	EncryptedData__ctor_m34900CCFBD74FE77EC9FD67B2E59A684410ECFF4,
-	EncryptedData__ctor_m9A93E0A9F1A322DD1161E80CD97BBBF33E1518BC,
-	EncryptedData_get_EncryptionAlgorithm_m144F3DFCF4DB066A6A0E06DD048A8ADB8C2C5F0E,
-	EncryptedData_get_EncryptedContent_mBA18486D808A211596313C21AD8D1CC4CA7AD675,
-	SafeBag__ctor_m973276E257F603A177341BF83CCE800308572428,
-	SafeBag_get_BagOID_m343540F0D4671738426700CC96B54363F5764EF3,
-	SafeBag_get_ASN1_m6C25FC014EC17D3DFBF1776501F399BFB5B801FE,
-	PKCS12__ctor_m2C3A9D367266B97FC064A3104F33F14E7CA336B2,
-	PKCS12__ctor_mC3435853B3886DB71A02EF9BB5DA50B14FE6F568,
-	PKCS12__ctor_m4AFF7725F36989AD1EA655F0FFF08131080935F7,
-	PKCS12_Decode_m92F85AD166F6FD30B8095A1802A67B71C4EF16F9,
-	PKCS12_Finalize_m6C21E70EAE916B8B15F54B77B11EF4D721AB41F7,
-	PKCS12_set_Password_mA9595BF56C8818CEA990CDFDF070F8CCE3712508,
-	PKCS12_get_IterationCount_mD6667CEE876C66BB29AB55C452C3A465F99EBEB8,
-	PKCS12_set_IterationCount_m94CB8346FCD5BCE07B4926677BF9160A7E589C7E,
-	PKCS12_get_Keys_mF69C21C35BE9D58466CBE352CDEC5A0AE3902538,
-	PKCS12_get_Certificates_mE05BEE6C455D980C46349BE7C82BE2FF72F85B90,
-	PKCS12_get_RNG_mE557DA5512C63B0ADC8F56335450EEE761A6BDE7,
-	PKCS12_Compare_m1C812D4B2A828A8515A83C0B71332694C61B1212,
-	PKCS12_GetSymmetricAlgorithm_m68640DA1843E0C7B3D7E6E997B664D1D50925413,
-	PKCS12_Decrypt_mA078FC6312A5C6C61A3CE809298D9E2050DED87E,
-	PKCS12_Decrypt_m6782F064501C10164112A00EFD967D2344DB6063,
-	PKCS12_Encrypt_m1640A390A879462A656D073A2267C6AD38E61CB5,
-	PKCS12_GetExistingParameters_m49980E57F84DD26EBD0FED15B74BC7487B763638,
-	PKCS12_AddPrivateKey_m8E91D17BD87567983B254E7EB719F44A8047837E,
-	PKCS12_ReadSafeBag_m16BFBB40B927D1B274255CF57741141FBCB834DB,
-	PKCS12_CertificateSafeBag_m587E31F0A421678447232D6D8ECAD7BC063AE54D,
-	PKCS12_MAC_m1EF1FB9F78CBD90D875D6BAB93378DBA0FFE61BA,
-	PKCS12_GetBytes_m0B19E45AA29DC127A38A85A63A829ABDCFEC9519,
-	PKCS12_EncryptedContentInfo_m9AC465A9CA767FB62CF6B259CCA7378A9F4D57D3,
-	PKCS12_AddCertificate_mEEFA7AA96BF3F499CE0336B916A25754D0319279,
-	PKCS12_AddCertificate_m16BB5FCA34E2D10F9D7F19E591E0A89B1A923182,
-	PKCS12_RemoveCertificate_mF336A1EB38CE70BA57854AE11E8058C4914C5B1D,
-	PKCS12_RemoveCertificate_m11339855E109F5EB8C987EA4FDD41174ED44E3A6,
-	PKCS12_Clone_mD16A0ABD06350861F3D334A873D1790CAA13AF0C,
-	PKCS12_get_MaximumPasswordLength_mEB3EAAFECAB13715A0D20670E3DF2C6BE1D3A20C,
-	PKCS12__cctor_m83F93331904B1843A598D57ADF9FA1873F9933CA,
-	DeriveBytes__ctor_m2019E1467DEBC9341D451E160A88FDB35311526B,
-	DeriveBytes_set_HashName_m0F931681375810B9E08DA4280BADE04FE4AC998A,
-	DeriveBytes_set_IterationCount_mA03E73C42D2C1A4E81E537CDFAEB128B629AD05A,
-	DeriveBytes_set_Password_mF8409B8C5B608689A8054B8118494EE5B4F26B2B,
-	DeriveBytes_set_Salt_m4276D3746D53D4CD49A54E99A94B5936CB325143,
-	DeriveBytes_Adjust_mD75D44B02A7BD2A607D6B00853917CA6096A9259,
-	DeriveBytes_Derive_mCDAFFDF120F6CD3F058A5A86FA1F4D9DC735850F,
-	DeriveBytes_DeriveKey_m2FBFDDCCA679D069B66CAC8D868761B663AF0176,
-	DeriveBytes_DeriveIV_m6D75D59C79495FB8E22C3E9334D7465FE95495F5,
-	DeriveBytes_DeriveMAC_mD9A65467231155B8627A9DCE61292B62E2C0FF4C,
-	DeriveBytes__cctor_m2AA51D34DE85F489C9083EEBB16C1F20388828D2,
-	X501_ToString_m5642D66AE92CB5912DD4FB596765E0D22D7CBDCE,
-	X501_ToString_m8D5865C9B957913400DFD4616B029E4C51534AF4,
-	X501_AppendEntry_mDFC68FB812C06981FCF382A207324D17262A0C0D,
-	X501__cctor_m36610A2EA5490C1343744129669F70D22E919119,
-	X509Certificate_Parse_m15676F2FCCCC09A464A379388E72EF516294EE4A,
-	X509Certificate__ctor_m7FA1715862C599E29CCABC13D2BE7C60B5BA4792,
-	X509Certificate_GetUnsignedBigInteger_m4CC94B40B76210414C947B214FE5F29ED45D7300,
-	X509Certificate_get_DSA_m79778FCE598BC3DD9574A1FC4CF1D303B2795BEE,
-	X509Certificate_set_DSA_m511B0FC59596BFF6E0F8CC3A32EDFECC7FCC309A,
-	X509Certificate_get_IssuerName_mF4DE5485C1769E236507A06AB9A019D4CBEC2DBC,
-	X509Certificate_get_KeyAlgorithm_m3B359051CA12475AF2F5D272BA50A21638C38060,
-	X509Certificate_get_KeyAlgorithmParameters_m7FB8B497058805070A26ED01B044762BA8DAD208,
-	X509Certificate_get_PublicKey_m7F0D3BB209A1D53384A6B9B64B150A0114600B40,
-	X509Certificate_get_RSA_m8023D47A5A328CC36542F011FAE442C55DF5484C,
-	X509Certificate_set_RSA_m5A79E3ADA7C161152EC22B8BAEB50A5DF64E67B2,
-	X509Certificate_get_RawData_m45921F514ED4F62E16860CB29C7F6EB0A22B8D55,
-	X509Certificate_get_SerialNumber_mD54E528D75C47789C4A827C08CF0C1D74BEFA800,
-	X509Certificate_get_SignatureAlgorithm_m374034F77CE5EA3F3313D7288EA813BB8B55076D,
-	X509Certificate_get_SubjectName_mF5717476467F963787451A91B29EFF5DEE68A196,
-	X509Certificate_get_ValidFrom_mC6CA06F65FD18BE153C6630672F66AA41CD87905,
-	X509Certificate_get_ValidUntil_m90D8928517FDA09867F85CFCA12DBD83B1ADD936,
-	X509Certificate_get_Version_m7F5AC7485BDA381B4DB38AAE166C99099A30F807,
-	X509Certificate_GetIssuerName_m1836645D98FFEA2DEDD0908739BE9BAAEF941C8F,
-	X509Certificate_GetSubjectName_m203434EA1EE1423391C7C3C207678547F6FB30B9,
-	X509Certificate_GetObjectData_m63BC5426BF07B5B664E07F88035C91FFCA764FE6,
-	X509Certificate_PEM_mD8104BC57E70AB093D2CC738064FE105C92DEA3C,
-	X509Certificate__cctor_mE95E24A9AA1D95948E877ABEF88FDF009B66DE0A,
-	X509CertificateCollection__ctor_m396311D5C3AD79E6C5E57D1DB95A2CC5337CC27F,
-	X509CertificateCollection_get_Item_m4E96E557BD88971E73DA7208A98FCEB9ED4224CE,
-	X509CertificateCollection_Add_m2D0875CC263D621BD6FA6C64D78DCB1027AB4F0B,
-	X509CertificateCollection_GetEnumerator_m050B5C64D03FBAA3D67803F0FF4240C708C08BD4,
-	X509CertificateCollection_System_Collections_IEnumerable_GetEnumerator_mB99852AD08EAD5895FF680CD9C2F34F6A2D05973,
-	X509CertificateCollection_GetHashCode_mB7BB3C4C18D899CB171C25878FDB34DDA65874D4,
-	X509CertificateEnumerator__ctor_m121D2627B82462B1F3AF7637F188AA1013879E1D,
-	X509CertificateEnumerator_get_Current_mA9AD4D624A06130CD4A92FCDC0B03A52425D5BE6,
-	X509CertificateEnumerator_System_Collections_IEnumerator_get_Current_m60E14E055A388DEF34E5D4AB19A73C2789D8B00B,
-	X509CertificateEnumerator_System_Collections_IEnumerator_MoveNext_m7F2C17CFD3DFD79B14CCEF343CA9C593C064169F,
-	X509CertificateEnumerator_System_Collections_IEnumerator_Reset_m6B7E6EE6C087A2833A11BAF537C0D162619AF889,
-	X509CertificateEnumerator_MoveNext_m6D9B757FF19EE0AB676DF601D145009646579840,
-	X509Extension__ctor_m3BD78211E43E218299519AF5F88401FB04125D5E,
-	X509Extension_Decode_mDBF2A6CD351657AC30CF814773875980B8416B6D,
-	X509Extension_Equals_m403EE7A4F4D43675B0BB6730A39CD42912B7599A,
-	X509Extension_GetHashCode_mA7830F122F939F9EB6D5646EFB9291C88AE13BD8,
-	X509Extension_WriteLine_m1DBD25537F4F46111B5C26CAA1C5C3AEEC46457F,
-	X509Extension_ToString_m07EA0FEC3637C52634AD5F6F23C3B849F1A10E97,
-	X509ExtensionCollection__ctor_mA4B27732F618D126931E8402D567F66D798652BE,
-	X509ExtensionCollection__ctor_m8EBE054B35F089A5E46889F53CFB3D16B6FAD07A,
-	X509ExtensionCollection_System_Collections_IEnumerable_GetEnumerator_m5EFA7D8288E00B93FE4BFEBA2C380B444B7D0077,
-	ChallengeResponse__ctor_m9AB5BB314A3B4DA781379FDA60EDACE1B612D4DA,
-	ChallengeResponse__ctor_mD3249EC1AC5791EDED79465BDA7B1D0AB77F5BAB,
-	ChallengeResponse_Finalize_m41DC5E1AC5386B987F8BE1DE2DC4FDBB20929279,
-	ChallengeResponse_set_Password_m2C40AAC4DBCB2A21C86BA4E843F8940EE3E3AA74,
-	ChallengeResponse_set_Challenge_m9A643069958E5736F347B896EAA4036F212619AF,
-	ChallengeResponse_get_LM_m1AEFEEE449F34F9C182DB77604FEAACA23B18692,
-	ChallengeResponse_get_NT_m95D486C2DA61C32DD3D6D32121152F1377E160AC,
-	ChallengeResponse_Dispose_m351D50B1024F5C998E8F7CD2BC0378836F762E68,
-	ChallengeResponse_Dispose_m8D2FF46F25966BC750707577091D1D5BEB6A88D4,
-	ChallengeResponse_GetResponse_mE63016701E0F71486B265CFA8479176E60E6BBCF,
-	ChallengeResponse_PrepareDESKey_m79CC400AD38861BB663761F665083FC51D9F4806,
-	ChallengeResponse_PasswordToKey_m33769E342E40CA6B41ECFADD47A089A4FA105A19,
-	ChallengeResponse__cctor_mB87674F8C8BF2A25B0F00AFBEE93AE06FB71F6A5,
-	ChallengeResponse2_Compute_LM_m67DF53AB590CCD39DC08F9C64D0643A44C964409,
-	ChallengeResponse2_Compute_NTLM_Password_m0774C73D0A81C974FFFBF5ED82C9A64A5E0BC43E,
-	ChallengeResponse2_Compute_NTLM_mB60677954C7D2E1F6BBCCF3F8AE144E00EC83750,
-	ChallengeResponse2_Compute_NTLMv2_Session_m68A2A2ED92A7FA474246DB7374141E1ACD867EC7,
-	ChallengeResponse2_Compute_NTLMv2_mB4AF4279146889D2701751C7CF8C22F354BBF790,
-	ChallengeResponse2_Compute_m4437BC09F39276EDC80E4EC3D9787E661B36285D,
-	ChallengeResponse2_GetResponse_mA50AB3012F89CA95472EC7A42537DF2899C02770,
-	ChallengeResponse2_PrepareDESKey_m2DB3EAC3E1FFCEABB2D3A015DCB2F14E74B10A62,
-	ChallengeResponse2_PasswordToKey_m71F2837B4BAD276D72D459BDBAC9D1DD8EADFE4B,
-	ChallengeResponse2__cctor_mD9C56C2F966A924A7A5A4596E07663AC19C3A71B,
-	MessageBase__ctor_m50DC62C3817557901B57A9DA379FC72C471D06C9,
-	MessageBase_get_Flags_mCE07CBFE2DC30070AF05C0CEAC5F9037A0F95388,
-	MessageBase_set_Flags_m541C31E93BBBD1DB08B57CD52070479CE33D6CA6,
-	MessageBase_get_Type_m077A1703299E133EBBEC74D1A2273D9C2E8C0591,
-	MessageBase_PrepareMessage_m8D013C3AAF44609F8027202C66E307D6325FCC58,
-	MessageBase_Decode_mF3B45F0056F12C90B6E6D1953C5EA9E45A9875A7,
-	MessageBase_CheckHeader_m5F11E8B2C1F41543DFBED6711F1C8BC3652B3E40,
+	Locale_GetText_mBF03E5F490A30E7BDF18D916A1D7A904C07A4F1E,
+	Locale_GetText_m2CD7CCD229D8F3DDFF65B3A064F87756C3A1AFDF,
+	ASN1__ctor_mA9AE2197367C1E13DBFDA67E0A383167F52CC114,
+	ASN1__ctor_mAA538F9E1BE0DE739E9747BC3BC71DC030B018AA,
+	ASN1__ctor_m950BFCCF44A987ACBA12142624AA222200EE503E,
+	ASN1_get_Count_mBE45E73126FAD2694E9059CAC53B7AC9A5F60833,
+	ASN1_get_Tag_m1984CF0DDF54424E61BA3650D93CBA0DCB58F232,
+	ASN1_get_Length_mC03E8FE25B4BD7B97EA3D8591E01A457F491C7FE,
+	ASN1_get_Value_mA6F9BE5AC19AC060AC42673C8FD5AA864EA046B6,
+	ASN1_set_Value_mAFFA885810928715B379EAD478AA3961E8ACD589,
+	ASN1_CompareArray_mA7A05EE692B23D6D9A7C0E5B8CCC4CDECDAC0A79,
+	ASN1_CompareValue_m7397F4657555C6ACAF6622DE143C89E9E7593554,
+	ASN1_Add_m4C61487A6CCF48D5CEB0D97B248FE31F9FCD849F,
+	ASN1_GetBytes_m3B7DABFDBE6BF7F9C926E4C8A16FC6BE6D1CE67B,
+	ASN1_Decode_mC4CF3CB2CC1DB454AA9C720BA79520956FB1F77B,
+	ASN1_DecodeTLV_mD4465394202DA7B0D37B9453CDE039233969E9DF,
+	ASN1_get_Item_mF105DA24F3BE9FA3697229CF99B1602B736B647F,
+	ASN1_Element_m97C1D5E39B14AC29D2F7AB0226A6E6CA2952B7C9,
+	ASN1_ToString_m4995F083B02F8FEF578ECA6EE73A257821F50A00,
+	ASN1Convert_FromInt32_m9095C18057D59AF7CF8A46687596506E4DD51137,
+	ASN1Convert_FromOid_m52B6C819090CC0108855EA536BE49C238A035333,
+	ASN1Convert_FromUnsignedBigInteger_m02FCA27FD400AD7C2A1F38283D38A56486924783,
+	ASN1Convert_ToInt32_m9A470D9CBF2F909B72C2A463DD2BA95BA8B6E9B8,
+	ASN1Convert_ToOid_mA14AFFFD01E1AC0ADA5149B502CBBEB3A5035DBC,
+	ASN1Convert_ToDateTime_mFC0728584C74F8A86DCB36EA9D076805D8769C26,
+	BitConverterLE_GetUIntBytes_mFADA7EFA8289488D269C88C2ED1B0787F6CCE124,
+	BitConverterLE_GetULongBytes_mC40E59DF2C865567C4449B8E0CA04D3C628E00EA,
+	BitConverterLE_GetBytes_mDA42058C891A6EAF96066B6E621888A629B9C990,
+	BitConverterLE_GetBytes_m320EEACA4BC7E4DA18AF68994F0E20A5A94E0EB0,
+	BitConverterLE_UShortFromBytes_mFBC4E143EDF81135EC290C2BF86A8135053A00BE,
+	BitConverterLE_UIntFromBytes_mAED3B5DC091503AB5C5999238154FF84F8B522F9,
+	BitConverterLE_ToInt32_m2297FAB5095F11250B3F11D2C4F3CDC5FF410CC8,
+	BitConverterLE_ToUInt16_mCEF75C82E29791EE2719AC882211226BFCC84021,
+	BitConverterLE_ToUInt32_mDADBC5CAD1DE74FD9A0611F70C4C3F01F66BEAA0,
+	ContentInfo__ctor_m1B4B1B164D5159FE64E1346E1DE36B4E7B6F4078,
+	ContentInfo__ctor_m95EA3D16DCE96C9504DFC08940380C6983F41036,
+	ContentInfo__ctor_m7D3DD72DA482A68007DB183975E3F649EEE308CD,
+	ContentInfo__ctor_mBC763695FB9DCE655DC9F64E932679635A8A803B,
+	ContentInfo_get_ASN1_m3A32CA99ED50DDA79761FC779979489927D0ABE3,
+	ContentInfo_get_Content_m85ECCB3CF732981E207598428EF008D95F754F98,
+	ContentInfo_set_Content_mC885DF149B5AB25343766F00FB7749A77BEFBC36,
+	ContentInfo_get_ContentType_m4ACE1C1CD7330D35EF0C2C422CF48E3BA0FFD7D1,
+	ContentInfo_set_ContentType_mE3356914A7D44048391DCD32316D00C026415791,
+	ContentInfo_GetASN1_m52EF51C772714542A1263FCABF334391397F08AD,
+	EncryptedData__ctor_m355455E414AB2547674FDB62A72BFF4EE98BDDF1,
+	EncryptedData__ctor_m5C149670A898E43CCCC28D6B30568138D4098E72,
+	EncryptedData_get_EncryptionAlgorithm_mF1F3CE667E2558EC146D7086A64C5735DEB37BF4,
+	EncryptedData_get_EncryptedContent_m28A275C350840EAD2C448DF76D9116D49000DC5C,
+	SignedData__ctor_m4609283D3F9F231C0B5156FAE7C2DCF89A3AD7A6,
+	SignedData_get_Certificates_m2F2280AA69C4903FD8CAA75FAECEFC7586EF6D7E,
+	SignedData_get_ContentInfo_m91409FC043E8C6FF741A922FC69BB9E98B5B7F09,
+	SignedData_set_HashName_mFDAB9AC05B7FDB00F646E3E44D4E9FF91CD0B4E7,
+	SignedData_get_SignerInfo_mAE14D45F3CE393345D41AD231A382765E551D604,
+	SignedData_OidToName_m910B0AD432C05A196504A1933374C93086027DD1,
+	SignerInfo__ctor_mD8D5B3BEC47BCB44044A801365EE363D24922FE3,
+	SignerInfo__ctor_mDB114E56EC2F9D5820B2F48A00CF14972B3BCCED,
+	SignerInfo_get_IssuerName_m30347CCCF2ED4EF05618DD9AF4F71030E4A5A324,
+	SignerInfo_get_SerialNumber_m6B855067A7C4CEF6758805C18E8417729BA62BD7,
+	SignerInfo_get_AuthenticatedAttributes_m52500C3AC3793C89F0296BBEF64698F2ED20B8F4,
+	SignerInfo_get_HashName_m1FCB2FBBA2DEC8F246B2ECE65997A2972B60B424,
+	SignerInfo_set_HashName_m5C681833EF9E8380311B609BE25BE33911140E37,
+	SignerInfo_get_Signature_m6FA43681D705A53BA0857AF55624483A9AE94CA8,
+	SignerInfo_get_UnauthenticatedAttributes_m718FE21E74C9898E7B4060A5BE1264C68D3171FA,
+	SignerInfo_get_Version_m0CFF6A1B831986936100F7F4A27D6386D65CFB37,
+	SafeBag__ctor_m0AE5FFE8783310FAC265D1A911F5F6FA6A1CE9BF,
+	SafeBag_get_BagOID_m1218C83BAD5C56D41AFF31B58784848A27A265E6,
+	SafeBag_get_ASN1_m699A375228725122D8B9EE455013B215FBB87D05,
+	PKCS12__ctor_mC4CC29A25D40F4799AB2715A3C7FB270C74EEFDD,
+	PKCS12__ctor_m77EA8CF7C0DD214E25C7C8B9580339F1E2134E31,
+	PKCS12__ctor_m2C6FBB30C343DA9D9E1753FBB72F01AD4E1F7FFC,
+	PKCS12_Decode_m750703D9B730F5A8A355252F92DCD2D039C3FCDF,
+	PKCS12_Finalize_m123C72042CF1A6A425005642408FF60B04D99462,
+	PKCS12_set_Password_mB7CC3D7C9B194C6CF6E82B289EB1FD98EA002646,
+	PKCS12_get_IterationCount_m2034EE21157689975AE4DC6E1F6B8628DB4539B4,
+	PKCS12_set_IterationCount_m3F155BE5145E6356037FCEB58E1811255F80A6D3,
+	PKCS12_get_Keys_mFF1C9F9DEF54D27CC472AA46DDBBE224F67DC46B,
+	PKCS12_get_Certificates_m6FB30DF4377FE4FC725153AC237CBC59786E719E,
+	PKCS12_get_RNG_m3C2B6A93761E38174AAB889781AB78E0A3A5B003,
+	PKCS12_Compare_mB111BD413CF9B26BBFEA519F7AFE6531BF5E2C1E,
+	PKCS12_GetSymmetricAlgorithm_m10BEA3D381B4DF46D904219E1CB9297E8D7CD439,
+	PKCS12_Decrypt_mDA2EFC82AEC5616D5E0CBCF64315B9E9523FF02A,
+	PKCS12_Decrypt_m9734C9729FDAD344DBE41EC3E3641F34F8F5A2B1,
+	PKCS12_Encrypt_mFF1143A709115E5239D21DB9BB2BA795AC16B504,
+	PKCS12_GetExistingParameters_m2350C6BD29DDCE4EACCCDE545B7621624FCF90F0,
+	PKCS12_AddPrivateKey_m9387CE382E87E7C38F49ECFC7D96078B7FB4463F,
+	PKCS12_ReadSafeBag_m8DDA9FAD730EE4A90C18689EFB0837AEEAE492B9,
+	PKCS12_Pkcs8ShroudedKeyBagSafeBag_m709E0123F26B2AA286664D1706B5B22A34AA4FFF,
+	PKCS12_CertificateSafeBag_mC0BC2105B927BC138FB90EEDDEA95BD8A8DA024A,
+	PKCS12_MAC_mBAD3C0B24FD8CA6FFE0F4A56CC29BE3E0D6F68A4,
+	PKCS12_GetBytes_mDB4325D82327A46832138F16A8CBD3AA006B3A7F,
+	PKCS12_EncryptedContentInfo_m670295BC933FE6D756A18DEC50779443A1A9FB7F,
+	PKCS12_AddCertificate_m11EC4FA6E1AF1BCEE6483B5601225CD6A043D183,
+	PKCS12_AddCertificate_m19F5576C596335EB6DD4E737D0CD4701884D91EF,
+	PKCS12_RemoveCertificate_m65A709EDC4D5409904E14C738840252177D5E589,
+	PKCS12_RemoveCertificate_m3A6B9EF29379012C8495C7A71332C93EA4733D29,
+	PKCS12_CompareAsymmetricAlgorithm_mEE368C0A5F8D7C27A6C4D1FD146DF41DACE696DC,
+	PKCS12_AddPkcs8ShroudedKeyBag_m270345FF04644145B23EC638522B390554D2AC0D,
+	PKCS12_Clone_m50D19F50BDEC33F80386C00F4BA4A409D37297C9,
+	PKCS12_get_MaximumPasswordLength_mAF04814D73F41CFF2B1F22C5FD33038A76192B4F,
+	PKCS12__cctor_m122789D790CE1AAB0B595298DA773724083A7534,
+	DeriveBytes__ctor_mE49888D87CB6AA78648DF0D8129838DC91CF891A,
+	DeriveBytes_set_HashName_m8C49265C77E164C659E6B11840289B0BFF7A0AA2,
+	DeriveBytes_set_IterationCount_m0C50A49409C1B40DB50FA5123C89B2EF10C76E1D,
+	DeriveBytes_set_Password_mE6A98520EA50E2A62428C9A8850D1C05B2A7FAFC,
+	DeriveBytes_set_Salt_m9B502480F116A9B921146E849553EFC60DB94A7B,
+	DeriveBytes_Adjust_m39BE20F4725D07DCBF711117748BE7AD654BE568,
+	DeriveBytes_Derive_m4CF08A181B9E46EDB98691BB4C6D00BD75D08EE8,
+	DeriveBytes_DeriveKey_m52FB070FC8822D470918BAE70E27A5C57CDC662A,
+	DeriveBytes_DeriveIV_mDEECB1C384C67AF716AFE91FC210FC496B3334FE,
+	DeriveBytes_DeriveMAC_m99726BCF64068E24CC03C4258AFF6831E235D774,
+	DeriveBytes__cctor_mDB2911C441DE687816467D6C33B628023A0638B0,
+	X501_ToString_mD36C5B852716ABC949533C30E842BC05BFA73B2F,
+	X501_ToString_m2D3799730A3C7400AD6DE94538D41E210D5C0BB5,
+	X501_AppendEntry_m38DE2C3827B5B932A34C970C88842F5E38937A8E,
+	X501_GetAttributeFromOid_m9C2C70FE52F1756A408045D4C9DB1EF8FB4C6B02,
+	X501_IsOid_mD391A5822B7BAEE1D636B640607F08F917C67FB6,
+	X501_ReadAttribute_m099C2FD90F5F4430FDD8457BDB580A4FB1C6F1D5,
+	X501_IsHex_m0F6A74D68255FF41EDDAF8963366C3D997C0B634,
+	X501_ReadHex_mF38C5C3BA8AC594609941B4715FC3148716585EB,
+	X501_ReadEscaped_m98ABB14487EE961DB83338D639F0037A4303620E,
+	X501_ReadQuoted_m1E85CC2DAC43F222F205108B2899BC560C6E2A43,
+	X501_ReadValue_mA4DB5F1F5A73188D4B44D39C3BDFD6AEA05FD10B,
+	X501_FromString_mD55735FA04C02B2AEDEB810B2B9490B523F432DD,
+	X501__cctor_m70E1C62EDF778FB1F92FD65C3F1D9770E551C678,
+	X509Crl__ctor_mE8AE92D0023939007B09AA12D066EBED204CD674,
+	X509Crl_Parse_mBFF8B04C60CD9047169F7F3CB5E9026D66B266B4,
+	X509Crl_get_Extensions_mC3F9AF029FB2AA579EA6E940EE7827BCDA2614DF,
+	X509Crl_get_Hash_m4A8044B7D2C67FD6C32DAC39542CDD42B3F2C9C0,
+	X509Crl_get_IssuerName_m88AADDAC80012372BE645AA7CADE49FE090CCB68,
+	X509Crl_get_NextUpdate_mA171254E41B8FD9672F8767B1C65588F75DAF072,
+	X509Crl_Compare_mB585F4CCA3B1FAD5815FDA71976D5FC6842BD46E,
+	X509Crl_GetCrlEntry_m824AEE6406406298D8740660A24F87CAD854936C,
+	X509Crl_GetCrlEntry_m93093BA86976CEC62DFFDB28FFFE2353ECE35BB1,
+	X509Crl_VerifySignature_m91D8FC43DAB9C5688E85FDA94C176AF73E665389,
+	X509Crl_VerifySignature_m68859DEF40F3BB35F9DC79A025FED8981E0CE800,
+	X509Crl_VerifySignature_m4FBC30F86E1BAF545D86876CF90C9105A01D8553,
+	X509CrlEntry__ctor_m1CE31E179C47AA73774CE7C57CA24C879741EE81,
+	X509CrlEntry_get_SerialNumber_mC1CD9010A26A5983B2DDD1A459FDC15619107478,
+	X509CrlEntry_get_RevocationDate_m46DE2560B090EC69ECD7B9D819297E544C5386DA,
+	X509CrlEntry_get_Extensions_m9756808EA9F465E76B8FC88417819B051538BB3B,
+	X509Certificate_Parse_m52B3A2D924074F675F699C569C548DD521D5CF81,
+	X509Certificate__ctor_m4F437D7E76C6CCB0941AB5801946076C82583946,
+	X509Certificate_GetUnsignedBigInteger_mCFCA46D7C07D96A6B33AAB09A68BEA6E653E4BD3,
+	X509Certificate_get_DSA_m661EA8FA79C2108403B685495B961422BC531AA6,
+	X509Certificate_set_DSA_m35B061538E1BA0B2492CA50F46092FB3C48927B8,
+	X509Certificate_get_Extensions_m74416980E0AF90FAD180B10AF4BAE2727E3C6EA6,
+	X509Certificate_get_Hash_m116CA9E5DFB48CE5464E79C1941A0E78F20EB1F6,
+	X509Certificate_get_IssuerName_mAB4FC4E65427A67DBEA87A6182336AF6870D900A,
+	X509Certificate_get_KeyAlgorithm_m7538B572B9ACFCE48CAD7B8B2F5DF0EA3299D4DF,
+	X509Certificate_get_KeyAlgorithmParameters_m198AAE45BF470804D29A79EDF6CC0EFB4DF8A247,
+	X509Certificate_set_KeyAlgorithmParameters_m61198F54A91C2FDC7175E12C2E77E30A77D8E1D8,
+	X509Certificate_get_PublicKey_m5504C97766FD6A8B0AF72CC6255A09A7397C819C,
+	X509Certificate_get_RSA_mB74DAA8EF4132B0917C236F0F2617D95F23005E8,
+	X509Certificate_set_RSA_m92B549DE372ABD58211BE846490719E5511D6D9C,
+	X509Certificate_get_RawData_m322C38993C6E083A2FB1425C2E4D846FF905472E,
+	X509Certificate_get_SerialNumber_m851B2E32EF2F46323798CBFD8450E4B8A82F264C,
+	X509Certificate_get_Signature_m9B024ABD17D5320621904317E66A36BCC2B0FA46,
+	X509Certificate_get_SubjectName_m75A5BA36DC4F00694DC5F3797EA89F04C095A48D,
+	X509Certificate_get_ValidFrom_m735D09A81A642542E2509EDED48399D671FE2CE9,
+	X509Certificate_get_ValidUntil_m58C8212E0E011376733C1DE57F78796483815AA7,
+	X509Certificate_get_Version_mE2DE4C0948C42ECECCA2C1B87F1C2524C2E10128,
+	X509Certificate_get_IsCurrent_mEBC52E38B22A633B0047BAA006F2446905473BDE,
+	X509Certificate_WasCurrent_mA995BED12113288539D2BAB184B16AEF38844CEC,
+	X509Certificate_VerifySignature_mE51967C4A00FD61035443B3E31358F40A1719AA1,
+	X509Certificate_VerifySignature_m7FCB318B8E4049EFDD072092C0EE96A552DBF417,
+	X509Certificate_VerifySignature_m2CB811C31D526CF4ECDEC02E59297A94DE8826AE,
+	X509Certificate_get_IsSelfSigned_mAC256ADBF25A2572AAA95F126D3A466E1E3D00AA,
+	X509Certificate_GetObjectData_mD8D5BD0C35EAB48243C4330A842755738B1CD9F3,
+	X509Certificate_PEM_mE8A7F8964220C0BFBFEA85C27E0685DEFADED510,
+	X509Certificate__cctor_m7AF8C2F2F06BECF8F9DE899087602A96C39C1F68,
+	X509CertificateCollection__ctor_m0267958C4891BC9525E8E9A21A0CE4076205B457,
+	X509CertificateCollection_get_Item_m68CBCD6C145B7EC4E4BDF6BA208576976385A538,
+	X509CertificateCollection_Add_mBCBAC33FB2690C8D03BCB29FDD1A8D4CAF87F1D4,
+	X509CertificateCollection_AddRange_mE0BA8C454C23FDBF0247A2EE7D60D4E51B1656D3,
+	X509CertificateCollection_Contains_mEA5C9F87BCF0425AD8138CC821624B89EDDD30EE,
+	X509CertificateCollection_GetEnumerator_m602E7163983BF2C8F8B5C09652D5E74771969B56,
+	X509CertificateCollection_System_Collections_IEnumerable_GetEnumerator_mEAAECD2F051D47457F594F88E7C8BF46AAFE2363,
+	X509CertificateCollection_GetHashCode_m56991888E2D575A6B43E41F227F00A22D9260A05,
+	X509CertificateCollection_IndexOf_mA6F3226C3883B9111BFE552A616B8EAFCBD8B2EF,
+	X509CertificateCollection_Compare_m3569EC2D68F7500E898AC53B8A3826DCAE939B5D,
+	X509CertificateEnumerator__ctor_mC58E29412F64C3ADB016F51920CD5AEBC0B4A82E,
+	X509CertificateEnumerator_get_Current_mA12833D7DAE7B1E3FB58D8596D266CA30A6BCD69,
+	X509CertificateEnumerator_System_Collections_IEnumerator_get_Current_m8323BD8E1C9E4C6F2E57EDB8FA6BFCB396C03D14,
+	X509CertificateEnumerator_System_Collections_IEnumerator_MoveNext_m3619B756D91F5E808E1D9C7F2A9C5ADCB4214C80,
+	X509CertificateEnumerator_System_Collections_IEnumerator_Reset_mED5725981288EFF1B4F7F6CFEE1F9DC6A7C69F20,
+	X509CertificateEnumerator_MoveNext_mAB0C32FB96AD574439B87E0E7D2553CBD7DF37C7,
+	X509Chain__ctor_m5220D6FE9477D3D63B902475BDBFDC3CB63B3A79,
+	X509Chain_get_TrustAnchors_m988C77FD4F945D35E2D846CA169141CA56756681,
+	X509Chain_LoadCertificates_m5EA569474D1608E1292B8CF39917841C20278825,
+	X509Chain_Build_m664E7F7A48510E8F5D538A932D1D5E6EC0095C33,
+	X509Chain_Reset_m55EC23EC313B197F439649DF941228B8D799645F,
+	X509Chain_IsValid_m38DBBC21B1224A7302D7A82720352CFDC0B16CB9,
+	X509Chain_FindCertificateParent_mD6853ABA9E077A8C1B9F0F67FBEE7482A3D10325,
+	X509Chain_FindCertificateRoot_mBD78F5BA569075F991BE2A4BEAA8AEC157DA450D,
+	X509Chain_IsTrusted_m589BA3644A2F6BB355CF1EA7B168E1828257E5F0,
+	X509Chain_IsParent_mE63AED9211A8A4CE11B0A5305F553403234C5282,
+	X509Extension__ctor_m5B747C6BA6D46A064A6B1523D6A7A54E0EB140EB,
+	X509Extension__ctor_m655F9DCB2706C0574ECF0D7CC3DC2CB91BE80FF8,
+	X509Extension_Decode_m6D6D2679F86BAC039665B67771CCA784915A6FDC,
+	X509Extension_Encode_m94400983A2BD91C905232850DB45B21D535C7FC3,
+	X509Extension_get_Oid_m234B001E81AAE28787443F391F00C72D7521FDF0,
+	X509Extension_get_Critical_m5EB6ACF6B4FE3FCCF30C4EA477361DD10DF72656,
+	X509Extension_get_Value_m4852A46DF3018862BCB63F9ED94C2483DB5668BC,
+	X509Extension_Equals_m310018B67B736E83554F698D4377D3850960606E,
+	X509Extension_GetHashCode_mED3B0BC75A49EEF7C13AF9BE6C54855CFE2BE024,
+	X509Extension_WriteLine_m07945F4C60FA5F7A7AEFEDF6413F63BCB73A28A7,
+	X509Extension_ToString_m3F1D37C68357CBF1AD086FBE6839CC4516EA1782,
+	X509ExtensionCollection__ctor_m3D13DF7788DD26AE9A0E8F01FCDA5DC26381C7C9,
+	X509ExtensionCollection__ctor_mA36C635BC1A08C7FA3E1E43E94226F208C98E892,
+	X509ExtensionCollection_IndexOf_m199A01C1E4623E410C326AFEA184ED2D2E0CBEB6,
+	X509ExtensionCollection_System_Collections_IEnumerable_GetEnumerator_mCDF956BE91129236725221A834C635FBD093CD97,
+	X509ExtensionCollection_get_Item_mD4FA6BBB2423E92B6315410E4C1E9C467BCD93BC,
+	X509Store__ctor_m8BEE6CD856A9E81B3953DAC2B491C101E669FEDF,
+	X509Store_get_Certificates_mCC4F7B25DDC42CA505656FC1F9EB239925FC7422,
+	X509Store_get_Crls_m1AF25E9FC526E23F8B7266CF2465C6A6CFB8B73E,
+	X509Store_Load_m6552D5345CC28C527318EC2E4517FCD1BEF62C5E,
+	X509Store_LoadCertificate_m967F101849658106BFC35A16C02E94C8EC3B8B73,
+	X509Store_LoadCrl_m8021617FF1675FE822613E822B08E9F41461E28C,
+	X509Store_CheckStore_mD370453EBECDAD77FAC283E9F99F5CC6BC0FE866,
+	X509Store_BuildCertificatesCollection_m32DDAF019B82B6F1BB94E8803538940502F313C6,
+	X509Store_BuildCrlsCollection_m88F1863305698A5E11DF747BCC6606EDE1DD1636,
+	X509StoreManager_get_CurrentUserPath_m327E22921D4B311073DF6A8233EC88A20BBA3121,
+	X509StoreManager_get_LocalMachinePath_m2668A18A01877DCCC826C41B6CD73D0CCA744E5F,
+	X509StoreManager_get_NewCurrentUserPath_m1D6641F6A75653371AAF847565AB5E2A3103128C,
+	X509StoreManager_get_NewLocalMachinePath_m9FC33D0218E915F3C7C73390B1AD5B1FB60D8843,
+	X509StoreManager_get_CurrentUser_m66660EA2A0893194823DA79EDF351DE5648F072A,
+	X509StoreManager_get_LocalMachine_m06611EBC19F972B43978E1D20FE6E567DFC89A52,
+	X509StoreManager_get_TrustedRootCertificates_m36D616BDA4BD309135C006689F316B8442474C34,
+	X509Stores__ctor_m4F280AF2E389D2220F3A12601EAFB1AB89D30D18,
+	X509Stores_get_TrustedRoot_mEE0DF930C63F042A2C953BB22544517E6E338042,
+	X509Stores_Open_m698AC1CCEC5ABF81319C2C85D6760FC5DACC9371,
+	AttributeTypeAndValue__ctor_m0A14A72F4A402FB1148F35004606CEB384E925A3,
+	AttributeTypeAndValue__ctor_m40E94D9ED5B0F72063517B6C0CDBB91263105FFE,
+	AttributeTypeAndValue_set_Value_m2E3475AD5CFE44BCD90BC614E942883B15FAB573,
+	AttributeTypeAndValue_GetASN1_m82ED8B612C140A123F632E447FC088850B4591AB,
+	AttributeTypeAndValue_GetASN1_m2FA0A8F7D3D9CD0C5E35DA2F1FDC5421B53E5C0E,
+	AttributeTypeAndValue_SelectBestEncoding_m72C48E5F1ADECC8E6136FE1E15B3C87C00552FF4,
+	CommonName__ctor_m50657B991C1F5420BA7FA0508A81FB1307412581,
+	SerialNumber__ctor_m80A7CDE222052C2A36D3E1CDE83BFB864CBF7328,
+	LocalityName__ctor_mFC01FEC695DB77503D07B54F4E8762148A8A9B76,
+	StateOrProvinceName__ctor_m57E49869B92AE375A64144550C807A7DC8F1C456,
+	OrganizationName__ctor_m40A14F9995FEDC3E8C1ED6B0F4DBB7B3C4E42A20,
+	OrganizationalUnitName__ctor_mC8A85A0A786B1065353DA74B029C05AF0122EAE9,
+	EmailAddress__ctor_m124894EF32144A006A01E21CD129547782911F63,
+	DomainComponent__ctor_m2C4609BE598921B06E4EC62C157463AFCC65F068,
+	UserId__ctor_m6375205B83C6B18E2ECA07A193A4872F55289BA4,
+	Oid__ctor_m03E078EABA0993CC112FF3943D61AFFD4831DB1C,
+	Title__ctor_m3F09882917FC1340A80614E0ED16B75A1CA6F553,
+	CountryName__ctor_m2E75E653E83275667377FBD5680BDA0B1F6B359D,
+	DnQualifier__ctor_mF2EEEB8A7105DD27023F4598E229D1A706E38C7C,
+	Surname__ctor_m63F83A2875092860ED49EB2CDE2DC410331C71E0,
+	GivenName__ctor_m661ADEE5928D634B5412BC647D637C153D21531A,
+	Initial__ctor_m4E984AAFD236C08DB2E3B894538AB90609C2E9DF,
+	AuthorityKeyIdentifierExtension__ctor_mBB385C9A2A0B68770410545DF038A9D07F77BD50,
+	AuthorityKeyIdentifierExtension_Decode_m3AF4A819293A215392229CF0BC19F04E40790560,
+	AuthorityKeyIdentifierExtension_Encode_mBAA9D48407882B6297213AF5B5E3AAA602D67AF9,
+	AuthorityKeyIdentifierExtension_get_Identifier_m02042068ED75CB7EF4E3A491A15A6B9DCDA44EC8,
+	AuthorityKeyIdentifierExtension_ToString_m2B2DC5EB6E9A693509A2FAF2700E91C62AC340AA,
+	BasicConstraintsExtension__ctor_mEBC34AF4DC736BB726ECC8C063E686A6E6707CCC,
+	BasicConstraintsExtension_Decode_m9EE042A5689B98D6657E45B453A216579C6391A8,
+	BasicConstraintsExtension_Encode_m89859CE03C9F471E1ECD94F2A88246872D419AF4,
+	BasicConstraintsExtension_get_CertificateAuthority_m5BCC384C91B4A0B11CA41B7C12148457A0B56549,
+	BasicConstraintsExtension_ToString_mBAA34F73F2A1FFE3B50A367760D4C22C31725EE6,
+	ChallengeResponse__ctor_m69113B692194F152705FB0B10D5F5DE3C9E946D9,
+	ChallengeResponse__ctor_m0FF7511212760424A602D3EA720303764373341F,
+	ChallengeResponse_Finalize_m613FCBBBBAAFB1C4D08D287CAD2C4EBFC1E62980,
+	ChallengeResponse_set_Password_mC4D21D00DD2094E296AA66D435EC9DFDB326F1A6,
+	ChallengeResponse_set_Challenge_m99A9D9CEAD09286DAA811D78A80ECA7B67748753,
+	ChallengeResponse_get_LM_mBF82535F35B084711977D987CBE5743D44A35A46,
+	ChallengeResponse_get_NT_m62844C0A7C8B42B02BBB1B95AD3ACB463EE71D94,
+	ChallengeResponse_Dispose_m2A0E32CF84BA5E17353C06534E90F7313D5C8F9B,
+	ChallengeResponse_Dispose_m869AC64D371E202E47894DD149BAEC83326A5F44,
+	ChallengeResponse_GetResponse_m802B1B862E6D746161952D582125FC41547468EF,
+	ChallengeResponse_PrepareDESKey_mD974958EF21A6ECD302202460212B1D220926A2B,
+	ChallengeResponse_PasswordToKey_m459F4457FF12282E9557CE2D3F01423F00FA7501,
+	ChallengeResponse__cctor_mBFE52C6DA316CE23D49CD87087089F0CC1CEA780,
+	ChallengeResponse2_Compute_LM_m5960F5EE61905D818205D0AD8178BADBD4E1DB87,
+	ChallengeResponse2_Compute_NTLM_Password_m5295EA183EBCB987ED70F69B74B6B8DC45484D5A,
+	ChallengeResponse2_Compute_NTLM_m339EC0BC0E0D46AADF9A774A88CFF341DF67DF1B,
+	ChallengeResponse2_Compute_NTLMv2_Session_mFEC11443C78DDF2821746A56CE920DC87010CB15,
+	ChallengeResponse2_Compute_NTLMv2_m7F0A8553E629979B1FF9C4BD19927A19E66C04C1,
+	ChallengeResponse2_Compute_mE663475F7329CEDB0DF90F6D37BDCFA05B6108F7,
+	ChallengeResponse2_GetResponse_m9FD4B25DC713C83206FB18879E535C0BDB207336,
+	ChallengeResponse2_PrepareDESKey_m7E48F80E6D6F48C03E83637F9A7247A7ED078408,
+	ChallengeResponse2_PasswordToKey_m05A23D181818AFC8BCC0D4CEB5167F47AC5808D3,
+	ChallengeResponse2__cctor_mCEF31AE687BC387C502E0AEB3107FCF500818AA8,
+	MessageBase__ctor_m1CB51503E88E16AC1808FCEBEBE3DE8BB50DC3D8,
+	MessageBase_get_Flags_m4A5BBB1791D770EE5B78682F35F7289627B96643,
+	MessageBase_set_Flags_m4BA4AA3CA1819FFDF10A8A5ABBE9A891BB31A95E,
+	MessageBase_get_Type_m9A3BCA375EA72DEE93AC6814A2D042F12CE2189B,
+	MessageBase_PrepareMessage_mA2ECCEC352A8A4B4CDE8A273E2CCED50C05AE2BF,
+	MessageBase_Decode_m155B9651CFCE85CD9B3858FF0A6DF89800767391,
+	MessageBase_CheckHeader_mDC37298D388D893A6328373D7DA29B3CED469929,
 	NULL,
-	MessageBase__cctor_mE8AEE7E5A8A8790B3B932F33BF6436E1546770A1,
-	NtlmSettings_get_DefaultAuthLevel_m735BFF525B64E87BB561BD481210A5494E576F8B,
-	NtlmSettings__cctor_m07E0C8BC13C5BB892017416171C92693469661CC,
-	Type1Message__ctor_m395D0C93B2BB6810831A2D5DF36C15EFDC93DE08,
-	Type1Message_set_Domain_m38C0D490939A07EE001A4F1CD68C0158E258096B,
-	Type1Message_set_Host_m4DADB35E49A8FBD538A1AD49E73C30973AB7BDB5,
-	Type1Message_Decode_m614A700BB20577D907D8BD66796EBAFCADC81B62,
-	Type1Message_GetBytes_m6AD590F28D7E840F279F6A2D7D39EE24FF9CCC6C,
-	Type2Message__ctor_mF86941DD8A7EF8888CDF790C8E4FC49673D21FA0,
-	Type2Message_Finalize_mEEC0D84B67163440B1A9DC4C868D0FD13FB3267E,
-	Type2Message_get_Nonce_mB6FEEA67D50C4395AB545C91F06F30C4DE71DBF3,
-	Type2Message_get_TargetName_mBA446F3B266BBEC1B56A3C8C320FF004105D8A2F,
-	Type2Message_get_TargetInfo_m6EA54F5C8020067B45960FBD55D0FE8BEE002BBC,
-	Type2Message_Decode_m69B2777BF0D111CEAB31DBF1DB88BF30258018E7,
-	Type2Message_GetBytes_m2F1677E7C49619D99881E52F99D6809B9B1C2CD4,
-	Type3Message__ctor_mCE4962FBD2E02548911C84E16883C5A09000D216,
-	Type3Message_Finalize_m834B5B8F8702B4E948C4053E0CE6E17103A83B17,
-	Type3Message_set_Domain_mA62BE8C9225B57D959F636664EB4C44D6CF4F125,
-	Type3Message_set_Password_m73943B4C66A60ECFC287DE55FC0C284371A3F37C,
-	Type3Message_set_Username_m6FF8B1FAF6720A561A339F4DBFC9DC5138F3B3BF,
-	Type3Message_Decode_m33FA8CE104BDAF3213E6E302A231DF8F013EA55D,
-	Type3Message_DecodeString_m217609F9F466DB06CDB43810BDD62F4C61DB5E13,
-	Type3Message_EncodeString_m6366EF5F1CFB8459CD9C4D1ACDC8B8DD4C89065F,
-	Type3Message_GetBytes_mCC6E1AB3AD93CDD7A752EDD7E20A85F0CF09F6C1,
-	Alert_get_Level_m79BFD90DAFD793E70EC7AA52BBECC3AB912A43DF,
-	Alert_get_Description_m8F45D04A2D23CA262BEC40D9631BADAF778436CB,
-	Alert__ctor_mCE2F521FC464249C0FC0EA1D3ABEA59834F0BECD,
-	Alert_inferAlertLevel_mCD714B35DC5FD584905C43D7E9B81D8E0EC05C4A,
-	Alert_ToString_m6193989BA5ED51533F862A9DE745449D8FFBC1AE,
-	ValidationResult__ctor_mC7440C9DCE339A6050A327757E3D9966638C4C18,
-	ValidationResult_get_Trusted_mFDD8BFA1C1EC21DC970A55810381205D7841D35A,
-	ValidationResult_get_UserDenied_m1E4095C966C2AC586B421485A171FF6BA45DE002,
-	NULL,
-	NULL,
-	NULL,
-	CertificateValidationHelper__cctor_m2195A12FC046EB30FB224645A9752E1EC22E89D1,
-	CertificateValidationHelper_GetInternalValidator_mA9423272BF9414FEC789EFC299B8E55B998C73D5,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
+	MessageBase__cctor_m045DF16176ADFE8EB9503EB727645898E6B931FE,
+	NtlmSettings_get_DefaultAuthLevel_mF83628BB4813619EAD21B977855A59088E5D3CF0,
+	NtlmSettings__cctor_m4AECBEAA20F79BB6D5A8DA35FFC9A8493577BF2B,
+	Type1Message__ctor_mEB49FA35D05F01172DF3C164F97163C277AEF914,
+	Type1Message_set_Domain_mE06516CC741E4D12787911A9F1BCE92047DBA316,
+	Type1Message_set_Host_mAB5F72A7D281D31E9F9EC69B7D7518762AEE6CDA,
+	Type1Message_Decode_m6B6B1FAD887619D49C8CC60ABA5F444056059741,
+	Type1Message_GetBytes_m8CAB2AE6CECDB5641EFD51A01649E75BB51DA1D1,
+	Type2Message__ctor_m7A630E10D6C79B19A67A0068102655D998172E69,
+	Type2Message_Finalize_m212EDBA6307D2A6469A1755E084959C4F416D132,
+	Type2Message_get_Nonce_mA371E0DBB0EFD643493BDE7AD6593DB3B64F11E3,
+	Type2Message_get_TargetName_m2D376951E07D21EB9CF72CECDC877DF4E4FB077D,
+	Type2Message_get_TargetInfo_m26739FCB3FF9F56A86779C9A4B759FF3AFC03746,
+	Type2Message_Decode_m4DC375D0224F5F7A9C1205ED4CC51650D0F3521A,
+	Type2Message_GetBytes_m7C4E5D7F49EF6535DD53262395F446ED6426F3F7,
+	Type3Message__ctor_m3A46F07DA05999471A34A64EB248160225F06768,
+	Type3Message_Finalize_m3367B5EC62552132F0F6779EC3A2590FB143D2A1,
+	Type3Message_set_Domain_mA29F199E40EDFDB8CBEC22F50925889A1F8510E0,
+	Type3Message_set_Password_m04828A9F18AE9301885B4BD3C1F7F151DE63B300,
+	Type3Message_set_Username_mE76160F96BD8EEFF971C3E04B2AD2579080E3BF8,
+	Type3Message_Decode_m8066F0309CECA25CD455B91432F3679BB59B448C,
+	Type3Message_DecodeString_m44283D90E42F25A5F5ECC66AEBBFBA9306725B25,
+	Type3Message_EncodeString_m725085621A1177AD700EB63AA81FDAF9D04B2732,
+	Type3Message_GetBytes_mBC207BD47ECFF12866B4786766066A4D9D146E87,
+	Alert_get_Level_mA4A4833EBDC2FBFA4EA36634126A3E3C6EF4703C,
+	Alert_get_Description_m704CDCA746F96A89493B7435D2F07920A1B7F3C5,
+	Alert__ctor_mEF460A440F5C6CBD4B90FB0CD2665A73BFCE345E,
+	Alert_inferAlertLevel_mCA51E78E9C51F283831F685C1CECA4FD20087043,
+	Alert_ToString_m000BBF1E597BF854C362203244F8E2DC4EC7045B,
+	ValidationResult__ctor_m4CAB4B31530A8CD62E46F8B3FAC6A36A4E615D5D,
+	ValidationResult_get_Trusted_mC74B0DA857D9879C6A7428DB31DEA8A2DCD9DFF2,
+	ValidationResult_get_UserDenied_m8714FE685A3F0214EE05C59AFE8ABC71CE614E0B,
+	MonoTlsConnectionInfo_get_CipherSuiteCode_m413E7FB4252CE0D6C904D722107F0A4B59C79B08,
+	MonoTlsConnectionInfo_set_CipherSuiteCode_m3BC21FD10B760939C96F6FBDB39DFEADDE50CCF5,
+	MonoTlsConnectionInfo_get_ProtocolVersion_m12ADA52C235AF895D9462B2B4820EEF8325505AF,
+	MonoTlsConnectionInfo_set_ProtocolVersion_m166E8E558B961F343E719D333A892E597AB17404,
+	MonoTlsConnectionInfo_set_PeerDomainName_mDCAB6395BFE1BEF3ACEF680AEA6A3FA4DDEA2A97,
+	MonoTlsConnectionInfo_ToString_mA9F63B760E6919F545A716A7619F8786CAA7C38C,
+	MonoTlsConnectionInfo__ctor_m795EBB319F254C648313E21E85ABD2A4CBE4F93C,
+	MonoRemoteCertificateValidationCallback__ctor_mEBD94D46C068D03E0F3A827F0875FE424C03B22A,
+	MonoRemoteCertificateValidationCallback_Invoke_m8BE32AE7FE1BE89EFB6A49559431916F785D2BD9,
+	MonoLocalCertificateSelectionCallback__ctor_mCA81824D698BD5808E501A9AC4DA99758B69D3FC,
+	MonoLocalCertificateSelectionCallback_Invoke_m32D010A24184A7BEEE6191B19F04E2E8AC8C3CEE,
+	MonoTlsProvider__ctor_m65BF846CE616D13609A5EFB2F42AE03A38E5CB8D,
 	NULL,
 	NULL,
 	NULL,
@@ -1034,622 +1464,784 @@ static Il2CppMethodPointer s_methodPointers[415] =
 	NULL,
 	NULL,
 	NULL,
+	MonoTlsProviderFactory_GetProvider_m78A0B860DB25698EE7FB098ADA9BE356D4476567,
+	MonoTlsSettings_get_RemoteCertificateValidationCallback_mE07825B4A75DAE2A4BB5037D504A36311814446C,
+	MonoTlsSettings_set_RemoteCertificateValidationCallback_m6CEA8A6E38C85A96C2D26613407C13DD4F965C87,
+	MonoTlsSettings_get_ClientCertificateSelectionCallback_mCFE63487D867109AD1AF856ECC8BA0996C0AA605,
+	MonoTlsSettings_set_ClientCertificateSelectionCallback_mB404DFD0C0475254CC129740A472D6D9615C56FD,
+	MonoTlsSettings_get_UseServicePointManagerCallback_m11F6CF11F844ED2F6D54497CBAB18E04E6AFD754,
+	MonoTlsSettings_set_UseServicePointManagerCallback_mE3EBA2F2886B024A4ACC303EE792190A5784E18B,
+	MonoTlsSettings_get_CallbackNeedsCertificateChain_m02260798D928BDA7F6D9A2356B7CE688650BF176,
+	MonoTlsSettings_get_CertificateValidationTime_mB7E248DE19CACA783A465F59859729C726DF2F9E,
+	MonoTlsSettings_set_CertificateValidationTime_mE632C0A1BAB7608158B8EF05D2122B87AB6C34A6,
+	MonoTlsSettings_get_TrustAnchors_m4CA73EEBF73B4344C5334F3BC5BBFE1BC27BC7AE,
+	MonoTlsSettings_set_TrustAnchors_m08A22767288F1FB5AF812D0FDE8ACCDA47116661,
+	MonoTlsSettings_get_UserSettings_m9ADCEFD59E6429580D053F5AC0AF492B59353920,
+	MonoTlsSettings_set_UserSettings_mE1E6ED54BB439AE8012FD17D7230515CAB11D55D,
+	MonoTlsSettings_get_CertificateSearchPaths_mD6BE6C9347446D742B29CAB987AEB76FF845A050,
+	MonoTlsSettings_set_CertificateSearchPaths_mD7846BCF7B9292F85FEF0BE4A671779AD6C9AC32,
+	MonoTlsSettings_get_SendCloseNotify_m1D35BCF28142455EC9CDF16CA36A8DEF57B05625,
+	MonoTlsSettings_set_SendCloseNotify_m903943162225A7267CA3AD1E1E6E76EA71BCC5BF,
+	MonoTlsSettings_get_ClientCertificateIssuers_m6FB58C63262D146231256A969DC2F3B60CE5C498,
+	MonoTlsSettings_set_ClientCertificateIssuers_m0866718DAECFD44FC53370D23AB4C789CE0759B8,
+	MonoTlsSettings_get_DisallowUnauthenticatedCertificateRequest_m15B7CAB13F2301D201AAD092DF2FCB49366ABDF6,
+	MonoTlsSettings_set_DisallowUnauthenticatedCertificateRequest_mCC9D044ACAD032758F91CC5A3AD1E69F8C5C7FE4,
+	MonoTlsSettings_get_EnabledProtocols_m6368286BF3E5703DB56F0EDE7B6AD2EF9C98D4C8,
+	MonoTlsSettings_set_EnabledProtocols_m41991C8F073B85156818A906815AC4AE5623E77D,
+	MonoTlsSettings_get_EnabledCiphers_m7BD72B78EF53FAF51FEEBF5B3657187EC876394A,
+	MonoTlsSettings_set_EnabledCiphers_mA89F7C73A29959710230593DCC689F4B9860156A,
+	MonoTlsSettings__ctor_mE939325F3FC3A8950048CD299F395C8C823EA925,
+	MonoTlsSettings_get_DefaultSettings_m1A98FFBA09E1F2A23F128090959A396A353F4297,
+	MonoTlsSettings_CopyDefaultSettings_mE5970D083778040231805379F970AB869548029E,
+	MonoTlsSettings_get_CertificateValidator_m2DC79DA38E7CB5E87A21E315A29F21E1D9ACF367,
+	MonoTlsSettings_CloneWithValidator_mF20535B6DE43DD45FAE2ECC6871C85C15F260D6B,
+	MonoTlsSettings_Clone_mC4F9A27889ADD0B275018B32BCDA67C30865EA7D,
+	MonoTlsSettings__ctor_m93F7300159A30C4B08C4A9A9B0C0CAA6B16E0D6F,
+	TlsException__ctor_m790E4F01EE46A1D10C353B331F6354B3ECF97CFF,
+	TlsException__ctor_m343EBA01616A2B8649875A19BE4E56BBF46C6D81,
+	TlsException__ctor_m6D862D6D21E46E91EC116FF6FD1E5ED2F6D35A68,
+	TlsException__ctor_m4E03D70F9BCA4C0CA737720A43ABAB696CEA6209,
+	CryptoConvert_ToHex_m372F8F7845B638F6C6BD17F0390A1641A51C2E21,
+	CryptoConvert_FromHexChar_m1645CEA986C0BDF8D390F7B93C95F85C8E45F981,
+	CryptoConvert_FromHex_m05E2DF14D77F36E160F7E88CF290299C357886A0,
+	MD2__ctor_m490777410D02CD92B398D20C6A2DAE7448A00E8B,
+	MD2_Create_m8D8916FDE8D3D1610CD85450B021F880E7E27550,
+	MD2Managed_Padding_m661705CFE5C0683685E84E1CD503326477C7138F,
+	MD2Managed__ctor_m4E661935AEFB98EDCB3EEFE7D6EECAD10C807A2B,
+	MD2Managed_Initialize_m578DBD3B8265ABD7FE060D4DD958EA986301698F,
+	MD2Managed_HashCore_m2B4BED309AC3C80A6E8D14ADDE4BF9AC9CC266F6,
+	MD2Managed_HashFinal_mDB2FA7F5A7A8A4FEE85BD56B47801B12BCDFCAF1,
+	MD2Managed_MD2Transform_mCA2AD9EF038AC46E69F4726153B9C0DC03FC09D3,
+	MD2Managed__cctor_m4A97F7EE439FE55705B9B2AB478CD29A0FBCD202,
+	MD4__ctor_m0E07C929BDAF3BB0CFD4EC360D22849566538CBB,
+	MD4_Create_mCB4921FC30437A53D26E6BFA45D5D31F9F2F6014,
+	MD4Managed__ctor_m89BE94F7DEB019FA53E6B1F46DCFB6B4CA36CD1C,
+	MD4Managed_Initialize_mFC1E0B77E8CF24894ECF37C54EC3D3527E36DDFB,
+	MD4Managed_HashCore_m41A5263D2F078402E912B70E7DD08B9D12085E66,
+	MD4Managed_HashFinal_m5BDA517A8D12C62F62C5EFBBCBC661DE9C198EFC,
+	MD4Managed_Padding_mD7BB9A7A7F78490A4B8EC89A21ED240CB85E39F4,
+	MD4Managed_F_mD8312B8925BE2A23E1E9B1A13054A95D815F06C4,
+	MD4Managed_G_mCCB055CECFE7296853DF7DB9336A670549C8423A,
+	MD4Managed_H_mA7897D3B979E6627EB9A44E6FB6C894D4B338910,
+	MD4Managed_ROL_mAEE08B95D3EA8EB7EF09EB7CC1E97CF6F3E1F31F,
+	MD4Managed_FF_mA227BE16EECCB0BC298BA664D40D8703152D5AA0,
+	MD4Managed_GG_m57C28D2EE1C3AC5241943AEB683989331AFB2415,
+	MD4Managed_HH_m35ABC1BD17ADB7103B07BAE99ED070EA850FB197,
+	MD4Managed_Encode_m1E02CBE5A0E99DFF36299CCEAC13F92124422D55,
+	MD4Managed_Decode_m01D0E808B7F05B50EC6A1B146F5BE6AB909DA396,
+	MD4Managed_MD4Transform_m3BEBC5DA2F365EA60233EB3849D6B670AF44835A,
+	PKCS1_Compare_m2191E9428696E154E5B525C0023A0E6452BCBAB8,
+	PKCS1_I2OSP_m09188E6F6B2F1875A5AD568F5DA5A7517755715C,
+	PKCS1_OS2IP_mA051090D7B03C2052FA7B7F6419376D33C438A65,
+	PKCS1_RSAVP1_m116E9A26C499655F19805E3A878A21380431B0F6,
+	PKCS1_Verify_v15_m43A88872056E2CC8A5B15534134EC647E246097E,
+	PKCS1_Encode_v15_mE68AC16F70E21E3961689BDC50F35982B014EAAD,
+	PKCS1_HashNameFromOid_mB154086B9DBD3A7A261B29E356577283BD96EF6A,
+	PKCS1_CreateFromOid_m28E10EF2DAA6C7900493AB6676078FAA20C57A09,
+	PKCS1_CreateFromName_mD94C873F9E6755D6B46EAD204FF120A42AF0655E,
+	PKCS1__cctor_m590A6175AF1A39399AF936FDA81A827026765308,
+	PrivateKeyInfo__ctor_m22D9C0E05AA5534D7874D9779D81BA12CB675862,
+	PrivateKeyInfo__ctor_mF8536B2938ED0774AEAFAC0D16AF8FAD636F904A,
+	PrivateKeyInfo_get_Algorithm_m544D7A80C2BD7DE45C080DF09D88221A58DB9459,
+	PrivateKeyInfo_set_Algorithm_mFD8F5D740F42A4FB5F140746F66344C482214461,
+	PrivateKeyInfo_get_PrivateKey_m08A332D04C22BE19ED55E82B4D3804336502D13B,
+	PrivateKeyInfo_set_PrivateKey_mF2063F5270C3292963169D6AD956F805B708EA9A,
+	PrivateKeyInfo_Decode_m0418E893A9C18998D461DF559BEE133012C54B41,
+	PrivateKeyInfo_GetBytes_m7D3AFC62DC76180A827AC8B1D549BB181165B71A,
+	PrivateKeyInfo_RemoveLeadingZero_mCFBEBB4A2B8B6BF60A07951E042D5C8524F8E55A,
+	PrivateKeyInfo_Normalize_mF76CD1FC00E20C1C35AC8757E761064307BA3C33,
+	PrivateKeyInfo_DecodeRSA_m82CA806E057F3381929C3A2B1CCE85F813B8685F,
+	PrivateKeyInfo_Encode_m65BED66F892EB07E6CA404094D13BACB167496C4,
+	PrivateKeyInfo_DecodeDSA_mD376BC5F172B6308F4D5DE9519FE8799328D02E2,
+	PrivateKeyInfo_Encode_m3396C4C782EF8EA952C7DE98B570E25CE0D4E062,
+	PrivateKeyInfo_Encode_mE4EDCBEED688E2625A19F871FABAB9A9C5D93CB5,
+	EncryptedPrivateKeyInfo__ctor_mE231E160F0541E832A29C009CD95AFF578E51918,
+	EncryptedPrivateKeyInfo__ctor_m5CF5C6296CD6DA1A655FDEEF0701F4E6600E5D7F,
+	EncryptedPrivateKeyInfo_get_Algorithm_mA143C07290B65E429244DBD3C98CD7E4F2FDA061,
+	EncryptedPrivateKeyInfo_set_Algorithm_m5D20F5C3A27178F750D8EA9284487B0CB000BDF2,
+	EncryptedPrivateKeyInfo_get_EncryptedData_m0CE09A1279C5BD7DCFC30BD5D9D59921D7082583,
+	EncryptedPrivateKeyInfo_set_EncryptedData_m85863E848EA3BC76741E57B631EEE3F2E5D351FC,
+	EncryptedPrivateKeyInfo_get_Salt_m9535A0F6F11ABF70C3DAEEBB61E437CB21042F61,
+	EncryptedPrivateKeyInfo_get_IterationCount_m0027F1C5D6D120B70924F3DFCDFAAA48C064F410,
+	EncryptedPrivateKeyInfo_set_IterationCount_m7A4A4C5E7B52ADBDF9003DD75880F7071E07A34D,
+	EncryptedPrivateKeyInfo_Decode_m1C9F94B949283DE27932FACE345EE2C314982C85,
+	EncryptedPrivateKeyInfo_GetBytes_mEFEA6CB0E64BE8B64BD20281E9F2F4ED6A910693,
+	RSAManaged__ctor_m3DC50713376908C5D1B7EDE7662070DBC185597A,
+	RSAManaged__ctor_mC9FD969A9C89A836300989CC0A3B20E40025D8BE,
+	RSAManaged_Finalize_mFD07D39251303051B9DF8AF29AB6B4CF9FA7FDCB,
+	RSAManaged_GenerateKeyPair_m3E0EB3C2ADA16EE8FE2A8AE7071333CB6795F55D,
+	RSAManaged_get_KeySize_m17BA4753AA6967ADFBEBF49035158532F23DB7A3,
+	RSAManaged_get_PublicOnly_m12DE914F7BDDD2E850EDD7F34BA9CF3114C333BF,
+	RSAManaged_EncryptValue_mAED1DAF6891C6F20546DD23272193471BB495242,
+	RSAManaged_ExportParameters_mD63F6ED165F8CA27D9F2BBA4C7FDD232D6C2A53F,
+	RSAManaged_ImportParameters_m585D1CB6F017A3FDA42FEFEAFD14029F8E41EBC8,
+	RSAManaged_Dispose_mE2C5CCB287A79986DFB8A3A2380E6666291C982B,
+	RSAManaged_ToXmlString_m05B2E2182E8223F5242E8C0D8A0BF70750A9CB93,
+	RSAManaged_GetPaddedValue_m228CFE67E9EF6B3659E761E55D06AD18B6DFF1FD,
+	KeyGeneratedEventHandler__ctor_m5B52F3B7F5A33F1A0BDC378D304EF8F681A1D8FB,
+	KeyGeneratedEventHandler_Invoke_mD73F8C7BC0305037EC520C3F4AF3DE74E5481DDA,
+	AuthenticodeBase__ctor_m0439483FE9A59BB7E27DE3A8D9EA1D1265BF968C,
+	AuthenticodeBase_get_PEOffset_mC4BFB80BAEF28B712FD9048C85B3F20B3DC81C5B,
+	AuthenticodeBase_Open_m6D97F062F4176730B6020ACAAD47ED4353B35465,
+	AuthenticodeBase_Open_mB75CCA77F829FC8F99FDFCDC639AE5ADA3B32A81,
+	AuthenticodeBase_Close_m1FA42AD55310BAF64DB00FFE6563ED06D44980E9,
+	AuthenticodeBase_ReadFirstBlock_m7F5A9F2A9C8FAA6C6685E0F3322E8D69E7324545,
+	AuthenticodeBase_ProcessFirstBlock_m3FB173D7CA309AA1119CFB86D5E4768DA1DCCC1A,
+	AuthenticodeBase_GetSecurityEntry_m3690E0D6B4D14F2A8979F1BE0CCE6F7327C2E24E,
+	AuthenticodeBase_GetHash_mF881D2926F2FABC3ACDA646842954F83A9434066,
+	AuthenticodeDeformatter__ctor_m2695F107A500029472C7B519B00F5F8F86918114,
+	AuthenticodeDeformatter__ctor_mE7D65775E1289E0DBB208034BE5EB40AB6469BA0,
+	AuthenticodeDeformatter_set_RawData_m0D90817618D3ED52A415A898F0037018A777D07A,
+	AuthenticodeDeformatter_get_SigningCertificate_m5C675A2AB0464670DF6C557C4433871014EB52CC,
+	AuthenticodeDeformatter_CheckSignature_mCC125D2B04750C3581E9C60593C4212BC54077F0,
+	AuthenticodeDeformatter_CompareIssuerSerial_m3EE0CDFEE995FAB1C96A8B358D15F1D5EB4F2413,
+	AuthenticodeDeformatter_VerifySignature_mEA4B444611069CAADC507D771CFBA1A571CD8973,
+	AuthenticodeDeformatter_VerifyCounterSignature_mCC865AF6E1CE3E6917FF161182D64EDCFE94DBCD,
+	AuthenticodeDeformatter_Reset_mD15DE78C062103550A42BEE536E78F9526585B90,
+	BigInteger__ctor_m49DCBBD82981761C45EBC2350A1F16DB886E5F50,
+	BigInteger__ctor_m42B232CF6F76C15DAA3C02C3F5DE1B1F7C7BBC51,
+	BigInteger__ctor_mD26E0224E82674AFA9A6E4BF4F0674BB0B7BECBF,
+	BigInteger__ctor_m8E3F4B6BB64E6F4A2FCB66402F58C192453ECB45,
+	BigInteger__ctor_m9AFFDE2505C2B712D5F89EF501A2D163B7855E02,
+	BigInteger_op_Implicit_mA366B11D70EEA5E05CB0A27A253EA22DC3D47F3E,
+	BigInteger_op_Implicit_m62A62BEDAE7A2C4349BF7139FD915204A599EEAC,
+	BigInteger_op_Subtraction_mA77D9B0690E545E5E81E024DE2D005A4E5904CA7,
+	BigInteger_op_Modulus_m6A12610F6997190C6C35ED211AE4AEE01683E92F,
+	BigInteger_op_Modulus_m98F6CFD9441247CCBBB866E72F26356E62A61E6D,
+	BigInteger_op_Division_mE30CB264DE7622B5EFBC03D42881F5E6C5EBDFD0,
+	BigInteger_op_Multiply_m2182A109D6378FF4DC89B2C0C0D05131DE978BCE,
+	BigInteger_op_LeftShift_m83EA1C925821636CC6E2788E6FFA9F1E31D21EB4,
+	BigInteger_op_RightShift_m338EE513BA46D08DFDA593D76CC1FD60B594D0E8,
+	BigInteger_get_Rng_m60AF9F9656E3A53330A19B61A1F31B9E994A75CB,
+	BigInteger_GenerateRandom_mF80D714145C0298E0CAED6DAFFB00D5D153FBDF5,
+	BigInteger_GenerateRandom_mA6D7DE4D0B18C143D555FFF251F5FC9BDC47A1DB,
+	BigInteger_BitCount_m6FD831E1BA71E84748B08A7A5B1FFE9AB2C62551,
+	BigInteger_TestBit_m2EAAC171F87CAB5FEDA0DEC79A83A68E56762C35,
+	BigInteger_SetBit_m3E67DE35B0E691FCB886C60252CAAFC3FCB92A39,
+	BigInteger_SetBit_m60B275C4579C541B806FECB49EBBDA1579DA70BE,
+	BigInteger_LowestSetBit_m6443AF5F1F7C864A65365DD731FC7DAC1495DE20,
+	BigInteger_GetBytes_mE1CA6C5DC5B8AA9014B4169BD55307040E668439,
+	BigInteger_op_Equality_m95C17323F96738CA91AC0402D8E4E1FB26829FFB,
+	BigInteger_op_Inequality_m7B8F0C5A75587F235E5EB82AF07817B90C9AC830,
+	BigInteger_op_Equality_mD2A10886EA565159572D083855080AD55FC517D7,
+	BigInteger_op_Inequality_m026BCC8D6A527AD7D1BF20E5BC10187D8CF324FC,
+	BigInteger_op_GreaterThan_mB88C29784044E8CDBE75D9ADFB72725093EA0665,
+	BigInteger_op_LessThan_m6B49D00910D0474566294F331B8E2959414C87C7,
+	BigInteger_op_GreaterThanOrEqual_mC840A5F96C2E572E4DA967F778348FEEFDF09F7E,
+	BigInteger_op_LessThanOrEqual_mE13A82E3B45939FB4614756D81930A0C8E59401C,
+	BigInteger_ToString_m02A324A776BF09756B1BB3B6BFF6DBD7EA98852D,
+	BigInteger_ToString_m007BCE771B1D0C61761EF1F3D98B8C508EC6DF9D,
+	BigInteger_Normalize_mC7C8E5FF4D3DE66DE886D541352D3A091D84DC47,
+	BigInteger_Clear_m1BFEB305789595395EEB68C5150A5331E0207323,
+	BigInteger_GetHashCode_mEAB87BB7A4882FEAF1D7D65B6713E31C0A6F07EE,
+	BigInteger_ToString_m80A151A5EF5ABF1F5FF16660E78042B85241E3E9,
+	BigInteger_Equals_mEC32AE6F06C0C113291158D434ED2A92B07E6453,
+	BigInteger_ModInverse_m7E87B8BE468B504ED2BD533629D4E9089E5768E5,
+	BigInteger_ModPow_m534E775DEFD6DEDC75F71FA21492843EAA9CEC9D,
+	BigInteger_GeneratePseudoPrime_mB8FFD10652E0D48BECE2AF33F7B29B64A0BC89E1,
+	BigInteger_Incr2_mE5DCADCC1DEDD4F3E48E326940D3C926E1A37808,
+	BigInteger__cctor_m276F063532FC0A35DE1FACAF95D0EB2D6C2B2AAD,
+	ModulusRing__ctor_mA5C74C954C8ABD6F9843F41BBF197F7F00F8D00A,
+	ModulusRing_BarrettReduction_mA753465B3A0DC2E9DEC32D345C24DCA1B56115D5,
+	ModulusRing_Multiply_mDBAD6831070EE1661E3B7EEC4786A515DE5C229A,
+	ModulusRing_Difference_mE4B31BBB8F73710EC6AA7D3F87719672EF683AAD,
+	ModulusRing_Pow_mE14DBD510D57E2A1CF1BFB2B237439A8EB08A418,
+	ModulusRing_Pow_m9F2BB905682A6999D33B598EE7A61755DC240C6D,
+	Kernel_Subtract_mEBC7BB392F4EDBC7050684F8626424ED8DB82142,
+	Kernel_MinusEq_mBED90EC10DF65E164E9A5CB80D19BAB81F80F0D6,
+	Kernel_PlusEq_m8AE5BF895CCCA850E8B1BCE05824CA22BBE22196,
+	Kernel_Compare_mF966D0878812817B24C5E375C0CB895E9D8FB7BC,
+	Kernel_SingleByteDivideInPlace_m449DBBAD9250C051D8DE7331770FE47548E786CA,
+	Kernel_DwordMod_m076999ABA0D65211B6CB6F53E225E4043B7805E8,
+	Kernel_DwordDivMod_m5D1999F64EAD588314733A5857FFFFA5C45A0C6A,
+	Kernel_multiByteDivide_mC719C7FBCF592D8720F30B4CD8B74F8DD95385D6,
+	Kernel_LeftShift_m9CEBA619E5AC2F607F9E40F6B93C75CBD38C23AD,
+	Kernel_RightShift_mEC7E9AAD72738A600FF11DC8BED7457F66CB104B,
+	Kernel_Multiply_m7AAB50B2C6C1E0F696E1CC9E8AC5BE5299BE44B8,
+	Kernel_MultiplyMod2p32pmod_m6A2EB428755580C05A03D6831BD77AEAE2EDDBEA,
+	Kernel_modInverse_m6AC9B89937D3B998F633DEABB5272EAFE22EC00E,
+	Kernel_modInverse_m741905D9CCEC274288E9144E69BC4862576082A6,
+	PrimalityTest__ctor_m73483F9E5D166F74E0340F479376C61D9280266A,
+	PrimalityTest_Invoke_m7E9F9413908598A1270792B565D71288027AA552,
+	PrimalityTests_GetSPPRounds_m7FEAADFD0D1ECC40855567E4B7EE927D78E53C57,
+	PrimalityTests_RabinMillerTest_m8CB7357EAAB8F33F542625238BEDA04D02D3FEE1,
+	PrimeGeneratorBase_get_Confidence_m8A53DA3C670504B629434C990508D4B77642B875,
+	PrimeGeneratorBase_get_PrimalityTest_m96C5E1866F96043982AF493BE7EAB5969F770E1D,
+	PrimeGeneratorBase_get_TrialDivisionBounds_m706A348C994861A2B92CE9156FE20DCF7474E286,
 	NULL,
-	MonoTlsConnectionInfo_get_CipherSuiteCode_mACB7AF8D79D12CC21D69FAAC2BD54A474E794CDD,
-	MonoTlsConnectionInfo_set_CipherSuiteCode_m253BA016164BDD9512F5B04565060EBA07556912,
-	MonoTlsConnectionInfo_get_ProtocolVersion_m5239605736E2D8CB19D90E91C5E6B300DB60DB3E,
-	MonoTlsConnectionInfo_set_ProtocolVersion_m299D388762D5115E7CE0A49EB7F0BD9DAFD36708,
-	MonoTlsConnectionInfo_set_PeerDomainName_m369B7685E07044B0BE92325A3F7A61A143A9145A,
-	MonoTlsConnectionInfo_ToString_m6CC2E3691FEBFD440159152C83525F9EE23C85FB,
-	MonoTlsConnectionInfo__ctor_m6AA817B4610065EEE20089782EBD3CCBF7D47C21,
-	MonoRemoteCertificateValidationCallback__ctor_m6ED284D2291C47D34C738D3BB5E562B07A99723A,
-	MonoRemoteCertificateValidationCallback_Invoke_mB9C5C0E8793A64E367BCB9A448EDF6957BE0F967,
-	MonoRemoteCertificateValidationCallback_BeginInvoke_m85925B5010BEE3C94711FCC54E9E40C58DF47465,
-	MonoRemoteCertificateValidationCallback_EndInvoke_m12D6AC7EDF856BCBF86A8A134AA873D4DD4F7DF2,
-	MonoLocalCertificateSelectionCallback__ctor_m2C90E472414C4A3B1B1E23C123A2FF0570B94903,
-	MonoLocalCertificateSelectionCallback_Invoke_m33848CFEAEC89ADE40CE4A00134634B11492A153,
-	MonoLocalCertificateSelectionCallback_BeginInvoke_m0D2BC17668DE12F1D99490613422D3650D3AE7FD,
-	MonoLocalCertificateSelectionCallback_EndInvoke_m8323C9E39AE668C854BBE764050064E2CD93B04E,
-	MonoTlsProvider__ctor_m158F98FFC13985AEA169D93B13728FE5018B4352,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	MonoTlsSettings_get_RemoteCertificateValidationCallback_m75D6DE3A10E67B8E5BF73AEDA2CB4EA3647254B5,
-	MonoTlsSettings_set_RemoteCertificateValidationCallback_m4727CA0470D108748A8D73E255621E3910747200,
-	MonoTlsSettings_get_ClientCertificateSelectionCallback_mFE8E90C0D3E5200210CC9CB235DE5E5533A82017,
-	MonoTlsSettings_set_ClientCertificateSelectionCallback_m59891142180E21ADE370A36C12A8D4CF86DF285F,
-	MonoTlsSettings_get_UseServicePointManagerCallback_m28672345E25C0ED1BD4B3E64B8A8A89CCEE86060,
-	MonoTlsSettings_set_UseServicePointManagerCallback_m824D204EDA7D9819914E41351ABC95B05B204720,
-	MonoTlsSettings_get_CallbackNeedsCertificateChain_m22912D04EC8EB9DD9093028D0335F5602469CF46,
-	MonoTlsSettings_get_CertificateValidationTime_m22AC20BD497D64BFFBD56649A26488CC7A88A1E6,
-	MonoTlsSettings_set_CertificateValidationTime_m70332A4AC8116E874D86BE8FBF8C973A28444CA4,
-	MonoTlsSettings_get_TrustAnchors_mEBC0221CE33DCA689174469D4869AB0A88D533F7,
-	MonoTlsSettings_set_TrustAnchors_m9EFA88A3222857B12554E29FF4BD5FDC865D2F4F,
-	MonoTlsSettings_get_UserSettings_m88C0F390E712A6AFB04BAC5C6B81AC5E3F0AE6CA,
-	MonoTlsSettings_set_UserSettings_mCC8557F5796FD20CFA47B1ADF1D8B1B6CF3ED94C,
-	MonoTlsSettings_get_CertificateSearchPaths_mD08803556DCF8EC5220A2DA5E50D3A43310DB2E1,
-	MonoTlsSettings_set_CertificateSearchPaths_m194ED111193D17E9A5FB4CBD0A977CB4DEB1BCFB,
-	MonoTlsSettings_get_SendCloseNotify_m18E22AF7BB290C1C1B88EC0B25A087E27A8ACBAE,
-	MonoTlsSettings_set_SendCloseNotify_mB5E4FD7408ECEA4FB6CA4F266CAD1657922A3C59,
-	MonoTlsSettings_get_EnabledProtocols_m01021B4494DA5DE509BB0B40DECCDA9BCDC979BB,
-	MonoTlsSettings_set_EnabledProtocols_mAD0AB5F09295401C49796C95E3A617916F245A13,
-	MonoTlsSettings_get_EnabledCiphers_mE119485E2178A50C4AE29FDC7AD43A9530FC545B,
-	MonoTlsSettings_set_EnabledCiphers_mFF3FD677F2163E0A841C948DFF8619CEAF6F0FED,
-	MonoTlsSettings__ctor_m1CFBA5D423BDCB7107863C1E8519267F0EA2C180,
-	MonoTlsSettings_get_DefaultSettings_mEAE6B9CA2EBD7A5646819B402088804FB433AFDD,
-	MonoTlsSettings_CopyDefaultSettings_mCAE63D35A1593ACEBFBEAB9C94A27493501CA537,
-	MonoTlsSettings_get_CertificateValidator_m6578EC980AC6961145A77D1F87C213857623040D,
-	MonoTlsSettings_CloneWithValidator_m2FF8E65806B460D8D1026F35F1FE122CC3BFD8F5,
-	MonoTlsSettings_Clone_m05B631EBD15B008E8B3EF59890C6763069E5EE97,
-	MonoTlsSettings__ctor_m3F78FC0AFF01BCBF07C6BF42EC3DDB17A3B0D465,
-	TlsException__ctor_mB13770041DB9489AE621BBD5737A40B9F7E4A973,
-	TlsException__ctor_m3A87593B9EED79C7E1E0EDA7618CF0BAC393C2B3,
-	CryptoConvert_ToHex_m567E8BF67E972F8A8AC9DC37BEE4F06521082EF4,
-	MD2__ctor_m9633AC3A406B8AD10E76FF3DBB0B7EAD50A73C35,
-	MD2_Create_m1D4C355C7CCB293BD294B8226C441C85A242CA86,
-	MD2Managed_Padding_mA9CEBC789540AB10D6F2BFEF5D01141D83E11FEE,
-	MD2Managed__ctor_mE3AA2A57E8553989C046303967FFCACFD14FDAA7,
-	MD2Managed_Initialize_mEB275EAC42F1802F35F9168D5A7D8CE7B9E75FB7,
-	MD2Managed_HashCore_m06260BB1674FBF5C600EB83E46B9E1C7EF5EE3E0,
-	MD2Managed_HashFinal_m510784808BD92EA3224559C89EF49315761DBE67,
-	MD2Managed_MD2Transform_m8EB84EC950AF3D39C8B216D34AA7B30F86F42058,
-	MD2Managed__cctor_m3BC8A30C0C77779DE9B7C4FFE9142150B07F37F1,
-	MD4__ctor_mAF3861BF5A1B04B8B9548B3FA3F86D1885AF6E2C,
-	MD4_Create_mF77104ACC4400D868B959C44B0A80EF589E5C234,
-	MD4Managed__ctor_mD9002725FBF610D5D90707D63A7A3F53F9B2D48D,
-	MD4Managed_Initialize_m6D55ABD03BC735582AB3BD81FE908ED0C6956ECA,
-	MD4Managed_HashCore_mA84F459B2627C0D8EA928DD40211529B771697CD,
-	MD4Managed_HashFinal_mF9223C2032C3413EC485E1D994EBEA7B9FAABAFE,
-	MD4Managed_Padding_m5163C8C0AC12498DC792C609536687445910A064,
-	MD4Managed_F_mC216E91A076CF927BA28B434D41118FA94107A2A,
-	MD4Managed_G_mDD15D1D0F50623D6D57F4C14E146B648C133C7D1,
-	MD4Managed_H_mEA3A56D4D2D40FCDACA31166AA69CB18DE4A3A1C,
-	MD4Managed_ROL_m21E74B8E160CEEB17D89E334605C397424F6C335,
-	MD4Managed_FF_m7A0746589F1F7054B04004B55E724A4DAFE7B5D1,
-	MD4Managed_GG_mCFCC9923ED49ECFEAFBB53D75CFCC6D3827D4511,
-	MD4Managed_HH_m3A124ED6DFE9243C988A8B060614E1FB19D9520E,
-	MD4Managed_Encode_m74D2EABDDEC7F39C91E2C6059CBB8B0CDB23CA7E,
-	MD4Managed_Decode_mC73EFCA8AD16AA45D2060F8BA07D1E61D5999912,
-	MD4Managed_MD4Transform_mA40D74E0BD5037A627DEB9192BA4C4009BE96C45,
-	PKCS1_CreateFromName_mBBB3D4843B9B1E678C85DDAD8EDE2FDF8169D7B5,
-	PKCS1__cctor_m5E165FA0DC8A3260D23BC5B0EEBFEA2363668309,
-	PrivateKeyInfo__ctor_m513A5BDF96132DFA8D718CB5E761D1C39C214DAC,
-	PrivateKeyInfo__ctor_m8640F581031D199E229D4A6AA31026B8EA756040,
-	PrivateKeyInfo_get_PrivateKey_mFDE27BD70465C0C71949DA3E3E4F752AB7AE1263,
-	PrivateKeyInfo_Decode_mD156E6A6B78A2A93B6D1BDF524AD9FCE9EBB1A62,
-	PrivateKeyInfo_RemoveLeadingZero_m095360C99508EC21B354AF0AC6C4EA67AC48A6BB,
-	PrivateKeyInfo_Normalize_mFBBB9676EB34EAF23E711BFC6A1DAD13EAE52525,
-	PrivateKeyInfo_DecodeRSA_mEAF2C11CDFF27504F19297E9BFFC7AEA5E76C457,
-	PrivateKeyInfo_Encode_m5BD66DC87E5D2E9BE4538390321D06C44ED7140C,
-	PrivateKeyInfo_DecodeDSA_m079B9B162482341C9AE062D24CE3BB86D6723416,
-	PrivateKeyInfo_Encode_m5959F34D6EB743D351A0E0E6B2B24910D43EE139,
-	PrivateKeyInfo_Encode_m0B6682733B5764EC52E9E2551BBEDDC3F4C74133,
-	EncryptedPrivateKeyInfo__ctor_m6DD099BABFA876AF0B42EB38B46C14EEBCB2CC5B,
-	EncryptedPrivateKeyInfo__ctor_m342DBA8F50EBE7CC3E8C72FA55A086A44EB0595A,
-	EncryptedPrivateKeyInfo_get_Algorithm_m6E3979843B72EAD0345E7D190562A054347B26E7,
-	EncryptedPrivateKeyInfo_get_EncryptedData_m41DB5DB34320FF2B84BF2811ADFF9B449E3B9868,
-	EncryptedPrivateKeyInfo_get_Salt_m5529731CFA0E535CA09D34EC420D78E143E8C879,
-	EncryptedPrivateKeyInfo_get_IterationCount_m0FFFFF80E6542001E3AFEC28F9F8DBBA7FEC5FF1,
-	EncryptedPrivateKeyInfo_Decode_m3B7FB3D3766A4617DF21A37E87F9D568B807AAC1,
-	RSAManaged_GenerateKeyPair_mCF5E65E83533C4515E3B0F7AA80B0D1C13D71191,
-	RSAManaged_get_PublicOnly_m7C2ACC9429A47CD9B2C8EF9A881695BD3D6A7E06,
-	RSAManaged_ExportParameters_m2FB27DED4EDC0045C1A7659813E016C6AC5D68A8,
-	RSAManaged_ImportParameters_m1200237AAD564D262E93EEEB437CD94E4900008B,
-	RSAManaged_GetPaddedValue_mEEE62E8FD9CDBFA014DF4CAC5D8E5B0FB6579FDD,
-	KeyGeneratedEventHandler__ctor_mEC2E71CDD44D771B588C8E2B263DAA18A161AFF1,
-	KeyGeneratedEventHandler_Invoke_mB39E17F6641982F45D5C147AB8D82E0A17D5ABC0,
-	KeyGeneratedEventHandler_BeginInvoke_mFFF44EBD0D651258101E1458AB1B0AD29CF24375,
-	KeyGeneratedEventHandler_EndInvoke_mEE04B5ACD0BC9E784EC2211D7138C3E6309491BF,
-	BigInteger__ctor_mCC2E747B046C8ED9773CCACA21F56F90A2CD4D42,
-	BigInteger__ctor_m9C372289E672EC45500A2346BD39BCBBB1B1E111,
-	BigInteger__ctor_m32F3FC1BBD22BBD41BEF443E9D510555DDD336C1,
-	BigInteger__ctor_m1332FE3CBD15BE962DF128AB329CD86EE0450EA4,
-	BigInteger__ctor_m2D9EC292E7198117AACAD6C1306C971BC74B5E83,
-	BigInteger_op_Implicit_m1FC11FDE7ECF4D251F510EF8EB9DC9B5357D742F,
-	BigInteger_op_Implicit_m2A8665726D0DA223774962B8139259EAC255A104,
-	BigInteger_op_Subtraction_mEB2B6795E0AF13288A96D87826031CEC054E6052,
-	BigInteger_op_Modulus_m09E68D30D670ED308F34F02EBC047FD60B91D78F,
-	BigInteger_op_Modulus_mF4B55A9D8FCFF2B70A1A55BA31A6E0D75367D779,
-	BigInteger_op_Division_mBB896F6E9247AB3B3D47E1B125624FA68EE5C4EC,
-	BigInteger_op_Multiply_m28820029500895BCAE0C547024B6BD72A9688500,
-	BigInteger_op_LeftShift_mD63F9627F80FBAF4DE122CE66DC18FC3BF54EC64,
-	BigInteger_op_RightShift_m908AD9F9676FCE3A9AFB5A75E2ACA708E584B10D,
-	BigInteger_get_Rng_mED248B5F69559800CD101728FF2F1C604B57E362,
-	BigInteger_GenerateRandom_mBF43DEB351D628870DA3B410AF7E51561CB0ABB3,
-	BigInteger_GenerateRandom_m5A8D5BD2E42BAF3E88561F63B659331320DBDE9E,
-	BigInteger_BitCount_m45B7662F932C61BE4F5587C5C54C09F04B186825,
-	BigInteger_TestBit_m42A773C5309B8F9B3441C33FC07FFD5022EC9029,
-	BigInteger_SetBit_m63E76C0C3E8DEFA49448853F788157B726A54074,
-	BigInteger_SetBit_mCB21AD7EF7A2D5447F20AB222F1D5F6A5ADB82FE,
-	BigInteger_LowestSetBit_mF8C2977FB890527F2266940AE195781B6A1B1CCD,
-	BigInteger_GetBytes_m44C3D34E6D3D241D5624EB3C606DB836800FB8CA,
-	BigInteger_op_Equality_m8C3BE7CDEE443C682DB5E7DDCDF69293D773D663,
-	BigInteger_op_Inequality_m6B8B6D52141713E7267691469F79A0990DBB5E63,
-	BigInteger_op_Equality_m5C5EE2AB42889F73925C8EABEE659B4B0FA22F64,
-	BigInteger_op_Inequality_mD61A5FCAFD6C1988AC65022BB1125E8A15C3C4DF,
-	BigInteger_op_GreaterThan_m67BB32BE6636B141DD00245C130BE236C8C18A9C,
-	BigInteger_op_LessThan_mB88504CCF6B0A00CAF65AC4A17C1417F89AF03FD,
-	BigInteger_op_GreaterThanOrEqual_m34669FCE574F8B3EF00808F69DB97CA5504D2C85,
-	BigInteger_op_LessThanOrEqual_m4225BB4FF0A26B307FD6C34A44CCA3BFB104BC30,
-	BigInteger_ToString_m285B9E673586DFF6DBB4EC46B3CB5667725A2A0A,
-	BigInteger_ToString_mCC667096E01C81AE62D042E465FA2612B47B8B98,
-	BigInteger_Normalize_m2D677E543A7DCC6CDCA4F4ADA126649A5668729B,
-	BigInteger_GetHashCode_m6F80CD19E6ADB93169F89E39089EBE3EF275521A,
-	BigInteger_ToString_m765153117590BBB66DF8E68BD0C58F71401F7AC5,
-	BigInteger_Equals_m6663F8A6599EE7F42DA5CA40BC983E50ED878373,
-	BigInteger_ModInverse_mD2D17248B9BEE7A63C225309B7EDFEC39FA4C80D,
-	BigInteger_GeneratePseudoPrime_m429EBF650501034FD40CB4F0512EBA6DBBB7FA11,
-	BigInteger_Incr2_m3B781075BBDCDA172B7E9EA863AE0A5997B4758E,
-	BigInteger__cctor_m1D4896EDD51FBD6D85008DE5ED62EC9C483623AF,
-	ModulusRing__ctor_m97D99B27E28AB20BBE2836B04D5466DA81456BCC,
-	ModulusRing_BarrettReduction_mEF6900BAA295B45A7661C70DA47EB31193670AB5,
-	ModulusRing_Multiply_m3246E3E3C60AA391E6D442E9CE85AF73C972AAB8,
-	ModulusRing_Difference_mF52990DBAC72533606158C406FE5055D550EE8B1,
-	ModulusRing_Pow_m6AA03EF88208478DB150ADF4E8ABC327B2369192,
-	ModulusRing_Pow_m66800E0D88B48BEBF441FBE4B509555E03FC1382,
-	Kernel_Subtract_mF62E0A4C04E4DCE6C4F66719F57DED7BD71BD9B7,
-	Kernel_MinusEq_m0A41AF713CCF44AB62FD5E1288AA2C5BD470E967,
-	Kernel_PlusEq_m4C2965A8B169E32B98FE7A60AE8C09505428B246,
-	Kernel_Compare_m2C45218B8EE4E2ECDC85068A37BDB93E07FA5858,
-	Kernel_SingleByteDivideInPlace_mA797A6BBEB759D97847E10A6A8B8ADD53B5B8F27,
-	Kernel_DwordMod_m174B02D0DE310C71A61CEE61C44274FB706FE5DE,
-	Kernel_DwordDivMod_mA55718811BFF0286A3DB25B4EEF0B0FF005BB2B5,
-	Kernel_multiByteDivide_mEB8FB4B5D405F43102EF158131E33806DF03588B,
-	Kernel_LeftShift_mEEEE8733CA2CC152C4CD9A782C063CC93DB573DF,
-	Kernel_RightShift_m609BADF35E34FDE8AF59E5BA07E5224F7C194541,
-	Kernel_Multiply_m47EE24F797DD6009167F0F5B9059C72CBD31D8CD,
-	Kernel_MultiplyMod2p32pmod_mE8E796D86E0098053DEF7755FF1605D774AAED49,
-	Kernel_modInverse_mAE70326F9AD6797DD3FC42DE574E855FB63EFAB4,
-	Kernel_modInverse_mF0EFBFDE4FB6CF7E807BDB10EAB681452C8B27D9,
-	PrimalityTest__ctor_m30CE19F32C098EEE77598B50CFF1A5214B145BDB,
-	PrimalityTest_Invoke_m028D0C6E9367E09AB2E97E719B2CD9B826ADAD38,
-	PrimalityTest_BeginInvoke_mF38A30D28C20AD0BEDA929215AEE48D61BB77852,
-	PrimalityTest_EndInvoke_m1B62ECEDA5FD124DDB539B64E484F171D2E3AC2D,
-	PrimalityTests_GetSPPRounds_mE7B1E8DE5E1C111E8D520A0F896CE47B63B8F869,
-	PrimalityTests_RabinMillerTest_m59EDFCB116261012D20CCA91A39263CEE8F2EAB9,
-	PrimeGeneratorBase_get_Confidence_mA51F9D94806DC7451E16B8DF9F7C27179EB0B856,
-	PrimeGeneratorBase_get_PrimalityTest_m58868EBF050B911EEF3DE63F6198A949B9DCB4CB,
-	PrimeGeneratorBase_get_TrialDivisionBounds_mFD1DCEC1C325B3828F3A10E8EDA890298D5A4F51,
-	NULL,
-	PrimeGeneratorBase__ctor_m12BDBF1F487723D1E872C1373C3E7885FA2EB56F,
-	SequentialSearchPrimeGeneratorBase_GenerateSearchBase_m5E35D962A17A69F195837C3B5C6F1459741CE9CB,
-	SequentialSearchPrimeGeneratorBase_GenerateNewPrime_mC3B026D6D5291AFA9EB96DE3F91A8DEE0B909517,
-	SequentialSearchPrimeGeneratorBase_GenerateNewPrime_m28F971E0582CC8A0EFF57850840F6EEE3683EA9A,
-	SequentialSearchPrimeGeneratorBase_IsPrimeAcceptable_m4DB1A1AC4B92C6F16F995FEF35A20338309AC66C,
-	SequentialSearchPrimeGeneratorBase__ctor_mC10DBB518955FE5BCC22E9482B4114A942BAF137,
-	U3CPrivateImplementationDetailsU3E_ComputeStringHash_m22BD35ED6ACEE075A95775B5056B1CE0903AC2C3,
+	PrimeGeneratorBase__ctor_mECF0CD5B964A7E6FCE4F504719164114B8A678E9,
+	SequentialSearchPrimeGeneratorBase_GenerateSearchBase_mD12A7AC0A052FA228E0F4918BBA1B2B59AD605CE,
+	SequentialSearchPrimeGeneratorBase_GenerateNewPrime_m6AC834873702FE49B85FB261931CA31BC239FFCD,
+	SequentialSearchPrimeGeneratorBase_GenerateNewPrime_m6599A58FA9EBD14FEB9D18073419FF8341365B8B,
+	SequentialSearchPrimeGeneratorBase_IsPrimeAcceptable_m2682AEC2B91FC89D1EB0799BFE5DA4C0F7F8C1D0,
+	SequentialSearchPrimeGeneratorBase__ctor_mFE1A43FA14390E871ED0C9025B57B84D9A7AA754,
+	U3CPrivateImplementationDetailsU3E_ComputeStringHash_m5FD260C639BDBF6B570A90B23653DE3779848418,
 };
-static const int32_t s_InvokerIndices[415] = 
+static const int32_t s_InvokerIndices[557] = 
 {
-	10244,
-	5923,
-	3561,
-	5876,
-	6946,
-	7042,
-	6946,
-	6990,
-	5876,
-	2787,
-	5167,
-	4653,
-	6990,
-	1996,
-	473,
-	4645,
-	2524,
-	6990,
-	10239,
-	10244,
-	10244,
-	10103,
-	10244,
-	10029,
-	10221,
-	10221,
-	10239,
-	10240,
-	9051,
-	9051,
-	9279,
-	9313,
-	7110,
-	5876,
-	5876,
-	5876,
-	6990,
-	6990,
-	5876,
-	6990,
-	5876,
-	6990,
-	7110,
-	5876,
-	6990,
-	6990,
-	3508,
-	6990,
-	6990,
-	7110,
-	5876,
-	3508,
-	5876,
-	7110,
-	5876,
-	6946,
-	5831,
-	6990,
-	6990,
-	6990,
-	2787,
-	1648,
-	1063,
-	4653,
-	1063,
-	3963,
-	5876,
-	5876,
-	2538,
-	1063,
-	6990,
-	2538,
-	5876,
-	3508,
-	5876,
-	3508,
-	6990,
-	10561,
-	10612,
-	7110,
-	5876,
-	5831,
-	5876,
-	5876,
-	2011,
-	2536,
-	4645,
-	4645,
-	4645,
-	10612,
-	10244,
-	8452,
-	9141,
-	10612,
-	5876,
-	5876,
-	4653,
-	6990,
-	5876,
-	6990,
-	6990,
-	6990,
-	6990,
-	6990,
-	5876,
-	6990,
-	6990,
-	6990,
-	6990,
-	6882,
-	6882,
-	6946,
-	6990,
-	6990,
-	3523,
-	9440,
-	10612,
-	7110,
-	4645,
-	4332,
-	6990,
-	6990,
-	6946,
-	5876,
-	6990,
-	6990,
-	7042,
-	7110,
-	7042,
-	5876,
-	7110,
-	5167,
-	6946,
-	2008,
-	6990,
-	7110,
-	5876,
-	6990,
-	7110,
-	3508,
-	7110,
-	5876,
-	5876,
-	6990,
-	6990,
-	7110,
-	5923,
-	4653,
-	2536,
-	2536,
-	10612,
-	9440,
-	10244,
-	9440,
-	8632,
-	8445,
-	7524,
-	9440,
-	9434,
-	9434,
-	10612,
-	5831,
-	6946,
-	5831,
-	6946,
-	4645,
-	5876,
-	5167,
-	6990,
-	10612,
-	10561,
-	10612,
-	7110,
-	5876,
-	5876,
-	5876,
-	6990,
-	5876,
-	7110,
-	6990,
-	6990,
-	6990,
-	5876,
-	6990,
-	5876,
-	7110,
-	5876,
-	5876,
-	5876,
-	5876,
-	1642,
-	4653,
-	6990,
-	7042,
-	7042,
-	5923,
-	7110,
-	6990,
-	1462,
-	7042,
-	7042,
-	6990,
-	415,
-	1075,
-	10612,
-	9440,
-	1379,
-	1064,
-	1537,
-	2008,
-	371,
-	4332,
-	371,
-	5876,
-	1045,
-	7042,
-	7042,
-	7042,
-	6947,
-	6947,
-	6990,
-	6946,
-	5831,
-	6946,
-	6990,
-	6945,
-	5830,
-	6946,
-	5831,
-	5876,
-	6990,
-	7110,
-	3499,
-	1208,
-	216,
-	5167,
-	3499,
-	1069,
-	219,
-	4653,
-	7110,
-	6913,
-	6990,
-	7042,
-	7042,
-	7042,
-	6946,
-	1655,
-	1072,
-	61,
-	7042,
-	6990,
-	5876,
-	6990,
-	5876,
-	6743,
-	5665,
-	7042,
-	6744,
-	5666,
-	6990,
-	5876,
-	6990,
-	5876,
-	6990,
-	5876,
-	7042,
-	5923,
-	6751,
-	5672,
-	6990,
-	5876,
-	7110,
-	10573,
-	10573,
-	6990,
-	4653,
-	6990,
-	5876,
-	3508,
-	3561,
-	10244,
-	7110,
-	10573,
-	4645,
-	7110,
-	7110,
-	2008,
-	6990,
-	1387,
-	10612,
-	7110,
-	10573,
-	7110,
-	7110,
-	2008,
-	6990,
-	4645,
-	1526,
-	1526,
-	1526,
-	2301,
-	247,
-	247,
-	247,
-	3508,
-	2029,
-	2029,
-	10244,
-	10612,
-	7110,
-	5876,
-	6990,
-	5876,
-	10244,
-	9434,
-	10244,
-	10244,
-	9429,
-	10244,
-	10244,
-	7110,
-	5876,
-	6990,
-	6990,
-	6990,
-	6946,
-	5876,
-	7110,
-	7042,
-	4717,
-	5903,
-	2536,
-	3499,
-	3508,
-	1069,
-	5876,
-	3226,
-	5876,
-	3497,
-	5876,
-	5831,
-	10239,
-	10239,
-	9440,
-	9313,
-	9440,
-	9440,
-	9440,
-	9434,
-	9434,
-	10573,
-	9414,
-	10239,
-	6946,
-	5122,
-	5831,
-	3298,
-	6946,
-	6990,
-	9618,
-	9618,
-	9621,
-	9621,
-	9621,
-	9621,
-	9621,
-	9621,
-	4645,
-	2523,
-	7110,
-	6946,
-	6990,
-	5167,
-	4653,
-	10239,
-	7110,
-	10612,
-	5876,
-	5876,
-	2538,
-	2538,
-	2538,
-	2523,
-	9440,
-	9850,
-	9850,
-	9315,
-	9313,
-	9313,
-	9434,
-	9440,
-	9434,
-	9434,
-	7409,
-	7335,
-	9313,
-	9440,
-	3499,
-	2784,
-	1052,
-	5167,
-	9313,
-	9618,
-	6946,
-	6990,
-	6946,
-	4645,
-	7110,
-	2523,
-	4645,
-	2523,
-	2787,
-	7110,
-	10103,
+	13645,
+	12481,
+	7539,
+	4407,
+	7481,
+	9046,
+	9166,
+	9046,
+	9100,
+	7481,
+	3260,
+	6423,
+	5771,
+	9100,
+	2236,
+	775,
+	5764,
+	2933,
+	9100,
+	13640,
+	13645,
+	13645,
+	13491,
+	13645,
+	13409,
+	13624,
+	13624,
+	13640,
+	13641,
+	12042,
+	12042,
+	12350,
+	12301,
+	12350,
+	9274,
+	7481,
+	7481,
+	7481,
+	9100,
+	9100,
+	7481,
+	9100,
+	7481,
+	9100,
+	9274,
+	7481,
+	9100,
+	9100,
+	7481,
+	9100,
+	9100,
+	7481,
+	9100,
+	5771,
+	9274,
+	7481,
+	9100,
+	9100,
+	9100,
+	9100,
+	7481,
+	9100,
+	9100,
+	9166,
+	4321,
+	9100,
+	9100,
+	9274,
+	7481,
+	4321,
+	7481,
+	9274,
+	7481,
+	9046,
+	7429,
+	9100,
+	9100,
+	9100,
+	3260,
+	1851,
+	1364,
+	5771,
+	1364,
+	4903,
+	7481,
+	7481,
+	2951,
+	2951,
+	1364,
+	9100,
+	2951,
+	7481,
+	4321,
+	7481,
+	4321,
+	3260,
+	4321,
+	9100,
+	14071,
+	14134,
+	9274,
+	7481,
+	7429,
+	7481,
+	7481,
+	2257,
+	2947,
+	5764,
+	5764,
+	5764,
+	14134,
+	13645,
+	11086,
+	12144,
+	13645,
+	13770,
+	12466,
+	13765,
+	12466,
+	11545,
+	11545,
+	12466,
+	13645,
+	14134,
+	7481,
+	7481,
+	9100,
+	9100,
+	9100,
+	8966,
+	3260,
+	5771,
+	5771,
+	6423,
+	6423,
+	6423,
+	7481,
+	9100,
+	8966,
+	9100,
+	7481,
+	7481,
+	5771,
+	9100,
+	7481,
+	9100,
+	9100,
+	9100,
+	9100,
+	9100,
+	7481,
+	9100,
+	9100,
+	7481,
+	9100,
+	9100,
+	9100,
+	9100,
+	8966,
+	8966,
+	9046,
+	9166,
+	6308,
+	6423,
+	6423,
+	6423,
+	9166,
+	4337,
+	12481,
+	14134,
+	9274,
+	5764,
+	5365,
+	7481,
+	6423,
+	9100,
+	9100,
+	9046,
+	5365,
+	3260,
+	7481,
+	9100,
+	9100,
+	9166,
+	9274,
+	9166,
+	9274,
+	9100,
+	7481,
+	6423,
+	9274,
+	6423,
+	5771,
+	5771,
+	6423,
+	3260,
+	7481,
+	7481,
+	9274,
+	9274,
+	9100,
+	9166,
+	9100,
+	6423,
+	9046,
+	2253,
+	9100,
+	9274,
+	7481,
+	5365,
+	9100,
+	5771,
+	2314,
+	9100,
+	9100,
+	5771,
+	5771,
+	5771,
+	3265,
+	5771,
+	5771,
+	14084,
+	14084,
+	14084,
+	14084,
+	14084,
+	14084,
+	14084,
+	4335,
+	9100,
+	2954,
+	4311,
+	2259,
+	7481,
+	5778,
+	9100,
+	9166,
+	9274,
+	9274,
+	9274,
+	9274,
+	9274,
+	9274,
+	9274,
+	9274,
+	9274,
+	7481,
+	9274,
+	9274,
+	9274,
+	9274,
+	9274,
+	9274,
+	7481,
+	9274,
+	9274,
+	9100,
+	9100,
+	7481,
+	9274,
+	9274,
+	9166,
+	9100,
+	9274,
+	4321,
+	9274,
+	7481,
+	7481,
+	9100,
+	9100,
+	9274,
+	7539,
+	5771,
+	2947,
+	2947,
+	14134,
+	12481,
+	13645,
+	12481,
+	11330,
+	11078,
+	9804,
+	12481,
+	12475,
+	12475,
+	14134,
+	7429,
+	9046,
+	7429,
+	9046,
+	5764,
+	7481,
+	6423,
+	0,
+	14134,
+	14071,
+	14134,
+	9274,
+	7481,
+	7481,
+	7481,
+	9100,
+	7481,
+	9274,
+	9100,
+	9100,
+	9100,
+	7481,
+	9100,
+	7481,
+	9274,
+	7481,
+	7481,
+	7481,
+	7481,
+	1846,
+	5771,
+	9100,
+	9166,
+	9166,
+	7539,
+	9274,
+	9100,
+	1707,
+	9166,
+	9166,
+	9045,
+	7428,
+	9046,
+	7429,
+	7481,
+	9100,
+	9274,
+	4314,
+	1430,
+	4314,
+	1369,
+	9274,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	14084,
+	9100,
+	7481,
+	9100,
+	7481,
+	8800,
+	7179,
+	9166,
+	8803,
+	7184,
+	9100,
+	7481,
+	9100,
+	7481,
+	9100,
+	7481,
+	9166,
+	7539,
+	9100,
+	7481,
+	9166,
+	7539,
+	8820,
+	7204,
+	9100,
+	7481,
+	9274,
+	14084,
+	14084,
+	9100,
+	5771,
+	9100,
+	7481,
+	7481,
+	4321,
+	7539,
+	4407,
+	13645,
+	13765,
+	13645,
+	9274,
+	14084,
+	5764,
+	9274,
+	9274,
+	2253,
+	9100,
+	1643,
+	14134,
+	9274,
+	14084,
+	9274,
+	9274,
+	2253,
+	9100,
+	5764,
+	1774,
+	1774,
+	1774,
+	2610,
+	296,
+	296,
+	296,
+	4321,
+	2284,
+	2284,
+	12725,
+	12475,
+	13645,
+	12481,
+	10438,
+	11693,
+	12482,
+	13645,
+	13645,
+	14134,
+	9274,
+	7481,
+	9100,
+	7481,
+	9100,
+	7481,
+	7481,
+	9100,
+	13645,
+	12475,
+	13645,
+	13645,
+	12469,
+	13645,
+	13645,
+	9274,
+	7481,
+	9100,
+	7481,
+	9100,
+	7481,
+	9100,
+	9046,
+	7429,
+	7481,
+	9100,
+	9274,
+	7429,
+	9274,
+	9274,
+	9046,
+	9166,
+	5771,
+	5862,
+	7512,
+	7539,
+	5778,
+	2947,
+	4314,
+	4321,
+	9274,
+	9046,
+	7481,
+	7481,
+	9274,
+	9274,
+	9046,
+	9100,
+	5771,
+	9274,
+	7481,
+	7481,
+	9100,
+	9166,
+	1971,
+	1971,
+	3260,
+	9274,
+	3936,
+	7481,
+	4311,
+	7481,
+	7429,
+	13640,
+	13640,
+	12481,
+	12350,
+	12481,
+	12481,
+	12481,
+	12475,
+	12475,
+	14084,
+	12454,
+	13640,
+	9046,
+	6373,
+	7429,
+	4022,
+	9046,
+	9100,
+	12722,
+	12722,
+	12725,
+	12725,
+	12725,
+	12725,
+	12725,
+	12725,
+	5764,
+	2932,
+	9274,
+	9274,
+	9046,
+	9100,
+	6423,
+	5771,
+	2951,
+	13640,
+	9274,
+	14134,
+	7481,
+	7481,
+	2951,
+	2951,
+	2951,
+	2932,
+	12481,
+	13135,
+	13135,
+	12352,
+	12350,
+	12350,
+	12475,
+	12481,
+	12475,
+	12475,
+	9671,
+	9589,
+	12350,
+	12481,
+	4314,
+	3257,
+	12350,
+	12722,
+	9046,
+	9100,
+	9046,
+	0,
+	9274,
+	2932,
+	5764,
+	2932,
+	3260,
+	9274,
+	13491,
 };
-extern const CustomAttributesCacheGenerator g_Mono_Security_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Mono_Security_CodeGenModule;
 const Il2CppCodeGenModule g_Mono_Security_CodeGenModule = 
 {
 	"Mono.Security.dll",
-	415,
+	557,
 	s_methodPointers,
 	0,
 	NULL,
@@ -1661,7 +2253,6 @@ const Il2CppCodeGenModule g_Mono_Security_CodeGenModule =
 	0,
 	NULL,
 	NULL,
-	g_Mono_Security_AttributeGenerators,
 	NULL, // module initializer,
 	NULL,
 	NULL,
