@@ -83,6 +83,11 @@ namespace UnityEngine.UIElements
                 // The multiple display system is not supported on all platforms, when it is not supported the returned position
                 // will be all zeros so when the returned index is 0 we will default to the event data to be safe.
                 eventPosition = eventData.position;
+#if UNITY_EDITOR
+                if (Display.activeEditorGameViewTarget != displayIndex)
+                    return;
+                eventPosition.z = Display.activeEditorGameViewTarget;
+#endif
 
                 // We don't really know in which display the event occurred. We will process the event assuming it occurred in our display.
             }

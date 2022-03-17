@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UserInterface guides.unity
     guid: f650eae57dbc01341b7af3d6ec82934b
+  - enabled: 0
+    path: Assets/Scenes/Hololens.unity
+    guid: b42c571c8b301fd48a254f4fcc7e983d
+  - enabled: 1
+    path: Assets/Scenes/Azure Cloud Tutorials.unity
+    guid: b66fe750f8650dd46bf1899336f62b35
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c29eae093f0ea284d8b061d4e1f7c5a8,
       type: 2}

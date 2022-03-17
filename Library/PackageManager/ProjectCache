@@ -5,23 +5,407 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637813635413782635
-    m_Hash: 1996065374
+      ticks: 637829626454898914
+    m_Hash: 475239069
   m_LockFileStatus:
     m_FilePath: D:/NASA-SUITS-AR-Displays/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637813635414562629
-    m_Hash: 3930825303
+      ticks: 637829626612145621
+    m_Hash: 9421825
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
-  m_LocalFileStatus: []
+  m_LocalFileStatus:
+  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.core-2.12.0.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.core-2.12.0.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 637824820663654410
+    m_Hash: 3075304
+  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.windows-2.12.0.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.windows-2.12.0.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 637824820708047185
+    m_Hash: 2192533702
+  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.3.1.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.3.1.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 637829027812985891
+    m_Hash: 1451179672
+  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.3.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.3.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 637829561718044319
+    m_Hash: 3313935279
+  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.3.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.3.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 637829561717214369
+    m_Hash: 418450698
+  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.3.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.3.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 637829626398944721
+    m_Hash: 3612649047
+  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.3.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.3.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 637829626261574901
+    m_Hash: 3675552526
+  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.7.3.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.7.3.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 637829626253182533
+    m_Hash: 419775529
+  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.7.3.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.7.3.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 637829626264150639
+    m_Hash: 762988747
 m_ProjectPath: D:/NASA-SUITS-AR-Displays/Packages
-m_EditorVersion: 2021.2.12f1 (48b1aa000234)
+m_EditorVersion: 2021.2.15f1 (3b8567f665bb)
 m_ResolvedPackages:
+- packageId: com.microsoft.azure.spatial-anchors-sdk.core@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.core-2.12.0.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 2.12.0
+  source: 6
+  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.azure.spatial-anchors-sdk.core@108364444f90-1646885266365
+  assetPath: Packages/com.microsoft.azure.spatial-anchors-sdk.core
+  name: com.microsoft.azure.spatial-anchors-sdk.core
+  displayName: Azure Spatial Anchors SDK Core
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Unity SDK Core for Azure Spatial Anchors
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.unity.subsystemregistration
+    version: 1.0.6
+  - name: com.unity.xr.arsubsystems
+    version: 4.0.8
+  - name: com.unity.xr.arfoundation
+    version: 4.0.12
+  resolvedDependencies:
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.xr.arsubsystems
+    version: 4.2.2
+  - name: com.unity.xr.management
+    version: 4.2.1
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.8
+  - name: com.unity.xr.arfoundation
+    version: 4.2.2
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  keywords:
+  - microsoft
+  - mixed
+  - reality
+  - augmented
+  - xr
+  - hololens
+  - ios
+  - android
+  - azure
+  - spatial
+  - anchors
+  - core
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Azure/azure-spatial-anchors-samples.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.microsoft.azure.spatial-anchors-sdk.windows@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.windows-2.12.0.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 2.12.0
+  source: 6
+  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.azure.spatial-anchors-sdk.windows@f2d0a51cdf09-1646885270805
+  assetPath: Packages/com.microsoft.azure.spatial-anchors-sdk.windows
+  name: com.microsoft.azure.spatial-anchors-sdk.windows
+  displayName: Azure Spatial Anchors SDK for Windows
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Unity Windows SDK for Azure Spatial Anchors
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.microsoft.azure.spatial-anchors-sdk.core
+    version: 2.12.0
+  resolvedDependencies:
+  - name: com.microsoft.azure.spatial-anchors-sdk.core
+    version: 2.12.0
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.xr.arsubsystems
+    version: 4.2.2
+  - name: com.unity.xr.management
+    version: 4.2.1
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.8
+  - name: com.unity.xr.arfoundation
+    version: 4.2.2
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  keywords:
+  - microsoft
+  - mixed
+  - reality
+  - augmented
+  - xr
+  - hololens
+  - azure
+  - spatial
+  - anchors
+  - windows
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Azure/azure-spatial-anchors-samples.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.microsoft.mixedreality.openxr@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.3.1.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 1.3.1
+  source: 6
+  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.openxr@5f3f6ad7d668-1647305981299
+  assetPath: Packages/com.microsoft.mixedreality.openxr
+  name: com.microsoft.mixedreality.openxr
+  displayName: Mixed Reality OpenXR Plugin
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Extension to Unity OpenXR Plugin to support a suite of features for
+    HoloLens 2 and Windows Mixed Reality headsets.
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.unity.xr.arfoundation
+    version: 4.1.7
+  - name: com.unity.xr.management
+    version: 4.2.0
+  - name: com.unity.xr.openxr
+    version: 1.3.1
+  resolvedDependencies:
+  - name: com.unity.xr.arfoundation
+    version: 4.2.2
+  - name: com.unity.xr.arsubsystems
+    version: 4.2.2
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.2.1
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.8
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.xr.openxr
+    version: 1.3.1
+  - name: com.unity.inputsystem
+    version: 1.3.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
+  keywords:
+  - microsoft
+  - mixed
+  - reality
+  - openxr
+  - hololens
+  - xreditorsubsystem
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.unity.cinemachine@2.8.4
   testable: 0
   isDirectDependency: 1
@@ -151,12 +535,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 2.8.4
     nextVersion: 
-- packageId: com.unity.collab-proxy@1.15.13
+- packageId: com.unity.collab-proxy@1.15.15
   testable: 0
   isDirectDependency: 1
-  version: 1.15.13
+  version: 1.15.15
   source: 1
-  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.collab-proxy@1.15.13
+  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.collab-proxy@1.15.15
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -207,12 +591,14 @@ m_ResolvedPackages:
     - 1.14.9
     - 1.14.12
     - 1.14.13
+    - 1.14.15
     - 1.15.1
     - 1.15.4
     - 1.15.7
     - 1.15.9
     - 1.15.12
     - 1.15.13
+    - 1.15.15
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -224,8 +610,8 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.15.12
     - 1.15.13
+    - 1.15.15
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -236,7 +622,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.15.13
+    verified: 1.15.15
   dependencies:
   - name: com.unity.services.core
     version: 1.0.1
@@ -268,16 +654,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637807003040000000
+  datePublishedTicks: 637828649420000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 825774911ad2d1440ac844c9be1ae2c9b5dc7966
+    revision: abf10445fb869983dbe4f8f87ec63c58f4cd36e0
     path: 
   unityLifecycle:
-    version: 1.15.12
+    version: 1.15.13
     nextVersion: 
 - packageId: com.unity.ext.nunit@1.0.6
   testable: 0
@@ -528,7 +914,6 @@ m_ResolvedPackages:
     - 1.2.4
     - 1.2.5
     compatible:
-    - 1.2.4
     - 1.2.5
     verified: 1.2.5
   dependencies: []
@@ -552,7 +937,7 @@ m_ResolvedPackages:
     revision: b0740c80bfc2440527c317109f7c3d9100132722
     path: 
   unityLifecycle:
-    version: 1.2.4
+    version: 1.2.5
     nextVersion: 
 - packageId: com.unity.postprocessing@3.2.1
   testable: 0
@@ -797,8 +1182,6 @@ m_ResolvedPackages:
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
-    - 1.1.29
-    - 1.1.30
     - 1.1.31
     - 2.0.1-pre.12
     - 2.0.1-pre.18
@@ -838,7 +1221,7 @@ m_ResolvedPackages:
     revision: 438b0defc147c9be5c969ca79ff03a722b4590ed
     path: 
   unityLifecycle:
-    version: 1.1.29
+    version: 1.1.31
     nextVersion: 
 - packageId: com.unity.textmeshpro@3.0.6
   testable: 0
@@ -941,6 +1324,7 @@ m_ResolvedPackages:
     - 2.1.6
     - 2.2.0-preview.1
     - 2.2.0-preview.2
+    - 2.2.0-preview.3
     - 3.0.0-preview.1
     - 3.0.0-preview.3
     - 3.0.0-preview.4
@@ -960,11 +1344,13 @@ m_ResolvedPackages:
     - 3.0.6
     - 3.2.0-pre.1
     - 3.2.0-pre.2
+    - 3.2.0-pre.3
     - 4.0.0-pre.1
     compatible:
     - 3.0.6
     - 3.2.0-pre.1
     - 3.2.0-pre.2
+    - 3.2.0-pre.3
     verified: 3.0.6
   dependencies:
   - name: com.unity.ugui
@@ -1093,11 +1479,14 @@ m_ResolvedPackages:
     - 1.6.4
     - 1.7.0-pre.1
     - 1.7.0-pre.2
+    - 1.7.0
+    - 1.7.1
     compatible:
-    - 1.6.3
     - 1.6.4
     - 1.7.0-pre.1
     - 1.7.0-pre.2
+    - 1.7.0
+    - 1.7.1
     verified: 1.6.4
   dependencies:
   - name: com.unity.modules.director
@@ -1141,7 +1530,7 @@ m_ResolvedPackages:
     revision: d7e1eb6805737974459309b7d6e7db58635dd167
     path: 
   unityLifecycle:
-    version: 1.6.3
+    version: 1.6.4
     nextVersion: 
 - packageId: com.unity.toolchain.win-x86_64-linux-x86_64@1.0.0
   testable: 0
@@ -1183,8 +1572,25 @@ m_ResolvedPackages:
     - 0.1.21-preview
     - 1.0.0
     compatible:
+    - 0.1.4-preview
+    - 0.1.5-preview
+    - 0.1.6-preview
+    - 0.1.7-preview
+    - 0.1.8-preview
+    - 0.1.9-preview
+    - 0.1.10-preview
+    - 0.1.11-preview
+    - 0.1.13-preview
+    - 0.1.14-preview
+    - 0.1.15-preview
+    - 0.1.16-preview
+    - 0.1.17-preview
+    - 0.1.18-preview
+    - 0.1.19-preview
+    - 0.1.20-preview
+    - 0.1.21-preview
     - 1.0.0
-    verified: 1.0.0
+    verified: 
   dependencies:
   - name: com.unity.sysroot
     version: 1.0.0
@@ -1218,7 +1624,7 @@ m_ResolvedPackages:
     revision: 0b6b1770930fd9a6c9365613ff2cba3eb81810dd
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
@@ -1453,12 +1859,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 4.2.2
     nextVersion: 
-- packageId: com.unity.xr.interaction.toolkit@2.0.0-pre.5
+- packageId: com.unity.xr.interaction.toolkit@2.0.1
   testable: 0
   isDirectDependency: 1
-  version: 2.0.0-pre.5
+  version: 2.0.1
   source: 1
-  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.0-pre.5
+  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.1
   assetPath: Packages/com.unity.xr.interaction.toolkit
   name: com.unity.xr.interaction.toolkit
   displayName: XR Interaction Toolkit
@@ -1472,9 +1878,8 @@ m_ResolvedPackages:
     and AR experiences. It provides a framework that makes 3D and UI interactions
     available from Unity input events. The core of this system is a set of base Interactor
     and Interactable components, and an Interaction Manager that ties these two types
-    of components together. It also contains helper components that you can use to
-    extend functionality for drawing visuals and hooking in your own interaction
-    events.
+    of components together. It also contains components that you can use for locomotion
+    and drawing visuals.
   status: 4
   errors: []
   versions:
@@ -1497,6 +1902,7 @@ m_ResolvedPackages:
     - 2.0.0-pre.6
     - 2.0.0-pre.7
     - 2.0.0
+    - 2.0.1
     compatible:
     - 0.0.6-preview
     - 0.9.0-preview
@@ -1516,6 +1922,7 @@ m_ResolvedPackages:
     - 2.0.0-pre.6
     - 2.0.0-pre.7
     - 2.0.0
+    - 2.0.1
     verified: 
   dependencies:
   - name: com.unity.inputsystem
@@ -1523,7 +1930,7 @@ m_ResolvedPackages:
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.xr.core-utils
-    version: 2.0.0-pre.5
+    version: 2.0.0
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.8
   - name: com.unity.modules.audio
@@ -1548,7 +1955,7 @@ m_ResolvedPackages:
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.xr.core-utils
-    version: 2.0.0-pre.5
+    version: 2.0.0
   - name: com.unity.modules.xr
     version: 1.0.0
   - name: com.unity.modules.physics
@@ -1575,13 +1982,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637732058680000000
+  datePublishedTicks: 637824260500000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.xr.interaction.toolkit.git
-    revision: c886e06cab2581f54194d2984defb4d634184529
+    revision: 13fd4c583e33bc55a2002a74574fc713d069bb0c
     path: 
   unityLifecycle:
     version: 
@@ -3501,6 +3908,415 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+- packageId: com.microsoft.mixedreality.toolkit.foundation@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.3.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 2.7.3
+  source: 6
+  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@cd24046fa317-1647359371804
+  assetPath: Packages/com.microsoft.mixedreality.toolkit.foundation
+  name: com.microsoft.mixedreality.toolkit.foundation
+  displayName: Mixed Reality Toolkit Foundation
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The Mixed Reality Toolkit a set of foundational components and features
+    to accelerate mixed reality app development in Unity.
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.microsoft.mixedreality.toolkit.standardassets
+    version: 2.7.3
+  resolvedDependencies:
+  - name: com.microsoft.mixedreality.toolkit.standardassets
+    version: 2.7.3
+  - name: com.unity.textmeshpro
+    version: 3.0.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - mrtk
+  - microsoft
+  - mixed
+  - reality
+  - augmented
+  - virtual
+  - xr
+  - hololens
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.microsoft.mixedreality.toolkit.standardassets@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.3.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 2.7.3
+  source: 6
+  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@8f7d1af185f6-1647359371721
+  assetPath: Packages/com.microsoft.mixedreality.toolkit.standardassets
+  name: com.microsoft.mixedreality.toolkit.standardassets
+  displayName: Mixed Reality Toolkit Standard Assets
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Mixed Reality Toolkit standard assets, including; shaders, common
+    materials and fonts.
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.unity.textmeshpro
+    version: 2.1.4
+  resolvedDependencies:
+  - name: com.unity.textmeshpro
+    version: 3.0.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - mrtk
+  - microsoft
+  - mixed
+  - reality
+  - augmented
+  - virtual
+  - xr
+  - hololens
+  - assets
+  - standardassets
+  - coreassets
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.microsoft.mixedreality.toolkit.examples@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.3.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 2.7.3
+  source: 6
+  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.toolkit.examples@bbcfb3b3b806-1647365839894
+  assetPath: Packages/com.microsoft.mixedreality.toolkit.examples
+  name: com.microsoft.mixedreality.toolkit.examples
+  displayName: Mixed Reality Toolkit Examples
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Example scenes and assets for the Microsoft Mixed Reality Toolkit.
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.microsoft.mixedreality.toolkit.foundation
+    version: 2.7.3
+  - name: com.microsoft.mixedreality.toolkit.extensions
+    version: 2.7.3
+  resolvedDependencies:
+  - name: com.microsoft.mixedreality.toolkit.foundation
+    version: 2.7.3
+  - name: com.microsoft.mixedreality.toolkit.standardassets
+    version: 2.7.3
+  - name: com.unity.textmeshpro
+    version: 3.0.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.microsoft.mixedreality.toolkit.extensions
+    version: 2.7.3
+  keywords:
+  - mrtk
+  - microsoft
+  - mixed
+  - reality
+  - augmented
+  - virtual
+  - xr
+  - hololens
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.microsoft.mixedreality.toolkit.extensions@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.3.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 2.7.3
+  source: 6
+  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.toolkit.extensions@3e93747f93fd-1647365826157
+  assetPath: Packages/com.microsoft.mixedreality.toolkit.extensions
+  name: com.microsoft.mixedreality.toolkit.extensions
+  displayName: Mixed Reality Toolkit Extensions
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'Extensions to the Microsoft Mixed Reality Toolkit. This package includes:
+    Hand Physics Service, Lost Tracking Service and Scene Transition Service.'
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.microsoft.mixedreality.toolkit.foundation
+    version: 2.7.3
+  resolvedDependencies:
+  - name: com.microsoft.mixedreality.toolkit.foundation
+    version: 2.7.3
+  - name: com.microsoft.mixedreality.toolkit.standardassets
+    version: 2.7.3
+  - name: com.unity.textmeshpro
+    version: 3.0.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - mrtk
+  - microsoft
+  - mixed
+  - reality
+  - augmented
+  - virtual
+  - hololens
+  - xr
+  - extensions
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.microsoft.mixedreality.toolkit.testutilities@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.7.3.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 2.7.3
+  source: 6
+  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.toolkit.testutilities@21e7e2fa65ef-1647365825318
+  assetPath: Packages/com.microsoft.mixedreality.toolkit.testutilities
+  name: com.microsoft.mixedreality.toolkit.testutilities
+  displayName: Mixed Reality Toolkit Test Utilities
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Test utilities for use with the Microsoft Mixed Reality Toolkit
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.microsoft.mixedreality.toolkit.foundation
+    version: 2.7.3
+  resolvedDependencies:
+  - name: com.microsoft.mixedreality.toolkit.foundation
+    version: 2.7.3
+  - name: com.microsoft.mixedreality.toolkit.standardassets
+    version: 2.7.3
+  - name: com.unity.textmeshpro
+    version: 3.0.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - mrtk
+  - microsoft
+  - mixed
+  - reality
+  - augmented
+  - virtual
+  - xr
+  - hololens
+  - test
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.microsoft.mixedreality.toolkit.tools@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.7.3.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 2.7.3
+  source: 6
+  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.toolkit.tools@7cffbd680c5e-1647365826415
+  assetPath: Packages/com.microsoft.mixedreality.toolkit.tools
+  name: com.microsoft.mixedreality.toolkit.tools
+  displayName: Mixed Reality Toolkit Tools
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Tools for the Microsoft Mixed Reality Toolkit
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.microsoft.mixedreality.toolkit.foundation
+    version: 2.7.3
+  resolvedDependencies:
+  - name: com.microsoft.mixedreality.toolkit.foundation
+    version: 2.7.3
+  - name: com.microsoft.mixedreality.toolkit.standardassets
+    version: 2.7.3
+  - name: com.unity.textmeshpro
+    version: 3.0.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - mrtk
+  - microsoft
+  - mixed
+  - reality
+  - augmented
+  - virtual
+  - xr
+  - hololens
+  - tools
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
@@ -3869,12 +4685,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.1.0
     nextVersion: 
-- packageId: com.unity.xr.core-utils@2.0.0-pre.5
+- packageId: com.unity.xr.core-utils@2.0.0
   testable: 0
   isDirectDependency: 0
-  version: 2.0.0-pre.5
+  version: 2.0.0
   source: 1
-  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.core-utils@2.0.0-pre.5
+  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.core-utils@2.0.0
   assetPath: Packages/com.unity.xr.core-utils
   name: com.unity.xr.core-utils
   displayName: XR Core Utilities
@@ -3935,13 +4751,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637729637430000000
+  datePublishedTicks: 637810557940000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.core-utils.git
-    revision: 9a05e37b14e3b13b0db38a0b27c624d94377eb35
+    revision: 64e94d2afd538c154dd9f9fad875ef0afdc2ecd1
     path: 
   unityLifecycle:
     version: 
@@ -4124,8 +4940,20 @@ m_ResolvedPackages:
     - 0.1.19-preview
     - 1.0.0
     compatible:
+    - 0.1.7-preview
+    - 0.1.8-preview
+    - 0.1.9-preview
+    - 0.1.10-preview
+    - 0.1.11-preview
+    - 0.1.12-preview
+    - 0.1.14-preview
+    - 0.1.15-preview
+    - 0.1.16-preview
+    - 0.1.17-preview
+    - 0.1.18-preview
+    - 0.1.19-preview
     - 1.0.0
-    verified: 1.0.0
+    verified: 
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -4150,7 +4978,7 @@ m_ResolvedPackages:
     revision: 0b6b1770930fd9a6c9365613ff2cba3eb81810dd
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.sysroot.linux-x86_64@1.0.0
   testable: 0
@@ -4184,8 +5012,18 @@ m_ResolvedPackages:
     - 0.1.15-preview
     - 1.0.0
     compatible:
+    - 0.1.6-preview
+    - 0.1.7-preview
+    - 0.1.8-preview
+    - 0.1.9-preview
+    - 0.1.10-preview
+    - 0.1.11-preview
+    - 0.1.12-preview
+    - 0.1.13-preview
+    - 0.1.14-preview
+    - 0.1.15-preview
     - 1.0.0
-    verified: 1.0.0
+    verified: 
   dependencies:
   - name: com.unity.sysroot
     version: 1.0.0
@@ -4214,7 +5052,7 @@ m_ResolvedPackages:
     revision: 0b6b1770930fd9a6c9365613ff2cba3eb81810dd
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.services.core@1.0.1
   testable: 0
@@ -4248,6 +5086,7 @@ m_ResolvedPackages:
     - 1.1.0-pre.11
     - 1.1.0-pre.41
     - 1.1.0-pre.69
+    - 1.2.0
     compatible:
     - 1.0.1
     - 1.1.0-pre.7
@@ -4257,6 +5096,7 @@ m_ResolvedPackages:
     - 1.1.0-pre.11
     - 1.1.0-pre.41
     - 1.1.0-pre.69
+    - 1.2.0
     verified: 1.0.1
   dependencies:
   - name: com.unity.modules.unitywebrequest
