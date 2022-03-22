@@ -1,0 +1,74 @@
+#pragma kernel BakeVertexTex
+
+uint2 PointCloudRes;
+float2 SpaceScale;
+
+uint MinDepth;
+uint MaxDepth;
+
+int BodyIndexAll;
+
+int BodyIndex0;
+int BodyIndex1;
+int BodyIndex2;
+int BodyIndex3;
+int BodyIndex4;
+
+StructuredBuffer<float> SpaceTable;
+StructuredBuffer<uint> DepthMap;
+StructuredBuffer<uint> BodyIndexMap;
+
+RWTexture2D<float4> PointCloudVertexTex;
+
+
+[numthreads(8, 8, 1)]
+void BakeVertexTex(uint3 id : SV_DispatchThreadID)
+{
+    uint i = id.x + id.y * PointCloudRes.x;
+
+	uint depth2 = DepthMap[i >> 1];
+	uint depth = i & 1 != 0 ? depth2 >> 16 : depth2 & 0xffff;
+	
+	depth = (depth >= MinDepth && depth <= MaxDepth) * depth;
+	//float fDepth = (float)depth / 1000.0;
+	//bool mask = depth != 0;
+
+	uint bi4 = BodyIndexMap[i >> 2];
+	int bi = 255;
+
+	switch (i & 3)
+	{
+	case 0:
+		bi = bi4 & 255;
+		break;
+	case 1:
+		bi = (bi4 >> 8) & 255;
+		break;
+	case 2:
+		bi = (bi4 >> 16) & 255;
+		break;
+	case 3:
+		bi = (bi4 >> 24) & 255;
+		break;
+	}
+
+	bool mask = false;
+	if (BodyIndexAll != 0)
+	{
+		mask = (bi != 255);
+	}
+	else
+	{
+		mask = ((bi == BodyIndex0) || (bi == BodyIndex1) || (bi == BodyIndex2) || (bi == BodyIndex3) || (bi == BodyIndex4));
+	}
+
+	float fDepth = (float)(depth * mask) / 1000.0;
+
+	float3 pos = float3(
+		SpaceTable[i * 3] * fDepth * SpaceScale.x,
+        SpaceTable[i * 3 + 1] * fDepth * SpaceScale.y,
+        mask ? fDepth : 1000
+    );
+
+	PointCloudVertexTex[id.xy] = float4(pos, mask);
+}

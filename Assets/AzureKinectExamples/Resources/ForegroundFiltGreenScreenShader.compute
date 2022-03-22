@@ -1,0 +1,66 @@
+#pragma kernel FgFiltFreenScreen
+
+
+float4 _GreenScreenColor;
+float _GreenScreenColorRange;
+
+float _SetTranspBelow;
+float _SetOpaqueAbove;
+
+float4 _GreenScreenRect;
+
+RWTexture2D<float4> _ColorTex;
+RWTexture2D<float4> _AlphaTex;
+
+
+float3 RGBtoYUV(float3 rgb)
+{
+	float4x4 RGB2YUV = { 0.182586,  0.614231,  0.062007, 0.062745,
+		-0.100644, -0.338572,  0.439216, 0.501961,
+		0.439216, -0.398942, -0.040274, 0.501961,
+		0.000000,  0.000000,  0.000000, 1.000000 };
+
+	return mul(RGB2YUV, float4(rgb, 1)).rgb;
+}
+
+
+[numthreads(8, 8, 1)]
+void FgFiltFreenScreen(uint3 id : SV_DispatchThreadID)
+{
+	float alpha = 0.0;
+
+	if (id.x >= (uint)_GreenScreenRect.x && id.x <= (uint)_GreenScreenRect.z && id.y >= (uint)_GreenScreenRect.y && id.y <= (uint)_GreenScreenRect.w)
+	{
+		float3 greenYuv = RGBtoYUV(_GreenScreenColor.rgb);
+
+		for (int v = -1; v <= 1; v++)
+		{
+			for (int u = -1; u <= 1; u++)
+			{
+				int2 uv = id.xy + int2(u, v);
+				float3 colorYuv = RGBtoYUV(_ColorTex[uv].rgb);
+				alpha += distance(colorYuv.yz, greenYuv.yz);
+			}
+		}
+
+		alpha = saturate(9.0 * alpha / 9.0 - _GreenScreenColorRange);
+
+		if (alpha < _SetTranspBelow)
+			alpha = 0.0;
+		if (alpha > _SetOpaqueAbove)
+			alpha = 1.0;
+	}
+
+	_AlphaTex[id.xy] = float4(alpha, alpha, alpha, alpha);
+
+	//alpha = saturate(distance(greenYuv.yz, RGBtoYUV(_ColorTex[id.xy].rgb).yz));
+	//_AlphaTex[id.xy] = float4(/**alpha, alpha, alpha,*/ greenYuv, 1);
+
+	//float3 yuv = RGBtoYUV(_ColorTex[id.xy].rgb);
+	//float dist = saturate(distance(greenYuv.yz, yuv.yz) * 10 - _GreenScreenColorRange);
+	////_AlphaTex[id.xy] = float4(yuv.x, yuv.x, yuv.x, 1);
+	//_AlphaTex[id.xy] = float4(dist, dist, dist, dist);
+}
+
+
+

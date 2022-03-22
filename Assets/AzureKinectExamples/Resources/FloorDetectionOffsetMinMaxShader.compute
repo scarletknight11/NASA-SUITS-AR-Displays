@@ -1,0 +1,39 @@
+#pragma kernel EstimateOffsetMinMax
+
+uint2 PointCloudRes;
+uint OfsHistBinLength;
+StructuredBuffer<float> PointCloudOfs;
+StructuredBuffer<bool> PointCloudMask;
+
+RWStructuredBuffer<float> OfsMinMax;
+RWStructuredBuffer<uint> OfsHistBinCount;
+
+
+[numthreads(1, 1, 1)]
+void EstimateOffsetMinMax(uint3 id : SV_DispatchThreadID)
+{
+	// find min & max
+	uint l = PointCloudRes.x * PointCloudRes.y;
+	float minOfs = 1000.0;
+	float maxOfs = -1000.0;
+
+	for (uint i = 0; i < l; i++)
+	{
+		float ofs = PointCloudOfs[i];
+
+		if (PointCloudMask[i])
+		{
+			minOfs = min(minOfs, ofs);
+			maxOfs = max(maxOfs, ofs);
+		}
+	}
+
+	OfsMinMax[0] = minOfs;
+	OfsMinMax[1] = maxOfs;
+
+	// clear bin counts
+	for (uint hi = 0; hi < OfsHistBinLength; hi++)
+	{
+		OfsHistBinCount[hi] = 0;
+	}
+}

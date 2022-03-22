@@ -1,0 +1,53 @@
+#pragma kernel BakeColorDepth
+
+uint2 _ColorRes;
+uint2 _DepthRes;
+
+StructuredBuffer<uint> _DepthMap;
+StructuredBuffer<float> _Color2DepthMap;
+//Texture2D<float4> _ColorTex;
+
+RWStructuredBuffer<uint> _ColorDepthMap;
+
+
+[numthreads(8, 8, 1)]
+void BakeColorDepth(uint3 id : SV_DispatchThreadID)
+{
+	//if (id.x & 1 == 0)
+	{
+		// depth0
+		uint ci = id.x + id.y * _ColorRes.x;
+		uint depth = 0;
+
+		if (!isinf(_Color2DepthMap[ci << 1]))
+		{
+			int dx = _Color2DepthMap[ci << 1];
+			int dy = _Color2DepthMap[(ci << 1) + 1];
+
+			uint di = dx + dy * _DepthRes.x;
+			uint depth2 = _DepthMap[di >> 1];
+			depth = di & 1 != 0 ? depth2 >> 16 : depth2 & 0xffff;
+		}
+
+		uint cdepth0 = depth;
+
+		// depth1
+		uint ci1 = ci + 1;
+		depth = 0;
+
+		if (!isinf(_Color2DepthMap[ci1 << 1]))
+		{
+			int dx = _Color2DepthMap[ci1 << 1];
+			int dy = _Color2DepthMap[(ci1 << 1) + 1];
+
+			uint di = dx + dy * _DepthRes.x;
+			uint depth2 = _DepthMap[di >> 1];
+			depth = di & 1 != 0 ? depth2 >> 16 : depth2 & 0xffff;
+		}
+
+		uint cdepth1 = depth << 16;
+
+		_ColorDepthMap[ci >> 1] = cdepth0 | cdepth1;
+	}
+}
+

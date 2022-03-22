@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637829626454898914
-    m_Hash: 475239069
+      ticks: 637834888623091186
+    m_Hash: 264967075
   m_LockFileStatus:
     m_FilePath: D:/NASA-SUITS-AR-Displays/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637829626612145621
-    m_Hash: 9421825
+      ticks: 637834887273992346
+    m_Hash: 3865031387
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -145,6 +145,20 @@ m_LocalPackages:
       serializedVersion: 2
       ticks: 637829626264150639
     m_Hash: 762988747
+  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.object-anchors.runtime-0.19.0.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.object-anchors.runtime-0.19.0.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 637824820698575990
+    m_Hash: 797392719
 m_ProjectPath: D:/NASA-SUITS-AR-Displays/Packages
 m_EditorVersion: 2021.2.15f1 (3b8567f665bb)
 m_ResolvedPackages:
@@ -4312,6 +4326,56 @@ m_ResolvedPackages:
   repository:
     type: git
     url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.microsoft.azure.object-anchors.runtime@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.object-anchors.runtime-0.19.0.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 0.19.0
+  source: 6
+  resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.azure.object-anchors.runtime@daf948a61fb3-1646885269858
+  assetPath: Packages/com.microsoft.azure.object-anchors.runtime
+  name: com.microsoft.azure.object-anchors.runtime
+  displayName: Microsoft Azure Object Anchors
+  author:
+    name: Microsoft
+    email: 
+    url: https://docs.microsoft.com/azure/object-anchors/
+  category: 
+  type: 
+  description: Azure Object Anchors enables an application to detect an object in
+    the physical world.
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - microsoft
+  - azure
+  - mixed-reality
+  - object-anchors
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
     revision: 
     path: 
   unityLifecycle:

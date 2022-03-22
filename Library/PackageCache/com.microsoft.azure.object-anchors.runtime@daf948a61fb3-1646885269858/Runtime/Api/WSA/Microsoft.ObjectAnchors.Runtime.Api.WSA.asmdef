@@ -1,0 +1,15 @@
+{
+    "name": "Microsoft.ObjectAnchors.Runtime.Api.WSA",
+    "references": [],
+    "includePlatforms": [
+        "WSA"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

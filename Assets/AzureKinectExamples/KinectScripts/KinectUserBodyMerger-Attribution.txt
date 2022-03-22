@@ -1,0 +1,4 @@
+The KinectUserBodyMerger-class is based on the BodyMerger-class, provided by Cy-Fighter (http://cy-fighter.com/).
+They are developing a VR boxing simulator with a real, robot-controlled opponent.
+
+Big thanks to Cy-Fighter for their excellent work!

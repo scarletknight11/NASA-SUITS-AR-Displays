@@ -1,0 +1,67 @@
+#pragma kernel FgFiltBodyIndex
+
+uint _TexResX;
+uint _TexResY;
+
+//uint _NumBodies;
+//int _BodyIndices[10];  // ComputeShader.SetInts() doesn't work correctly
+
+int _BodyIndexAll;
+
+int _BodyIndex0;
+int _BodyIndex1;
+int _BodyIndex2;
+int _BodyIndex3;
+int _BodyIndex4;
+
+StructuredBuffer<uint> _BodyIndexMap;
+RWTexture2D<float4> _AlphaTex;
+
+
+[numthreads(8, 8, 1)]
+void FgFiltBodyIndex(uint3 id : SV_DispatchThreadID)
+{
+	uint di = (id.x + id.y * _TexResX);
+	uint bi4 = _BodyIndexMap[di >> 2];
+	int bi = 255;
+
+	//_NumBodies = 2;
+	//_BodyIndices[0] = 5;
+	//_BodyIndices[1] = 0;
+
+	switch (di & 3)
+	{
+		case 0:
+			bi = bi4 & 255;
+			break;
+		case 1:
+			bi = (bi4 >> 8) & 255;
+			break;
+		case 2:
+			bi = (bi4 >> 16) & 255;
+			break;
+		case 3:
+			bi = (bi4 >> 24) & 255;
+			break;
+	}
+
+	bool mask0 = (bi != 255);
+	bool mask = false; // _NumBodies == 0 ? mask0 : false;
+
+	//for (uint i = 0; mask0 && i < _NumBodies; i++)
+	//{
+	//	mask = mask || (bi == _BodyIndices[i]);
+	//	if (mask) break;
+	//}
+
+	if (_BodyIndexAll != 0)
+	{
+		mask = mask0;
+	}
+	else
+	{
+		mask = (bi == _BodyIndex0) || (bi == _BodyIndex1) || (bi == _BodyIndex2) || (bi == _BodyIndex3) || (bi == _BodyIndex4);
+	}
+
+	_AlphaTex[id.xy] = float4(mask, mask, mask, mask);
+}
