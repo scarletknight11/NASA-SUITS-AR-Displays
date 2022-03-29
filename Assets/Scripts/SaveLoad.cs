@@ -7,7 +7,6 @@ public class SaveLoad : MonoBehaviour {
     public string theText;
     public GameObject ourNote;
     public GameObject placeHolder;
-    //public GameObject saveAnim;
 
     void Start() {
         theText = PlayerPrefs.GetString("NoteContents");
@@ -24,7 +23,6 @@ public class SaveLoad : MonoBehaviour {
         //saveAnim.GetComponent<Animator>().Play("SavedText anim");
         yield return new WaitForSeconds(1);
         //saveAnim.GetComponent<Animator>().Play("New Animation");
-
     }
 
 }

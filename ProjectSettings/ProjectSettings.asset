@@ -159,6 +159,18 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -773,22 +785,22 @@ PlayerSettings:
   metroSplashScreenUseBackgroundColor: 0
   platformCapabilities:
     WindowsStoreApps:
+      CodeGeneration: False
       OfflineMapsManagement: False
       HumanInterfaceDevice: False
-      Location: False
-      Chat: False
+      Location: True
+      Chat: True
       Bluetooth: False
       AllJoyn: False
       MusicLibrary: False
       LowLevelDevices: False
       PrivateNetworkClientServer: True
-      InternetClientServer: False
+      InternetClientServer: True
       VideosLibrary: False
-      Objects3D: False
-      InternetClient: True
+      Objects3D: True
       RemoteSystem: False
       BlockedChatMessages: False
-      PhoneCall: False
+      PhoneCall: True
       UserDataTasks: False
       Appointments: False
       SystemManagement: False
@@ -796,19 +808,19 @@ PlayerSettings:
       Microphone: True
       SharedUserCertificates: False
       InputInjectionBrokered: False
-      PicturesLibrary: False
-      RemovableStorage: False
+      PicturesLibrary: True
+      RemovableStorage: True
       WebCam: True
-      VoipCall: False
+      VoipCall: True
       GazeInput: True
       UserAccountInformation: False
       UserNotificationListener: False
       PhoneCallHistoryPublic: False
       PointOfService: False
-      RecordedCallsFolder: False
+      RecordedCallsFolder: True
       Contacts: False
       Proximity: False
-      CodeGeneration: False
+      InternetClient: True
       BackgroundMediaPlayback: False
       EnterpriseAuthentication: False
   metroTargetDeviceFamilies:

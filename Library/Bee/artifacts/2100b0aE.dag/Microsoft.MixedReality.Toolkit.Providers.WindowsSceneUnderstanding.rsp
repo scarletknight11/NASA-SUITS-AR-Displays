@@ -121,7 +121,6 @@
 -define:MSFT_OPENXR
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"Assets/AzureKinectExamples/KinectScripts/LZ4Sharp/LZ4Sharp.dll"
 -r:"Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/Microsoft.Azure.Kinect.Sensor.dll"
 -r:"Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/System.Runtime.CompilerServices.Unsafe.dll"
 -r:"Assets/AzureKinectExamples/SDK/KinectSDK2.0/Plugins/Kinect2UnityWrapper.dll"
@@ -130,6 +129,7 @@
 -r:"Assets/LitJson.dll"
 -r:"Assets/MRTK.Tutorials.AzureSpatialAnchors/Plugins/RestSharp.dll"
 -r:"Assets/Office365DataHub.dll"
+-r:"Assets/SpeechSDK/Plugins/x86_64/Microsoft.CognitiveServices.Speech.csharp.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"

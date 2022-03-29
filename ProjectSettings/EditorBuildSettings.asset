@@ -11,9 +11,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Hololens.unity
     guid: b42c571c8b301fd48a254f4fcc7e983d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Azure Cloud Tutorials.unity
     guid: b66fe750f8650dd46bf1899336f62b35
+  - enabled: 0
+    path: Assets/Scenes/Navigation.unity
+    guid: 0b37183a86dc71142a2e720cefc9311d
+  - enabled: 0
+    path: Assets/Scenes/Game.unity
+    guid: 8ffae1a07f16f2543839e3486825c505
+  - enabled: 1
+    path: Assets/Scenes/Geology Samples.unity
+    guid: 3f10e5e89bc046c4fb5b94ffecb69802
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c29eae093f0ea284d8b061d4e1f7c5a8,
       type: 2}
