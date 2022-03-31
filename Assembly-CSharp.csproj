@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.14</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.15</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>WSAPlayer:21</UnityBuildTarget>
     <UnityVersion>2021.2.15f1</UnityVersion>
@@ -167,6 +167,7 @@
     <Compile Include="Assets\Scripts\StayInside.cs" />
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.3\Demos - EyeTracking\DemoVisualizer\Scripts\UserInputRecorder.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\features2d\DenseFeatureDetector.cs" />
+    <Compile Include="Assets\MRTK.Tutorials.AzureSpeechServices\Scripts\LunarcomTranslationRecognizer.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\Cv2\Cv2_face.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\Cv2\Cv2_photo.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
@@ -191,6 +192,7 @@
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\PInvoke\core\NativeMethods_core_Algorithm.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\Cv2\Cv2.cs" />
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.3\Demos - Solvers\Scripts\SolverExampleManager.cs" />
+    <Compile Include="Assets\MRTK.Tutorials.AzureSpeechServices\Scripts\LunarcomWakeWordRecognizer.cs" />
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\BlendOut.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Scripts\ButtonInterface.cs" />
@@ -237,8 +239,10 @@
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\core\MatRowColExprIndexer.cs" />
     <Compile Include="Assets\Scripts\JSONReader2.cs" />
     <Compile Include="Assets\Scripts\DataResponse2.cs" />
+    <Compile Include="Assets\MRTK.Tutorials.AzureSpeechServices\Scripts\ConnectionLightController.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\Cv2\Cv2_imgproc.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\flann\IndexParams\AutotunedIndexParams.cs" />
+    <Compile Include="Assets\MRTK.Tutorials.AzureSpeechServices\Scripts\LunarcomOfflineRecognizer.cs" />
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.3\Demos - PulseShader\Scripts\HideOnDevice.cs" />
     <Compile Include="Assets\OpenCV+Unity\Demo\Grayscale\GrayscaleScript.cs" />
     <Compile Include="Assets\Scripts\DyiHandManipulation.cs" />
@@ -248,7 +252,6 @@
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.3\Demos - EyeTracking\DemoTargetPositioning\Scripts\SnapTo.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\Util\ArrayAddress.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\core\Mat\MatOfShort.cs" />
-    <Compile Include="Assets\Scripts\KinectScript.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\imgproc\Subdiv2D.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\core\Mat\MatOfPoint3d.cs" />
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.3\Demos - HandTracking\Scripts\LeapMotionOrientationDisplay.cs" />
@@ -262,6 +265,7 @@
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\PInvoke\ml\NativeMethods_ml_RTrees.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\core\Enum\CovarFlags.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\Cv2\Cv2_highgui.cs" />
+    <Compile Include="Assets\MRTK.Tutorials.AzureSpeechServices\Scripts\LunarcomButtonController.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\core\Mat\MatIndexer.cs" />
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.3\Demos - UX\BoundsControl\Scripts\BoundsControlRuntimeExample.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\imgproc\GeneralizedHough.cs" />
@@ -274,6 +278,7 @@
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\core\Mat\MatOfPoint3f.cs" />
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.3\Demos - HandTracking\Scripts\GrabTouchExample.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\imgproc\Moments.cs" />
+    <Compile Include="Assets\MRTK.Tutorials.AzureSpeechServices\Scripts\LunarcomIntentRecognizer.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\highgui\Enum\ButtonTypes.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\highgui\CvTrackbar.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\core\Enum\DecompTypes.cs" />
@@ -479,6 +484,7 @@
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\PInvoke\ml\NativeMethods_ml_NormalBayesClassifier.cs" />
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.3\Demos - HandTracking\Scripts\GestureTester.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\PInvoke\features2d\NativeMethods_features2d_DescriptorExtractor.cs" />
+    <Compile Include="Assets\Scripts\SpatializeOnOff.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\Vector\VectorOfVec2f.cs" />
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.3\Experimental - NonNativeKeyboard\Scripts\KeyboardTest.cs" />
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.3\Demos - UX\ManipulationHandler\Scripts\ChangeManipulation.cs" />
@@ -488,6 +494,7 @@
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\imgproc\GeneralizedHoughBallard.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\tracking\Tracker.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\imgproc\LineIterator.cs" />
+    <Compile Include="Assets\MRTK.Tutorials.AzureSpeechServices\Scripts\LunarcomController.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\core\Mat\MatOfFloat.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\core\Struct\MatType.cs" />
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.3\Demos - EyeTracking\General\Scripts\FollowEyeGaze.cs" />
@@ -570,6 +577,7 @@
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\superres\FrameSourceImpl.cs" />
     <Compile Include="Assets\Scripts\DragAndShoot.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\features2d\Enum\AGASTType.cs" />
+    <Compile Include="Assets\MRTK.Tutorials.AzureSpeechServices\Scripts\LunarcomSpeechRecognizer.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\modules\core\Struct\Rect2d.cs" />
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Extensions\2.7.3\HandPhysicsService\PhysicsTriggerEventReadout.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
@@ -662,80 +670,100 @@
   <ItemGroup>
     <None Include="Assets\OpenCV+Unity\Plugins\Windows\x86\OpenCvSharpExtern.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\SpeechSDK\Plugins\WSA\ARM\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll" />
     <None Include="Assets\MRTK\Shaders\Text3DShader.shader" />
-    <None Include="Assets\AzureKinectExamples\SDK\Kinect4AzureSDK\Plugins\Microsoft.Azure.Kinect.Sensor.dll" />
+    <None Include="Assets\SpeechSDK\Plugins\MacOS\Microsoft.CognitiveServices.Speech.csharp.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\AzureKinectExamples\SDK\RealSenseSDK2.0\RealSenseSDK_License.txt" />
+    <None Include="Assets\SpeechSDK\Plugins\Android\libs\Microsoft.CognitiveServices.Speech.csharp.dll" />
     <None Include="Assets\OpenCV+Unity\Demo\Face_Detector\haarcascade_eye.xml" />
     <None Include="Assets\MRTK.Tutorials.AzureSpatialAnchors\Plugins\RestSharp.dll" />
     <None Include="Assets\MRTK\Shaders\InstancedColored.shader" />
+    <None Include="Assets\SpeechSDK\Plugins\WSA\x64\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll" />
+    <None Include="Assets\SpeechSDK\Plugins\WSA\ARM64\Microsoft.CognitiveServices.Speech.core.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\OpenCV+Unity\Documentation\Third-Party Licenses.txt" />
     <None Include="Assets\Three signs free\Full names of signs.txt" />
     <None Include="Assets\MRTK\Shaders\ChannelPacker.shader" />
-    <None Include="Assets\AzureKinectExamples\SDK\Kinect4AzureSDK\Plugins\k4abt.dll" />
-    <None Include="Assets\AzureKinectExamples\SDK\KinectSDK2.0\Plugins\x86_64\KinectUnityAddin.dll" />
+    <None Include="Assets\SpeechSDK\Plugins\x86_64\Microsoft.CognitiveServices.Speech.extension.lu.dll" />
+    <None Include="Assets\SpeechSDK\Plugins\WSA\ARM64\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+    <None Include="Assets\SpeechSDK\Plugins\WSA\x64\Microsoft.CognitiveServices.Speech.extension.kws.dll" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
-    <None Include="Assets\AzureKinectExamples\SDK\Kinect4AzureSDK\Plugins\System.Runtime.CompilerServices.Unsafe.dll" />
+    <None Include="Assets\SpeechSDK\Plugins\x86\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-    <None Include="Assets\AzureKinectExamples\_Readme\致盗版使用者-ToPiracyUsers.txt" />
+    <None Include="Assets\SpeechSDK\Plugins\WSA\x86\Microsoft.CognitiveServices.Speech.core.dll" />
+    <None Include="Assets\SpeechSDK\Plugins\x86\Microsoft.CognitiveServices.Speech.extension.lu.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\MRTK\Shaders\InvisibleShader.shader" />
-    <None Include="Assets\AzureKinectExamples\SDK\Kinect4AzureSDK\Plugins\onnxruntime.dll" />
+    <None Include="Assets\SpeechSDK\Plugins\x86\Microsoft.CognitiveServices.Speech.core.dll" />
     <None Include="Assets\OpenCV+Unity\smcs.rsp" />
+    <None Include="Assets\SpeechSDK\Plugins\WSA\x64\Microsoft.CognitiveServices.Speech.extension.lu.dll" />
+    <None Include="Assets\SpeechSDK\Plugins\Linux\x64\Microsoft.CognitiveServices.Speech.csharp.dll" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <None Include="Assets\OpenCV+Unity\gmcs.rsp" />
-    <None Include="Assets\AzureKinectExamples\SDK\Kinect4AzureSDK\Plugins\onnxruntime_providers_tensorrt.dll" />
+    <None Include="Assets\SpeechSDK\Plugins\x86_64\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Office365DataHub.dll" />
     <None Include="Assets\JsonDotNet\link.xml" />
-    <None Include="Assets\AzureKinectExamples\SDK\Kinect4AzureSDK\Plugins\k4a.dll" />
+    <None Include="Assets\SpeechSDK\Plugins\WSA\x64\Microsoft.CognitiveServices.Speech.extension.silk_codec.dll" />
     <None Include="Assets\JsonDotNet\Assemblies\Windows\Newtonsoft.Json.XML" />
     <None Include="Assets\MRTK.Tutorials.AzureSpatialAnchors\Version.txt" />
-    <None Include="Assets\AzureKinectExamples\SDK\Kinect4AzureSDK\Resources\k4a-resources.txt" />
-    <None Include="Assets\AzureKinectExamples\SDK\RealSenseSDK2.0\Plugins\Intel.RealSense.dll" />
-    <None Include="Assets\AzureKinectExamples\SDK\KinectSDK2.0\Plugins\x86\KinectUnityAddin.dll" />
+    <None Include="Assets\SpeechSDK\Plugins\x86_64\Microsoft.CognitiveServices.Speech.csharp.dll" />
     <None Include="Assets\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.XML" />
+    <None Include="Assets\SpeechSDK\Plugins\WSA\ARM\Microsoft.CognitiveServices.Speech.extension.silk_codec.dll" />
+    <None Include="Assets\SpeechSDK\Plugins\x86\Microsoft.CognitiveServices.Speech.extension.kws.dll" />
+    <None Include="Assets\SpeechSDK\Plugins\WSA\ARM64\Microsoft.CognitiveServices.Speech.extension.kws.dll" />
     <None Include="Assets\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.dll" />
-    <None Include="Assets\AzureKinectExamples\SDK\RealSenseSDK2.0\Plugins\realsense2.dll" />
+    <None Include="Assets\SpeechSDK\Plugins\x86\Microsoft.CognitiveServices.Speech.extension.silk_codec.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\OpenCV+Unity\Documentation\OpenCV+Unity_Notes.txt" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\OpenCV+Unity\Demo\Face_Detector\haarcascade_eye_tree_eyeglasses.xml" />
+    <None Include="Assets\SpeechSDK\Plugins\x86_64\Microsoft.CognitiveServices.Speech.extension.kws.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\OpenCV+Unity\Plugins\Windows\x86_64\OpenCvSharpExtern.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\MRTK.Tutorials.GettingStarted\Version.txt" />
     <None Include="Assets\MixedRealityToolkit.Generated\link.xml" />
-    <None Include="Assets\AzureKinectExamples\SDK\Kinect4AzureSDK\Plugins\k4arecord.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\SpeechSDK\Plugins\WSA\x86\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll" />
     <None Include="Assets\OpenCV+Unity\Demo\Face_Recognizer\face-recognizer.xml" />
+    <None Include="Assets\MRTK.Tutorials.GettingStarted\Version.txt" />
+    <None Include="Assets\SpeechSDK\Plugins\WSA\x86\Microsoft.CognitiveServices.Speech.extension.lu.dll" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\AzureKinectExamples\SDK\Kinect4AzureSDK\Plugins\onnxruntime_providers_shared.dll" />
     <None Include="Assets\ColoredVertex.shader" />
     <None Include="Assets\MRTK\Shaders\MixedRealityStandard.shader" />
     <None Include="Assets\OpenCV+Unity\Demo\Face_Detector\haarcascade_frontalface_default.xml" />
+    <None Include="Assets\SpeechSDK\Plugins\WSA\ARM\Microsoft.CognitiveServices.Speech.extension.lu.dll" />
     <None Include="Assets\JsonDotNet\Assemblies\Windows\Newtonsoft.Json.dll" />
-    <None Include="Assets\AzureKinectExamples\SDK\Kinect4AzureSDK\Plugins\directml.dll" />
+    <None Include="Assets\SpeechSDK\Plugins\WSA\ARM\Microsoft.CognitiveServices.Speech.core.dll" />
+    <None Include="Assets\SpeechSDK\Plugins\x86_64\Microsoft.CognitiveServices.Speech.core.dll" />
     <None Include="Assets\MRTK\Shaders\MixedRealityTextMeshPro.shader" />
     <None Include="Assets\MRTK\Shaders\MRTK_Wireframe.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\LitJson.dll" />
+    <None Include="Assets\SpeechSDK\Plugins\WSA\x64\Microsoft.CognitiveServices.Speech.core.dll" />
+    <None Include="Assets\SpeechSDK\REDIST.txt" />
+    <None Include="Assets\SpeechSDK\Plugins\WSA\ARM64\Microsoft.CognitiveServices.Speech.extension.silk_codec.dll" />
+    <None Include="Assets\SpeechSDK\Plugins\WSA\ARM64\Microsoft.CognitiveServices.Speech.extension.lu.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\SpeechSDK\Plugins\x86_64\Microsoft.CognitiveServices.Speech.extension.silk_codec.dll" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\MRTK\Shaders\DepthBufferPostProcess.shader" />
-    <None Include="Assets\AzureKinectExamples\SDK\KinectSDK2.0\Plugins\Kinect2UnityWrapper.dll" />
     <None Include="Assets\Third-Party-Notices.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\MRTK.Tutorials.AzureSpeechServices\Version.txt" />
     <None Include="Assets\OpenCV+Unity\mcs.rsp" />
+    <None Include="Assets\SpeechSDK\Plugins\iOS\Microsoft.CognitiveServices.Speech.csharp.dll" />
+    <None Include="Assets\SpeechSDK\Plugins\WSA\x86\Microsoft.CognitiveServices.Speech.extension.kws.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\SpeechSDK\Plugins\WSA\ARM\Microsoft.CognitiveServices.Speech.extension.kws.dll" />
     <None Include="Assets\MRTK\Shaders\MixedRealityShaderUtils.cginc" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\SpeechSDK\Plugins\WSA\x86\Microsoft.CognitiveServices.Speech.extension.silk_codec.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -975,32 +1003,23 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.15f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Kinect2UnityWrapper">
-      <HintPath>Assets\AzureKinectExamples\SDK\KinectSDK2.0\Plugins\Kinect2UnityWrapper.dll</HintPath>
-    </Reference>
     <Reference Include="Office365DataHub">
       <HintPath>Assets\Office365DataHub.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Assets\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Azure.Kinect.Sensor">
-      <HintPath>Assets\AzureKinectExamples\SDK\Kinect4AzureSDK\Plugins\Microsoft.Azure.Kinect.Sensor.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>Assets\AzureKinectExamples\SDK\Kinect4AzureSDK\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
     <Reference Include="RestSharp">
       <HintPath>Assets\MRTK.Tutorials.AzureSpatialAnchors\Plugins\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CognitiveServices.Speech.csharp">
+      <HintPath>Assets\SpeechSDK\Plugins\x86_64\Microsoft.CognitiveServices.Speech.csharp.dll</HintPath>
     </Reference>
     <Reference Include="LitJson">
       <HintPath>Assets\LitJson.dll</HintPath>
     </Reference>
     <Reference Include="clipper_library">
       <HintPath>Library\PackageCache\com.unity.cinemachine@2.8.4\Runtime\ThirdParty\clipper_library.dll</HintPath>
-    </Reference>
-    <Reference Include="Intel.RealSense">
-      <HintPath>Assets\AzureKinectExamples\SDK\RealSenseSDK2.0\Plugins\Intel.RealSense.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.15f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -1614,9 +1633,6 @@
     <Reference Include="Unity.Recorder.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.StandardAssets.Editor">
-      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Editor">
       <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll</HintPath>
     </Reference>
@@ -1670,9 +1686,6 @@
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor">
-      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService">
       <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService.dll</HintPath>
@@ -1737,14 +1750,14 @@
     <Reference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion">
       <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.ARFoundation.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared">
       <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll</HintPath>
     </Reference>
     <Reference Include="AzureSpatialAnchors.SDK.Core.Runtime">
       <HintPath>Library\ScriptAssemblies\AzureSpatialAnchors.SDK.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARFoundation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.SDK">
       <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll</HintPath>
@@ -1815,6 +1828,9 @@
     <Reference Include="Microsoft.MixedReality.OpenXR">
       <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TerrainTools">
+      <HintPath>Library\ScriptAssemblies\Unity.TerrainTools.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK">
       <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll</HintPath>
     </Reference>
@@ -1829,6 +1845,9 @@
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver">
       <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TerrainTools.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor">
       <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll</HintPath>
@@ -1899,8 +1918,8 @@
     <Reference Include="Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors">
       <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus">
-      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll</HintPath>
+    <Reference Include="Microsoft.MixedReality.Toolkit.StandardAssets.Editor">
+      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
