@@ -4,34 +4,35 @@ using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
+using TMPro;
 
 public class DataRequest : MonoBehaviour {
     //string url = "http://localhost:3000/api/simulation/state";
     string url = "http://localhost:8080/api/simulationstate/1";
 
-   Text timer; 
-   Text heart_bpm;
-   Text p_sub;
-   Text p_suit;
-   Text t_sub;
-   Text v_fan;
-   Text p_o2;
-   Text rate_o2;
-   Text batteryPercent;
-   Text battery_out;
-   Text cap_battery;
-   Text t_battery;
-   Text p_h2o_g;
-   Text p_h2o_l;
-   Text p_sop;
-   Text rate_sop;
-   Text t_oxygenPrimary;
-   Text t_oxygenSec;
-   Text ox_primary;
-   Text ox_secondary;
-   Text t_oxygen;
-   Text cap_water;
-   Text t_water;
+    Text timer;
+    Text heart_bpm;
+    Text p_sub;
+    Text p_suit;
+    Text t_sub;
+    Text v_fan;
+    Text p_o2;
+    Text rate_o2;
+    Text batteryPercent;
+    Text battery_out;
+    Text cap_battery;
+    Text t_battery;
+    Text p_h2o_g;
+    Text p_h2o_l;
+    Text p_sop;
+    Text rate_sop;
+    Text t_oxygenPrimary;
+    Text t_oxygenSec;
+    Text ox_primary;
+    Text ox_secondary;
+    Text t_oxygen;
+    Text cap_water;
+    Text t_water;
 
    public GameObject heartwarner;
    public GameObject psubwarning;
@@ -130,45 +131,45 @@ public class DataRequest : MonoBehaviour {
             t_water.text = "H20 Time: " + (data.t_water.ToString()) + "";
             
             //Warnings
-            if (data.heart_bpm < 80 || data.heart_bpm > 100) {
-                heartwarner.SetActive(true);
-            }
+            //if (data.heart_bpm < 80 || data.heart_bpm > 100) {
+            //    heartwarner.SetActive(true);
+            //}
 
-            if (data.p_sub < 2 || data.p_sub > 4) {
-                psubwarning.SetActive(true);
-            }
+            //if (data.p_sub < 2 || data.p_sub > 4) {
+            //    psubwarning.SetActive(true);
+            //}
 
-            if (data.v_fan < 10000 || data.v_fan > 40000) {
-                fanwarning.SetActive(true);
-            }
+            //if (data.v_fan < 10000 || data.v_fan > 40000) {
+            //    fanwarning.SetActive(true);
+            //}
 
-            if (data.p_o2 < 750.0 || data.p_o2 > 950.0) {
-                po2.SetActive(true);
-            }
+            //if (data.p_o2 < 750.0 || data.p_o2 > 950.0) {
+            //    po2.SetActive(true);
+            //}
 
-            if (data.rate_o2 < 0.5 || data.rate_o2 > 1.0) {
-                rateo2.SetActive(true);
-            }
+            //if (data.rate_o2 < 0.5 || data.rate_o2 > 1.0) {
+            //    rateo2.SetActive(true);
+            //}
 
-            if (data.cap_battery < 0.0 || data.cap_battery > 30.0) {
-                batterycapwarning.SetActive(true);
-            }
+            //if (data.cap_battery < 0.0 || data.cap_battery > 30.0) {
+            //    batterycapwarning.SetActive(true);
+            //}
 
-            if (data.p_h2o_g < 14.0 || data.p_h2o_g > 16.0) {
-                ph20gwarning.SetActive(true);
-            }
+            //if (data.p_h2o_g < 14.0 || data.p_h2o_g > 16.0) {
+            //    ph20gwarning.SetActive(true);
+            //}
 
-            if (data.p_h2o_l < 14.0 || data.p_h2o_l > 16.0) {
-                ph20lwarning.SetActive(true);
-            }
+            //if (data.p_h2o_l < 14.0 || data.p_h2o_l > 16.0) {
+            //    ph20lwarning.SetActive(true);
+            //}
 
-            if (data.p_sop < 750.0 || data.p_sop > 950.0) {
-                psopwarning.SetActive(true);
-            }
+            //if (data.p_sop < 750.0 || data.p_sop > 950.0) {
+            //    psopwarning.SetActive(true);
+            //}
 
-            if (data.rate_sop < 0.5 || data.rate_sop > 1.0) {
-                ratesopwarning.SetActive(true);
-            }
+            //if (data.rate_sop < 0.5 || data.rate_sop > 1.0) {
+            //    ratesopwarning.SetActive(true);
+            //}
         }
     }
 }

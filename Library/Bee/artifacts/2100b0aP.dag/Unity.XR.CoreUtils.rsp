@@ -115,15 +115,11 @@
 -define:CSHARP_7_3_OR_NEWER
 -define:ENABLE_WINMD_SUPPORT
 -define:WINDOWS_UWP
--r:"Assets/AzureKinectExamples/KinectScripts/LZ4Sharp/LZ4Sharp.dll"
--r:"Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/Microsoft.Azure.Kinect.Sensor.dll"
--r:"Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/System.Runtime.CompilerServices.Unsafe.dll"
--r:"Assets/AzureKinectExamples/SDK/KinectSDK2.0/Plugins/Kinect2UnityWrapper.dll"
--r:"Assets/AzureKinectExamples/SDK/RealSenseSDK2.0/Plugins/Intel.RealSense.dll"
 -r:"Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll"
 -r:"Assets/LitJson.dll"
 -r:"Assets/MRTK.Tutorials.AzureSpatialAnchors/Plugins/RestSharp.dll"
 -r:"Assets/Office365DataHub.dll"
+-r:"Assets/SpeechSDK/Plugins/x86_64/Microsoft.CognitiveServices.Speech.csharp.dll"
 -r:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.AI.MachineLearning.MachineLearningContract/3.0.0.0/Windows.AI.MachineLearning.MachineLearningContract.winmd"
 -r:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract/2.0.0.0/Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract.winmd"
 -r:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.ApplicationModel.Activation.ActivatedEventsContract/1.0.0.0/Windows.ApplicationModel.Activation.ActivatedEventsContract.winmd"

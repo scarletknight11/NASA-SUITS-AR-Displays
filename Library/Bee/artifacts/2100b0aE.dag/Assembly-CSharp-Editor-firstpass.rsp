@@ -120,10 +120,6 @@
 -define:MOBILE_INPUT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/Microsoft.Azure.Kinect.Sensor.dll"
--r:"Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/System.Runtime.CompilerServices.Unsafe.dll"
--r:"Assets/AzureKinectExamples/SDK/KinectSDK2.0/Plugins/Kinect2UnityWrapper.dll"
--r:"Assets/AzureKinectExamples/SDK/RealSenseSDK2.0/Plugins/Intel.RealSense.dll"
 -r:"Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll"
 -r:"Assets/LitJson.dll"
 -r:"Assets/MRTK.Tutorials.AzureSpatialAnchors/Plugins/RestSharp.dll"
@@ -465,8 +461,6 @@
 -r:"Library/Bee/artifacts/2100b0aE.dag/Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.ref.dll"
--r:"Library/Bee/artifacts/2100b0aE.dag/Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.ref.dll"
--r:"Library/Bee/artifacts/2100b0aE.dag/Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/Microsoft.MixedReality.Toolkit.Providers.XRSDK.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/Microsoft.MixedReality.Toolkit.ref.dll"
@@ -505,6 +499,8 @@
 -r:"Library/Bee/artifacts/2100b0aE.dag/Unity.Subsystem.Registration.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/Unity.Sysroot.Linux_x86_64.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/Unity.SysrootPackage.Editor.ref.dll"
+-r:"Library/Bee/artifacts/2100b0aE.dag/Unity.TerrainTools.Editor.ref.dll"
+-r:"Library/Bee/artifacts/2100b0aE.dag/Unity.TerrainTools.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/Unity.TextMeshPro.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/Unity.TextMeshPro.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/Unity.Timeline.Editor.ref.dll"

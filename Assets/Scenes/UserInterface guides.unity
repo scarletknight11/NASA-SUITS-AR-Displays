@@ -171,8 +171,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   theText: {fileID: 1750228595}
-  thePanel: {fileID: 1681919013}
-  thePanel2: {fileID: 1505342406}
 --- !u!4 &73488798
 Transform:
   m_ObjectHideFlags: 0
@@ -1139,7 +1137,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &192017415
 Transform:
   m_ObjectHideFlags: 0
@@ -9416,7 +9414,7 @@ GameObject:
   - component: {fileID: 1037005708}
   - component: {fileID: 1037005707}
   m_Layer: 0
-  m_Name: MixedRealityToolkit
+  m_Name: MixedRealityToolkit (Inactive)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12241,12 +12239,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
---- !u!1 &1681919013 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 480205494092842217, guid: 45f2815f8e16f37428c6087ecec8e4fc,
-    type: 3}
-  m_PrefabInstance: {fileID: 1505342404}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1698109137 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3632226525765937721, guid: 00d62673906fb0c4cb62b4cfec8e04cf,
@@ -18685,6 +18677,66 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1137181537, guid: 1b5a4d93431cd9144b36abe735c1ae61, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137181537, guid: 1b5a4d93431cd9144b36abe735c1ae61, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137181537, guid: 1b5a4d93431cd9144b36abe735c1ae61, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137181537, guid: 1b5a4d93431cd9144b36abe735c1ae61, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137181537, guid: 1b5a4d93431cd9144b36abe735c1ae61, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137181537, guid: 1b5a4d93431cd9144b36abe735c1ae61, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137181537, guid: 1b5a4d93431cd9144b36abe735c1ae61, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137181537, guid: 1b5a4d93431cd9144b36abe735c1ae61, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137181537, guid: 1b5a4d93431cd9144b36abe735c1ae61, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137181537, guid: 1b5a4d93431cd9144b36abe735c1ae61, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137181537, guid: 1b5a4d93431cd9144b36abe735c1ae61, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137181537, guid: 1b5a4d93431cd9144b36abe735c1ae61, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137181537, guid: 1b5a4d93431cd9144b36abe735c1ae61, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137181539, guid: 1b5a4d93431cd9144b36abe735c1ae61, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137181540, guid: 1b5a4d93431cd9144b36abe735c1ae61, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1298296970980172613, guid: 1b5a4d93431cd9144b36abe735c1ae61,
         type: 3}
       propertyPath: m_RootOrder
@@ -18745,8 +18797,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: VerticalScroll_FalloffPerItem 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1298296970980172614, guid: 1b5a4d93431cd9144b36abe735c1ae61,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b5a4d93431cd9144b36abe735c1ae61, type: 3}
+--- !u!1 &2100911643016695205 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1137181536, guid: 1b5a4d93431cd9144b36abe735c1ae61,
+    type: 3}
+  m_PrefabInstance: {fileID: 2100911643016695204}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2100911643016695206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100911643016695205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4e3b9019304b5aaec5664de0778d21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3339710412154930628
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -10,7 +10,7 @@ public class HololensCamera : MonoBehaviour {
     private PhotoCapture photoCaptureObject = null;
 
 
-    private void Start()
+    public void Start()
     {
         PhotoCapture.CreateAsync(false, OnPhotoCaptureCreated);
     }
@@ -36,8 +36,8 @@ public class HololensCamera : MonoBehaviour {
         photoCaptureObject = null;
     }
 
-    public void OnPhotoModeStarted(PhotoCapture.PhotoCaptureResult result)
-    {
+     void OnPhotoModeStarted(PhotoCapture.PhotoCaptureResult result)
+     {
         if (result.success)
         {
             string filename = string.Format(@"CapturedImage{0}_n.jpg", Time.time);
@@ -49,7 +49,7 @@ public class HololensCamera : MonoBehaviour {
         {
             Debug.LogError("Unable to start photo mode!");
         }
-    }
+     }
 
     void OnCapturedPhotoToDisk(PhotoCapture.PhotoCaptureResult result)
     {
