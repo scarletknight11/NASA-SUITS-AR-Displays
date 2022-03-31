@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/LSAR.unity
+- path: Assets/Scenes/Geology Samples.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

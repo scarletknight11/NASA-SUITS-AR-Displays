@@ -7,8 +7,8 @@ using UnityEngine.UI;
 using TMPro;
 
 public class DataRequest : MonoBehaviour {
-    //string url = "http://localhost:3000/api/simulation/state";
-    string url = "http://localhost:8080/api/simulationstate/1";
+    //string url = "http://localhost:8080/api/simulationstate/1";
+    string url = "http://192.168.1.159:8080/api/simulationstate/1";
 
     Text timer;
     Text heart_bpm;
