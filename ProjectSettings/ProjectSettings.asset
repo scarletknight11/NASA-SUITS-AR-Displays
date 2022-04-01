@@ -181,6 +181,17 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: -3467916373021749349, guid: 9f1ea85d2f2995e408434caa95b3eb16, type: 2}
+  - {fileID: -7559396936207006424, guid: a7d390c8fac066748b652475e1dbf234, type: 2}
+  - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -810,7 +821,7 @@ PlayerSettings:
       Objects3D: True
       RemoteSystem: False
       BlockedChatMessages: False
-      PhoneCall: True
+      PhoneCall: False
       UserDataTasks: False
       Appointments: False
       SystemManagement: False
@@ -818,10 +829,10 @@ PlayerSettings:
       Microphone: True
       SharedUserCertificates: False
       InputInjectionBrokered: False
-      PicturesLibrary: True
-      RemovableStorage: True
+      PicturesLibrary: False
+      RemovableStorage: False
       WebCam: True
-      VoipCall: True
+      VoipCall: False
       GazeInput: True
       UserAccountInformation: False
       UserNotificationListener: False

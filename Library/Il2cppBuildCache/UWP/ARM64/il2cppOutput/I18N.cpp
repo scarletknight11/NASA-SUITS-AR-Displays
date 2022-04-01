@@ -6685,7 +6685,7 @@ IL_0044_1:
 				L_18 = Type_GetTypeFromHandle_m2570A2A5B32A5E9D9F0F38B37459DA18736C823E(L_17, NULL);
 				NullCheck(L_18);
 				Assembly_t* L_19;
-				L_19 = VirtualFuncInvoker0< Assembly_t* >::Invoke(27 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_18);
+				L_19 = VirtualFuncInvoker0< Assembly_t* >::Invoke(36 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_18);
 				NullCheck(L_19);
 				AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* L_20;
 				L_20 = VirtualFuncInvoker0< AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* >::Invoke(22 /* System.Reflection.AssemblyName System.Reflection.Assembly::GetName() */, L_19);
@@ -6964,7 +6964,7 @@ IL_007e:
 		StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B* L_23 = V_1;
 		NullCheck(L_23);
 		String_t* L_24;
-		L_24 = VirtualFuncInvoker0< String_t* >::Invoke(13 /* System.String System.IO.TextReader::ReadLine() */, L_23);
+		L_24 = VirtualFuncInvoker0< String_t* >::Invoke(14 /* System.String System.IO.TextReader::ReadLine() */, L_23);
 		String_t* L_25 = L_24;
 		V_2 = L_25;
 		if (L_25)

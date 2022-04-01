@@ -20,13 +20,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Game.unity
     guid: 8ffae1a07f16f2543839e3486825c505
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Geology Samples.unity
     guid: 3f10e5e89bc046c4fb5b94ffecb69802
   - enabled: 0
     path: Assets/Scenes/Azure speech recognition.unity
     guid: f24d3b9954d34ef47a3c42bc6360a642
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LSAR.unity
     guid: 2c5713105e99f6845b45d98b00788ed2
   m_configObjects:

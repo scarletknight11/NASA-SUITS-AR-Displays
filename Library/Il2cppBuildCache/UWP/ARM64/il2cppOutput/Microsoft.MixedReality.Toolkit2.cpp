@@ -19797,7 +19797,7 @@ IL_0177_2:
 							String_t* L_42 = V_1;
 							NullCheck(L_41);
 							Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_43;
-							L_43 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, String_t* >::Invoke(20 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.String) */, L_41, L_42);
+							L_43 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, String_t* >::Invoke(21 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.String) */, L_41, L_42);
 							NullCheck(L_43);
 							TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_44;
 							L_44 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_43, NULL);

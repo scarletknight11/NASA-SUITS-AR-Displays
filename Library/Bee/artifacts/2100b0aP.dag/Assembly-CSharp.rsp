@@ -111,7 +111,9 @@
 -define:CSHARP_7_3_OR_NEWER
 -define:ENABLE_WINMD_SUPPORT
 -define:WINDOWS_UWP
--r:"Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll"
+-r:"Assets/Azure Storage/Plugins/Microsoft.WindowsAzure.Storage.dll"
+-r:"Assets/Azure Storage/Plugins/Newtonsoft.Json.dll"
+-r:"Assets/Azure Storage/Plugins/System.Reflection.TypeExtensions.dll"
 -r:"Assets/LitJson.dll"
 -r:"Assets/MRTK.Tutorials.AzureSpatialAnchors/Plugins/RestSharp.dll"
 -r:"Assets/Office365DataHub.dll"
@@ -1138,6 +1140,17 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/Unity UI Samples/Scripts/ActiveStateToggler.cs"
+"Assets/Unity UI Samples/Scripts/ApplicationManager.cs"
+"Assets/Unity UI Samples/Scripts/ChangeColor.cs"
+"Assets/Unity UI Samples/Scripts/DragMe.cs"
+"Assets/Unity UI Samples/Scripts/DragPanel.cs"
+"Assets/Unity UI Samples/Scripts/DropMe.cs"
+"Assets/Unity UI Samples/Scripts/PanelManager.cs"
+"Assets/Unity UI Samples/Scripts/ResizePanel.cs"
+"Assets/Unity UI Samples/Scripts/ScrollDetailTexture.cs"
+"Assets/Unity UI Samples/Scripts/ShowSliderValue.cs"
+"Assets/Unity UI Samples/Scripts/TiltWindow.cs"
 -langversion:9.0
 /unsafe+
 /deterministic

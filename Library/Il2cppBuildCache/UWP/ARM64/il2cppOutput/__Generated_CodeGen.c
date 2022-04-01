@@ -33,170 +33,174 @@ extern void IBindableIteratorToIEnumeratorAdapter__ctor_m8011BCA550C98E8CDA742DC
 // 0x0000000C System.Object System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::System.Collections.IEnumerator.get_Current()
 // 0x0000000D System.Void System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::System.Collections.IEnumerator.Reset()
 // 0x0000000E System.Void System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::.ctor(Windows.Foundation.Collections.IIterator`1<T>)
-// 0x0000000F System.Void System.Runtime.InteropServices.WindowsRuntime.INotifyPropertyChangedToINotifyPropertyChangedAdapter::System.ComponentModel.INotifyPropertyChanged.add_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler)
+// 0x0000000F System.Void System.Runtime.InteropServices.WindowsRuntime.INotifyCollectionChangedToINotifyCollectionChangedAdapter::System.Collections.Specialized.INotifyCollectionChanged.add_CollectionChanged(System.Collections.Specialized.NotifyCollectionChangedEventHandler)
+extern void INotifyCollectionChangedToINotifyCollectionChangedAdapter_System_Collections_Specialized_INotifyCollectionChanged_add_CollectionChanged_m9BD0A50A5FDD6B810EF85BE7D3B5305DFB29B77C (void);
+// 0x00000010 System.Void System.Runtime.InteropServices.WindowsRuntime.INotifyCollectionChangedToINotifyCollectionChangedAdapter::System.Collections.Specialized.INotifyCollectionChanged.remove_CollectionChanged(System.Collections.Specialized.NotifyCollectionChangedEventHandler)
+extern void INotifyCollectionChangedToINotifyCollectionChangedAdapter_System_Collections_Specialized_INotifyCollectionChanged_remove_CollectionChanged_m22DDBF580FD02BC068894E452AF53177F8F468ED (void);
+// 0x00000011 System.Void System.Runtime.InteropServices.WindowsRuntime.INotifyPropertyChangedToINotifyPropertyChangedAdapter::System.ComponentModel.INotifyPropertyChanged.add_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler)
 extern void INotifyPropertyChangedToINotifyPropertyChangedAdapter_System_ComponentModel_INotifyPropertyChanged_add_PropertyChanged_m7BB76FF73169F09B532EE7C89F8F150D6168BC12 (void);
-// 0x00000010 System.Void System.Runtime.InteropServices.WindowsRuntime.INotifyPropertyChangedToINotifyPropertyChangedAdapter::System.ComponentModel.INotifyPropertyChanged.remove_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler)
+// 0x00000012 System.Void System.Runtime.InteropServices.WindowsRuntime.INotifyPropertyChangedToINotifyPropertyChangedAdapter::System.ComponentModel.INotifyPropertyChanged.remove_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler)
 extern void INotifyPropertyChangedToINotifyPropertyChangedAdapter_System_ComponentModel_INotifyPropertyChanged_remove_PropertyChanged_m51129CD3B8DE96B15B6833D9C09962C28E35CEAF (void);
-// 0x00000011 System.Void System.Runtime.InteropServices.WindowsRuntime.IClosableToIDisposableAdapter::System.IDisposable.Dispose()
+// 0x00000013 System.Void System.Runtime.InteropServices.WindowsRuntime.IClosableToIDisposableAdapter::System.IDisposable.Dispose()
 extern void IClosableToIDisposableAdapter_System_IDisposable_Dispose_m501D14E26D43BC46FBBCFF4F120599F5C6646641 (void);
-// 0x00000012 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.IBindableIterableToIEnumerableAdapter::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000014 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.IBindableIterableToIEnumerableAdapter::System.Collections.IEnumerable.GetEnumerator()
 extern void IBindableIterableToIEnumerableAdapter_System_Collections_IEnumerable_GetEnumerator_mCCE38984D99C58AE3315B728940CF99D4B1E8A88 (void);
-// 0x00000013 System.Object System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.get_Item(System.Int32)
+// 0x00000015 System.Object System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.get_Item(System.Int32)
 extern void IBindableVectorToIListAdapter_System_Collections_IList_get_Item_m129A817126C8790DAC3FD3B5E956068FCBBCB1E4 (void);
-// 0x00000014 System.Void System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.set_Item(System.Int32,System.Object)
+// 0x00000016 System.Void System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.set_Item(System.Int32,System.Object)
 extern void IBindableVectorToIListAdapter_System_Collections_IList_set_Item_mEFAB5281F54A55D59E9225F3089D6DF7F20CB7D1 (void);
-// 0x00000015 System.Int32 System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.Add(System.Object)
+// 0x00000017 System.Int32 System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.Add(System.Object)
 extern void IBindableVectorToIListAdapter_System_Collections_IList_Add_m6C7CD5678799665F6708A3E5A0BCF6BE0DF8B3FC (void);
-// 0x00000016 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.Contains(System.Object)
+// 0x00000018 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.Contains(System.Object)
 extern void IBindableVectorToIListAdapter_System_Collections_IList_Contains_m04B684FF9B345C50FFFDEEB53B5937957216B858 (void);
-// 0x00000017 System.Void System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.Clear()
+// 0x00000019 System.Void System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.Clear()
 extern void IBindableVectorToIListAdapter_System_Collections_IList_Clear_m47FADB41672A2524DC51D8181BA8277A99E4748F (void);
-// 0x00000018 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.get_IsReadOnly()
+// 0x0000001A System.Boolean System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.get_IsReadOnly()
 extern void IBindableVectorToIListAdapter_System_Collections_IList_get_IsReadOnly_mD10F9C91D25699BE580ED80C4463CB8860503390 (void);
-// 0x00000019 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.get_IsFixedSize()
+// 0x0000001B System.Boolean System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.get_IsFixedSize()
 extern void IBindableVectorToIListAdapter_System_Collections_IList_get_IsFixedSize_m6E688304BE3EEBD22E29AA8852030FE63E4CAD2E (void);
-// 0x0000001A System.Int32 System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.IndexOf(System.Object)
+// 0x0000001C System.Int32 System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.IndexOf(System.Object)
 extern void IBindableVectorToIListAdapter_System_Collections_IList_IndexOf_m6F630822791D1DC1303F642621EFB684CB1F8BC1 (void);
-// 0x0000001B System.Void System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.Insert(System.Int32,System.Object)
+// 0x0000001D System.Void System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.Insert(System.Int32,System.Object)
 extern void IBindableVectorToIListAdapter_System_Collections_IList_Insert_m88FA248F41D748BB6DF2F5104A2331312B7ABF67 (void);
-// 0x0000001C System.Void System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.Remove(System.Object)
+// 0x0000001E System.Void System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.Remove(System.Object)
 extern void IBindableVectorToIListAdapter_System_Collections_IList_Remove_mEF5B163046A0BCCC4F032F21B14A856723AA5C2E (void);
-// 0x0000001D System.Void System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.RemoveAt(System.Int32)
+// 0x0000001F System.Void System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IList.RemoveAt(System.Int32)
 extern void IBindableVectorToIListAdapter_System_Collections_IList_RemoveAt_mDB563D51E1A4C660A1D478BCCA79101E54C71940 (void);
-// 0x0000001E System.Void System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+// 0x00000020 System.Void System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
 extern void IBindableVectorToIListAdapter_System_Collections_ICollection_CopyTo_m2CDA4A8C4FCA77BE2594E6E6F749A1A74FAA0312 (void);
-// 0x0000001F System.Int32 System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.ICollection.get_Count()
+// 0x00000021 System.Int32 System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.ICollection.get_Count()
 extern void IBindableVectorToIListAdapter_System_Collections_ICollection_get_Count_m845690015DDDE5D20B2E7DA2377A36F0DFD89BC5 (void);
-// 0x00000020 System.Object System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.ICollection.get_SyncRoot()
+// 0x00000022 System.Object System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.ICollection.get_SyncRoot()
 extern void IBindableVectorToIListAdapter_System_Collections_ICollection_get_SyncRoot_m7600DD62C4B3CEBDBE7258CAF93503BB2D8ABDD8 (void);
-// 0x00000021 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.ICollection.get_IsSynchronized()
+// 0x00000023 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.ICollection.get_IsSynchronized()
 extern void IBindableVectorToIListAdapter_System_Collections_ICollection_get_IsSynchronized_mEC643873CFA92251AF8E8C346B358D4E9BACFAAE (void);
-// 0x00000022 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000024 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.IBindableVectorToIListAdapter::System.Collections.IEnumerable.GetEnumerator()
 extern void IBindableVectorToIListAdapter_System_Collections_IEnumerable_GetEnumerator_mDAF2E67C36C34579822F83A90B36CBB09D7247CC (void);
-// 0x00000023 System.Collections.Generic.IEnumerator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIterableToIEnumerableAdapter`1::System.Collections.Generic.IEnumerable`1.GetEnumerator()
-// 0x00000024 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.IIterableToIEnumerableAdapter`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x00000025 TValue System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.IDictionary`2.get_Item(TKey)
-// 0x00000026 System.Void System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.IDictionary`2.set_Item(TKey,TValue)
-// 0x00000027 System.Collections.Generic.ICollection`1<TKey> System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.IDictionary`2.get_Keys()
-// 0x00000028 System.Collections.Generic.ICollection`1<TValue> System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.IDictionary`2.get_Values()
-// 0x00000029 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.IDictionary`2.ContainsKey(TKey)
-// 0x0000002A System.Void System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.IDictionary`2.Add(TKey,TValue)
-// 0x0000002B System.Boolean System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.IDictionary`2.Remove(TKey)
-// 0x0000002C System.Boolean System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.IDictionary`2.TryGetValue(TKey,TValue&)
-// 0x0000002D System.Int32 System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.ICollection`1.get_Count()
-// 0x0000002E System.Boolean System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.ICollection`1.get_IsReadOnly()
-// 0x0000002F System.Void System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.ICollection`1.Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-// 0x00000030 System.Void System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.ICollection`1.Clear()
-// 0x00000031 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.ICollection`1.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-// 0x00000032 System.Void System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.ICollection`1.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-// 0x00000033 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.ICollection`1.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-// 0x00000034 System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.IEnumerable`1.GetEnumerator()
-// 0x00000035 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.IEnumerable.GetEnumerator()
-// 0x00000036 System.Collections.Generic.IEnumerator`1<TKey> System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyCollection`2::System.Collections.Generic.IEnumerable`1.GetEnumerator()
-// 0x00000037 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyCollection`2::System.Collections.IEnumerable.GetEnumerator()
-// 0x00000038 System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyCollection`2::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
-// 0x00000039 TKey System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyEnumerator`2::System.Collections.Generic.IEnumerator`1.get_Current()
-// 0x0000003A System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyEnumerator`2::System.IDisposable.Dispose()
-// 0x0000003B System.Boolean System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyEnumerator`2::System.Collections.IEnumerator.MoveNext()
-// 0x0000003C System.Object System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyEnumerator`2::System.Collections.IEnumerator.get_Current()
-// 0x0000003D System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyEnumerator`2::System.Collections.IEnumerator.Reset()
-// 0x0000003E System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyEnumerator`2::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
-// 0x0000003F System.Int32 System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyCollection`2::System.Collections.Generic.ICollection`1.get_Count()
-// 0x00000040 System.Boolean System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyCollection`2::System.Collections.Generic.ICollection`1.get_IsReadOnly()
-// 0x00000041 System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyCollection`2::System.Collections.Generic.ICollection`1.Add(TKey)
-// 0x00000042 System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyCollection`2::System.Collections.Generic.ICollection`1.Clear()
-// 0x00000043 System.Boolean System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyCollection`2::System.Collections.Generic.ICollection`1.Contains(TKey)
-// 0x00000044 System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyCollection`2::System.Collections.Generic.ICollection`1.CopyTo(TKey[],System.Int32)
-// 0x00000045 System.Boolean System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyCollection`2::System.Collections.Generic.ICollection`1.Remove(TKey)
-// 0x00000046 System.Collections.Generic.IEnumerator`1<TValue> System.Runtime.InteropServices.WindowsRuntime.DictionaryValueCollection`2::System.Collections.Generic.IEnumerable`1.GetEnumerator()
-// 0x00000047 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.DictionaryValueCollection`2::System.Collections.IEnumerable.GetEnumerator()
-// 0x00000048 System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryValueCollection`2::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
-// 0x00000049 TValue System.Runtime.InteropServices.WindowsRuntime.DictionaryValueEnumerator`2::System.Collections.Generic.IEnumerator`1.get_Current()
-// 0x0000004A System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryValueEnumerator`2::System.IDisposable.Dispose()
-// 0x0000004B System.Boolean System.Runtime.InteropServices.WindowsRuntime.DictionaryValueEnumerator`2::System.Collections.IEnumerator.MoveNext()
-// 0x0000004C System.Object System.Runtime.InteropServices.WindowsRuntime.DictionaryValueEnumerator`2::System.Collections.IEnumerator.get_Current()
-// 0x0000004D System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryValueEnumerator`2::System.Collections.IEnumerator.Reset()
-// 0x0000004E System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryValueEnumerator`2::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
-// 0x0000004F System.Int32 System.Runtime.InteropServices.WindowsRuntime.DictionaryValueCollection`2::System.Collections.Generic.ICollection`1.get_Count()
-// 0x00000050 System.Boolean System.Runtime.InteropServices.WindowsRuntime.DictionaryValueCollection`2::System.Collections.Generic.ICollection`1.get_IsReadOnly()
-// 0x00000051 System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryValueCollection`2::System.Collections.Generic.ICollection`1.Add(TValue)
-// 0x00000052 System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryValueCollection`2::System.Collections.Generic.ICollection`1.Clear()
-// 0x00000053 System.Boolean System.Runtime.InteropServices.WindowsRuntime.DictionaryValueCollection`2::System.Collections.Generic.ICollection`1.Contains(TValue)
-// 0x00000054 System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryValueCollection`2::System.Collections.Generic.ICollection`1.CopyTo(TValue[],System.Int32)
-// 0x00000055 System.Boolean System.Runtime.InteropServices.WindowsRuntime.DictionaryValueCollection`2::System.Collections.Generic.ICollection`1.Remove(TValue)
-// 0x00000056 T System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.IList`1.get_Item(System.Int32)
-// 0x00000057 System.Void System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.IList`1.set_Item(System.Int32,T)
-// 0x00000058 System.Int32 System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.IList`1.IndexOf(T)
-// 0x00000059 System.Void System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.IList`1.Insert(System.Int32,T)
-// 0x0000005A System.Void System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.IList`1.RemoveAt(System.Int32)
-// 0x0000005B System.Int32 System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.ICollection`1.get_Count()
-// 0x0000005C System.Boolean System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.ICollection`1.get_IsReadOnly()
-// 0x0000005D System.Void System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.ICollection`1.Add(T)
-// 0x0000005E System.Void System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.ICollection`1.Clear()
-// 0x0000005F System.Boolean System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.ICollection`1.Contains(T)
-// 0x00000060 System.Void System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.ICollection`1.CopyTo(T[],System.Int32)
-// 0x00000061 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.ICollection`1.Remove(T)
-// 0x00000062 System.Collections.Generic.IEnumerator`1<T> System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.IEnumerable`1.GetEnumerator()
-// 0x00000063 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x00000064 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IMapViewToIReadOnlyDictionaryAdapter`2::System.Collections.Generic.IReadOnlyDictionary`2.ContainsKey(TKey)
-// 0x00000065 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IMapViewToIReadOnlyDictionaryAdapter`2::System.Collections.Generic.IReadOnlyDictionary`2.TryGetValue(TKey,TValue&)
-// 0x00000066 TValue System.Runtime.InteropServices.WindowsRuntime.IMapViewToIReadOnlyDictionaryAdapter`2::System.Collections.Generic.IReadOnlyDictionary`2.get_Item(TKey)
-// 0x00000067 System.Collections.Generic.IEnumerable`1<TKey> System.Runtime.InteropServices.WindowsRuntime.IMapViewToIReadOnlyDictionaryAdapter`2::System.Collections.Generic.IReadOnlyDictionary`2.get_Keys()
-// 0x00000068 System.Collections.Generic.IEnumerable`1<TValue> System.Runtime.InteropServices.WindowsRuntime.IMapViewToIReadOnlyDictionaryAdapter`2::System.Collections.Generic.IReadOnlyDictionary`2.get_Values()
-// 0x00000069 System.Int32 System.Runtime.InteropServices.WindowsRuntime.IMapViewToIReadOnlyDictionaryAdapter`2::System.Collections.Generic.IReadOnlyCollection`1.get_Count()
-// 0x0000006A System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> System.Runtime.InteropServices.WindowsRuntime.IMapViewToIReadOnlyDictionaryAdapter`2::System.Collections.Generic.IEnumerable`1.GetEnumerator()
-// 0x0000006B System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.IMapViewToIReadOnlyDictionaryAdapter`2::System.Collections.IEnumerable.GetEnumerator()
-// 0x0000006C System.Collections.Generic.IEnumerator`1<TKey> System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryKeyCollection`2::System.Collections.Generic.IEnumerable`1.GetEnumerator()
-// 0x0000006D System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryKeyCollection`2::System.Collections.IEnumerable.GetEnumerator()
-// 0x0000006E System.Void System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryKeyCollection`2::.ctor(System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue>)
-// 0x0000006F TKey System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryKeyEnumerator`2::System.Collections.Generic.IEnumerator`1.get_Current()
-// 0x00000070 System.Void System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryKeyEnumerator`2::System.IDisposable.Dispose()
-// 0x00000071 System.Boolean System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryKeyEnumerator`2::System.Collections.IEnumerator.MoveNext()
-// 0x00000072 System.Object System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryKeyEnumerator`2::System.Collections.IEnumerator.get_Current()
-// 0x00000073 System.Void System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryKeyEnumerator`2::System.Collections.IEnumerator.Reset()
-// 0x00000074 System.Void System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryKeyEnumerator`2::.ctor(System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue>)
-// 0x00000075 System.Collections.Generic.IEnumerator`1<TValue> System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryValueCollection`2::System.Collections.Generic.IEnumerable`1.GetEnumerator()
-// 0x00000076 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryValueCollection`2::System.Collections.IEnumerable.GetEnumerator()
-// 0x00000077 System.Void System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryValueCollection`2::.ctor(System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue>)
-// 0x00000078 TValue System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryValueEnumerator`2::System.Collections.Generic.IEnumerator`1.get_Current()
-// 0x00000079 System.Void System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryValueEnumerator`2::System.IDisposable.Dispose()
-// 0x0000007A System.Boolean System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryValueEnumerator`2::System.Collections.IEnumerator.MoveNext()
-// 0x0000007B System.Object System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryValueEnumerator`2::System.Collections.IEnumerator.get_Current()
-// 0x0000007C System.Void System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryValueEnumerator`2::System.Collections.IEnumerator.Reset()
-// 0x0000007D System.Void System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryValueEnumerator`2::.ctor(System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue>)
-// 0x0000007E T System.Runtime.InteropServices.WindowsRuntime.IVectorViewToIReadOnlyListAdapter`1::System.Collections.Generic.IReadOnlyList`1.get_Item(System.Int32)
-// 0x0000007F System.Int32 System.Runtime.InteropServices.WindowsRuntime.IVectorViewToIReadOnlyListAdapter`1::System.Collections.Generic.IReadOnlyCollection`1.get_Count()
-// 0x00000080 System.Collections.Generic.IEnumerator`1<T> System.Runtime.InteropServices.WindowsRuntime.IVectorViewToIReadOnlyListAdapter`1::System.Collections.Generic.IEnumerable`1.GetEnumerator()
-// 0x00000081 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.IVectorViewToIReadOnlyListAdapter`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x00000082 System.Void System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+// 0x00000025 System.Collections.Generic.IEnumerator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIterableToIEnumerableAdapter`1::System.Collections.Generic.IEnumerable`1.GetEnumerator()
+// 0x00000026 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.IIterableToIEnumerableAdapter`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000027 TValue System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.IDictionary`2.get_Item(TKey)
+// 0x00000028 System.Void System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.IDictionary`2.set_Item(TKey,TValue)
+// 0x00000029 System.Collections.Generic.ICollection`1<TKey> System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.IDictionary`2.get_Keys()
+// 0x0000002A System.Collections.Generic.ICollection`1<TValue> System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.IDictionary`2.get_Values()
+// 0x0000002B System.Boolean System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.IDictionary`2.ContainsKey(TKey)
+// 0x0000002C System.Void System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.IDictionary`2.Add(TKey,TValue)
+// 0x0000002D System.Boolean System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.IDictionary`2.Remove(TKey)
+// 0x0000002E System.Boolean System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.IDictionary`2.TryGetValue(TKey,TValue&)
+// 0x0000002F System.Int32 System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.ICollection`1.get_Count()
+// 0x00000030 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.ICollection`1.get_IsReadOnly()
+// 0x00000031 System.Void System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.ICollection`1.Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+// 0x00000032 System.Void System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.ICollection`1.Clear()
+// 0x00000033 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.ICollection`1.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+// 0x00000034 System.Void System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.ICollection`1.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
+// 0x00000035 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.ICollection`1.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+// 0x00000036 System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.Generic.IEnumerable`1.GetEnumerator()
+// 0x00000037 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.IMapToIDictionaryAdapter`2::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000038 System.Collections.Generic.IEnumerator`1<TKey> System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyCollection`2::System.Collections.Generic.IEnumerable`1.GetEnumerator()
+// 0x00000039 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyCollection`2::System.Collections.IEnumerable.GetEnumerator()
+// 0x0000003A System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyCollection`2::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
+// 0x0000003B TKey System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyEnumerator`2::System.Collections.Generic.IEnumerator`1.get_Current()
+// 0x0000003C System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyEnumerator`2::System.IDisposable.Dispose()
+// 0x0000003D System.Boolean System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyEnumerator`2::System.Collections.IEnumerator.MoveNext()
+// 0x0000003E System.Object System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyEnumerator`2::System.Collections.IEnumerator.get_Current()
+// 0x0000003F System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyEnumerator`2::System.Collections.IEnumerator.Reset()
+// 0x00000040 System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyEnumerator`2::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
+// 0x00000041 System.Int32 System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyCollection`2::System.Collections.Generic.ICollection`1.get_Count()
+// 0x00000042 System.Boolean System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyCollection`2::System.Collections.Generic.ICollection`1.get_IsReadOnly()
+// 0x00000043 System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyCollection`2::System.Collections.Generic.ICollection`1.Add(TKey)
+// 0x00000044 System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyCollection`2::System.Collections.Generic.ICollection`1.Clear()
+// 0x00000045 System.Boolean System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyCollection`2::System.Collections.Generic.ICollection`1.Contains(TKey)
+// 0x00000046 System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyCollection`2::System.Collections.Generic.ICollection`1.CopyTo(TKey[],System.Int32)
+// 0x00000047 System.Boolean System.Runtime.InteropServices.WindowsRuntime.DictionaryKeyCollection`2::System.Collections.Generic.ICollection`1.Remove(TKey)
+// 0x00000048 System.Collections.Generic.IEnumerator`1<TValue> System.Runtime.InteropServices.WindowsRuntime.DictionaryValueCollection`2::System.Collections.Generic.IEnumerable`1.GetEnumerator()
+// 0x00000049 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.DictionaryValueCollection`2::System.Collections.IEnumerable.GetEnumerator()
+// 0x0000004A System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryValueCollection`2::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
+// 0x0000004B TValue System.Runtime.InteropServices.WindowsRuntime.DictionaryValueEnumerator`2::System.Collections.Generic.IEnumerator`1.get_Current()
+// 0x0000004C System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryValueEnumerator`2::System.IDisposable.Dispose()
+// 0x0000004D System.Boolean System.Runtime.InteropServices.WindowsRuntime.DictionaryValueEnumerator`2::System.Collections.IEnumerator.MoveNext()
+// 0x0000004E System.Object System.Runtime.InteropServices.WindowsRuntime.DictionaryValueEnumerator`2::System.Collections.IEnumerator.get_Current()
+// 0x0000004F System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryValueEnumerator`2::System.Collections.IEnumerator.Reset()
+// 0x00000050 System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryValueEnumerator`2::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
+// 0x00000051 System.Int32 System.Runtime.InteropServices.WindowsRuntime.DictionaryValueCollection`2::System.Collections.Generic.ICollection`1.get_Count()
+// 0x00000052 System.Boolean System.Runtime.InteropServices.WindowsRuntime.DictionaryValueCollection`2::System.Collections.Generic.ICollection`1.get_IsReadOnly()
+// 0x00000053 System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryValueCollection`2::System.Collections.Generic.ICollection`1.Add(TValue)
+// 0x00000054 System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryValueCollection`2::System.Collections.Generic.ICollection`1.Clear()
+// 0x00000055 System.Boolean System.Runtime.InteropServices.WindowsRuntime.DictionaryValueCollection`2::System.Collections.Generic.ICollection`1.Contains(TValue)
+// 0x00000056 System.Void System.Runtime.InteropServices.WindowsRuntime.DictionaryValueCollection`2::System.Collections.Generic.ICollection`1.CopyTo(TValue[],System.Int32)
+// 0x00000057 System.Boolean System.Runtime.InteropServices.WindowsRuntime.DictionaryValueCollection`2::System.Collections.Generic.ICollection`1.Remove(TValue)
+// 0x00000058 T System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.IList`1.get_Item(System.Int32)
+// 0x00000059 System.Void System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.IList`1.set_Item(System.Int32,T)
+// 0x0000005A System.Int32 System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.IList`1.IndexOf(T)
+// 0x0000005B System.Void System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.IList`1.Insert(System.Int32,T)
+// 0x0000005C System.Void System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.IList`1.RemoveAt(System.Int32)
+// 0x0000005D System.Int32 System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.ICollection`1.get_Count()
+// 0x0000005E System.Boolean System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.ICollection`1.get_IsReadOnly()
+// 0x0000005F System.Void System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.ICollection`1.Add(T)
+// 0x00000060 System.Void System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.ICollection`1.Clear()
+// 0x00000061 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.ICollection`1.Contains(T)
+// 0x00000062 System.Void System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.ICollection`1.CopyTo(T[],System.Int32)
+// 0x00000063 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.ICollection`1.Remove(T)
+// 0x00000064 System.Collections.Generic.IEnumerator`1<T> System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.Generic.IEnumerable`1.GetEnumerator()
+// 0x00000065 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.IVectorToIListAdapter`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000066 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IMapViewToIReadOnlyDictionaryAdapter`2::System.Collections.Generic.IReadOnlyDictionary`2.ContainsKey(TKey)
+// 0x00000067 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IMapViewToIReadOnlyDictionaryAdapter`2::System.Collections.Generic.IReadOnlyDictionary`2.TryGetValue(TKey,TValue&)
+// 0x00000068 TValue System.Runtime.InteropServices.WindowsRuntime.IMapViewToIReadOnlyDictionaryAdapter`2::System.Collections.Generic.IReadOnlyDictionary`2.get_Item(TKey)
+// 0x00000069 System.Collections.Generic.IEnumerable`1<TKey> System.Runtime.InteropServices.WindowsRuntime.IMapViewToIReadOnlyDictionaryAdapter`2::System.Collections.Generic.IReadOnlyDictionary`2.get_Keys()
+// 0x0000006A System.Collections.Generic.IEnumerable`1<TValue> System.Runtime.InteropServices.WindowsRuntime.IMapViewToIReadOnlyDictionaryAdapter`2::System.Collections.Generic.IReadOnlyDictionary`2.get_Values()
+// 0x0000006B System.Int32 System.Runtime.InteropServices.WindowsRuntime.IMapViewToIReadOnlyDictionaryAdapter`2::System.Collections.Generic.IReadOnlyCollection`1.get_Count()
+// 0x0000006C System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> System.Runtime.InteropServices.WindowsRuntime.IMapViewToIReadOnlyDictionaryAdapter`2::System.Collections.Generic.IEnumerable`1.GetEnumerator()
+// 0x0000006D System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.IMapViewToIReadOnlyDictionaryAdapter`2::System.Collections.IEnumerable.GetEnumerator()
+// 0x0000006E System.Collections.Generic.IEnumerator`1<TKey> System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryKeyCollection`2::System.Collections.Generic.IEnumerable`1.GetEnumerator()
+// 0x0000006F System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryKeyCollection`2::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000070 System.Void System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryKeyCollection`2::.ctor(System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue>)
+// 0x00000071 TKey System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryKeyEnumerator`2::System.Collections.Generic.IEnumerator`1.get_Current()
+// 0x00000072 System.Void System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryKeyEnumerator`2::System.IDisposable.Dispose()
+// 0x00000073 System.Boolean System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryKeyEnumerator`2::System.Collections.IEnumerator.MoveNext()
+// 0x00000074 System.Object System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryKeyEnumerator`2::System.Collections.IEnumerator.get_Current()
+// 0x00000075 System.Void System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryKeyEnumerator`2::System.Collections.IEnumerator.Reset()
+// 0x00000076 System.Void System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryKeyEnumerator`2::.ctor(System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue>)
+// 0x00000077 System.Collections.Generic.IEnumerator`1<TValue> System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryValueCollection`2::System.Collections.Generic.IEnumerable`1.GetEnumerator()
+// 0x00000078 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryValueCollection`2::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000079 System.Void System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryValueCollection`2::.ctor(System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue>)
+// 0x0000007A TValue System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryValueEnumerator`2::System.Collections.Generic.IEnumerator`1.get_Current()
+// 0x0000007B System.Void System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryValueEnumerator`2::System.IDisposable.Dispose()
+// 0x0000007C System.Boolean System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryValueEnumerator`2::System.Collections.IEnumerator.MoveNext()
+// 0x0000007D System.Object System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryValueEnumerator`2::System.Collections.IEnumerator.get_Current()
+// 0x0000007E System.Void System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryValueEnumerator`2::System.Collections.IEnumerator.Reset()
+// 0x0000007F System.Void System.Runtime.InteropServices.WindowsRuntime.ReadOnlyDictionaryValueEnumerator`2::.ctor(System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue>)
+// 0x00000080 T System.Runtime.InteropServices.WindowsRuntime.IVectorViewToIReadOnlyListAdapter`1::System.Collections.Generic.IReadOnlyList`1.get_Item(System.Int32)
+// 0x00000081 System.Int32 System.Runtime.InteropServices.WindowsRuntime.IVectorViewToIReadOnlyListAdapter`1::System.Collections.Generic.IReadOnlyCollection`1.get_Count()
+// 0x00000082 System.Collections.Generic.IEnumerator`1<T> System.Runtime.InteropServices.WindowsRuntime.IVectorViewToIReadOnlyListAdapter`1::System.Collections.Generic.IEnumerable`1.GetEnumerator()
+// 0x00000083 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.IVectorViewToIReadOnlyListAdapter`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000084 System.Void System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
 extern void IInspectableToICollectionAdapter_System_Collections_ICollection_CopyTo_m5B1BF0A28E3D8FA85129960EDA360A0EEC407288 (void);
-// 0x00000083 System.Int32 System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter::System.Collections.ICollection.get_Count()
+// 0x00000085 System.Int32 System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter::System.Collections.ICollection.get_Count()
 extern void IInspectableToICollectionAdapter_System_Collections_ICollection_get_Count_mE39C0DFD459AC768ADF3FD088A3FD3F35DF07D0C (void);
-// 0x00000084 System.Object System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter::System.Collections.ICollection.get_SyncRoot()
+// 0x00000086 System.Object System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter::System.Collections.ICollection.get_SyncRoot()
 extern void IInspectableToICollectionAdapter_System_Collections_ICollection_get_SyncRoot_m4AF4874507B5A49EE33359A4C018A28B7FF603D3 (void);
-// 0x00000085 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter::System.Collections.ICollection.get_IsSynchronized()
+// 0x00000087 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter::System.Collections.ICollection.get_IsSynchronized()
 extern void IInspectableToICollectionAdapter_System_Collections_ICollection_get_IsSynchronized_m26B262315DF57075A12C34A6A6134FE9B66872F0 (void);
-// 0x00000086 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000088 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter::System.Collections.IEnumerable.GetEnumerator()
 extern void IInspectableToICollectionAdapter_System_Collections_IEnumerable_GetEnumerator_m5647A4B5343DC06AADD7E88669B2E8D2D9FB2288 (void);
-// 0x00000087 System.Int32 System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::System.Collections.Generic.ICollection`1.get_Count()
-// 0x00000088 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::System.Collections.Generic.ICollection`1.get_IsReadOnly()
-// 0x00000089 System.Void System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::System.Collections.Generic.ICollection`1.Add(T)
-// 0x0000008A System.Void System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::System.Collections.Generic.ICollection`1.Clear()
-// 0x0000008B System.Boolean System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::System.Collections.Generic.ICollection`1.Contains(T)
-// 0x0000008C System.Void System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::System.Collections.Generic.ICollection`1.CopyTo(T[],System.Int32)
-// 0x0000008D System.Boolean System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::System.Collections.Generic.ICollection`1.Remove(T)
-// 0x0000008E System.Collections.Generic.IEnumerator`1<T> System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::System.Collections.Generic.IEnumerable`1.GetEnumerator()
-// 0x0000008F System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x00000090 System.Int32 System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::GetIMapSize()
-// 0x00000091 System.Void System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::AddToIMap(T)
-// 0x00000092 System.Void System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::ClearIMap()
-// 0x00000093 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::IMapContains(T)
-// 0x00000094 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::RemoveFromIMap(T)
-// 0x00000095 System.Int32 System.Runtime.InteropServices.WindowsRuntime.IInspectableToIReadOnlyCollectionAdapter`1::System.Collections.Generic.IReadOnlyCollection`1.get_Count()
-// 0x00000096 System.Collections.Generic.IEnumerator`1<T> System.Runtime.InteropServices.WindowsRuntime.IInspectableToIReadOnlyCollectionAdapter`1::System.Collections.Generic.IEnumerable`1.GetEnumerator()
-// 0x00000097 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.IInspectableToIReadOnlyCollectionAdapter`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x00000098 System.Int32 System.Runtime.InteropServices.WindowsRuntime.IInspectableToIReadOnlyCollectionAdapter`1::GetIMapSize()
-static Il2CppMethodPointer s_methodPointers[152] = 
+// 0x00000089 System.Int32 System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::System.Collections.Generic.ICollection`1.get_Count()
+// 0x0000008A System.Boolean System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::System.Collections.Generic.ICollection`1.get_IsReadOnly()
+// 0x0000008B System.Void System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::System.Collections.Generic.ICollection`1.Add(T)
+// 0x0000008C System.Void System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::System.Collections.Generic.ICollection`1.Clear()
+// 0x0000008D System.Boolean System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::System.Collections.Generic.ICollection`1.Contains(T)
+// 0x0000008E System.Void System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::System.Collections.Generic.ICollection`1.CopyTo(T[],System.Int32)
+// 0x0000008F System.Boolean System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::System.Collections.Generic.ICollection`1.Remove(T)
+// 0x00000090 System.Collections.Generic.IEnumerator`1<T> System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::System.Collections.Generic.IEnumerable`1.GetEnumerator()
+// 0x00000091 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000092 System.Int32 System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::GetIMapSize()
+// 0x00000093 System.Void System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::AddToIMap(T)
+// 0x00000094 System.Void System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::ClearIMap()
+// 0x00000095 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::IMapContains(T)
+// 0x00000096 System.Boolean System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1::RemoveFromIMap(T)
+// 0x00000097 System.Int32 System.Runtime.InteropServices.WindowsRuntime.IInspectableToIReadOnlyCollectionAdapter`1::System.Collections.Generic.IReadOnlyCollection`1.get_Count()
+// 0x00000098 System.Collections.Generic.IEnumerator`1<T> System.Runtime.InteropServices.WindowsRuntime.IInspectableToIReadOnlyCollectionAdapter`1::System.Collections.Generic.IEnumerable`1.GetEnumerator()
+// 0x00000099 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.IInspectableToIReadOnlyCollectionAdapter`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x0000009A System.Int32 System.Runtime.InteropServices.WindowsRuntime.IInspectableToIReadOnlyCollectionAdapter`1::GetIMapSize()
+static Il2CppMethodPointer s_methodPointers[154] = 
 {
 	NULL,
 	__Il2CppComObject_Finalize_m720B2062F661A0770A32D24B731AD4AFE314A5CD,
@@ -212,6 +216,8 @@ static Il2CppMethodPointer s_methodPointers[152] =
 	NULL,
 	NULL,
 	NULL,
+	INotifyCollectionChangedToINotifyCollectionChangedAdapter_System_Collections_Specialized_INotifyCollectionChanged_add_CollectionChanged_m9BD0A50A5FDD6B810EF85BE7D3B5305DFB29B77C,
+	INotifyCollectionChangedToINotifyCollectionChangedAdapter_System_Collections_Specialized_INotifyCollectionChanged_remove_CollectionChanged_m22DDBF580FD02BC068894E452AF53177F8F468ED,
 	INotifyPropertyChangedToINotifyPropertyChangedAdapter_System_ComponentModel_INotifyPropertyChanged_add_PropertyChanged_m7BB76FF73169F09B532EE7C89F8F150D6168BC12,
 	INotifyPropertyChangedToINotifyPropertyChangedAdapter_System_ComponentModel_INotifyPropertyChanged_remove_PropertyChanged_m51129CD3B8DE96B15B6833D9C09962C28E35CEAF,
 	IClosableToIDisposableAdapter_System_IDisposable_Dispose_m501D14E26D43BC46FBBCFF4F120599F5C6646641,
@@ -351,42 +357,44 @@ static Il2CppMethodPointer s_methodPointers[152] =
 	NULL,
 	NULL,
 };
-static const int32_t s_InvokerIndices[152] = 
+static const int32_t s_InvokerIndices[154] = 
 {
 	0,
-	9361,
-	9179,
-	9361,
-	9026,
-	9179,
-	9361,
-	7569,
+	10008,
+	9822,
+	10008,
+	9667,
+	9822,
+	10008,
+	8120,
 	0,
 	0,
 	0,
 	0,
 	0,
 	0,
-	7569,
-	7569,
-	9361,
-	9179,
-	6690,
-	3943,
-	6280,
-	5423,
-	9361,
-	9026,
-	9026,
-	6280,
-	3943,
-	7569,
-	7514,
-	4266,
-	9120,
-	9179,
-	9026,
-	9179,
+	8120,
+	8120,
+	8120,
+	8120,
+	10008,
+	9822,
+	7192,
+	4297,
+	6760,
+	5871,
+	10008,
+	9667,
+	9667,
+	6760,
+	4297,
+	8120,
+	8065,
+	4630,
+	9763,
+	9822,
+	9667,
+	9822,
 	0,
 	0,
 	0,
@@ -482,11 +490,11 @@ static const int32_t s_InvokerIndices[152] =
 	0,
 	0,
 	0,
-	4266,
-	9120,
-	9179,
-	9026,
-	9179,
+	4630,
+	9763,
+	9822,
+	9667,
+	9822,
 	0,
 	0,
 	0,
@@ -509,21 +517,21 @@ static const int32_t s_InvokerIndices[152] =
 static const Il2CppTokenRangePair s_rgctxIndices[16] = 
 {
 	{ 0x02000005, { 0, 5 } },
-	{ 0x0200000A, { 5, 4 } },
-	{ 0x0200000B, { 9, 11 } },
-	{ 0x0200000C, { 20, 12 } },
-	{ 0x0200000D, { 32, 7 } },
-	{ 0x0200000E, { 39, 14 } },
-	{ 0x0200000F, { 53, 7 } },
-	{ 0x02000010, { 60, 6 } },
-	{ 0x02000011, { 66, 9 } },
-	{ 0x02000012, { 75, 3 } },
-	{ 0x02000013, { 78, 7 } },
-	{ 0x02000014, { 85, 3 } },
-	{ 0x02000015, { 88, 7 } },
-	{ 0x02000016, { 95, 2 } },
-	{ 0x02000018, { 97, 20 } },
-	{ 0x02000019, { 117, 4 } },
+	{ 0x0200000B, { 5, 4 } },
+	{ 0x0200000C, { 9, 11 } },
+	{ 0x0200000D, { 20, 12 } },
+	{ 0x0200000E, { 32, 7 } },
+	{ 0x0200000F, { 39, 14 } },
+	{ 0x02000010, { 53, 7 } },
+	{ 0x02000011, { 60, 6 } },
+	{ 0x02000012, { 66, 9 } },
+	{ 0x02000013, { 75, 3 } },
+	{ 0x02000014, { 78, 7 } },
+	{ 0x02000015, { 85, 3 } },
+	{ 0x02000016, { 88, 7 } },
+	{ 0x02000017, { 95, 2 } },
+	{ 0x02000019, { 97, 20 } },
+	{ 0x0200001A, { 117, 4 } },
 };
 extern const uint32_t g_rgctx_IIterator_1_t42F8A1D572C5A8577276AE2BD5BFE4FB60B0D5D3;
 extern const uint32_t g_rgctx_IIterator_1_get_HasCurrent_m303100ABABF6070E2AC0A0CCAC3A4CC1C78185EE;
@@ -774,7 +782,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g___Generated_CodeGenModule;
 const Il2CppCodeGenModule g___Generated_CodeGenModule = 
 {
 	"__Generated",
-	152,
+	154,
 	s_methodPointers,
 	0,
 	NULL,

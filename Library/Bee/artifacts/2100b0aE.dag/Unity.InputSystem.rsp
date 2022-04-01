@@ -125,7 +125,9 @@
 -define:UNITY_INPUT_SYSTEM_ENABLE_UI
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll"
+-r:"Assets/Azure Storage/Plugins/Microsoft.WindowsAzure.Storage.dll"
+-r:"Assets/Azure Storage/Plugins/Newtonsoft.Json.dll"
+-r:"Assets/Azure Storage/Plugins/System.Reflection.TypeExtensions.dll"
 -r:"Assets/LitJson.dll"
 -r:"Assets/MRTK.Tutorials.AzureSpatialAnchors/Plugins/RestSharp.dll"
 -r:"Assets/NuGet/Editor/DotNetZip.dll"
