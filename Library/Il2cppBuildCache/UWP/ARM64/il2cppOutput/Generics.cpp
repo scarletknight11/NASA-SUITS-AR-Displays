@@ -391,6 +391,8 @@ struct U3CU3Ec__6_1_t25C80A036295EBFE1F058F1374E43E3C902CEB10;
 struct U3CU3Ec__6_1_t003714F7C2E7AD9011282A9E280BD82EBB449D7B;
 // Newtonsoft.Json.Utilities.AsyncUtils/<>c__6`1<System.Object>
 struct U3CU3Ec__6_1_t70AF1752B6FAC7862806EC3BB15B7E1B1AB0C26A;
+// UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<>c__90`1<System.Object>
+struct U3CU3Ec__90_1_t6BB03066B2B18DA5EAEB0EC9E5BF90FB65D80730;
 // UniRx.Observable/<>c__DisplayClass0_0`1<System.Object>
 struct U3CU3Ec__DisplayClass0_0_1_t481536B0B71321742586EFA2C42C0FF6285D2CDD;
 // UniRx.WebRequestExtensions/<>c__DisplayClass0_0`1<System.Object>
@@ -1273,6 +1275,8 @@ struct Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93;
 struct Func_2_tFD36EA818BBCBD1EDE1E1540FC3EF156A6ADCCAD;
 // System.Func`2<UnityEngine.InputSystem.Utilities.Substring,System.Object>
 struct Func_2_tB87969817D1EDC637904CC3302B8C93B14ACF9FB;
+// System.Func`2<System.Type,System.Boolean>
+struct Func_2_t7AF8146EC94DFCBB0F1B3E70111C1FB21D39F00E;
 // System.Func`2<UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem,System.Boolean>
 struct Func_2_tE8C03B34A75321160F6D3EFCB01F9346EC7F21C7;
 // System.Func`2<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue,System.Object>
@@ -3780,6 +3784,19 @@ struct U3CU3Ec__6_1_t70AF1752B6FAC7862806EC3BB15B7E1B1AB0C26A_StaticFields
 	U3CU3Ec__6_1_t70AF1752B6FAC7862806EC3BB15B7E1B1AB0C26A* ___U3CU3E9_0;
 	// System.Func`1<T> Newtonsoft.Json.Utilities.AsyncUtils/<>c__6`1::<>9__6_0
 	Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* ___U3CU3E9__6_0_1;
+};
+
+// UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<>c__90`1<System.Object>
+struct U3CU3Ec__90_1_t6BB03066B2B18DA5EAEB0EC9E5BF90FB65D80730  : public RuntimeObject
+{
+};
+
+struct U3CU3Ec__90_1_t6BB03066B2B18DA5EAEB0EC9E5BF90FB65D80730_StaticFields
+{
+	// UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<>c__90`1<T> UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<>c__90`1::<>9
+	U3CU3Ec__90_1_t6BB03066B2B18DA5EAEB0EC9E5BF90FB65D80730* ___U3CU3E9_0;
+	// System.Func`2<System.Type,System.Boolean> UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<>c__90`1::<>9__90_0
+	Func_2_t7AF8146EC94DFCBB0F1B3E70111C1FB21D39F00E* ___U3CU3E9__90_0_1;
 };
 
 // UniRx.Observable/<>c__DisplayClass0_0`1<System.Object>
@@ -20689,6 +20706,56 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec__6_1_U3CFromCanceledU3
 		il2cpp_codegen_initobj((&V_0), sizeof(RuntimeObject*));
 		RuntimeObject* L_0 = V_0;
 		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<>c__90`1<System.Object>::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__90_1__cctor_m99E983636F57ADD1A5474DCB2A198356B909D821_gshared (const RuntimeMethod* method) 
+{
+	{
+		U3CU3Ec__90_1_t6BB03066B2B18DA5EAEB0EC9E5BF90FB65D80730* L_0 = (U3CU3Ec__90_1_t6BB03066B2B18DA5EAEB0EC9E5BF90FB65D80730*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		NullCheck(L_0);
+		((  void (*) (U3CU3Ec__90_1_t6BB03066B2B18DA5EAEB0EC9E5BF90FB65D80730*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1)))(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		((U3CU3Ec__90_1_t6BB03066B2B18DA5EAEB0EC9E5BF90FB65D80730_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CU3E9_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec__90_1_t6BB03066B2B18DA5EAEB0EC9E5BF90FB65D80730_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CU3E9_0), (void*)L_0);
+		return;
+	}
+}
+// System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<>c__90`1<System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__90_1__ctor_m9893227C350363DBC4AF39D46335C701290CBE97_gshared (U3CU3Ec__90_1_t6BB03066B2B18DA5EAEB0EC9E5BF90FB65D80730* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
+		return;
+	}
+}
+// System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<>c__90`1<System.Object>::<GetAllTypesDerivedFrom>b__90_0(System.Type)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__90_1_U3CGetAllTypesDerivedFromU3Eb__90_0_m632A9B618864565F80A8298A7620F0DC485603F8_gshared (U3CU3Ec__90_1_t6BB03066B2B18DA5EAEB0EC9E5BF90FB65D80730* __this, Type_t* ___t0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// return GetAllAssemblyTypes().Where(t => t.IsSubclassOf(typeof(T)));
+		Type_t* L_0 = ___t0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 3)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_2;
+		L_2 = Type_GetTypeFromHandle_m2570A2A5B32A5E9D9F0F38B37459DA18736C823E(L_1, NULL);
+		NullCheck(L_0);
+		bool L_3;
+		L_3 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(30 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_0, L_2);
+		return L_3;
 	}
 }
 #ifdef __clang__

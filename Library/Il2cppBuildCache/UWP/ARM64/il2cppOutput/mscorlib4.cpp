@@ -14582,6 +14582,42 @@ IL_0011:
 		return L_3;
 	}
 }
+// System.Int64 System.Math::Abs(System.Int64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Math_Abs_m31D31F8FC59F7082EBEB81A4454378C5C0948FAD (int64_t ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = ___value0;
+		if ((((int64_t)L_0) >= ((int64_t)((int64_t)0))))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		int64_t L_1 = ___value0;
+		___value0 = ((-L_1));
+		int64_t L_2 = ___value0;
+		if ((((int64_t)L_2) >= ((int64_t)((int64_t)0))))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		Math_ThrowAbsOverflow_m0AA03C7836D310B2CE009AA38ED4CA513AA4B92F(NULL);
+	}
+
+IL_0013:
+	{
+		int64_t L_3 = ___value0;
+		return L_3;
+	}
+}
 // System.Decimal System.Math::Abs(System.Decimal)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F Math_Abs_m92EB8C43121E759A8C6F1AB3BC1539419E8848A2 (Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___value0, const RuntimeMethod* method) 
 {
@@ -15501,6 +15537,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Ceiling_m6DEC6A8275CADD68506EB4FE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Cos_m03188A7A537364912249402E868F903B988F7238 (double ___d0, const RuntimeMethod* method) 
 {
 	return cos(___d0);
+}
+// System.Double System.Math::Exp(System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Exp_mD4B23863C2C53306E6562BA6BEFEBEEA7C8821A1 (double ___d0, const RuntimeMethod* method) 
+{
+	return exp(___d0);
 }
 // System.Double System.Math::Floor(System.Double)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Floor_mDFB3752DF269EEF4B75FCFAD048CF1158C286FAF (double ___d0, const RuntimeMethod* method) 

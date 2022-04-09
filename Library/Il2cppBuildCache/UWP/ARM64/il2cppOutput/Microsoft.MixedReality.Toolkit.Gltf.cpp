@@ -8076,7 +8076,7 @@ IL_0341_1:
 			Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_107 = __this->___U3CtextureU3E5__3_6;
 			NullCheck(L_107);
 			bool L_108;
-			L_108 = VirtualFuncInvoker0< bool >::Invoke(8 /* System.Boolean UnityEngine.Texture::get_isReadable() */, L_107);
+			L_108 = VirtualFuncInvoker0< bool >::Invoke(10 /* System.Boolean UnityEngine.Texture::get_isReadable() */, L_107);
 			if (!L_108)
 			{
 				goto IL_0577_1;
@@ -8108,7 +8108,7 @@ IL_0341_1:
 			Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_113 = V_3;
 			NullCheck(L_113);
 			bool L_114;
-			L_114 = VirtualFuncInvoker0< bool >::Invoke(8 /* System.Boolean UnityEngine.Texture::get_isReadable() */, L_113);
+			L_114 = VirtualFuncInvoker0< bool >::Invoke(10 /* System.Boolean UnityEngine.Texture::get_isReadable() */, L_113);
 			if (!L_114)
 			{
 				goto IL_0386_1;
@@ -9090,7 +9090,7 @@ IL_0321_1:
 			Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_109 = __this->___U3CtextureU3E5__3_6;
 			NullCheck(L_109);
 			bool L_110;
-			L_110 = VirtualFuncInvoker0< bool >::Invoke(8 /* System.Boolean UnityEngine.Texture::get_isReadable() */, L_109);
+			L_110 = VirtualFuncInvoker0< bool >::Invoke(10 /* System.Boolean UnityEngine.Texture::get_isReadable() */, L_109);
 			if (!L_110)
 			{
 				goto IL_0527_1;

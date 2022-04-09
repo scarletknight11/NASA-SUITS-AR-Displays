@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/UserInterface guides.unity
     guid: f650eae57dbc01341b7af3d6ec82934b
   - enabled: 0
@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Game.unity
     guid: 8ffae1a07f16f2543839e3486825c505
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Geology Samples.unity
     guid: 3f10e5e89bc046c4fb5b94ffecb69802
   - enabled: 0
