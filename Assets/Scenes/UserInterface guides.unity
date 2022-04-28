@@ -4175,29 +4175,27 @@ PrefabInstance:
       propertyPath: m_text
       value: '<size=42><b>Voice Command Options></size>
 
-        Jarvis Turn off
-        Toggle Menu
+        Turn off Toggle
+        Menu
 
-        Jarvis Note Taking
+        NoteTaking
 
-        Jarvis Vital Signs
+        Vital Signs
 
-        Jarvis
-        Turn Off Display
+        Jarvis Turn On Toggle
+        Menu
 
-        Jarvis Extend the Map View
-
-        Jarvis Suit
-        Conditions
-
-        Jarvis Suit Volume
-
-        PathFinding Map
-
-        Jarvis
-        Turn On Toggle Menu
-
-        Jarvis Turn On Display'
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2113875699234556495, guid: 18470d71939382448be2ecd06efa9662,
+        type: 3}
+      propertyPath: m_textAlignment
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 2113875699234556495, guid: 18470d71939382448be2ecd06efa9662,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
       objectReference: {fileID: 0}
     - target: {fileID: 3378234012929652230, guid: 18470d71939382448be2ecd06efa9662,
         type: 3}
@@ -4838,7 +4836,6 @@ GameObject:
   - component: {fileID: 616318522}
   - component: {fileID: 616318521}
   - component: {fileID: 616318528}
-  - component: {fileID: 616318527}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5052,29 +5049,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &616318527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 616318519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf98dd1206224111a38765365e98e207, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lockCursorWhenFocusLocked: 1
-  setCursorInvisibleWhenFocusLocked: 0
-  maxGazeCollisionDistance: 10
-  raycastLayerMasks:
-  - serializedVersion: 2
-    m_Bits: 4294967291
-  stabilizer:
-    storedStabilitySamples: 60
-  gazeTransform: {fileID: 0}
-  minHeadVelocityThreshold: 0.5
-  maxHeadVelocityThreshold: 2
 --- !u!114 &616318528
 MonoBehaviour:
   m_ObjectHideFlags: 0
