@@ -13,31 +13,32 @@
 
 
 // 0x00000001 System.Void System.Runtime.InteropServices.WindowsRuntime.Xaml.ListToBindableVectorViewAdapter::.ctor(System.Collections.IList)
-extern void ListToBindableVectorViewAdapter__ctor_m815361B7609BD999743E1829EDB414961FCB8EFC (void);
+extern void ListToBindableVectorViewAdapter__ctor_m29C5639232A6D62DA361BDA1E673937B478C28CC (void);
 // 0x00000002 System.UInt32 System.Runtime.InteropServices.WindowsRuntime.Xaml.ListToBindableVectorViewAdapter::get_Size()
-extern void ListToBindableVectorViewAdapter_get_Size_m150F147D532C194DFBE561F27456F679D2ECDA05 (void);
+extern void ListToBindableVectorViewAdapter_get_Size_m639607FFD5260E793DE3C653992EEE933C570826 (void);
 // 0x00000003 System.Object System.Runtime.InteropServices.WindowsRuntime.Xaml.ListToBindableVectorViewAdapter::GetAt(System.UInt32)
-extern void ListToBindableVectorViewAdapter_GetAt_mA56AA6F48725F611838F4CCA9BC8AD7150EA76A3 (void);
+extern void ListToBindableVectorViewAdapter_GetAt_m4B138FEE3A71058B2D8B39DF8BCE91EF18E317C2 (void);
 // 0x00000004 System.Boolean System.Runtime.InteropServices.WindowsRuntime.Xaml.ListToBindableVectorViewAdapter::IndexOf(System.Object,System.UInt32&)
-extern void ListToBindableVectorViewAdapter_IndexOf_mBACBC416F4471A2D2613E562A6C759C634C8C280 (void);
+extern void ListToBindableVectorViewAdapter_IndexOf_m1C9D9F10213594BA4538F263EE5EA9B27A13BAAD (void);
 // 0x00000005 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.Xaml.ListToBindableVectorViewAdapter::GetEnumerator()
-extern void ListToBindableVectorViewAdapter_GetEnumerator_m921B22C4A8E685DF058C5086AAFEC22494048476 (void);
+extern void ListToBindableVectorViewAdapter_GetEnumerator_m1946B6325E818CC98A24C8A67FFCA3656ACB078F (void);
 static Il2CppMethodPointer s_methodPointers[5] = 
 {
-	ListToBindableVectorViewAdapter__ctor_m815361B7609BD999743E1829EDB414961FCB8EFC,
-	ListToBindableVectorViewAdapter_get_Size_m150F147D532C194DFBE561F27456F679D2ECDA05,
-	ListToBindableVectorViewAdapter_GetAt_mA56AA6F48725F611838F4CCA9BC8AD7150EA76A3,
-	ListToBindableVectorViewAdapter_IndexOf_mBACBC416F4471A2D2613E562A6C759C634C8C280,
-	ListToBindableVectorViewAdapter_GetEnumerator_m921B22C4A8E685DF058C5086AAFEC22494048476,
+	ListToBindableVectorViewAdapter__ctor_m29C5639232A6D62DA361BDA1E673937B478C28CC,
+	ListToBindableVectorViewAdapter_get_Size_m639607FFD5260E793DE3C653992EEE933C570826,
+	ListToBindableVectorViewAdapter_GetAt_m4B138FEE3A71058B2D8B39DF8BCE91EF18E317C2,
+	ListToBindableVectorViewAdapter_IndexOf_m1C9D9F10213594BA4538F263EE5EA9B27A13BAAD,
+	ListToBindableVectorViewAdapter_GetEnumerator_m1946B6325E818CC98A24C8A67FFCA3656ACB078F,
 };
 static const int32_t s_InvokerIndices[5] = 
 {
-	8551,
-	10499,
-	7627,
-	3097,
-	10341,
+	6711,
+	7954,
+	5358,
+	3316,
+	8004,
 };
+extern const CustomAttributesCacheGenerator g_System_Runtime_WindowsRuntime_UI_Xaml_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Runtime_WindowsRuntime_UI_Xaml_CodeGenModule;
 const Il2CppCodeGenModule g_System_Runtime_WindowsRuntime_UI_Xaml_CodeGenModule = 
 {
@@ -54,6 +55,7 @@ const Il2CppCodeGenModule g_System_Runtime_WindowsRuntime_UI_Xaml_CodeGenModule 
 	0,
 	NULL,
 	NULL,
+	g_System_Runtime_WindowsRuntime_UI_Xaml_AttributeGenerators,
 	NULL, // module initializer,
 	NULL,
 	NULL,

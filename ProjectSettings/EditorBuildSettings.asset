@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Game.unity
     guid: 8ffae1a07f16f2543839e3486825c505
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Geology Samples.unity
     guid: 3f10e5e89bc046c4fb5b94ffecb69802
   - enabled: 0
@@ -29,10 +29,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/LSAR.unity
     guid: 2c5713105e99f6845b45d98b00788ed2
+  - enabled: 0
+    path: Assets/Scenes/PointCloud.unity
+    guid: 85e34d609149a0b45827ca144e1c483e
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c29eae093f0ea284d8b061d4e1f7c5a8,
       type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 66485120178eb104aacf1b4f8a70eee6,
+      type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: fc5203e34b825194ea0243aef9555cf6,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a7d390c8fac066748b652475e1dbf234,
       type: 2}

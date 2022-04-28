@@ -13,17 +13,17 @@
 
 
 // 0x00000001 System.Boolean Microsoft.MixedReality.Toolkit.Extensions.Tracking.BasicLostTrackingVisual::get_Enabled()
-extern void BasicLostTrackingVisual_get_Enabled_mCD02EE427C861F583F893FF985CB3CBACB9D22D5 (void);
+extern void BasicLostTrackingVisual_get_Enabled_m445B27A2ADA9715D7AF642E25FDED30A73760F74 (void);
 // 0x00000002 System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.BasicLostTrackingVisual::set_Enabled(System.Boolean)
-extern void BasicLostTrackingVisual_set_Enabled_m8971D7F79E04E0B2E95236739B20DCBC00CB85E8 (void);
+extern void BasicLostTrackingVisual_set_Enabled_m91FA664106F0A41B61E4805899099267B3FF1FCC (void);
 // 0x00000003 System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.BasicLostTrackingVisual::ResetVisual()
-extern void BasicLostTrackingVisual_ResetVisual_m8E7D700FA2B9331C0C4D6EB61AAFCFF1303D7CED (void);
+extern void BasicLostTrackingVisual_ResetVisual_m88C4E8801C95CFDE6E233C612D482FB432CC985A (void);
 // 0x00000004 System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.BasicLostTrackingVisual::SetLayer(System.Int32)
-extern void BasicLostTrackingVisual_SetLayer_m674D9E65AC4D4F8CE4B0A1203818A4BDBA84417F (void);
+extern void BasicLostTrackingVisual_SetLayer_mDB33542A894614259A3B941121BAA08BB838CBE2 (void);
 // 0x00000005 System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.BasicLostTrackingVisual::Update()
-extern void BasicLostTrackingVisual_Update_m3B5F3116A07976132C9C639A9099BF6C4AC33965 (void);
+extern void BasicLostTrackingVisual_Update_m95014EECA124DFABA186D94EC1F5B10189A21F64 (void);
 // 0x00000006 System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.BasicLostTrackingVisual::.ctor()
-extern void BasicLostTrackingVisual__ctor_m6AE7A48010054C0F17E9DD7E84BD19EA166F132C (void);
+extern void BasicLostTrackingVisual__ctor_m4CC21A44DFF55CC3E4D5A72B4CB9EAC2D2466FEF (void);
 // 0x00000007 System.Boolean Microsoft.MixedReality.Toolkit.Extensions.Tracking.ILostTrackingService::get_TrackingLost()
 // 0x00000008 System.Action Microsoft.MixedReality.Toolkit.Extensions.Tracking.ILostTrackingService::get_OnTrackingLost()
 // 0x00000009 System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.ILostTrackingService::set_OnTrackingLost(System.Action)
@@ -34,57 +34,57 @@ extern void BasicLostTrackingVisual__ctor_m6AE7A48010054C0F17E9DD7E84BD19EA166F1
 // 0x0000000E System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.ILostTrackingVisual::SetLayer(System.Int32)
 // 0x0000000F System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.ILostTrackingVisual::ResetVisual()
 // 0x00000010 System.Boolean Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingService::get_TrackingLost()
-extern void LostTrackingService_get_TrackingLost_mC555D5537DF026AC6F62DA726899DBA254EF47F5 (void);
+extern void LostTrackingService_get_TrackingLost_mB3F6B809040C28BDEB53E0AD49BD8C1C70242F5A (void);
 // 0x00000011 System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingService::set_TrackingLost(System.Boolean)
-extern void LostTrackingService_set_TrackingLost_m56B1A2BF192A1639E08DEC9BC0B0DC54AF063451 (void);
+extern void LostTrackingService_set_TrackingLost_mB8AD6362BC3C5685B62625E655A143A029B2075D (void);
 // 0x00000012 System.Action Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingService::get_OnTrackingLost()
-extern void LostTrackingService_get_OnTrackingLost_m8D4BCCC307E2C27CDDAD687F8CAAFB8C2E43A070 (void);
+extern void LostTrackingService_get_OnTrackingLost_m5825E4D3A57B8672D61279F903E4DBAD245658E1 (void);
 // 0x00000013 System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingService::set_OnTrackingLost(System.Action)
-extern void LostTrackingService_set_OnTrackingLost_m68DE0A1F634DD17DFD28313C5A2DAD6A9FDE447C (void);
+extern void LostTrackingService_set_OnTrackingLost_m993C5D032C7451627D19FF936339987B33DA1E19 (void);
 // 0x00000014 System.Action Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingService::get_OnTrackingRestored()
-extern void LostTrackingService_get_OnTrackingRestored_mA2E7F3714ECA257F43453B8CD673B9142BA60C27 (void);
+extern void LostTrackingService_get_OnTrackingRestored_mDA17DBB84B7FE4AC8BC34EAA746B8BE0531663BA (void);
 // 0x00000015 System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingService::set_OnTrackingRestored(System.Action)
-extern void LostTrackingService_set_OnTrackingRestored_m026364671D4F29DE131F1DDA698E4F2A750F0E9F (void);
+extern void LostTrackingService_set_OnTrackingRestored_m094EC0EC771F61DD9EC51D3EA696910A8A5F7497 (void);
 // 0x00000016 System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingService::.ctor(Microsoft.MixedReality.Toolkit.IMixedRealityServiceRegistrar,System.String,System.UInt32,Microsoft.MixedReality.Toolkit.BaseMixedRealityProfile)
-extern void LostTrackingService__ctor_m88482218DD8989AFEAD7424EAA7F09B02D21C18E (void);
+extern void LostTrackingService__ctor_m299B3CDAA3AFD6FC92E558174994D00C58892265 (void);
 // 0x00000017 System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingService::.ctor(System.String,System.UInt32,Microsoft.MixedReality.Toolkit.BaseMixedRealityProfile)
-extern void LostTrackingService__ctor_m54A4ABA54C280D74FEAD1DC8917A5F81224850B9 (void);
+extern void LostTrackingService__ctor_m5A0D991DA3D4FA40B6B314D2FF8DE08C4E4FDDA3 (void);
 // 0x00000018 System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingService::Initialize()
-extern void LostTrackingService_Initialize_m27365BAE4EC68D50AE9C0C502E6ACCC7B146DD12 (void);
+extern void LostTrackingService_Initialize_m0B4D27A51A41B4FCCDECEA1145455E4DB4D04E9E (void);
 // 0x00000019 System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingService::Update()
-extern void LostTrackingService_Update_m30BBB251EA2E4EF1F46D1A8B3D8A35F77EE32699 (void);
+extern void LostTrackingService_Update_m617F7E8494581E45C44BBAF22E0AA8B07CF24022 (void);
 // 0x0000001A System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingService::DisableTrackingLostVisual()
-extern void LostTrackingService_DisableTrackingLostVisual_m70D876C59581332EB051C9AF97600FAAC7A0E02B (void);
+extern void LostTrackingService_DisableTrackingLostVisual_mBEF8FA5690A21C27997F06180596E338E9C700B4 (void);
 // 0x0000001B System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingService::EnableTrackingLostVisual()
-extern void LostTrackingService_EnableTrackingLostVisual_m8D707A7E070DF291D006BBA5665DC07A5775147B (void);
+extern void LostTrackingService_EnableTrackingLostVisual_mEFCE0329AC915071AF5D3D13423AB3BC5BCF78A1 (void);
 // 0x0000001C System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingService::SetTrackingLost(System.Boolean)
-extern void LostTrackingService_SetTrackingLost_mD78F4D684A53D4B40810DA4902951518FAA188E9 (void);
+extern void LostTrackingService_SetTrackingLost_m2492594373DD74085861F4FDE2FAC8FFBB065D77 (void);
 // 0x0000001D UnityEngine.XR.ARSubsystems.XRSessionSubsystem Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingService::get_SessionSubsystem()
-extern void LostTrackingService_get_SessionSubsystem_m3A81E21BC844E5EEE466A40D13FC8C7FA574BAAE (void);
+extern void LostTrackingService_get_SessionSubsystem_m7D4B0BD8CDB3689B42BC29DC04C855A0D7C92F7C (void);
 // 0x0000001E System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingService::.cctor()
-extern void LostTrackingService__cctor_m31686C59BAEB07F71B7CD77699AC805DD7E147CC (void);
+extern void LostTrackingService__cctor_mCAC11974772EA283A59FD9C4EB3F3C735081DBB7 (void);
 // 0x0000001F UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingServiceProfile::get_TrackingLostVisualPrefab()
-extern void LostTrackingServiceProfile_get_TrackingLostVisualPrefab_m30BCBB4E4C91A9C3B021EC9F06D5F04253F66CF1 (void);
+extern void LostTrackingServiceProfile_get_TrackingLostVisualPrefab_mA86A068AFC58D34A07CE10B8A084688D017A337E (void);
 // 0x00000020 System.Int32 Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingServiceProfile::get_TrackingLostVisualLayer()
-extern void LostTrackingServiceProfile_get_TrackingLostVisualLayer_m873420F9CE1B3389F84D49E556F35B02F7377CF6 (void);
+extern void LostTrackingServiceProfile_get_TrackingLostVisualLayer_m520A3C8D387B4A3E650B2BD8713B418BC0432B90 (void);
 // 0x00000021 UnityEngine.LayerMask Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingServiceProfile::get_TrackingLostCullingMask()
-extern void LostTrackingServiceProfile_get_TrackingLostCullingMask_m61A5A1B1C4DAFC0260C22DFDDE448A21E24BD998 (void);
+extern void LostTrackingServiceProfile_get_TrackingLostCullingMask_m2D28FC2319EA7E1D2DC4A3AD0E075E16B37EFB91 (void);
 // 0x00000022 System.Boolean Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingServiceProfile::get_HaltTimeWhileTrackingLost()
-extern void LostTrackingServiceProfile_get_HaltTimeWhileTrackingLost_mC3FBBBF66B4ED7AD62C8067ECB19E5688996781C (void);
+extern void LostTrackingServiceProfile_get_HaltTimeWhileTrackingLost_mB0DEECAF8704593419421E1AD5F1827D8457D279 (void);
 // 0x00000023 System.Boolean Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingServiceProfile::get_HaltAudioOnTrackingLost()
-extern void LostTrackingServiceProfile_get_HaltAudioOnTrackingLost_m77C844CF5D729877E3CC502A0BD9674526051F5D (void);
+extern void LostTrackingServiceProfile_get_HaltAudioOnTrackingLost_m1D8B0A9F7EDCE85EF102DD1CF41C38CDA8A35442 (void);
 // 0x00000024 System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingServiceProfile::OnValidate()
-extern void LostTrackingServiceProfile_OnValidate_m2FFAA03E1DB38C7FD2FBD0301A56B56BEA5D32C3 (void);
+extern void LostTrackingServiceProfile_OnValidate_mAB9A862352EE9979DCDC3DF6AAFCC480E8C49DEE (void);
 // 0x00000025 System.Void Microsoft.MixedReality.Toolkit.Extensions.Tracking.LostTrackingServiceProfile::.ctor()
-extern void LostTrackingServiceProfile__ctor_m939C1A1C9076216B71DE84470359C068AF36322E (void);
+extern void LostTrackingServiceProfile__ctor_m1652A08DDF36A34366B8EAF1F821BDDEE6A3671C (void);
 static Il2CppMethodPointer s_methodPointers[37] = 
 {
-	BasicLostTrackingVisual_get_Enabled_mCD02EE427C861F583F893FF985CB3CBACB9D22D5,
-	BasicLostTrackingVisual_set_Enabled_m8971D7F79E04E0B2E95236739B20DCBC00CB85E8,
-	BasicLostTrackingVisual_ResetVisual_m8E7D700FA2B9331C0C4D6EB61AAFCFF1303D7CED,
-	BasicLostTrackingVisual_SetLayer_m674D9E65AC4D4F8CE4B0A1203818A4BDBA84417F,
-	BasicLostTrackingVisual_Update_m3B5F3116A07976132C9C639A9099BF6C4AC33965,
-	BasicLostTrackingVisual__ctor_m6AE7A48010054C0F17E9DD7E84BD19EA166F132C,
+	BasicLostTrackingVisual_get_Enabled_m445B27A2ADA9715D7AF642E25FDED30A73760F74,
+	BasicLostTrackingVisual_set_Enabled_m91FA664106F0A41B61E4805899099267B3FF1FCC,
+	BasicLostTrackingVisual_ResetVisual_m88C4E8801C95CFDE6E233C612D482FB432CC985A,
+	BasicLostTrackingVisual_SetLayer_mDB33542A894614259A3B941121BAA08BB838CBE2,
+	BasicLostTrackingVisual_Update_m95014EECA124DFABA186D94EC1F5B10189A21F64,
+	BasicLostTrackingVisual__ctor_m4CC21A44DFF55CC3E4D5A72B4CB9EAC2D2466FEF,
 	NULL,
 	NULL,
 	NULL,
@@ -94,69 +94,70 @@ static Il2CppMethodPointer s_methodPointers[37] =
 	NULL,
 	NULL,
 	NULL,
-	LostTrackingService_get_TrackingLost_mC555D5537DF026AC6F62DA726899DBA254EF47F5,
-	LostTrackingService_set_TrackingLost_m56B1A2BF192A1639E08DEC9BC0B0DC54AF063451,
-	LostTrackingService_get_OnTrackingLost_m8D4BCCC307E2C27CDDAD687F8CAAFB8C2E43A070,
-	LostTrackingService_set_OnTrackingLost_m68DE0A1F634DD17DFD28313C5A2DAD6A9FDE447C,
-	LostTrackingService_get_OnTrackingRestored_mA2E7F3714ECA257F43453B8CD673B9142BA60C27,
-	LostTrackingService_set_OnTrackingRestored_m026364671D4F29DE131F1DDA698E4F2A750F0E9F,
-	LostTrackingService__ctor_m88482218DD8989AFEAD7424EAA7F09B02D21C18E,
-	LostTrackingService__ctor_m54A4ABA54C280D74FEAD1DC8917A5F81224850B9,
-	LostTrackingService_Initialize_m27365BAE4EC68D50AE9C0C502E6ACCC7B146DD12,
-	LostTrackingService_Update_m30BBB251EA2E4EF1F46D1A8B3D8A35F77EE32699,
-	LostTrackingService_DisableTrackingLostVisual_m70D876C59581332EB051C9AF97600FAAC7A0E02B,
-	LostTrackingService_EnableTrackingLostVisual_m8D707A7E070DF291D006BBA5665DC07A5775147B,
-	LostTrackingService_SetTrackingLost_mD78F4D684A53D4B40810DA4902951518FAA188E9,
-	LostTrackingService_get_SessionSubsystem_m3A81E21BC844E5EEE466A40D13FC8C7FA574BAAE,
-	LostTrackingService__cctor_m31686C59BAEB07F71B7CD77699AC805DD7E147CC,
-	LostTrackingServiceProfile_get_TrackingLostVisualPrefab_m30BCBB4E4C91A9C3B021EC9F06D5F04253F66CF1,
-	LostTrackingServiceProfile_get_TrackingLostVisualLayer_m873420F9CE1B3389F84D49E556F35B02F7377CF6,
-	LostTrackingServiceProfile_get_TrackingLostCullingMask_m61A5A1B1C4DAFC0260C22DFDDE448A21E24BD998,
-	LostTrackingServiceProfile_get_HaltTimeWhileTrackingLost_mC3FBBBF66B4ED7AD62C8067ECB19E5688996781C,
-	LostTrackingServiceProfile_get_HaltAudioOnTrackingLost_m77C844CF5D729877E3CC502A0BD9674526051F5D,
-	LostTrackingServiceProfile_OnValidate_m2FFAA03E1DB38C7FD2FBD0301A56B56BEA5D32C3,
-	LostTrackingServiceProfile__ctor_m939C1A1C9076216B71DE84470359C068AF36322E,
+	LostTrackingService_get_TrackingLost_mB3F6B809040C28BDEB53E0AD49BD8C1C70242F5A,
+	LostTrackingService_set_TrackingLost_mB8AD6362BC3C5685B62625E655A143A029B2075D,
+	LostTrackingService_get_OnTrackingLost_m5825E4D3A57B8672D61279F903E4DBAD245658E1,
+	LostTrackingService_set_OnTrackingLost_m993C5D032C7451627D19FF936339987B33DA1E19,
+	LostTrackingService_get_OnTrackingRestored_mDA17DBB84B7FE4AC8BC34EAA746B8BE0531663BA,
+	LostTrackingService_set_OnTrackingRestored_m094EC0EC771F61DD9EC51D3EA696910A8A5F7497,
+	LostTrackingService__ctor_m299B3CDAA3AFD6FC92E558174994D00C58892265,
+	LostTrackingService__ctor_m5A0D991DA3D4FA40B6B314D2FF8DE08C4E4FDDA3,
+	LostTrackingService_Initialize_m0B4D27A51A41B4FCCDECEA1145455E4DB4D04E9E,
+	LostTrackingService_Update_m617F7E8494581E45C44BBAF22E0AA8B07CF24022,
+	LostTrackingService_DisableTrackingLostVisual_mBEF8FA5690A21C27997F06180596E338E9C700B4,
+	LostTrackingService_EnableTrackingLostVisual_mEFCE0329AC915071AF5D3D13423AB3BC5BCF78A1,
+	LostTrackingService_SetTrackingLost_m2492594373DD74085861F4FDE2FAC8FFBB065D77,
+	LostTrackingService_get_SessionSubsystem_m7D4B0BD8CDB3689B42BC29DC04C855A0D7C92F7C,
+	LostTrackingService__cctor_mCAC11974772EA283A59FD9C4EB3F3C735081DBB7,
+	LostTrackingServiceProfile_get_TrackingLostVisualPrefab_mA86A068AFC58D34A07CE10B8A084688D017A337E,
+	LostTrackingServiceProfile_get_TrackingLostVisualLayer_m520A3C8D387B4A3E650B2BD8713B418BC0432B90,
+	LostTrackingServiceProfile_get_TrackingLostCullingMask_m2D28FC2319EA7E1D2DC4A3AD0E075E16B37EFB91,
+	LostTrackingServiceProfile_get_HaltTimeWhileTrackingLost_mB0DEECAF8704593419421E1AD5F1827D8457D279,
+	LostTrackingServiceProfile_get_HaltAudioOnTrackingLost_m1D8B0A9F7EDCE85EF102DD1CF41C38CDA8A35442,
+	LostTrackingServiceProfile_OnValidate_mAB9A862352EE9979DCDC3DF6AAFCC480E8C49DEE,
+	LostTrackingServiceProfile__ctor_m1652A08DDF36A34366B8EAF1F821BDDEE6A3671C,
 };
 static const int32_t s_InvokerIndices[37] = 
 {
-	10177,
-	8390,
-	10532,
-	8493,
-	10532,
-	10532,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	10177,
-	8390,
-	10341,
-	8551,
-	10341,
-	8551,
-	1994,
-	2715,
-	10532,
-	10532,
-	10532,
-	10532,
-	8390,
-	15979,
-	16033,
-	10341,
-	10280,
-	10297,
-	10177,
-	10177,
-	10532,
-	10532,
+	8065,
+	6766,
+	8140,
+	6662,
+	8140,
+	8140,
+	8065,
+	8004,
+	6711,
+	8004,
+	6711,
+	8065,
+	6766,
+	6662,
+	8140,
+	8065,
+	6766,
+	8004,
+	6711,
+	8004,
+	6711,
+	1729,
+	2447,
+	8140,
+	8140,
+	8140,
+	8140,
+	6766,
+	13285,
+	13326,
+	8004,
+	7954,
+	7970,
+	8065,
+	8065,
+	8140,
+	8140,
 };
+extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_Toolkit_Extensions_Tracking_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Extensions_Tracking_CodeGenModule;
 const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Extensions_Tracking_CodeGenModule = 
 {
@@ -173,6 +174,7 @@ const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Extensions_Tracking_C
 	0,
 	NULL,
 	NULL,
+	g_Microsoft_MixedReality_Toolkit_Extensions_Tracking_AttributeGenerators,
 	NULL, // module initializer,
 	NULL,
 	NULL,

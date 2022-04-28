@@ -12,14 +12,20 @@
 
 
 
+// System.Char[]
+struct CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34;
+// System.String
+struct String_t;
 // System.Void
-struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5;
 
-struct unitytls_errorstate_tC926EE4582920BE2C1DB1F3F65619B810D5AB902;
-struct unitytls_key_ref_t6BD91D013DF11047C53738FEEB12CE290FDC71A2;
-struct unitytls_tlsctx_tF8BBCBFE1E957B846442DED65ECB89BC5307DEAE;
-struct unitytls_x509list_ref_t6C5C1CF0B720516A681CB741104A164FD8B3CF17;
-struct unitytls_x509name_t8A1108C917795D8FE946B50769ACE51489C7BF5D;
+struct EVENT_FILTER_DESCRIPTOR_t59379AB6F16CCEA5C0BDF328FF5AC64040CED05B ;
+struct Guid_t ;
+struct unitytls_errorstate_t0015D496F47B84E1D98D31D5132B27FADB38F499 ;
+struct unitytls_key_ref_t7EFBA70561D0E9FD8517038EBC0CC9FCF9AE6B61 ;
+struct unitytls_tlsctx_tA5DB674E2A83ADDD03624096501FCDD29E9DB7FA ;
+struct unitytls_x509list_ref_tE4376B9592E1AF7E02BB0BB2CE110D8219832D4D ;
+struct unitytls_x509name_tC19C2F27FF70AD438A79A5F66E4C5FFA2613EDA6 ;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -31,203 +37,276 @@ IL2CPP_EXTERN_C_END
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+// System.Object
+
+
 // System.ValueType
-struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
 {
+public:
+
+public:
 };
+
 // Native definition for P/Invoke marshalling of System.ValueType
-struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_pinvoke
 {
 };
 // Native definition for COM marshalling of System.ValueType
-struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_com
+{
+};
+
+// System.Enum
+struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
+{
+public:
+
+public:
+};
+
+struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_StaticFields
+{
+public:
+	// System.Char[] System.Enum::enumSeperatorCharArray
+	CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* ___enumSeperatorCharArray_0;
+
+public:
+	inline static int32_t get_offset_of_enumSeperatorCharArray_0() { return static_cast<int32_t>(offsetof(Enum_t23B90B40F60E677A8025267341651C94AE079CDA_StaticFields, ___enumSeperatorCharArray_0)); }
+	inline CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* get_enumSeperatorCharArray_0() const { return ___enumSeperatorCharArray_0; }
+	inline CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34** get_address_of_enumSeperatorCharArray_0() { return &___enumSeperatorCharArray_0; }
+	inline void set_enumSeperatorCharArray_0(CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* value)
+	{
+		___enumSeperatorCharArray_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___enumSeperatorCharArray_0), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_marshaled_com
 {
 };
 
 // System.IntPtr
 struct IntPtr_t 
 {
+public:
 	// System.Void* System.IntPtr::m_value
 	void* ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(IntPtr_t, ___m_value_0)); }
+	inline void* get_m_value_0() const { return ___m_value_0; }
+	inline void** get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(void* value)
+	{
+		___m_value_0 = value;
+	}
 };
 
 struct IntPtr_t_StaticFields
 {
+public:
 	// System.IntPtr System.IntPtr::Zero
 	intptr_t ___Zero_1;
+
+public:
+	inline static int32_t get_offset_of_Zero_1() { return static_cast<int32_t>(offsetof(IntPtr_t_StaticFields, ___Zero_1)); }
+	inline intptr_t get_Zero_1() const { return ___Zero_1; }
+	inline intptr_t* get_address_of_Zero_1() { return &___Zero_1; }
+	inline void set_Zero_1(intptr_t value)
+	{
+		___Zero_1 = value;
+	}
 };
 
-// UnityEngine.RectInt
-struct RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 
-{
-	// System.Int32 UnityEngine.RectInt::m_XMin
-	int32_t ___m_XMin_0;
-	// System.Int32 UnityEngine.RectInt::m_YMin
-	int32_t ___m_YMin_1;
-	// System.Int32 UnityEngine.RectInt::m_Width
-	int32_t ___m_Width_2;
-	// System.Int32 UnityEngine.RectInt::m_Height
-	int32_t ___m_Height_3;
-};
-
-// UnityEngine.Vector2Int
-struct Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A 
-{
-	// System.Int32 UnityEngine.Vector2Int::m_X
-	int32_t ___m_X_0;
-	// System.Int32 UnityEngine.Vector2Int::m_Y
-	int32_t ___m_Y_1;
-};
-
-struct Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_StaticFields
-{
-	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_Zero
-	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Zero_2;
-	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_One
-	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_One_3;
-	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_Up
-	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Up_4;
-	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_Down
-	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Down_5;
-	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_Left
-	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Left_6;
-	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_Right
-	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Right_7;
-};
 
 // System.Void
-struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
 {
+public:
 	union
 	{
 		struct
 		{
 		};
-		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+		uint8_t Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5__padding[1];
 	};
+
+public:
 };
 
-// Mono.Unity.UnityTls/unitytls_x509_ref
-struct unitytls_x509_ref_t9CEB17766B4144117333AB50379B21A357FA4333 
-{
-	// System.UInt64 Mono.Unity.UnityTls/unitytls_x509_ref::handle
-	uint64_t ___handle_0;
-};
 
 // Mono.Unity.UnityTls/unitytls_x509list_ref
-struct unitytls_x509list_ref_t6C5C1CF0B720516A681CB741104A164FD8B3CF17 
+struct unitytls_x509list_ref_tE4376B9592E1AF7E02BB0BB2CE110D8219832D4D 
 {
+public:
 	// System.UInt64 Mono.Unity.UnityTls/unitytls_x509list_ref::handle
 	uint64_t ___handle_0;
+
+public:
+	inline static int32_t get_offset_of_handle_0() { return static_cast<int32_t>(offsetof(unitytls_x509list_ref_tE4376B9592E1AF7E02BB0BB2CE110D8219832D4D, ___handle_0)); }
+	inline uint64_t get_handle_0() const { return ___handle_0; }
+	inline uint64_t* get_address_of_handle_0() { return &___handle_0; }
+	inline void set_handle_0(uint64_t value)
+	{
+		___handle_0 = value;
+	}
 };
 
-// UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams
-struct ConversionParams_t062706B15E2C508C54473A1FD72013C4381CCB62 
+
+// UnityEngine.XR.OpenXR.NativeTypes.XrResult
+struct XrResult_t49320B26C282219A0D054D88C92230D8DDC1B89E 
 {
-	// UnityEngine.RectInt UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams::m_InputRect
-	RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 ___m_InputRect_0;
-	// UnityEngine.Vector2Int UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams::m_OutputDimensions
-	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___m_OutputDimensions_1;
-	// UnityEngine.TextureFormat UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams::m_Format
-	int32_t ___m_Format_2;
-	// UnityEngine.XR.ARSubsystems.XRCpuImage/Transformation UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams::m_Transformation
-	int32_t ___m_Transformation_3;
+public:
+	// System.Int32 UnityEngine.XR.OpenXR.NativeTypes.XrResult::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(XrResult_t49320B26C282219A0D054D88C92230D8DDC1B89E, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
 };
+
+
+// UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/ScriptEvent
+struct ScriptEvent_tD52B2D1398BCE888AEFC5A0A46FE25BE74DB5201 
+{
+public:
+	// System.Int32 UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/ScriptEvent::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(ScriptEvent_tD52B2D1398BCE888AEFC5A0A46FE25BE74DB5201, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// UnityEngine.XR.OpenXR.Features.OpenXRFeature/NativeEvent
+struct NativeEvent_t94138199EE1CC201C255637BA0005DC42F64E440 
+{
+public:
+	// System.Int32 UnityEngine.XR.OpenXR.Features.OpenXRFeature/NativeEvent::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(NativeEvent_t94138199EE1CC201C255637BA0005DC42F64E440, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// Mono.Unity.UnityTls/unitytls_x509verify_result
+struct unitytls_x509verify_result_t3CE5D0E50DA56D0A6561757039E6F1F292996B84 
+{
+public:
+	// System.UInt32 Mono.Unity.UnityTls/unitytls_x509verify_result::value__
+	uint32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(unitytls_x509verify_result_t3CE5D0E50DA56D0A6561757039E6F1F292996B84, ___value___2)); }
+	inline uint32_t get_value___2() const { return ___value___2; }
+	inline uint32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(uint32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
 
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ARCameraBackground_BeforeBackgroundRenderHandler_m50F0B7017DEEF627A0B128B2A9828CBEC377AF3C(int32_t ___eventId0);
-extern "C" void CDECL ReversePInvokeWrapper_CloudSpatialAnchorSession_AnchorLocatedStaticHandler_m7F5FF0EA69132F780B6B46AFA3616406EA934D93(uint64_t ___cookie0, intptr_t ___args1);
-extern "C" void CDECL ReversePInvokeWrapper_CloudSpatialAnchorSession_ErrorStaticHandler_m241261747B303FB2E4FB05A5D4212E6E567DC232(uint64_t ___cookie0, intptr_t ___args1);
-extern "C" void CDECL ReversePInvokeWrapper_CloudSpatialAnchorSession_LocateAnchorsCompletedStaticHandler_mA6101C6852D0F0345780A504976BF7A48E27C5BC(uint64_t ___cookie0, intptr_t ___args1);
-extern "C" void CDECL ReversePInvokeWrapper_CloudSpatialAnchorSession_OnLogDebugStaticHandler_m2015511182F048D2DCD01CCA7DA3281E3BACB785(uint64_t ___cookie0, intptr_t ___args1);
-extern "C" void CDECL ReversePInvokeWrapper_CloudSpatialAnchorSession_SessionUpdatedStaticHandler_mC8972CFAF6A58E8B23E49D5FDE4035C3B37CD28C(uint64_t ___cookie0, intptr_t ___args1);
-extern "C" void CDECL ReversePInvokeWrapper_CloudSpatialAnchorSession_TokenRequiredStaticHandler_m6F35D76A628235F0ECBEC6E15FA363587A0B99D2(uint64_t ___cookie0, intptr_t ___args1);
-extern "C" void CDECL ReversePInvokeWrapper_CloudSpatialAnchorSession_UpdatedSensorFingerprintRequiredStaticHandler_mE9FBB20BA29E433FBF02545C4173145596D46AEB(uint64_t ___cookie0, intptr_t ___args1);
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_CultureInfo_OnCultureInfoChangedInAppX_mDBD419B094B2CFE933BB3F63886A5AB4E44D2DC0(Il2CppChar* ___language0);
-extern "C" int32_t CDECL ReversePInvokeWrapper_DeflateStreamNative_UnmanagedRead_m79E9628F6FF91A3995491997242DD83046C9B704(intptr_t ___buffer0, int32_t ___length1, intptr_t ___data2);
-extern "C" int32_t CDECL ReversePInvokeWrapper_DeflateStreamNative_UnmanagedWrite_m509AE153ECB916CDF755432335FBAB2B51CA1486(intptr_t ___buffer0, int32_t ___length1, intptr_t ___data2);
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MockRuntime_AfterFunctionCallback_m6812E36D77CB5E9AC4BA21547ECB1A7CC8130188(char* ___function0, int32_t ___result1);
-extern "C" int32_t DEFAULT_CALL ReversePInvokeWrapper_MockRuntime_BeforeFunctionCallback_mC2015035328001D9FC22DC73D38518A1146ED728(char* ___function0);
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MockRuntime_ReceiveScriptEvent_mF60E011CE8C239703723E35BB000CEE934CAC267(int32_t ___evt0, uint64_t ___param1);
-extern "C" int64_t CDECL ReversePInvokeWrapper_MonoBtlsBioMono_Control_mE6F92D680A96B8B446D566D221BF925954FF43BB(intptr_t ___instance0, int32_t ___command1, int64_t ___arg2);
-extern "C" int32_t CDECL ReversePInvokeWrapper_MonoBtlsBioMono_OnRead_mE0FF0BFC134CD0F923BBC555E346B7DD7CAD8988(intptr_t ___instance0, intptr_t ___data1, int32_t ___dataLength2, int32_t* ___wantMore3);
-extern "C" int32_t CDECL ReversePInvokeWrapper_MonoBtlsBioMono_OnWrite_m605A12A8B0CE9517927656981580BFA330BED613(intptr_t ___instance0, intptr_t ___data1, int32_t ___dataLength2);
-extern "C" int32_t CDECL ReversePInvokeWrapper_MonoBtlsSsl_PrintErrorsCallback_mF161ADF7DBDB81C47BDD587C87E1275DEE5B7A45(intptr_t ___str0, intptr_t ___len1, intptr_t ___ctx2);
-extern "C" int32_t CDECL ReversePInvokeWrapper_MonoBtlsSslCtx_NativeSelectCallback_m6CA34F71A6093C7260A9F066D6C9FB3CD0CC86DB(intptr_t ___instance0, int32_t ___count1, intptr_t ___sizes2, intptr_t ___data3);
-extern "C" int32_t CDECL ReversePInvokeWrapper_MonoBtlsSslCtx_NativeServerNameCallback_mFF311CE931F6A075940D1B6828D1FB517AF03838(intptr_t ___instance0);
-extern "C" int32_t CDECL ReversePInvokeWrapper_MonoBtlsSslCtx_NativeVerifyCallback_mFDF10D01CAAD040E50EE6F53FC1D4155EF696218(intptr_t ___instance0, int32_t ___preverify_ok1, intptr_t ___store_ctx2);
-extern "C" int32_t CDECL ReversePInvokeWrapper_MonoBtlsX509LookupMono_OnGetBySubject_m15FE6FBEE9849C324E8E099172A581EABEB83FB3(intptr_t ___instance0, intptr_t ___name_ptr1, intptr_t* ___x509_ptr2);
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_mB85BF0265E239960FC963DCA74DC67EBCE9480AC(intptr_t ___arg0);
-extern "C" void CDECL ReversePInvokeWrapper_ObjectInstance_ChangedStaticHandler_mEB88F54081FFA44FB88974C35BDC5E0FCDF26659(uint64_t ___cookie0, intptr_t ___args1);
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OpenXRLoaderBase_ReceiveNativeEvent_m1B50DCF4E5D74B8395C1B1E64747B1E8A3DE7AD6(int32_t ___e0, uint64_t ___payload1);
-extern "C" void CDECL ReversePInvokeWrapper_ProjectedObjectCache_ProjectedObjectCleanupHandler_mFAB3B7F3ADB8A72C0459177CA9E96FEEFD11A20B(intptr_t ___handle0);
-extern "C" void CDECL ReversePInvokeWrapper_ProjectedObjectCache_ProjectedObjectCleanupHandler_mF139EE45271FA25EE68F59617F5058AB7601C255(uint64_t ___cookie0);
-extern "C" void CDECL ReversePInvokeWrapper_Recognizer_FireEvent_SetSessionStarted_m52E09A4B81972BF98DDFF6F1901AF63188C91629(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
-extern "C" void CDECL ReversePInvokeWrapper_Recognizer_FireEvent_SetSessionStopped_m1925D97F4E29071799739DAE667160A804385C25(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
-extern "C" void CDECL ReversePInvokeWrapper_Recognizer_FireEvent_SpeechEndDetected_m855530988936AC915A4277BF08A8EF863933990E(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
-extern "C" void CDECL ReversePInvokeWrapper_Recognizer_FireEvent_SpeechStartDetected_mBBD9DA4BDE0F8E8E8545C4BACEC0068B86F16DAF(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
-extern "C" void CDECL ReversePInvokeWrapper_SpeechRecognizer_FireEvent_Canceled_m2034F62D22C618A305A7E5E7DCB416439CDD3F6E(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
-extern "C" void CDECL ReversePInvokeWrapper_SpeechRecognizer_FireEvent_Recognized_m1C49575EF31FF9111D7CC4CC679D1582B525F886(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
-extern "C" void CDECL ReversePInvokeWrapper_SpeechRecognizer_FireEvent_Recognizing_m5F41324B4925637FC1859240D793E0038ABE9EA4(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
-extern "C" void CDECL ReversePInvokeWrapper_TranslationRecognizer_FireEvent_Canceled_m7875F1D6DA9BCA902CF05D571D55EF1055AB2E82(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
-extern "C" void CDECL ReversePInvokeWrapper_TranslationRecognizer_FireEvent_Recognized_m37BF6A7CAA9794E1DBFAFB10D294B7DB958B9836(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
-extern "C" void CDECL ReversePInvokeWrapper_TranslationRecognizer_FireEvent_Recognizing_m9C07BDADD03B380A822B8C7C96CD90C471447E4C(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
-extern "C" void CDECL ReversePInvokeWrapper_TranslationRecognizer_FireEvent_SynthesisResult_m6AE445D95E7487065CAB7589BDD9616335B69737(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
-extern "C" void CDECL ReversePInvokeWrapper_UnityTlsContext_CertificateCallback_mF5E626BA2545CFFA64428622678E409702C2045A(void* ___userData0, unitytls_tlsctx_tF8BBCBFE1E957B846442DED65ECB89BC5307DEAE* ___ctx1, uint8_t* ___cn2, intptr_t ___cnLen3, unitytls_x509name_t8A1108C917795D8FE946B50769ACE51489C7BF5D* ___caList4, intptr_t ___caListLen5, unitytls_x509list_ref_t6C5C1CF0B720516A681CB741104A164FD8B3CF17* ___chain6, unitytls_key_ref_t6BD91D013DF11047C53738FEEB12CE290FDC71A2* ___key7, unitytls_errorstate_tC926EE4582920BE2C1DB1F3F65619B810D5AB902* ___errorState8);
-extern "C" intptr_t CDECL ReversePInvokeWrapper_UnityTlsContext_ReadCallback_m15F3A217E44D480CAED06EB5A88503FB6259D7EC(void* ___userData0, uint8_t* ___buffer1, intptr_t ___bufferLen2, unitytls_errorstate_tC926EE4582920BE2C1DB1F3F65619B810D5AB902* ___errorState3);
-extern "C" uint32_t CDECL ReversePInvokeWrapper_UnityTlsContext_VerifyCallback_m75D7C072718405EBBF8A2A9C794C4DDFB2595BD0(void* ___userData0, unitytls_x509list_ref_t6C5C1CF0B720516A681CB741104A164FD8B3CF17 ___chain1, unitytls_errorstate_tC926EE4582920BE2C1DB1F3F65619B810D5AB902* ___errorState2);
-extern "C" intptr_t CDECL ReversePInvokeWrapper_UnityTlsContext_WriteCallback_m53DD70115C97432A676F3E437E8FB42F9FC068F5(void* ___userData0, uint8_t* ___data1, intptr_t ___bufferLen2, unitytls_errorstate_tC926EE4582920BE2C1DB1F3F65619B810D5AB902* ___errorState3);
-extern "C" uint32_t CDECL ReversePInvokeWrapper_UnityTlsProvider_x509verify_callback_m47823254E133F7304ABFAE5A1F0D218402BC5B45(void* ___userData0, unitytls_x509_ref_t9CEB17766B4144117333AB50379B21A357FA4333 ___cert1, uint32_t ___result2, unitytls_errorstate_tC926EE4582920BE2C1DB1F3F65619B810D5AB902* ___errorState3);
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_XRCpuImage_OnAsyncConversionComplete_m7E311C07BC1C6138581C60F22191796CF029C65F(int32_t ___status0, ConversionParams_t062706B15E2C508C54473A1FD72013C4381CCB62 ___conversionParams1, intptr_t ___dataPtr2, int32_t ___dataLength3, intptr_t ___context4);
+extern "C" void CDECL ReversePInvokeWrapper_CloudSpatialAnchorSession_AnchorLocatedStaticHandler_m64E9E6D3AB036F0C861FE8ADCE0533E48FFA1B90(uint64_t ___cookie0, intptr_t ___args1);
+extern "C" void CDECL ReversePInvokeWrapper_CloudSpatialAnchorSession_ErrorStaticHandler_m6BB2FBBE0E72FE3F9FC434B8E95FE0A4851E8302(uint64_t ___cookie0, intptr_t ___args1);
+extern "C" void CDECL ReversePInvokeWrapper_CloudSpatialAnchorSession_LocateAnchorsCompletedStaticHandler_mC912801985FAD887254411C6FC612C6638155C7F(uint64_t ___cookie0, intptr_t ___args1);
+extern "C" void CDECL ReversePInvokeWrapper_CloudSpatialAnchorSession_OnLogDebugStaticHandler_m90532737252CBC09C98D17C3457FF770BB1ACCFE(uint64_t ___cookie0, intptr_t ___args1);
+extern "C" void CDECL ReversePInvokeWrapper_CloudSpatialAnchorSession_SessionUpdatedStaticHandler_m644C88E4D56677AA92E417A8A997EB699E9011C4(uint64_t ___cookie0, intptr_t ___args1);
+extern "C" void CDECL ReversePInvokeWrapper_CloudSpatialAnchorSession_TokenRequiredStaticHandler_m246C34045315E93DEA6E7323F880A2D5797AB7F2(uint64_t ___cookie0, intptr_t ___args1);
+extern "C" void CDECL ReversePInvokeWrapper_CloudSpatialAnchorSession_UpdatedSensorFingerprintRequiredStaticHandler_m76F871ECC8D0D0A5E1E3A248A5A2CA145CBE8A16(uint64_t ___cookie0, intptr_t ___args1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_DeflateStreamNative_UnmanagedRead_m1B817101FEA9D3C28DF3C9192F70557465BDFB25(intptr_t ___buffer0, int32_t ___length1, intptr_t ___data2);
+extern "C" int32_t CDECL ReversePInvokeWrapper_DeflateStreamNative_UnmanagedWrite_m531442C0133AA29BF262DFD21F81CCBE5EA7E086(intptr_t ___buffer0, int32_t ___length1, intptr_t ___data2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_EventProvider_EtwEnableCallBack_m21ADE6DC652B28DDB916AC68B9FC908B18006FFD(Guid_t * ___sourceId0, int32_t ___controlCode1, uint8_t ___setLevel2, int64_t ___anyKeyword3, int64_t ___allKeyword4, EVENT_FILTER_DESCRIPTOR_t59379AB6F16CCEA5C0BDF328FF5AC64040CED05B * ___filterData5, void* ___callbackContext6);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MockRuntime_AfterFunctionCallback_mAF8AAD83714DE1C2B13FF7FAE1CC275D15EB1001(char* ___function0, int32_t ___result1);
+extern "C" int32_t DEFAULT_CALL ReversePInvokeWrapper_MockRuntime_BeforeFunctionCallback_m5FDEF08149545E36EFDAE885A986A2A04151E5C9(char* ___function0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MockRuntime_ReceiveScriptEvent_m66F5CEF0D55D35B1E8447878C2B348426763571B(int32_t ___evt0, uint64_t ___param1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_m0045E44F7E960D6B4A864D5206D4116249C09BB0(intptr_t ___arg0);
+extern "C" void CDECL ReversePInvokeWrapper_ObjectInstance_ChangedStaticHandler_m1CE2D590919456EBD79555886BAD9E1358DFEEC1(uint64_t ___cookie0, intptr_t ___args1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OpenXRLoaderBase_ReceiveNativeEvent_m1B22309DB57E9CBCEE079C233A221B002F3EB651(int32_t ___e0, uint64_t ___payload1);
+extern "C" void CDECL ReversePInvokeWrapper_ProjectedObjectCache_ProjectedObjectCleanupHandler_m809EC3C10B1B19187BDF04FF5B5C1EDE6C1066E0(intptr_t ___handle0);
+extern "C" void CDECL ReversePInvokeWrapper_ProjectedObjectCache_ProjectedObjectCleanupHandler_m91E4601948A66640AEF1ECEA3E4105FC800F16CF(uint64_t ___cookie0);
+extern "C" void CDECL ReversePInvokeWrapper_Recognizer_FireEvent_SetSessionStarted_mE1D278B2C1F2EA34E714D8E5F41CF8EA7E533F11(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_Recognizer_FireEvent_SetSessionStopped_mC49DC694FC309FDE44262E02039FB542A838CC78(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_Recognizer_FireEvent_SpeechEndDetected_mBD282262A151F5C473D1C49CFF74DEDDD71E7769(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_Recognizer_FireEvent_SpeechStartDetected_m6BA5E049E81970E282933AEEA38E42DC461AC29F(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_SpeechRecognizer_FireEvent_Canceled_m4DDE18DFD654DACBDE97F182D735A624B5E601F2(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_SpeechRecognizer_FireEvent_Recognized_m67E62803BF374C34B61CFC991DA73FE25AF287BF(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_SpeechRecognizer_FireEvent_Recognizing_m3BAA0548428B005FA57B77CB4B09D157F5D34E0F(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_TranslationRecognizer_FireEvent_Canceled_m07E5C0FDE0F3C15AE7DA029B15FAB7D3B20DEBA2(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_TranslationRecognizer_FireEvent_Recognized_mDDE062FC556E989A6D9524FEDD5CB998F3B7283A(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_TranslationRecognizer_FireEvent_Recognizing_mB199DD38F12DAD9246DD6B677A2E74490B49A52F(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_TranslationRecognizer_FireEvent_SynthesisResult_mCE224C9BBD6BD727940FA60C9E032A92A4B3CB80(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_UnityTlsContext_CertificateCallback_m793CC2EDD82935F29A3DEBD1F208DC56EA822E9C(void* ___userData0, unitytls_tlsctx_tA5DB674E2A83ADDD03624096501FCDD29E9DB7FA * ___ctx1, uint8_t* ___cn2, intptr_t ___cnLen3, unitytls_x509name_tC19C2F27FF70AD438A79A5F66E4C5FFA2613EDA6 * ___caList4, intptr_t ___caListLen5, unitytls_x509list_ref_tE4376B9592E1AF7E02BB0BB2CE110D8219832D4D * ___chain6, unitytls_key_ref_t7EFBA70561D0E9FD8517038EBC0CC9FCF9AE6B61 * ___key7, unitytls_errorstate_t0015D496F47B84E1D98D31D5132B27FADB38F499 * ___errorState8);
+extern "C" intptr_t CDECL ReversePInvokeWrapper_UnityTlsContext_ReadCallback_mA0BF382397D912B79B6064B58B6C7C5D97853245(void* ___userData0, uint8_t* ___buffer1, intptr_t ___bufferLen2, unitytls_errorstate_t0015D496F47B84E1D98D31D5132B27FADB38F499 * ___errorState3);
+extern "C" uint32_t CDECL ReversePInvokeWrapper_UnityTlsContext_VerifyCallback_m8C61EF3A0037483AD56A083CA47D8E4C0404961E(void* ___userData0, unitytls_x509list_ref_tE4376B9592E1AF7E02BB0BB2CE110D8219832D4D  ___chain1, unitytls_errorstate_t0015D496F47B84E1D98D31D5132B27FADB38F499 * ___errorState2);
+extern "C" intptr_t CDECL ReversePInvokeWrapper_UnityTlsContext_WriteCallback_m466D11090AF989AD1F14E6FE049320297C12A86C(void* ___userData0, uint8_t* ___data1, intptr_t ___bufferLen2, unitytls_errorstate_t0015D496F47B84E1D98D31D5132B27FADB38F499 * ___errorState3);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_Utils_debugLogFunc_mE608499BFFDF3850B70D0C82BFB3D5AEB2C9A960(char* ___str0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_Utils_debugLogFunc_mE62DD092F4CD113BF39EF76BB6E7935FF4482520(char* ___str0);
 
 
 IL2CPP_EXTERN_C const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[];
-const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[44] = 
+const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[35] = 
 {
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARCameraBackground_BeforeBackgroundRenderHandler_m50F0B7017DEEF627A0B128B2A9828CBEC377AF3C),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CloudSpatialAnchorSession_AnchorLocatedStaticHandler_m7F5FF0EA69132F780B6B46AFA3616406EA934D93),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CloudSpatialAnchorSession_ErrorStaticHandler_m241261747B303FB2E4FB05A5D4212E6E567DC232),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CloudSpatialAnchorSession_LocateAnchorsCompletedStaticHandler_mA6101C6852D0F0345780A504976BF7A48E27C5BC),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CloudSpatialAnchorSession_OnLogDebugStaticHandler_m2015511182F048D2DCD01CCA7DA3281E3BACB785),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CloudSpatialAnchorSession_SessionUpdatedStaticHandler_mC8972CFAF6A58E8B23E49D5FDE4035C3B37CD28C),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CloudSpatialAnchorSession_TokenRequiredStaticHandler_m6F35D76A628235F0ECBEC6E15FA363587A0B99D2),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CloudSpatialAnchorSession_UpdatedSensorFingerprintRequiredStaticHandler_mE9FBB20BA29E433FBF02545C4173145596D46AEB),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CultureInfo_OnCultureInfoChangedInAppX_mDBD419B094B2CFE933BB3F63886A5AB4E44D2DC0),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_DeflateStreamNative_UnmanagedRead_m79E9628F6FF91A3995491997242DD83046C9B704),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_DeflateStreamNative_UnmanagedWrite_m509AE153ECB916CDF755432335FBAB2B51CA1486),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MockRuntime_AfterFunctionCallback_m6812E36D77CB5E9AC4BA21547ECB1A7CC8130188),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MockRuntime_BeforeFunctionCallback_mC2015035328001D9FC22DC73D38518A1146ED728),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MockRuntime_ReceiveScriptEvent_mF60E011CE8C239703723E35BB000CEE934CAC267),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MonoBtlsBioMono_Control_mE6F92D680A96B8B446D566D221BF925954FF43BB),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MonoBtlsBioMono_OnRead_mE0FF0BFC134CD0F923BBC555E346B7DD7CAD8988),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MonoBtlsBioMono_OnWrite_m605A12A8B0CE9517927656981580BFA330BED613),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MonoBtlsSsl_PrintErrorsCallback_mF161ADF7DBDB81C47BDD587C87E1275DEE5B7A45),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MonoBtlsSslCtx_NativeSelectCallback_m6CA34F71A6093C7260A9F066D6C9FB3CD0CC86DB),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MonoBtlsSslCtx_NativeServerNameCallback_mFF311CE931F6A075940D1B6828D1FB517AF03838),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MonoBtlsSslCtx_NativeVerifyCallback_mFDF10D01CAAD040E50EE6F53FC1D4155EF696218),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MonoBtlsX509LookupMono_OnGetBySubject_m15FE6FBEE9849C324E8E099172A581EABEB83FB3),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_mB85BF0265E239960FC963DCA74DC67EBCE9480AC),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ObjectInstance_ChangedStaticHandler_mEB88F54081FFA44FB88974C35BDC5E0FCDF26659),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OpenXRLoaderBase_ReceiveNativeEvent_m1B50DCF4E5D74B8395C1B1E64747B1E8A3DE7AD6),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ProjectedObjectCache_ProjectedObjectCleanupHandler_mFAB3B7F3ADB8A72C0459177CA9E96FEEFD11A20B),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ProjectedObjectCache_ProjectedObjectCleanupHandler_mF139EE45271FA25EE68F59617F5058AB7601C255),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Recognizer_FireEvent_SetSessionStarted_m52E09A4B81972BF98DDFF6F1901AF63188C91629),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Recognizer_FireEvent_SetSessionStopped_m1925D97F4E29071799739DAE667160A804385C25),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Recognizer_FireEvent_SpeechEndDetected_m855530988936AC915A4277BF08A8EF863933990E),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Recognizer_FireEvent_SpeechStartDetected_mBBD9DA4BDE0F8E8E8545C4BACEC0068B86F16DAF),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_SpeechRecognizer_FireEvent_Canceled_m2034F62D22C618A305A7E5E7DCB416439CDD3F6E),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_SpeechRecognizer_FireEvent_Recognized_m1C49575EF31FF9111D7CC4CC679D1582B525F886),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_SpeechRecognizer_FireEvent_Recognizing_m5F41324B4925637FC1859240D793E0038ABE9EA4),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_TranslationRecognizer_FireEvent_Canceled_m7875F1D6DA9BCA902CF05D571D55EF1055AB2E82),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_TranslationRecognizer_FireEvent_Recognized_m37BF6A7CAA9794E1DBFAFB10D294B7DB958B9836),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_TranslationRecognizer_FireEvent_Recognizing_m9C07BDADD03B380A822B8C7C96CD90C471447E4C),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_TranslationRecognizer_FireEvent_SynthesisResult_m6AE445D95E7487065CAB7589BDD9616335B69737),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_CertificateCallback_mF5E626BA2545CFFA64428622678E409702C2045A),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_ReadCallback_m15F3A217E44D480CAED06EB5A88503FB6259D7EC),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_VerifyCallback_m75D7C072718405EBBF8A2A9C794C4DDFB2595BD0),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_WriteCallback_m53DD70115C97432A676F3E437E8FB42F9FC068F5),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsProvider_x509verify_callback_m47823254E133F7304ABFAE5A1F0D218402BC5B45),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_XRCpuImage_OnAsyncConversionComplete_m7E311C07BC1C6138581C60F22191796CF029C65F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CloudSpatialAnchorSession_AnchorLocatedStaticHandler_m64E9E6D3AB036F0C861FE8ADCE0533E48FFA1B90),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CloudSpatialAnchorSession_ErrorStaticHandler_m6BB2FBBE0E72FE3F9FC434B8E95FE0A4851E8302),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CloudSpatialAnchorSession_LocateAnchorsCompletedStaticHandler_mC912801985FAD887254411C6FC612C6638155C7F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CloudSpatialAnchorSession_OnLogDebugStaticHandler_m90532737252CBC09C98D17C3457FF770BB1ACCFE),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CloudSpatialAnchorSession_SessionUpdatedStaticHandler_m644C88E4D56677AA92E417A8A997EB699E9011C4),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CloudSpatialAnchorSession_TokenRequiredStaticHandler_m246C34045315E93DEA6E7323F880A2D5797AB7F2),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CloudSpatialAnchorSession_UpdatedSensorFingerprintRequiredStaticHandler_m76F871ECC8D0D0A5E1E3A248A5A2CA145CBE8A16),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_DeflateStreamNative_UnmanagedRead_m1B817101FEA9D3C28DF3C9192F70557465BDFB25),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_DeflateStreamNative_UnmanagedWrite_m531442C0133AA29BF262DFD21F81CCBE5EA7E086),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_EventProvider_EtwEnableCallBack_m21ADE6DC652B28DDB916AC68B9FC908B18006FFD),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MockRuntime_AfterFunctionCallback_mAF8AAD83714DE1C2B13FF7FAE1CC275D15EB1001),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MockRuntime_BeforeFunctionCallback_m5FDEF08149545E36EFDAE885A986A2A04151E5C9),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MockRuntime_ReceiveScriptEvent_m66F5CEF0D55D35B1E8447878C2B348426763571B),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_m0045E44F7E960D6B4A864D5206D4116249C09BB0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ObjectInstance_ChangedStaticHandler_m1CE2D590919456EBD79555886BAD9E1358DFEEC1),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OpenXRLoaderBase_ReceiveNativeEvent_m1B22309DB57E9CBCEE079C233A221B002F3EB651),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ProjectedObjectCache_ProjectedObjectCleanupHandler_m809EC3C10B1B19187BDF04FF5B5C1EDE6C1066E0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ProjectedObjectCache_ProjectedObjectCleanupHandler_m91E4601948A66640AEF1ECEA3E4105FC800F16CF),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Recognizer_FireEvent_SetSessionStarted_mE1D278B2C1F2EA34E714D8E5F41CF8EA7E533F11),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Recognizer_FireEvent_SetSessionStopped_mC49DC694FC309FDE44262E02039FB542A838CC78),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Recognizer_FireEvent_SpeechEndDetected_mBD282262A151F5C473D1C49CFF74DEDDD71E7769),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Recognizer_FireEvent_SpeechStartDetected_m6BA5E049E81970E282933AEEA38E42DC461AC29F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_SpeechRecognizer_FireEvent_Canceled_m4DDE18DFD654DACBDE97F182D735A624B5E601F2),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_SpeechRecognizer_FireEvent_Recognized_m67E62803BF374C34B61CFC991DA73FE25AF287BF),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_SpeechRecognizer_FireEvent_Recognizing_m3BAA0548428B005FA57B77CB4B09D157F5D34E0F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_TranslationRecognizer_FireEvent_Canceled_m07E5C0FDE0F3C15AE7DA029B15FAB7D3B20DEBA2),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_TranslationRecognizer_FireEvent_Recognized_mDDE062FC556E989A6D9524FEDD5CB998F3B7283A),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_TranslationRecognizer_FireEvent_Recognizing_mB199DD38F12DAD9246DD6B677A2E74490B49A52F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_TranslationRecognizer_FireEvent_SynthesisResult_mCE224C9BBD6BD727940FA60C9E032A92A4B3CB80),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_CertificateCallback_m793CC2EDD82935F29A3DEBD1F208DC56EA822E9C),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_ReadCallback_mA0BF382397D912B79B6064B58B6C7C5D97853245),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_VerifyCallback_m8C61EF3A0037483AD56A083CA47D8E4C0404961E),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_WriteCallback_m466D11090AF989AD1F14E6FE049320297C12A86C),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Utils_debugLogFunc_mE608499BFFDF3850B70D0C82BFB3D5AEB2C9A960),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Utils_debugLogFunc_mE62DD092F4CD113BF39EF76BB6E7935FF4482520),
 };

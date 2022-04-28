@@ -7769,7 +7769,7 @@ IL_001b_1:
 				L_4 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(__this, NULL);
 				NullCheck(L_4);
 				String_t* L_5;
-				L_5 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_4);
+				L_5 = VirtualFuncInvoker0< String_t* >::Invoke(13 /* System.String System.Reflection.MemberInfo::get_Name() */, L_4);
 				String_t* L_6;
 				L_6 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralBBABDBD5000A085E82E4D1F28B12069391E261AA, L_5, NULL);
 				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
@@ -10660,7 +10660,7 @@ IL_00f9_1:
 				Type_t* L_50 = V_4;
 				NullCheck(L_50);
 				String_t* L_51;
-				L_51 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_50);
+				L_51 = VirtualFuncInvoker0< String_t* >::Invoke(13 /* System.String System.Reflection.MemberInfo::get_Name() */, L_50);
 				String_t* L_52;
 				L_52 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(_stringLiteralC2C604A03D20BDF641FF4B72AEF3DC61C4CD432F, L_51, _stringLiteral25AE702FFEA928066DA09FC11B4BC7B967DE10D4, NULL);
 				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);

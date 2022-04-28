@@ -12,1339 +12,1273 @@
 
 
 
-// 0x00000001 System.Net.Http.IMonoHttpClientHandler System.Net.Http.HttpClientHandler::CreateDefaultHandler()
-extern void HttpClientHandler_CreateDefaultHandler_m9676B4AF660F55F5D854E3FEF308CD2A9BFDF808 (void);
-// 0x00000002 System.Void System.Net.Http.HttpClientHandler::.ctor()
-extern void HttpClientHandler__ctor_m6357CCF5F420EF85F578EA8ECB5001E58A5C52AC (void);
-// 0x00000003 System.Void System.Net.Http.HttpClientHandler::.ctor(System.Net.Http.IMonoHttpClientHandler)
-extern void HttpClientHandler__ctor_m33DDAD7F610B906A16F44CEAC4DCA09D42ED13F1 (void);
-// 0x00000004 System.Void System.Net.Http.HttpClientHandler::Dispose(System.Boolean)
-extern void HttpClientHandler_Dispose_m0A13CCCA40A5B781E7640C31B185369045574283 (void);
-// 0x00000005 System.Void System.Net.Http.HttpClientHandler::ThrowForModifiedManagedSslOptionsIfStarted()
-extern void HttpClientHandler_ThrowForModifiedManagedSslOptionsIfStarted_mCA2D68A07543ABB4B31CE060EC1A462F311829B7 (void);
-// 0x00000006 System.Net.Http.ClientCertificateOption System.Net.Http.HttpClientHandler::get_ClientCertificateOptions()
-extern void HttpClientHandler_get_ClientCertificateOptions_m125D79B5BA7CCE278B3E862D0B3EE4E7E67263B3 (void);
-// 0x00000007 System.Void System.Net.Http.HttpClientHandler::set_ClientCertificateOptions(System.Net.Http.ClientCertificateOption)
-extern void HttpClientHandler_set_ClientCertificateOptions_mFD7F997062D62DAF17E02637E93AA065F01BAAFF (void);
-// 0x00000008 System.Security.Cryptography.X509Certificates.X509CertificateCollection System.Net.Http.HttpClientHandler::get_ClientCertificates()
-extern void HttpClientHandler_get_ClientCertificates_m3C3A1C2B66D8F2F16F282F02EBE624B556913B39 (void);
-// 0x00000009 System.Void System.Net.Http.HttpClientHandler::set_AutomaticDecompression(System.Net.DecompressionMethods)
-extern void HttpClientHandler_set_AutomaticDecompression_mD41DC780550E4AAD583869E367DE4F6F16B50382 (void);
-// 0x0000000A System.Void System.Net.Http.HttpClientHandler::SetWebRequestTimeout(System.TimeSpan)
-extern void HttpClientHandler_SetWebRequestTimeout_mA240E8489C15D382047FFA8E295D82710C60A129 (void);
-// 0x0000000B System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> System.Net.Http.HttpClientHandler::SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
-extern void HttpClientHandler_SendAsync_m024FF40EDC1A14211704DB0DE00BCB7B9E9FD406 (void);
-// 0x0000000C System.Security.Cryptography.X509Certificates.X509Certificate System.Net.Http.HttpClientHandler::<set_ClientCertificateOptions>b__23_0(System.Object,System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String[])
-extern void HttpClientHandler_U3Cset_ClientCertificateOptionsU3Eb__23_0_m8ED6BB8A8CBA03831F0E561D38F44A02AEBFA4EB (void);
-// 0x0000000D System.Void System.Net.Http.HttpClientHandler/<>c::.cctor()
-extern void U3CU3Ec__cctor_mFF314B2B1E26CFA5AF6238C3C7046C8253E2AA55 (void);
-// 0x0000000E System.Void System.Net.Http.HttpClientHandler/<>c::.ctor()
-extern void U3CU3Ec__ctor_m8081C9775B8B23CD0C05714BDD333F6CD832D5F7 (void);
-// 0x0000000F System.Security.Cryptography.X509Certificates.X509Certificate System.Net.Http.HttpClientHandler/<>c::<set_ClientCertificateOptions>b__23_1(System.Object,System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String[])
-extern void U3CU3Ec_U3Cset_ClientCertificateOptionsU3Eb__23_1_m2D7641974DB05F0F1544EF5DCAC7DE0B07AC267F (void);
-// 0x00000010 System.Net.Security.SslClientAuthenticationOptions System.Net.Http.IMonoHttpClientHandler::get_SslOptions()
-// 0x00000011 System.Void System.Net.Http.IMonoHttpClientHandler::set_SslOptions(System.Net.Security.SslClientAuthenticationOptions)
-// 0x00000012 System.Void System.Net.Http.IMonoHttpClientHandler::set_AutomaticDecompression(System.Net.DecompressionMethods)
-// 0x00000013 System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> System.Net.Http.IMonoHttpClientHandler::SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
-// 0x00000014 System.Void System.Net.Http.IMonoHttpClientHandler::SetWebRequestTimeout(System.TimeSpan)
-// 0x00000015 System.Void System.Net.Http.MonoWebRequestHandler::.ctor()
-extern void MonoWebRequestHandler__ctor_mC04FDA948712FBFB01F0E51FC7A5071215E69791 (void);
-// 0x00000016 System.Void System.Net.Http.MonoWebRequestHandler::EnsureModifiability()
-extern void MonoWebRequestHandler_EnsureModifiability_mE625AC34D37CAC44D2AF83E6A8870E7923457FAF (void);
-// 0x00000017 System.Void System.Net.Http.MonoWebRequestHandler::set_AutomaticDecompression(System.Net.DecompressionMethods)
-extern void MonoWebRequestHandler_set_AutomaticDecompression_mDD811FFEA73D6B28935D2ABC55F729E7FD055E1E (void);
-// 0x00000018 System.Net.CookieContainer System.Net.Http.MonoWebRequestHandler::get_CookieContainer()
-extern void MonoWebRequestHandler_get_CookieContainer_m6BD016ADE4DDC81F8E93C594EF46F9778F7C611E (void);
-// 0x00000019 System.Int64 System.Net.Http.MonoWebRequestHandler::get_MaxRequestContentBufferSize()
-extern void MonoWebRequestHandler_get_MaxRequestContentBufferSize_m75079F76B390E7F66F450784C3BA592455D1455C (void);
-// 0x0000001A System.Net.Security.SslClientAuthenticationOptions System.Net.Http.MonoWebRequestHandler::get_SslOptions()
-extern void MonoWebRequestHandler_get_SslOptions_mA4498C2CB8D1BD656A4252C62329904008EF120D (void);
-// 0x0000001B System.Void System.Net.Http.MonoWebRequestHandler::set_SslOptions(System.Net.Security.SslClientAuthenticationOptions)
-extern void MonoWebRequestHandler_set_SslOptions_m2CA7F5B821054567468996F118A9E5B83BCCE7FE (void);
-// 0x0000001C System.Void System.Net.Http.MonoWebRequestHandler::Dispose()
-extern void MonoWebRequestHandler_Dispose_mF2175A6F59FBF058AAB0D023796932B9CD89CC7A (void);
-// 0x0000001D System.Void System.Net.Http.MonoWebRequestHandler::Dispose(System.Boolean)
-extern void MonoWebRequestHandler_Dispose_m5EF688221B41F01EDC3E58E69B6B5E545E9EA5B8 (void);
-// 0x0000001E System.Boolean System.Net.Http.MonoWebRequestHandler::GetConnectionKeepAlive(System.Net.Http.Headers.HttpRequestHeaders)
-extern void MonoWebRequestHandler_GetConnectionKeepAlive_m59E1B9C37AC8D58CE62A68647F969D0A0948DEA0 (void);
-// 0x0000001F System.Net.HttpWebRequest System.Net.Http.MonoWebRequestHandler::CreateWebRequest(System.Net.Http.HttpRequestMessage)
-extern void MonoWebRequestHandler_CreateWebRequest_mBB805D3B8032C3CB3B2D71E04E3C319F0E627D1F (void);
-// 0x00000020 System.Net.Http.HttpResponseMessage System.Net.Http.MonoWebRequestHandler::CreateResponseMessage(System.Net.HttpWebResponse,System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
-extern void MonoWebRequestHandler_CreateResponseMessage_mE9CA1132C776E6AC6FBDAC80DC537554021F8554 (void);
-// 0x00000021 System.Boolean System.Net.Http.MonoWebRequestHandler::MethodHasBody(System.Net.Http.HttpMethod)
-extern void MonoWebRequestHandler_MethodHasBody_mF7601FF85E0F04F516B4DD2717B84954A93F0865 (void);
-// 0x00000022 System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> System.Net.Http.MonoWebRequestHandler::SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
-extern void MonoWebRequestHandler_SendAsync_m218FBC412C4300E40FF988645B1BF648580D5B2F (void);
-// 0x00000023 System.Void System.Net.Http.MonoWebRequestHandler::System.Net.Http.IMonoHttpClientHandler.SetWebRequestTimeout(System.TimeSpan)
-extern void MonoWebRequestHandler_System_Net_Http_IMonoHttpClientHandler_SetWebRequestTimeout_m5293395DF916E81D5D3133AC651F1A1A6E1D1273 (void);
-// 0x00000024 System.Void System.Net.Http.MonoWebRequestHandler/<>c::.cctor()
-extern void U3CU3Ec__cctor_m86E3F67526320C63857C5A03C547FBFAC74CB714 (void);
-// 0x00000025 System.Void System.Net.Http.MonoWebRequestHandler/<>c::.ctor()
-extern void U3CU3Ec__ctor_mB266802E8E61D4BBF9574155AE9FD13BAEA6EC19 (void);
-// 0x00000026 System.Boolean System.Net.Http.MonoWebRequestHandler/<>c::<GetConnectionKeepAlive>b__95_0(System.String)
-extern void U3CU3Ec_U3CGetConnectionKeepAliveU3Eb__95_0_mEEBBBF58FE2E64E3ADC5EED24E555A152A9BE3B9 (void);
-// 0x00000027 System.Boolean System.Net.Http.MonoWebRequestHandler/<>c::<CreateWebRequest>b__96_0(System.String)
-extern void U3CU3Ec_U3CCreateWebRequestU3Eb__96_0_m81948F2CD71D4E9355337B011423CB54C07BDBDB (void);
-// 0x00000028 System.Void System.Net.Http.MonoWebRequestHandler/<>c::<SendAsync>b__99_0(System.Object)
-extern void U3CU3Ec_U3CSendAsyncU3Eb__99_0_mB17060441B0A78DDFC7812D973273DD7071C44D3 (void);
-// 0x00000029 System.Void System.Net.Http.MonoWebRequestHandler/<SendAsync>d__99::MoveNext()
-extern void U3CSendAsyncU3Ed__99_MoveNext_mD015CC1B55C285519224F811D1CA69F527F8F633 (void);
-// 0x0000002A System.Void System.Net.Http.MonoWebRequestHandler/<SendAsync>d__99::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CSendAsyncU3Ed__99_SetStateMachine_mC683070F624F909DF81C8BAFD48719411A51F55A (void);
-// 0x0000002B System.Boolean System.Net.Http.PlatformHelper::IsContentHeader(System.String)
-extern void PlatformHelper_IsContentHeader_m0B060D3765EC0D05C76E21F56BB9319FDFBAE91A (void);
-// 0x0000002C System.String System.Net.Http.PlatformHelper::GetSingleHeaderString(System.String,System.Collections.Generic.IEnumerable`1<System.String>)
-extern void PlatformHelper_GetSingleHeaderString_m20930FA19CE11AE511ED0D3F292A0727BFD68204 (void);
-// 0x0000002D System.Net.Http.StreamContent System.Net.Http.PlatformHelper::CreateStreamContent(System.IO.Stream,System.Threading.CancellationToken)
-extern void PlatformHelper_CreateStreamContent_mAFB2A5D17147F1B50EE0DFF83AE46E7B8D9E82C5 (void);
-// 0x0000002E System.Void System.Net.Http.HttpClient::.ctor(System.Net.Http.HttpMessageHandler,System.Boolean)
-extern void HttpClient__ctor_m35293DC218A28B1681DBA7522D910FFB8046A26D (void);
-// 0x0000002F System.Net.Http.Headers.HttpRequestHeaders System.Net.Http.HttpClient::get_DefaultRequestHeaders()
-extern void HttpClient_get_DefaultRequestHeaders_m4BBE4A267D373F4A4677A2C8A92FDE393E440918 (void);
-// 0x00000030 System.Int64 System.Net.Http.HttpClient::get_MaxResponseContentBufferSize()
-extern void HttpClient_get_MaxResponseContentBufferSize_mF7CEDF9DD976926314D3573CFF196E15E53FDCCC (void);
-// 0x00000031 System.Void System.Net.Http.HttpClient::set_Timeout(System.TimeSpan)
-extern void HttpClient_set_Timeout_mB71FE4F51049156CCBC5C9BD28E884819F8D3D66 (void);
-// 0x00000032 System.Void System.Net.Http.HttpClient::Dispose(System.Boolean)
-extern void HttpClient_Dispose_m5D14983830E282B109D8A27F5B743AEB1AEED7C3 (void);
-// 0x00000033 System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> System.Net.Http.HttpClient::SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
-extern void HttpClient_SendAsync_mBD20C2F32561EE08940248546C6FC89ECB5A233E (void);
-// 0x00000034 System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> System.Net.Http.HttpClient::SendAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)
-extern void HttpClient_SendAsync_m5C9B076F873C5D2F4E5301937A1AFE3427346E71 (void);
-// 0x00000035 System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> System.Net.Http.HttpClient::SendAsyncWorker(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)
-extern void HttpClient_SendAsyncWorker_m705970670309B586A349D3D8E0A6F7FC41866656 (void);
-// 0x00000036 System.Void System.Net.Http.HttpClient::.cctor()
-extern void HttpClient__cctor_mAA86EF7FDCA61B6BEB84C0A232EDE83E163C31FE (void);
-// 0x00000037 System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> System.Net.Http.HttpClient::<>n__0(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
-extern void HttpClient_U3CU3En__0_mB4BDD18E477B0060D9D2269B9A8AAD8A7FC96438 (void);
-// 0x00000038 System.Void System.Net.Http.HttpClient/<SendAsyncWorker>d__47::MoveNext()
-extern void U3CSendAsyncWorkerU3Ed__47_MoveNext_mE32A14C1E715F40E33134DD8478CDFA53F9B0195 (void);
-// 0x00000039 System.Void System.Net.Http.HttpClient/<SendAsyncWorker>d__47::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CSendAsyncWorkerU3Ed__47_SetStateMachine_mFAEEB15454DF7D3F33C3FD1DC98B9938FAF55BF4 (void);
-// 0x0000003A System.Net.Http.Headers.HttpContentHeaders System.Net.Http.HttpContent::get_Headers()
-extern void HttpContent_get_Headers_m6183562F724ABF57805E94A2AB0D72BF44659DCD (void);
-// 0x0000003B System.Nullable`1<System.Int64> System.Net.Http.HttpContent::get_LoadedBufferLength()
-extern void HttpContent_get_LoadedBufferLength_mF8801E825BC246F9A8B23105E2BF8159E1F5673D (void);
-// 0x0000003C System.Threading.Tasks.Task System.Net.Http.HttpContent::CopyToAsync(System.IO.Stream)
-extern void HttpContent_CopyToAsync_m7A4662CBCE423C27409264914A8A556932807847 (void);
-// 0x0000003D System.Threading.Tasks.Task System.Net.Http.HttpContent::CopyToAsync(System.IO.Stream,System.Net.TransportContext)
-extern void HttpContent_CopyToAsync_mD13D4F1627C1DB44059B7B630EE99F43AD83BE90 (void);
-// 0x0000003E System.Threading.Tasks.Task`1<System.IO.Stream> System.Net.Http.HttpContent::CreateContentReadStreamAsync()
-extern void HttpContent_CreateContentReadStreamAsync_m8FCF4138D75075D5A68175D6AB3781723F927858 (void);
-// 0x0000003F System.Net.Http.HttpContent/FixedMemoryStream System.Net.Http.HttpContent::CreateFixedMemoryStream(System.Int64)
-extern void HttpContent_CreateFixedMemoryStream_mD51DD3A668F26D0EE8DBBA6C436BFB3E3116BFF7 (void);
-// 0x00000040 System.Void System.Net.Http.HttpContent::Dispose()
-extern void HttpContent_Dispose_mF42691D08BA188B9EE9541590ADDA0447D8EC677 (void);
-// 0x00000041 System.Void System.Net.Http.HttpContent::Dispose(System.Boolean)
-extern void HttpContent_Dispose_mE8161B09FBF48F71BDA5D4A9EA543CBA737D49EC (void);
-// 0x00000042 System.Threading.Tasks.Task System.Net.Http.HttpContent::LoadIntoBufferAsync()
-extern void HttpContent_LoadIntoBufferAsync_mC097E245A245486C664D269F6C88923FA222A4EB (void);
-// 0x00000043 System.Threading.Tasks.Task System.Net.Http.HttpContent::LoadIntoBufferAsync(System.Int64)
-extern void HttpContent_LoadIntoBufferAsync_m0893A4FC3D71510110E03E667A11661A35C33A3D (void);
-// 0x00000044 System.Threading.Tasks.Task`1<System.IO.Stream> System.Net.Http.HttpContent::ReadAsStreamAsync()
-extern void HttpContent_ReadAsStreamAsync_m7C4323126B463483F4B8E702CD61F8661B89CD10 (void);
-// 0x00000045 System.Threading.Tasks.Task System.Net.Http.HttpContent::SerializeToStreamAsync(System.IO.Stream,System.Net.TransportContext)
-// 0x00000046 System.Boolean System.Net.Http.HttpContent::TryComputeLength(System.Int64&)
-// 0x00000047 System.Void System.Net.Http.HttpContent::.ctor()
-extern void HttpContent__ctor_mA9B003CBB143D40E63ADE608903A8A8ADE677E04 (void);
-// 0x00000048 System.Void System.Net.Http.HttpContent/FixedMemoryStream::.ctor(System.Int64)
-extern void FixedMemoryStream__ctor_m0E45A01A86100EAE6BD545DFBB6B2C78885CD5EA (void);
-// 0x00000049 System.Void System.Net.Http.HttpContent/FixedMemoryStream::CheckOverflow(System.Int32)
-extern void FixedMemoryStream_CheckOverflow_mD0819047950BF663F87562224D76F59CB70240D7 (void);
-// 0x0000004A System.Void System.Net.Http.HttpContent/FixedMemoryStream::WriteByte(System.Byte)
-extern void FixedMemoryStream_WriteByte_m0D61575AA017152E8154EB9A1934E6F377469445 (void);
-// 0x0000004B System.Void System.Net.Http.HttpContent/FixedMemoryStream::Write(System.Byte[],System.Int32,System.Int32)
-extern void FixedMemoryStream_Write_m76C778EED47172B9C29CCAA994C20C2ADDC082CA (void);
-// 0x0000004C System.Void System.Net.Http.HttpContent/<CreateContentReadStreamAsync>d__12::MoveNext()
-extern void U3CCreateContentReadStreamAsyncU3Ed__12_MoveNext_m276E4611E6EDC86BD0D8980934F2A971B86AC292 (void);
-// 0x0000004D System.Void System.Net.Http.HttpContent/<CreateContentReadStreamAsync>d__12::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CCreateContentReadStreamAsyncU3Ed__12_SetStateMachine_mE4E83E60859548E09AC74409A5B872A61A165F4F (void);
-// 0x0000004E System.Void System.Net.Http.HttpContent/<LoadIntoBufferAsync>d__17::MoveNext()
-extern void U3CLoadIntoBufferAsyncU3Ed__17_MoveNext_m560ECBE51E568A8DCDD028DB6F4C04C8D5A7EC6B (void);
-// 0x0000004F System.Void System.Net.Http.HttpContent/<LoadIntoBufferAsync>d__17::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CLoadIntoBufferAsyncU3Ed__17_SetStateMachine_mC2B29647424180EE9132361AB7755EF32205D959 (void);
-// 0x00000050 System.Void System.Net.Http.HttpContent/<ReadAsStreamAsync>d__18::MoveNext()
-extern void U3CReadAsStreamAsyncU3Ed__18_MoveNext_m1410EB7E15AA9E28388958F56D822866B40164B5 (void);
-// 0x00000051 System.Void System.Net.Http.HttpContent/<ReadAsStreamAsync>d__18::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CReadAsStreamAsyncU3Ed__18_SetStateMachine_mF21531FC0FD728DA2B313504379780D201111D69 (void);
-// 0x00000052 System.Void System.Net.Http.HttpMessageHandler::Dispose()
-extern void HttpMessageHandler_Dispose_m57DEB3B66ABD05541B2DA51D92736AF00550DEDA (void);
-// 0x00000053 System.Void System.Net.Http.HttpMessageHandler::Dispose(System.Boolean)
-extern void HttpMessageHandler_Dispose_m4C443077A3D7802D1CB71AA99C09814981A355EA (void);
-// 0x00000054 System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> System.Net.Http.HttpMessageHandler::SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
-// 0x00000055 System.Void System.Net.Http.HttpMessageHandler::.ctor()
-extern void HttpMessageHandler__ctor_mA38A8F03252C47783C67FD40CA63DE9D60826B7E (void);
-// 0x00000056 System.Void System.Net.Http.HttpMessageInvoker::.ctor(System.Net.Http.HttpMessageHandler,System.Boolean)
-extern void HttpMessageInvoker__ctor_mDDE5A74E2243EB7BC72FF83D78E24D86EA63E66A (void);
-// 0x00000057 System.Void System.Net.Http.HttpMessageInvoker::Dispose()
-extern void HttpMessageInvoker_Dispose_m77B4582C70919C6B31CC3805EDE7A9866574BC41 (void);
-// 0x00000058 System.Void System.Net.Http.HttpMessageInvoker::Dispose(System.Boolean)
-extern void HttpMessageInvoker_Dispose_m1F2C4912AC7C8969DE956022AD77A018B247C292 (void);
-// 0x00000059 System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> System.Net.Http.HttpMessageInvoker::SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
-extern void HttpMessageInvoker_SendAsync_m6713036B5D094D1E178CCB6B90975808CE1AEE1C (void);
-// 0x0000005A System.Void System.Net.Http.HttpMethod::.ctor(System.String)
-extern void HttpMethod__ctor_m0D28A3D943866C642FC93FDC7F56B25A928B3A4E (void);
-// 0x0000005B System.Net.Http.HttpMethod System.Net.Http.HttpMethod::get_Delete()
-extern void HttpMethod_get_Delete_m8D0D6E5A3B35134DE0F82241AB2CB9C74D27867B (void);
-// 0x0000005C System.Net.Http.HttpMethod System.Net.Http.HttpMethod::get_Get()
-extern void HttpMethod_get_Get_m4652BAACF9E9E06CF0CE507ABBCED7A10974371C (void);
-// 0x0000005D System.Net.Http.HttpMethod System.Net.Http.HttpMethod::get_Head()
-extern void HttpMethod_get_Head_m607FFA7CAA7C004B89EBF2C5ACEC9BA1EA9C8A2C (void);
-// 0x0000005E System.String System.Net.Http.HttpMethod::get_Method()
-extern void HttpMethod_get_Method_mB34ECB806CC489697FEB8B2A490220F23BDCEA9A (void);
-// 0x0000005F System.Net.Http.HttpMethod System.Net.Http.HttpMethod::get_Post()
-extern void HttpMethod_get_Post_m7B058D5DEE22A53F6313F6F3595CF68A50C3F57A (void);
-// 0x00000060 System.Net.Http.HttpMethod System.Net.Http.HttpMethod::get_Put()
-extern void HttpMethod_get_Put_mFE14FD14FFEBECE09187A63D1741BA242AC69DF7 (void);
-// 0x00000061 System.Boolean System.Net.Http.HttpMethod::op_Equality(System.Net.Http.HttpMethod,System.Net.Http.HttpMethod)
-extern void HttpMethod_op_Equality_m007D043C9FE0B84A3D27E82CE8FA12AC5A2F1F57 (void);
-// 0x00000062 System.Boolean System.Net.Http.HttpMethod::Equals(System.Net.Http.HttpMethod)
-extern void HttpMethod_Equals_m4F770AB2A3CE3C2542AF9F42A14BCB1DB10F5567 (void);
-// 0x00000063 System.Boolean System.Net.Http.HttpMethod::Equals(System.Object)
-extern void HttpMethod_Equals_m66B98A8C1CF5502DA632E764E4CC2F03168B712B (void);
-// 0x00000064 System.Int32 System.Net.Http.HttpMethod::GetHashCode()
-extern void HttpMethod_GetHashCode_m41C02C1FAA46E4DFC212EFD1A8D0B4CA5F3F7803 (void);
-// 0x00000065 System.String System.Net.Http.HttpMethod::ToString()
-extern void HttpMethod_ToString_m52ED4DA3FFF76688DB47A29F3379AE00E0F30B01 (void);
-// 0x00000066 System.Void System.Net.Http.HttpMethod::.cctor()
-extern void HttpMethod__cctor_m289CD58ABE7B0203ABBE78F36628E4D431C26927 (void);
-// 0x00000067 System.Void System.Net.Http.HttpRequestException::.ctor()
-extern void HttpRequestException__ctor_m01B42384325BAF5F09AFC08E1DA5CB1CD4BDD0E4 (void);
-// 0x00000068 System.Void System.Net.Http.HttpRequestException::.ctor(System.String)
-extern void HttpRequestException__ctor_m44E76D51BF180991047BF9ED02204C9D05D346D1 (void);
-// 0x00000069 System.Void System.Net.Http.HttpRequestException::.ctor(System.String,System.Exception)
-extern void HttpRequestException__ctor_mF583393A0C841D522489165F032D87F0E4177AA4 (void);
-// 0x0000006A System.Void System.Net.Http.HttpRequestMessage::.ctor(System.Net.Http.HttpMethod,System.Uri)
-extern void HttpRequestMessage__ctor_mF4583BF147D86D59669C63E6E063DC5102DC185B (void);
-// 0x0000006B System.Net.Http.HttpContent System.Net.Http.HttpRequestMessage::get_Content()
-extern void HttpRequestMessage_get_Content_m263E0A8B60C6D617144203073CA853A473FA860E (void);
-// 0x0000006C System.Void System.Net.Http.HttpRequestMessage::set_Content(System.Net.Http.HttpContent)
-extern void HttpRequestMessage_set_Content_m522F62E997874DA5A3F77BD4DD7A1C7CA2629DC9 (void);
-// 0x0000006D System.Net.Http.Headers.HttpRequestHeaders System.Net.Http.HttpRequestMessage::get_Headers()
-extern void HttpRequestMessage_get_Headers_m96F9758D4AA6C78EDFAFEB222FA05767054EE78C (void);
-// 0x0000006E System.Net.Http.HttpMethod System.Net.Http.HttpRequestMessage::get_Method()
-extern void HttpRequestMessage_get_Method_m1E2C8323C43F6E09513C58777F2B0D9CD0D2627B (void);
-// 0x0000006F System.Void System.Net.Http.HttpRequestMessage::set_Method(System.Net.Http.HttpMethod)
-extern void HttpRequestMessage_set_Method_m61AD45CEAC59C0EE631A33AC8E888AFEB70D3541 (void);
-// 0x00000070 System.Uri System.Net.Http.HttpRequestMessage::get_RequestUri()
-extern void HttpRequestMessage_get_RequestUri_mB71FD84AC5D3AAD3D9E3BA0FB827691F52E235A5 (void);
-// 0x00000071 System.Void System.Net.Http.HttpRequestMessage::set_RequestUri(System.Uri)
-extern void HttpRequestMessage_set_RequestUri_m8F8BF17F6A9BEA510759DB3148563ABB8E7FE9CB (void);
-// 0x00000072 System.Boolean System.Net.Http.HttpRequestMessage::IsAllowedAbsoluteUri(System.Uri)
-extern void HttpRequestMessage_IsAllowedAbsoluteUri_m6B6F102A57FEF8EB0DAE5550617B29BEB546870B (void);
-// 0x00000073 System.Version System.Net.Http.HttpRequestMessage::get_Version()
-extern void HttpRequestMessage_get_Version_m7A3470B97F025A915ACB106E12865EA2614840FA (void);
-// 0x00000074 System.Void System.Net.Http.HttpRequestMessage::Dispose()
-extern void HttpRequestMessage_Dispose_m97949A9B4AE97865CB9B9E9E33A737087D2BBB4B (void);
-// 0x00000075 System.Void System.Net.Http.HttpRequestMessage::Dispose(System.Boolean)
-extern void HttpRequestMessage_Dispose_mF8B780AD56D89368DACEF55D68CBE9A078A51BD2 (void);
-// 0x00000076 System.Boolean System.Net.Http.HttpRequestMessage::SetIsUsed()
-extern void HttpRequestMessage_SetIsUsed_m35E7B7BFB9E77DD07D79A35DAF4223219BBFEA5A (void);
-// 0x00000077 System.String System.Net.Http.HttpRequestMessage::ToString()
-extern void HttpRequestMessage_ToString_m1C2FEA0A70A7F1BFBC40C9D68A290D8365E6C356 (void);
-// 0x00000078 System.Void System.Net.Http.HttpResponseMessage::.ctor(System.Net.HttpStatusCode)
-extern void HttpResponseMessage__ctor_m9DC9D8E234326388D79456E256AB35C8D76883F7 (void);
-// 0x00000079 System.Net.Http.HttpContent System.Net.Http.HttpResponseMessage::get_Content()
-extern void HttpResponseMessage_get_Content_m2350C12EA59DAD014A59B17398E5B50F62202AF6 (void);
-// 0x0000007A System.Void System.Net.Http.HttpResponseMessage::set_Content(System.Net.Http.HttpContent)
-extern void HttpResponseMessage_set_Content_m8ABAA7633525618748C5317506E15DE3A3B91D0F (void);
-// 0x0000007B System.Net.Http.Headers.HttpResponseHeaders System.Net.Http.HttpResponseMessage::get_Headers()
-extern void HttpResponseMessage_get_Headers_m92207CC17D9F13F38282681148FC96C8EF6745A8 (void);
-// 0x0000007C System.Boolean System.Net.Http.HttpResponseMessage::get_IsSuccessStatusCode()
-extern void HttpResponseMessage_get_IsSuccessStatusCode_m2B9DA5ECF8EE760D5A1A511C798FA08EAA931B9C (void);
-// 0x0000007D System.String System.Net.Http.HttpResponseMessage::get_ReasonPhrase()
-extern void HttpResponseMessage_get_ReasonPhrase_mBF3A464D41137F5C0261AC1406D441F25C3B7656 (void);
-// 0x0000007E System.Void System.Net.Http.HttpResponseMessage::set_ReasonPhrase(System.String)
-extern void HttpResponseMessage_set_ReasonPhrase_m1595DEFAD3217D72E96A9F4FB6BA92988110E0E8 (void);
-// 0x0000007F System.Void System.Net.Http.HttpResponseMessage::set_RequestMessage(System.Net.Http.HttpRequestMessage)
-extern void HttpResponseMessage_set_RequestMessage_mE116667668C55A381F82A221ABA79841DC749BB0 (void);
-// 0x00000080 System.Net.HttpStatusCode System.Net.Http.HttpResponseMessage::get_StatusCode()
-extern void HttpResponseMessage_get_StatusCode_m63BE26E4C79137B35F3066C6BA6A5FF5F3D16AAA (void);
-// 0x00000081 System.Void System.Net.Http.HttpResponseMessage::set_StatusCode(System.Net.HttpStatusCode)
-extern void HttpResponseMessage_set_StatusCode_m843336AB1916F68599C80F9405D79D9AB253EF32 (void);
-// 0x00000082 System.Version System.Net.Http.HttpResponseMessage::get_Version()
-extern void HttpResponseMessage_get_Version_m8A75FDDE4DF7F883D6A93763E5B000F124DE3B82 (void);
-// 0x00000083 System.Void System.Net.Http.HttpResponseMessage::Dispose()
-extern void HttpResponseMessage_Dispose_m798D011491D02E4CDB279C50D7D5E3CDF0533AEC (void);
-// 0x00000084 System.Void System.Net.Http.HttpResponseMessage::Dispose(System.Boolean)
-extern void HttpResponseMessage_Dispose_mD405404BEA4213C5EA8E0BA463267E495D23B904 (void);
-// 0x00000085 System.String System.Net.Http.HttpResponseMessage::ToString()
-extern void HttpResponseMessage_ToString_m545859B4E67186DBE3688A982C066C4503116DDA (void);
-// 0x00000086 System.Void System.Net.Http.StreamContent::.ctor(System.IO.Stream)
-extern void StreamContent__ctor_m84CDB8597734F4BED36E5AD06ED2B4AF0BDA7F25 (void);
-// 0x00000087 System.Void System.Net.Http.StreamContent::.ctor(System.IO.Stream,System.Int32)
-extern void StreamContent__ctor_m68EA2FC7110AE7F0C275F0DC09407E1AD32715CC (void);
-// 0x00000088 System.Void System.Net.Http.StreamContent::.ctor(System.IO.Stream,System.Threading.CancellationToken)
-extern void StreamContent__ctor_mD39F4788941D49A0433BC9F4FC197ED910458EF6 (void);
-// 0x00000089 System.Threading.Tasks.Task`1<System.IO.Stream> System.Net.Http.StreamContent::CreateContentReadStreamAsync()
-extern void StreamContent_CreateContentReadStreamAsync_mB9490A92C83BFFAEBB17ED014FFEC8DAB27B4BFD (void);
-// 0x0000008A System.Void System.Net.Http.StreamContent::Dispose(System.Boolean)
-extern void StreamContent_Dispose_m49F52DD9D815B6174345C6A0FECF50474025D5BE (void);
-// 0x0000008B System.Threading.Tasks.Task System.Net.Http.StreamContent::SerializeToStreamAsync(System.IO.Stream,System.Net.TransportContext)
-extern void StreamContent_SerializeToStreamAsync_mF58F4189325E932B03691F716045BF5FBAEB4777 (void);
-// 0x0000008C System.Boolean System.Net.Http.StreamContent::TryComputeLength(System.Int64&)
-extern void StreamContent_TryComputeLength_mA7078B9897BE4C7314B3316B6D93DC0DD0335B48 (void);
-// 0x0000008D System.Void System.Net.Http.Headers.AuthenticationHeaderValue::.ctor(System.String,System.String)
-extern void AuthenticationHeaderValue__ctor_mB300A148851A28CD01FB63314836E75DADD1B399 (void);
-// 0x0000008E System.Void System.Net.Http.Headers.AuthenticationHeaderValue::.ctor()
-extern void AuthenticationHeaderValue__ctor_m6C169CCE71E0DCFDA9B7E0485FE4029E267D02EB (void);
-// 0x0000008F System.String System.Net.Http.Headers.AuthenticationHeaderValue::get_Parameter()
-extern void AuthenticationHeaderValue_get_Parameter_m4E5142F8F7EB143ACDED00681D374164A480651F (void);
-// 0x00000090 System.Void System.Net.Http.Headers.AuthenticationHeaderValue::set_Parameter(System.String)
-extern void AuthenticationHeaderValue_set_Parameter_m823FA51BA6BFD70532EF207C5021A06A389D5B2E (void);
-// 0x00000091 System.String System.Net.Http.Headers.AuthenticationHeaderValue::get_Scheme()
-extern void AuthenticationHeaderValue_get_Scheme_m3C5471F5A558D2500EA4F9AF860A0A9D3F099BF3 (void);
-// 0x00000092 System.Void System.Net.Http.Headers.AuthenticationHeaderValue::set_Scheme(System.String)
-extern void AuthenticationHeaderValue_set_Scheme_m23406833B6574FD3891A58EDF39B34E5D146EF41 (void);
-// 0x00000093 System.Object System.Net.Http.Headers.AuthenticationHeaderValue::System.ICloneable.Clone()
-extern void AuthenticationHeaderValue_System_ICloneable_Clone_m39C244050F9420024E7F6EF77BDF160F8B396BB8 (void);
-// 0x00000094 System.Boolean System.Net.Http.Headers.AuthenticationHeaderValue::Equals(System.Object)
-extern void AuthenticationHeaderValue_Equals_m264985AF7BE6BEA22AE1EE3288DAA7DAF84DED96 (void);
-// 0x00000095 System.Int32 System.Net.Http.Headers.AuthenticationHeaderValue::GetHashCode()
-extern void AuthenticationHeaderValue_GetHashCode_m01307998AAFE11F90BFF5F3C018A20C540410BFD (void);
-// 0x00000096 System.Boolean System.Net.Http.Headers.AuthenticationHeaderValue::TryParse(System.String,System.Net.Http.Headers.AuthenticationHeaderValue&)
-extern void AuthenticationHeaderValue_TryParse_m34560D8028304D970DD955DC09BE3174227CC7D6 (void);
-// 0x00000097 System.Boolean System.Net.Http.Headers.AuthenticationHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.AuthenticationHeaderValue>&)
-extern void AuthenticationHeaderValue_TryParse_m6FDA860FCD21EB5E4540ACDC8383E822250DD356 (void);
-// 0x00000098 System.Boolean System.Net.Http.Headers.AuthenticationHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.AuthenticationHeaderValue&,System.Net.Http.Headers.Token&)
-extern void AuthenticationHeaderValue_TryParseElement_mD118F929483FE90C73856289947D5B89787E6B8A (void);
-// 0x00000099 System.String System.Net.Http.Headers.AuthenticationHeaderValue::ToString()
-extern void AuthenticationHeaderValue_ToString_m990EE42C7A2A2A0C000A3F3547A2CBCD0DD99998 (void);
-// 0x0000009A System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> System.Net.Http.Headers.CacheControlHeaderValue::get_Extensions()
-extern void CacheControlHeaderValue_get_Extensions_m64BB86F23933472EF1F3E200E854022690F308BB (void);
-// 0x0000009B System.Nullable`1<System.TimeSpan> System.Net.Http.Headers.CacheControlHeaderValue::get_MaxAge()
-extern void CacheControlHeaderValue_get_MaxAge_m6A1041DA50043941EAF4D5D2833DA03DA067AD6E (void);
-// 0x0000009C System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_MaxAge(System.Nullable`1<System.TimeSpan>)
-extern void CacheControlHeaderValue_set_MaxAge_mEA75D8A7E17BA36D8A19639D0BD6E19C1CC8D827 (void);
-// 0x0000009D System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::get_MaxStale()
-extern void CacheControlHeaderValue_get_MaxStale_m837D5A495DBB059265EF621010F87F9FC8752A7F (void);
-// 0x0000009E System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_MaxStale(System.Boolean)
-extern void CacheControlHeaderValue_set_MaxStale_mD542EDDAC249163650ED1A5B24DD595836200A3B (void);
-// 0x0000009F System.Nullable`1<System.TimeSpan> System.Net.Http.Headers.CacheControlHeaderValue::get_MaxStaleLimit()
-extern void CacheControlHeaderValue_get_MaxStaleLimit_mCCF9617EB244BD983D32CD06C02FDBDA2BF07BB6 (void);
-// 0x000000A0 System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_MaxStaleLimit(System.Nullable`1<System.TimeSpan>)
-extern void CacheControlHeaderValue_set_MaxStaleLimit_mA82C7456978CA9E2596819AAC55D44EE6E8E8572 (void);
-// 0x000000A1 System.Nullable`1<System.TimeSpan> System.Net.Http.Headers.CacheControlHeaderValue::get_MinFresh()
-extern void CacheControlHeaderValue_get_MinFresh_mD669EBA7E40EDDF6D89A505B43A6273186C53C8F (void);
-// 0x000000A2 System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_MinFresh(System.Nullable`1<System.TimeSpan>)
-extern void CacheControlHeaderValue_set_MinFresh_mD2166DEA262BB8198D740280D5ECC4FD84E9FA28 (void);
-// 0x000000A3 System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::get_MustRevalidate()
-extern void CacheControlHeaderValue_get_MustRevalidate_m4EFBB6B2ED88CE73026E541854F4B6EDB8EDF15F (void);
-// 0x000000A4 System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_MustRevalidate(System.Boolean)
-extern void CacheControlHeaderValue_set_MustRevalidate_m952156F02AD26E220535028BC1682682E9B4400F (void);
-// 0x000000A5 System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::get_NoCache()
-extern void CacheControlHeaderValue_get_NoCache_mD5E518593A948739A92FE09156D950A05F00A1FF (void);
-// 0x000000A6 System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_NoCache(System.Boolean)
-extern void CacheControlHeaderValue_set_NoCache_mFC724EDD682914731494C96B369F341C75AEE2FB (void);
-// 0x000000A7 System.Collections.Generic.ICollection`1<System.String> System.Net.Http.Headers.CacheControlHeaderValue::get_NoCacheHeaders()
-extern void CacheControlHeaderValue_get_NoCacheHeaders_mFD79C6AE831F6E5CC9E3FDD3D31BDF071AA9E241 (void);
-// 0x000000A8 System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::get_NoStore()
-extern void CacheControlHeaderValue_get_NoStore_m53FBFB76A9F8CBDBA8AEC7C21F52640F4AFE934E (void);
-// 0x000000A9 System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_NoStore(System.Boolean)
-extern void CacheControlHeaderValue_set_NoStore_m1FEDEC0359E862C98BF12B6CE8A85D0B488D8AC6 (void);
-// 0x000000AA System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::get_NoTransform()
-extern void CacheControlHeaderValue_get_NoTransform_m7B546267968236C4E6B5F8DCD5615528E5AC1ADD (void);
-// 0x000000AB System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_NoTransform(System.Boolean)
-extern void CacheControlHeaderValue_set_NoTransform_m65CECC424EF73A797D9177BD71E97B83BFCCA16C (void);
-// 0x000000AC System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::get_OnlyIfCached()
-extern void CacheControlHeaderValue_get_OnlyIfCached_mAB87CD63152FACEB2F58C743C4DFB46E4A54E2EC (void);
-// 0x000000AD System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_OnlyIfCached(System.Boolean)
-extern void CacheControlHeaderValue_set_OnlyIfCached_m4B8D9CB6AD778E29507A4A0B1C0D7CB974408678 (void);
-// 0x000000AE System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::get_Private()
-extern void CacheControlHeaderValue_get_Private_m34ACE8D086C74D48C4BE750D1BC62404AE2C0F40 (void);
-// 0x000000AF System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_Private(System.Boolean)
-extern void CacheControlHeaderValue_set_Private_m4D758BF7AC04BEAD7DA4936EF2702775C97904B2 (void);
-// 0x000000B0 System.Collections.Generic.ICollection`1<System.String> System.Net.Http.Headers.CacheControlHeaderValue::get_PrivateHeaders()
-extern void CacheControlHeaderValue_get_PrivateHeaders_m04C0FC4E20064FC61DAA4FAD569BF5BE0931D764 (void);
-// 0x000000B1 System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::get_ProxyRevalidate()
-extern void CacheControlHeaderValue_get_ProxyRevalidate_mAFC0654F75230AD496327813AEDDCE6D8E33693C (void);
-// 0x000000B2 System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_ProxyRevalidate(System.Boolean)
-extern void CacheControlHeaderValue_set_ProxyRevalidate_m3F0CF7EFB5A27B730C8AE66F3D2DD1D4D4573AA7 (void);
-// 0x000000B3 System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::get_Public()
-extern void CacheControlHeaderValue_get_Public_m797436093DE0C8467D7600EAAD71184CC4E3E45F (void);
-// 0x000000B4 System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_Public(System.Boolean)
-extern void CacheControlHeaderValue_set_Public_m05BBAE719AE22F483623B3C76EB3BFD3A861D2E4 (void);
-// 0x000000B5 System.Nullable`1<System.TimeSpan> System.Net.Http.Headers.CacheControlHeaderValue::get_SharedMaxAge()
-extern void CacheControlHeaderValue_get_SharedMaxAge_m123C2A24BCACDF657F8DCD84842E811D82DB7879 (void);
-// 0x000000B6 System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_SharedMaxAge(System.Nullable`1<System.TimeSpan>)
-extern void CacheControlHeaderValue_set_SharedMaxAge_mF8363C05F2410177AEEB9A461E57C31DF13BEA9C (void);
-// 0x000000B7 System.Object System.Net.Http.Headers.CacheControlHeaderValue::System.ICloneable.Clone()
-extern void CacheControlHeaderValue_System_ICloneable_Clone_m6086CB987A0914AAFAB6D51CF5F7C1F3EE5D3C15 (void);
-// 0x000000B8 System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::Equals(System.Object)
-extern void CacheControlHeaderValue_Equals_m9DEF755CB4E3DDE340E2D1DEFF1B3E1542AE48C2 (void);
-// 0x000000B9 System.Int32 System.Net.Http.Headers.CacheControlHeaderValue::GetHashCode()
-extern void CacheControlHeaderValue_GetHashCode_m9B992616AC634B25049337A9EB488CB928B8A06A (void);
-// 0x000000BA System.Net.Http.Headers.CacheControlHeaderValue System.Net.Http.Headers.CacheControlHeaderValue::Parse(System.String)
-extern void CacheControlHeaderValue_Parse_mB9620002C1F1AF16524870CB30DB8C476174CEA1 (void);
-// 0x000000BB System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::TryParse(System.String,System.Net.Http.Headers.CacheControlHeaderValue&)
-extern void CacheControlHeaderValue_TryParse_mB1DC7A5A72B95DFF32B95DC713596152CB84F334 (void);
-// 0x000000BC System.String System.Net.Http.Headers.CacheControlHeaderValue::ToString()
-extern void CacheControlHeaderValue_ToString_m9B0F9306E74F381ACB24A40ADC82C85B42A383B4 (void);
-// 0x000000BD System.Void System.Net.Http.Headers.CacheControlHeaderValue::.ctor()
-extern void CacheControlHeaderValue__ctor_mC0B998830B82611D3C98B1C652643E5A4B16076D (void);
-// 0x000000BE System.Boolean System.Net.Http.Headers.CollectionExtensions::SequenceEqual(System.Collections.Generic.List`1<TSource>,System.Collections.Generic.List`1<TSource>)
-// 0x000000BF System.String System.Net.Http.Headers.CollectionExtensions::ToString(System.Collections.Generic.List`1<T>)
-// 0x000000C0 System.Void System.Net.Http.Headers.CollectionExtensions::ToStringBuilder(System.Collections.Generic.List`1<T>,System.Text.StringBuilder)
-// 0x000000C1 System.Void System.Net.Http.Headers.ElementTryParser`1::.ctor(System.Object,System.IntPtr)
-// 0x000000C2 System.Boolean System.Net.Http.Headers.ElementTryParser`1::Invoke(System.Net.Http.Headers.Lexer,T&,System.Net.Http.Headers.Token&)
-// 0x000000C3 System.Boolean System.Net.Http.Headers.CollectionParser::TryParse(System.String,System.Int32,System.Net.Http.Headers.ElementTryParser`1<T>,System.Collections.Generic.List`1<T>&)
-// 0x000000C4 System.Boolean System.Net.Http.Headers.CollectionParser::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.String>&)
-extern void CollectionParser_TryParse_m80A28D767BD45D917DA0D4ECB892D300C5F5C291 (void);
-// 0x000000C5 System.Boolean System.Net.Http.Headers.CollectionParser::TryParseStringElement(System.Net.Http.Headers.Lexer,System.String&,System.Net.Http.Headers.Token&)
-extern void CollectionParser_TryParseStringElement_mDDC3D4962C41A6DA6998B080713DF5A6F7EC4552 (void);
-// 0x000000C6 System.Void System.Net.Http.Headers.ContentDispositionHeaderValue::.ctor()
-extern void ContentDispositionHeaderValue__ctor_m580305E1CC61291C6BA5F321E521FA9BC1F038F6 (void);
-// 0x000000C7 System.Void System.Net.Http.Headers.ContentDispositionHeaderValue::.ctor(System.Net.Http.Headers.ContentDispositionHeaderValue)
-extern void ContentDispositionHeaderValue__ctor_m62C5A0621E0926BFE2C9EE9BB28751ACDD597B17 (void);
-// 0x000000C8 System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> System.Net.Http.Headers.ContentDispositionHeaderValue::get_Parameters()
-extern void ContentDispositionHeaderValue_get_Parameters_m3E7D1F9C1D1E8DC75ADC025273B89294A5BB12F7 (void);
-// 0x000000C9 System.Object System.Net.Http.Headers.ContentDispositionHeaderValue::System.ICloneable.Clone()
-extern void ContentDispositionHeaderValue_System_ICloneable_Clone_m54196278C36178D03EB93841432E065D8AEC30F7 (void);
-// 0x000000CA System.Boolean System.Net.Http.Headers.ContentDispositionHeaderValue::Equals(System.Object)
-extern void ContentDispositionHeaderValue_Equals_m05D133DDAFC4E4BB92211C2F2A4C9B7C918B3A80 (void);
-// 0x000000CB System.Int32 System.Net.Http.Headers.ContentDispositionHeaderValue::GetHashCode()
-extern void ContentDispositionHeaderValue_GetHashCode_mB3FDDE0FF3383955D6AE9E961CF49CD836228947 (void);
-// 0x000000CC System.Net.Http.Headers.ContentDispositionHeaderValue System.Net.Http.Headers.ContentDispositionHeaderValue::Parse(System.String)
-extern void ContentDispositionHeaderValue_Parse_m95A2948E496FA2F7CDB15388C8572E26E7D4CC76 (void);
-// 0x000000CD System.String System.Net.Http.Headers.ContentDispositionHeaderValue::ToString()
-extern void ContentDispositionHeaderValue_ToString_m216E3D7D36B6E61A637F9142F78AE21514D3B15E (void);
-// 0x000000CE System.Boolean System.Net.Http.Headers.ContentDispositionHeaderValue::TryParse(System.String,System.Net.Http.Headers.ContentDispositionHeaderValue&)
-extern void ContentDispositionHeaderValue_TryParse_mE3135B74C3EDE6C8BC2349C035AFAEDE05D6E09F (void);
-// 0x000000CF System.Void System.Net.Http.Headers.ContentRangeHeaderValue::.ctor()
-extern void ContentRangeHeaderValue__ctor_mD5A03F4CEAE5BBA4FEE39F3832F7124DADB84F55 (void);
-// 0x000000D0 System.Nullable`1<System.Int64> System.Net.Http.Headers.ContentRangeHeaderValue::get_From()
-extern void ContentRangeHeaderValue_get_From_m4131FC7E1227A12E390AF91BFCE12858536861EF (void);
-// 0x000000D1 System.Void System.Net.Http.Headers.ContentRangeHeaderValue::set_From(System.Nullable`1<System.Int64>)
-extern void ContentRangeHeaderValue_set_From_mC10244F9891A2837B9850141829DCF47158270B7 (void);
-// 0x000000D2 System.Boolean System.Net.Http.Headers.ContentRangeHeaderValue::get_HasLength()
-extern void ContentRangeHeaderValue_get_HasLength_mBC1C15FD9B8465EB2867441FD4CCE35062AEA9DD (void);
-// 0x000000D3 System.Nullable`1<System.Int64> System.Net.Http.Headers.ContentRangeHeaderValue::get_Length()
-extern void ContentRangeHeaderValue_get_Length_mFEBB4FD3809C76809D5ECF8E0C5BFA47FBC66EC0 (void);
-// 0x000000D4 System.Void System.Net.Http.Headers.ContentRangeHeaderValue::set_Length(System.Nullable`1<System.Int64>)
-extern void ContentRangeHeaderValue_set_Length_m75C24675B1D9CA53590C12577792BC1071AC8C94 (void);
-// 0x000000D5 System.Nullable`1<System.Int64> System.Net.Http.Headers.ContentRangeHeaderValue::get_To()
-extern void ContentRangeHeaderValue_get_To_m645A1546D89AC72391207A698BD170E2B9177C89 (void);
-// 0x000000D6 System.Void System.Net.Http.Headers.ContentRangeHeaderValue::set_To(System.Nullable`1<System.Int64>)
-extern void ContentRangeHeaderValue_set_To_m3566B7515F23E561951BB64186D031B30C1FEB92 (void);
-// 0x000000D7 System.String System.Net.Http.Headers.ContentRangeHeaderValue::get_Unit()
-extern void ContentRangeHeaderValue_get_Unit_mEF46901F9EE236BB345A943D2F42DA4AF9A599C6 (void);
-// 0x000000D8 System.Object System.Net.Http.Headers.ContentRangeHeaderValue::System.ICloneable.Clone()
-extern void ContentRangeHeaderValue_System_ICloneable_Clone_m83A81744A8A1C3D664686FF1447170AE82E25BF8 (void);
-// 0x000000D9 System.Boolean System.Net.Http.Headers.ContentRangeHeaderValue::Equals(System.Object)
-extern void ContentRangeHeaderValue_Equals_m30220993A0D1E60E33A55C92380A6CE124B339E2 (void);
-// 0x000000DA System.Int32 System.Net.Http.Headers.ContentRangeHeaderValue::GetHashCode()
-extern void ContentRangeHeaderValue_GetHashCode_m2296B7AA34E75AF9D0E334B3B3C9190C5DE41FD5 (void);
-// 0x000000DB System.Boolean System.Net.Http.Headers.ContentRangeHeaderValue::TryParse(System.String,System.Net.Http.Headers.ContentRangeHeaderValue&)
-extern void ContentRangeHeaderValue_TryParse_m0D65C2C0436CE44C9368B70F8139F92A22C08EF5 (void);
-// 0x000000DC System.String System.Net.Http.Headers.ContentRangeHeaderValue::ToString()
-extern void ContentRangeHeaderValue_ToString_m91DF1C13305DCF189510584450B698FDEB238FC0 (void);
-// 0x000000DD System.Void System.Net.Http.Headers.EntityTagHeaderValue::.ctor()
-extern void EntityTagHeaderValue__ctor_m629D236B0D1BC7F17D94A86AB52CB337A1D0AFD5 (void);
-// 0x000000DE System.Net.Http.Headers.EntityTagHeaderValue System.Net.Http.Headers.EntityTagHeaderValue::get_Any()
-extern void EntityTagHeaderValue_get_Any_m8A77246FCE4A14041957B7C9330BB79E1C1D4132 (void);
-// 0x000000DF System.Boolean System.Net.Http.Headers.EntityTagHeaderValue::get_IsWeak()
-extern void EntityTagHeaderValue_get_IsWeak_m81961F0F949C0B2B9FFCCE92830E56CBD027F14E (void);
-// 0x000000E0 System.Void System.Net.Http.Headers.EntityTagHeaderValue::set_IsWeak(System.Boolean)
-extern void EntityTagHeaderValue_set_IsWeak_m524CA3854BB8479CD14C1C1B5B36078E704B39B0 (void);
-// 0x000000E1 System.String System.Net.Http.Headers.EntityTagHeaderValue::get_Tag()
-extern void EntityTagHeaderValue_get_Tag_m71FC878E26C3CBD046E322F63FC8FB4080F0A73F (void);
-// 0x000000E2 System.Void System.Net.Http.Headers.EntityTagHeaderValue::set_Tag(System.String)
-extern void EntityTagHeaderValue_set_Tag_m154533CEF5C3CFCE3FFA5A28A72C29694009D9EA (void);
-// 0x000000E3 System.Object System.Net.Http.Headers.EntityTagHeaderValue::System.ICloneable.Clone()
-extern void EntityTagHeaderValue_System_ICloneable_Clone_m71FBF20CBBC012358206A244D9EAF5B604BECFE7 (void);
-// 0x000000E4 System.Boolean System.Net.Http.Headers.EntityTagHeaderValue::Equals(System.Object)
-extern void EntityTagHeaderValue_Equals_mE42054506D929084E8B592D70106FDAB88C004BD (void);
-// 0x000000E5 System.Int32 System.Net.Http.Headers.EntityTagHeaderValue::GetHashCode()
-extern void EntityTagHeaderValue_GetHashCode_mDCA5059D88BE49C856DF1CC60670FA90D9D6A039 (void);
-// 0x000000E6 System.Net.Http.Headers.EntityTagHeaderValue System.Net.Http.Headers.EntityTagHeaderValue::Parse(System.String)
-extern void EntityTagHeaderValue_Parse_m31BD4E760967BB63E850526C3E3413496E123EEE (void);
-// 0x000000E7 System.Boolean System.Net.Http.Headers.EntityTagHeaderValue::TryParse(System.String,System.Net.Http.Headers.EntityTagHeaderValue&)
-extern void EntityTagHeaderValue_TryParse_m8CAEA104D371DAA5277B7062931DA4FB5E049404 (void);
-// 0x000000E8 System.Boolean System.Net.Http.Headers.EntityTagHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.EntityTagHeaderValue&,System.Net.Http.Headers.Token&)
-extern void EntityTagHeaderValue_TryParseElement_mAA600968FBC447CEE2BF091027199079D9BB2AE3 (void);
-// 0x000000E9 System.Boolean System.Net.Http.Headers.EntityTagHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.EntityTagHeaderValue>&)
-extern void EntityTagHeaderValue_TryParse_m5C244765410FDEA00B3B1D5392FA24DC9D142128 (void);
-// 0x000000EA System.String System.Net.Http.Headers.EntityTagHeaderValue::ToString()
-extern void EntityTagHeaderValue_ToString_mDA8A58647E8BA83B1D7AE1493D711D3E0F9F76BF (void);
-// 0x000000EB System.Void System.Net.Http.Headers.EntityTagHeaderValue::.cctor()
-extern void EntityTagHeaderValue__cctor_m89A153A3B5791CF2ED3E0092F05E66D468B79A57 (void);
-// 0x000000EC System.Int32 System.Net.Http.Headers.HashCodeCalculator::Calculate(System.Collections.Generic.ICollection`1<T>)
-// 0x000000ED System.Void System.Net.Http.Headers.TryParseDelegate`1::.ctor(System.Object,System.IntPtr)
-// 0x000000EE System.Boolean System.Net.Http.Headers.TryParseDelegate`1::Invoke(System.String,T&)
-// 0x000000EF System.Void System.Net.Http.Headers.TryParseListDelegate`1::.ctor(System.Object,System.IntPtr)
-// 0x000000F0 System.Boolean System.Net.Http.Headers.TryParseListDelegate`1::Invoke(System.String,System.Int32,System.Collections.Generic.List`1<T>&)
-// 0x000000F1 System.Void System.Net.Http.Headers.HeaderInfo::.ctor(System.String,System.Net.Http.Headers.HttpHeaderKind)
-extern void HeaderInfo__ctor_mE9697993628E1457C984C6A13C7F3C0CE2880E92 (void);
-// 0x000000F2 System.Net.Http.Headers.HeaderInfo System.Net.Http.Headers.HeaderInfo::CreateSingle(System.String,System.Net.Http.Headers.TryParseDelegate`1<T>,System.Net.Http.Headers.HttpHeaderKind,System.Func`2<System.Object,System.String>)
-// 0x000000F3 System.Net.Http.Headers.HeaderInfo System.Net.Http.Headers.HeaderInfo::CreateMulti(System.String,System.Net.Http.Headers.TryParseListDelegate`1<T>,System.Net.Http.Headers.HttpHeaderKind,System.Int32,System.String)
-// 0x000000F4 System.Object System.Net.Http.Headers.HeaderInfo::CreateCollection(System.Net.Http.Headers.HttpHeaders)
-extern void HeaderInfo_CreateCollection_mBC7FC0140D4CFCAE8B33B9A4D370028DCFA74E6B (void);
-// 0x000000F5 System.Func`2<System.Object,System.String> System.Net.Http.Headers.HeaderInfo::get_CustomToString()
-extern void HeaderInfo_get_CustomToString_m4A09646E1C4D4EADEEC2A631833FE91AA4F132D8 (void);
-// 0x000000F6 System.Void System.Net.Http.Headers.HeaderInfo::set_CustomToString(System.Func`2<System.Object,System.String>)
-extern void HeaderInfo_set_CustomToString_m21DA660E414F4434C96EFFBC5FA81155AFA9902E (void);
-// 0x000000F7 System.String System.Net.Http.Headers.HeaderInfo::get_Separator()
-extern void HeaderInfo_get_Separator_m82D550F8F4ECAEDDCDB77697BF477031FB74F300 (void);
-// 0x000000F8 System.Void System.Net.Http.Headers.HeaderInfo::AddToCollection(System.Object,System.Object)
-// 0x000000F9 System.Object System.Net.Http.Headers.HeaderInfo::CreateCollection(System.Net.Http.Headers.HttpHeaders,System.Net.Http.Headers.HeaderInfo)
-// 0x000000FA System.Collections.Generic.List`1<System.String> System.Net.Http.Headers.HeaderInfo::ToStringCollection(System.Object)
-// 0x000000FB System.Boolean System.Net.Http.Headers.HeaderInfo::TryParse(System.String,System.Object&)
-// 0x000000FC System.Void System.Net.Http.Headers.HeaderInfo/HeaderTypeInfo`2::.ctor(System.String,System.Net.Http.Headers.TryParseDelegate`1<T>,System.Net.Http.Headers.HttpHeaderKind)
-// 0x000000FD System.Void System.Net.Http.Headers.HeaderInfo/HeaderTypeInfo`2::AddToCollection(System.Object,System.Object)
-// 0x000000FE System.Object System.Net.Http.Headers.HeaderInfo/HeaderTypeInfo`2::CreateCollection(System.Net.Http.Headers.HttpHeaders,System.Net.Http.Headers.HeaderInfo)
-// 0x000000FF System.Collections.Generic.List`1<System.String> System.Net.Http.Headers.HeaderInfo/HeaderTypeInfo`2::ToStringCollection(System.Object)
-// 0x00000100 System.Boolean System.Net.Http.Headers.HeaderInfo/HeaderTypeInfo`2::TryParse(System.String,System.Object&)
-// 0x00000101 System.Void System.Net.Http.Headers.HeaderInfo/CollectionHeaderTypeInfo`2::.ctor(System.String,System.Net.Http.Headers.TryParseListDelegate`1<T>,System.Net.Http.Headers.HttpHeaderKind,System.Int32,System.String)
-// 0x00000102 System.String System.Net.Http.Headers.HeaderInfo/CollectionHeaderTypeInfo`2::get_Separator()
-// 0x00000103 System.Boolean System.Net.Http.Headers.HeaderInfo/CollectionHeaderTypeInfo`2::TryParse(System.String,System.Object&)
-// 0x00000104 System.Void System.Net.Http.Headers.HttpContentHeaders::.ctor(System.Net.Http.HttpContent)
-extern void HttpContentHeaders__ctor_m5328D234F9A22B7039CEEDAB77F08A0F15F0AC4C (void);
-// 0x00000105 System.Collections.Generic.ICollection`1<System.String> System.Net.Http.Headers.HttpContentHeaders::get_ContentEncoding()
-extern void HttpContentHeaders_get_ContentEncoding_mA49E7F9A39B515495A318374DF991A820FF27CD2 (void);
-// 0x00000106 System.Void System.Net.Http.Headers.HttpContentHeaders::set_ContentDisposition(System.Net.Http.Headers.ContentDispositionHeaderValue)
-extern void HttpContentHeaders_set_ContentDisposition_m737C7C815F28D06D3774CB7601F9AB95D31A9275 (void);
-// 0x00000107 System.Collections.Generic.ICollection`1<System.String> System.Net.Http.Headers.HttpContentHeaders::get_ContentLanguage()
-extern void HttpContentHeaders_get_ContentLanguage_m8B414B4C976D0A1FB810DDA815ECF66487899689 (void);
-// 0x00000108 System.Nullable`1<System.Int64> System.Net.Http.Headers.HttpContentHeaders::get_ContentLength()
-extern void HttpContentHeaders_get_ContentLength_m1E12780B9EE80BCD237596D87F07D31304596C01 (void);
-// 0x00000109 System.Void System.Net.Http.Headers.HttpContentHeaders::set_ContentLength(System.Nullable`1<System.Int64>)
-extern void HttpContentHeaders_set_ContentLength_mE49B54644A2A7D649627998341943BD07DE17336 (void);
-// 0x0000010A System.Byte[] System.Net.Http.Headers.HttpContentHeaders::get_ContentMD5()
-extern void HttpContentHeaders_get_ContentMD5_m411FDFCD74E2E53AB750B902F4B10A622E8D3F91 (void);
-// 0x0000010B System.Void System.Net.Http.Headers.HttpContentHeaders::set_ContentMD5(System.Byte[])
-extern void HttpContentHeaders_set_ContentMD5_mDAAA759D8E9787AE3D1B24B8ECF0930BAFD88966 (void);
-// 0x0000010C System.Net.Http.Headers.ContentRangeHeaderValue System.Net.Http.Headers.HttpContentHeaders::get_ContentRange()
-extern void HttpContentHeaders_get_ContentRange_mC8A6C0205E5D30B6BD4D381D139084062BB05447 (void);
-// 0x0000010D System.Net.Http.Headers.MediaTypeHeaderValue System.Net.Http.Headers.HttpContentHeaders::get_ContentType()
-extern void HttpContentHeaders_get_ContentType_mC59BB1A498DEAA96240D39FDBDFCCBD5247614F7 (void);
-// 0x0000010E System.Void System.Net.Http.Headers.HttpContentHeaders::set_ContentType(System.Net.Http.Headers.MediaTypeHeaderValue)
-extern void HttpContentHeaders_set_ContentType_m3990A9596A873AE4AFCE1FEB2FA744136B48D779 (void);
-// 0x0000010F System.Nullable`1<System.DateTimeOffset> System.Net.Http.Headers.HttpContentHeaders::get_LastModified()
-extern void HttpContentHeaders_get_LastModified_m67647AE2123AFC4D5FBFE06675D25B5D772FEF12 (void);
-// 0x00000110 System.Void System.Net.Http.Headers.HttpHeaderValueCollection`1::.ctor(System.Net.Http.Headers.HttpHeaders,System.Net.Http.Headers.HeaderInfo)
-// 0x00000111 System.Int32 System.Net.Http.Headers.HttpHeaderValueCollection`1::get_Count()
-// 0x00000112 System.Collections.Generic.List`1<System.String> System.Net.Http.Headers.HttpHeaderValueCollection`1::get_InvalidValues()
-// 0x00000113 System.Boolean System.Net.Http.Headers.HttpHeaderValueCollection`1::get_IsReadOnly()
-// 0x00000114 System.Void System.Net.Http.Headers.HttpHeaderValueCollection`1::Add(T)
-// 0x00000115 System.Void System.Net.Http.Headers.HttpHeaderValueCollection`1::AddRange(System.Collections.Generic.List`1<T>)
-// 0x00000116 System.Void System.Net.Http.Headers.HttpHeaderValueCollection`1::AddInvalidValue(System.String)
-// 0x00000117 System.Void System.Net.Http.Headers.HttpHeaderValueCollection`1::Clear()
-// 0x00000118 System.Boolean System.Net.Http.Headers.HttpHeaderValueCollection`1::Contains(T)
-// 0x00000119 System.Void System.Net.Http.Headers.HttpHeaderValueCollection`1::CopyTo(T[],System.Int32)
-// 0x0000011A System.Boolean System.Net.Http.Headers.HttpHeaderValueCollection`1::Remove(T)
-// 0x0000011B System.String System.Net.Http.Headers.HttpHeaderValueCollection`1::ToString()
-// 0x0000011C System.Boolean System.Net.Http.Headers.HttpHeaderValueCollection`1::TryParseAdd(System.String)
-// 0x0000011D System.Collections.Generic.IEnumerator`1<T> System.Net.Http.Headers.HttpHeaderValueCollection`1::GetEnumerator()
-// 0x0000011E System.Collections.IEnumerator System.Net.Http.Headers.HttpHeaderValueCollection`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x0000011F T System.Net.Http.Headers.HttpHeaderValueCollection`1::Find(System.Predicate`1<T>)
-// 0x00000120 System.Void System.Net.Http.Headers.HttpHeaderValueCollection`1::Remove(System.Predicate`1<T>)
-// 0x00000121 System.Void System.Net.Http.Headers.HttpHeaders::.cctor()
-extern void HttpHeaders__cctor_mE4F3CFAC48B06B56B36198BA82EB14D26797EA60 (void);
-// 0x00000122 System.Void System.Net.Http.Headers.HttpHeaders::.ctor()
-extern void HttpHeaders__ctor_m98A3D93CFD35D81E61D92441BE3A2ACC47851B5D (void);
-// 0x00000123 System.Void System.Net.Http.Headers.HttpHeaders::.ctor(System.Net.Http.Headers.HttpHeaderKind)
-extern void HttpHeaders__ctor_m064C485208B9D82CB1E1508CF08560739F601E10 (void);
-// 0x00000124 System.Void System.Net.Http.Headers.HttpHeaders::Add(System.String,System.String)
-extern void HttpHeaders_Add_m9F704C4C77ED5BE4FAABEA3138CCF1D3D6732DA8 (void);
-// 0x00000125 System.Void System.Net.Http.Headers.HttpHeaders::Add(System.String,System.Collections.Generic.IEnumerable`1<System.String>)
-extern void HttpHeaders_Add_m784E12F2126E39F289D59789909FE8E66DAE2FE4 (void);
-// 0x00000126 System.Boolean System.Net.Http.Headers.HttpHeaders::AddValue(System.String,System.Net.Http.Headers.HeaderInfo,System.Boolean)
-extern void HttpHeaders_AddValue_mF8D1DBC63D170DD290EBDF9FD46BEF30889DE8BE (void);
-// 0x00000127 System.Boolean System.Net.Http.Headers.HttpHeaders::AddInternal(System.String,System.Collections.Generic.IEnumerable`1<System.String>,System.Net.Http.Headers.HeaderInfo,System.Boolean)
-extern void HttpHeaders_AddInternal_m6A61345E4F0BA4268E3A3F0AE047F8C46B0919FC (void);
-// 0x00000128 System.Boolean System.Net.Http.Headers.HttpHeaders::TryAddWithoutValidation(System.String,System.String)
-extern void HttpHeaders_TryAddWithoutValidation_m24F1C8D7DD9445C3B839B03B802759E7383A8D80 (void);
-// 0x00000129 System.Boolean System.Net.Http.Headers.HttpHeaders::TryAddWithoutValidation(System.String,System.Collections.Generic.IEnumerable`1<System.String>)
-extern void HttpHeaders_TryAddWithoutValidation_mF189CB4802E2D9CB01DCD898452EB2DFBDFC79BE (void);
-// 0x0000012A System.Net.Http.Headers.HeaderInfo System.Net.Http.Headers.HttpHeaders::CheckName(System.String)
-extern void HttpHeaders_CheckName_m21E3B00D10BE578CB84B1A26091B5C066D5BBE95 (void);
-// 0x0000012B System.Boolean System.Net.Http.Headers.HttpHeaders::TryCheckName(System.String,System.Net.Http.Headers.HeaderInfo&)
-extern void HttpHeaders_TryCheckName_mC6846BEC210F144A32654C85675780A7879EB3CE (void);
-// 0x0000012C System.Boolean System.Net.Http.Headers.HttpHeaders::Contains(System.String)
-extern void HttpHeaders_Contains_m0392D9C92892BE16A8B710B9C7FA0B556439B059 (void);
-// 0x0000012D System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IEnumerable`1<System.String>>> System.Net.Http.Headers.HttpHeaders::GetEnumerator()
-extern void HttpHeaders_GetEnumerator_mA7E032D1333C1139DBEF31469272860A499E6C99 (void);
-// 0x0000012E System.Collections.IEnumerator System.Net.Http.Headers.HttpHeaders::System.Collections.IEnumerable.GetEnumerator()
-extern void HttpHeaders_System_Collections_IEnumerable_GetEnumerator_mB2F68CDCEB5BFE0AA548FBD10C73E70D07FFD975 (void);
-// 0x0000012F System.Collections.Generic.IEnumerable`1<System.String> System.Net.Http.Headers.HttpHeaders::GetValues(System.String)
-extern void HttpHeaders_GetValues_mF3F1FD36E2E0ECF1C6BBAECEAB9609A3CD006F16 (void);
-// 0x00000130 System.Boolean System.Net.Http.Headers.HttpHeaders::Remove(System.String)
-extern void HttpHeaders_Remove_mA682BA12728E025E7230B294D1169793EB9B4BEE (void);
-// 0x00000131 System.Boolean System.Net.Http.Headers.HttpHeaders::TryGetValues(System.String,System.Collections.Generic.IEnumerable`1<System.String>&)
-extern void HttpHeaders_TryGetValues_mB5EEDB33F50315E70936E150C63E0E932114C3D2 (void);
-// 0x00000132 System.String System.Net.Http.Headers.HttpHeaders::GetSingleHeaderString(System.String,System.Collections.Generic.IEnumerable`1<System.String>)
-extern void HttpHeaders_GetSingleHeaderString_mF03E6BD043132B999B75A1B12776056450BB43C2 (void);
-// 0x00000133 System.String System.Net.Http.Headers.HttpHeaders::ToString()
-extern void HttpHeaders_ToString_m3F901EC8FA826663C6CBE9B34CF7BFDD5125D521 (void);
-// 0x00000134 System.Void System.Net.Http.Headers.HttpHeaders::AddOrRemove(System.String,T,System.Func`2<System.Object,System.String>)
-// 0x00000135 System.Void System.Net.Http.Headers.HttpHeaders::AddOrRemove(System.String,System.Nullable`1<T>)
-// 0x00000136 System.Void System.Net.Http.Headers.HttpHeaders::AddOrRemove(System.String,System.Nullable`1<T>,System.Func`2<System.Object,System.String>)
-// 0x00000137 System.Collections.Generic.List`1<System.String> System.Net.Http.Headers.HttpHeaders::GetAllHeaderValues(System.Net.Http.Headers.HttpHeaders/HeaderBucket,System.Net.Http.Headers.HeaderInfo)
-extern void HttpHeaders_GetAllHeaderValues_m3E82C8BA6A67700D72A80B8D6CBBB4CBCB7D624B (void);
-// 0x00000138 System.Net.Http.Headers.HttpHeaderKind System.Net.Http.Headers.HttpHeaders::GetKnownHeaderKind(System.String)
-extern void HttpHeaders_GetKnownHeaderKind_m9A49D26C45CBE214122083C181D523404A0888E5 (void);
-// 0x00000139 T System.Net.Http.Headers.HttpHeaders::GetValue(System.String)
-// 0x0000013A System.Net.Http.Headers.HttpHeaderValueCollection`1<T> System.Net.Http.Headers.HttpHeaders::GetValues(System.String)
-// 0x0000013B System.Void System.Net.Http.Headers.HttpHeaders::SetValue(System.String,T,System.Func`2<System.Object,System.String>)
-// 0x0000013C System.Void System.Net.Http.Headers.HttpHeaders/HeaderBucket::.ctor(System.Object,System.Func`2<System.Object,System.String>)
-extern void HeaderBucket__ctor_m215E5FA492916ED411741547F2DAF1A49242A1AF (void);
-// 0x0000013D System.Boolean System.Net.Http.Headers.HttpHeaders/HeaderBucket::get_HasStringValues()
-extern void HeaderBucket_get_HasStringValues_m8633C7D2BD34515A7DDEACE3E4C854DDDCE62868 (void);
-// 0x0000013E System.Collections.Generic.List`1<System.String> System.Net.Http.Headers.HttpHeaders/HeaderBucket::get_Values()
-extern void HeaderBucket_get_Values_mDE76669F902349400A9007068F485FD5718D3F49 (void);
-// 0x0000013F System.Void System.Net.Http.Headers.HttpHeaders/HeaderBucket::set_Values(System.Collections.Generic.List`1<System.String>)
-extern void HeaderBucket_set_Values_m23A96E106AF3AE461BF26D251C913FCECA3797DE (void);
-// 0x00000140 System.String System.Net.Http.Headers.HttpHeaders/HeaderBucket::ParsedToString()
-extern void HeaderBucket_ParsedToString_m4C51F79BB93AC314F023B2DFCE81ADD0A3F2AC8C (void);
-// 0x00000141 System.Void System.Net.Http.Headers.HttpHeaders/<GetEnumerator>d__19::.ctor(System.Int32)
-extern void U3CGetEnumeratorU3Ed__19__ctor_m6D47E15D176A0842AD9792BE60E9EFB73EC0B90A (void);
-// 0x00000142 System.Void System.Net.Http.Headers.HttpHeaders/<GetEnumerator>d__19::System.IDisposable.Dispose()
-extern void U3CGetEnumeratorU3Ed__19_System_IDisposable_Dispose_mC843C4C8F112218D78773F14FFD0186827C98DA5 (void);
-// 0x00000143 System.Boolean System.Net.Http.Headers.HttpHeaders/<GetEnumerator>d__19::MoveNext()
-extern void U3CGetEnumeratorU3Ed__19_MoveNext_m75C64C9382102D45AFFB847C3BB0A61978D83040 (void);
-// 0x00000144 System.Void System.Net.Http.Headers.HttpHeaders/<GetEnumerator>d__19::<>m__Finally1()
-extern void U3CGetEnumeratorU3Ed__19_U3CU3Em__Finally1_m3B640C7346FCD4033F5FF9F71F15130C24138EEC (void);
-// 0x00000145 System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IEnumerable`1<System.String>> System.Net.Http.Headers.HttpHeaders/<GetEnumerator>d__19::System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Collections.Generic.IEnumerable<System.String>>>.get_Current()
-extern void U3CGetEnumeratorU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CSystem_Collections_Generic_IEnumerableU3CSystem_StringU3EU3EU3E_get_Current_m8E224AB05B03374412A8F60601E18AE579349240 (void);
-// 0x00000146 System.Void System.Net.Http.Headers.HttpHeaders/<GetEnumerator>d__19::System.Collections.IEnumerator.Reset()
-extern void U3CGetEnumeratorU3Ed__19_System_Collections_IEnumerator_Reset_m79A49A4D0B8D5A14B2A625F40EB4884A3CE59FEC (void);
-// 0x00000147 System.Object System.Net.Http.Headers.HttpHeaders/<GetEnumerator>d__19::System.Collections.IEnumerator.get_Current()
-extern void U3CGetEnumeratorU3Ed__19_System_Collections_IEnumerator_get_Current_m3731BE34AACC51CA84FD59DA7C9A4DE029F43666 (void);
-// 0x00000148 System.Void System.Net.Http.Headers.HttpRequestHeaders::.ctor()
-extern void HttpRequestHeaders__ctor_m3FA1C55FD30FEE254F9BA39DF302D664F12EB939 (void);
-// 0x00000149 System.Void System.Net.Http.Headers.HttpRequestHeaders::set_Authorization(System.Net.Http.Headers.AuthenticationHeaderValue)
-extern void HttpRequestHeaders_set_Authorization_m3F73D5BBB5B7FF82CF6F5F59A6FCF340D65D19D5 (void);
-// 0x0000014A System.Void System.Net.Http.Headers.HttpRequestHeaders::set_CacheControl(System.Net.Http.Headers.CacheControlHeaderValue)
-extern void HttpRequestHeaders_set_CacheControl_mC42755E327F8814905B0BFCC544DE8E313950736 (void);
-// 0x0000014B System.Net.Http.Headers.HttpHeaderValueCollection`1<System.String> System.Net.Http.Headers.HttpRequestHeaders::get_Connection()
-extern void HttpRequestHeaders_get_Connection_m62F79A8B4C94B9418D2610A22F3F47A3C705294B (void);
-// 0x0000014C System.Nullable`1<System.Boolean> System.Net.Http.Headers.HttpRequestHeaders::get_ConnectionClose()
-extern void HttpRequestHeaders_get_ConnectionClose_m24709342ECBA6003B9867CA3A1E4E5068C214D4D (void);
-// 0x0000014D System.Nullable`1<System.DateTimeOffset> System.Net.Http.Headers.HttpRequestHeaders::get_Date()
-extern void HttpRequestHeaders_get_Date_m9C25B20F68F1A1C73D669AA9817209B9FC0D90DC (void);
-// 0x0000014E System.Net.Http.Headers.HttpHeaderValueCollection`1<System.Net.Http.Headers.NameValueWithParametersHeaderValue> System.Net.Http.Headers.HttpRequestHeaders::get_Expect()
-extern void HttpRequestHeaders_get_Expect_m999B42A67CD3606372E198B4CFEE78F54E09DC35 (void);
-// 0x0000014F System.Nullable`1<System.Boolean> System.Net.Http.Headers.HttpRequestHeaders::get_ExpectContinue()
-extern void HttpRequestHeaders_get_ExpectContinue_m5972E9B52362A7D124FACF087B9663DFFE666D75 (void);
-// 0x00000150 System.Void System.Net.Http.Headers.HttpRequestHeaders::set_ExpectContinue(System.Nullable`1<System.Boolean>)
-extern void HttpRequestHeaders_set_ExpectContinue_m59D02E5439BDBA6B5EFAE3440E2E6EAC4CC4094B (void);
-// 0x00000151 System.String System.Net.Http.Headers.HttpRequestHeaders::get_Host()
-extern void HttpRequestHeaders_get_Host_m811EDD9B998E4A44AA3CDF630100D0AA865F681B (void);
-// 0x00000152 System.Net.Http.Headers.HttpHeaderValueCollection`1<System.Net.Http.Headers.EntityTagHeaderValue> System.Net.Http.Headers.HttpRequestHeaders::get_IfMatch()
-extern void HttpRequestHeaders_get_IfMatch_m10D6CAC3FFCA2FF43D35DC847C76E47759835D8F (void);
-// 0x00000153 System.Nullable`1<System.DateTimeOffset> System.Net.Http.Headers.HttpRequestHeaders::get_IfModifiedSince()
-extern void HttpRequestHeaders_get_IfModifiedSince_mDD070DDCBF69C2DF2C0A8390CFE0FC4893768613 (void);
-// 0x00000154 System.Void System.Net.Http.Headers.HttpRequestHeaders::set_IfModifiedSince(System.Nullable`1<System.DateTimeOffset>)
-extern void HttpRequestHeaders_set_IfModifiedSince_m29559EE912B2D803F573BAE02B47B2328576EEE4 (void);
-// 0x00000155 System.Net.Http.Headers.HttpHeaderValueCollection`1<System.Net.Http.Headers.EntityTagHeaderValue> System.Net.Http.Headers.HttpRequestHeaders::get_IfNoneMatch()
-extern void HttpRequestHeaders_get_IfNoneMatch_mFBC484D1446CA0E2F2E42B9F1FC06E31FD0099D1 (void);
-// 0x00000156 System.Nullable`1<System.DateTimeOffset> System.Net.Http.Headers.HttpRequestHeaders::get_IfUnmodifiedSince()
-extern void HttpRequestHeaders_get_IfUnmodifiedSince_m327583001E42670413F44D75B66AA19F5A060D0C (void);
-// 0x00000157 System.Void System.Net.Http.Headers.HttpRequestHeaders::set_IfUnmodifiedSince(System.Nullable`1<System.DateTimeOffset>)
-extern void HttpRequestHeaders_set_IfUnmodifiedSince_m8B1D19C754AB32ED138B68F281F35996951E6A3B (void);
-// 0x00000158 System.Net.Http.Headers.RangeHeaderValue System.Net.Http.Headers.HttpRequestHeaders::get_Range()
-extern void HttpRequestHeaders_get_Range_mE9402DCA8F8228DDACCE9C6D83ACB022D4351E81 (void);
-// 0x00000159 System.Net.Http.Headers.HttpHeaderValueCollection`1<System.Net.Http.Headers.TransferCodingHeaderValue> System.Net.Http.Headers.HttpRequestHeaders::get_TransferEncoding()
-extern void HttpRequestHeaders_get_TransferEncoding_mE1D258B3E9E8663E99D27FEA0C78AEDF09F1EF0F (void);
-// 0x0000015A System.Nullable`1<System.Boolean> System.Net.Http.Headers.HttpRequestHeaders::get_TransferEncodingChunked()
-extern void HttpRequestHeaders_get_TransferEncodingChunked_m2A5FF238017183BE7E8E218E3B39AC40D4877E57 (void);
-// 0x0000015B System.Net.Http.Headers.HttpHeaderValueCollection`1<System.Net.Http.Headers.ProductInfoHeaderValue> System.Net.Http.Headers.HttpRequestHeaders::get_UserAgent()
-extern void HttpRequestHeaders_get_UserAgent_m428289CBC4047D6C55D85E578A463F3BF5552076 (void);
-// 0x0000015C System.Void System.Net.Http.Headers.HttpRequestHeaders::AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
-extern void HttpRequestHeaders_AddHeaders_m5CBD184A33243AB7BDC9573678B6E2057A6BE457 (void);
-// 0x0000015D System.Void System.Net.Http.Headers.HttpRequestHeaders/<>c::.cctor()
-extern void U3CU3Ec__cctor_mF73A20CDF9A43A1566F7E9B8F63E1CAD628C7A0A (void);
-// 0x0000015E System.Void System.Net.Http.Headers.HttpRequestHeaders/<>c::.ctor()
-extern void U3CU3Ec__ctor_m7761AB425CC8145E6AD03A2C322270706EB78130 (void);
-// 0x0000015F System.Boolean System.Net.Http.Headers.HttpRequestHeaders/<>c::<get_ConnectionClose>b__19_0(System.String)
-extern void U3CU3Ec_U3Cget_ConnectionCloseU3Eb__19_0_mB7AC94A1080F968A4CF9A06834AD83873BC9B404 (void);
-// 0x00000160 System.Boolean System.Net.Http.Headers.HttpRequestHeaders/<>c::<get_ExpectContinue>b__29_0(System.Net.Http.Headers.TransferCodingHeaderValue)
-extern void U3CU3Ec_U3Cget_ExpectContinueU3Eb__29_0_mAFBE0FF0A9B82E892D9154CE1FF40D36FA9269EA (void);
-// 0x00000161 System.Boolean System.Net.Http.Headers.HttpRequestHeaders/<>c::<set_ExpectContinue>b__30_0(System.Net.Http.Headers.NameValueWithParametersHeaderValue)
-extern void U3CU3Ec_U3Cset_ExpectContinueU3Eb__30_0_mFCC2DFEE075E8AABC7D915D59A897BEEF47144BA (void);
-// 0x00000162 System.Boolean System.Net.Http.Headers.HttpRequestHeaders/<>c::<get_TransferEncodingChunked>b__71_0(System.Net.Http.Headers.TransferCodingHeaderValue)
-extern void U3CU3Ec_U3Cget_TransferEncodingChunkedU3Eb__71_0_mB83CCF1217BCDD991865536AC4FD5335C2878A2A (void);
-// 0x00000163 System.Void System.Net.Http.Headers.HttpResponseHeaders::.ctor()
-extern void HttpResponseHeaders__ctor_m3E7314396DC1F9A66F66AA02FC4405D4961987F9 (void);
-// 0x00000164 System.Nullable`1<System.DateTimeOffset> System.Net.Http.Headers.HttpResponseHeaders::get_Date()
-extern void HttpResponseHeaders_get_Date_mB43EF3E220DA89EA783BB917B2AF212490B207F6 (void);
-// 0x00000165 System.Net.Http.Headers.EntityTagHeaderValue System.Net.Http.Headers.HttpResponseHeaders::get_ETag()
-extern void HttpResponseHeaders_get_ETag_mFEEAF9DC3D0070A9A3EB1325AA975BD98E1FAECE (void);
-// 0x00000166 System.Void System.Net.Http.Headers.Token::.ctor(System.Net.Http.Headers.Token/Type,System.Int32,System.Int32)
-extern void Token__ctor_m4D769FCEE4295A5E0B04C3A5E4676BF6F1EEA76B (void);
-// 0x00000167 System.Int32 System.Net.Http.Headers.Token::get_StartPosition()
-extern void Token_get_StartPosition_mD6FD9852CE20DF1154E2AF279501D86B5E1233C8 (void);
-// 0x00000168 System.Void System.Net.Http.Headers.Token::set_StartPosition(System.Int32)
-extern void Token_set_StartPosition_m25634DC149D471692C9AD91B9B2998CAFE45FAC2 (void);
-// 0x00000169 System.Int32 System.Net.Http.Headers.Token::get_EndPosition()
-extern void Token_get_EndPosition_mC282EF9227016D454DF323DF8C5A0C5DDADE3773 (void);
-// 0x0000016A System.Void System.Net.Http.Headers.Token::set_EndPosition(System.Int32)
-extern void Token_set_EndPosition_m9A2D60F9B0764CF3314FD2B124F3C5DD05A04A8C (void);
-// 0x0000016B System.Net.Http.Headers.Token/Type System.Net.Http.Headers.Token::get_Kind()
-extern void Token_get_Kind_m31AFFDBB277B54F94EDCA9A3A4EEE2893B82F1A2 (void);
-// 0x0000016C System.Net.Http.Headers.Token/Type System.Net.Http.Headers.Token::op_Implicit(System.Net.Http.Headers.Token)
-extern void Token_op_Implicit_m4BEC226099D2470CA706BC10E45FFC7A2083F15C (void);
-// 0x0000016D System.String System.Net.Http.Headers.Token::ToString()
-extern void Token_ToString_m0976C25A2557D4AFA80B9031DE2FEE4B37612366 (void);
-// 0x0000016E System.Void System.Net.Http.Headers.Token::.cctor()
-extern void Token__cctor_m3BB75A27E7365D1AB9823619A0F0C0FCA5FDF46C (void);
-// 0x0000016F System.Void System.Net.Http.Headers.Lexer::.ctor(System.String)
-extern void Lexer__ctor_mD103FDA884033C546B5010C511198D50B48AE7E8 (void);
-// 0x00000170 System.Int32 System.Net.Http.Headers.Lexer::get_Position()
-extern void Lexer_get_Position_mB3BAD8A399F2582DCF4CAFE70F7C35C7A9B32912 (void);
-// 0x00000171 System.Void System.Net.Http.Headers.Lexer::set_Position(System.Int32)
-extern void Lexer_set_Position_mDE71766FE6212799B1B9E6B21B3AEF11D0E9BA71 (void);
-// 0x00000172 System.String System.Net.Http.Headers.Lexer::GetStringValue(System.Net.Http.Headers.Token)
-extern void Lexer_GetStringValue_m1837C0E00B514DBE70A826911A44A0E883752F6D (void);
-// 0x00000173 System.String System.Net.Http.Headers.Lexer::GetStringValue(System.Net.Http.Headers.Token,System.Net.Http.Headers.Token)
-extern void Lexer_GetStringValue_m04F7171F73F0FA085304E74AC227159D6197849E (void);
-// 0x00000174 System.String System.Net.Http.Headers.Lexer::GetQuotedStringValue(System.Net.Http.Headers.Token)
-extern void Lexer_GetQuotedStringValue_mF93F4BCEB6B3853F1FCC67C776D053F52199814A (void);
-// 0x00000175 System.String System.Net.Http.Headers.Lexer::GetRemainingStringValue(System.Int32)
-extern void Lexer_GetRemainingStringValue_m7A69EFB8D05BA73BA789698C1B4E253A22DE0812 (void);
-// 0x00000176 System.Boolean System.Net.Http.Headers.Lexer::IsStarStringValue(System.Net.Http.Headers.Token)
-extern void Lexer_IsStarStringValue_m9EBF4AE20DA73FB99FF74EB2BC3911EE5A29E06C (void);
-// 0x00000177 System.Boolean System.Net.Http.Headers.Lexer::TryGetNumericValue(System.Net.Http.Headers.Token,System.Int32&)
-extern void Lexer_TryGetNumericValue_m40DBCE6925FF90ECE9E6A51EA8AEF8F26DB0A7DC (void);
-// 0x00000178 System.Boolean System.Net.Http.Headers.Lexer::TryGetNumericValue(System.Net.Http.Headers.Token,System.Int64&)
-extern void Lexer_TryGetNumericValue_mD8274C443696C50305A2546411B6A357C97AF230 (void);
-// 0x00000179 System.Nullable`1<System.TimeSpan> System.Net.Http.Headers.Lexer::TryGetTimeSpanValue(System.Net.Http.Headers.Token)
-extern void Lexer_TryGetTimeSpanValue_mAE764F9DBC621C31F60D0C7C9171A8DE7C92DCCC (void);
-// 0x0000017A System.Boolean System.Net.Http.Headers.Lexer::TryGetDateValue(System.Net.Http.Headers.Token,System.DateTimeOffset&)
-extern void Lexer_TryGetDateValue_m0AD91877B2E626081B0725260AF3B1B75D1ACAD1 (void);
-// 0x0000017B System.Boolean System.Net.Http.Headers.Lexer::TryGetDateValue(System.String,System.DateTimeOffset&)
-extern void Lexer_TryGetDateValue_mE8A73F81F527E2C82D6B60DE1266E0438D1B5F36 (void);
-// 0x0000017C System.Boolean System.Net.Http.Headers.Lexer::TryGetDoubleValue(System.Net.Http.Headers.Token,System.Double&)
-extern void Lexer_TryGetDoubleValue_m0190F25B19392893FA1BB41C2967F8BF492B8BF6 (void);
-// 0x0000017D System.Boolean System.Net.Http.Headers.Lexer::IsValidToken(System.String)
-extern void Lexer_IsValidToken_m681BB576065BA4F236C95A2653B174094C8A46E3 (void);
-// 0x0000017E System.Boolean System.Net.Http.Headers.Lexer::IsValidCharacter(System.Char)
-extern void Lexer_IsValidCharacter_mD3A188D1157BF19BC40FABC8210CB3C47F94D2F0 (void);
-// 0x0000017F System.Void System.Net.Http.Headers.Lexer::EatChar()
-extern void Lexer_EatChar_m0061692E80AA9BE72E340069B4B5EA737F2B5409 (void);
-// 0x00000180 System.Int32 System.Net.Http.Headers.Lexer::PeekChar()
-extern void Lexer_PeekChar_m364174CE2F6379BDC3C82E5A7DC53E86B3696E61 (void);
-// 0x00000181 System.Boolean System.Net.Http.Headers.Lexer::ScanCommentOptional(System.String&)
-extern void Lexer_ScanCommentOptional_m6B8B59D7AF1F2DA781BA8D9281E6414C9EEDBB96 (void);
-// 0x00000182 System.Boolean System.Net.Http.Headers.Lexer::ScanCommentOptional(System.String&,System.Net.Http.Headers.Token&)
-extern void Lexer_ScanCommentOptional_m449BB87B4DD252B5F3949AD40C855A386AFFE5EE (void);
-// 0x00000183 System.Net.Http.Headers.Token System.Net.Http.Headers.Lexer::Scan(System.Boolean)
-extern void Lexer_Scan_m4B1EFD005EE0CE32D59E5B206E574DF95D32A37A (void);
-// 0x00000184 System.Void System.Net.Http.Headers.Lexer::.cctor()
-extern void Lexer__cctor_m111DA55BD1315C3FE8B047C66ACF1DBC6DEE7E51 (void);
-// 0x00000185 System.Void System.Net.Http.Headers.MediaTypeHeaderValue::.ctor(System.String)
-extern void MediaTypeHeaderValue__ctor_mC1E505B6662340AA6398ECD78B6ADCED929532EF (void);
-// 0x00000186 System.Void System.Net.Http.Headers.MediaTypeHeaderValue::.ctor(System.Net.Http.Headers.MediaTypeHeaderValue)
-extern void MediaTypeHeaderValue__ctor_m1BF34EE789A8F4320A0D1FA1B95ECC8A49488416 (void);
-// 0x00000187 System.Void System.Net.Http.Headers.MediaTypeHeaderValue::.ctor()
-extern void MediaTypeHeaderValue__ctor_m7A802245FE04B51783822D580C393E0480FB2BF9 (void);
-// 0x00000188 System.Void System.Net.Http.Headers.MediaTypeHeaderValue::set_MediaType(System.String)
-extern void MediaTypeHeaderValue_set_MediaType_m62C1FA46631D4CE39B31F414F635338FB223DDA2 (void);
-// 0x00000189 System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> System.Net.Http.Headers.MediaTypeHeaderValue::get_Parameters()
-extern void MediaTypeHeaderValue_get_Parameters_m4555F97C4BE9D975D6AF8448F3A13D9ED711998C (void);
-// 0x0000018A System.Object System.Net.Http.Headers.MediaTypeHeaderValue::System.ICloneable.Clone()
-extern void MediaTypeHeaderValue_System_ICloneable_Clone_m8591E85BC7673878D18CC9C636C6C1B6864FC3E3 (void);
-// 0x0000018B System.Boolean System.Net.Http.Headers.MediaTypeHeaderValue::Equals(System.Object)
-extern void MediaTypeHeaderValue_Equals_m466049867F72120AAC2408FC7265BB8ADBF595F0 (void);
-// 0x0000018C System.Int32 System.Net.Http.Headers.MediaTypeHeaderValue::GetHashCode()
-extern void MediaTypeHeaderValue_GetHashCode_m52594BAC28FAB4074A318BA04B457A28BA18F0B7 (void);
-// 0x0000018D System.Net.Http.Headers.MediaTypeHeaderValue System.Net.Http.Headers.MediaTypeHeaderValue::Parse(System.String)
-extern void MediaTypeHeaderValue_Parse_m296D4860C6E4E2AF3927F6AAC53B87390B5049C5 (void);
-// 0x0000018E System.String System.Net.Http.Headers.MediaTypeHeaderValue::ToString()
-extern void MediaTypeHeaderValue_ToString_m7EEB0E4B7883CE2F71794BDA52AE5E925E317ED3 (void);
-// 0x0000018F System.Boolean System.Net.Http.Headers.MediaTypeHeaderValue::TryParse(System.String,System.Net.Http.Headers.MediaTypeHeaderValue&)
-extern void MediaTypeHeaderValue_TryParse_mD87527A98AABED076F356802E41BC82F4F3A4613 (void);
-// 0x00000190 System.Nullable`1<System.Net.Http.Headers.Token> System.Net.Http.Headers.MediaTypeHeaderValue::TryParseMediaType(System.Net.Http.Headers.Lexer,System.String&)
-extern void MediaTypeHeaderValue_TryParseMediaType_m4461ECED0E807FEEE5337AC46FD829D07D86905D (void);
-// 0x00000191 System.Void System.Net.Http.Headers.MediaTypeWithQualityHeaderValue::.ctor()
-extern void MediaTypeWithQualityHeaderValue__ctor_m7C648E935806A08121173E3F0D6E2975907558EB (void);
-// 0x00000192 System.Boolean System.Net.Http.Headers.MediaTypeWithQualityHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.MediaTypeWithQualityHeaderValue&,System.Net.Http.Headers.Token&)
-extern void MediaTypeWithQualityHeaderValue_TryParseElement_m4171DD3C53819445FCFF068649079843A8366EF2 (void);
-// 0x00000193 System.Boolean System.Net.Http.Headers.MediaTypeWithQualityHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.MediaTypeWithQualityHeaderValue>&)
-extern void MediaTypeWithQualityHeaderValue_TryParse_m72BDF6BAA4EAB7DCF3BAD92A808FFB38615F5043 (void);
-// 0x00000194 System.Void System.Net.Http.Headers.NameValueHeaderValue::.ctor(System.String)
-extern void NameValueHeaderValue__ctor_m8F0CB241C7E0E819E625A4BB8AE7FCF479A360C8 (void);
-// 0x00000195 System.Void System.Net.Http.Headers.NameValueHeaderValue::.ctor(System.String,System.String)
-extern void NameValueHeaderValue__ctor_m8B01AB48DBDE4B8DBC4A4EDA28A7FFBC5024E019 (void);
-// 0x00000196 System.Void System.Net.Http.Headers.NameValueHeaderValue::.ctor(System.Net.Http.Headers.NameValueHeaderValue)
-extern void NameValueHeaderValue__ctor_m4146411CE34CB17215D526E96B1150D317B874C6 (void);
-// 0x00000197 System.Void System.Net.Http.Headers.NameValueHeaderValue::.ctor()
-extern void NameValueHeaderValue__ctor_mF68CEB79AC5D306A881EF051F923088C9B92D9F7 (void);
-// 0x00000198 System.String System.Net.Http.Headers.NameValueHeaderValue::get_Name()
-extern void NameValueHeaderValue_get_Name_m366600007BBA6900804AE33A87EBDD3C9ABC8FA1 (void);
-// 0x00000199 System.Void System.Net.Http.Headers.NameValueHeaderValue::set_Name(System.String)
-extern void NameValueHeaderValue_set_Name_mD5E056F3D61B737E050342EE66DE77EF753B75B9 (void);
-// 0x0000019A System.Void System.Net.Http.Headers.NameValueHeaderValue::set_Value(System.String)
-extern void NameValueHeaderValue_set_Value_mFC97320124E0441DEF0594B25805B333579894CC (void);
-// 0x0000019B System.Net.Http.Headers.NameValueHeaderValue System.Net.Http.Headers.NameValueHeaderValue::Create(System.String,System.String)
-extern void NameValueHeaderValue_Create_mD312D66A14556E212634800C1B1898AF2A3DCC76 (void);
-// 0x0000019C System.Object System.Net.Http.Headers.NameValueHeaderValue::System.ICloneable.Clone()
-extern void NameValueHeaderValue_System_ICloneable_Clone_m35FE0E1E3496299116DCB5BA002A6B0D11694A8A (void);
-// 0x0000019D System.Int32 System.Net.Http.Headers.NameValueHeaderValue::GetHashCode()
-extern void NameValueHeaderValue_GetHashCode_m5218397583EF6882651F56A73DB432901A29C664 (void);
-// 0x0000019E System.Boolean System.Net.Http.Headers.NameValueHeaderValue::Equals(System.Object)
-extern void NameValueHeaderValue_Equals_mCE0A83D2CC4E0B87F757B76046914167BFAE4702 (void);
-// 0x0000019F System.Boolean System.Net.Http.Headers.NameValueHeaderValue::TryParsePragma(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue>&)
-extern void NameValueHeaderValue_TryParsePragma_m12D5027D9D4938D0BF4812B25DB9BE73431C288B (void);
-// 0x000001A0 System.Boolean System.Net.Http.Headers.NameValueHeaderValue::TryParseParameters(System.Net.Http.Headers.Lexer,System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue>&,System.Net.Http.Headers.Token&)
-extern void NameValueHeaderValue_TryParseParameters_m8268F570B14B0546927DDEABFF6A29CA3C33968E (void);
-// 0x000001A1 System.String System.Net.Http.Headers.NameValueHeaderValue::ToString()
-extern void NameValueHeaderValue_ToString_m5761EB68E416EDFD307308A68D01326C1BE739FE (void);
-// 0x000001A2 System.Boolean System.Net.Http.Headers.NameValueHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.NameValueHeaderValue&,System.Net.Http.Headers.Token&)
-extern void NameValueHeaderValue_TryParseElement_m5CD487810730F8391DCC0BDA0167B39CB76AB80F (void);
-// 0x000001A3 System.Void System.Net.Http.Headers.NameValueWithParametersHeaderValue::.ctor(System.String)
-extern void NameValueWithParametersHeaderValue__ctor_m72AEC4FBAAD5800F4AD7B63A6E6313B1BAB4A857 (void);
-// 0x000001A4 System.Void System.Net.Http.Headers.NameValueWithParametersHeaderValue::.ctor(System.Net.Http.Headers.NameValueWithParametersHeaderValue)
-extern void NameValueWithParametersHeaderValue__ctor_mA2E025173A2A5D2A1E4E73B9507C0C06FBCAE021 (void);
-// 0x000001A5 System.Void System.Net.Http.Headers.NameValueWithParametersHeaderValue::.ctor()
-extern void NameValueWithParametersHeaderValue__ctor_m35959E3D711E906480BCDD856C23B708BB00D03D (void);
-// 0x000001A6 System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> System.Net.Http.Headers.NameValueWithParametersHeaderValue::get_Parameters()
-extern void NameValueWithParametersHeaderValue_get_Parameters_m41E6FE97A50EF464638C215CECD3A221A1436995 (void);
-// 0x000001A7 System.Object System.Net.Http.Headers.NameValueWithParametersHeaderValue::System.ICloneable.Clone()
-extern void NameValueWithParametersHeaderValue_System_ICloneable_Clone_m111012E04BB3A64359CF27F2D85E8876E2DD24E9 (void);
-// 0x000001A8 System.Boolean System.Net.Http.Headers.NameValueWithParametersHeaderValue::Equals(System.Object)
-extern void NameValueWithParametersHeaderValue_Equals_mE26706EE6740FF871D2DBB7DEFA525FAB9EEC772 (void);
-// 0x000001A9 System.Int32 System.Net.Http.Headers.NameValueWithParametersHeaderValue::GetHashCode()
-extern void NameValueWithParametersHeaderValue_GetHashCode_m72378F4FEE4EC2079987A8C39EBD141F890E1811 (void);
-// 0x000001AA System.String System.Net.Http.Headers.NameValueWithParametersHeaderValue::ToString()
-extern void NameValueWithParametersHeaderValue_ToString_mDEB0D6ACEF95D92B62A90AB44CE5F0D63C8EB731 (void);
-// 0x000001AB System.Boolean System.Net.Http.Headers.NameValueWithParametersHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueWithParametersHeaderValue>&)
-extern void NameValueWithParametersHeaderValue_TryParse_m135FFF6AC530C19593FEF1B401DBD45ADA3DA18D (void);
-// 0x000001AC System.Boolean System.Net.Http.Headers.NameValueWithParametersHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.NameValueWithParametersHeaderValue&,System.Net.Http.Headers.Token&)
-extern void NameValueWithParametersHeaderValue_TryParseElement_m3761F5F7F64D24AE8BB319C809AED60E55DD9AD8 (void);
-// 0x000001AD System.Void System.Net.Http.Headers.Parser/Token::Check(System.String)
-extern void Token_Check_m69ECCCF278A37DF94A52E4D171359E7B0864296C (void);
-// 0x000001AE System.Boolean System.Net.Http.Headers.Parser/Token::TryCheck(System.String)
-extern void Token_TryCheck_m14A0A92A6151708F24B68D82E0EE9A3BAF998799 (void);
-// 0x000001AF System.Void System.Net.Http.Headers.Parser/Token::CheckComment(System.String)
-extern void Token_CheckComment_m2367634B3271017B48EE370AE976DC5E4EC14F63 (void);
-// 0x000001B0 System.Boolean System.Net.Http.Headers.Parser/DateTime::TryParse(System.String,System.DateTimeOffset&)
-extern void DateTime_TryParse_mA3E095A8B745A0678366128D5E2FE227E2C91A3D (void);
-// 0x000001B1 System.Void System.Net.Http.Headers.Parser/DateTime::.cctor()
-extern void DateTime__cctor_m2AD75D75317AA55594581214AB9C02BCA4EED8F0 (void);
-// 0x000001B2 System.Void System.Net.Http.Headers.Parser/DateTime/<>c::.cctor()
-extern void U3CU3Ec__cctor_m4A8B23244579A70FB9F3F11E555A53D308311F2C (void);
-// 0x000001B3 System.Void System.Net.Http.Headers.Parser/DateTime/<>c::.ctor()
-extern void U3CU3Ec__ctor_m9A38724CC49A115268645F8F3892345F3F9B4EAE (void);
-// 0x000001B4 System.String System.Net.Http.Headers.Parser/DateTime/<>c::<.cctor>b__2_0(System.Object)
-extern void U3CU3Ec_U3C_cctorU3Eb__2_0_m80216F1E55AA3D160565774C3C71AB0E9CFDF1B8 (void);
-// 0x000001B5 System.Boolean System.Net.Http.Headers.Parser/EmailAddress::TryParse(System.String,System.String&)
-extern void EmailAddress_TryParse_mB1371F2E239B16FF4EFB7EF2F59A007C159B792B (void);
-// 0x000001B6 System.Boolean System.Net.Http.Headers.Parser/Host::TryParse(System.String,System.String&)
-extern void Host_TryParse_mEB5CCE082416953B6609389DAF030F053401383C (void);
-// 0x000001B7 System.Boolean System.Net.Http.Headers.Parser/Int::TryParse(System.String,System.Int32&)
-extern void Int_TryParse_mFB64D270D1201596288ED2DEDC27BFF49B83F946 (void);
-// 0x000001B8 System.Boolean System.Net.Http.Headers.Parser/Long::TryParse(System.String,System.Int64&)
-extern void Long_TryParse_mDFB26C289993D3F9E27137DEE72418929B10390E (void);
-// 0x000001B9 System.Boolean System.Net.Http.Headers.Parser/MD5::TryParse(System.String,System.Byte[]&)
-extern void MD5_TryParse_mE62125F5F8AA2FAF3E8F79C554D8B98F95625F7A (void);
-// 0x000001BA System.Void System.Net.Http.Headers.Parser/MD5::.cctor()
-extern void MD5__cctor_m286F6673CD52E289785A1F2147D302403A8F594E (void);
-// 0x000001BB System.Void System.Net.Http.Headers.Parser/MD5/<>c::.cctor()
-extern void U3CU3Ec__cctor_mF4AB194E0272A34D9EE8BE87EDC8DA88BCC2010E (void);
-// 0x000001BC System.Void System.Net.Http.Headers.Parser/MD5/<>c::.ctor()
-extern void U3CU3Ec__ctor_m2C3B4C989BF4384E9CF3129BE76A7FECA5127DC6 (void);
-// 0x000001BD System.String System.Net.Http.Headers.Parser/MD5/<>c::<.cctor>b__2_0(System.Object)
-extern void U3CU3Ec_U3C_cctorU3Eb__2_0_m8C2CBEF9B6A5EDF3859DEEA80A30C0CC4284EA40 (void);
-// 0x000001BE System.Boolean System.Net.Http.Headers.Parser/TimeSpanSeconds::TryParse(System.String,System.TimeSpan&)
-extern void TimeSpanSeconds_TryParse_mB5F3C45067F76FEF2DEF10152100515E25D00CBA (void);
-// 0x000001BF System.Boolean System.Net.Http.Headers.Parser/Uri::TryParse(System.String,System.Uri&)
-extern void Uri_TryParse_m7F80032BE09F47E663577BA14DC788346DB3D6AA (void);
-// 0x000001C0 System.Void System.Net.Http.Headers.ProductHeaderValue::.ctor(System.String)
-extern void ProductHeaderValue__ctor_m1FDB52A578F2F7656BC2D30075C753AFAD1BAEEA (void);
-// 0x000001C1 System.Void System.Net.Http.Headers.ProductHeaderValue::.ctor(System.String,System.String)
-extern void ProductHeaderValue__ctor_mEE747EA217CA0D91A83A88A667367C07B625689E (void);
-// 0x000001C2 System.Void System.Net.Http.Headers.ProductHeaderValue::.ctor()
-extern void ProductHeaderValue__ctor_m053678867246D03B7BA207E951B3091F38C19E53 (void);
-// 0x000001C3 System.String System.Net.Http.Headers.ProductHeaderValue::get_Name()
-extern void ProductHeaderValue_get_Name_mD1D90C458F39B2A41C78975C4C28168FC8349F59 (void);
-// 0x000001C4 System.Void System.Net.Http.Headers.ProductHeaderValue::set_Name(System.String)
-extern void ProductHeaderValue_set_Name_mF618CD65E7CF16502AE1BBB5B218EC7396DAA917 (void);
-// 0x000001C5 System.String System.Net.Http.Headers.ProductHeaderValue::get_Version()
-extern void ProductHeaderValue_get_Version_m6C1903232404C0D693FD44736B28D58E5D16E025 (void);
-// 0x000001C6 System.Void System.Net.Http.Headers.ProductHeaderValue::set_Version(System.String)
-extern void ProductHeaderValue_set_Version_mCEA6D87C140E14DBBB2EC9741A3073C8575F0468 (void);
-// 0x000001C7 System.Object System.Net.Http.Headers.ProductHeaderValue::System.ICloneable.Clone()
-extern void ProductHeaderValue_System_ICloneable_Clone_mB3485921077E6FF7CF5EE64366F1FD082BA23A46 (void);
-// 0x000001C8 System.Boolean System.Net.Http.Headers.ProductHeaderValue::Equals(System.Object)
-extern void ProductHeaderValue_Equals_m871D7AF19F9D43CD8F8CFD336B4165D8B0C52F30 (void);
-// 0x000001C9 System.Int32 System.Net.Http.Headers.ProductHeaderValue::GetHashCode()
-extern void ProductHeaderValue_GetHashCode_m55DE1B5F363D7999E8C1B4C9B85C130B61812FBD (void);
-// 0x000001CA System.Boolean System.Net.Http.Headers.ProductHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.ProductHeaderValue>&)
-extern void ProductHeaderValue_TryParse_mB1243BD1DF0E0490D73CAD35563B88C7B0E6BAF7 (void);
-// 0x000001CB System.Boolean System.Net.Http.Headers.ProductHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.ProductHeaderValue&,System.Net.Http.Headers.Token&)
-extern void ProductHeaderValue_TryParseElement_m23226E494D4DD0FEC6E45BBCC3CA1BD3BB1D3835 (void);
-// 0x000001CC System.String System.Net.Http.Headers.ProductHeaderValue::ToString()
-extern void ProductHeaderValue_ToString_m77FF9F8D6440C4ED1C3CBB0D652CF6DC6CCF70EE (void);
-// 0x000001CD System.Void System.Net.Http.Headers.ProductInfoHeaderValue::.ctor(System.Net.Http.Headers.ProductHeaderValue)
-extern void ProductInfoHeaderValue__ctor_mD9BF2CDE12B065EBDC179081135CF5AF89455A10 (void);
-// 0x000001CE System.Void System.Net.Http.Headers.ProductInfoHeaderValue::.ctor(System.String)
-extern void ProductInfoHeaderValue__ctor_m6F2322FE76F3D30AE406985711DA13BFAA4F4D75 (void);
-// 0x000001CF System.Void System.Net.Http.Headers.ProductInfoHeaderValue::.ctor(System.String,System.String)
-extern void ProductInfoHeaderValue__ctor_mA3D30063629488C5FEC416E29556DF547333B3FE (void);
-// 0x000001D0 System.Void System.Net.Http.Headers.ProductInfoHeaderValue::.ctor()
-extern void ProductInfoHeaderValue__ctor_mFFE7D5662931B39C5BFBCBE6A34F2EA7213F1E33 (void);
-// 0x000001D1 System.String System.Net.Http.Headers.ProductInfoHeaderValue::get_Comment()
-extern void ProductInfoHeaderValue_get_Comment_m4CD487862C4C5EF724563F3244072A65AC2E88C9 (void);
-// 0x000001D2 System.Void System.Net.Http.Headers.ProductInfoHeaderValue::set_Comment(System.String)
-extern void ProductInfoHeaderValue_set_Comment_m238BA02817E2E39462143D916558893F60ACDC86 (void);
-// 0x000001D3 System.Net.Http.Headers.ProductHeaderValue System.Net.Http.Headers.ProductInfoHeaderValue::get_Product()
-extern void ProductInfoHeaderValue_get_Product_m8E2281521B2D959BB05905DEF95D0DB3655DF372 (void);
-// 0x000001D4 System.Void System.Net.Http.Headers.ProductInfoHeaderValue::set_Product(System.Net.Http.Headers.ProductHeaderValue)
-extern void ProductInfoHeaderValue_set_Product_m0A1D6F61F15584924CB8BA6A6A52B6300304D2C5 (void);
-// 0x000001D5 System.Object System.Net.Http.Headers.ProductInfoHeaderValue::System.ICloneable.Clone()
-extern void ProductInfoHeaderValue_System_ICloneable_Clone_mA7B0DFEF5A397EBAE3998D025BD327291E43172D (void);
-// 0x000001D6 System.Boolean System.Net.Http.Headers.ProductInfoHeaderValue::Equals(System.Object)
-extern void ProductInfoHeaderValue_Equals_m40AE09D3F4F5B3B4CE399074B10173C442486909 (void);
-// 0x000001D7 System.Int32 System.Net.Http.Headers.ProductInfoHeaderValue::GetHashCode()
-extern void ProductInfoHeaderValue_GetHashCode_m84F4E3FD02586D2B5C7A2C3309DA28989DCD112E (void);
-// 0x000001D8 System.Boolean System.Net.Http.Headers.ProductInfoHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.ProductInfoHeaderValue>&)
-extern void ProductInfoHeaderValue_TryParse_m467E815B35D9D2145EC1AB23146AE6CB16FE545C (void);
-// 0x000001D9 System.Boolean System.Net.Http.Headers.ProductInfoHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.ProductInfoHeaderValue&)
-extern void ProductInfoHeaderValue_TryParseElement_m73A1A2067121705EF9E5F8991ACDB8BE887F826A (void);
-// 0x000001DA System.String System.Net.Http.Headers.ProductInfoHeaderValue::ToString()
-extern void ProductInfoHeaderValue_ToString_mB42EE940CD446989BA2DEAE7B768AE22F0956081 (void);
-// 0x000001DB System.Void System.Net.Http.Headers.RangeConditionHeaderValue::.ctor(System.DateTimeOffset)
-extern void RangeConditionHeaderValue__ctor_m512062C0BAA8E5FA3DB6968C56A17FAF2CB07BD6 (void);
-// 0x000001DC System.Void System.Net.Http.Headers.RangeConditionHeaderValue::.ctor(System.Net.Http.Headers.EntityTagHeaderValue)
-extern void RangeConditionHeaderValue__ctor_mE515E67DF6890C68A872061233973834D2081D5C (void);
-// 0x000001DD System.Nullable`1<System.DateTimeOffset> System.Net.Http.Headers.RangeConditionHeaderValue::get_Date()
-extern void RangeConditionHeaderValue_get_Date_m2ED5E9E69B54AFBD5FD8776E11E0E9515F883665 (void);
-// 0x000001DE System.Void System.Net.Http.Headers.RangeConditionHeaderValue::set_Date(System.Nullable`1<System.DateTimeOffset>)
-extern void RangeConditionHeaderValue_set_Date_m47802FE5AAAD0332E0746333A2E1C063C68968F2 (void);
-// 0x000001DF System.Net.Http.Headers.EntityTagHeaderValue System.Net.Http.Headers.RangeConditionHeaderValue::get_EntityTag()
-extern void RangeConditionHeaderValue_get_EntityTag_m1350FD198EBCB954BF6FCEC5F540F9C626D78255 (void);
-// 0x000001E0 System.Void System.Net.Http.Headers.RangeConditionHeaderValue::set_EntityTag(System.Net.Http.Headers.EntityTagHeaderValue)
-extern void RangeConditionHeaderValue_set_EntityTag_m50799749C4B634D41C2CFD7E3BEA207682BCAFA3 (void);
-// 0x000001E1 System.Object System.Net.Http.Headers.RangeConditionHeaderValue::System.ICloneable.Clone()
-extern void RangeConditionHeaderValue_System_ICloneable_Clone_m68010CB7E7C479AF576F9F163C8CE52690633315 (void);
-// 0x000001E2 System.Boolean System.Net.Http.Headers.RangeConditionHeaderValue::Equals(System.Object)
-extern void RangeConditionHeaderValue_Equals_m0753C84752E1667E3CA35AC38592F195777B9245 (void);
-// 0x000001E3 System.Int32 System.Net.Http.Headers.RangeConditionHeaderValue::GetHashCode()
-extern void RangeConditionHeaderValue_GetHashCode_m2A4FF069A9D2CA56DFF72B44B91550FBC2374F5E (void);
-// 0x000001E4 System.Boolean System.Net.Http.Headers.RangeConditionHeaderValue::TryParse(System.String,System.Net.Http.Headers.RangeConditionHeaderValue&)
-extern void RangeConditionHeaderValue_TryParse_m26B350E0EBE05AD8B1FFC13347C6A728DDD55D04 (void);
-// 0x000001E5 System.String System.Net.Http.Headers.RangeConditionHeaderValue::ToString()
-extern void RangeConditionHeaderValue_ToString_mE41708A8F1A3C3C348C021EEFD87E17CB029EACA (void);
-// 0x000001E6 System.Void System.Net.Http.Headers.RangeHeaderValue::.ctor()
-extern void RangeHeaderValue__ctor_mEFE4E458BBFFEE8EAFE8186878EE774253889387 (void);
-// 0x000001E7 System.Void System.Net.Http.Headers.RangeHeaderValue::.ctor(System.Net.Http.Headers.RangeHeaderValue)
-extern void RangeHeaderValue__ctor_mEA0C6501A032F29E9554A325FF34FA71DDEE4891 (void);
-// 0x000001E8 System.Collections.Generic.ICollection`1<System.Net.Http.Headers.RangeItemHeaderValue> System.Net.Http.Headers.RangeHeaderValue::get_Ranges()
-extern void RangeHeaderValue_get_Ranges_mE51C7635BEA32D0B826B36425222FAAD8E547993 (void);
-// 0x000001E9 System.String System.Net.Http.Headers.RangeHeaderValue::get_Unit()
-extern void RangeHeaderValue_get_Unit_mE8B73769921766F9E62143A00161B684ADF75A36 (void);
-// 0x000001EA System.Object System.Net.Http.Headers.RangeHeaderValue::System.ICloneable.Clone()
-extern void RangeHeaderValue_System_ICloneable_Clone_m6AD3446DE13C0710E97272310C4E0706D9FD15AD (void);
-// 0x000001EB System.Boolean System.Net.Http.Headers.RangeHeaderValue::Equals(System.Object)
-extern void RangeHeaderValue_Equals_mBF9DBF71262556A25A9DFECCA7B4AAA361E5D434 (void);
-// 0x000001EC System.Int32 System.Net.Http.Headers.RangeHeaderValue::GetHashCode()
-extern void RangeHeaderValue_GetHashCode_m396CBFB96A9EC3A721846E2E3384100AB3B6D711 (void);
-// 0x000001ED System.Boolean System.Net.Http.Headers.RangeHeaderValue::TryParse(System.String,System.Net.Http.Headers.RangeHeaderValue&)
-extern void RangeHeaderValue_TryParse_m13636905E1F72767AEA9A7AF66D9CD83555DDF0E (void);
-// 0x000001EE System.String System.Net.Http.Headers.RangeHeaderValue::ToString()
-extern void RangeHeaderValue_ToString_m2B9634EBD07463188BDF402D5466DB1225C80BF2 (void);
-// 0x000001EF System.Void System.Net.Http.Headers.RangeItemHeaderValue::.ctor(System.Nullable`1<System.Int64>,System.Nullable`1<System.Int64>)
-extern void RangeItemHeaderValue__ctor_mC3E06659BA51F8173730009AE923F55E01077FF9 (void);
-// 0x000001F0 System.Nullable`1<System.Int64> System.Net.Http.Headers.RangeItemHeaderValue::get_From()
-extern void RangeItemHeaderValue_get_From_m26071BCED59BEC3D1129782B5271136702D7BE7A (void);
-// 0x000001F1 System.Void System.Net.Http.Headers.RangeItemHeaderValue::set_From(System.Nullable`1<System.Int64>)
-extern void RangeItemHeaderValue_set_From_mE68CAA393B1E6AD3BE321800B27C95363E858182 (void);
-// 0x000001F2 System.Nullable`1<System.Int64> System.Net.Http.Headers.RangeItemHeaderValue::get_To()
-extern void RangeItemHeaderValue_get_To_m3A300C4A4FEA0735A252AAC22898E75B9079F56E (void);
-// 0x000001F3 System.Void System.Net.Http.Headers.RangeItemHeaderValue::set_To(System.Nullable`1<System.Int64>)
-extern void RangeItemHeaderValue_set_To_m04E3AD34A500C58B8E8C6EC81C3E7DD4DA675029 (void);
-// 0x000001F4 System.Object System.Net.Http.Headers.RangeItemHeaderValue::System.ICloneable.Clone()
-extern void RangeItemHeaderValue_System_ICloneable_Clone_m9B56AE16FBDC8A4841FA4CE153AF66D084A7ED7F (void);
-// 0x000001F5 System.Boolean System.Net.Http.Headers.RangeItemHeaderValue::Equals(System.Object)
-extern void RangeItemHeaderValue_Equals_mC2FF6B9F76953D22C7639C786ECE7AFA6AAFFF32 (void);
-// 0x000001F6 System.Int32 System.Net.Http.Headers.RangeItemHeaderValue::GetHashCode()
-extern void RangeItemHeaderValue_GetHashCode_mD67A5AF0701E15A2ECAC006611B77D5FB641F660 (void);
-// 0x000001F7 System.String System.Net.Http.Headers.RangeItemHeaderValue::ToString()
-extern void RangeItemHeaderValue_ToString_m0B4BCBB8B0CE3FA288BCF704AA5796C3249A8AF3 (void);
-// 0x000001F8 System.Void System.Net.Http.Headers.RetryConditionHeaderValue::.ctor(System.DateTimeOffset)
-extern void RetryConditionHeaderValue__ctor_m1C79ED368A031158C5F620E710BB089D35F9306E (void);
-// 0x000001F9 System.Void System.Net.Http.Headers.RetryConditionHeaderValue::.ctor(System.TimeSpan)
-extern void RetryConditionHeaderValue__ctor_m19B655D45892F29F3C9708C9ED0CE0668122E1E9 (void);
-// 0x000001FA System.Nullable`1<System.DateTimeOffset> System.Net.Http.Headers.RetryConditionHeaderValue::get_Date()
-extern void RetryConditionHeaderValue_get_Date_mE2E88426BC21B3835ADBB65D4C26B1E663EF07C7 (void);
-// 0x000001FB System.Void System.Net.Http.Headers.RetryConditionHeaderValue::set_Date(System.Nullable`1<System.DateTimeOffset>)
-extern void RetryConditionHeaderValue_set_Date_m58E96C31A7D0386A8A6956A3BF32B4A699A0FF03 (void);
-// 0x000001FC System.Nullable`1<System.TimeSpan> System.Net.Http.Headers.RetryConditionHeaderValue::get_Delta()
-extern void RetryConditionHeaderValue_get_Delta_m59D756602DF5BD34BB98328F125C50D56D30F341 (void);
-// 0x000001FD System.Void System.Net.Http.Headers.RetryConditionHeaderValue::set_Delta(System.Nullable`1<System.TimeSpan>)
-extern void RetryConditionHeaderValue_set_Delta_m6FBEA3CE9BC793B9807353F7EC9D438169B818DD (void);
-// 0x000001FE System.Object System.Net.Http.Headers.RetryConditionHeaderValue::System.ICloneable.Clone()
-extern void RetryConditionHeaderValue_System_ICloneable_Clone_m89D31AEA22F89B33215E7006101BF604F38FB26E (void);
-// 0x000001FF System.Boolean System.Net.Http.Headers.RetryConditionHeaderValue::Equals(System.Object)
-extern void RetryConditionHeaderValue_Equals_m6169E086D49E64DBD6777CA55F6E861B56340435 (void);
-// 0x00000200 System.Int32 System.Net.Http.Headers.RetryConditionHeaderValue::GetHashCode()
-extern void RetryConditionHeaderValue_GetHashCode_m2918DF95769A7A6A8077FD72D075A660455FAE41 (void);
-// 0x00000201 System.Boolean System.Net.Http.Headers.RetryConditionHeaderValue::TryParse(System.String,System.Net.Http.Headers.RetryConditionHeaderValue&)
-extern void RetryConditionHeaderValue_TryParse_m81342590A41DCA44A930D0EE59F98FF8F6E5CA3D (void);
-// 0x00000202 System.String System.Net.Http.Headers.RetryConditionHeaderValue::ToString()
-extern void RetryConditionHeaderValue_ToString_m15E59715F521516D822BB51DC5FFDCD50CF98525 (void);
-// 0x00000203 System.Void System.Net.Http.Headers.StringWithQualityHeaderValue::.ctor()
-extern void StringWithQualityHeaderValue__ctor_m1987D26A3FAB6124C36662FEF2395289776A1BDA (void);
-// 0x00000204 System.Nullable`1<System.Double> System.Net.Http.Headers.StringWithQualityHeaderValue::get_Quality()
-extern void StringWithQualityHeaderValue_get_Quality_mB16FC7191209C8439C68DF8701683F02CCF32231 (void);
-// 0x00000205 System.Void System.Net.Http.Headers.StringWithQualityHeaderValue::set_Quality(System.Nullable`1<System.Double>)
-extern void StringWithQualityHeaderValue_set_Quality_mD4ECD0A471994289199899481BE2F02D9CB84D50 (void);
-// 0x00000206 System.String System.Net.Http.Headers.StringWithQualityHeaderValue::get_Value()
-extern void StringWithQualityHeaderValue_get_Value_m916D60EF782A59938AC2797FFCAD6FC545E608A3 (void);
-// 0x00000207 System.Void System.Net.Http.Headers.StringWithQualityHeaderValue::set_Value(System.String)
-extern void StringWithQualityHeaderValue_set_Value_m6AA46E14143ACB1F240D3BCAF62C203FA03C53D7 (void);
-// 0x00000208 System.Object System.Net.Http.Headers.StringWithQualityHeaderValue::System.ICloneable.Clone()
-extern void StringWithQualityHeaderValue_System_ICloneable_Clone_m72861E0254AF4C1AC0C84CF1163E4CB9073FC9E7 (void);
-// 0x00000209 System.Boolean System.Net.Http.Headers.StringWithQualityHeaderValue::Equals(System.Object)
-extern void StringWithQualityHeaderValue_Equals_mE2F9F00222BEDE023B3B1B6645C245EB9C1FD505 (void);
-// 0x0000020A System.Int32 System.Net.Http.Headers.StringWithQualityHeaderValue::GetHashCode()
-extern void StringWithQualityHeaderValue_GetHashCode_mD285DE246AC1111DD51BD85B1936EDEE8A0FE0BA (void);
-// 0x0000020B System.Boolean System.Net.Http.Headers.StringWithQualityHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.StringWithQualityHeaderValue>&)
-extern void StringWithQualityHeaderValue_TryParse_m4299234BF82BBDF9C0D8025EDEF4E7725F743835 (void);
-// 0x0000020C System.Boolean System.Net.Http.Headers.StringWithQualityHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.StringWithQualityHeaderValue&,System.Net.Http.Headers.Token&)
-extern void StringWithQualityHeaderValue_TryParseElement_m290CB0828CB0F466285CAA8DA88E21CE9BFC61D1 (void);
-// 0x0000020D System.String System.Net.Http.Headers.StringWithQualityHeaderValue::ToString()
-extern void StringWithQualityHeaderValue_ToString_mB9DD827C75416CE19C236916BC5E54366D67F174 (void);
-// 0x0000020E System.Void System.Net.Http.Headers.TransferCodingHeaderValue::.ctor(System.Net.Http.Headers.TransferCodingHeaderValue)
-extern void TransferCodingHeaderValue__ctor_m0F01269B8EBEDBB6B9412262548AE751D0E65027 (void);
-// 0x0000020F System.Void System.Net.Http.Headers.TransferCodingHeaderValue::.ctor()
-extern void TransferCodingHeaderValue__ctor_mE59525E494820D8C1541680ACE2B1963EAC76F5F (void);
-// 0x00000210 System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> System.Net.Http.Headers.TransferCodingHeaderValue::get_Parameters()
-extern void TransferCodingHeaderValue_get_Parameters_m84A703FBD32E6F10BD328C9BBAE9FE91C5F22877 (void);
-// 0x00000211 System.String System.Net.Http.Headers.TransferCodingHeaderValue::get_Value()
-extern void TransferCodingHeaderValue_get_Value_m1449D2099CDCB97D651C29849876D412E65BF750 (void);
-// 0x00000212 System.Object System.Net.Http.Headers.TransferCodingHeaderValue::System.ICloneable.Clone()
-extern void TransferCodingHeaderValue_System_ICloneable_Clone_mD6C7886425480DDEC26892AC16C1B53508223911 (void);
-// 0x00000213 System.Boolean System.Net.Http.Headers.TransferCodingHeaderValue::Equals(System.Object)
-extern void TransferCodingHeaderValue_Equals_mA34B4055C809C2BFA9F6F0D7DC5A6FBDDB365263 (void);
-// 0x00000214 System.Int32 System.Net.Http.Headers.TransferCodingHeaderValue::GetHashCode()
-extern void TransferCodingHeaderValue_GetHashCode_mF381E25AA404CBE8D7E3A7E5070FDFD9C5E6A5F2 (void);
-// 0x00000215 System.String System.Net.Http.Headers.TransferCodingHeaderValue::ToString()
-extern void TransferCodingHeaderValue_ToString_m8A61C8CAB9AC5EA64BCEB5A6EB0567A46DE7E7EA (void);
-// 0x00000216 System.Boolean System.Net.Http.Headers.TransferCodingHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.TransferCodingHeaderValue>&)
-extern void TransferCodingHeaderValue_TryParse_m86A4F97240C3EE8BAC15568085B12A9D584750FB (void);
-// 0x00000217 System.Boolean System.Net.Http.Headers.TransferCodingHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.TransferCodingHeaderValue&,System.Net.Http.Headers.Token&)
-extern void TransferCodingHeaderValue_TryParseElement_mCDCE45F43AD28EA6081BF7B4567127C0ED87CEBC (void);
-// 0x00000218 System.Void System.Net.Http.Headers.TransferCodingWithQualityHeaderValue::.ctor()
-extern void TransferCodingWithQualityHeaderValue__ctor_mC8E821716671E52FCB16117F70BED05494993CD1 (void);
-// 0x00000219 System.Boolean System.Net.Http.Headers.TransferCodingWithQualityHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.TransferCodingWithQualityHeaderValue>&)
-extern void TransferCodingWithQualityHeaderValue_TryParse_m098E2F07230D36FD1054A2576E06D997AAAB8AA0 (void);
-// 0x0000021A System.Boolean System.Net.Http.Headers.TransferCodingWithQualityHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.TransferCodingWithQualityHeaderValue&,System.Net.Http.Headers.Token&)
-extern void TransferCodingWithQualityHeaderValue_TryParseElement_mB51A802078D7F2DF7C0A4786A3C0BDFBD0C4794B (void);
-// 0x0000021B System.Void System.Net.Http.Headers.ViaHeaderValue::.ctor()
-extern void ViaHeaderValue__ctor_mE0D8F01E9C6F97C3321A6E63595AF17017D82FF2 (void);
-// 0x0000021C System.String System.Net.Http.Headers.ViaHeaderValue::get_Comment()
-extern void ViaHeaderValue_get_Comment_m4C1CC218AD4525A587FF7E6D2C7A1A86E19A4770 (void);
-// 0x0000021D System.Void System.Net.Http.Headers.ViaHeaderValue::set_Comment(System.String)
-extern void ViaHeaderValue_set_Comment_mC438CB87E5234D1BFE81C42948F92311FD11F981 (void);
-// 0x0000021E System.String System.Net.Http.Headers.ViaHeaderValue::get_ProtocolName()
-extern void ViaHeaderValue_get_ProtocolName_m48DBBAF0052142759FEEFDDCB7F3189F70445D52 (void);
-// 0x0000021F System.Void System.Net.Http.Headers.ViaHeaderValue::set_ProtocolName(System.String)
-extern void ViaHeaderValue_set_ProtocolName_m7C23BDD5E31B1B8FA3724E2FEEC01C3373BB4FEA (void);
-// 0x00000220 System.String System.Net.Http.Headers.ViaHeaderValue::get_ProtocolVersion()
-extern void ViaHeaderValue_get_ProtocolVersion_mFFE932C60DA5022662E1DC07BBBF3BD594B0B0F3 (void);
-// 0x00000221 System.Void System.Net.Http.Headers.ViaHeaderValue::set_ProtocolVersion(System.String)
-extern void ViaHeaderValue_set_ProtocolVersion_m45DBC07FD1229F3E566BECC20A332428BE1FD30E (void);
-// 0x00000222 System.String System.Net.Http.Headers.ViaHeaderValue::get_ReceivedBy()
-extern void ViaHeaderValue_get_ReceivedBy_mF3191B978025363CB500AE2B8BED04FF00194A07 (void);
-// 0x00000223 System.Void System.Net.Http.Headers.ViaHeaderValue::set_ReceivedBy(System.String)
-extern void ViaHeaderValue_set_ReceivedBy_m99CB36A125F34F69A1FC9BF63AD6F811EF33F858 (void);
-// 0x00000224 System.Object System.Net.Http.Headers.ViaHeaderValue::System.ICloneable.Clone()
-extern void ViaHeaderValue_System_ICloneable_Clone_mC55CA4E702799B5ACBEC77A70B8FCEB38FAA26F3 (void);
-// 0x00000225 System.Boolean System.Net.Http.Headers.ViaHeaderValue::Equals(System.Object)
-extern void ViaHeaderValue_Equals_mE08B362F8D99BE6FC327C7F914745074F0BCA739 (void);
-// 0x00000226 System.Int32 System.Net.Http.Headers.ViaHeaderValue::GetHashCode()
-extern void ViaHeaderValue_GetHashCode_m9256AA38E030E2E5D912C7520B750F1F8DFA3383 (void);
-// 0x00000227 System.Boolean System.Net.Http.Headers.ViaHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.ViaHeaderValue>&)
-extern void ViaHeaderValue_TryParse_mCF41726BAE73669BE2607507F55529F2F9175807 (void);
-// 0x00000228 System.Boolean System.Net.Http.Headers.ViaHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.ViaHeaderValue&,System.Net.Http.Headers.Token&)
-extern void ViaHeaderValue_TryParseElement_mB382E0FE989EE4458E44CB3D7CE6368979145547 (void);
-// 0x00000229 System.String System.Net.Http.Headers.ViaHeaderValue::ToString()
-extern void ViaHeaderValue_ToString_m4E2C1C4D027AF3A281EBCEE9ADA3B0A55889E4FE (void);
-// 0x0000022A System.Void System.Net.Http.Headers.WarningHeaderValue::.ctor()
-extern void WarningHeaderValue__ctor_m69C72638122B7016432046DB60F943A0291687AA (void);
-// 0x0000022B System.String System.Net.Http.Headers.WarningHeaderValue::get_Agent()
-extern void WarningHeaderValue_get_Agent_mD374CF260C631995960586D45475567EA35E6A60 (void);
-// 0x0000022C System.Void System.Net.Http.Headers.WarningHeaderValue::set_Agent(System.String)
-extern void WarningHeaderValue_set_Agent_m253887F96977DCE21057B60CCA45FD89F468F750 (void);
-// 0x0000022D System.Int32 System.Net.Http.Headers.WarningHeaderValue::get_Code()
-extern void WarningHeaderValue_get_Code_mF75AC08E3199D32A8B91C12B49AA3C3B105E1657 (void);
-// 0x0000022E System.Void System.Net.Http.Headers.WarningHeaderValue::set_Code(System.Int32)
-extern void WarningHeaderValue_set_Code_m7B5D485961DE6EBE8C80704AFECB4DE82150E13F (void);
-// 0x0000022F System.Nullable`1<System.DateTimeOffset> System.Net.Http.Headers.WarningHeaderValue::get_Date()
-extern void WarningHeaderValue_get_Date_m0C5FA9B22FAC287F991068A4B315918584757212 (void);
-// 0x00000230 System.Void System.Net.Http.Headers.WarningHeaderValue::set_Date(System.Nullable`1<System.DateTimeOffset>)
-extern void WarningHeaderValue_set_Date_mA012565F73DDCB3652C21CBF55E596A42C915EC1 (void);
-// 0x00000231 System.String System.Net.Http.Headers.WarningHeaderValue::get_Text()
-extern void WarningHeaderValue_get_Text_m903E35915246C5861367E3BAE2A748EA0CA6CE47 (void);
-// 0x00000232 System.Void System.Net.Http.Headers.WarningHeaderValue::set_Text(System.String)
-extern void WarningHeaderValue_set_Text_mA374FD8D24D59370A3606E8C2D38AD8440844581 (void);
-// 0x00000233 System.Boolean System.Net.Http.Headers.WarningHeaderValue::IsCodeValid(System.Int32)
-extern void WarningHeaderValue_IsCodeValid_mC8DE563A73BBFBF23780DDD751264B670973CC90 (void);
-// 0x00000234 System.Object System.Net.Http.Headers.WarningHeaderValue::System.ICloneable.Clone()
-extern void WarningHeaderValue_System_ICloneable_Clone_m649A475095A80603F5EC874213FC66BD1870C243 (void);
-// 0x00000235 System.Boolean System.Net.Http.Headers.WarningHeaderValue::Equals(System.Object)
-extern void WarningHeaderValue_Equals_m3CC06F5FB14158CD52D295C19DB361A1EFF0BBB8 (void);
-// 0x00000236 System.Int32 System.Net.Http.Headers.WarningHeaderValue::GetHashCode()
-extern void WarningHeaderValue_GetHashCode_mF1D01A134DE59012F43497A08110F08C76FC1CDD (void);
-// 0x00000237 System.Boolean System.Net.Http.Headers.WarningHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.WarningHeaderValue>&)
-extern void WarningHeaderValue_TryParse_mC45D9086D8C4A9B735A3C5849D56D16F8914D56A (void);
-// 0x00000238 System.Boolean System.Net.Http.Headers.WarningHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.WarningHeaderValue&,System.Net.Http.Headers.Token&)
-extern void WarningHeaderValue_TryParseElement_m18BBB77084037A279ECB844BBE6816E4A67B1D6D (void);
-// 0x00000239 System.String System.Net.Http.Headers.WarningHeaderValue::ToString()
-extern void WarningHeaderValue_ToString_m90FA84EAE55B5ED08DF7759CD87289A749B1A15D (void);
-// 0x0000023A System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
-extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m2B741B2248956DD36B50D0303C08E172F8B57A99 (void);
-static Il2CppMethodPointer s_methodPointers[570] = 
+// 0x00000001 System.Void System.Net.Http.HttpClient::.ctor(System.Net.Http.HttpMessageHandler,System.Boolean)
+extern void HttpClient__ctor_m6DAAD9BE31E0871A544CCBD040E7136C5E7C0541 (void);
+// 0x00000002 System.Net.Http.Headers.HttpRequestHeaders System.Net.Http.HttpClient::get_DefaultRequestHeaders()
+extern void HttpClient_get_DefaultRequestHeaders_mD6D9E9E7568F26ED379CD2F7437FC7FACB73C18B (void);
+// 0x00000003 System.Int64 System.Net.Http.HttpClient::get_MaxResponseContentBufferSize()
+extern void HttpClient_get_MaxResponseContentBufferSize_m1A50C0564295159CF04EFE92FE2C7686909E37AA (void);
+// 0x00000004 System.Void System.Net.Http.HttpClient::set_Timeout(System.TimeSpan)
+extern void HttpClient_set_Timeout_mADC1B33010C5F331228D5DE3E2390D105BB9C07C (void);
+// 0x00000005 System.Void System.Net.Http.HttpClient::Dispose(System.Boolean)
+extern void HttpClient_Dispose_mEDDBFA2BE20268250DAEA322F07231BB23B3DAF4 (void);
+// 0x00000006 System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> System.Net.Http.HttpClient::SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+extern void HttpClient_SendAsync_mF76A5061C70F7DFDA839E86B77B756496431F9AB (void);
+// 0x00000007 System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> System.Net.Http.HttpClient::SendAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)
+extern void HttpClient_SendAsync_mA306852835C84567599F0188221E47F096157F78 (void);
+// 0x00000008 System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> System.Net.Http.HttpClient::SendAsyncWorker(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)
+extern void HttpClient_SendAsyncWorker_mC45FA93F40093594D9791799B64639A0DCB0D7E0 (void);
+// 0x00000009 System.Void System.Net.Http.HttpClient::.cctor()
+extern void HttpClient__cctor_m6B06B9F49038694A6924B4914F21296C259958F3 (void);
+// 0x0000000A System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> System.Net.Http.HttpClient::<>n__0(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+extern void HttpClient_U3CU3En__0_mC92D5A3E1C733EB43862648282CF0CB4E2453A58 (void);
+// 0x0000000B System.Void System.Net.Http.HttpClient/<SendAsyncWorker>d__47::MoveNext()
+extern void U3CSendAsyncWorkerU3Ed__47_MoveNext_m83AA95946D2BCEC12F2A28C0E438819938ECC6C9 (void);
+// 0x0000000C System.Void System.Net.Http.HttpClient/<SendAsyncWorker>d__47::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CSendAsyncWorkerU3Ed__47_SetStateMachine_mDA8B902BFD386F474AE7314EEA1142C3C765EF19 (void);
+// 0x0000000D System.Void System.Net.Http.HttpClientHandler::.ctor()
+extern void HttpClientHandler__ctor_m7BE4F8BDFDF4E687072A039A5226711AF00BE517 (void);
+// 0x0000000E System.Void System.Net.Http.HttpClientHandler::EnsureModifiability()
+extern void HttpClientHandler_EnsureModifiability_m9E1E130593842A73210A08FC481D8F9FEB435D0C (void);
+// 0x0000000F System.Void System.Net.Http.HttpClientHandler::set_AutomaticDecompression(System.Net.DecompressionMethods)
+extern void HttpClientHandler_set_AutomaticDecompression_mF13BD90ECBD48A39EDDC9A56A0AFD81D0A76C412 (void);
+// 0x00000010 System.Net.CookieContainer System.Net.Http.HttpClientHandler::get_CookieContainer()
+extern void HttpClientHandler_get_CookieContainer_m075BC107F7DB16F6CE788459B6AE6666C84A67B3 (void);
+// 0x00000011 System.Int64 System.Net.Http.HttpClientHandler::get_MaxRequestContentBufferSize()
+extern void HttpClientHandler_get_MaxRequestContentBufferSize_m512254D51915B5973777D22558B42BCC00DEACBF (void);
+// 0x00000012 System.Void System.Net.Http.HttpClientHandler::Dispose(System.Boolean)
+extern void HttpClientHandler_Dispose_m499F977678AC43E360230C60A3B9E3F255CF2AFD (void);
+// 0x00000013 System.Net.HttpWebRequest System.Net.Http.HttpClientHandler::CreateWebRequest(System.Net.Http.HttpRequestMessage)
+extern void HttpClientHandler_CreateWebRequest_mD7DBEE29DEBC87263828A109121799ED67754EFC (void);
+// 0x00000014 System.Net.Http.HttpResponseMessage System.Net.Http.HttpClientHandler::CreateResponseMessage(System.Net.HttpWebResponse,System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+extern void HttpClientHandler_CreateResponseMessage_mFEADDCB83FEB8920DA33A6B795C1F74909AED4B7 (void);
+// 0x00000015 System.Boolean System.Net.Http.HttpClientHandler::MethodHasBody(System.Net.Http.HttpMethod)
+extern void HttpClientHandler_MethodHasBody_m89BB423358226192FA33E1D955C657CB630C5F7D (void);
+// 0x00000016 System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> System.Net.Http.HttpClientHandler::SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+extern void HttpClientHandler_SendAsync_mA9E0BE00809F23DBBD6859195230C495FB62E712 (void);
+// 0x00000017 System.Void System.Net.Http.HttpClientHandler/<>c::.cctor()
+extern void U3CU3Ec__cctor_mFA064DDF264F529EA9D4E614803D02BCD4F61242 (void);
+// 0x00000018 System.Void System.Net.Http.HttpClientHandler/<>c::.ctor()
+extern void U3CU3Ec__ctor_m0D7A3476BFD0B938C2264CB2AACEC776BF72F6F3 (void);
+// 0x00000019 System.Boolean System.Net.Http.HttpClientHandler/<>c::<CreateWebRequest>b__62_0(System.String)
+extern void U3CU3Ec_U3CCreateWebRequestU3Eb__62_0_m9738D6616DE802E55645E09B8C716C8A8F0077B8 (void);
+// 0x0000001A System.Void System.Net.Http.HttpClientHandler/<>c::<SendAsync>b__65_0(System.Object)
+extern void U3CU3Ec_U3CSendAsyncU3Eb__65_0_mEBA3D33227A526EE57EC53531D1E141F4CF27C13 (void);
+// 0x0000001B System.Void System.Net.Http.HttpClientHandler/<SendAsync>d__65::MoveNext()
+extern void U3CSendAsyncU3Ed__65_MoveNext_m2A07123CEC3A27A251CECC989A6074F35CFBEB30 (void);
+// 0x0000001C System.Void System.Net.Http.HttpClientHandler/<SendAsync>d__65::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CSendAsyncU3Ed__65_SetStateMachine_m3552D85BA0C0A65706A4C53EDBC533D3C4339D2D (void);
+// 0x0000001D System.Net.Http.Headers.HttpContentHeaders System.Net.Http.HttpContent::get_Headers()
+extern void HttpContent_get_Headers_m8EA225DA03A60734A63156D7EA6AC36228F953E9 (void);
+// 0x0000001E System.Nullable`1<System.Int64> System.Net.Http.HttpContent::get_LoadedBufferLength()
+extern void HttpContent_get_LoadedBufferLength_m686A6903C5E425F650E93BADA81D96B7581D9041 (void);
+// 0x0000001F System.Threading.Tasks.Task System.Net.Http.HttpContent::CopyToAsync(System.IO.Stream)
+extern void HttpContent_CopyToAsync_m1711225E9B99ECA788FD5BA4F84ED88C50278605 (void);
+// 0x00000020 System.Threading.Tasks.Task System.Net.Http.HttpContent::CopyToAsync(System.IO.Stream,System.Net.TransportContext)
+extern void HttpContent_CopyToAsync_mA88C5951456FEF119D465C4BA256FF24B2D23078 (void);
+// 0x00000021 System.Threading.Tasks.Task`1<System.IO.Stream> System.Net.Http.HttpContent::CreateContentReadStreamAsync()
+extern void HttpContent_CreateContentReadStreamAsync_m8F3C0A11566CFF3A40360FD7633CF73CEEE4D1CC (void);
+// 0x00000022 System.Net.Http.HttpContent/FixedMemoryStream System.Net.Http.HttpContent::CreateFixedMemoryStream(System.Int64)
+extern void HttpContent_CreateFixedMemoryStream_mB7B851FA69449E5113BF4245269B9AFF31941B04 (void);
+// 0x00000023 System.Void System.Net.Http.HttpContent::Dispose()
+extern void HttpContent_Dispose_m2A71A269D8D00239F66B81BF70E66E87AB912766 (void);
+// 0x00000024 System.Void System.Net.Http.HttpContent::Dispose(System.Boolean)
+extern void HttpContent_Dispose_mD7BECAE11B00AD37C4B1FCFFF791D49357067CEC (void);
+// 0x00000025 System.Threading.Tasks.Task System.Net.Http.HttpContent::LoadIntoBufferAsync()
+extern void HttpContent_LoadIntoBufferAsync_m99777240475988C2831364BF68D8B8B2FCF3783C (void);
+// 0x00000026 System.Threading.Tasks.Task System.Net.Http.HttpContent::LoadIntoBufferAsync(System.Int64)
+extern void HttpContent_LoadIntoBufferAsync_m43FE3CE24FA8D28940874ADF1EFE0CC1767B9EBF (void);
+// 0x00000027 System.Threading.Tasks.Task`1<System.IO.Stream> System.Net.Http.HttpContent::ReadAsStreamAsync()
+extern void HttpContent_ReadAsStreamAsync_m1CC49D9A9387CF483B2E8A8BBEA135D622CE24DA (void);
+// 0x00000028 System.Threading.Tasks.Task System.Net.Http.HttpContent::SerializeToStreamAsync(System.IO.Stream,System.Net.TransportContext)
+// 0x00000029 System.Boolean System.Net.Http.HttpContent::TryComputeLength(System.Int64&)
+// 0x0000002A System.Void System.Net.Http.HttpContent::.ctor()
+extern void HttpContent__ctor_m675750EF318C57768B50AE6F11FD377853F59B32 (void);
+// 0x0000002B System.Void System.Net.Http.HttpContent/FixedMemoryStream::.ctor(System.Int64)
+extern void FixedMemoryStream__ctor_mF6AAF383E2EC2B6830C0EEB51C32AF37420B959A (void);
+// 0x0000002C System.Void System.Net.Http.HttpContent/FixedMemoryStream::CheckOverflow(System.Int32)
+extern void FixedMemoryStream_CheckOverflow_m91D303787835D164B443BDBD9EDE817D3A07F994 (void);
+// 0x0000002D System.Void System.Net.Http.HttpContent/FixedMemoryStream::WriteByte(System.Byte)
+extern void FixedMemoryStream_WriteByte_m15AFE0CE76C81C28CB2EEDCC948C9074481AF324 (void);
+// 0x0000002E System.Void System.Net.Http.HttpContent/FixedMemoryStream::Write(System.Byte[],System.Int32,System.Int32)
+extern void FixedMemoryStream_Write_mD6CB3E46816B653A4532F2378B82CA538ED534C3 (void);
+// 0x0000002F System.Void System.Net.Http.HttpContent/<CreateContentReadStreamAsync>d__12::MoveNext()
+extern void U3CCreateContentReadStreamAsyncU3Ed__12_MoveNext_mF2027F6FF21106FF9C44CE61AB05C11F4491E5BD (void);
+// 0x00000030 System.Void System.Net.Http.HttpContent/<CreateContentReadStreamAsync>d__12::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CCreateContentReadStreamAsyncU3Ed__12_SetStateMachine_m1D30813C7CF2DCBAF2D8810A48D90F33E3455E4D (void);
+// 0x00000031 System.Void System.Net.Http.HttpContent/<LoadIntoBufferAsync>d__17::MoveNext()
+extern void U3CLoadIntoBufferAsyncU3Ed__17_MoveNext_mA6F34CF04479BCFE9277EDB0AEEBB59353DD658F (void);
+// 0x00000032 System.Void System.Net.Http.HttpContent/<LoadIntoBufferAsync>d__17::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CLoadIntoBufferAsyncU3Ed__17_SetStateMachine_mB4F43A1B35EFF8C4251CC33EDB7892DCC60DD3C4 (void);
+// 0x00000033 System.Void System.Net.Http.HttpContent/<ReadAsStreamAsync>d__18::MoveNext()
+extern void U3CReadAsStreamAsyncU3Ed__18_MoveNext_m91A87731CA5132AC0AA2DC257BA0F447D5A53A23 (void);
+// 0x00000034 System.Void System.Net.Http.HttpContent/<ReadAsStreamAsync>d__18::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CReadAsStreamAsyncU3Ed__18_SetStateMachine_m1AE80D430B6880C88D438D67281BAB0D944D9D64 (void);
+// 0x00000035 System.Void System.Net.Http.HttpMessageHandler::Dispose()
+extern void HttpMessageHandler_Dispose_mD2305D3597776DC4D000FB4CF006A068B86F3554 (void);
+// 0x00000036 System.Void System.Net.Http.HttpMessageHandler::Dispose(System.Boolean)
+extern void HttpMessageHandler_Dispose_m86D9A2FF584AB84490FEF08FDAFA48021C8AC4FE (void);
+// 0x00000037 System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> System.Net.Http.HttpMessageHandler::SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+// 0x00000038 System.Void System.Net.Http.HttpMessageHandler::.ctor()
+extern void HttpMessageHandler__ctor_mB44E862EE092A0C0477BE49BC544663E8747163B (void);
+// 0x00000039 System.Void System.Net.Http.HttpMessageInvoker::.ctor(System.Net.Http.HttpMessageHandler,System.Boolean)
+extern void HttpMessageInvoker__ctor_m57746FF7967048F84B43B05E834B47B135A2B9A7 (void);
+// 0x0000003A System.Void System.Net.Http.HttpMessageInvoker::Dispose()
+extern void HttpMessageInvoker_Dispose_mBB3E1008B40088A80B1D91F8DEA28041C0EBFFF2 (void);
+// 0x0000003B System.Void System.Net.Http.HttpMessageInvoker::Dispose(System.Boolean)
+extern void HttpMessageInvoker_Dispose_mE2B0C1A9E3328652B93A90B8E84C33240C2B1FCC (void);
+// 0x0000003C System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> System.Net.Http.HttpMessageInvoker::SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+extern void HttpMessageInvoker_SendAsync_m960414EBA1089801215BEE390E1BD82D872DA22D (void);
+// 0x0000003D System.Void System.Net.Http.HttpMethod::.ctor(System.String)
+extern void HttpMethod__ctor_m8BF3924E5BCCFAD658C809E4F04C19244E030EE1 (void);
+// 0x0000003E System.Net.Http.HttpMethod System.Net.Http.HttpMethod::get_Delete()
+extern void HttpMethod_get_Delete_mA533520A0182EAD8D3B3CE06814F79879C082786 (void);
+// 0x0000003F System.Net.Http.HttpMethod System.Net.Http.HttpMethod::get_Get()
+extern void HttpMethod_get_Get_m058E48451ED07C7D06187A7DF2EF7941781933FC (void);
+// 0x00000040 System.Net.Http.HttpMethod System.Net.Http.HttpMethod::get_Head()
+extern void HttpMethod_get_Head_mBB5FDA7859E7C084D341B8CE287E37B8ECE2DABA (void);
+// 0x00000041 System.String System.Net.Http.HttpMethod::get_Method()
+extern void HttpMethod_get_Method_m7DFDBCBD8832EDBCB3340C6AD66CF779695BF778 (void);
+// 0x00000042 System.Net.Http.HttpMethod System.Net.Http.HttpMethod::get_Post()
+extern void HttpMethod_get_Post_mEF0B424DA34B78EDAF34313BD64AE353DB54BF23 (void);
+// 0x00000043 System.Net.Http.HttpMethod System.Net.Http.HttpMethod::get_Put()
+extern void HttpMethod_get_Put_m76ABD59ACA806903E3F6DB1D5CFA52EC13AF3703 (void);
+// 0x00000044 System.Boolean System.Net.Http.HttpMethod::op_Equality(System.Net.Http.HttpMethod,System.Net.Http.HttpMethod)
+extern void HttpMethod_op_Equality_m80BE064DD4881604A9E437BF584C46DEDC9DCD56 (void);
+// 0x00000045 System.Boolean System.Net.Http.HttpMethod::Equals(System.Net.Http.HttpMethod)
+extern void HttpMethod_Equals_m3AAFD0F8719C8938A7B0D7597AF37B3A42E7E3CC (void);
+// 0x00000046 System.Boolean System.Net.Http.HttpMethod::Equals(System.Object)
+extern void HttpMethod_Equals_m9F248F82A34984ACD63BA59DF8802C3276E8EED1 (void);
+// 0x00000047 System.Int32 System.Net.Http.HttpMethod::GetHashCode()
+extern void HttpMethod_GetHashCode_mF046A561FF5F5041A74AE1022230FDAA0696C999 (void);
+// 0x00000048 System.String System.Net.Http.HttpMethod::ToString()
+extern void HttpMethod_ToString_m1CABC80134B0815F4599AFDD8E5A41F1A260A40A (void);
+// 0x00000049 System.Void System.Net.Http.HttpMethod::.cctor()
+extern void HttpMethod__cctor_m992FD5DC4E90D1B959111F2574F9F281BDA921BF (void);
+// 0x0000004A System.Void System.Net.Http.HttpRequestException::.ctor()
+extern void HttpRequestException__ctor_mA36A224D6888D6119786464DCCED4B80EC894E47 (void);
+// 0x0000004B System.Void System.Net.Http.HttpRequestException::.ctor(System.String)
+extern void HttpRequestException__ctor_m837054B9183E272ACE1A46968C5C5573D1F68845 (void);
+// 0x0000004C System.Void System.Net.Http.HttpRequestException::.ctor(System.String,System.Exception)
+extern void HttpRequestException__ctor_m73BD458F4E16A25A128329C45C72EAF9503B6058 (void);
+// 0x0000004D System.Void System.Net.Http.HttpRequestMessage::.ctor(System.Net.Http.HttpMethod,System.Uri)
+extern void HttpRequestMessage__ctor_mF54EE858EC0443E8EE994CEA4EFE48DC2BED1DA8 (void);
+// 0x0000004E System.Net.Http.HttpContent System.Net.Http.HttpRequestMessage::get_Content()
+extern void HttpRequestMessage_get_Content_mCD96F88223EA230AC47CC295A00574F52582D0D4 (void);
+// 0x0000004F System.Void System.Net.Http.HttpRequestMessage::set_Content(System.Net.Http.HttpContent)
+extern void HttpRequestMessage_set_Content_m5667B2FE1E6AB6846114A4B4C6867242E56016A6 (void);
+// 0x00000050 System.Net.Http.Headers.HttpRequestHeaders System.Net.Http.HttpRequestMessage::get_Headers()
+extern void HttpRequestMessage_get_Headers_m177A5885B3271A1B8F03DB145DBE32CC5E837063 (void);
+// 0x00000051 System.Net.Http.HttpMethod System.Net.Http.HttpRequestMessage::get_Method()
+extern void HttpRequestMessage_get_Method_m827225A7FD4B30107C4191325DA6762D6C3469BD (void);
+// 0x00000052 System.Void System.Net.Http.HttpRequestMessage::set_Method(System.Net.Http.HttpMethod)
+extern void HttpRequestMessage_set_Method_mDDD10BC238B8A8D92F6C8C12B5842B073F022AAA (void);
+// 0x00000053 System.Uri System.Net.Http.HttpRequestMessage::get_RequestUri()
+extern void HttpRequestMessage_get_RequestUri_mB0637CC446DFCB403DC4C36781474AC9C3556DDB (void);
+// 0x00000054 System.Void System.Net.Http.HttpRequestMessage::set_RequestUri(System.Uri)
+extern void HttpRequestMessage_set_RequestUri_m75C3A2AEF3BB397FBB0F93DFC5FE6B44E931119F (void);
+// 0x00000055 System.Boolean System.Net.Http.HttpRequestMessage::IsAllowedAbsoluteUri(System.Uri)
+extern void HttpRequestMessage_IsAllowedAbsoluteUri_m965F982100BC93A4926B334A3156B5E180BB035A (void);
+// 0x00000056 System.Version System.Net.Http.HttpRequestMessage::get_Version()
+extern void HttpRequestMessage_get_Version_m35DA797D53047647E194684CFCA326C4CAD951CA (void);
+// 0x00000057 System.Void System.Net.Http.HttpRequestMessage::Dispose()
+extern void HttpRequestMessage_Dispose_mCC6051F8C6AE3FFA46BFF1214F111ED07860FEAC (void);
+// 0x00000058 System.Void System.Net.Http.HttpRequestMessage::Dispose(System.Boolean)
+extern void HttpRequestMessage_Dispose_m9A3355EC837334A2C7046D774E23F4FDBCF9ED4E (void);
+// 0x00000059 System.Boolean System.Net.Http.HttpRequestMessage::SetIsUsed()
+extern void HttpRequestMessage_SetIsUsed_mD5B36CDA69E6B52492ACBD04077DF8CE21406CDF (void);
+// 0x0000005A System.String System.Net.Http.HttpRequestMessage::ToString()
+extern void HttpRequestMessage_ToString_m60ED68733376BB3F0B377D09C924E86635017C62 (void);
+// 0x0000005B System.Void System.Net.Http.HttpResponseMessage::.ctor(System.Net.HttpStatusCode)
+extern void HttpResponseMessage__ctor_m051B89DF13147E2B98478EAC11E7E7E9E06703BC (void);
+// 0x0000005C System.Net.Http.HttpContent System.Net.Http.HttpResponseMessage::get_Content()
+extern void HttpResponseMessage_get_Content_m10D3612F95AEE5B7995B5266B0CAA856283A423D (void);
+// 0x0000005D System.Void System.Net.Http.HttpResponseMessage::set_Content(System.Net.Http.HttpContent)
+extern void HttpResponseMessage_set_Content_mBE4CEFD88B03B40585CF1D634B79D21F5CDA3807 (void);
+// 0x0000005E System.Net.Http.Headers.HttpResponseHeaders System.Net.Http.HttpResponseMessage::get_Headers()
+extern void HttpResponseMessage_get_Headers_mE81FB59F93B183F5FF68B49EE9D703845A7E57EF (void);
+// 0x0000005F System.Boolean System.Net.Http.HttpResponseMessage::get_IsSuccessStatusCode()
+extern void HttpResponseMessage_get_IsSuccessStatusCode_m24E3914FE4A058EAA89F4019F67271A3F623494B (void);
+// 0x00000060 System.String System.Net.Http.HttpResponseMessage::get_ReasonPhrase()
+extern void HttpResponseMessage_get_ReasonPhrase_m5A15D4142F877CAA50F667F78A5B762A0346605E (void);
+// 0x00000061 System.Void System.Net.Http.HttpResponseMessage::set_ReasonPhrase(System.String)
+extern void HttpResponseMessage_set_ReasonPhrase_mFC55407D6500C93858B695F06A3867F4CE63A528 (void);
+// 0x00000062 System.Void System.Net.Http.HttpResponseMessage::set_RequestMessage(System.Net.Http.HttpRequestMessage)
+extern void HttpResponseMessage_set_RequestMessage_m07FEEB8F285F3986CB090494E46E3A1623DBC2B2 (void);
+// 0x00000063 System.Net.HttpStatusCode System.Net.Http.HttpResponseMessage::get_StatusCode()
+extern void HttpResponseMessage_get_StatusCode_m566EA4F3B9AF052B4A59C34F51191B926BFED7CB (void);
+// 0x00000064 System.Void System.Net.Http.HttpResponseMessage::set_StatusCode(System.Net.HttpStatusCode)
+extern void HttpResponseMessage_set_StatusCode_m246A89A073785108449FCF54F0A9313ECB704368 (void);
+// 0x00000065 System.Version System.Net.Http.HttpResponseMessage::get_Version()
+extern void HttpResponseMessage_get_Version_mF0EC7E36AADB465F23C4D1F2311963460EB8CA0B (void);
+// 0x00000066 System.Void System.Net.Http.HttpResponseMessage::Dispose()
+extern void HttpResponseMessage_Dispose_m8683CBBB2651DB344BE6746BFBF9DDDCACFB2A2D (void);
+// 0x00000067 System.Void System.Net.Http.HttpResponseMessage::Dispose(System.Boolean)
+extern void HttpResponseMessage_Dispose_m3BA80A6220B8A31E867A2FC1601FEDF6C660C1E3 (void);
+// 0x00000068 System.String System.Net.Http.HttpResponseMessage::ToString()
+extern void HttpResponseMessage_ToString_m6E7636EE6609928F10FB55A48ABC772F23431AF6 (void);
+// 0x00000069 System.Void System.Net.Http.StreamContent::.ctor(System.IO.Stream)
+extern void StreamContent__ctor_m10DCA59D35FB84281BA19A558D2E3E90216DD67D (void);
+// 0x0000006A System.Void System.Net.Http.StreamContent::.ctor(System.IO.Stream,System.Int32)
+extern void StreamContent__ctor_mBD36741C6EAFF69205CA7A8A5D43AD9CD38DD12C (void);
+// 0x0000006B System.Void System.Net.Http.StreamContent::.ctor(System.IO.Stream,System.Threading.CancellationToken)
+extern void StreamContent__ctor_mC15C6AEA76B14E6BD763143F084FBEB0B1710CA0 (void);
+// 0x0000006C System.Threading.Tasks.Task`1<System.IO.Stream> System.Net.Http.StreamContent::CreateContentReadStreamAsync()
+extern void StreamContent_CreateContentReadStreamAsync_mC0CA82F70738B170FED65ABED35883D9BD62CA16 (void);
+// 0x0000006D System.Void System.Net.Http.StreamContent::Dispose(System.Boolean)
+extern void StreamContent_Dispose_m867A2675A73CE8F3653522697BF504B19FF23806 (void);
+// 0x0000006E System.Threading.Tasks.Task System.Net.Http.StreamContent::SerializeToStreamAsync(System.IO.Stream,System.Net.TransportContext)
+extern void StreamContent_SerializeToStreamAsync_m8CD99FB93D5B0F6096504672FBFB49C830067757 (void);
+// 0x0000006F System.Boolean System.Net.Http.StreamContent::TryComputeLength(System.Int64&)
+extern void StreamContent_TryComputeLength_mBFC8C79AA23AC9B67C0ACCB989E64DA7912DB88F (void);
+// 0x00000070 System.Void System.Net.Http.Headers.AuthenticationHeaderValue::.ctor(System.String,System.String)
+extern void AuthenticationHeaderValue__ctor_m741C1B5A83E8874C5CA69E03BF48823A99474E9B (void);
+// 0x00000071 System.Void System.Net.Http.Headers.AuthenticationHeaderValue::.ctor()
+extern void AuthenticationHeaderValue__ctor_m0A27B3B4E067239AB2FA798D149C0EC0FC2166E0 (void);
+// 0x00000072 System.String System.Net.Http.Headers.AuthenticationHeaderValue::get_Parameter()
+extern void AuthenticationHeaderValue_get_Parameter_m19D26675143C3AE83466270D94D6F6C9E44E6AB7 (void);
+// 0x00000073 System.Void System.Net.Http.Headers.AuthenticationHeaderValue::set_Parameter(System.String)
+extern void AuthenticationHeaderValue_set_Parameter_mC09D04228E2CBA7C12437593FA25A12498A4BBED (void);
+// 0x00000074 System.String System.Net.Http.Headers.AuthenticationHeaderValue::get_Scheme()
+extern void AuthenticationHeaderValue_get_Scheme_m84C72C54B76964405850DD9786B655B4195A9B8D (void);
+// 0x00000075 System.Void System.Net.Http.Headers.AuthenticationHeaderValue::set_Scheme(System.String)
+extern void AuthenticationHeaderValue_set_Scheme_m5183D095D21C1A24BBC634F3E87B8EDE41A0B4FE (void);
+// 0x00000076 System.Object System.Net.Http.Headers.AuthenticationHeaderValue::System.ICloneable.Clone()
+extern void AuthenticationHeaderValue_System_ICloneable_Clone_m3CE5887A7C30D645258584240A0EA13BBE569A10 (void);
+// 0x00000077 System.Boolean System.Net.Http.Headers.AuthenticationHeaderValue::Equals(System.Object)
+extern void AuthenticationHeaderValue_Equals_m92FCE66167550E9EE8A67E6C0CB9149F9212EFA9 (void);
+// 0x00000078 System.Int32 System.Net.Http.Headers.AuthenticationHeaderValue::GetHashCode()
+extern void AuthenticationHeaderValue_GetHashCode_m0708DBC2CC11A61CBD7866D192A43D9463734A7E (void);
+// 0x00000079 System.Boolean System.Net.Http.Headers.AuthenticationHeaderValue::TryParse(System.String,System.Net.Http.Headers.AuthenticationHeaderValue&)
+extern void AuthenticationHeaderValue_TryParse_m61BE2A1652E5CEA8A8B1B761A477EAF6E2762964 (void);
+// 0x0000007A System.Boolean System.Net.Http.Headers.AuthenticationHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.AuthenticationHeaderValue>&)
+extern void AuthenticationHeaderValue_TryParse_mAE071F0DEF6EA9FDAAB26AC1C5CC8E3733C33714 (void);
+// 0x0000007B System.Boolean System.Net.Http.Headers.AuthenticationHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.AuthenticationHeaderValue&,System.Net.Http.Headers.Token&)
+extern void AuthenticationHeaderValue_TryParseElement_m90C6168F912E04771A1DEB4A4FF815659F937ECA (void);
+// 0x0000007C System.String System.Net.Http.Headers.AuthenticationHeaderValue::ToString()
+extern void AuthenticationHeaderValue_ToString_m1C89F3D20F5D0FC0BB3043D608446A01DB807E46 (void);
+// 0x0000007D System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> System.Net.Http.Headers.CacheControlHeaderValue::get_Extensions()
+extern void CacheControlHeaderValue_get_Extensions_m3B45147A12C25398D8B7D25FC28A231D69B7AFAD (void);
+// 0x0000007E System.Nullable`1<System.TimeSpan> System.Net.Http.Headers.CacheControlHeaderValue::get_MaxAge()
+extern void CacheControlHeaderValue_get_MaxAge_m59AD11D3AB610635FD33E7EE8F1EECF737C0D584 (void);
+// 0x0000007F System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_MaxAge(System.Nullable`1<System.TimeSpan>)
+extern void CacheControlHeaderValue_set_MaxAge_m2E1E0459107FF2555275EA0A338A4E79E6C3FDBC (void);
+// 0x00000080 System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::get_MaxStale()
+extern void CacheControlHeaderValue_get_MaxStale_m2974B3CE827B7A2B0D4119C65337632C2324C6A1 (void);
+// 0x00000081 System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_MaxStale(System.Boolean)
+extern void CacheControlHeaderValue_set_MaxStale_m7F4477177D24B0271E309CB3505DF53071AB1DFD (void);
+// 0x00000082 System.Nullable`1<System.TimeSpan> System.Net.Http.Headers.CacheControlHeaderValue::get_MaxStaleLimit()
+extern void CacheControlHeaderValue_get_MaxStaleLimit_m7214087851A3A3268FD6E0007ADE1F53210DE8CE (void);
+// 0x00000083 System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_MaxStaleLimit(System.Nullable`1<System.TimeSpan>)
+extern void CacheControlHeaderValue_set_MaxStaleLimit_m34CD1E0B0B34027808D7C8A93CEC394E197CB366 (void);
+// 0x00000084 System.Nullable`1<System.TimeSpan> System.Net.Http.Headers.CacheControlHeaderValue::get_MinFresh()
+extern void CacheControlHeaderValue_get_MinFresh_mB6CCA8F2B245D484970B1C672C54AFD8CC7E47CA (void);
+// 0x00000085 System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_MinFresh(System.Nullable`1<System.TimeSpan>)
+extern void CacheControlHeaderValue_set_MinFresh_mA220DD7B19A7BD6304A830631E7F664C90A1CDF5 (void);
+// 0x00000086 System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::get_MustRevalidate()
+extern void CacheControlHeaderValue_get_MustRevalidate_m28B9CE8D2F02A0911C58E6F683EB7BA2218D54F3 (void);
+// 0x00000087 System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_MustRevalidate(System.Boolean)
+extern void CacheControlHeaderValue_set_MustRevalidate_m8F528F97AB95A04837FF5EF6C9A4A61E3007402E (void);
+// 0x00000088 System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::get_NoCache()
+extern void CacheControlHeaderValue_get_NoCache_mB9F2A7E9328E953BA6B11B693707880ECD4034A4 (void);
+// 0x00000089 System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_NoCache(System.Boolean)
+extern void CacheControlHeaderValue_set_NoCache_m6DC57D00EA7B879DEFFC91BF02712A120B352FE1 (void);
+// 0x0000008A System.Collections.Generic.ICollection`1<System.String> System.Net.Http.Headers.CacheControlHeaderValue::get_NoCacheHeaders()
+extern void CacheControlHeaderValue_get_NoCacheHeaders_mB7482348E0DE7CE3D00C6A83F46DB62635C935DD (void);
+// 0x0000008B System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::get_NoStore()
+extern void CacheControlHeaderValue_get_NoStore_mE25079DB703D86185BB37A140B3DFD7DE6A2FFFB (void);
+// 0x0000008C System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_NoStore(System.Boolean)
+extern void CacheControlHeaderValue_set_NoStore_mA91321D9244DDB6ECBA793C8C35D8832040F6BE1 (void);
+// 0x0000008D System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::get_NoTransform()
+extern void CacheControlHeaderValue_get_NoTransform_mBAAD8B879708FD58642A0E9427DBEF05EE3710E0 (void);
+// 0x0000008E System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_NoTransform(System.Boolean)
+extern void CacheControlHeaderValue_set_NoTransform_m340FF75F2CB80AEB339FE0242DB3B5CBF503F804 (void);
+// 0x0000008F System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::get_OnlyIfCached()
+extern void CacheControlHeaderValue_get_OnlyIfCached_m6BF598F664CB69BFF5F0C5E01A77EFF424586BF5 (void);
+// 0x00000090 System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_OnlyIfCached(System.Boolean)
+extern void CacheControlHeaderValue_set_OnlyIfCached_m80D42E84C1114168DA405AD071A967B8805DC143 (void);
+// 0x00000091 System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::get_Private()
+extern void CacheControlHeaderValue_get_Private_mD6BAD408DADE941BB93EA79B74A4636A3FA5750F (void);
+// 0x00000092 System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_Private(System.Boolean)
+extern void CacheControlHeaderValue_set_Private_mCCE76BEB29A6791A1B6F9B7919CFEF1D6D187B48 (void);
+// 0x00000093 System.Collections.Generic.ICollection`1<System.String> System.Net.Http.Headers.CacheControlHeaderValue::get_PrivateHeaders()
+extern void CacheControlHeaderValue_get_PrivateHeaders_mCF4D5D9F008E9055F9C7D381150FA6049DFAA6DA (void);
+// 0x00000094 System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::get_ProxyRevalidate()
+extern void CacheControlHeaderValue_get_ProxyRevalidate_m6EE57419064F382CB90C819531A4C3AD5D4F8BF2 (void);
+// 0x00000095 System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_ProxyRevalidate(System.Boolean)
+extern void CacheControlHeaderValue_set_ProxyRevalidate_mC6ACE4D89F822FD119E9DC2E729294C24DF5690B (void);
+// 0x00000096 System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::get_Public()
+extern void CacheControlHeaderValue_get_Public_m667A84F90555818E71075344630BC077BDD066FD (void);
+// 0x00000097 System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_Public(System.Boolean)
+extern void CacheControlHeaderValue_set_Public_m21A3865847D0DE9DB94AD5CDFF0ED844B79FC0FF (void);
+// 0x00000098 System.Nullable`1<System.TimeSpan> System.Net.Http.Headers.CacheControlHeaderValue::get_SharedMaxAge()
+extern void CacheControlHeaderValue_get_SharedMaxAge_mEACC53312C1B52303705BAF70356BA8F7F6B0FD0 (void);
+// 0x00000099 System.Void System.Net.Http.Headers.CacheControlHeaderValue::set_SharedMaxAge(System.Nullable`1<System.TimeSpan>)
+extern void CacheControlHeaderValue_set_SharedMaxAge_m0506C512E0D39E8E16AEFCB016226664C148BAE9 (void);
+// 0x0000009A System.Object System.Net.Http.Headers.CacheControlHeaderValue::System.ICloneable.Clone()
+extern void CacheControlHeaderValue_System_ICloneable_Clone_mBF003E1DAF0037058207A1DF040A833C2522E978 (void);
+// 0x0000009B System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::Equals(System.Object)
+extern void CacheControlHeaderValue_Equals_m0020E6857DF48418C288379C0F2628EC4064A4B8 (void);
+// 0x0000009C System.Int32 System.Net.Http.Headers.CacheControlHeaderValue::GetHashCode()
+extern void CacheControlHeaderValue_GetHashCode_m1320668F99C02A23594ECFE652BBD319F3DB259E (void);
+// 0x0000009D System.Net.Http.Headers.CacheControlHeaderValue System.Net.Http.Headers.CacheControlHeaderValue::Parse(System.String)
+extern void CacheControlHeaderValue_Parse_m66715982061376332F7B86BB1F02DB1FE2862B95 (void);
+// 0x0000009E System.Boolean System.Net.Http.Headers.CacheControlHeaderValue::TryParse(System.String,System.Net.Http.Headers.CacheControlHeaderValue&)
+extern void CacheControlHeaderValue_TryParse_m6D64B1B2CE476BE83BD1A0593FEB54E9DA6CB8AF (void);
+// 0x0000009F System.String System.Net.Http.Headers.CacheControlHeaderValue::ToString()
+extern void CacheControlHeaderValue_ToString_m238D31DA49DF837E307CE06E0A09A2E8FA6FF57E (void);
+// 0x000000A0 System.Void System.Net.Http.Headers.CacheControlHeaderValue::.ctor()
+extern void CacheControlHeaderValue__ctor_mE547ADEF80225CA14249A6F2A35CB78CC468B52C (void);
+// 0x000000A1 System.Boolean System.Net.Http.Headers.CollectionExtensions::SequenceEqual(System.Collections.Generic.List`1<TSource>,System.Collections.Generic.List`1<TSource>)
+// 0x000000A2 System.String System.Net.Http.Headers.CollectionExtensions::ToString(System.Collections.Generic.List`1<T>)
+// 0x000000A3 System.Void System.Net.Http.Headers.CollectionExtensions::ToStringBuilder(System.Collections.Generic.List`1<T>,System.Text.StringBuilder)
+// 0x000000A4 System.Void System.Net.Http.Headers.ElementTryParser`1::.ctor(System.Object,System.IntPtr)
+// 0x000000A5 System.Boolean System.Net.Http.Headers.ElementTryParser`1::Invoke(System.Net.Http.Headers.Lexer,T&,System.Net.Http.Headers.Token&)
+// 0x000000A6 System.IAsyncResult System.Net.Http.Headers.ElementTryParser`1::BeginInvoke(System.Net.Http.Headers.Lexer,T&,System.Net.Http.Headers.Token&,System.AsyncCallback,System.Object)
+// 0x000000A7 System.Boolean System.Net.Http.Headers.ElementTryParser`1::EndInvoke(T&,System.Net.Http.Headers.Token&,System.IAsyncResult)
+// 0x000000A8 System.Boolean System.Net.Http.Headers.CollectionParser::TryParse(System.String,System.Int32,System.Net.Http.Headers.ElementTryParser`1<T>,System.Collections.Generic.List`1<T>&)
+// 0x000000A9 System.Boolean System.Net.Http.Headers.CollectionParser::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.String>&)
+extern void CollectionParser_TryParse_m04790AAC315962A06B1C860904CA41A185949EC8 (void);
+// 0x000000AA System.Boolean System.Net.Http.Headers.CollectionParser::TryParseStringElement(System.Net.Http.Headers.Lexer,System.String&,System.Net.Http.Headers.Token&)
+extern void CollectionParser_TryParseStringElement_mE178A13C16DBD9E2CA7EBD2837ABEA8A97F37676 (void);
+// 0x000000AB System.Void System.Net.Http.Headers.ContentDispositionHeaderValue::.ctor()
+extern void ContentDispositionHeaderValue__ctor_mC8453FC54032D277A2FEB14582DF9700D319AC4F (void);
+// 0x000000AC System.Void System.Net.Http.Headers.ContentDispositionHeaderValue::.ctor(System.Net.Http.Headers.ContentDispositionHeaderValue)
+extern void ContentDispositionHeaderValue__ctor_m83FFA94DD0D96DF54ADF0F0D4BC40C240C7C9B13 (void);
+// 0x000000AD System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> System.Net.Http.Headers.ContentDispositionHeaderValue::get_Parameters()
+extern void ContentDispositionHeaderValue_get_Parameters_m2898AF2953F4761BA136C458479BCBD8EC7DD954 (void);
+// 0x000000AE System.Object System.Net.Http.Headers.ContentDispositionHeaderValue::System.ICloneable.Clone()
+extern void ContentDispositionHeaderValue_System_ICloneable_Clone_m4C63062307B5E31720AC50F93EC238AF9B9E218C (void);
+// 0x000000AF System.Boolean System.Net.Http.Headers.ContentDispositionHeaderValue::Equals(System.Object)
+extern void ContentDispositionHeaderValue_Equals_mF0640F8335D84E2CC8A4C3A1C1590592864941B1 (void);
+// 0x000000B0 System.Int32 System.Net.Http.Headers.ContentDispositionHeaderValue::GetHashCode()
+extern void ContentDispositionHeaderValue_GetHashCode_mE9A08E91A2AFA401923C778FB699D08228789442 (void);
+// 0x000000B1 System.Net.Http.Headers.ContentDispositionHeaderValue System.Net.Http.Headers.ContentDispositionHeaderValue::Parse(System.String)
+extern void ContentDispositionHeaderValue_Parse_m0693AAE92AF8A4489F6186E88A10DE8778E30CAE (void);
+// 0x000000B2 System.String System.Net.Http.Headers.ContentDispositionHeaderValue::ToString()
+extern void ContentDispositionHeaderValue_ToString_m36DF50BFEC7DE5F8DF31549B09FB935CFFA9B48F (void);
+// 0x000000B3 System.Boolean System.Net.Http.Headers.ContentDispositionHeaderValue::TryParse(System.String,System.Net.Http.Headers.ContentDispositionHeaderValue&)
+extern void ContentDispositionHeaderValue_TryParse_mB98125B302B276FC8B66AE271E568EEB56371CB1 (void);
+// 0x000000B4 System.Void System.Net.Http.Headers.ContentRangeHeaderValue::.ctor()
+extern void ContentRangeHeaderValue__ctor_mE302A476439BBC9A4C0597D2A98380EC38311896 (void);
+// 0x000000B5 System.Nullable`1<System.Int64> System.Net.Http.Headers.ContentRangeHeaderValue::get_From()
+extern void ContentRangeHeaderValue_get_From_m7299550A6CCB17F974A4D146260ABBC3C076BDC9 (void);
+// 0x000000B6 System.Void System.Net.Http.Headers.ContentRangeHeaderValue::set_From(System.Nullable`1<System.Int64>)
+extern void ContentRangeHeaderValue_set_From_m405CE8F820CDF9D88D371574A14B7B4C663EBE2F (void);
+// 0x000000B7 System.Boolean System.Net.Http.Headers.ContentRangeHeaderValue::get_HasLength()
+extern void ContentRangeHeaderValue_get_HasLength_m2533AF2D144615A6D21D767C8BCD0AF5BD017B94 (void);
+// 0x000000B8 System.Nullable`1<System.Int64> System.Net.Http.Headers.ContentRangeHeaderValue::get_Length()
+extern void ContentRangeHeaderValue_get_Length_m6A0773BAB9D2D1B185666E6B1516CA5A35319601 (void);
+// 0x000000B9 System.Void System.Net.Http.Headers.ContentRangeHeaderValue::set_Length(System.Nullable`1<System.Int64>)
+extern void ContentRangeHeaderValue_set_Length_m378E67CD52F284D18091175FBDEADDF21B30EF77 (void);
+// 0x000000BA System.Nullable`1<System.Int64> System.Net.Http.Headers.ContentRangeHeaderValue::get_To()
+extern void ContentRangeHeaderValue_get_To_mB1FCA4A4858E2BB74B83AC1BC6A162004EEDD2E0 (void);
+// 0x000000BB System.Void System.Net.Http.Headers.ContentRangeHeaderValue::set_To(System.Nullable`1<System.Int64>)
+extern void ContentRangeHeaderValue_set_To_mB6447D27A614FB2B3C0E6E8271F4C325F1B4967D (void);
+// 0x000000BC System.String System.Net.Http.Headers.ContentRangeHeaderValue::get_Unit()
+extern void ContentRangeHeaderValue_get_Unit_mCEA9CD8B217BF41FAB5351766CE0B77737D30EDD (void);
+// 0x000000BD System.Object System.Net.Http.Headers.ContentRangeHeaderValue::System.ICloneable.Clone()
+extern void ContentRangeHeaderValue_System_ICloneable_Clone_m719AC160AA905D528B19F030997F4F9E186554E1 (void);
+// 0x000000BE System.Boolean System.Net.Http.Headers.ContentRangeHeaderValue::Equals(System.Object)
+extern void ContentRangeHeaderValue_Equals_m3631615182516D26A2CBA4E478F23C144107032C (void);
+// 0x000000BF System.Int32 System.Net.Http.Headers.ContentRangeHeaderValue::GetHashCode()
+extern void ContentRangeHeaderValue_GetHashCode_m226DE011470EA9F2F600DDB6376C17A12EAD277D (void);
+// 0x000000C0 System.Boolean System.Net.Http.Headers.ContentRangeHeaderValue::TryParse(System.String,System.Net.Http.Headers.ContentRangeHeaderValue&)
+extern void ContentRangeHeaderValue_TryParse_m4C99370DAAA56541EB05D1A423B6DDE5164B5702 (void);
+// 0x000000C1 System.String System.Net.Http.Headers.ContentRangeHeaderValue::ToString()
+extern void ContentRangeHeaderValue_ToString_m91EF8F49639F9E9D97136C08E405230BD3F22B31 (void);
+// 0x000000C2 System.Void System.Net.Http.Headers.EntityTagHeaderValue::.ctor()
+extern void EntityTagHeaderValue__ctor_m41F3093750A5A5F02D00A39104FF0B2DCDFE7373 (void);
+// 0x000000C3 System.Net.Http.Headers.EntityTagHeaderValue System.Net.Http.Headers.EntityTagHeaderValue::get_Any()
+extern void EntityTagHeaderValue_get_Any_m76B22A8D3037CA28ECB9C6306013FD73C731EB6C (void);
+// 0x000000C4 System.Boolean System.Net.Http.Headers.EntityTagHeaderValue::get_IsWeak()
+extern void EntityTagHeaderValue_get_IsWeak_m4CD1443DD6F5D507199426A6C6B47C7A434EC1CC (void);
+// 0x000000C5 System.Void System.Net.Http.Headers.EntityTagHeaderValue::set_IsWeak(System.Boolean)
+extern void EntityTagHeaderValue_set_IsWeak_mA107F05E18F75FCA053C8181338F3475DFDD4A83 (void);
+// 0x000000C6 System.String System.Net.Http.Headers.EntityTagHeaderValue::get_Tag()
+extern void EntityTagHeaderValue_get_Tag_m0919675128A1105B3073CBDB9A2303473445D064 (void);
+// 0x000000C7 System.Void System.Net.Http.Headers.EntityTagHeaderValue::set_Tag(System.String)
+extern void EntityTagHeaderValue_set_Tag_m52BC0A88F047794C027E81D9BF362ADA277D8EBC (void);
+// 0x000000C8 System.Object System.Net.Http.Headers.EntityTagHeaderValue::System.ICloneable.Clone()
+extern void EntityTagHeaderValue_System_ICloneable_Clone_m5A0FD6E67A4BD6E7D8336387F3EC235864E4A462 (void);
+// 0x000000C9 System.Boolean System.Net.Http.Headers.EntityTagHeaderValue::Equals(System.Object)
+extern void EntityTagHeaderValue_Equals_m6FB7C5CFB82F7AE8AD9709385FA9953F118FBE6D (void);
+// 0x000000CA System.Int32 System.Net.Http.Headers.EntityTagHeaderValue::GetHashCode()
+extern void EntityTagHeaderValue_GetHashCode_m53F1719DC3126AFF59F55C5D56CA6E35B45C7328 (void);
+// 0x000000CB System.Net.Http.Headers.EntityTagHeaderValue System.Net.Http.Headers.EntityTagHeaderValue::Parse(System.String)
+extern void EntityTagHeaderValue_Parse_mA6F9F6D2EDAA145321CC266A79FB17AFE427A381 (void);
+// 0x000000CC System.Boolean System.Net.Http.Headers.EntityTagHeaderValue::TryParse(System.String,System.Net.Http.Headers.EntityTagHeaderValue&)
+extern void EntityTagHeaderValue_TryParse_m10AB541C8E3446B027584601F586EC04F51DF1D2 (void);
+// 0x000000CD System.Boolean System.Net.Http.Headers.EntityTagHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.EntityTagHeaderValue&,System.Net.Http.Headers.Token&)
+extern void EntityTagHeaderValue_TryParseElement_mA589ED5A43CBA45D4B8AB1DC0B40EEF9D7A6A2CE (void);
+// 0x000000CE System.Boolean System.Net.Http.Headers.EntityTagHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.EntityTagHeaderValue>&)
+extern void EntityTagHeaderValue_TryParse_m896F249568F47EF7BA29B3235E4BB549A79D2B68 (void);
+// 0x000000CF System.String System.Net.Http.Headers.EntityTagHeaderValue::ToString()
+extern void EntityTagHeaderValue_ToString_mA837FFE9CD25A5F6D22D8185EF399208FB9AE843 (void);
+// 0x000000D0 System.Void System.Net.Http.Headers.EntityTagHeaderValue::.cctor()
+extern void EntityTagHeaderValue__cctor_mAA894BC7129A0A4BCE6CB8E9DC8B770396D95474 (void);
+// 0x000000D1 System.Int32 System.Net.Http.Headers.HashCodeCalculator::Calculate(System.Collections.Generic.ICollection`1<T>)
+// 0x000000D2 System.Void System.Net.Http.Headers.TryParseDelegate`1::.ctor(System.Object,System.IntPtr)
+// 0x000000D3 System.Boolean System.Net.Http.Headers.TryParseDelegate`1::Invoke(System.String,T&)
+// 0x000000D4 System.IAsyncResult System.Net.Http.Headers.TryParseDelegate`1::BeginInvoke(System.String,T&,System.AsyncCallback,System.Object)
+// 0x000000D5 System.Boolean System.Net.Http.Headers.TryParseDelegate`1::EndInvoke(T&,System.IAsyncResult)
+// 0x000000D6 System.Void System.Net.Http.Headers.TryParseListDelegate`1::.ctor(System.Object,System.IntPtr)
+// 0x000000D7 System.Boolean System.Net.Http.Headers.TryParseListDelegate`1::Invoke(System.String,System.Int32,System.Collections.Generic.List`1<T>&)
+// 0x000000D8 System.IAsyncResult System.Net.Http.Headers.TryParseListDelegate`1::BeginInvoke(System.String,System.Int32,System.Collections.Generic.List`1<T>&,System.AsyncCallback,System.Object)
+// 0x000000D9 System.Boolean System.Net.Http.Headers.TryParseListDelegate`1::EndInvoke(System.Collections.Generic.List`1<T>&,System.IAsyncResult)
+// 0x000000DA System.Void System.Net.Http.Headers.HeaderInfo::.ctor(System.String,System.Net.Http.Headers.HttpHeaderKind)
+extern void HeaderInfo__ctor_m7DB2E2BB7385DA2D6C133F2D5FEE5A8DC62751DF (void);
+// 0x000000DB System.Net.Http.Headers.HeaderInfo System.Net.Http.Headers.HeaderInfo::CreateSingle(System.String,System.Net.Http.Headers.TryParseDelegate`1<T>,System.Net.Http.Headers.HttpHeaderKind,System.Func`2<System.Object,System.String>)
+// 0x000000DC System.Net.Http.Headers.HeaderInfo System.Net.Http.Headers.HeaderInfo::CreateMulti(System.String,System.Net.Http.Headers.TryParseListDelegate`1<T>,System.Net.Http.Headers.HttpHeaderKind,System.Int32,System.String)
+// 0x000000DD System.Object System.Net.Http.Headers.HeaderInfo::CreateCollection(System.Net.Http.Headers.HttpHeaders)
+extern void HeaderInfo_CreateCollection_mB5D01BFEDA46AEB50F6E725F32D453CE2DEABFFE (void);
+// 0x000000DE System.Func`2<System.Object,System.String> System.Net.Http.Headers.HeaderInfo::get_CustomToString()
+extern void HeaderInfo_get_CustomToString_m71FF573095119332562BA3A57140A1E19526F4D1 (void);
+// 0x000000DF System.Void System.Net.Http.Headers.HeaderInfo::set_CustomToString(System.Func`2<System.Object,System.String>)
+extern void HeaderInfo_set_CustomToString_mFE14A677A1F0B128D6763F59DD4FEFCBDF310E37 (void);
+// 0x000000E0 System.String System.Net.Http.Headers.HeaderInfo::get_Separator()
+extern void HeaderInfo_get_Separator_m2FD10FBD62D820962863E3B5DB6607E941207802 (void);
+// 0x000000E1 System.Void System.Net.Http.Headers.HeaderInfo::AddToCollection(System.Object,System.Object)
+// 0x000000E2 System.Object System.Net.Http.Headers.HeaderInfo::CreateCollection(System.Net.Http.Headers.HttpHeaders,System.Net.Http.Headers.HeaderInfo)
+// 0x000000E3 System.Collections.Generic.List`1<System.String> System.Net.Http.Headers.HeaderInfo::ToStringCollection(System.Object)
+// 0x000000E4 System.Boolean System.Net.Http.Headers.HeaderInfo::TryParse(System.String,System.Object&)
+// 0x000000E5 System.Void System.Net.Http.Headers.HeaderInfo/HeaderTypeInfo`2::.ctor(System.String,System.Net.Http.Headers.TryParseDelegate`1<T>,System.Net.Http.Headers.HttpHeaderKind)
+// 0x000000E6 System.Void System.Net.Http.Headers.HeaderInfo/HeaderTypeInfo`2::AddToCollection(System.Object,System.Object)
+// 0x000000E7 System.Object System.Net.Http.Headers.HeaderInfo/HeaderTypeInfo`2::CreateCollection(System.Net.Http.Headers.HttpHeaders,System.Net.Http.Headers.HeaderInfo)
+// 0x000000E8 System.Collections.Generic.List`1<System.String> System.Net.Http.Headers.HeaderInfo/HeaderTypeInfo`2::ToStringCollection(System.Object)
+// 0x000000E9 System.Boolean System.Net.Http.Headers.HeaderInfo/HeaderTypeInfo`2::TryParse(System.String,System.Object&)
+// 0x000000EA System.Void System.Net.Http.Headers.HeaderInfo/CollectionHeaderTypeInfo`2::.ctor(System.String,System.Net.Http.Headers.TryParseListDelegate`1<T>,System.Net.Http.Headers.HttpHeaderKind,System.Int32,System.String)
+// 0x000000EB System.String System.Net.Http.Headers.HeaderInfo/CollectionHeaderTypeInfo`2::get_Separator()
+// 0x000000EC System.Boolean System.Net.Http.Headers.HeaderInfo/CollectionHeaderTypeInfo`2::TryParse(System.String,System.Object&)
+// 0x000000ED System.Void System.Net.Http.Headers.HttpContentHeaders::.ctor(System.Net.Http.HttpContent)
+extern void HttpContentHeaders__ctor_mF37B17E03DB76BED4B687B5D85C109C529F34AB9 (void);
+// 0x000000EE System.Collections.Generic.ICollection`1<System.String> System.Net.Http.Headers.HttpContentHeaders::get_ContentEncoding()
+extern void HttpContentHeaders_get_ContentEncoding_m4581714558906E0D93ED8639ADA2632E439CAFD2 (void);
+// 0x000000EF System.Void System.Net.Http.Headers.HttpContentHeaders::set_ContentDisposition(System.Net.Http.Headers.ContentDispositionHeaderValue)
+extern void HttpContentHeaders_set_ContentDisposition_mDCD6DA9DDD2BE78B0E5C875EE0B5273FC8F51AC3 (void);
+// 0x000000F0 System.Collections.Generic.ICollection`1<System.String> System.Net.Http.Headers.HttpContentHeaders::get_ContentLanguage()
+extern void HttpContentHeaders_get_ContentLanguage_mD998F495DA7AA47F8F5868A15BDFED5518381F90 (void);
+// 0x000000F1 System.Nullable`1<System.Int64> System.Net.Http.Headers.HttpContentHeaders::get_ContentLength()
+extern void HttpContentHeaders_get_ContentLength_m5FD54EC2569687627922C970B4D6ECD5EA31D677 (void);
+// 0x000000F2 System.Void System.Net.Http.Headers.HttpContentHeaders::set_ContentLength(System.Nullable`1<System.Int64>)
+extern void HttpContentHeaders_set_ContentLength_mE1D175C89F684F1D9E624712FCED2F4161AF80B3 (void);
+// 0x000000F3 System.Byte[] System.Net.Http.Headers.HttpContentHeaders::get_ContentMD5()
+extern void HttpContentHeaders_get_ContentMD5_mA7010417C72F5DE462CE164F552302926F601D68 (void);
+// 0x000000F4 System.Void System.Net.Http.Headers.HttpContentHeaders::set_ContentMD5(System.Byte[])
+extern void HttpContentHeaders_set_ContentMD5_m45D9ED7B6901ACC20348449790955B373852EB2F (void);
+// 0x000000F5 System.Net.Http.Headers.ContentRangeHeaderValue System.Net.Http.Headers.HttpContentHeaders::get_ContentRange()
+extern void HttpContentHeaders_get_ContentRange_mE095AC88ED860FAE99957083B3895DC46467068B (void);
+// 0x000000F6 System.Net.Http.Headers.MediaTypeHeaderValue System.Net.Http.Headers.HttpContentHeaders::get_ContentType()
+extern void HttpContentHeaders_get_ContentType_mEAFFCCFF1F82573A14ADA0AC096264A4F588DAB6 (void);
+// 0x000000F7 System.Void System.Net.Http.Headers.HttpContentHeaders::set_ContentType(System.Net.Http.Headers.MediaTypeHeaderValue)
+extern void HttpContentHeaders_set_ContentType_mC7EB85B08D626C3726A9EA30386857C6FCE9A57A (void);
+// 0x000000F8 System.Nullable`1<System.DateTimeOffset> System.Net.Http.Headers.HttpContentHeaders::get_LastModified()
+extern void HttpContentHeaders_get_LastModified_m3BDD62A62ECBB9B04C69D7B1E79C113F5827DAE2 (void);
+// 0x000000F9 System.Void System.Net.Http.Headers.HttpHeaderValueCollection`1::.ctor(System.Net.Http.Headers.HttpHeaders,System.Net.Http.Headers.HeaderInfo)
+// 0x000000FA System.Int32 System.Net.Http.Headers.HttpHeaderValueCollection`1::get_Count()
+// 0x000000FB System.Collections.Generic.List`1<System.String> System.Net.Http.Headers.HttpHeaderValueCollection`1::get_InvalidValues()
+// 0x000000FC System.Boolean System.Net.Http.Headers.HttpHeaderValueCollection`1::get_IsReadOnly()
+// 0x000000FD System.Void System.Net.Http.Headers.HttpHeaderValueCollection`1::Add(T)
+// 0x000000FE System.Void System.Net.Http.Headers.HttpHeaderValueCollection`1::AddRange(System.Collections.Generic.List`1<T>)
+// 0x000000FF System.Void System.Net.Http.Headers.HttpHeaderValueCollection`1::AddInvalidValue(System.String)
+// 0x00000100 System.Void System.Net.Http.Headers.HttpHeaderValueCollection`1::Clear()
+// 0x00000101 System.Boolean System.Net.Http.Headers.HttpHeaderValueCollection`1::Contains(T)
+// 0x00000102 System.Void System.Net.Http.Headers.HttpHeaderValueCollection`1::CopyTo(T[],System.Int32)
+// 0x00000103 System.Boolean System.Net.Http.Headers.HttpHeaderValueCollection`1::Remove(T)
+// 0x00000104 System.String System.Net.Http.Headers.HttpHeaderValueCollection`1::ToString()
+// 0x00000105 System.Boolean System.Net.Http.Headers.HttpHeaderValueCollection`1::TryParseAdd(System.String)
+// 0x00000106 System.Collections.Generic.IEnumerator`1<T> System.Net.Http.Headers.HttpHeaderValueCollection`1::GetEnumerator()
+// 0x00000107 System.Collections.IEnumerator System.Net.Http.Headers.HttpHeaderValueCollection`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000108 T System.Net.Http.Headers.HttpHeaderValueCollection`1::Find(System.Predicate`1<T>)
+// 0x00000109 System.Void System.Net.Http.Headers.HttpHeaderValueCollection`1::Remove(System.Predicate`1<T>)
+// 0x0000010A System.Void System.Net.Http.Headers.HttpHeaders::.cctor()
+extern void HttpHeaders__cctor_m1CB5DC01BADE2F408DD0BCA3EA474883A45567E7 (void);
+// 0x0000010B System.Void System.Net.Http.Headers.HttpHeaders::.ctor()
+extern void HttpHeaders__ctor_m46DC799D2477F1935AE4C0F8940934B72B06387F (void);
+// 0x0000010C System.Void System.Net.Http.Headers.HttpHeaders::.ctor(System.Net.Http.Headers.HttpHeaderKind)
+extern void HttpHeaders__ctor_mB42D839F50992FCE5A489ABA6A6502E8826DB7EE (void);
+// 0x0000010D System.Void System.Net.Http.Headers.HttpHeaders::Add(System.String,System.String)
+extern void HttpHeaders_Add_m7980BDB7BBCC60094B62FD2FFD403CB89AEBA8FD (void);
+// 0x0000010E System.Void System.Net.Http.Headers.HttpHeaders::Add(System.String,System.Collections.Generic.IEnumerable`1<System.String>)
+extern void HttpHeaders_Add_m5F05A3D494DF4EE726FAC99E1A88DFC5A31D639B (void);
+// 0x0000010F System.Boolean System.Net.Http.Headers.HttpHeaders::AddValue(System.String,System.Net.Http.Headers.HeaderInfo,System.Boolean)
+extern void HttpHeaders_AddValue_m2AE8FA9B6C1C92DD571322217F0FC38F97E232B1 (void);
+// 0x00000110 System.Boolean System.Net.Http.Headers.HttpHeaders::AddInternal(System.String,System.Collections.Generic.IEnumerable`1<System.String>,System.Net.Http.Headers.HeaderInfo,System.Boolean)
+extern void HttpHeaders_AddInternal_mF7885AE3F3A719EEEE1B211810DD32A6DF591295 (void);
+// 0x00000111 System.Boolean System.Net.Http.Headers.HttpHeaders::TryAddWithoutValidation(System.String,System.String)
+extern void HttpHeaders_TryAddWithoutValidation_m0554DF129E0FB1F05FCB324E318737773022B57A (void);
+// 0x00000112 System.Boolean System.Net.Http.Headers.HttpHeaders::TryAddWithoutValidation(System.String,System.Collections.Generic.IEnumerable`1<System.String>)
+extern void HttpHeaders_TryAddWithoutValidation_m12A5F74B536D72BA7C747DC4E97FC34ED67E67E5 (void);
+// 0x00000113 System.Net.Http.Headers.HeaderInfo System.Net.Http.Headers.HttpHeaders::CheckName(System.String)
+extern void HttpHeaders_CheckName_m412C6EB0B776B1E039DC9BBEF7539A1B3D5C604C (void);
+// 0x00000114 System.Boolean System.Net.Http.Headers.HttpHeaders::TryCheckName(System.String,System.Net.Http.Headers.HeaderInfo&)
+extern void HttpHeaders_TryCheckName_m0A1FB043BB7B2DAAA80A4058A8B33389C6264E4B (void);
+// 0x00000115 System.Boolean System.Net.Http.Headers.HttpHeaders::Contains(System.String)
+extern void HttpHeaders_Contains_m9DC7BC7E2D1288E20747A93857D66DBEC2207787 (void);
+// 0x00000116 System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IEnumerable`1<System.String>>> System.Net.Http.Headers.HttpHeaders::GetEnumerator()
+extern void HttpHeaders_GetEnumerator_mFD5B6A73715C23D6998176EB6BCBDB5B6AD40CB3 (void);
+// 0x00000117 System.Collections.IEnumerator System.Net.Http.Headers.HttpHeaders::System.Collections.IEnumerable.GetEnumerator()
+extern void HttpHeaders_System_Collections_IEnumerable_GetEnumerator_m1FE0383DE8266696C905608B27DB6F72A1090A95 (void);
+// 0x00000118 System.Collections.Generic.IEnumerable`1<System.String> System.Net.Http.Headers.HttpHeaders::GetValues(System.String)
+extern void HttpHeaders_GetValues_mD9F94DF8D9264C6BC2BD921A28435CB1EEF3B967 (void);
+// 0x00000119 System.Boolean System.Net.Http.Headers.HttpHeaders::Remove(System.String)
+extern void HttpHeaders_Remove_m0D16422504C72EAE4CF95F6E8DAA9E49B3C37E71 (void);
+// 0x0000011A System.Boolean System.Net.Http.Headers.HttpHeaders::TryGetValues(System.String,System.Collections.Generic.IEnumerable`1<System.String>&)
+extern void HttpHeaders_TryGetValues_m66042A583AEEDFECF53D18673CAE6D824A308C49 (void);
+// 0x0000011B System.String System.Net.Http.Headers.HttpHeaders::GetSingleHeaderString(System.String,System.Collections.Generic.IEnumerable`1<System.String>)
+extern void HttpHeaders_GetSingleHeaderString_m7750EEA8732D1D3E52BC4640BD126475915EA317 (void);
+// 0x0000011C System.String System.Net.Http.Headers.HttpHeaders::ToString()
+extern void HttpHeaders_ToString_m3BE46700710F7405E99F4C4CE5F62481A5180E7D (void);
+// 0x0000011D System.Void System.Net.Http.Headers.HttpHeaders::AddOrRemove(System.String,T,System.Func`2<System.Object,System.String>)
+// 0x0000011E System.Void System.Net.Http.Headers.HttpHeaders::AddOrRemove(System.String,System.Nullable`1<T>)
+// 0x0000011F System.Void System.Net.Http.Headers.HttpHeaders::AddOrRemove(System.String,System.Nullable`1<T>,System.Func`2<System.Object,System.String>)
+// 0x00000120 System.Collections.Generic.List`1<System.String> System.Net.Http.Headers.HttpHeaders::GetAllHeaderValues(System.Net.Http.Headers.HttpHeaders/HeaderBucket,System.Net.Http.Headers.HeaderInfo)
+extern void HttpHeaders_GetAllHeaderValues_mD36F208290730F1C67DC9774289CA55E58C423F5 (void);
+// 0x00000121 System.Net.Http.Headers.HttpHeaderKind System.Net.Http.Headers.HttpHeaders::GetKnownHeaderKind(System.String)
+extern void HttpHeaders_GetKnownHeaderKind_m9443B3640172BFA4C428CA1A832E396882C29D65 (void);
+// 0x00000122 T System.Net.Http.Headers.HttpHeaders::GetValue(System.String)
+// 0x00000123 System.Net.Http.Headers.HttpHeaderValueCollection`1<T> System.Net.Http.Headers.HttpHeaders::GetValues(System.String)
+// 0x00000124 System.Void System.Net.Http.Headers.HttpHeaders::SetValue(System.String,T,System.Func`2<System.Object,System.String>)
+// 0x00000125 System.Void System.Net.Http.Headers.HttpHeaders/HeaderBucket::.ctor(System.Object,System.Func`2<System.Object,System.String>)
+extern void HeaderBucket__ctor_mBEE27301910D8A7EB13E6A9E8DD2686CC7B99C47 (void);
+// 0x00000126 System.Boolean System.Net.Http.Headers.HttpHeaders/HeaderBucket::get_HasStringValues()
+extern void HeaderBucket_get_HasStringValues_m6BD11FCA79834295FC94F8CD299AC7AA2085C55D (void);
+// 0x00000127 System.Collections.Generic.List`1<System.String> System.Net.Http.Headers.HttpHeaders/HeaderBucket::get_Values()
+extern void HeaderBucket_get_Values_m84113C94E5ACDD5E3211CB61AEC1E94303706DC8 (void);
+// 0x00000128 System.Void System.Net.Http.Headers.HttpHeaders/HeaderBucket::set_Values(System.Collections.Generic.List`1<System.String>)
+extern void HeaderBucket_set_Values_m2A89C8B5467D64D6AB48C39CBF812572A7301083 (void);
+// 0x00000129 System.String System.Net.Http.Headers.HttpHeaders/HeaderBucket::ParsedToString()
+extern void HeaderBucket_ParsedToString_m88C51CC7860634864B2CF2EFDB2A02A25FCA9C60 (void);
+// 0x0000012A System.Void System.Net.Http.Headers.HttpHeaders/<GetEnumerator>d__19::.ctor(System.Int32)
+extern void U3CGetEnumeratorU3Ed__19__ctor_m44F262AC78604A56B98CA0A91A749ABC453AE8D4 (void);
+// 0x0000012B System.Void System.Net.Http.Headers.HttpHeaders/<GetEnumerator>d__19::System.IDisposable.Dispose()
+extern void U3CGetEnumeratorU3Ed__19_System_IDisposable_Dispose_m91E7981D8E583167F322E8B73F758FA782841CF8 (void);
+// 0x0000012C System.Boolean System.Net.Http.Headers.HttpHeaders/<GetEnumerator>d__19::MoveNext()
+extern void U3CGetEnumeratorU3Ed__19_MoveNext_mD97A8B8C219E2CFE3B60393C7BB4CAE173B598E3 (void);
+// 0x0000012D System.Void System.Net.Http.Headers.HttpHeaders/<GetEnumerator>d__19::<>m__Finally1()
+extern void U3CGetEnumeratorU3Ed__19_U3CU3Em__Finally1_m69418672259B80D01FF76D8A371AEDFDD1A60553 (void);
+// 0x0000012E System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IEnumerable`1<System.String>> System.Net.Http.Headers.HttpHeaders/<GetEnumerator>d__19::System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Collections.Generic.IEnumerable<System.String>>>.get_Current()
+extern void U3CGetEnumeratorU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CSystem_Collections_Generic_IEnumerableU3CSystem_StringU3EU3EU3E_get_Current_mF0F4DD69FCAA3831F06B9CB6A9B01F139CE61590 (void);
+// 0x0000012F System.Void System.Net.Http.Headers.HttpHeaders/<GetEnumerator>d__19::System.Collections.IEnumerator.Reset()
+extern void U3CGetEnumeratorU3Ed__19_System_Collections_IEnumerator_Reset_m0492A9497D3A925EAC017E68D5C8EA7F29B9CF7E (void);
+// 0x00000130 System.Object System.Net.Http.Headers.HttpHeaders/<GetEnumerator>d__19::System.Collections.IEnumerator.get_Current()
+extern void U3CGetEnumeratorU3Ed__19_System_Collections_IEnumerator_get_Current_mF8EDA5D9269E0C6ACF4B12EE6D0415C8151F73F0 (void);
+// 0x00000131 System.Void System.Net.Http.Headers.HttpRequestHeaders::.ctor()
+extern void HttpRequestHeaders__ctor_m8F4A7E7F184F99F0876BC04D3CCFD4671BE30D30 (void);
+// 0x00000132 System.Void System.Net.Http.Headers.HttpRequestHeaders::set_Authorization(System.Net.Http.Headers.AuthenticationHeaderValue)
+extern void HttpRequestHeaders_set_Authorization_m50BF7493F9D9AD991DFB94786FEE29C4AF1824E6 (void);
+// 0x00000133 System.Void System.Net.Http.Headers.HttpRequestHeaders::set_CacheControl(System.Net.Http.Headers.CacheControlHeaderValue)
+extern void HttpRequestHeaders_set_CacheControl_mC06B6A4EECA792947F1D6F2AB139AA99E07DF184 (void);
+// 0x00000134 System.Net.Http.Headers.HttpHeaderValueCollection`1<System.String> System.Net.Http.Headers.HttpRequestHeaders::get_Connection()
+extern void HttpRequestHeaders_get_Connection_m00B0A1D4FE77B396FFD1EB9F4AFAB8203FC7B74D (void);
+// 0x00000135 System.Nullable`1<System.Boolean> System.Net.Http.Headers.HttpRequestHeaders::get_ConnectionClose()
+extern void HttpRequestHeaders_get_ConnectionClose_m28161D2C834FECBC05C8BB498575B2798D44ABD1 (void);
+// 0x00000136 System.Boolean System.Net.Http.Headers.HttpRequestHeaders::get_ConnectionKeepAlive()
+extern void HttpRequestHeaders_get_ConnectionKeepAlive_m2BE3F69CD51C437EAAAEE109E90CD02C5C3B3A25 (void);
+// 0x00000137 System.Nullable`1<System.DateTimeOffset> System.Net.Http.Headers.HttpRequestHeaders::get_Date()
+extern void HttpRequestHeaders_get_Date_m8182FA5B3F64CE7C9600CA356DF4C5605E6A1C7C (void);
+// 0x00000138 System.Net.Http.Headers.HttpHeaderValueCollection`1<System.Net.Http.Headers.NameValueWithParametersHeaderValue> System.Net.Http.Headers.HttpRequestHeaders::get_Expect()
+extern void HttpRequestHeaders_get_Expect_m987288AFE1EC8BC7CB6E9AC2178D97C023E5BEBF (void);
+// 0x00000139 System.Nullable`1<System.Boolean> System.Net.Http.Headers.HttpRequestHeaders::get_ExpectContinue()
+extern void HttpRequestHeaders_get_ExpectContinue_m6BE3BF48E50E6E593B07C514BF6192CA11B6ACB5 (void);
+// 0x0000013A System.Void System.Net.Http.Headers.HttpRequestHeaders::set_ExpectContinue(System.Nullable`1<System.Boolean>)
+extern void HttpRequestHeaders_set_ExpectContinue_mC353618638F3039CC37FC5021B17286E2F2E850B (void);
+// 0x0000013B System.String System.Net.Http.Headers.HttpRequestHeaders::get_Host()
+extern void HttpRequestHeaders_get_Host_m5C757E7248F32875E5C85554AC17E4B15E4FFF84 (void);
+// 0x0000013C System.Net.Http.Headers.HttpHeaderValueCollection`1<System.Net.Http.Headers.EntityTagHeaderValue> System.Net.Http.Headers.HttpRequestHeaders::get_IfMatch()
+extern void HttpRequestHeaders_get_IfMatch_m706225E733855E74CC8436CE9915D1DD86FE323A (void);
+// 0x0000013D System.Nullable`1<System.DateTimeOffset> System.Net.Http.Headers.HttpRequestHeaders::get_IfModifiedSince()
+extern void HttpRequestHeaders_get_IfModifiedSince_m47F1AFC11E5FB3FE220721D5D45F201B5B83BE6C (void);
+// 0x0000013E System.Void System.Net.Http.Headers.HttpRequestHeaders::set_IfModifiedSince(System.Nullable`1<System.DateTimeOffset>)
+extern void HttpRequestHeaders_set_IfModifiedSince_m238653CC916BCE19BFC4A470530F56F6D1C68D09 (void);
+// 0x0000013F System.Net.Http.Headers.HttpHeaderValueCollection`1<System.Net.Http.Headers.EntityTagHeaderValue> System.Net.Http.Headers.HttpRequestHeaders::get_IfNoneMatch()
+extern void HttpRequestHeaders_get_IfNoneMatch_m8E08EE0D4736C2CB9213DBBC82AA12CE15863EFB (void);
+// 0x00000140 System.Nullable`1<System.DateTimeOffset> System.Net.Http.Headers.HttpRequestHeaders::get_IfUnmodifiedSince()
+extern void HttpRequestHeaders_get_IfUnmodifiedSince_m19B68D84FC3C7EC0719AEA354354A1AA289ED692 (void);
+// 0x00000141 System.Void System.Net.Http.Headers.HttpRequestHeaders::set_IfUnmodifiedSince(System.Nullable`1<System.DateTimeOffset>)
+extern void HttpRequestHeaders_set_IfUnmodifiedSince_m4728DA10CE4197429CF929E284053F650D908968 (void);
+// 0x00000142 System.Net.Http.Headers.RangeHeaderValue System.Net.Http.Headers.HttpRequestHeaders::get_Range()
+extern void HttpRequestHeaders_get_Range_mAF9B44744CED099F7F986CDD58616C8922C81755 (void);
+// 0x00000143 System.Net.Http.Headers.HttpHeaderValueCollection`1<System.Net.Http.Headers.TransferCodingHeaderValue> System.Net.Http.Headers.HttpRequestHeaders::get_TransferEncoding()
+extern void HttpRequestHeaders_get_TransferEncoding_m7E974978D24720DC277D93F7B43A68B85FFF0697 (void);
+// 0x00000144 System.Nullable`1<System.Boolean> System.Net.Http.Headers.HttpRequestHeaders::get_TransferEncodingChunked()
+extern void HttpRequestHeaders_get_TransferEncodingChunked_mA6D3F9DFFB9C45F7549B3DCD65A9B63096C7F117 (void);
+// 0x00000145 System.Net.Http.Headers.HttpHeaderValueCollection`1<System.Net.Http.Headers.ProductInfoHeaderValue> System.Net.Http.Headers.HttpRequestHeaders::get_UserAgent()
+extern void HttpRequestHeaders_get_UserAgent_m5C412E1480CA089A785E35C71C8DF3103AFAD1E7 (void);
+// 0x00000146 System.Void System.Net.Http.Headers.HttpRequestHeaders::AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
+extern void HttpRequestHeaders_AddHeaders_m55CB93C04431C1B2BABF2B8E7CC83268E4450FBE (void);
+// 0x00000147 System.Void System.Net.Http.Headers.HttpRequestHeaders/<>c::.cctor()
+extern void U3CU3Ec__cctor_mE895A7E61F7C54B8FDC11EE055A314AE3DAC7961 (void);
+// 0x00000148 System.Void System.Net.Http.Headers.HttpRequestHeaders/<>c::.ctor()
+extern void U3CU3Ec__ctor_m81E5CD406297E736977DBBD77C3D4E4D97C9D623 (void);
+// 0x00000149 System.Boolean System.Net.Http.Headers.HttpRequestHeaders/<>c::<get_ConnectionClose>b__19_0(System.String)
+extern void U3CU3Ec_U3Cget_ConnectionCloseU3Eb__19_0_mDEEDF345FCA121699EC5E9FB9D1B54710964C3EA (void);
+// 0x0000014A System.Boolean System.Net.Http.Headers.HttpRequestHeaders/<>c::<get_ConnectionKeepAlive>b__22_0(System.String)
+extern void U3CU3Ec_U3Cget_ConnectionKeepAliveU3Eb__22_0_m1B8787451966452077A63DD6BD911822ADB4FB53 (void);
+// 0x0000014B System.Boolean System.Net.Http.Headers.HttpRequestHeaders/<>c::<get_ExpectContinue>b__29_0(System.Net.Http.Headers.TransferCodingHeaderValue)
+extern void U3CU3Ec_U3Cget_ExpectContinueU3Eb__29_0_mDA8D1F42D740DC3A27674C511136689ED14BBF68 (void);
+// 0x0000014C System.Boolean System.Net.Http.Headers.HttpRequestHeaders/<>c::<set_ExpectContinue>b__30_0(System.Net.Http.Headers.NameValueWithParametersHeaderValue)
+extern void U3CU3Ec_U3Cset_ExpectContinueU3Eb__30_0_mA64A8FFA9ED0C161543C3E163EB272760F7CD7E7 (void);
+// 0x0000014D System.Boolean System.Net.Http.Headers.HttpRequestHeaders/<>c::<get_TransferEncodingChunked>b__71_0(System.Net.Http.Headers.TransferCodingHeaderValue)
+extern void U3CU3Ec_U3Cget_TransferEncodingChunkedU3Eb__71_0_m42D83B98418CD457AF551FDB43D9B800381FCCE3 (void);
+// 0x0000014E System.Void System.Net.Http.Headers.HttpResponseHeaders::.ctor()
+extern void HttpResponseHeaders__ctor_mDE7692C6B84E04FC426D6E8770A985C67A231DBC (void);
+// 0x0000014F System.Nullable`1<System.DateTimeOffset> System.Net.Http.Headers.HttpResponseHeaders::get_Date()
+extern void HttpResponseHeaders_get_Date_m48DD5CF3CE17342874EA12EDAA297E4CCC29363C (void);
+// 0x00000150 System.Net.Http.Headers.EntityTagHeaderValue System.Net.Http.Headers.HttpResponseHeaders::get_ETag()
+extern void HttpResponseHeaders_get_ETag_mE5E4F9763EDC588076EBC651CF177EE1EB726BF2 (void);
+// 0x00000151 System.Void System.Net.Http.Headers.Token::.ctor(System.Net.Http.Headers.Token/Type,System.Int32,System.Int32)
+extern void Token__ctor_mCB4921C7C1E0FB48D2BC5CAAB8424237A549AEEA (void);
+// 0x00000152 System.Int32 System.Net.Http.Headers.Token::get_StartPosition()
+extern void Token_get_StartPosition_mF6C27E4C552C69157A8C0059C7321756332C0136 (void);
+// 0x00000153 System.Void System.Net.Http.Headers.Token::set_StartPosition(System.Int32)
+extern void Token_set_StartPosition_mD033F6432FF51738ACE9D500C6A7898F36C92EB3 (void);
+// 0x00000154 System.Int32 System.Net.Http.Headers.Token::get_EndPosition()
+extern void Token_get_EndPosition_m467A3D75E0A41E44152D304905C81A37FA290578 (void);
+// 0x00000155 System.Void System.Net.Http.Headers.Token::set_EndPosition(System.Int32)
+extern void Token_set_EndPosition_mA5A0F6B1FB7E9E97518CB7E1BFEC83379F58FAF1 (void);
+// 0x00000156 System.Net.Http.Headers.Token/Type System.Net.Http.Headers.Token::get_Kind()
+extern void Token_get_Kind_m719D7946C47260CCC680C4BB5AC7132BBF522914 (void);
+// 0x00000157 System.Net.Http.Headers.Token/Type System.Net.Http.Headers.Token::op_Implicit(System.Net.Http.Headers.Token)
+extern void Token_op_Implicit_mE54D5B2F7AB78D8864CFE9F29ABABB4142E57C1D (void);
+// 0x00000158 System.String System.Net.Http.Headers.Token::ToString()
+extern void Token_ToString_m69ECFF633D7C6B2E3BF20565FA847FB7691A1B04 (void);
+// 0x00000159 System.Void System.Net.Http.Headers.Token::.cctor()
+extern void Token__cctor_m0F06C186EFFFDECE3695B773BE3C91992DFCB748 (void);
+// 0x0000015A System.Void System.Net.Http.Headers.Lexer::.ctor(System.String)
+extern void Lexer__ctor_mC9914BE07D52012284C8E752213853776A58F193 (void);
+// 0x0000015B System.Int32 System.Net.Http.Headers.Lexer::get_Position()
+extern void Lexer_get_Position_m08931C7A62D3CBCECEA81C489B9985EF8134BB1B (void);
+// 0x0000015C System.Void System.Net.Http.Headers.Lexer::set_Position(System.Int32)
+extern void Lexer_set_Position_m5B64D2840C8F9B5A9C64C4DD276E02618BC6D811 (void);
+// 0x0000015D System.String System.Net.Http.Headers.Lexer::GetStringValue(System.Net.Http.Headers.Token)
+extern void Lexer_GetStringValue_m0983A7A24FB96A6BBE5E3807B649F54C42806E62 (void);
+// 0x0000015E System.String System.Net.Http.Headers.Lexer::GetStringValue(System.Net.Http.Headers.Token,System.Net.Http.Headers.Token)
+extern void Lexer_GetStringValue_m73DEA9CDD2B6160D3D2008C2CC8CB9B7FC2199AE (void);
+// 0x0000015F System.String System.Net.Http.Headers.Lexer::GetQuotedStringValue(System.Net.Http.Headers.Token)
+extern void Lexer_GetQuotedStringValue_m362EC87B4863E10BD8543052A2350903F5CBA9F1 (void);
+// 0x00000160 System.String System.Net.Http.Headers.Lexer::GetRemainingStringValue(System.Int32)
+extern void Lexer_GetRemainingStringValue_m35CBB964B7533FDE66DED817A2885006C22264D6 (void);
+// 0x00000161 System.Boolean System.Net.Http.Headers.Lexer::IsStarStringValue(System.Net.Http.Headers.Token)
+extern void Lexer_IsStarStringValue_m38E8D09D03D6EA943A62FE1AFD5D0A5D1ED9C0A8 (void);
+// 0x00000162 System.Boolean System.Net.Http.Headers.Lexer::TryGetNumericValue(System.Net.Http.Headers.Token,System.Int32&)
+extern void Lexer_TryGetNumericValue_mB7BC39C5B33D4403CE3AA5A36C450C251661380E (void);
+// 0x00000163 System.Boolean System.Net.Http.Headers.Lexer::TryGetNumericValue(System.Net.Http.Headers.Token,System.Int64&)
+extern void Lexer_TryGetNumericValue_m94C1FBE546D8B38BC988258BC85B2C9BA29F1368 (void);
+// 0x00000164 System.Nullable`1<System.TimeSpan> System.Net.Http.Headers.Lexer::TryGetTimeSpanValue(System.Net.Http.Headers.Token)
+extern void Lexer_TryGetTimeSpanValue_m14B0CE793F65B3697AF4518DC4FB37C1E80C372E (void);
+// 0x00000165 System.Boolean System.Net.Http.Headers.Lexer::TryGetDateValue(System.Net.Http.Headers.Token,System.DateTimeOffset&)
+extern void Lexer_TryGetDateValue_m4647C13EBB78AAD22AE8A5B6436A636FEA9919A7 (void);
+// 0x00000166 System.Boolean System.Net.Http.Headers.Lexer::TryGetDateValue(System.String,System.DateTimeOffset&)
+extern void Lexer_TryGetDateValue_mDFFAFD87E6FCE27D9A4A17DD454DB793738EFE52 (void);
+// 0x00000167 System.Boolean System.Net.Http.Headers.Lexer::TryGetDoubleValue(System.Net.Http.Headers.Token,System.Double&)
+extern void Lexer_TryGetDoubleValue_m9B79C39C41E96A859BB63BDD7750E2E67F4BE142 (void);
+// 0x00000168 System.Boolean System.Net.Http.Headers.Lexer::IsValidToken(System.String)
+extern void Lexer_IsValidToken_m8D7951A2AFE10098005CC4AFF6990F32D55FFDEC (void);
+// 0x00000169 System.Boolean System.Net.Http.Headers.Lexer::IsValidCharacter(System.Char)
+extern void Lexer_IsValidCharacter_m6E497AA7986AB0C64BE9525515117A3C5A7305B0 (void);
+// 0x0000016A System.Void System.Net.Http.Headers.Lexer::EatChar()
+extern void Lexer_EatChar_mAB1BE7D760EEF9CE8320741BC5001D4B56CED4A5 (void);
+// 0x0000016B System.Int32 System.Net.Http.Headers.Lexer::PeekChar()
+extern void Lexer_PeekChar_mD64C886447C1DC0D9930F773308A0ECDA4009C4A (void);
+// 0x0000016C System.Boolean System.Net.Http.Headers.Lexer::ScanCommentOptional(System.String&)
+extern void Lexer_ScanCommentOptional_m925A732BF9BB5BF18A7068CC6598CA644E1EEF4D (void);
+// 0x0000016D System.Boolean System.Net.Http.Headers.Lexer::ScanCommentOptional(System.String&,System.Net.Http.Headers.Token&)
+extern void Lexer_ScanCommentOptional_m799223DB84E3D4EC250039AD593F37DEC76174A7 (void);
+// 0x0000016E System.Net.Http.Headers.Token System.Net.Http.Headers.Lexer::Scan(System.Boolean)
+extern void Lexer_Scan_m98965C36AEBD7BB0AB61D9B5080FABB6084E1E04 (void);
+// 0x0000016F System.Void System.Net.Http.Headers.Lexer::.cctor()
+extern void Lexer__cctor_mA7CC44E4261810969F955B670379932130A0FF47 (void);
+// 0x00000170 System.Void System.Net.Http.Headers.MediaTypeHeaderValue::.ctor(System.String)
+extern void MediaTypeHeaderValue__ctor_mA0F481695A65EFA13118F048FE12F8802AE55B47 (void);
+// 0x00000171 System.Void System.Net.Http.Headers.MediaTypeHeaderValue::.ctor(System.Net.Http.Headers.MediaTypeHeaderValue)
+extern void MediaTypeHeaderValue__ctor_mC9CB804BB78D0D52B56460A16D2690842340FDCD (void);
+// 0x00000172 System.Void System.Net.Http.Headers.MediaTypeHeaderValue::.ctor()
+extern void MediaTypeHeaderValue__ctor_m4C7DA3CEFBEF6C6AFBEDFC0A08F8CE5A461D62BF (void);
+// 0x00000173 System.Void System.Net.Http.Headers.MediaTypeHeaderValue::set_MediaType(System.String)
+extern void MediaTypeHeaderValue_set_MediaType_m95A50786A4C4FB3FF3821DD7A439548E314A9465 (void);
+// 0x00000174 System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> System.Net.Http.Headers.MediaTypeHeaderValue::get_Parameters()
+extern void MediaTypeHeaderValue_get_Parameters_m7904854856E4754C1A329C6461C5E9B16B14C0B0 (void);
+// 0x00000175 System.Object System.Net.Http.Headers.MediaTypeHeaderValue::System.ICloneable.Clone()
+extern void MediaTypeHeaderValue_System_ICloneable_Clone_mA9301A639BFC70765C7C6E53DF5847F4F4ACD1F8 (void);
+// 0x00000176 System.Boolean System.Net.Http.Headers.MediaTypeHeaderValue::Equals(System.Object)
+extern void MediaTypeHeaderValue_Equals_m60AB7D301B12C81EA6E6CED9116B5D3A331A582E (void);
+// 0x00000177 System.Int32 System.Net.Http.Headers.MediaTypeHeaderValue::GetHashCode()
+extern void MediaTypeHeaderValue_GetHashCode_m3D48A59CE10F25759042DE43AFF508AD439B5CF8 (void);
+// 0x00000178 System.Net.Http.Headers.MediaTypeHeaderValue System.Net.Http.Headers.MediaTypeHeaderValue::Parse(System.String)
+extern void MediaTypeHeaderValue_Parse_m7463F6AF67DB8CD9838C453AA127851B5EA55DE9 (void);
+// 0x00000179 System.String System.Net.Http.Headers.MediaTypeHeaderValue::ToString()
+extern void MediaTypeHeaderValue_ToString_m04110BF90456A9E9F97AC2A020F5054D1C76D839 (void);
+// 0x0000017A System.Boolean System.Net.Http.Headers.MediaTypeHeaderValue::TryParse(System.String,System.Net.Http.Headers.MediaTypeHeaderValue&)
+extern void MediaTypeHeaderValue_TryParse_mB3AA0E459227B397A03D627465C31636BA97B86B (void);
+// 0x0000017B System.Nullable`1<System.Net.Http.Headers.Token> System.Net.Http.Headers.MediaTypeHeaderValue::TryParseMediaType(System.Net.Http.Headers.Lexer,System.String&)
+extern void MediaTypeHeaderValue_TryParseMediaType_m3EAF7157BCB2452AF610A834DEF7BBDACA3A81DB (void);
+// 0x0000017C System.Void System.Net.Http.Headers.MediaTypeWithQualityHeaderValue::.ctor()
+extern void MediaTypeWithQualityHeaderValue__ctor_m3FC21ADE336989F99E2289FFAF13F645EECFB6B3 (void);
+// 0x0000017D System.Boolean System.Net.Http.Headers.MediaTypeWithQualityHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.MediaTypeWithQualityHeaderValue&,System.Net.Http.Headers.Token&)
+extern void MediaTypeWithQualityHeaderValue_TryParseElement_m9BC5B6C27E490DDD9DCE45A750208BCA4F92FD0B (void);
+// 0x0000017E System.Boolean System.Net.Http.Headers.MediaTypeWithQualityHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.MediaTypeWithQualityHeaderValue>&)
+extern void MediaTypeWithQualityHeaderValue_TryParse_m64AFD3ED572DBA80F6D9B113DA6035CEDDCF180B (void);
+// 0x0000017F System.Void System.Net.Http.Headers.NameValueHeaderValue::.ctor(System.String)
+extern void NameValueHeaderValue__ctor_m433A13001ACE32AD7535410559C794B3867B6C5E (void);
+// 0x00000180 System.Void System.Net.Http.Headers.NameValueHeaderValue::.ctor(System.String,System.String)
+extern void NameValueHeaderValue__ctor_m7E09EDF8355424594C5F5E4DB3DF564906352ED1 (void);
+// 0x00000181 System.Void System.Net.Http.Headers.NameValueHeaderValue::.ctor(System.Net.Http.Headers.NameValueHeaderValue)
+extern void NameValueHeaderValue__ctor_mE6749B3EC7A3D157803ACFCEF148DAAA41D0F3C8 (void);
+// 0x00000182 System.Void System.Net.Http.Headers.NameValueHeaderValue::.ctor()
+extern void NameValueHeaderValue__ctor_m6E3EA8173360EEF2F9A172A7B7A43F6CBA006AB6 (void);
+// 0x00000183 System.String System.Net.Http.Headers.NameValueHeaderValue::get_Name()
+extern void NameValueHeaderValue_get_Name_m7AE26F6242605D39A79CB04852C5FBE9A9B0A820 (void);
+// 0x00000184 System.Void System.Net.Http.Headers.NameValueHeaderValue::set_Name(System.String)
+extern void NameValueHeaderValue_set_Name_m68B4F83F6716CC7E39073CBB54FD4E957DBBC4C7 (void);
+// 0x00000185 System.Void System.Net.Http.Headers.NameValueHeaderValue::set_Value(System.String)
+extern void NameValueHeaderValue_set_Value_m290E92A1D087CF73A899214B34A53F0B65F5D992 (void);
+// 0x00000186 System.Net.Http.Headers.NameValueHeaderValue System.Net.Http.Headers.NameValueHeaderValue::Create(System.String,System.String)
+extern void NameValueHeaderValue_Create_m32C1DE042E2D0FC22B0F128C02A6E16F52FC6D0C (void);
+// 0x00000187 System.Object System.Net.Http.Headers.NameValueHeaderValue::System.ICloneable.Clone()
+extern void NameValueHeaderValue_System_ICloneable_Clone_mFA330D81111B4448242CF0CD545DF450D9AB7788 (void);
+// 0x00000188 System.Int32 System.Net.Http.Headers.NameValueHeaderValue::GetHashCode()
+extern void NameValueHeaderValue_GetHashCode_mB1806B15D386010E2B900A111A6BA4224422BA18 (void);
+// 0x00000189 System.Boolean System.Net.Http.Headers.NameValueHeaderValue::Equals(System.Object)
+extern void NameValueHeaderValue_Equals_m5A14A4A78EDD4CC43D74FA9EA8965D6D52241E98 (void);
+// 0x0000018A System.Boolean System.Net.Http.Headers.NameValueHeaderValue::TryParsePragma(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue>&)
+extern void NameValueHeaderValue_TryParsePragma_m0B31CE69FB6D9F4A40B7DFC91384DB74776BB14C (void);
+// 0x0000018B System.Boolean System.Net.Http.Headers.NameValueHeaderValue::TryParseParameters(System.Net.Http.Headers.Lexer,System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue>&,System.Net.Http.Headers.Token&)
+extern void NameValueHeaderValue_TryParseParameters_m6CB7D14D3B84BA16C62AA5E5084AA89FDDEBA793 (void);
+// 0x0000018C System.String System.Net.Http.Headers.NameValueHeaderValue::ToString()
+extern void NameValueHeaderValue_ToString_m687CAB552BFF30245ACAA33B9F7BF27EE3482560 (void);
+// 0x0000018D System.Boolean System.Net.Http.Headers.NameValueHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.NameValueHeaderValue&,System.Net.Http.Headers.Token&)
+extern void NameValueHeaderValue_TryParseElement_mCF5B9F0083FD93A3C4BCB4C24C865D9E29EAC424 (void);
+// 0x0000018E System.Void System.Net.Http.Headers.NameValueWithParametersHeaderValue::.ctor(System.String)
+extern void NameValueWithParametersHeaderValue__ctor_m35814368B7C245E71B1C81CACCAA33C69C4D928C (void);
+// 0x0000018F System.Void System.Net.Http.Headers.NameValueWithParametersHeaderValue::.ctor(System.Net.Http.Headers.NameValueWithParametersHeaderValue)
+extern void NameValueWithParametersHeaderValue__ctor_mFD9D852A012C5E2811F8A13D24013599EA0AD251 (void);
+// 0x00000190 System.Void System.Net.Http.Headers.NameValueWithParametersHeaderValue::.ctor()
+extern void NameValueWithParametersHeaderValue__ctor_mD144559B20559DD9A020A2AC5E313F48B9A4EF20 (void);
+// 0x00000191 System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> System.Net.Http.Headers.NameValueWithParametersHeaderValue::get_Parameters()
+extern void NameValueWithParametersHeaderValue_get_Parameters_m42E6EAF1C6B9B781D9FE78234088217849649B6C (void);
+// 0x00000192 System.Object System.Net.Http.Headers.NameValueWithParametersHeaderValue::System.ICloneable.Clone()
+extern void NameValueWithParametersHeaderValue_System_ICloneable_Clone_mD7707353175FDBBF0AF0E7A94CEA31287335A805 (void);
+// 0x00000193 System.Boolean System.Net.Http.Headers.NameValueWithParametersHeaderValue::Equals(System.Object)
+extern void NameValueWithParametersHeaderValue_Equals_mE23F761399AF60BA9CFD1B277F476E139679147C (void);
+// 0x00000194 System.Int32 System.Net.Http.Headers.NameValueWithParametersHeaderValue::GetHashCode()
+extern void NameValueWithParametersHeaderValue_GetHashCode_m4FE4E3773596DC7E41E1BA80EC046DB87865A0B0 (void);
+// 0x00000195 System.String System.Net.Http.Headers.NameValueWithParametersHeaderValue::ToString()
+extern void NameValueWithParametersHeaderValue_ToString_m6F783C98B907157DFAA1C5D7C7E00DF954A62021 (void);
+// 0x00000196 System.Boolean System.Net.Http.Headers.NameValueWithParametersHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueWithParametersHeaderValue>&)
+extern void NameValueWithParametersHeaderValue_TryParse_m0F18874A39C5358E92EF507C8DEBA1763DBD6DC6 (void);
+// 0x00000197 System.Boolean System.Net.Http.Headers.NameValueWithParametersHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.NameValueWithParametersHeaderValue&,System.Net.Http.Headers.Token&)
+extern void NameValueWithParametersHeaderValue_TryParseElement_mE27F27C1DC5F569FC9740D29DA79AF9B8A2740BC (void);
+// 0x00000198 System.Void System.Net.Http.Headers.Parser/Token::Check(System.String)
+extern void Token_Check_mB5F7E8EC48CB344A8E43F1A0DA60C7F242C20A39 (void);
+// 0x00000199 System.Boolean System.Net.Http.Headers.Parser/Token::TryCheck(System.String)
+extern void Token_TryCheck_m6FA2F380676F0D1AC7A218531D0A83B96513E982 (void);
+// 0x0000019A System.Void System.Net.Http.Headers.Parser/Token::CheckComment(System.String)
+extern void Token_CheckComment_m57C50FFBDCDFCF70A87FCB21469238FF7F5B7AF0 (void);
+// 0x0000019B System.Boolean System.Net.Http.Headers.Parser/DateTime::TryParse(System.String,System.DateTimeOffset&)
+extern void DateTime_TryParse_mC76353FF4215A0A511DE17EC62BE803BDC4992B1 (void);
+// 0x0000019C System.Void System.Net.Http.Headers.Parser/DateTime::.cctor()
+extern void DateTime__cctor_mC067195D1005B59F9460505D52066B5D1F8D6389 (void);
+// 0x0000019D System.Void System.Net.Http.Headers.Parser/DateTime/<>c::.cctor()
+extern void U3CU3Ec__cctor_m90F64A831219E2897E0E6F00BB6E3BDAC4AAE655 (void);
+// 0x0000019E System.Void System.Net.Http.Headers.Parser/DateTime/<>c::.ctor()
+extern void U3CU3Ec__ctor_mC1EF1EDA30A167528E33045FDFC435A7C2F0D259 (void);
+// 0x0000019F System.String System.Net.Http.Headers.Parser/DateTime/<>c::<.cctor>b__2_0(System.Object)
+extern void U3CU3Ec_U3C_cctorU3Eb__2_0_mAF3896E0CF2FE95C3ABA286475AB34EF9FE332F7 (void);
+// 0x000001A0 System.Boolean System.Net.Http.Headers.Parser/EmailAddress::TryParse(System.String,System.String&)
+extern void EmailAddress_TryParse_m69F718C03D68CDEFDFCD89549190820E8BDF1424 (void);
+// 0x000001A1 System.Boolean System.Net.Http.Headers.Parser/Host::TryParse(System.String,System.String&)
+extern void Host_TryParse_m863EA0E0120722F7CE236C43CAA49593848A5A2A (void);
+// 0x000001A2 System.Boolean System.Net.Http.Headers.Parser/Int::TryParse(System.String,System.Int32&)
+extern void Int_TryParse_m29640F76C7C24C410282BB98B4B5B92A8EF5E183 (void);
+// 0x000001A3 System.Boolean System.Net.Http.Headers.Parser/Long::TryParse(System.String,System.Int64&)
+extern void Long_TryParse_m360B5F92BA6042129B41712214D57F70B22CE7BC (void);
+// 0x000001A4 System.Boolean System.Net.Http.Headers.Parser/MD5::TryParse(System.String,System.Byte[]&)
+extern void MD5_TryParse_m85D7B670F85A4C7E05054E96745AB7EE362A4DA5 (void);
+// 0x000001A5 System.Void System.Net.Http.Headers.Parser/MD5::.cctor()
+extern void MD5__cctor_m2C64730C90E0519E0971242AD35B4094D9B503CB (void);
+// 0x000001A6 System.Void System.Net.Http.Headers.Parser/MD5/<>c::.cctor()
+extern void U3CU3Ec__cctor_mEFD785A4ADEB2A63744C0B4B86C400AF6CC0D46E (void);
+// 0x000001A7 System.Void System.Net.Http.Headers.Parser/MD5/<>c::.ctor()
+extern void U3CU3Ec__ctor_m3CB73B42C77C3703BB4C049E518DDF45839A3E26 (void);
+// 0x000001A8 System.String System.Net.Http.Headers.Parser/MD5/<>c::<.cctor>b__2_0(System.Object)
+extern void U3CU3Ec_U3C_cctorU3Eb__2_0_m5379E3C7F4CBB9FF9EB2FC92ADA57A123127B1A4 (void);
+// 0x000001A9 System.Boolean System.Net.Http.Headers.Parser/TimeSpanSeconds::TryParse(System.String,System.TimeSpan&)
+extern void TimeSpanSeconds_TryParse_mA97A130B00D04BF7FE05230D5FDC94A392545E63 (void);
+// 0x000001AA System.Boolean System.Net.Http.Headers.Parser/Uri::TryParse(System.String,System.Uri&)
+extern void Uri_TryParse_m400CBF553BD6B56FF5C2A6AEFA1CC67C223102E2 (void);
+// 0x000001AB System.Void System.Net.Http.Headers.ProductHeaderValue::.ctor(System.String)
+extern void ProductHeaderValue__ctor_mAA3C8BBA0D574A8EE59F533467A1C857D62190AB (void);
+// 0x000001AC System.Void System.Net.Http.Headers.ProductHeaderValue::.ctor(System.String,System.String)
+extern void ProductHeaderValue__ctor_m4FA38587301049FC778CD4F18A9948C672664B47 (void);
+// 0x000001AD System.Void System.Net.Http.Headers.ProductHeaderValue::.ctor()
+extern void ProductHeaderValue__ctor_m3A1F6F855A3089E5CAFC36EE70F18E7F58C0C1ED (void);
+// 0x000001AE System.String System.Net.Http.Headers.ProductHeaderValue::get_Name()
+extern void ProductHeaderValue_get_Name_mEF7E58A39225A1C6BB104BA28281A1BD9A94880A (void);
+// 0x000001AF System.Void System.Net.Http.Headers.ProductHeaderValue::set_Name(System.String)
+extern void ProductHeaderValue_set_Name_mD172B50AA481C79D81A8AD6CD081BD12D8F56BBE (void);
+// 0x000001B0 System.String System.Net.Http.Headers.ProductHeaderValue::get_Version()
+extern void ProductHeaderValue_get_Version_m705460F46610364A2C587D225E67D53455005627 (void);
+// 0x000001B1 System.Void System.Net.Http.Headers.ProductHeaderValue::set_Version(System.String)
+extern void ProductHeaderValue_set_Version_m0C8E9BA453698C94C90CE8A432871536371134F4 (void);
+// 0x000001B2 System.Object System.Net.Http.Headers.ProductHeaderValue::System.ICloneable.Clone()
+extern void ProductHeaderValue_System_ICloneable_Clone_m9F9F724A9F96C61061D0229F0D71A9A7B330C250 (void);
+// 0x000001B3 System.Boolean System.Net.Http.Headers.ProductHeaderValue::Equals(System.Object)
+extern void ProductHeaderValue_Equals_m559DED8269C99E9BB169EED201B806583895607B (void);
+// 0x000001B4 System.Int32 System.Net.Http.Headers.ProductHeaderValue::GetHashCode()
+extern void ProductHeaderValue_GetHashCode_m97AF56F4931BCF068EAB6F113741595FD5A524D6 (void);
+// 0x000001B5 System.Boolean System.Net.Http.Headers.ProductHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.ProductHeaderValue>&)
+extern void ProductHeaderValue_TryParse_m7FB369653D9E88E6A101DE89FE1FDD8E3FC23266 (void);
+// 0x000001B6 System.Boolean System.Net.Http.Headers.ProductHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.ProductHeaderValue&,System.Net.Http.Headers.Token&)
+extern void ProductHeaderValue_TryParseElement_mC7138C1BFC78B3FB3BF89337FE9B04611DB0707D (void);
+// 0x000001B7 System.String System.Net.Http.Headers.ProductHeaderValue::ToString()
+extern void ProductHeaderValue_ToString_mD8568FD6AE8BBE1AEE0A842DCD227921B22BD1DE (void);
+// 0x000001B8 System.Void System.Net.Http.Headers.ProductInfoHeaderValue::.ctor(System.Net.Http.Headers.ProductHeaderValue)
+extern void ProductInfoHeaderValue__ctor_mF5028C637BE8B9FBD88D05F0F470CE90215D7AD1 (void);
+// 0x000001B9 System.Void System.Net.Http.Headers.ProductInfoHeaderValue::.ctor(System.String)
+extern void ProductInfoHeaderValue__ctor_m6EDF7DED02D2E8E5293CD66E8113BC6F92674876 (void);
+// 0x000001BA System.Void System.Net.Http.Headers.ProductInfoHeaderValue::.ctor(System.String,System.String)
+extern void ProductInfoHeaderValue__ctor_m6554DBBED5A9EA028F7A78362E5D320E845C06AD (void);
+// 0x000001BB System.Void System.Net.Http.Headers.ProductInfoHeaderValue::.ctor()
+extern void ProductInfoHeaderValue__ctor_m5792C241B85966351F4DC763804B99A15E18E43E (void);
+// 0x000001BC System.String System.Net.Http.Headers.ProductInfoHeaderValue::get_Comment()
+extern void ProductInfoHeaderValue_get_Comment_m9AC16E3B59DAEB7ABF7D66831A6098903AA77A7A (void);
+// 0x000001BD System.Void System.Net.Http.Headers.ProductInfoHeaderValue::set_Comment(System.String)
+extern void ProductInfoHeaderValue_set_Comment_mBBD323CDCF253576925C082EF3D0A5A6042920AC (void);
+// 0x000001BE System.Net.Http.Headers.ProductHeaderValue System.Net.Http.Headers.ProductInfoHeaderValue::get_Product()
+extern void ProductInfoHeaderValue_get_Product_mFAC99EEEB7162AAFE149ED3CDEBECDDE4EF13142 (void);
+// 0x000001BF System.Void System.Net.Http.Headers.ProductInfoHeaderValue::set_Product(System.Net.Http.Headers.ProductHeaderValue)
+extern void ProductInfoHeaderValue_set_Product_m72C6950A89A0D8F1D5032C7D0EC98359027CB28C (void);
+// 0x000001C0 System.Object System.Net.Http.Headers.ProductInfoHeaderValue::System.ICloneable.Clone()
+extern void ProductInfoHeaderValue_System_ICloneable_Clone_m36DAC33B82E650C64FE4129B457A94088593C2C5 (void);
+// 0x000001C1 System.Boolean System.Net.Http.Headers.ProductInfoHeaderValue::Equals(System.Object)
+extern void ProductInfoHeaderValue_Equals_m821D5CFC911386E329E28201DD52E635E46CB6BF (void);
+// 0x000001C2 System.Int32 System.Net.Http.Headers.ProductInfoHeaderValue::GetHashCode()
+extern void ProductInfoHeaderValue_GetHashCode_m5CFAB2E32D0DFDB21420CBAADFC5968D4B6957E0 (void);
+// 0x000001C3 System.Boolean System.Net.Http.Headers.ProductInfoHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.ProductInfoHeaderValue>&)
+extern void ProductInfoHeaderValue_TryParse_m95AA77746E9533D73919CE228642909ECDC974F3 (void);
+// 0x000001C4 System.Boolean System.Net.Http.Headers.ProductInfoHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.ProductInfoHeaderValue&)
+extern void ProductInfoHeaderValue_TryParseElement_mF9715E3635C42FF0BF24CD044C7FC42D22A2A76A (void);
+// 0x000001C5 System.String System.Net.Http.Headers.ProductInfoHeaderValue::ToString()
+extern void ProductInfoHeaderValue_ToString_m8B50309AC04E9F73A9BE1F479AA42BC2DFEB0969 (void);
+// 0x000001C6 System.Void System.Net.Http.Headers.RangeConditionHeaderValue::.ctor(System.DateTimeOffset)
+extern void RangeConditionHeaderValue__ctor_m36EE39036958F229BBAEA1E4622AAD2AEFA99356 (void);
+// 0x000001C7 System.Void System.Net.Http.Headers.RangeConditionHeaderValue::.ctor(System.Net.Http.Headers.EntityTagHeaderValue)
+extern void RangeConditionHeaderValue__ctor_m3AE46A598398B61D1F4EF7E1446E8D42406E059C (void);
+// 0x000001C8 System.Nullable`1<System.DateTimeOffset> System.Net.Http.Headers.RangeConditionHeaderValue::get_Date()
+extern void RangeConditionHeaderValue_get_Date_m4595208568F5A9C5BB87982AA9345465EE06D8BA (void);
+// 0x000001C9 System.Void System.Net.Http.Headers.RangeConditionHeaderValue::set_Date(System.Nullable`1<System.DateTimeOffset>)
+extern void RangeConditionHeaderValue_set_Date_m666B59E57CE7558D99FA8E6CA0B51379E580BF05 (void);
+// 0x000001CA System.Net.Http.Headers.EntityTagHeaderValue System.Net.Http.Headers.RangeConditionHeaderValue::get_EntityTag()
+extern void RangeConditionHeaderValue_get_EntityTag_mEB3C598588943AA67CB8D2D0F884583F85EF57A8 (void);
+// 0x000001CB System.Void System.Net.Http.Headers.RangeConditionHeaderValue::set_EntityTag(System.Net.Http.Headers.EntityTagHeaderValue)
+extern void RangeConditionHeaderValue_set_EntityTag_mA63067849D6E1CB02963E918D4769FB2665EAF98 (void);
+// 0x000001CC System.Object System.Net.Http.Headers.RangeConditionHeaderValue::System.ICloneable.Clone()
+extern void RangeConditionHeaderValue_System_ICloneable_Clone_m0C09099373FAA9C440395B20ED1AD76821175DB8 (void);
+// 0x000001CD System.Boolean System.Net.Http.Headers.RangeConditionHeaderValue::Equals(System.Object)
+extern void RangeConditionHeaderValue_Equals_m16D005C5E0B3DDB9060BE4DD3663818E1838A7E6 (void);
+// 0x000001CE System.Int32 System.Net.Http.Headers.RangeConditionHeaderValue::GetHashCode()
+extern void RangeConditionHeaderValue_GetHashCode_m16C68F76F6737E5DDA98FD140043105E25D04CE6 (void);
+// 0x000001CF System.Boolean System.Net.Http.Headers.RangeConditionHeaderValue::TryParse(System.String,System.Net.Http.Headers.RangeConditionHeaderValue&)
+extern void RangeConditionHeaderValue_TryParse_mC018CCBEA09802605290F3F693D4284E69C440C1 (void);
+// 0x000001D0 System.String System.Net.Http.Headers.RangeConditionHeaderValue::ToString()
+extern void RangeConditionHeaderValue_ToString_m08A4196A618595B0E8FFA8613E4FAE17FC50FB4B (void);
+// 0x000001D1 System.Void System.Net.Http.Headers.RangeHeaderValue::.ctor()
+extern void RangeHeaderValue__ctor_m7500CD8BD4B2BD343CE961AF1A14FDD4704E387A (void);
+// 0x000001D2 System.Void System.Net.Http.Headers.RangeHeaderValue::.ctor(System.Net.Http.Headers.RangeHeaderValue)
+extern void RangeHeaderValue__ctor_mD15CEC7296F758D47F67565473367169DDB89EF0 (void);
+// 0x000001D3 System.Collections.Generic.ICollection`1<System.Net.Http.Headers.RangeItemHeaderValue> System.Net.Http.Headers.RangeHeaderValue::get_Ranges()
+extern void RangeHeaderValue_get_Ranges_m4E7C1DBB5B36C7DC49B0FC77E43074F2C168E5CF (void);
+// 0x000001D4 System.String System.Net.Http.Headers.RangeHeaderValue::get_Unit()
+extern void RangeHeaderValue_get_Unit_mEA06EAE4523E286830E87058CBF51D74EAA122C0 (void);
+// 0x000001D5 System.Object System.Net.Http.Headers.RangeHeaderValue::System.ICloneable.Clone()
+extern void RangeHeaderValue_System_ICloneable_Clone_mEEB463F9A1113D54A235B1DCE20628311477E857 (void);
+// 0x000001D6 System.Boolean System.Net.Http.Headers.RangeHeaderValue::Equals(System.Object)
+extern void RangeHeaderValue_Equals_m684C074BB9B2A00F01C2039C509CCF0C2A5A7D1A (void);
+// 0x000001D7 System.Int32 System.Net.Http.Headers.RangeHeaderValue::GetHashCode()
+extern void RangeHeaderValue_GetHashCode_m014F7EACE6EA2122612CE2B077438319BED3F238 (void);
+// 0x000001D8 System.Boolean System.Net.Http.Headers.RangeHeaderValue::TryParse(System.String,System.Net.Http.Headers.RangeHeaderValue&)
+extern void RangeHeaderValue_TryParse_m6740DDFD00D61AF5F16AB4F4409266E4547B1D3B (void);
+// 0x000001D9 System.String System.Net.Http.Headers.RangeHeaderValue::ToString()
+extern void RangeHeaderValue_ToString_m3D61F81CCF602F960F45226095C9C55B3266CA20 (void);
+// 0x000001DA System.Void System.Net.Http.Headers.RangeItemHeaderValue::.ctor(System.Nullable`1<System.Int64>,System.Nullable`1<System.Int64>)
+extern void RangeItemHeaderValue__ctor_m53EB1D1A56CFDE11A0A464C71A539F1E86D840CB (void);
+// 0x000001DB System.Nullable`1<System.Int64> System.Net.Http.Headers.RangeItemHeaderValue::get_From()
+extern void RangeItemHeaderValue_get_From_m2686E040FF36718EBAA8C520D6DC0FF6111A82BA (void);
+// 0x000001DC System.Void System.Net.Http.Headers.RangeItemHeaderValue::set_From(System.Nullable`1<System.Int64>)
+extern void RangeItemHeaderValue_set_From_mA51DC2B70D40B46BA2CF8CBD31465D4975209134 (void);
+// 0x000001DD System.Nullable`1<System.Int64> System.Net.Http.Headers.RangeItemHeaderValue::get_To()
+extern void RangeItemHeaderValue_get_To_m17B002F54B833FCC9C4D6688481C54B105BF0DAE (void);
+// 0x000001DE System.Void System.Net.Http.Headers.RangeItemHeaderValue::set_To(System.Nullable`1<System.Int64>)
+extern void RangeItemHeaderValue_set_To_m612B7E1CFD66F8FA238A6C7E996EF32221960E8E (void);
+// 0x000001DF System.Object System.Net.Http.Headers.RangeItemHeaderValue::System.ICloneable.Clone()
+extern void RangeItemHeaderValue_System_ICloneable_Clone_m0ED3CC624520324E8B8F63A6616493CB5A46EEA1 (void);
+// 0x000001E0 System.Boolean System.Net.Http.Headers.RangeItemHeaderValue::Equals(System.Object)
+extern void RangeItemHeaderValue_Equals_mF2043235FEBCF1770F684BC9F00CD604ACB329C3 (void);
+// 0x000001E1 System.Int32 System.Net.Http.Headers.RangeItemHeaderValue::GetHashCode()
+extern void RangeItemHeaderValue_GetHashCode_mCA9D95CF26FF7E9FA3341CBEE6E6FB326FE109CA (void);
+// 0x000001E2 System.String System.Net.Http.Headers.RangeItemHeaderValue::ToString()
+extern void RangeItemHeaderValue_ToString_m1BF322122B0496B42FFF59D708EFF5ED9D084CEB (void);
+// 0x000001E3 System.Void System.Net.Http.Headers.RetryConditionHeaderValue::.ctor(System.DateTimeOffset)
+extern void RetryConditionHeaderValue__ctor_m2FE2262F476D32C43D326C203F2A9474E0FE8C31 (void);
+// 0x000001E4 System.Void System.Net.Http.Headers.RetryConditionHeaderValue::.ctor(System.TimeSpan)
+extern void RetryConditionHeaderValue__ctor_m1C4A5953BEDFE1FA07F89C8596F2B6CA8EC772CD (void);
+// 0x000001E5 System.Nullable`1<System.DateTimeOffset> System.Net.Http.Headers.RetryConditionHeaderValue::get_Date()
+extern void RetryConditionHeaderValue_get_Date_m776E2E458AA916CEA49B3F23F98F1DBFBFB56C64 (void);
+// 0x000001E6 System.Void System.Net.Http.Headers.RetryConditionHeaderValue::set_Date(System.Nullable`1<System.DateTimeOffset>)
+extern void RetryConditionHeaderValue_set_Date_mA19133D999A96D2E32EEA06730BE78D73D556EBA (void);
+// 0x000001E7 System.Nullable`1<System.TimeSpan> System.Net.Http.Headers.RetryConditionHeaderValue::get_Delta()
+extern void RetryConditionHeaderValue_get_Delta_m3942C91E9011CC9F9017A40C5DE8C33E660D42F4 (void);
+// 0x000001E8 System.Void System.Net.Http.Headers.RetryConditionHeaderValue::set_Delta(System.Nullable`1<System.TimeSpan>)
+extern void RetryConditionHeaderValue_set_Delta_m5458D807FF674D1537255615304E046A587988CC (void);
+// 0x000001E9 System.Object System.Net.Http.Headers.RetryConditionHeaderValue::System.ICloneable.Clone()
+extern void RetryConditionHeaderValue_System_ICloneable_Clone_mA941F4D9F197D9353A605BB11D8868E72D321899 (void);
+// 0x000001EA System.Boolean System.Net.Http.Headers.RetryConditionHeaderValue::Equals(System.Object)
+extern void RetryConditionHeaderValue_Equals_m4A934A6164D58364408017330A0404ECADBA4A18 (void);
+// 0x000001EB System.Int32 System.Net.Http.Headers.RetryConditionHeaderValue::GetHashCode()
+extern void RetryConditionHeaderValue_GetHashCode_m935084CDCFD1CA1FC4575F1CFF188A95E50DF33A (void);
+// 0x000001EC System.Boolean System.Net.Http.Headers.RetryConditionHeaderValue::TryParse(System.String,System.Net.Http.Headers.RetryConditionHeaderValue&)
+extern void RetryConditionHeaderValue_TryParse_m52B271AE928D9D67F27F2B352439F9241BBD12E4 (void);
+// 0x000001ED System.String System.Net.Http.Headers.RetryConditionHeaderValue::ToString()
+extern void RetryConditionHeaderValue_ToString_mD97463091BA7B079FC9F64F14008B38444B6B2F5 (void);
+// 0x000001EE System.Void System.Net.Http.Headers.StringWithQualityHeaderValue::.ctor()
+extern void StringWithQualityHeaderValue__ctor_m22644E191CEFA123E234C47AA84EEE4E65D04118 (void);
+// 0x000001EF System.Nullable`1<System.Double> System.Net.Http.Headers.StringWithQualityHeaderValue::get_Quality()
+extern void StringWithQualityHeaderValue_get_Quality_mAC655479F9C00273E692432CE219F4A2179DB6EE (void);
+// 0x000001F0 System.Void System.Net.Http.Headers.StringWithQualityHeaderValue::set_Quality(System.Nullable`1<System.Double>)
+extern void StringWithQualityHeaderValue_set_Quality_m4EC99FC29137184F7F44C0A907AE9F875F09E7A0 (void);
+// 0x000001F1 System.String System.Net.Http.Headers.StringWithQualityHeaderValue::get_Value()
+extern void StringWithQualityHeaderValue_get_Value_mC60EF0DE7B1BF27934C914C470AEDF3665DB048C (void);
+// 0x000001F2 System.Void System.Net.Http.Headers.StringWithQualityHeaderValue::set_Value(System.String)
+extern void StringWithQualityHeaderValue_set_Value_m09B253A85E6C34526628E1E8673E2119C0489BD0 (void);
+// 0x000001F3 System.Object System.Net.Http.Headers.StringWithQualityHeaderValue::System.ICloneable.Clone()
+extern void StringWithQualityHeaderValue_System_ICloneable_Clone_mF7931829D44ACED7D82816BD5EB8589639D1772A (void);
+// 0x000001F4 System.Boolean System.Net.Http.Headers.StringWithQualityHeaderValue::Equals(System.Object)
+extern void StringWithQualityHeaderValue_Equals_m132CD7CC7691FE89A880602DAD39863813F0774D (void);
+// 0x000001F5 System.Int32 System.Net.Http.Headers.StringWithQualityHeaderValue::GetHashCode()
+extern void StringWithQualityHeaderValue_GetHashCode_m6910540A23C3C63F106691628A95B71DB03F0EEA (void);
+// 0x000001F6 System.Boolean System.Net.Http.Headers.StringWithQualityHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.StringWithQualityHeaderValue>&)
+extern void StringWithQualityHeaderValue_TryParse_m583D5D7B2A03AC401C7F423D3F44E18D95AE2AF9 (void);
+// 0x000001F7 System.Boolean System.Net.Http.Headers.StringWithQualityHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.StringWithQualityHeaderValue&,System.Net.Http.Headers.Token&)
+extern void StringWithQualityHeaderValue_TryParseElement_m2BD537DD1DE5678AD25A30959E0D9530A71D7AF0 (void);
+// 0x000001F8 System.String System.Net.Http.Headers.StringWithQualityHeaderValue::ToString()
+extern void StringWithQualityHeaderValue_ToString_mA3BFAFE2E496C1018BAA94EAC783223602433368 (void);
+// 0x000001F9 System.Void System.Net.Http.Headers.TransferCodingHeaderValue::.ctor(System.Net.Http.Headers.TransferCodingHeaderValue)
+extern void TransferCodingHeaderValue__ctor_m132727C73CBDA9FF7004AD4467C6E7C1E169812A (void);
+// 0x000001FA System.Void System.Net.Http.Headers.TransferCodingHeaderValue::.ctor()
+extern void TransferCodingHeaderValue__ctor_mD66E9A51919D44F6D6DB394DF81EA0F68E659026 (void);
+// 0x000001FB System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> System.Net.Http.Headers.TransferCodingHeaderValue::get_Parameters()
+extern void TransferCodingHeaderValue_get_Parameters_mCC21FB42B97CCE944E4DF1572C1DF59D8468C284 (void);
+// 0x000001FC System.String System.Net.Http.Headers.TransferCodingHeaderValue::get_Value()
+extern void TransferCodingHeaderValue_get_Value_m2FA6CD11BD65994A7814810872E8964F60C7C7CC (void);
+// 0x000001FD System.Object System.Net.Http.Headers.TransferCodingHeaderValue::System.ICloneable.Clone()
+extern void TransferCodingHeaderValue_System_ICloneable_Clone_mE89F31836C28EA9792AD4E5F58765863E8EE2864 (void);
+// 0x000001FE System.Boolean System.Net.Http.Headers.TransferCodingHeaderValue::Equals(System.Object)
+extern void TransferCodingHeaderValue_Equals_m5A60F9BD525D317B13ACC16BCE257A29F1261DCE (void);
+// 0x000001FF System.Int32 System.Net.Http.Headers.TransferCodingHeaderValue::GetHashCode()
+extern void TransferCodingHeaderValue_GetHashCode_mDF45B0DFC54F6C3ABD0E16C048E623BEBF8CA7E5 (void);
+// 0x00000200 System.String System.Net.Http.Headers.TransferCodingHeaderValue::ToString()
+extern void TransferCodingHeaderValue_ToString_mCAF9FF5AD9F5ED950363D49E11BA45533EDF27B2 (void);
+// 0x00000201 System.Boolean System.Net.Http.Headers.TransferCodingHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.TransferCodingHeaderValue>&)
+extern void TransferCodingHeaderValue_TryParse_m4C4354319844AD70E60E3F1C51E8EE57450D4DA8 (void);
+// 0x00000202 System.Boolean System.Net.Http.Headers.TransferCodingHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.TransferCodingHeaderValue&,System.Net.Http.Headers.Token&)
+extern void TransferCodingHeaderValue_TryParseElement_mB62C1B209CE4CEF0F2D6976AE556FC0469B11A5D (void);
+// 0x00000203 System.Void System.Net.Http.Headers.TransferCodingWithQualityHeaderValue::.ctor()
+extern void TransferCodingWithQualityHeaderValue__ctor_m9A8BAE53E0F47B9D453835453A88A37EC6FFB46A (void);
+// 0x00000204 System.Boolean System.Net.Http.Headers.TransferCodingWithQualityHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.TransferCodingWithQualityHeaderValue>&)
+extern void TransferCodingWithQualityHeaderValue_TryParse_m0D8806BCCED0721101E4BC73C72F8439D973A31A (void);
+// 0x00000205 System.Boolean System.Net.Http.Headers.TransferCodingWithQualityHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.TransferCodingWithQualityHeaderValue&,System.Net.Http.Headers.Token&)
+extern void TransferCodingWithQualityHeaderValue_TryParseElement_m720F1A2FA53F86C3C996928B80A7E8F2D8253C1C (void);
+// 0x00000206 System.Void System.Net.Http.Headers.ViaHeaderValue::.ctor()
+extern void ViaHeaderValue__ctor_mFCB66C47D13CC6E22DAE170D599E3FBFFB64B34C (void);
+// 0x00000207 System.String System.Net.Http.Headers.ViaHeaderValue::get_Comment()
+extern void ViaHeaderValue_get_Comment_mE64873E1CF0B75F142A8FB8E19B1014261F31D14 (void);
+// 0x00000208 System.Void System.Net.Http.Headers.ViaHeaderValue::set_Comment(System.String)
+extern void ViaHeaderValue_set_Comment_m638A22007538C93D0A10C3980595690386B704F8 (void);
+// 0x00000209 System.String System.Net.Http.Headers.ViaHeaderValue::get_ProtocolName()
+extern void ViaHeaderValue_get_ProtocolName_m3B0911C1531EAE45A792C0D1B4F06C7DBEDED427 (void);
+// 0x0000020A System.Void System.Net.Http.Headers.ViaHeaderValue::set_ProtocolName(System.String)
+extern void ViaHeaderValue_set_ProtocolName_m3C592372924D2AEB39C5C8D7A40846043F98599B (void);
+// 0x0000020B System.String System.Net.Http.Headers.ViaHeaderValue::get_ProtocolVersion()
+extern void ViaHeaderValue_get_ProtocolVersion_mC84E46675CC4C01A42ACD8627A9E26FD2FD1D078 (void);
+// 0x0000020C System.Void System.Net.Http.Headers.ViaHeaderValue::set_ProtocolVersion(System.String)
+extern void ViaHeaderValue_set_ProtocolVersion_mFC4E72A4FC314E6035E7728EF15DD1EDBFAA3E6B (void);
+// 0x0000020D System.String System.Net.Http.Headers.ViaHeaderValue::get_ReceivedBy()
+extern void ViaHeaderValue_get_ReceivedBy_mAA62529FF4C830B92EB0F0194A380E468F79A40E (void);
+// 0x0000020E System.Void System.Net.Http.Headers.ViaHeaderValue::set_ReceivedBy(System.String)
+extern void ViaHeaderValue_set_ReceivedBy_mC9E805DAF6AA8428343E20064C5839DB12143E13 (void);
+// 0x0000020F System.Object System.Net.Http.Headers.ViaHeaderValue::System.ICloneable.Clone()
+extern void ViaHeaderValue_System_ICloneable_Clone_mFF7CA7EB0866EE3E3E1E853164EAFA65062E5AEE (void);
+// 0x00000210 System.Boolean System.Net.Http.Headers.ViaHeaderValue::Equals(System.Object)
+extern void ViaHeaderValue_Equals_mD0DF3141FB4C8B36B9F0C4F029E12129F4CA5A34 (void);
+// 0x00000211 System.Int32 System.Net.Http.Headers.ViaHeaderValue::GetHashCode()
+extern void ViaHeaderValue_GetHashCode_m9737DB96362095F70F0CAC5D13A28E3C67C38BF6 (void);
+// 0x00000212 System.Boolean System.Net.Http.Headers.ViaHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.ViaHeaderValue>&)
+extern void ViaHeaderValue_TryParse_m67FE9DFED7C3DF1AD0E3BC921AF0C1059221CDA7 (void);
+// 0x00000213 System.Boolean System.Net.Http.Headers.ViaHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.ViaHeaderValue&,System.Net.Http.Headers.Token&)
+extern void ViaHeaderValue_TryParseElement_m26E8A31B4189BAE593EB4B71832BDF34B5210069 (void);
+// 0x00000214 System.String System.Net.Http.Headers.ViaHeaderValue::ToString()
+extern void ViaHeaderValue_ToString_m59AEA45A248D5A9582C6454D45CA839288603F5A (void);
+// 0x00000215 System.Void System.Net.Http.Headers.WarningHeaderValue::.ctor()
+extern void WarningHeaderValue__ctor_m8EC782E027A4FAD36F14185EA0339989DA6CBD1C (void);
+// 0x00000216 System.String System.Net.Http.Headers.WarningHeaderValue::get_Agent()
+extern void WarningHeaderValue_get_Agent_mBB8FDD6DDAED023C5BBE179729D565F027493B53 (void);
+// 0x00000217 System.Void System.Net.Http.Headers.WarningHeaderValue::set_Agent(System.String)
+extern void WarningHeaderValue_set_Agent_m84FE2850D24138425BF066007BBD6D5696BAD7E7 (void);
+// 0x00000218 System.Int32 System.Net.Http.Headers.WarningHeaderValue::get_Code()
+extern void WarningHeaderValue_get_Code_mDDDCA9F592C7CA62573613873E09640C80F569AF (void);
+// 0x00000219 System.Void System.Net.Http.Headers.WarningHeaderValue::set_Code(System.Int32)
+extern void WarningHeaderValue_set_Code_m3F1255D47C63322FC54D950791388FC3B1AEF705 (void);
+// 0x0000021A System.Nullable`1<System.DateTimeOffset> System.Net.Http.Headers.WarningHeaderValue::get_Date()
+extern void WarningHeaderValue_get_Date_m379DD05609BDED6596B948722AE825B29B5F1FA2 (void);
+// 0x0000021B System.Void System.Net.Http.Headers.WarningHeaderValue::set_Date(System.Nullable`1<System.DateTimeOffset>)
+extern void WarningHeaderValue_set_Date_m0D64F712EAF79C6EF07E0AEB066E4655F0FCD012 (void);
+// 0x0000021C System.String System.Net.Http.Headers.WarningHeaderValue::get_Text()
+extern void WarningHeaderValue_get_Text_m7A157071AA7F53BA07707996439DA3D7EFF63393 (void);
+// 0x0000021D System.Void System.Net.Http.Headers.WarningHeaderValue::set_Text(System.String)
+extern void WarningHeaderValue_set_Text_mD61BAE36BBCB1962F27B821AEA32BC0D6B19BCDF (void);
+// 0x0000021E System.Boolean System.Net.Http.Headers.WarningHeaderValue::IsCodeValid(System.Int32)
+extern void WarningHeaderValue_IsCodeValid_mF53534F326963006FDB6E58D684EF7EAA180C218 (void);
+// 0x0000021F System.Object System.Net.Http.Headers.WarningHeaderValue::System.ICloneable.Clone()
+extern void WarningHeaderValue_System_ICloneable_Clone_m5C7F86E63643875DFEFE2E34916CA89A8CC4327D (void);
+// 0x00000220 System.Boolean System.Net.Http.Headers.WarningHeaderValue::Equals(System.Object)
+extern void WarningHeaderValue_Equals_m5DD12E18061B1DE9B3A0A10B20F958D12CE99FA6 (void);
+// 0x00000221 System.Int32 System.Net.Http.Headers.WarningHeaderValue::GetHashCode()
+extern void WarningHeaderValue_GetHashCode_m1E9211574FC34ECA1E11556D4AB775478CA13E1F (void);
+// 0x00000222 System.Boolean System.Net.Http.Headers.WarningHeaderValue::TryParse(System.String,System.Int32,System.Collections.Generic.List`1<System.Net.Http.Headers.WarningHeaderValue>&)
+extern void WarningHeaderValue_TryParse_mCBF8ABD27A0AC8D1BDA537C70E8236FF32A3C8FC (void);
+// 0x00000223 System.Boolean System.Net.Http.Headers.WarningHeaderValue::TryParseElement(System.Net.Http.Headers.Lexer,System.Net.Http.Headers.WarningHeaderValue&,System.Net.Http.Headers.Token&)
+extern void WarningHeaderValue_TryParseElement_m052168B015D5B778936B980C1684BC1241F3C534 (void);
+// 0x00000224 System.String System.Net.Http.Headers.WarningHeaderValue::ToString()
+extern void WarningHeaderValue_ToString_m13FFBEF19104EDBA88C8853FFAD6798E5426A2BC (void);
+// 0x00000225 System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
+extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m89EEC13F1D1F9551E27C622A17AF4D8D892E0B5A (void);
+static Il2CppMethodPointer s_methodPointers[549] = 
 {
-	HttpClientHandler_CreateDefaultHandler_m9676B4AF660F55F5D854E3FEF308CD2A9BFDF808,
-	HttpClientHandler__ctor_m6357CCF5F420EF85F578EA8ECB5001E58A5C52AC,
-	HttpClientHandler__ctor_m33DDAD7F610B906A16F44CEAC4DCA09D42ED13F1,
-	HttpClientHandler_Dispose_m0A13CCCA40A5B781E7640C31B185369045574283,
-	HttpClientHandler_ThrowForModifiedManagedSslOptionsIfStarted_mCA2D68A07543ABB4B31CE060EC1A462F311829B7,
-	HttpClientHandler_get_ClientCertificateOptions_m125D79B5BA7CCE278B3E862D0B3EE4E7E67263B3,
-	HttpClientHandler_set_ClientCertificateOptions_mFD7F997062D62DAF17E02637E93AA065F01BAAFF,
-	HttpClientHandler_get_ClientCertificates_m3C3A1C2B66D8F2F16F282F02EBE624B556913B39,
-	HttpClientHandler_set_AutomaticDecompression_mD41DC780550E4AAD583869E367DE4F6F16B50382,
-	HttpClientHandler_SetWebRequestTimeout_mA240E8489C15D382047FFA8E295D82710C60A129,
-	HttpClientHandler_SendAsync_m024FF40EDC1A14211704DB0DE00BCB7B9E9FD406,
-	HttpClientHandler_U3Cset_ClientCertificateOptionsU3Eb__23_0_m8ED6BB8A8CBA03831F0E561D38F44A02AEBFA4EB,
-	U3CU3Ec__cctor_mFF314B2B1E26CFA5AF6238C3C7046C8253E2AA55,
-	U3CU3Ec__ctor_m8081C9775B8B23CD0C05714BDD333F6CD832D5F7,
-	U3CU3Ec_U3Cset_ClientCertificateOptionsU3Eb__23_1_m2D7641974DB05F0F1544EF5DCAC7DE0B07AC267F,
+	HttpClient__ctor_m6DAAD9BE31E0871A544CCBD040E7136C5E7C0541,
+	HttpClient_get_DefaultRequestHeaders_mD6D9E9E7568F26ED379CD2F7437FC7FACB73C18B,
+	HttpClient_get_MaxResponseContentBufferSize_m1A50C0564295159CF04EFE92FE2C7686909E37AA,
+	HttpClient_set_Timeout_mADC1B33010C5F331228D5DE3E2390D105BB9C07C,
+	HttpClient_Dispose_mEDDBFA2BE20268250DAEA322F07231BB23B3DAF4,
+	HttpClient_SendAsync_mF76A5061C70F7DFDA839E86B77B756496431F9AB,
+	HttpClient_SendAsync_mA306852835C84567599F0188221E47F096157F78,
+	HttpClient_SendAsyncWorker_mC45FA93F40093594D9791799B64639A0DCB0D7E0,
+	HttpClient__cctor_m6B06B9F49038694A6924B4914F21296C259958F3,
+	HttpClient_U3CU3En__0_mC92D5A3E1C733EB43862648282CF0CB4E2453A58,
+	U3CSendAsyncWorkerU3Ed__47_MoveNext_m83AA95946D2BCEC12F2A28C0E438819938ECC6C9,
+	U3CSendAsyncWorkerU3Ed__47_SetStateMachine_mDA8B902BFD386F474AE7314EEA1142C3C765EF19,
+	HttpClientHandler__ctor_m7BE4F8BDFDF4E687072A039A5226711AF00BE517,
+	HttpClientHandler_EnsureModifiability_m9E1E130593842A73210A08FC481D8F9FEB435D0C,
+	HttpClientHandler_set_AutomaticDecompression_mF13BD90ECBD48A39EDDC9A56A0AFD81D0A76C412,
+	HttpClientHandler_get_CookieContainer_m075BC107F7DB16F6CE788459B6AE6666C84A67B3,
+	HttpClientHandler_get_MaxRequestContentBufferSize_m512254D51915B5973777D22558B42BCC00DEACBF,
+	HttpClientHandler_Dispose_m499F977678AC43E360230C60A3B9E3F255CF2AFD,
+	HttpClientHandler_CreateWebRequest_mD7DBEE29DEBC87263828A109121799ED67754EFC,
+	HttpClientHandler_CreateResponseMessage_mFEADDCB83FEB8920DA33A6B795C1F74909AED4B7,
+	HttpClientHandler_MethodHasBody_m89BB423358226192FA33E1D955C657CB630C5F7D,
+	HttpClientHandler_SendAsync_mA9E0BE00809F23DBBD6859195230C495FB62E712,
+	U3CU3Ec__cctor_mFA064DDF264F529EA9D4E614803D02BCD4F61242,
+	U3CU3Ec__ctor_m0D7A3476BFD0B938C2264CB2AACEC776BF72F6F3,
+	U3CU3Ec_U3CCreateWebRequestU3Eb__62_0_m9738D6616DE802E55645E09B8C716C8A8F0077B8,
+	U3CU3Ec_U3CSendAsyncU3Eb__65_0_mEBA3D33227A526EE57EC53531D1E141F4CF27C13,
+	U3CSendAsyncU3Ed__65_MoveNext_m2A07123CEC3A27A251CECC989A6074F35CFBEB30,
+	U3CSendAsyncU3Ed__65_SetStateMachine_m3552D85BA0C0A65706A4C53EDBC533D3C4339D2D,
+	HttpContent_get_Headers_m8EA225DA03A60734A63156D7EA6AC36228F953E9,
+	HttpContent_get_LoadedBufferLength_m686A6903C5E425F650E93BADA81D96B7581D9041,
+	HttpContent_CopyToAsync_m1711225E9B99ECA788FD5BA4F84ED88C50278605,
+	HttpContent_CopyToAsync_mA88C5951456FEF119D465C4BA256FF24B2D23078,
+	HttpContent_CreateContentReadStreamAsync_m8F3C0A11566CFF3A40360FD7633CF73CEEE4D1CC,
+	HttpContent_CreateFixedMemoryStream_mB7B851FA69449E5113BF4245269B9AFF31941B04,
+	HttpContent_Dispose_m2A71A269D8D00239F66B81BF70E66E87AB912766,
+	HttpContent_Dispose_mD7BECAE11B00AD37C4B1FCFFF791D49357067CEC,
+	HttpContent_LoadIntoBufferAsync_m99777240475988C2831364BF68D8B8B2FCF3783C,
+	HttpContent_LoadIntoBufferAsync_m43FE3CE24FA8D28940874ADF1EFE0CC1767B9EBF,
+	HttpContent_ReadAsStreamAsync_m1CC49D9A9387CF483B2E8A8BBEA135D622CE24DA,
 	NULL,
 	NULL,
+	HttpContent__ctor_m675750EF318C57768B50AE6F11FD377853F59B32,
+	FixedMemoryStream__ctor_mF6AAF383E2EC2B6830C0EEB51C32AF37420B959A,
+	FixedMemoryStream_CheckOverflow_m91D303787835D164B443BDBD9EDE817D3A07F994,
+	FixedMemoryStream_WriteByte_m15AFE0CE76C81C28CB2EEDCC948C9074481AF324,
+	FixedMemoryStream_Write_mD6CB3E46816B653A4532F2378B82CA538ED534C3,
+	U3CCreateContentReadStreamAsyncU3Ed__12_MoveNext_mF2027F6FF21106FF9C44CE61AB05C11F4491E5BD,
+	U3CCreateContentReadStreamAsyncU3Ed__12_SetStateMachine_m1D30813C7CF2DCBAF2D8810A48D90F33E3455E4D,
+	U3CLoadIntoBufferAsyncU3Ed__17_MoveNext_mA6F34CF04479BCFE9277EDB0AEEBB59353DD658F,
+	U3CLoadIntoBufferAsyncU3Ed__17_SetStateMachine_mB4F43A1B35EFF8C4251CC33EDB7892DCC60DD3C4,
+	U3CReadAsStreamAsyncU3Ed__18_MoveNext_m91A87731CA5132AC0AA2DC257BA0F447D5A53A23,
+	U3CReadAsStreamAsyncU3Ed__18_SetStateMachine_m1AE80D430B6880C88D438D67281BAB0D944D9D64,
+	HttpMessageHandler_Dispose_mD2305D3597776DC4D000FB4CF006A068B86F3554,
+	HttpMessageHandler_Dispose_m86D9A2FF584AB84490FEF08FDAFA48021C8AC4FE,
 	NULL,
-	NULL,
-	NULL,
-	MonoWebRequestHandler__ctor_mC04FDA948712FBFB01F0E51FC7A5071215E69791,
-	MonoWebRequestHandler_EnsureModifiability_mE625AC34D37CAC44D2AF83E6A8870E7923457FAF,
-	MonoWebRequestHandler_set_AutomaticDecompression_mDD811FFEA73D6B28935D2ABC55F729E7FD055E1E,
-	MonoWebRequestHandler_get_CookieContainer_m6BD016ADE4DDC81F8E93C594EF46F9778F7C611E,
-	MonoWebRequestHandler_get_MaxRequestContentBufferSize_m75079F76B390E7F66F450784C3BA592455D1455C,
-	MonoWebRequestHandler_get_SslOptions_mA4498C2CB8D1BD656A4252C62329904008EF120D,
-	MonoWebRequestHandler_set_SslOptions_m2CA7F5B821054567468996F118A9E5B83BCCE7FE,
-	MonoWebRequestHandler_Dispose_mF2175A6F59FBF058AAB0D023796932B9CD89CC7A,
-	MonoWebRequestHandler_Dispose_m5EF688221B41F01EDC3E58E69B6B5E545E9EA5B8,
-	MonoWebRequestHandler_GetConnectionKeepAlive_m59E1B9C37AC8D58CE62A68647F969D0A0948DEA0,
-	MonoWebRequestHandler_CreateWebRequest_mBB805D3B8032C3CB3B2D71E04E3C319F0E627D1F,
-	MonoWebRequestHandler_CreateResponseMessage_mE9CA1132C776E6AC6FBDAC80DC537554021F8554,
-	MonoWebRequestHandler_MethodHasBody_mF7601FF85E0F04F516B4DD2717B84954A93F0865,
-	MonoWebRequestHandler_SendAsync_m218FBC412C4300E40FF988645B1BF648580D5B2F,
-	MonoWebRequestHandler_System_Net_Http_IMonoHttpClientHandler_SetWebRequestTimeout_m5293395DF916E81D5D3133AC651F1A1A6E1D1273,
-	U3CU3Ec__cctor_m86E3F67526320C63857C5A03C547FBFAC74CB714,
-	U3CU3Ec__ctor_mB266802E8E61D4BBF9574155AE9FD13BAEA6EC19,
-	U3CU3Ec_U3CGetConnectionKeepAliveU3Eb__95_0_mEEBBBF58FE2E64E3ADC5EED24E555A152A9BE3B9,
-	U3CU3Ec_U3CCreateWebRequestU3Eb__96_0_m81948F2CD71D4E9355337B011423CB54C07BDBDB,
-	U3CU3Ec_U3CSendAsyncU3Eb__99_0_mB17060441B0A78DDFC7812D973273DD7071C44D3,
-	U3CSendAsyncU3Ed__99_MoveNext_mD015CC1B55C285519224F811D1CA69F527F8F633,
-	U3CSendAsyncU3Ed__99_SetStateMachine_mC683070F624F909DF81C8BAFD48719411A51F55A,
-	PlatformHelper_IsContentHeader_m0B060D3765EC0D05C76E21F56BB9319FDFBAE91A,
-	PlatformHelper_GetSingleHeaderString_m20930FA19CE11AE511ED0D3F292A0727BFD68204,
-	PlatformHelper_CreateStreamContent_mAFB2A5D17147F1B50EE0DFF83AE46E7B8D9E82C5,
-	HttpClient__ctor_m35293DC218A28B1681DBA7522D910FFB8046A26D,
-	HttpClient_get_DefaultRequestHeaders_m4BBE4A267D373F4A4677A2C8A92FDE393E440918,
-	HttpClient_get_MaxResponseContentBufferSize_mF7CEDF9DD976926314D3573CFF196E15E53FDCCC,
-	HttpClient_set_Timeout_mB71FE4F51049156CCBC5C9BD28E884819F8D3D66,
-	HttpClient_Dispose_m5D14983830E282B109D8A27F5B743AEB1AEED7C3,
-	HttpClient_SendAsync_mBD20C2F32561EE08940248546C6FC89ECB5A233E,
-	HttpClient_SendAsync_m5C9B076F873C5D2F4E5301937A1AFE3427346E71,
-	HttpClient_SendAsyncWorker_m705970670309B586A349D3D8E0A6F7FC41866656,
-	HttpClient__cctor_mAA86EF7FDCA61B6BEB84C0A232EDE83E163C31FE,
-	HttpClient_U3CU3En__0_mB4BDD18E477B0060D9D2269B9A8AAD8A7FC96438,
-	U3CSendAsyncWorkerU3Ed__47_MoveNext_mE32A14C1E715F40E33134DD8478CDFA53F9B0195,
-	U3CSendAsyncWorkerU3Ed__47_SetStateMachine_mFAEEB15454DF7D3F33C3FD1DC98B9938FAF55BF4,
-	HttpContent_get_Headers_m6183562F724ABF57805E94A2AB0D72BF44659DCD,
-	HttpContent_get_LoadedBufferLength_mF8801E825BC246F9A8B23105E2BF8159E1F5673D,
-	HttpContent_CopyToAsync_m7A4662CBCE423C27409264914A8A556932807847,
-	HttpContent_CopyToAsync_mD13D4F1627C1DB44059B7B630EE99F43AD83BE90,
-	HttpContent_CreateContentReadStreamAsync_m8FCF4138D75075D5A68175D6AB3781723F927858,
-	HttpContent_CreateFixedMemoryStream_mD51DD3A668F26D0EE8DBBA6C436BFB3E3116BFF7,
-	HttpContent_Dispose_mF42691D08BA188B9EE9541590ADDA0447D8EC677,
-	HttpContent_Dispose_mE8161B09FBF48F71BDA5D4A9EA543CBA737D49EC,
-	HttpContent_LoadIntoBufferAsync_mC097E245A245486C664D269F6C88923FA222A4EB,
-	HttpContent_LoadIntoBufferAsync_m0893A4FC3D71510110E03E667A11661A35C33A3D,
-	HttpContent_ReadAsStreamAsync_m7C4323126B463483F4B8E702CD61F8661B89CD10,
-	NULL,
-	NULL,
-	HttpContent__ctor_mA9B003CBB143D40E63ADE608903A8A8ADE677E04,
-	FixedMemoryStream__ctor_m0E45A01A86100EAE6BD545DFBB6B2C78885CD5EA,
-	FixedMemoryStream_CheckOverflow_mD0819047950BF663F87562224D76F59CB70240D7,
-	FixedMemoryStream_WriteByte_m0D61575AA017152E8154EB9A1934E6F377469445,
-	FixedMemoryStream_Write_m76C778EED47172B9C29CCAA994C20C2ADDC082CA,
-	U3CCreateContentReadStreamAsyncU3Ed__12_MoveNext_m276E4611E6EDC86BD0D8980934F2A971B86AC292,
-	U3CCreateContentReadStreamAsyncU3Ed__12_SetStateMachine_mE4E83E60859548E09AC74409A5B872A61A165F4F,
-	U3CLoadIntoBufferAsyncU3Ed__17_MoveNext_m560ECBE51E568A8DCDD028DB6F4C04C8D5A7EC6B,
-	U3CLoadIntoBufferAsyncU3Ed__17_SetStateMachine_mC2B29647424180EE9132361AB7755EF32205D959,
-	U3CReadAsStreamAsyncU3Ed__18_MoveNext_m1410EB7E15AA9E28388958F56D822866B40164B5,
-	U3CReadAsStreamAsyncU3Ed__18_SetStateMachine_mF21531FC0FD728DA2B313504379780D201111D69,
-	HttpMessageHandler_Dispose_m57DEB3B66ABD05541B2DA51D92736AF00550DEDA,
-	HttpMessageHandler_Dispose_m4C443077A3D7802D1CB71AA99C09814981A355EA,
-	NULL,
-	HttpMessageHandler__ctor_mA38A8F03252C47783C67FD40CA63DE9D60826B7E,
-	HttpMessageInvoker__ctor_mDDE5A74E2243EB7BC72FF83D78E24D86EA63E66A,
-	HttpMessageInvoker_Dispose_m77B4582C70919C6B31CC3805EDE7A9866574BC41,
-	HttpMessageInvoker_Dispose_m1F2C4912AC7C8969DE956022AD77A018B247C292,
-	HttpMessageInvoker_SendAsync_m6713036B5D094D1E178CCB6B90975808CE1AEE1C,
-	HttpMethod__ctor_m0D28A3D943866C642FC93FDC7F56B25A928B3A4E,
-	HttpMethod_get_Delete_m8D0D6E5A3B35134DE0F82241AB2CB9C74D27867B,
-	HttpMethod_get_Get_m4652BAACF9E9E06CF0CE507ABBCED7A10974371C,
-	HttpMethod_get_Head_m607FFA7CAA7C004B89EBF2C5ACEC9BA1EA9C8A2C,
-	HttpMethod_get_Method_mB34ECB806CC489697FEB8B2A490220F23BDCEA9A,
-	HttpMethod_get_Post_m7B058D5DEE22A53F6313F6F3595CF68A50C3F57A,
-	HttpMethod_get_Put_mFE14FD14FFEBECE09187A63D1741BA242AC69DF7,
-	HttpMethod_op_Equality_m007D043C9FE0B84A3D27E82CE8FA12AC5A2F1F57,
-	HttpMethod_Equals_m4F770AB2A3CE3C2542AF9F42A14BCB1DB10F5567,
-	HttpMethod_Equals_m66B98A8C1CF5502DA632E764E4CC2F03168B712B,
-	HttpMethod_GetHashCode_m41C02C1FAA46E4DFC212EFD1A8D0B4CA5F3F7803,
-	HttpMethod_ToString_m52ED4DA3FFF76688DB47A29F3379AE00E0F30B01,
-	HttpMethod__cctor_m289CD58ABE7B0203ABBE78F36628E4D431C26927,
-	HttpRequestException__ctor_m01B42384325BAF5F09AFC08E1DA5CB1CD4BDD0E4,
-	HttpRequestException__ctor_m44E76D51BF180991047BF9ED02204C9D05D346D1,
-	HttpRequestException__ctor_mF583393A0C841D522489165F032D87F0E4177AA4,
-	HttpRequestMessage__ctor_mF4583BF147D86D59669C63E6E063DC5102DC185B,
-	HttpRequestMessage_get_Content_m263E0A8B60C6D617144203073CA853A473FA860E,
-	HttpRequestMessage_set_Content_m522F62E997874DA5A3F77BD4DD7A1C7CA2629DC9,
-	HttpRequestMessage_get_Headers_m96F9758D4AA6C78EDFAFEB222FA05767054EE78C,
-	HttpRequestMessage_get_Method_m1E2C8323C43F6E09513C58777F2B0D9CD0D2627B,
-	HttpRequestMessage_set_Method_m61AD45CEAC59C0EE631A33AC8E888AFEB70D3541,
-	HttpRequestMessage_get_RequestUri_mB71FD84AC5D3AAD3D9E3BA0FB827691F52E235A5,
-	HttpRequestMessage_set_RequestUri_m8F8BF17F6A9BEA510759DB3148563ABB8E7FE9CB,
-	HttpRequestMessage_IsAllowedAbsoluteUri_m6B6F102A57FEF8EB0DAE5550617B29BEB546870B,
-	HttpRequestMessage_get_Version_m7A3470B97F025A915ACB106E12865EA2614840FA,
-	HttpRequestMessage_Dispose_m97949A9B4AE97865CB9B9E9E33A737087D2BBB4B,
-	HttpRequestMessage_Dispose_mF8B780AD56D89368DACEF55D68CBE9A078A51BD2,
-	HttpRequestMessage_SetIsUsed_m35E7B7BFB9E77DD07D79A35DAF4223219BBFEA5A,
-	HttpRequestMessage_ToString_m1C2FEA0A70A7F1BFBC40C9D68A290D8365E6C356,
-	HttpResponseMessage__ctor_m9DC9D8E234326388D79456E256AB35C8D76883F7,
-	HttpResponseMessage_get_Content_m2350C12EA59DAD014A59B17398E5B50F62202AF6,
-	HttpResponseMessage_set_Content_m8ABAA7633525618748C5317506E15DE3A3B91D0F,
-	HttpResponseMessage_get_Headers_m92207CC17D9F13F38282681148FC96C8EF6745A8,
-	HttpResponseMessage_get_IsSuccessStatusCode_m2B9DA5ECF8EE760D5A1A511C798FA08EAA931B9C,
-	HttpResponseMessage_get_ReasonPhrase_mBF3A464D41137F5C0261AC1406D441F25C3B7656,
-	HttpResponseMessage_set_ReasonPhrase_m1595DEFAD3217D72E96A9F4FB6BA92988110E0E8,
-	HttpResponseMessage_set_RequestMessage_mE116667668C55A381F82A221ABA79841DC749BB0,
-	HttpResponseMessage_get_StatusCode_m63BE26E4C79137B35F3066C6BA6A5FF5F3D16AAA,
-	HttpResponseMessage_set_StatusCode_m843336AB1916F68599C80F9405D79D9AB253EF32,
-	HttpResponseMessage_get_Version_m8A75FDDE4DF7F883D6A93763E5B000F124DE3B82,
-	HttpResponseMessage_Dispose_m798D011491D02E4CDB279C50D7D5E3CDF0533AEC,
-	HttpResponseMessage_Dispose_mD405404BEA4213C5EA8E0BA463267E495D23B904,
-	HttpResponseMessage_ToString_m545859B4E67186DBE3688A982C066C4503116DDA,
-	StreamContent__ctor_m84CDB8597734F4BED36E5AD06ED2B4AF0BDA7F25,
-	StreamContent__ctor_m68EA2FC7110AE7F0C275F0DC09407E1AD32715CC,
-	StreamContent__ctor_mD39F4788941D49A0433BC9F4FC197ED910458EF6,
-	StreamContent_CreateContentReadStreamAsync_mB9490A92C83BFFAEBB17ED014FFEC8DAB27B4BFD,
-	StreamContent_Dispose_m49F52DD9D815B6174345C6A0FECF50474025D5BE,
-	StreamContent_SerializeToStreamAsync_mF58F4189325E932B03691F716045BF5FBAEB4777,
-	StreamContent_TryComputeLength_mA7078B9897BE4C7314B3316B6D93DC0DD0335B48,
-	AuthenticationHeaderValue__ctor_mB300A148851A28CD01FB63314836E75DADD1B399,
-	AuthenticationHeaderValue__ctor_m6C169CCE71E0DCFDA9B7E0485FE4029E267D02EB,
-	AuthenticationHeaderValue_get_Parameter_m4E5142F8F7EB143ACDED00681D374164A480651F,
-	AuthenticationHeaderValue_set_Parameter_m823FA51BA6BFD70532EF207C5021A06A389D5B2E,
-	AuthenticationHeaderValue_get_Scheme_m3C5471F5A558D2500EA4F9AF860A0A9D3F099BF3,
-	AuthenticationHeaderValue_set_Scheme_m23406833B6574FD3891A58EDF39B34E5D146EF41,
-	AuthenticationHeaderValue_System_ICloneable_Clone_m39C244050F9420024E7F6EF77BDF160F8B396BB8,
-	AuthenticationHeaderValue_Equals_m264985AF7BE6BEA22AE1EE3288DAA7DAF84DED96,
-	AuthenticationHeaderValue_GetHashCode_m01307998AAFE11F90BFF5F3C018A20C540410BFD,
-	AuthenticationHeaderValue_TryParse_m34560D8028304D970DD955DC09BE3174227CC7D6,
-	AuthenticationHeaderValue_TryParse_m6FDA860FCD21EB5E4540ACDC8383E822250DD356,
-	AuthenticationHeaderValue_TryParseElement_mD118F929483FE90C73856289947D5B89787E6B8A,
-	AuthenticationHeaderValue_ToString_m990EE42C7A2A2A0C000A3F3547A2CBCD0DD99998,
-	CacheControlHeaderValue_get_Extensions_m64BB86F23933472EF1F3E200E854022690F308BB,
-	CacheControlHeaderValue_get_MaxAge_m6A1041DA50043941EAF4D5D2833DA03DA067AD6E,
-	CacheControlHeaderValue_set_MaxAge_mEA75D8A7E17BA36D8A19639D0BD6E19C1CC8D827,
-	CacheControlHeaderValue_get_MaxStale_m837D5A495DBB059265EF621010F87F9FC8752A7F,
-	CacheControlHeaderValue_set_MaxStale_mD542EDDAC249163650ED1A5B24DD595836200A3B,
-	CacheControlHeaderValue_get_MaxStaleLimit_mCCF9617EB244BD983D32CD06C02FDBDA2BF07BB6,
-	CacheControlHeaderValue_set_MaxStaleLimit_mA82C7456978CA9E2596819AAC55D44EE6E8E8572,
-	CacheControlHeaderValue_get_MinFresh_mD669EBA7E40EDDF6D89A505B43A6273186C53C8F,
-	CacheControlHeaderValue_set_MinFresh_mD2166DEA262BB8198D740280D5ECC4FD84E9FA28,
-	CacheControlHeaderValue_get_MustRevalidate_m4EFBB6B2ED88CE73026E541854F4B6EDB8EDF15F,
-	CacheControlHeaderValue_set_MustRevalidate_m952156F02AD26E220535028BC1682682E9B4400F,
-	CacheControlHeaderValue_get_NoCache_mD5E518593A948739A92FE09156D950A05F00A1FF,
-	CacheControlHeaderValue_set_NoCache_mFC724EDD682914731494C96B369F341C75AEE2FB,
-	CacheControlHeaderValue_get_NoCacheHeaders_mFD79C6AE831F6E5CC9E3FDD3D31BDF071AA9E241,
-	CacheControlHeaderValue_get_NoStore_m53FBFB76A9F8CBDBA8AEC7C21F52640F4AFE934E,
-	CacheControlHeaderValue_set_NoStore_m1FEDEC0359E862C98BF12B6CE8A85D0B488D8AC6,
-	CacheControlHeaderValue_get_NoTransform_m7B546267968236C4E6B5F8DCD5615528E5AC1ADD,
-	CacheControlHeaderValue_set_NoTransform_m65CECC424EF73A797D9177BD71E97B83BFCCA16C,
-	CacheControlHeaderValue_get_OnlyIfCached_mAB87CD63152FACEB2F58C743C4DFB46E4A54E2EC,
-	CacheControlHeaderValue_set_OnlyIfCached_m4B8D9CB6AD778E29507A4A0B1C0D7CB974408678,
-	CacheControlHeaderValue_get_Private_m34ACE8D086C74D48C4BE750D1BC62404AE2C0F40,
-	CacheControlHeaderValue_set_Private_m4D758BF7AC04BEAD7DA4936EF2702775C97904B2,
-	CacheControlHeaderValue_get_PrivateHeaders_m04C0FC4E20064FC61DAA4FAD569BF5BE0931D764,
-	CacheControlHeaderValue_get_ProxyRevalidate_mAFC0654F75230AD496327813AEDDCE6D8E33693C,
-	CacheControlHeaderValue_set_ProxyRevalidate_m3F0CF7EFB5A27B730C8AE66F3D2DD1D4D4573AA7,
-	CacheControlHeaderValue_get_Public_m797436093DE0C8467D7600EAAD71184CC4E3E45F,
-	CacheControlHeaderValue_set_Public_m05BBAE719AE22F483623B3C76EB3BFD3A861D2E4,
-	CacheControlHeaderValue_get_SharedMaxAge_m123C2A24BCACDF657F8DCD84842E811D82DB7879,
-	CacheControlHeaderValue_set_SharedMaxAge_mF8363C05F2410177AEEB9A461E57C31DF13BEA9C,
-	CacheControlHeaderValue_System_ICloneable_Clone_m6086CB987A0914AAFAB6D51CF5F7C1F3EE5D3C15,
-	CacheControlHeaderValue_Equals_m9DEF755CB4E3DDE340E2D1DEFF1B3E1542AE48C2,
-	CacheControlHeaderValue_GetHashCode_m9B992616AC634B25049337A9EB488CB928B8A06A,
-	CacheControlHeaderValue_Parse_mB9620002C1F1AF16524870CB30DB8C476174CEA1,
-	CacheControlHeaderValue_TryParse_mB1DC7A5A72B95DFF32B95DC713596152CB84F334,
-	CacheControlHeaderValue_ToString_m9B0F9306E74F381ACB24A40ADC82C85B42A383B4,
-	CacheControlHeaderValue__ctor_mC0B998830B82611D3C98B1C652643E5A4B16076D,
+	HttpMessageHandler__ctor_mB44E862EE092A0C0477BE49BC544663E8747163B,
+	HttpMessageInvoker__ctor_m57746FF7967048F84B43B05E834B47B135A2B9A7,
+	HttpMessageInvoker_Dispose_mBB3E1008B40088A80B1D91F8DEA28041C0EBFFF2,
+	HttpMessageInvoker_Dispose_mE2B0C1A9E3328652B93A90B8E84C33240C2B1FCC,
+	HttpMessageInvoker_SendAsync_m960414EBA1089801215BEE390E1BD82D872DA22D,
+	HttpMethod__ctor_m8BF3924E5BCCFAD658C809E4F04C19244E030EE1,
+	HttpMethod_get_Delete_mA533520A0182EAD8D3B3CE06814F79879C082786,
+	HttpMethod_get_Get_m058E48451ED07C7D06187A7DF2EF7941781933FC,
+	HttpMethod_get_Head_mBB5FDA7859E7C084D341B8CE287E37B8ECE2DABA,
+	HttpMethod_get_Method_m7DFDBCBD8832EDBCB3340C6AD66CF779695BF778,
+	HttpMethod_get_Post_mEF0B424DA34B78EDAF34313BD64AE353DB54BF23,
+	HttpMethod_get_Put_m76ABD59ACA806903E3F6DB1D5CFA52EC13AF3703,
+	HttpMethod_op_Equality_m80BE064DD4881604A9E437BF584C46DEDC9DCD56,
+	HttpMethod_Equals_m3AAFD0F8719C8938A7B0D7597AF37B3A42E7E3CC,
+	HttpMethod_Equals_m9F248F82A34984ACD63BA59DF8802C3276E8EED1,
+	HttpMethod_GetHashCode_mF046A561FF5F5041A74AE1022230FDAA0696C999,
+	HttpMethod_ToString_m1CABC80134B0815F4599AFDD8E5A41F1A260A40A,
+	HttpMethod__cctor_m992FD5DC4E90D1B959111F2574F9F281BDA921BF,
+	HttpRequestException__ctor_mA36A224D6888D6119786464DCCED4B80EC894E47,
+	HttpRequestException__ctor_m837054B9183E272ACE1A46968C5C5573D1F68845,
+	HttpRequestException__ctor_m73BD458F4E16A25A128329C45C72EAF9503B6058,
+	HttpRequestMessage__ctor_mF54EE858EC0443E8EE994CEA4EFE48DC2BED1DA8,
+	HttpRequestMessage_get_Content_mCD96F88223EA230AC47CC295A00574F52582D0D4,
+	HttpRequestMessage_set_Content_m5667B2FE1E6AB6846114A4B4C6867242E56016A6,
+	HttpRequestMessage_get_Headers_m177A5885B3271A1B8F03DB145DBE32CC5E837063,
+	HttpRequestMessage_get_Method_m827225A7FD4B30107C4191325DA6762D6C3469BD,
+	HttpRequestMessage_set_Method_mDDD10BC238B8A8D92F6C8C12B5842B073F022AAA,
+	HttpRequestMessage_get_RequestUri_mB0637CC446DFCB403DC4C36781474AC9C3556DDB,
+	HttpRequestMessage_set_RequestUri_m75C3A2AEF3BB397FBB0F93DFC5FE6B44E931119F,
+	HttpRequestMessage_IsAllowedAbsoluteUri_m965F982100BC93A4926B334A3156B5E180BB035A,
+	HttpRequestMessage_get_Version_m35DA797D53047647E194684CFCA326C4CAD951CA,
+	HttpRequestMessage_Dispose_mCC6051F8C6AE3FFA46BFF1214F111ED07860FEAC,
+	HttpRequestMessage_Dispose_m9A3355EC837334A2C7046D774E23F4FDBCF9ED4E,
+	HttpRequestMessage_SetIsUsed_mD5B36CDA69E6B52492ACBD04077DF8CE21406CDF,
+	HttpRequestMessage_ToString_m60ED68733376BB3F0B377D09C924E86635017C62,
+	HttpResponseMessage__ctor_m051B89DF13147E2B98478EAC11E7E7E9E06703BC,
+	HttpResponseMessage_get_Content_m10D3612F95AEE5B7995B5266B0CAA856283A423D,
+	HttpResponseMessage_set_Content_mBE4CEFD88B03B40585CF1D634B79D21F5CDA3807,
+	HttpResponseMessage_get_Headers_mE81FB59F93B183F5FF68B49EE9D703845A7E57EF,
+	HttpResponseMessage_get_IsSuccessStatusCode_m24E3914FE4A058EAA89F4019F67271A3F623494B,
+	HttpResponseMessage_get_ReasonPhrase_m5A15D4142F877CAA50F667F78A5B762A0346605E,
+	HttpResponseMessage_set_ReasonPhrase_mFC55407D6500C93858B695F06A3867F4CE63A528,
+	HttpResponseMessage_set_RequestMessage_m07FEEB8F285F3986CB090494E46E3A1623DBC2B2,
+	HttpResponseMessage_get_StatusCode_m566EA4F3B9AF052B4A59C34F51191B926BFED7CB,
+	HttpResponseMessage_set_StatusCode_m246A89A073785108449FCF54F0A9313ECB704368,
+	HttpResponseMessage_get_Version_mF0EC7E36AADB465F23C4D1F2311963460EB8CA0B,
+	HttpResponseMessage_Dispose_m8683CBBB2651DB344BE6746BFBF9DDDCACFB2A2D,
+	HttpResponseMessage_Dispose_m3BA80A6220B8A31E867A2FC1601FEDF6C660C1E3,
+	HttpResponseMessage_ToString_m6E7636EE6609928F10FB55A48ABC772F23431AF6,
+	StreamContent__ctor_m10DCA59D35FB84281BA19A558D2E3E90216DD67D,
+	StreamContent__ctor_mBD36741C6EAFF69205CA7A8A5D43AD9CD38DD12C,
+	StreamContent__ctor_mC15C6AEA76B14E6BD763143F084FBEB0B1710CA0,
+	StreamContent_CreateContentReadStreamAsync_mC0CA82F70738B170FED65ABED35883D9BD62CA16,
+	StreamContent_Dispose_m867A2675A73CE8F3653522697BF504B19FF23806,
+	StreamContent_SerializeToStreamAsync_m8CD99FB93D5B0F6096504672FBFB49C830067757,
+	StreamContent_TryComputeLength_mBFC8C79AA23AC9B67C0ACCB989E64DA7912DB88F,
+	AuthenticationHeaderValue__ctor_m741C1B5A83E8874C5CA69E03BF48823A99474E9B,
+	AuthenticationHeaderValue__ctor_m0A27B3B4E067239AB2FA798D149C0EC0FC2166E0,
+	AuthenticationHeaderValue_get_Parameter_m19D26675143C3AE83466270D94D6F6C9E44E6AB7,
+	AuthenticationHeaderValue_set_Parameter_mC09D04228E2CBA7C12437593FA25A12498A4BBED,
+	AuthenticationHeaderValue_get_Scheme_m84C72C54B76964405850DD9786B655B4195A9B8D,
+	AuthenticationHeaderValue_set_Scheme_m5183D095D21C1A24BBC634F3E87B8EDE41A0B4FE,
+	AuthenticationHeaderValue_System_ICloneable_Clone_m3CE5887A7C30D645258584240A0EA13BBE569A10,
+	AuthenticationHeaderValue_Equals_m92FCE66167550E9EE8A67E6C0CB9149F9212EFA9,
+	AuthenticationHeaderValue_GetHashCode_m0708DBC2CC11A61CBD7866D192A43D9463734A7E,
+	AuthenticationHeaderValue_TryParse_m61BE2A1652E5CEA8A8B1B761A477EAF6E2762964,
+	AuthenticationHeaderValue_TryParse_mAE071F0DEF6EA9FDAAB26AC1C5CC8E3733C33714,
+	AuthenticationHeaderValue_TryParseElement_m90C6168F912E04771A1DEB4A4FF815659F937ECA,
+	AuthenticationHeaderValue_ToString_m1C89F3D20F5D0FC0BB3043D608446A01DB807E46,
+	CacheControlHeaderValue_get_Extensions_m3B45147A12C25398D8B7D25FC28A231D69B7AFAD,
+	CacheControlHeaderValue_get_MaxAge_m59AD11D3AB610635FD33E7EE8F1EECF737C0D584,
+	CacheControlHeaderValue_set_MaxAge_m2E1E0459107FF2555275EA0A338A4E79E6C3FDBC,
+	CacheControlHeaderValue_get_MaxStale_m2974B3CE827B7A2B0D4119C65337632C2324C6A1,
+	CacheControlHeaderValue_set_MaxStale_m7F4477177D24B0271E309CB3505DF53071AB1DFD,
+	CacheControlHeaderValue_get_MaxStaleLimit_m7214087851A3A3268FD6E0007ADE1F53210DE8CE,
+	CacheControlHeaderValue_set_MaxStaleLimit_m34CD1E0B0B34027808D7C8A93CEC394E197CB366,
+	CacheControlHeaderValue_get_MinFresh_mB6CCA8F2B245D484970B1C672C54AFD8CC7E47CA,
+	CacheControlHeaderValue_set_MinFresh_mA220DD7B19A7BD6304A830631E7F664C90A1CDF5,
+	CacheControlHeaderValue_get_MustRevalidate_m28B9CE8D2F02A0911C58E6F683EB7BA2218D54F3,
+	CacheControlHeaderValue_set_MustRevalidate_m8F528F97AB95A04837FF5EF6C9A4A61E3007402E,
+	CacheControlHeaderValue_get_NoCache_mB9F2A7E9328E953BA6B11B693707880ECD4034A4,
+	CacheControlHeaderValue_set_NoCache_m6DC57D00EA7B879DEFFC91BF02712A120B352FE1,
+	CacheControlHeaderValue_get_NoCacheHeaders_mB7482348E0DE7CE3D00C6A83F46DB62635C935DD,
+	CacheControlHeaderValue_get_NoStore_mE25079DB703D86185BB37A140B3DFD7DE6A2FFFB,
+	CacheControlHeaderValue_set_NoStore_mA91321D9244DDB6ECBA793C8C35D8832040F6BE1,
+	CacheControlHeaderValue_get_NoTransform_mBAAD8B879708FD58642A0E9427DBEF05EE3710E0,
+	CacheControlHeaderValue_set_NoTransform_m340FF75F2CB80AEB339FE0242DB3B5CBF503F804,
+	CacheControlHeaderValue_get_OnlyIfCached_m6BF598F664CB69BFF5F0C5E01A77EFF424586BF5,
+	CacheControlHeaderValue_set_OnlyIfCached_m80D42E84C1114168DA405AD071A967B8805DC143,
+	CacheControlHeaderValue_get_Private_mD6BAD408DADE941BB93EA79B74A4636A3FA5750F,
+	CacheControlHeaderValue_set_Private_mCCE76BEB29A6791A1B6F9B7919CFEF1D6D187B48,
+	CacheControlHeaderValue_get_PrivateHeaders_mCF4D5D9F008E9055F9C7D381150FA6049DFAA6DA,
+	CacheControlHeaderValue_get_ProxyRevalidate_m6EE57419064F382CB90C819531A4C3AD5D4F8BF2,
+	CacheControlHeaderValue_set_ProxyRevalidate_mC6ACE4D89F822FD119E9DC2E729294C24DF5690B,
+	CacheControlHeaderValue_get_Public_m667A84F90555818E71075344630BC077BDD066FD,
+	CacheControlHeaderValue_set_Public_m21A3865847D0DE9DB94AD5CDFF0ED844B79FC0FF,
+	CacheControlHeaderValue_get_SharedMaxAge_mEACC53312C1B52303705BAF70356BA8F7F6B0FD0,
+	CacheControlHeaderValue_set_SharedMaxAge_m0506C512E0D39E8E16AEFCB016226664C148BAE9,
+	CacheControlHeaderValue_System_ICloneable_Clone_mBF003E1DAF0037058207A1DF040A833C2522E978,
+	CacheControlHeaderValue_Equals_m0020E6857DF48418C288379C0F2628EC4064A4B8,
+	CacheControlHeaderValue_GetHashCode_m1320668F99C02A23594ECFE652BBD319F3DB259E,
+	CacheControlHeaderValue_Parse_m66715982061376332F7B86BB1F02DB1FE2862B95,
+	CacheControlHeaderValue_TryParse_m6D64B1B2CE476BE83BD1A0593FEB54E9DA6CB8AF,
+	CacheControlHeaderValue_ToString_m238D31DA49DF837E307CE06E0A09A2E8FA6FF57E,
+	CacheControlHeaderValue__ctor_mE547ADEF80225CA14249A6F2A35CB78CC468B52C,
 	NULL,
 	NULL,
 	NULL,
 	NULL,
 	NULL,
 	NULL,
-	CollectionParser_TryParse_m80A28D767BD45D917DA0D4ECB892D300C5F5C291,
-	CollectionParser_TryParseStringElement_mDDC3D4962C41A6DA6998B080713DF5A6F7EC4552,
-	ContentDispositionHeaderValue__ctor_m580305E1CC61291C6BA5F321E521FA9BC1F038F6,
-	ContentDispositionHeaderValue__ctor_m62C5A0621E0926BFE2C9EE9BB28751ACDD597B17,
-	ContentDispositionHeaderValue_get_Parameters_m3E7D1F9C1D1E8DC75ADC025273B89294A5BB12F7,
-	ContentDispositionHeaderValue_System_ICloneable_Clone_m54196278C36178D03EB93841432E065D8AEC30F7,
-	ContentDispositionHeaderValue_Equals_m05D133DDAFC4E4BB92211C2F2A4C9B7C918B3A80,
-	ContentDispositionHeaderValue_GetHashCode_mB3FDDE0FF3383955D6AE9E961CF49CD836228947,
-	ContentDispositionHeaderValue_Parse_m95A2948E496FA2F7CDB15388C8572E26E7D4CC76,
-	ContentDispositionHeaderValue_ToString_m216E3D7D36B6E61A637F9142F78AE21514D3B15E,
-	ContentDispositionHeaderValue_TryParse_mE3135B74C3EDE6C8BC2349C035AFAEDE05D6E09F,
-	ContentRangeHeaderValue__ctor_mD5A03F4CEAE5BBA4FEE39F3832F7124DADB84F55,
-	ContentRangeHeaderValue_get_From_m4131FC7E1227A12E390AF91BFCE12858536861EF,
-	ContentRangeHeaderValue_set_From_mC10244F9891A2837B9850141829DCF47158270B7,
-	ContentRangeHeaderValue_get_HasLength_mBC1C15FD9B8465EB2867441FD4CCE35062AEA9DD,
-	ContentRangeHeaderValue_get_Length_mFEBB4FD3809C76809D5ECF8E0C5BFA47FBC66EC0,
-	ContentRangeHeaderValue_set_Length_m75C24675B1D9CA53590C12577792BC1071AC8C94,
-	ContentRangeHeaderValue_get_To_m645A1546D89AC72391207A698BD170E2B9177C89,
-	ContentRangeHeaderValue_set_To_m3566B7515F23E561951BB64186D031B30C1FEB92,
-	ContentRangeHeaderValue_get_Unit_mEF46901F9EE236BB345A943D2F42DA4AF9A599C6,
-	ContentRangeHeaderValue_System_ICloneable_Clone_m83A81744A8A1C3D664686FF1447170AE82E25BF8,
-	ContentRangeHeaderValue_Equals_m30220993A0D1E60E33A55C92380A6CE124B339E2,
-	ContentRangeHeaderValue_GetHashCode_m2296B7AA34E75AF9D0E334B3B3C9190C5DE41FD5,
-	ContentRangeHeaderValue_TryParse_m0D65C2C0436CE44C9368B70F8139F92A22C08EF5,
-	ContentRangeHeaderValue_ToString_m91DF1C13305DCF189510584450B698FDEB238FC0,
-	EntityTagHeaderValue__ctor_m629D236B0D1BC7F17D94A86AB52CB337A1D0AFD5,
-	EntityTagHeaderValue_get_Any_m8A77246FCE4A14041957B7C9330BB79E1C1D4132,
-	EntityTagHeaderValue_get_IsWeak_m81961F0F949C0B2B9FFCCE92830E56CBD027F14E,
-	EntityTagHeaderValue_set_IsWeak_m524CA3854BB8479CD14C1C1B5B36078E704B39B0,
-	EntityTagHeaderValue_get_Tag_m71FC878E26C3CBD046E322F63FC8FB4080F0A73F,
-	EntityTagHeaderValue_set_Tag_m154533CEF5C3CFCE3FFA5A28A72C29694009D9EA,
-	EntityTagHeaderValue_System_ICloneable_Clone_m71FBF20CBBC012358206A244D9EAF5B604BECFE7,
-	EntityTagHeaderValue_Equals_mE42054506D929084E8B592D70106FDAB88C004BD,
-	EntityTagHeaderValue_GetHashCode_mDCA5059D88BE49C856DF1CC60670FA90D9D6A039,
-	EntityTagHeaderValue_Parse_m31BD4E760967BB63E850526C3E3413496E123EEE,
-	EntityTagHeaderValue_TryParse_m8CAEA104D371DAA5277B7062931DA4FB5E049404,
-	EntityTagHeaderValue_TryParseElement_mAA600968FBC447CEE2BF091027199079D9BB2AE3,
-	EntityTagHeaderValue_TryParse_m5C244765410FDEA00B3B1D5392FA24DC9D142128,
-	EntityTagHeaderValue_ToString_mDA8A58647E8BA83B1D7AE1493D711D3E0F9F76BF,
-	EntityTagHeaderValue__cctor_m89A153A3B5791CF2ED3E0092F05E66D468B79A57,
+	NULL,
+	NULL,
+	CollectionParser_TryParse_m04790AAC315962A06B1C860904CA41A185949EC8,
+	CollectionParser_TryParseStringElement_mE178A13C16DBD9E2CA7EBD2837ABEA8A97F37676,
+	ContentDispositionHeaderValue__ctor_mC8453FC54032D277A2FEB14582DF9700D319AC4F,
+	ContentDispositionHeaderValue__ctor_m83FFA94DD0D96DF54ADF0F0D4BC40C240C7C9B13,
+	ContentDispositionHeaderValue_get_Parameters_m2898AF2953F4761BA136C458479BCBD8EC7DD954,
+	ContentDispositionHeaderValue_System_ICloneable_Clone_m4C63062307B5E31720AC50F93EC238AF9B9E218C,
+	ContentDispositionHeaderValue_Equals_mF0640F8335D84E2CC8A4C3A1C1590592864941B1,
+	ContentDispositionHeaderValue_GetHashCode_mE9A08E91A2AFA401923C778FB699D08228789442,
+	ContentDispositionHeaderValue_Parse_m0693AAE92AF8A4489F6186E88A10DE8778E30CAE,
+	ContentDispositionHeaderValue_ToString_m36DF50BFEC7DE5F8DF31549B09FB935CFFA9B48F,
+	ContentDispositionHeaderValue_TryParse_mB98125B302B276FC8B66AE271E568EEB56371CB1,
+	ContentRangeHeaderValue__ctor_mE302A476439BBC9A4C0597D2A98380EC38311896,
+	ContentRangeHeaderValue_get_From_m7299550A6CCB17F974A4D146260ABBC3C076BDC9,
+	ContentRangeHeaderValue_set_From_m405CE8F820CDF9D88D371574A14B7B4C663EBE2F,
+	ContentRangeHeaderValue_get_HasLength_m2533AF2D144615A6D21D767C8BCD0AF5BD017B94,
+	ContentRangeHeaderValue_get_Length_m6A0773BAB9D2D1B185666E6B1516CA5A35319601,
+	ContentRangeHeaderValue_set_Length_m378E67CD52F284D18091175FBDEADDF21B30EF77,
+	ContentRangeHeaderValue_get_To_mB1FCA4A4858E2BB74B83AC1BC6A162004EEDD2E0,
+	ContentRangeHeaderValue_set_To_mB6447D27A614FB2B3C0E6E8271F4C325F1B4967D,
+	ContentRangeHeaderValue_get_Unit_mCEA9CD8B217BF41FAB5351766CE0B77737D30EDD,
+	ContentRangeHeaderValue_System_ICloneable_Clone_m719AC160AA905D528B19F030997F4F9E186554E1,
+	ContentRangeHeaderValue_Equals_m3631615182516D26A2CBA4E478F23C144107032C,
+	ContentRangeHeaderValue_GetHashCode_m226DE011470EA9F2F600DDB6376C17A12EAD277D,
+	ContentRangeHeaderValue_TryParse_m4C99370DAAA56541EB05D1A423B6DDE5164B5702,
+	ContentRangeHeaderValue_ToString_m91EF8F49639F9E9D97136C08E405230BD3F22B31,
+	EntityTagHeaderValue__ctor_m41F3093750A5A5F02D00A39104FF0B2DCDFE7373,
+	EntityTagHeaderValue_get_Any_m76B22A8D3037CA28ECB9C6306013FD73C731EB6C,
+	EntityTagHeaderValue_get_IsWeak_m4CD1443DD6F5D507199426A6C6B47C7A434EC1CC,
+	EntityTagHeaderValue_set_IsWeak_mA107F05E18F75FCA053C8181338F3475DFDD4A83,
+	EntityTagHeaderValue_get_Tag_m0919675128A1105B3073CBDB9A2303473445D064,
+	EntityTagHeaderValue_set_Tag_m52BC0A88F047794C027E81D9BF362ADA277D8EBC,
+	EntityTagHeaderValue_System_ICloneable_Clone_m5A0FD6E67A4BD6E7D8336387F3EC235864E4A462,
+	EntityTagHeaderValue_Equals_m6FB7C5CFB82F7AE8AD9709385FA9953F118FBE6D,
+	EntityTagHeaderValue_GetHashCode_m53F1719DC3126AFF59F55C5D56CA6E35B45C7328,
+	EntityTagHeaderValue_Parse_mA6F9F6D2EDAA145321CC266A79FB17AFE427A381,
+	EntityTagHeaderValue_TryParse_m10AB541C8E3446B027584601F586EC04F51DF1D2,
+	EntityTagHeaderValue_TryParseElement_mA589ED5A43CBA45D4B8AB1DC0B40EEF9D7A6A2CE,
+	EntityTagHeaderValue_TryParse_m896F249568F47EF7BA29B3235E4BB549A79D2B68,
+	EntityTagHeaderValue_ToString_mA837FFE9CD25A5F6D22D8185EF399208FB9AE843,
+	EntityTagHeaderValue__cctor_mAA894BC7129A0A4BCE6CB8E9DC8B770396D95474,
 	NULL,
 	NULL,
 	NULL,
 	NULL,
 	NULL,
-	HeaderInfo__ctor_mE9697993628E1457C984C6A13C7F3C0CE2880E92,
 	NULL,
 	NULL,
-	HeaderInfo_CreateCollection_mBC7FC0140D4CFCAE8B33B9A4D370028DCFA74E6B,
-	HeaderInfo_get_CustomToString_m4A09646E1C4D4EADEEC2A631833FE91AA4F132D8,
-	HeaderInfo_set_CustomToString_m21DA660E414F4434C96EFFBC5FA81155AFA9902E,
-	HeaderInfo_get_Separator_m82D550F8F4ECAEDDCDB77697BF477031FB74F300,
+	NULL,
+	NULL,
+	HeaderInfo__ctor_m7DB2E2BB7385DA2D6C133F2D5FEE5A8DC62751DF,
+	NULL,
+	NULL,
+	HeaderInfo_CreateCollection_mB5D01BFEDA46AEB50F6E725F32D453CE2DEABFFE,
+	HeaderInfo_get_CustomToString_m71FF573095119332562BA3A57140A1E19526F4D1,
+	HeaderInfo_set_CustomToString_mFE14A677A1F0B128D6763F59DD4FEFCBDF310E37,
+	HeaderInfo_get_Separator_m2FD10FBD62D820962863E3B5DB6607E941207802,
 	NULL,
 	NULL,
 	NULL,
@@ -1357,18 +1291,18 @@ static Il2CppMethodPointer s_methodPointers[570] =
 	NULL,
 	NULL,
 	NULL,
-	HttpContentHeaders__ctor_m5328D234F9A22B7039CEEDAB77F08A0F15F0AC4C,
-	HttpContentHeaders_get_ContentEncoding_mA49E7F9A39B515495A318374DF991A820FF27CD2,
-	HttpContentHeaders_set_ContentDisposition_m737C7C815F28D06D3774CB7601F9AB95D31A9275,
-	HttpContentHeaders_get_ContentLanguage_m8B414B4C976D0A1FB810DDA815ECF66487899689,
-	HttpContentHeaders_get_ContentLength_m1E12780B9EE80BCD237596D87F07D31304596C01,
-	HttpContentHeaders_set_ContentLength_mE49B54644A2A7D649627998341943BD07DE17336,
-	HttpContentHeaders_get_ContentMD5_m411FDFCD74E2E53AB750B902F4B10A622E8D3F91,
-	HttpContentHeaders_set_ContentMD5_mDAAA759D8E9787AE3D1B24B8ECF0930BAFD88966,
-	HttpContentHeaders_get_ContentRange_mC8A6C0205E5D30B6BD4D381D139084062BB05447,
-	HttpContentHeaders_get_ContentType_mC59BB1A498DEAA96240D39FDBDFCCBD5247614F7,
-	HttpContentHeaders_set_ContentType_m3990A9596A873AE4AFCE1FEB2FA744136B48D779,
-	HttpContentHeaders_get_LastModified_m67647AE2123AFC4D5FBFE06675D25B5D772FEF12,
+	HttpContentHeaders__ctor_mF37B17E03DB76BED4B687B5D85C109C529F34AB9,
+	HttpContentHeaders_get_ContentEncoding_m4581714558906E0D93ED8639ADA2632E439CAFD2,
+	HttpContentHeaders_set_ContentDisposition_mDCD6DA9DDD2BE78B0E5C875EE0B5273FC8F51AC3,
+	HttpContentHeaders_get_ContentLanguage_mD998F495DA7AA47F8F5868A15BDFED5518381F90,
+	HttpContentHeaders_get_ContentLength_m5FD54EC2569687627922C970B4D6ECD5EA31D677,
+	HttpContentHeaders_set_ContentLength_mE1D175C89F684F1D9E624712FCED2F4161AF80B3,
+	HttpContentHeaders_get_ContentMD5_mA7010417C72F5DE462CE164F552302926F601D68,
+	HttpContentHeaders_set_ContentMD5_m45D9ED7B6901ACC20348449790955B373852EB2F,
+	HttpContentHeaders_get_ContentRange_mE095AC88ED860FAE99957083B3895DC46467068B,
+	HttpContentHeaders_get_ContentType_mEAFFCCFF1F82573A14ADA0AC096264A4F588DAB6,
+	HttpContentHeaders_set_ContentType_mC7EB85B08D626C3726A9EA30386857C6FCE9A57A,
+	HttpContentHeaders_get_LastModified_m3BDD62A62ECBB9B04C69D7B1E79C113F5827DAE2,
 	NULL,
 	NULL,
 	NULL,
@@ -1386,1074 +1320,972 @@ static Il2CppMethodPointer s_methodPointers[570] =
 	NULL,
 	NULL,
 	NULL,
-	HttpHeaders__cctor_mE4F3CFAC48B06B56B36198BA82EB14D26797EA60,
-	HttpHeaders__ctor_m98A3D93CFD35D81E61D92441BE3A2ACC47851B5D,
-	HttpHeaders__ctor_m064C485208B9D82CB1E1508CF08560739F601E10,
-	HttpHeaders_Add_m9F704C4C77ED5BE4FAABEA3138CCF1D3D6732DA8,
-	HttpHeaders_Add_m784E12F2126E39F289D59789909FE8E66DAE2FE4,
-	HttpHeaders_AddValue_mF8D1DBC63D170DD290EBDF9FD46BEF30889DE8BE,
-	HttpHeaders_AddInternal_m6A61345E4F0BA4268E3A3F0AE047F8C46B0919FC,
-	HttpHeaders_TryAddWithoutValidation_m24F1C8D7DD9445C3B839B03B802759E7383A8D80,
-	HttpHeaders_TryAddWithoutValidation_mF189CB4802E2D9CB01DCD898452EB2DFBDFC79BE,
-	HttpHeaders_CheckName_m21E3B00D10BE578CB84B1A26091B5C066D5BBE95,
-	HttpHeaders_TryCheckName_mC6846BEC210F144A32654C85675780A7879EB3CE,
-	HttpHeaders_Contains_m0392D9C92892BE16A8B710B9C7FA0B556439B059,
-	HttpHeaders_GetEnumerator_mA7E032D1333C1139DBEF31469272860A499E6C99,
-	HttpHeaders_System_Collections_IEnumerable_GetEnumerator_mB2F68CDCEB5BFE0AA548FBD10C73E70D07FFD975,
-	HttpHeaders_GetValues_mF3F1FD36E2E0ECF1C6BBAECEAB9609A3CD006F16,
-	HttpHeaders_Remove_mA682BA12728E025E7230B294D1169793EB9B4BEE,
-	HttpHeaders_TryGetValues_mB5EEDB33F50315E70936E150C63E0E932114C3D2,
-	HttpHeaders_GetSingleHeaderString_mF03E6BD043132B999B75A1B12776056450BB43C2,
-	HttpHeaders_ToString_m3F901EC8FA826663C6CBE9B34CF7BFDD5125D521,
+	HttpHeaders__cctor_m1CB5DC01BADE2F408DD0BCA3EA474883A45567E7,
+	HttpHeaders__ctor_m46DC799D2477F1935AE4C0F8940934B72B06387F,
+	HttpHeaders__ctor_mB42D839F50992FCE5A489ABA6A6502E8826DB7EE,
+	HttpHeaders_Add_m7980BDB7BBCC60094B62FD2FFD403CB89AEBA8FD,
+	HttpHeaders_Add_m5F05A3D494DF4EE726FAC99E1A88DFC5A31D639B,
+	HttpHeaders_AddValue_m2AE8FA9B6C1C92DD571322217F0FC38F97E232B1,
+	HttpHeaders_AddInternal_mF7885AE3F3A719EEEE1B211810DD32A6DF591295,
+	HttpHeaders_TryAddWithoutValidation_m0554DF129E0FB1F05FCB324E318737773022B57A,
+	HttpHeaders_TryAddWithoutValidation_m12A5F74B536D72BA7C747DC4E97FC34ED67E67E5,
+	HttpHeaders_CheckName_m412C6EB0B776B1E039DC9BBEF7539A1B3D5C604C,
+	HttpHeaders_TryCheckName_m0A1FB043BB7B2DAAA80A4058A8B33389C6264E4B,
+	HttpHeaders_Contains_m9DC7BC7E2D1288E20747A93857D66DBEC2207787,
+	HttpHeaders_GetEnumerator_mFD5B6A73715C23D6998176EB6BCBDB5B6AD40CB3,
+	HttpHeaders_System_Collections_IEnumerable_GetEnumerator_m1FE0383DE8266696C905608B27DB6F72A1090A95,
+	HttpHeaders_GetValues_mD9F94DF8D9264C6BC2BD921A28435CB1EEF3B967,
+	HttpHeaders_Remove_m0D16422504C72EAE4CF95F6E8DAA9E49B3C37E71,
+	HttpHeaders_TryGetValues_m66042A583AEEDFECF53D18673CAE6D824A308C49,
+	HttpHeaders_GetSingleHeaderString_m7750EEA8732D1D3E52BC4640BD126475915EA317,
+	HttpHeaders_ToString_m3BE46700710F7405E99F4C4CE5F62481A5180E7D,
 	NULL,
 	NULL,
 	NULL,
-	HttpHeaders_GetAllHeaderValues_m3E82C8BA6A67700D72A80B8D6CBBB4CBCB7D624B,
-	HttpHeaders_GetKnownHeaderKind_m9A49D26C45CBE214122083C181D523404A0888E5,
+	HttpHeaders_GetAllHeaderValues_mD36F208290730F1C67DC9774289CA55E58C423F5,
+	HttpHeaders_GetKnownHeaderKind_m9443B3640172BFA4C428CA1A832E396882C29D65,
 	NULL,
 	NULL,
 	NULL,
-	HeaderBucket__ctor_m215E5FA492916ED411741547F2DAF1A49242A1AF,
-	HeaderBucket_get_HasStringValues_m8633C7D2BD34515A7DDEACE3E4C854DDDCE62868,
-	HeaderBucket_get_Values_mDE76669F902349400A9007068F485FD5718D3F49,
-	HeaderBucket_set_Values_m23A96E106AF3AE461BF26D251C913FCECA3797DE,
-	HeaderBucket_ParsedToString_m4C51F79BB93AC314F023B2DFCE81ADD0A3F2AC8C,
-	U3CGetEnumeratorU3Ed__19__ctor_m6D47E15D176A0842AD9792BE60E9EFB73EC0B90A,
-	U3CGetEnumeratorU3Ed__19_System_IDisposable_Dispose_mC843C4C8F112218D78773F14FFD0186827C98DA5,
-	U3CGetEnumeratorU3Ed__19_MoveNext_m75C64C9382102D45AFFB847C3BB0A61978D83040,
-	U3CGetEnumeratorU3Ed__19_U3CU3Em__Finally1_m3B640C7346FCD4033F5FF9F71F15130C24138EEC,
-	U3CGetEnumeratorU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CSystem_Collections_Generic_IEnumerableU3CSystem_StringU3EU3EU3E_get_Current_m8E224AB05B03374412A8F60601E18AE579349240,
-	U3CGetEnumeratorU3Ed__19_System_Collections_IEnumerator_Reset_m79A49A4D0B8D5A14B2A625F40EB4884A3CE59FEC,
-	U3CGetEnumeratorU3Ed__19_System_Collections_IEnumerator_get_Current_m3731BE34AACC51CA84FD59DA7C9A4DE029F43666,
-	HttpRequestHeaders__ctor_m3FA1C55FD30FEE254F9BA39DF302D664F12EB939,
-	HttpRequestHeaders_set_Authorization_m3F73D5BBB5B7FF82CF6F5F59A6FCF340D65D19D5,
-	HttpRequestHeaders_set_CacheControl_mC42755E327F8814905B0BFCC544DE8E313950736,
-	HttpRequestHeaders_get_Connection_m62F79A8B4C94B9418D2610A22F3F47A3C705294B,
-	HttpRequestHeaders_get_ConnectionClose_m24709342ECBA6003B9867CA3A1E4E5068C214D4D,
-	HttpRequestHeaders_get_Date_m9C25B20F68F1A1C73D669AA9817209B9FC0D90DC,
-	HttpRequestHeaders_get_Expect_m999B42A67CD3606372E198B4CFEE78F54E09DC35,
-	HttpRequestHeaders_get_ExpectContinue_m5972E9B52362A7D124FACF087B9663DFFE666D75,
-	HttpRequestHeaders_set_ExpectContinue_m59D02E5439BDBA6B5EFAE3440E2E6EAC4CC4094B,
-	HttpRequestHeaders_get_Host_m811EDD9B998E4A44AA3CDF630100D0AA865F681B,
-	HttpRequestHeaders_get_IfMatch_m10D6CAC3FFCA2FF43D35DC847C76E47759835D8F,
-	HttpRequestHeaders_get_IfModifiedSince_mDD070DDCBF69C2DF2C0A8390CFE0FC4893768613,
-	HttpRequestHeaders_set_IfModifiedSince_m29559EE912B2D803F573BAE02B47B2328576EEE4,
-	HttpRequestHeaders_get_IfNoneMatch_mFBC484D1446CA0E2F2E42B9F1FC06E31FD0099D1,
-	HttpRequestHeaders_get_IfUnmodifiedSince_m327583001E42670413F44D75B66AA19F5A060D0C,
-	HttpRequestHeaders_set_IfUnmodifiedSince_m8B1D19C754AB32ED138B68F281F35996951E6A3B,
-	HttpRequestHeaders_get_Range_mE9402DCA8F8228DDACCE9C6D83ACB022D4351E81,
-	HttpRequestHeaders_get_TransferEncoding_mE1D258B3E9E8663E99D27FEA0C78AEDF09F1EF0F,
-	HttpRequestHeaders_get_TransferEncodingChunked_m2A5FF238017183BE7E8E218E3B39AC40D4877E57,
-	HttpRequestHeaders_get_UserAgent_m428289CBC4047D6C55D85E578A463F3BF5552076,
-	HttpRequestHeaders_AddHeaders_m5CBD184A33243AB7BDC9573678B6E2057A6BE457,
-	U3CU3Ec__cctor_mF73A20CDF9A43A1566F7E9B8F63E1CAD628C7A0A,
-	U3CU3Ec__ctor_m7761AB425CC8145E6AD03A2C322270706EB78130,
-	U3CU3Ec_U3Cget_ConnectionCloseU3Eb__19_0_mB7AC94A1080F968A4CF9A06834AD83873BC9B404,
-	U3CU3Ec_U3Cget_ExpectContinueU3Eb__29_0_mAFBE0FF0A9B82E892D9154CE1FF40D36FA9269EA,
-	U3CU3Ec_U3Cset_ExpectContinueU3Eb__30_0_mFCC2DFEE075E8AABC7D915D59A897BEEF47144BA,
-	U3CU3Ec_U3Cget_TransferEncodingChunkedU3Eb__71_0_mB83CCF1217BCDD991865536AC4FD5335C2878A2A,
-	HttpResponseHeaders__ctor_m3E7314396DC1F9A66F66AA02FC4405D4961987F9,
-	HttpResponseHeaders_get_Date_mB43EF3E220DA89EA783BB917B2AF212490B207F6,
-	HttpResponseHeaders_get_ETag_mFEEAF9DC3D0070A9A3EB1325AA975BD98E1FAECE,
-	Token__ctor_m4D769FCEE4295A5E0B04C3A5E4676BF6F1EEA76B,
-	Token_get_StartPosition_mD6FD9852CE20DF1154E2AF279501D86B5E1233C8,
-	Token_set_StartPosition_m25634DC149D471692C9AD91B9B2998CAFE45FAC2,
-	Token_get_EndPosition_mC282EF9227016D454DF323DF8C5A0C5DDADE3773,
-	Token_set_EndPosition_m9A2D60F9B0764CF3314FD2B124F3C5DD05A04A8C,
-	Token_get_Kind_m31AFFDBB277B54F94EDCA9A3A4EEE2893B82F1A2,
-	Token_op_Implicit_m4BEC226099D2470CA706BC10E45FFC7A2083F15C,
-	Token_ToString_m0976C25A2557D4AFA80B9031DE2FEE4B37612366,
-	Token__cctor_m3BB75A27E7365D1AB9823619A0F0C0FCA5FDF46C,
-	Lexer__ctor_mD103FDA884033C546B5010C511198D50B48AE7E8,
-	Lexer_get_Position_mB3BAD8A399F2582DCF4CAFE70F7C35C7A9B32912,
-	Lexer_set_Position_mDE71766FE6212799B1B9E6B21B3AEF11D0E9BA71,
-	Lexer_GetStringValue_m1837C0E00B514DBE70A826911A44A0E883752F6D,
-	Lexer_GetStringValue_m04F7171F73F0FA085304E74AC227159D6197849E,
-	Lexer_GetQuotedStringValue_mF93F4BCEB6B3853F1FCC67C776D053F52199814A,
-	Lexer_GetRemainingStringValue_m7A69EFB8D05BA73BA789698C1B4E253A22DE0812,
-	Lexer_IsStarStringValue_m9EBF4AE20DA73FB99FF74EB2BC3911EE5A29E06C,
-	Lexer_TryGetNumericValue_m40DBCE6925FF90ECE9E6A51EA8AEF8F26DB0A7DC,
-	Lexer_TryGetNumericValue_mD8274C443696C50305A2546411B6A357C97AF230,
-	Lexer_TryGetTimeSpanValue_mAE764F9DBC621C31F60D0C7C9171A8DE7C92DCCC,
-	Lexer_TryGetDateValue_m0AD91877B2E626081B0725260AF3B1B75D1ACAD1,
-	Lexer_TryGetDateValue_mE8A73F81F527E2C82D6B60DE1266E0438D1B5F36,
-	Lexer_TryGetDoubleValue_m0190F25B19392893FA1BB41C2967F8BF492B8BF6,
-	Lexer_IsValidToken_m681BB576065BA4F236C95A2653B174094C8A46E3,
-	Lexer_IsValidCharacter_mD3A188D1157BF19BC40FABC8210CB3C47F94D2F0,
-	Lexer_EatChar_m0061692E80AA9BE72E340069B4B5EA737F2B5409,
-	Lexer_PeekChar_m364174CE2F6379BDC3C82E5A7DC53E86B3696E61,
-	Lexer_ScanCommentOptional_m6B8B59D7AF1F2DA781BA8D9281E6414C9EEDBB96,
-	Lexer_ScanCommentOptional_m449BB87B4DD252B5F3949AD40C855A386AFFE5EE,
-	Lexer_Scan_m4B1EFD005EE0CE32D59E5B206E574DF95D32A37A,
-	Lexer__cctor_m111DA55BD1315C3FE8B047C66ACF1DBC6DEE7E51,
-	MediaTypeHeaderValue__ctor_mC1E505B6662340AA6398ECD78B6ADCED929532EF,
-	MediaTypeHeaderValue__ctor_m1BF34EE789A8F4320A0D1FA1B95ECC8A49488416,
-	MediaTypeHeaderValue__ctor_m7A802245FE04B51783822D580C393E0480FB2BF9,
-	MediaTypeHeaderValue_set_MediaType_m62C1FA46631D4CE39B31F414F635338FB223DDA2,
-	MediaTypeHeaderValue_get_Parameters_m4555F97C4BE9D975D6AF8448F3A13D9ED711998C,
-	MediaTypeHeaderValue_System_ICloneable_Clone_m8591E85BC7673878D18CC9C636C6C1B6864FC3E3,
-	MediaTypeHeaderValue_Equals_m466049867F72120AAC2408FC7265BB8ADBF595F0,
-	MediaTypeHeaderValue_GetHashCode_m52594BAC28FAB4074A318BA04B457A28BA18F0B7,
-	MediaTypeHeaderValue_Parse_m296D4860C6E4E2AF3927F6AAC53B87390B5049C5,
-	MediaTypeHeaderValue_ToString_m7EEB0E4B7883CE2F71794BDA52AE5E925E317ED3,
-	MediaTypeHeaderValue_TryParse_mD87527A98AABED076F356802E41BC82F4F3A4613,
-	MediaTypeHeaderValue_TryParseMediaType_m4461ECED0E807FEEE5337AC46FD829D07D86905D,
-	MediaTypeWithQualityHeaderValue__ctor_m7C648E935806A08121173E3F0D6E2975907558EB,
-	MediaTypeWithQualityHeaderValue_TryParseElement_m4171DD3C53819445FCFF068649079843A8366EF2,
-	MediaTypeWithQualityHeaderValue_TryParse_m72BDF6BAA4EAB7DCF3BAD92A808FFB38615F5043,
-	NameValueHeaderValue__ctor_m8F0CB241C7E0E819E625A4BB8AE7FCF479A360C8,
-	NameValueHeaderValue__ctor_m8B01AB48DBDE4B8DBC4A4EDA28A7FFBC5024E019,
-	NameValueHeaderValue__ctor_m4146411CE34CB17215D526E96B1150D317B874C6,
-	NameValueHeaderValue__ctor_mF68CEB79AC5D306A881EF051F923088C9B92D9F7,
-	NameValueHeaderValue_get_Name_m366600007BBA6900804AE33A87EBDD3C9ABC8FA1,
-	NameValueHeaderValue_set_Name_mD5E056F3D61B737E050342EE66DE77EF753B75B9,
-	NameValueHeaderValue_set_Value_mFC97320124E0441DEF0594B25805B333579894CC,
-	NameValueHeaderValue_Create_mD312D66A14556E212634800C1B1898AF2A3DCC76,
-	NameValueHeaderValue_System_ICloneable_Clone_m35FE0E1E3496299116DCB5BA002A6B0D11694A8A,
-	NameValueHeaderValue_GetHashCode_m5218397583EF6882651F56A73DB432901A29C664,
-	NameValueHeaderValue_Equals_mCE0A83D2CC4E0B87F757B76046914167BFAE4702,
-	NameValueHeaderValue_TryParsePragma_m12D5027D9D4938D0BF4812B25DB9BE73431C288B,
-	NameValueHeaderValue_TryParseParameters_m8268F570B14B0546927DDEABFF6A29CA3C33968E,
-	NameValueHeaderValue_ToString_m5761EB68E416EDFD307308A68D01326C1BE739FE,
-	NameValueHeaderValue_TryParseElement_m5CD487810730F8391DCC0BDA0167B39CB76AB80F,
-	NameValueWithParametersHeaderValue__ctor_m72AEC4FBAAD5800F4AD7B63A6E6313B1BAB4A857,
-	NameValueWithParametersHeaderValue__ctor_mA2E025173A2A5D2A1E4E73B9507C0C06FBCAE021,
-	NameValueWithParametersHeaderValue__ctor_m35959E3D711E906480BCDD856C23B708BB00D03D,
-	NameValueWithParametersHeaderValue_get_Parameters_m41E6FE97A50EF464638C215CECD3A221A1436995,
-	NameValueWithParametersHeaderValue_System_ICloneable_Clone_m111012E04BB3A64359CF27F2D85E8876E2DD24E9,
-	NameValueWithParametersHeaderValue_Equals_mE26706EE6740FF871D2DBB7DEFA525FAB9EEC772,
-	NameValueWithParametersHeaderValue_GetHashCode_m72378F4FEE4EC2079987A8C39EBD141F890E1811,
-	NameValueWithParametersHeaderValue_ToString_mDEB0D6ACEF95D92B62A90AB44CE5F0D63C8EB731,
-	NameValueWithParametersHeaderValue_TryParse_m135FFF6AC530C19593FEF1B401DBD45ADA3DA18D,
-	NameValueWithParametersHeaderValue_TryParseElement_m3761F5F7F64D24AE8BB319C809AED60E55DD9AD8,
-	Token_Check_m69ECCCF278A37DF94A52E4D171359E7B0864296C,
-	Token_TryCheck_m14A0A92A6151708F24B68D82E0EE9A3BAF998799,
-	Token_CheckComment_m2367634B3271017B48EE370AE976DC5E4EC14F63,
-	DateTime_TryParse_mA3E095A8B745A0678366128D5E2FE227E2C91A3D,
-	DateTime__cctor_m2AD75D75317AA55594581214AB9C02BCA4EED8F0,
-	U3CU3Ec__cctor_m4A8B23244579A70FB9F3F11E555A53D308311F2C,
-	U3CU3Ec__ctor_m9A38724CC49A115268645F8F3892345F3F9B4EAE,
-	U3CU3Ec_U3C_cctorU3Eb__2_0_m80216F1E55AA3D160565774C3C71AB0E9CFDF1B8,
-	EmailAddress_TryParse_mB1371F2E239B16FF4EFB7EF2F59A007C159B792B,
-	Host_TryParse_mEB5CCE082416953B6609389DAF030F053401383C,
-	Int_TryParse_mFB64D270D1201596288ED2DEDC27BFF49B83F946,
-	Long_TryParse_mDFB26C289993D3F9E27137DEE72418929B10390E,
-	MD5_TryParse_mE62125F5F8AA2FAF3E8F79C554D8B98F95625F7A,
-	MD5__cctor_m286F6673CD52E289785A1F2147D302403A8F594E,
-	U3CU3Ec__cctor_mF4AB194E0272A34D9EE8BE87EDC8DA88BCC2010E,
-	U3CU3Ec__ctor_m2C3B4C989BF4384E9CF3129BE76A7FECA5127DC6,
-	U3CU3Ec_U3C_cctorU3Eb__2_0_m8C2CBEF9B6A5EDF3859DEEA80A30C0CC4284EA40,
-	TimeSpanSeconds_TryParse_mB5F3C45067F76FEF2DEF10152100515E25D00CBA,
-	Uri_TryParse_m7F80032BE09F47E663577BA14DC788346DB3D6AA,
-	ProductHeaderValue__ctor_m1FDB52A578F2F7656BC2D30075C753AFAD1BAEEA,
-	ProductHeaderValue__ctor_mEE747EA217CA0D91A83A88A667367C07B625689E,
-	ProductHeaderValue__ctor_m053678867246D03B7BA207E951B3091F38C19E53,
-	ProductHeaderValue_get_Name_mD1D90C458F39B2A41C78975C4C28168FC8349F59,
-	ProductHeaderValue_set_Name_mF618CD65E7CF16502AE1BBB5B218EC7396DAA917,
-	ProductHeaderValue_get_Version_m6C1903232404C0D693FD44736B28D58E5D16E025,
-	ProductHeaderValue_set_Version_mCEA6D87C140E14DBBB2EC9741A3073C8575F0468,
-	ProductHeaderValue_System_ICloneable_Clone_mB3485921077E6FF7CF5EE64366F1FD082BA23A46,
-	ProductHeaderValue_Equals_m871D7AF19F9D43CD8F8CFD336B4165D8B0C52F30,
-	ProductHeaderValue_GetHashCode_m55DE1B5F363D7999E8C1B4C9B85C130B61812FBD,
-	ProductHeaderValue_TryParse_mB1243BD1DF0E0490D73CAD35563B88C7B0E6BAF7,
-	ProductHeaderValue_TryParseElement_m23226E494D4DD0FEC6E45BBCC3CA1BD3BB1D3835,
-	ProductHeaderValue_ToString_m77FF9F8D6440C4ED1C3CBB0D652CF6DC6CCF70EE,
-	ProductInfoHeaderValue__ctor_mD9BF2CDE12B065EBDC179081135CF5AF89455A10,
-	ProductInfoHeaderValue__ctor_m6F2322FE76F3D30AE406985711DA13BFAA4F4D75,
-	ProductInfoHeaderValue__ctor_mA3D30063629488C5FEC416E29556DF547333B3FE,
-	ProductInfoHeaderValue__ctor_mFFE7D5662931B39C5BFBCBE6A34F2EA7213F1E33,
-	ProductInfoHeaderValue_get_Comment_m4CD487862C4C5EF724563F3244072A65AC2E88C9,
-	ProductInfoHeaderValue_set_Comment_m238BA02817E2E39462143D916558893F60ACDC86,
-	ProductInfoHeaderValue_get_Product_m8E2281521B2D959BB05905DEF95D0DB3655DF372,
-	ProductInfoHeaderValue_set_Product_m0A1D6F61F15584924CB8BA6A6A52B6300304D2C5,
-	ProductInfoHeaderValue_System_ICloneable_Clone_mA7B0DFEF5A397EBAE3998D025BD327291E43172D,
-	ProductInfoHeaderValue_Equals_m40AE09D3F4F5B3B4CE399074B10173C442486909,
-	ProductInfoHeaderValue_GetHashCode_m84F4E3FD02586D2B5C7A2C3309DA28989DCD112E,
-	ProductInfoHeaderValue_TryParse_m467E815B35D9D2145EC1AB23146AE6CB16FE545C,
-	ProductInfoHeaderValue_TryParseElement_m73A1A2067121705EF9E5F8991ACDB8BE887F826A,
-	ProductInfoHeaderValue_ToString_mB42EE940CD446989BA2DEAE7B768AE22F0956081,
-	RangeConditionHeaderValue__ctor_m512062C0BAA8E5FA3DB6968C56A17FAF2CB07BD6,
-	RangeConditionHeaderValue__ctor_mE515E67DF6890C68A872061233973834D2081D5C,
-	RangeConditionHeaderValue_get_Date_m2ED5E9E69B54AFBD5FD8776E11E0E9515F883665,
-	RangeConditionHeaderValue_set_Date_m47802FE5AAAD0332E0746333A2E1C063C68968F2,
-	RangeConditionHeaderValue_get_EntityTag_m1350FD198EBCB954BF6FCEC5F540F9C626D78255,
-	RangeConditionHeaderValue_set_EntityTag_m50799749C4B634D41C2CFD7E3BEA207682BCAFA3,
-	RangeConditionHeaderValue_System_ICloneable_Clone_m68010CB7E7C479AF576F9F163C8CE52690633315,
-	RangeConditionHeaderValue_Equals_m0753C84752E1667E3CA35AC38592F195777B9245,
-	RangeConditionHeaderValue_GetHashCode_m2A4FF069A9D2CA56DFF72B44B91550FBC2374F5E,
-	RangeConditionHeaderValue_TryParse_m26B350E0EBE05AD8B1FFC13347C6A728DDD55D04,
-	RangeConditionHeaderValue_ToString_mE41708A8F1A3C3C348C021EEFD87E17CB029EACA,
-	RangeHeaderValue__ctor_mEFE4E458BBFFEE8EAFE8186878EE774253889387,
-	RangeHeaderValue__ctor_mEA0C6501A032F29E9554A325FF34FA71DDEE4891,
-	RangeHeaderValue_get_Ranges_mE51C7635BEA32D0B826B36425222FAAD8E547993,
-	RangeHeaderValue_get_Unit_mE8B73769921766F9E62143A00161B684ADF75A36,
-	RangeHeaderValue_System_ICloneable_Clone_m6AD3446DE13C0710E97272310C4E0706D9FD15AD,
-	RangeHeaderValue_Equals_mBF9DBF71262556A25A9DFECCA7B4AAA361E5D434,
-	RangeHeaderValue_GetHashCode_m396CBFB96A9EC3A721846E2E3384100AB3B6D711,
-	RangeHeaderValue_TryParse_m13636905E1F72767AEA9A7AF66D9CD83555DDF0E,
-	RangeHeaderValue_ToString_m2B9634EBD07463188BDF402D5466DB1225C80BF2,
-	RangeItemHeaderValue__ctor_mC3E06659BA51F8173730009AE923F55E01077FF9,
-	RangeItemHeaderValue_get_From_m26071BCED59BEC3D1129782B5271136702D7BE7A,
-	RangeItemHeaderValue_set_From_mE68CAA393B1E6AD3BE321800B27C95363E858182,
-	RangeItemHeaderValue_get_To_m3A300C4A4FEA0735A252AAC22898E75B9079F56E,
-	RangeItemHeaderValue_set_To_m04E3AD34A500C58B8E8C6EC81C3E7DD4DA675029,
-	RangeItemHeaderValue_System_ICloneable_Clone_m9B56AE16FBDC8A4841FA4CE153AF66D084A7ED7F,
-	RangeItemHeaderValue_Equals_mC2FF6B9F76953D22C7639C786ECE7AFA6AAFFF32,
-	RangeItemHeaderValue_GetHashCode_mD67A5AF0701E15A2ECAC006611B77D5FB641F660,
-	RangeItemHeaderValue_ToString_m0B4BCBB8B0CE3FA288BCF704AA5796C3249A8AF3,
-	RetryConditionHeaderValue__ctor_m1C79ED368A031158C5F620E710BB089D35F9306E,
-	RetryConditionHeaderValue__ctor_m19B655D45892F29F3C9708C9ED0CE0668122E1E9,
-	RetryConditionHeaderValue_get_Date_mE2E88426BC21B3835ADBB65D4C26B1E663EF07C7,
-	RetryConditionHeaderValue_set_Date_m58E96C31A7D0386A8A6956A3BF32B4A699A0FF03,
-	RetryConditionHeaderValue_get_Delta_m59D756602DF5BD34BB98328F125C50D56D30F341,
-	RetryConditionHeaderValue_set_Delta_m6FBEA3CE9BC793B9807353F7EC9D438169B818DD,
-	RetryConditionHeaderValue_System_ICloneable_Clone_m89D31AEA22F89B33215E7006101BF604F38FB26E,
-	RetryConditionHeaderValue_Equals_m6169E086D49E64DBD6777CA55F6E861B56340435,
-	RetryConditionHeaderValue_GetHashCode_m2918DF95769A7A6A8077FD72D075A660455FAE41,
-	RetryConditionHeaderValue_TryParse_m81342590A41DCA44A930D0EE59F98FF8F6E5CA3D,
-	RetryConditionHeaderValue_ToString_m15E59715F521516D822BB51DC5FFDCD50CF98525,
-	StringWithQualityHeaderValue__ctor_m1987D26A3FAB6124C36662FEF2395289776A1BDA,
-	StringWithQualityHeaderValue_get_Quality_mB16FC7191209C8439C68DF8701683F02CCF32231,
-	StringWithQualityHeaderValue_set_Quality_mD4ECD0A471994289199899481BE2F02D9CB84D50,
-	StringWithQualityHeaderValue_get_Value_m916D60EF782A59938AC2797FFCAD6FC545E608A3,
-	StringWithQualityHeaderValue_set_Value_m6AA46E14143ACB1F240D3BCAF62C203FA03C53D7,
-	StringWithQualityHeaderValue_System_ICloneable_Clone_m72861E0254AF4C1AC0C84CF1163E4CB9073FC9E7,
-	StringWithQualityHeaderValue_Equals_mE2F9F00222BEDE023B3B1B6645C245EB9C1FD505,
-	StringWithQualityHeaderValue_GetHashCode_mD285DE246AC1111DD51BD85B1936EDEE8A0FE0BA,
-	StringWithQualityHeaderValue_TryParse_m4299234BF82BBDF9C0D8025EDEF4E7725F743835,
-	StringWithQualityHeaderValue_TryParseElement_m290CB0828CB0F466285CAA8DA88E21CE9BFC61D1,
-	StringWithQualityHeaderValue_ToString_mB9DD827C75416CE19C236916BC5E54366D67F174,
-	TransferCodingHeaderValue__ctor_m0F01269B8EBEDBB6B9412262548AE751D0E65027,
-	TransferCodingHeaderValue__ctor_mE59525E494820D8C1541680ACE2B1963EAC76F5F,
-	TransferCodingHeaderValue_get_Parameters_m84A703FBD32E6F10BD328C9BBAE9FE91C5F22877,
-	TransferCodingHeaderValue_get_Value_m1449D2099CDCB97D651C29849876D412E65BF750,
-	TransferCodingHeaderValue_System_ICloneable_Clone_mD6C7886425480DDEC26892AC16C1B53508223911,
-	TransferCodingHeaderValue_Equals_mA34B4055C809C2BFA9F6F0D7DC5A6FBDDB365263,
-	TransferCodingHeaderValue_GetHashCode_mF381E25AA404CBE8D7E3A7E5070FDFD9C5E6A5F2,
-	TransferCodingHeaderValue_ToString_m8A61C8CAB9AC5EA64BCEB5A6EB0567A46DE7E7EA,
-	TransferCodingHeaderValue_TryParse_m86A4F97240C3EE8BAC15568085B12A9D584750FB,
-	TransferCodingHeaderValue_TryParseElement_mCDCE45F43AD28EA6081BF7B4567127C0ED87CEBC,
-	TransferCodingWithQualityHeaderValue__ctor_mC8E821716671E52FCB16117F70BED05494993CD1,
-	TransferCodingWithQualityHeaderValue_TryParse_m098E2F07230D36FD1054A2576E06D997AAAB8AA0,
-	TransferCodingWithQualityHeaderValue_TryParseElement_mB51A802078D7F2DF7C0A4786A3C0BDFBD0C4794B,
-	ViaHeaderValue__ctor_mE0D8F01E9C6F97C3321A6E63595AF17017D82FF2,
-	ViaHeaderValue_get_Comment_m4C1CC218AD4525A587FF7E6D2C7A1A86E19A4770,
-	ViaHeaderValue_set_Comment_mC438CB87E5234D1BFE81C42948F92311FD11F981,
-	ViaHeaderValue_get_ProtocolName_m48DBBAF0052142759FEEFDDCB7F3189F70445D52,
-	ViaHeaderValue_set_ProtocolName_m7C23BDD5E31B1B8FA3724E2FEEC01C3373BB4FEA,
-	ViaHeaderValue_get_ProtocolVersion_mFFE932C60DA5022662E1DC07BBBF3BD594B0B0F3,
-	ViaHeaderValue_set_ProtocolVersion_m45DBC07FD1229F3E566BECC20A332428BE1FD30E,
-	ViaHeaderValue_get_ReceivedBy_mF3191B978025363CB500AE2B8BED04FF00194A07,
-	ViaHeaderValue_set_ReceivedBy_m99CB36A125F34F69A1FC9BF63AD6F811EF33F858,
-	ViaHeaderValue_System_ICloneable_Clone_mC55CA4E702799B5ACBEC77A70B8FCEB38FAA26F3,
-	ViaHeaderValue_Equals_mE08B362F8D99BE6FC327C7F914745074F0BCA739,
-	ViaHeaderValue_GetHashCode_m9256AA38E030E2E5D912C7520B750F1F8DFA3383,
-	ViaHeaderValue_TryParse_mCF41726BAE73669BE2607507F55529F2F9175807,
-	ViaHeaderValue_TryParseElement_mB382E0FE989EE4458E44CB3D7CE6368979145547,
-	ViaHeaderValue_ToString_m4E2C1C4D027AF3A281EBCEE9ADA3B0A55889E4FE,
-	WarningHeaderValue__ctor_m69C72638122B7016432046DB60F943A0291687AA,
-	WarningHeaderValue_get_Agent_mD374CF260C631995960586D45475567EA35E6A60,
-	WarningHeaderValue_set_Agent_m253887F96977DCE21057B60CCA45FD89F468F750,
-	WarningHeaderValue_get_Code_mF75AC08E3199D32A8B91C12B49AA3C3B105E1657,
-	WarningHeaderValue_set_Code_m7B5D485961DE6EBE8C80704AFECB4DE82150E13F,
-	WarningHeaderValue_get_Date_m0C5FA9B22FAC287F991068A4B315918584757212,
-	WarningHeaderValue_set_Date_mA012565F73DDCB3652C21CBF55E596A42C915EC1,
-	WarningHeaderValue_get_Text_m903E35915246C5861367E3BAE2A748EA0CA6CE47,
-	WarningHeaderValue_set_Text_mA374FD8D24D59370A3606E8C2D38AD8440844581,
-	WarningHeaderValue_IsCodeValid_mC8DE563A73BBFBF23780DDD751264B670973CC90,
-	WarningHeaderValue_System_ICloneable_Clone_m649A475095A80603F5EC874213FC66BD1870C243,
-	WarningHeaderValue_Equals_m3CC06F5FB14158CD52D295C19DB361A1EFF0BBB8,
-	WarningHeaderValue_GetHashCode_mF1D01A134DE59012F43497A08110F08C76FC1CDD,
-	WarningHeaderValue_TryParse_mC45D9086D8C4A9B735A3C5849D56D16F8914D56A,
-	WarningHeaderValue_TryParseElement_m18BBB77084037A279ECB844BBE6816E4A67B1D6D,
-	WarningHeaderValue_ToString_m90FA84EAE55B5ED08DF7759CD87289A749B1A15D,
-	U3CPrivateImplementationDetailsU3E_ComputeStringHash_m2B741B2248956DD36B50D0303C08E172F8B57A99,
+	HeaderBucket__ctor_mBEE27301910D8A7EB13E6A9E8DD2686CC7B99C47,
+	HeaderBucket_get_HasStringValues_m6BD11FCA79834295FC94F8CD299AC7AA2085C55D,
+	HeaderBucket_get_Values_m84113C94E5ACDD5E3211CB61AEC1E94303706DC8,
+	HeaderBucket_set_Values_m2A89C8B5467D64D6AB48C39CBF812572A7301083,
+	HeaderBucket_ParsedToString_m88C51CC7860634864B2CF2EFDB2A02A25FCA9C60,
+	U3CGetEnumeratorU3Ed__19__ctor_m44F262AC78604A56B98CA0A91A749ABC453AE8D4,
+	U3CGetEnumeratorU3Ed__19_System_IDisposable_Dispose_m91E7981D8E583167F322E8B73F758FA782841CF8,
+	U3CGetEnumeratorU3Ed__19_MoveNext_mD97A8B8C219E2CFE3B60393C7BB4CAE173B598E3,
+	U3CGetEnumeratorU3Ed__19_U3CU3Em__Finally1_m69418672259B80D01FF76D8A371AEDFDD1A60553,
+	U3CGetEnumeratorU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CSystem_Collections_Generic_IEnumerableU3CSystem_StringU3EU3EU3E_get_Current_mF0F4DD69FCAA3831F06B9CB6A9B01F139CE61590,
+	U3CGetEnumeratorU3Ed__19_System_Collections_IEnumerator_Reset_m0492A9497D3A925EAC017E68D5C8EA7F29B9CF7E,
+	U3CGetEnumeratorU3Ed__19_System_Collections_IEnumerator_get_Current_mF8EDA5D9269E0C6ACF4B12EE6D0415C8151F73F0,
+	HttpRequestHeaders__ctor_m8F4A7E7F184F99F0876BC04D3CCFD4671BE30D30,
+	HttpRequestHeaders_set_Authorization_m50BF7493F9D9AD991DFB94786FEE29C4AF1824E6,
+	HttpRequestHeaders_set_CacheControl_mC06B6A4EECA792947F1D6F2AB139AA99E07DF184,
+	HttpRequestHeaders_get_Connection_m00B0A1D4FE77B396FFD1EB9F4AFAB8203FC7B74D,
+	HttpRequestHeaders_get_ConnectionClose_m28161D2C834FECBC05C8BB498575B2798D44ABD1,
+	HttpRequestHeaders_get_ConnectionKeepAlive_m2BE3F69CD51C437EAAAEE109E90CD02C5C3B3A25,
+	HttpRequestHeaders_get_Date_m8182FA5B3F64CE7C9600CA356DF4C5605E6A1C7C,
+	HttpRequestHeaders_get_Expect_m987288AFE1EC8BC7CB6E9AC2178D97C023E5BEBF,
+	HttpRequestHeaders_get_ExpectContinue_m6BE3BF48E50E6E593B07C514BF6192CA11B6ACB5,
+	HttpRequestHeaders_set_ExpectContinue_mC353618638F3039CC37FC5021B17286E2F2E850B,
+	HttpRequestHeaders_get_Host_m5C757E7248F32875E5C85554AC17E4B15E4FFF84,
+	HttpRequestHeaders_get_IfMatch_m706225E733855E74CC8436CE9915D1DD86FE323A,
+	HttpRequestHeaders_get_IfModifiedSince_m47F1AFC11E5FB3FE220721D5D45F201B5B83BE6C,
+	HttpRequestHeaders_set_IfModifiedSince_m238653CC916BCE19BFC4A470530F56F6D1C68D09,
+	HttpRequestHeaders_get_IfNoneMatch_m8E08EE0D4736C2CB9213DBBC82AA12CE15863EFB,
+	HttpRequestHeaders_get_IfUnmodifiedSince_m19B68D84FC3C7EC0719AEA354354A1AA289ED692,
+	HttpRequestHeaders_set_IfUnmodifiedSince_m4728DA10CE4197429CF929E284053F650D908968,
+	HttpRequestHeaders_get_Range_mAF9B44744CED099F7F986CDD58616C8922C81755,
+	HttpRequestHeaders_get_TransferEncoding_m7E974978D24720DC277D93F7B43A68B85FFF0697,
+	HttpRequestHeaders_get_TransferEncodingChunked_mA6D3F9DFFB9C45F7549B3DCD65A9B63096C7F117,
+	HttpRequestHeaders_get_UserAgent_m5C412E1480CA089A785E35C71C8DF3103AFAD1E7,
+	HttpRequestHeaders_AddHeaders_m55CB93C04431C1B2BABF2B8E7CC83268E4450FBE,
+	U3CU3Ec__cctor_mE895A7E61F7C54B8FDC11EE055A314AE3DAC7961,
+	U3CU3Ec__ctor_m81E5CD406297E736977DBBD77C3D4E4D97C9D623,
+	U3CU3Ec_U3Cget_ConnectionCloseU3Eb__19_0_mDEEDF345FCA121699EC5E9FB9D1B54710964C3EA,
+	U3CU3Ec_U3Cget_ConnectionKeepAliveU3Eb__22_0_m1B8787451966452077A63DD6BD911822ADB4FB53,
+	U3CU3Ec_U3Cget_ExpectContinueU3Eb__29_0_mDA8D1F42D740DC3A27674C511136689ED14BBF68,
+	U3CU3Ec_U3Cset_ExpectContinueU3Eb__30_0_mA64A8FFA9ED0C161543C3E163EB272760F7CD7E7,
+	U3CU3Ec_U3Cget_TransferEncodingChunkedU3Eb__71_0_m42D83B98418CD457AF551FDB43D9B800381FCCE3,
+	HttpResponseHeaders__ctor_mDE7692C6B84E04FC426D6E8770A985C67A231DBC,
+	HttpResponseHeaders_get_Date_m48DD5CF3CE17342874EA12EDAA297E4CCC29363C,
+	HttpResponseHeaders_get_ETag_mE5E4F9763EDC588076EBC651CF177EE1EB726BF2,
+	Token__ctor_mCB4921C7C1E0FB48D2BC5CAAB8424237A549AEEA,
+	Token_get_StartPosition_mF6C27E4C552C69157A8C0059C7321756332C0136,
+	Token_set_StartPosition_mD033F6432FF51738ACE9D500C6A7898F36C92EB3,
+	Token_get_EndPosition_m467A3D75E0A41E44152D304905C81A37FA290578,
+	Token_set_EndPosition_mA5A0F6B1FB7E9E97518CB7E1BFEC83379F58FAF1,
+	Token_get_Kind_m719D7946C47260CCC680C4BB5AC7132BBF522914,
+	Token_op_Implicit_mE54D5B2F7AB78D8864CFE9F29ABABB4142E57C1D,
+	Token_ToString_m69ECFF633D7C6B2E3BF20565FA847FB7691A1B04,
+	Token__cctor_m0F06C186EFFFDECE3695B773BE3C91992DFCB748,
+	Lexer__ctor_mC9914BE07D52012284C8E752213853776A58F193,
+	Lexer_get_Position_m08931C7A62D3CBCECEA81C489B9985EF8134BB1B,
+	Lexer_set_Position_m5B64D2840C8F9B5A9C64C4DD276E02618BC6D811,
+	Lexer_GetStringValue_m0983A7A24FB96A6BBE5E3807B649F54C42806E62,
+	Lexer_GetStringValue_m73DEA9CDD2B6160D3D2008C2CC8CB9B7FC2199AE,
+	Lexer_GetQuotedStringValue_m362EC87B4863E10BD8543052A2350903F5CBA9F1,
+	Lexer_GetRemainingStringValue_m35CBB964B7533FDE66DED817A2885006C22264D6,
+	Lexer_IsStarStringValue_m38E8D09D03D6EA943A62FE1AFD5D0A5D1ED9C0A8,
+	Lexer_TryGetNumericValue_mB7BC39C5B33D4403CE3AA5A36C450C251661380E,
+	Lexer_TryGetNumericValue_m94C1FBE546D8B38BC988258BC85B2C9BA29F1368,
+	Lexer_TryGetTimeSpanValue_m14B0CE793F65B3697AF4518DC4FB37C1E80C372E,
+	Lexer_TryGetDateValue_m4647C13EBB78AAD22AE8A5B6436A636FEA9919A7,
+	Lexer_TryGetDateValue_mDFFAFD87E6FCE27D9A4A17DD454DB793738EFE52,
+	Lexer_TryGetDoubleValue_m9B79C39C41E96A859BB63BDD7750E2E67F4BE142,
+	Lexer_IsValidToken_m8D7951A2AFE10098005CC4AFF6990F32D55FFDEC,
+	Lexer_IsValidCharacter_m6E497AA7986AB0C64BE9525515117A3C5A7305B0,
+	Lexer_EatChar_mAB1BE7D760EEF9CE8320741BC5001D4B56CED4A5,
+	Lexer_PeekChar_mD64C886447C1DC0D9930F773308A0ECDA4009C4A,
+	Lexer_ScanCommentOptional_m925A732BF9BB5BF18A7068CC6598CA644E1EEF4D,
+	Lexer_ScanCommentOptional_m799223DB84E3D4EC250039AD593F37DEC76174A7,
+	Lexer_Scan_m98965C36AEBD7BB0AB61D9B5080FABB6084E1E04,
+	Lexer__cctor_mA7CC44E4261810969F955B670379932130A0FF47,
+	MediaTypeHeaderValue__ctor_mA0F481695A65EFA13118F048FE12F8802AE55B47,
+	MediaTypeHeaderValue__ctor_mC9CB804BB78D0D52B56460A16D2690842340FDCD,
+	MediaTypeHeaderValue__ctor_m4C7DA3CEFBEF6C6AFBEDFC0A08F8CE5A461D62BF,
+	MediaTypeHeaderValue_set_MediaType_m95A50786A4C4FB3FF3821DD7A439548E314A9465,
+	MediaTypeHeaderValue_get_Parameters_m7904854856E4754C1A329C6461C5E9B16B14C0B0,
+	MediaTypeHeaderValue_System_ICloneable_Clone_mA9301A639BFC70765C7C6E53DF5847F4F4ACD1F8,
+	MediaTypeHeaderValue_Equals_m60AB7D301B12C81EA6E6CED9116B5D3A331A582E,
+	MediaTypeHeaderValue_GetHashCode_m3D48A59CE10F25759042DE43AFF508AD439B5CF8,
+	MediaTypeHeaderValue_Parse_m7463F6AF67DB8CD9838C453AA127851B5EA55DE9,
+	MediaTypeHeaderValue_ToString_m04110BF90456A9E9F97AC2A020F5054D1C76D839,
+	MediaTypeHeaderValue_TryParse_mB3AA0E459227B397A03D627465C31636BA97B86B,
+	MediaTypeHeaderValue_TryParseMediaType_m3EAF7157BCB2452AF610A834DEF7BBDACA3A81DB,
+	MediaTypeWithQualityHeaderValue__ctor_m3FC21ADE336989F99E2289FFAF13F645EECFB6B3,
+	MediaTypeWithQualityHeaderValue_TryParseElement_m9BC5B6C27E490DDD9DCE45A750208BCA4F92FD0B,
+	MediaTypeWithQualityHeaderValue_TryParse_m64AFD3ED572DBA80F6D9B113DA6035CEDDCF180B,
+	NameValueHeaderValue__ctor_m433A13001ACE32AD7535410559C794B3867B6C5E,
+	NameValueHeaderValue__ctor_m7E09EDF8355424594C5F5E4DB3DF564906352ED1,
+	NameValueHeaderValue__ctor_mE6749B3EC7A3D157803ACFCEF148DAAA41D0F3C8,
+	NameValueHeaderValue__ctor_m6E3EA8173360EEF2F9A172A7B7A43F6CBA006AB6,
+	NameValueHeaderValue_get_Name_m7AE26F6242605D39A79CB04852C5FBE9A9B0A820,
+	NameValueHeaderValue_set_Name_m68B4F83F6716CC7E39073CBB54FD4E957DBBC4C7,
+	NameValueHeaderValue_set_Value_m290E92A1D087CF73A899214B34A53F0B65F5D992,
+	NameValueHeaderValue_Create_m32C1DE042E2D0FC22B0F128C02A6E16F52FC6D0C,
+	NameValueHeaderValue_System_ICloneable_Clone_mFA330D81111B4448242CF0CD545DF450D9AB7788,
+	NameValueHeaderValue_GetHashCode_mB1806B15D386010E2B900A111A6BA4224422BA18,
+	NameValueHeaderValue_Equals_m5A14A4A78EDD4CC43D74FA9EA8965D6D52241E98,
+	NameValueHeaderValue_TryParsePragma_m0B31CE69FB6D9F4A40B7DFC91384DB74776BB14C,
+	NameValueHeaderValue_TryParseParameters_m6CB7D14D3B84BA16C62AA5E5084AA89FDDEBA793,
+	NameValueHeaderValue_ToString_m687CAB552BFF30245ACAA33B9F7BF27EE3482560,
+	NameValueHeaderValue_TryParseElement_mCF5B9F0083FD93A3C4BCB4C24C865D9E29EAC424,
+	NameValueWithParametersHeaderValue__ctor_m35814368B7C245E71B1C81CACCAA33C69C4D928C,
+	NameValueWithParametersHeaderValue__ctor_mFD9D852A012C5E2811F8A13D24013599EA0AD251,
+	NameValueWithParametersHeaderValue__ctor_mD144559B20559DD9A020A2AC5E313F48B9A4EF20,
+	NameValueWithParametersHeaderValue_get_Parameters_m42E6EAF1C6B9B781D9FE78234088217849649B6C,
+	NameValueWithParametersHeaderValue_System_ICloneable_Clone_mD7707353175FDBBF0AF0E7A94CEA31287335A805,
+	NameValueWithParametersHeaderValue_Equals_mE23F761399AF60BA9CFD1B277F476E139679147C,
+	NameValueWithParametersHeaderValue_GetHashCode_m4FE4E3773596DC7E41E1BA80EC046DB87865A0B0,
+	NameValueWithParametersHeaderValue_ToString_m6F783C98B907157DFAA1C5D7C7E00DF954A62021,
+	NameValueWithParametersHeaderValue_TryParse_m0F18874A39C5358E92EF507C8DEBA1763DBD6DC6,
+	NameValueWithParametersHeaderValue_TryParseElement_mE27F27C1DC5F569FC9740D29DA79AF9B8A2740BC,
+	Token_Check_mB5F7E8EC48CB344A8E43F1A0DA60C7F242C20A39,
+	Token_TryCheck_m6FA2F380676F0D1AC7A218531D0A83B96513E982,
+	Token_CheckComment_m57C50FFBDCDFCF70A87FCB21469238FF7F5B7AF0,
+	DateTime_TryParse_mC76353FF4215A0A511DE17EC62BE803BDC4992B1,
+	DateTime__cctor_mC067195D1005B59F9460505D52066B5D1F8D6389,
+	U3CU3Ec__cctor_m90F64A831219E2897E0E6F00BB6E3BDAC4AAE655,
+	U3CU3Ec__ctor_mC1EF1EDA30A167528E33045FDFC435A7C2F0D259,
+	U3CU3Ec_U3C_cctorU3Eb__2_0_mAF3896E0CF2FE95C3ABA286475AB34EF9FE332F7,
+	EmailAddress_TryParse_m69F718C03D68CDEFDFCD89549190820E8BDF1424,
+	Host_TryParse_m863EA0E0120722F7CE236C43CAA49593848A5A2A,
+	Int_TryParse_m29640F76C7C24C410282BB98B4B5B92A8EF5E183,
+	Long_TryParse_m360B5F92BA6042129B41712214D57F70B22CE7BC,
+	MD5_TryParse_m85D7B670F85A4C7E05054E96745AB7EE362A4DA5,
+	MD5__cctor_m2C64730C90E0519E0971242AD35B4094D9B503CB,
+	U3CU3Ec__cctor_mEFD785A4ADEB2A63744C0B4B86C400AF6CC0D46E,
+	U3CU3Ec__ctor_m3CB73B42C77C3703BB4C049E518DDF45839A3E26,
+	U3CU3Ec_U3C_cctorU3Eb__2_0_m5379E3C7F4CBB9FF9EB2FC92ADA57A123127B1A4,
+	TimeSpanSeconds_TryParse_mA97A130B00D04BF7FE05230D5FDC94A392545E63,
+	Uri_TryParse_m400CBF553BD6B56FF5C2A6AEFA1CC67C223102E2,
+	ProductHeaderValue__ctor_mAA3C8BBA0D574A8EE59F533467A1C857D62190AB,
+	ProductHeaderValue__ctor_m4FA38587301049FC778CD4F18A9948C672664B47,
+	ProductHeaderValue__ctor_m3A1F6F855A3089E5CAFC36EE70F18E7F58C0C1ED,
+	ProductHeaderValue_get_Name_mEF7E58A39225A1C6BB104BA28281A1BD9A94880A,
+	ProductHeaderValue_set_Name_mD172B50AA481C79D81A8AD6CD081BD12D8F56BBE,
+	ProductHeaderValue_get_Version_m705460F46610364A2C587D225E67D53455005627,
+	ProductHeaderValue_set_Version_m0C8E9BA453698C94C90CE8A432871536371134F4,
+	ProductHeaderValue_System_ICloneable_Clone_m9F9F724A9F96C61061D0229F0D71A9A7B330C250,
+	ProductHeaderValue_Equals_m559DED8269C99E9BB169EED201B806583895607B,
+	ProductHeaderValue_GetHashCode_m97AF56F4931BCF068EAB6F113741595FD5A524D6,
+	ProductHeaderValue_TryParse_m7FB369653D9E88E6A101DE89FE1FDD8E3FC23266,
+	ProductHeaderValue_TryParseElement_mC7138C1BFC78B3FB3BF89337FE9B04611DB0707D,
+	ProductHeaderValue_ToString_mD8568FD6AE8BBE1AEE0A842DCD227921B22BD1DE,
+	ProductInfoHeaderValue__ctor_mF5028C637BE8B9FBD88D05F0F470CE90215D7AD1,
+	ProductInfoHeaderValue__ctor_m6EDF7DED02D2E8E5293CD66E8113BC6F92674876,
+	ProductInfoHeaderValue__ctor_m6554DBBED5A9EA028F7A78362E5D320E845C06AD,
+	ProductInfoHeaderValue__ctor_m5792C241B85966351F4DC763804B99A15E18E43E,
+	ProductInfoHeaderValue_get_Comment_m9AC16E3B59DAEB7ABF7D66831A6098903AA77A7A,
+	ProductInfoHeaderValue_set_Comment_mBBD323CDCF253576925C082EF3D0A5A6042920AC,
+	ProductInfoHeaderValue_get_Product_mFAC99EEEB7162AAFE149ED3CDEBECDDE4EF13142,
+	ProductInfoHeaderValue_set_Product_m72C6950A89A0D8F1D5032C7D0EC98359027CB28C,
+	ProductInfoHeaderValue_System_ICloneable_Clone_m36DAC33B82E650C64FE4129B457A94088593C2C5,
+	ProductInfoHeaderValue_Equals_m821D5CFC911386E329E28201DD52E635E46CB6BF,
+	ProductInfoHeaderValue_GetHashCode_m5CFAB2E32D0DFDB21420CBAADFC5968D4B6957E0,
+	ProductInfoHeaderValue_TryParse_m95AA77746E9533D73919CE228642909ECDC974F3,
+	ProductInfoHeaderValue_TryParseElement_mF9715E3635C42FF0BF24CD044C7FC42D22A2A76A,
+	ProductInfoHeaderValue_ToString_m8B50309AC04E9F73A9BE1F479AA42BC2DFEB0969,
+	RangeConditionHeaderValue__ctor_m36EE39036958F229BBAEA1E4622AAD2AEFA99356,
+	RangeConditionHeaderValue__ctor_m3AE46A598398B61D1F4EF7E1446E8D42406E059C,
+	RangeConditionHeaderValue_get_Date_m4595208568F5A9C5BB87982AA9345465EE06D8BA,
+	RangeConditionHeaderValue_set_Date_m666B59E57CE7558D99FA8E6CA0B51379E580BF05,
+	RangeConditionHeaderValue_get_EntityTag_mEB3C598588943AA67CB8D2D0F884583F85EF57A8,
+	RangeConditionHeaderValue_set_EntityTag_mA63067849D6E1CB02963E918D4769FB2665EAF98,
+	RangeConditionHeaderValue_System_ICloneable_Clone_m0C09099373FAA9C440395B20ED1AD76821175DB8,
+	RangeConditionHeaderValue_Equals_m16D005C5E0B3DDB9060BE4DD3663818E1838A7E6,
+	RangeConditionHeaderValue_GetHashCode_m16C68F76F6737E5DDA98FD140043105E25D04CE6,
+	RangeConditionHeaderValue_TryParse_mC018CCBEA09802605290F3F693D4284E69C440C1,
+	RangeConditionHeaderValue_ToString_m08A4196A618595B0E8FFA8613E4FAE17FC50FB4B,
+	RangeHeaderValue__ctor_m7500CD8BD4B2BD343CE961AF1A14FDD4704E387A,
+	RangeHeaderValue__ctor_mD15CEC7296F758D47F67565473367169DDB89EF0,
+	RangeHeaderValue_get_Ranges_m4E7C1DBB5B36C7DC49B0FC77E43074F2C168E5CF,
+	RangeHeaderValue_get_Unit_mEA06EAE4523E286830E87058CBF51D74EAA122C0,
+	RangeHeaderValue_System_ICloneable_Clone_mEEB463F9A1113D54A235B1DCE20628311477E857,
+	RangeHeaderValue_Equals_m684C074BB9B2A00F01C2039C509CCF0C2A5A7D1A,
+	RangeHeaderValue_GetHashCode_m014F7EACE6EA2122612CE2B077438319BED3F238,
+	RangeHeaderValue_TryParse_m6740DDFD00D61AF5F16AB4F4409266E4547B1D3B,
+	RangeHeaderValue_ToString_m3D61F81CCF602F960F45226095C9C55B3266CA20,
+	RangeItemHeaderValue__ctor_m53EB1D1A56CFDE11A0A464C71A539F1E86D840CB,
+	RangeItemHeaderValue_get_From_m2686E040FF36718EBAA8C520D6DC0FF6111A82BA,
+	RangeItemHeaderValue_set_From_mA51DC2B70D40B46BA2CF8CBD31465D4975209134,
+	RangeItemHeaderValue_get_To_m17B002F54B833FCC9C4D6688481C54B105BF0DAE,
+	RangeItemHeaderValue_set_To_m612B7E1CFD66F8FA238A6C7E996EF32221960E8E,
+	RangeItemHeaderValue_System_ICloneable_Clone_m0ED3CC624520324E8B8F63A6616493CB5A46EEA1,
+	RangeItemHeaderValue_Equals_mF2043235FEBCF1770F684BC9F00CD604ACB329C3,
+	RangeItemHeaderValue_GetHashCode_mCA9D95CF26FF7E9FA3341CBEE6E6FB326FE109CA,
+	RangeItemHeaderValue_ToString_m1BF322122B0496B42FFF59D708EFF5ED9D084CEB,
+	RetryConditionHeaderValue__ctor_m2FE2262F476D32C43D326C203F2A9474E0FE8C31,
+	RetryConditionHeaderValue__ctor_m1C4A5953BEDFE1FA07F89C8596F2B6CA8EC772CD,
+	RetryConditionHeaderValue_get_Date_m776E2E458AA916CEA49B3F23F98F1DBFBFB56C64,
+	RetryConditionHeaderValue_set_Date_mA19133D999A96D2E32EEA06730BE78D73D556EBA,
+	RetryConditionHeaderValue_get_Delta_m3942C91E9011CC9F9017A40C5DE8C33E660D42F4,
+	RetryConditionHeaderValue_set_Delta_m5458D807FF674D1537255615304E046A587988CC,
+	RetryConditionHeaderValue_System_ICloneable_Clone_mA941F4D9F197D9353A605BB11D8868E72D321899,
+	RetryConditionHeaderValue_Equals_m4A934A6164D58364408017330A0404ECADBA4A18,
+	RetryConditionHeaderValue_GetHashCode_m935084CDCFD1CA1FC4575F1CFF188A95E50DF33A,
+	RetryConditionHeaderValue_TryParse_m52B271AE928D9D67F27F2B352439F9241BBD12E4,
+	RetryConditionHeaderValue_ToString_mD97463091BA7B079FC9F64F14008B38444B6B2F5,
+	StringWithQualityHeaderValue__ctor_m22644E191CEFA123E234C47AA84EEE4E65D04118,
+	StringWithQualityHeaderValue_get_Quality_mAC655479F9C00273E692432CE219F4A2179DB6EE,
+	StringWithQualityHeaderValue_set_Quality_m4EC99FC29137184F7F44C0A907AE9F875F09E7A0,
+	StringWithQualityHeaderValue_get_Value_mC60EF0DE7B1BF27934C914C470AEDF3665DB048C,
+	StringWithQualityHeaderValue_set_Value_m09B253A85E6C34526628E1E8673E2119C0489BD0,
+	StringWithQualityHeaderValue_System_ICloneable_Clone_mF7931829D44ACED7D82816BD5EB8589639D1772A,
+	StringWithQualityHeaderValue_Equals_m132CD7CC7691FE89A880602DAD39863813F0774D,
+	StringWithQualityHeaderValue_GetHashCode_m6910540A23C3C63F106691628A95B71DB03F0EEA,
+	StringWithQualityHeaderValue_TryParse_m583D5D7B2A03AC401C7F423D3F44E18D95AE2AF9,
+	StringWithQualityHeaderValue_TryParseElement_m2BD537DD1DE5678AD25A30959E0D9530A71D7AF0,
+	StringWithQualityHeaderValue_ToString_mA3BFAFE2E496C1018BAA94EAC783223602433368,
+	TransferCodingHeaderValue__ctor_m132727C73CBDA9FF7004AD4467C6E7C1E169812A,
+	TransferCodingHeaderValue__ctor_mD66E9A51919D44F6D6DB394DF81EA0F68E659026,
+	TransferCodingHeaderValue_get_Parameters_mCC21FB42B97CCE944E4DF1572C1DF59D8468C284,
+	TransferCodingHeaderValue_get_Value_m2FA6CD11BD65994A7814810872E8964F60C7C7CC,
+	TransferCodingHeaderValue_System_ICloneable_Clone_mE89F31836C28EA9792AD4E5F58765863E8EE2864,
+	TransferCodingHeaderValue_Equals_m5A60F9BD525D317B13ACC16BCE257A29F1261DCE,
+	TransferCodingHeaderValue_GetHashCode_mDF45B0DFC54F6C3ABD0E16C048E623BEBF8CA7E5,
+	TransferCodingHeaderValue_ToString_mCAF9FF5AD9F5ED950363D49E11BA45533EDF27B2,
+	TransferCodingHeaderValue_TryParse_m4C4354319844AD70E60E3F1C51E8EE57450D4DA8,
+	TransferCodingHeaderValue_TryParseElement_mB62C1B209CE4CEF0F2D6976AE556FC0469B11A5D,
+	TransferCodingWithQualityHeaderValue__ctor_m9A8BAE53E0F47B9D453835453A88A37EC6FFB46A,
+	TransferCodingWithQualityHeaderValue_TryParse_m0D8806BCCED0721101E4BC73C72F8439D973A31A,
+	TransferCodingWithQualityHeaderValue_TryParseElement_m720F1A2FA53F86C3C996928B80A7E8F2D8253C1C,
+	ViaHeaderValue__ctor_mFCB66C47D13CC6E22DAE170D599E3FBFFB64B34C,
+	ViaHeaderValue_get_Comment_mE64873E1CF0B75F142A8FB8E19B1014261F31D14,
+	ViaHeaderValue_set_Comment_m638A22007538C93D0A10C3980595690386B704F8,
+	ViaHeaderValue_get_ProtocolName_m3B0911C1531EAE45A792C0D1B4F06C7DBEDED427,
+	ViaHeaderValue_set_ProtocolName_m3C592372924D2AEB39C5C8D7A40846043F98599B,
+	ViaHeaderValue_get_ProtocolVersion_mC84E46675CC4C01A42ACD8627A9E26FD2FD1D078,
+	ViaHeaderValue_set_ProtocolVersion_mFC4E72A4FC314E6035E7728EF15DD1EDBFAA3E6B,
+	ViaHeaderValue_get_ReceivedBy_mAA62529FF4C830B92EB0F0194A380E468F79A40E,
+	ViaHeaderValue_set_ReceivedBy_mC9E805DAF6AA8428343E20064C5839DB12143E13,
+	ViaHeaderValue_System_ICloneable_Clone_mFF7CA7EB0866EE3E3E1E853164EAFA65062E5AEE,
+	ViaHeaderValue_Equals_mD0DF3141FB4C8B36B9F0C4F029E12129F4CA5A34,
+	ViaHeaderValue_GetHashCode_m9737DB96362095F70F0CAC5D13A28E3C67C38BF6,
+	ViaHeaderValue_TryParse_m67FE9DFED7C3DF1AD0E3BC921AF0C1059221CDA7,
+	ViaHeaderValue_TryParseElement_m26E8A31B4189BAE593EB4B71832BDF34B5210069,
+	ViaHeaderValue_ToString_m59AEA45A248D5A9582C6454D45CA839288603F5A,
+	WarningHeaderValue__ctor_m8EC782E027A4FAD36F14185EA0339989DA6CBD1C,
+	WarningHeaderValue_get_Agent_mBB8FDD6DDAED023C5BBE179729D565F027493B53,
+	WarningHeaderValue_set_Agent_m84FE2850D24138425BF066007BBD6D5696BAD7E7,
+	WarningHeaderValue_get_Code_mDDDCA9F592C7CA62573613873E09640C80F569AF,
+	WarningHeaderValue_set_Code_m3F1255D47C63322FC54D950791388FC3B1AEF705,
+	WarningHeaderValue_get_Date_m379DD05609BDED6596B948722AE825B29B5F1FA2,
+	WarningHeaderValue_set_Date_m0D64F712EAF79C6EF07E0AEB066E4655F0FCD012,
+	WarningHeaderValue_get_Text_m7A157071AA7F53BA07707996439DA3D7EFF63393,
+	WarningHeaderValue_set_Text_mD61BAE36BBCB1962F27B821AEA32BC0D6B19BCDF,
+	WarningHeaderValue_IsCodeValid_mF53534F326963006FDB6E58D684EF7EAA180C218,
+	WarningHeaderValue_System_ICloneable_Clone_m5C7F86E63643875DFEFE2E34916CA89A8CC4327D,
+	WarningHeaderValue_Equals_m5DD12E18061B1DE9B3A0A10B20F958D12CE99FA6,
+	WarningHeaderValue_GetHashCode_m1E9211574FC34ECA1E11556D4AB775478CA13E1F,
+	WarningHeaderValue_TryParse_mCBF8ABD27A0AC8D1BDA537C70E8236FF32A3C8FC,
+	WarningHeaderValue_TryParseElement_m052168B015D5B778936B980C1684BC1241F3C534,
+	WarningHeaderValue_ToString_m13FFBEF19104EDBA88C8853FFAD6798E5426A2BC,
+	U3CPrivateImplementationDetailsU3E_ComputeStringHash_m89EEC13F1D1F9551E27C622A17AF4D8D892E0B5A,
 };
-extern void U3CSendAsyncU3Ed__99_MoveNext_mD015CC1B55C285519224F811D1CA69F527F8F633_AdjustorThunk (void);
-extern void U3CSendAsyncU3Ed__99_SetStateMachine_mC683070F624F909DF81C8BAFD48719411A51F55A_AdjustorThunk (void);
-extern void U3CSendAsyncWorkerU3Ed__47_MoveNext_mE32A14C1E715F40E33134DD8478CDFA53F9B0195_AdjustorThunk (void);
-extern void U3CSendAsyncWorkerU3Ed__47_SetStateMachine_mFAEEB15454DF7D3F33C3FD1DC98B9938FAF55BF4_AdjustorThunk (void);
-extern void U3CCreateContentReadStreamAsyncU3Ed__12_MoveNext_m276E4611E6EDC86BD0D8980934F2A971B86AC292_AdjustorThunk (void);
-extern void U3CCreateContentReadStreamAsyncU3Ed__12_SetStateMachine_mE4E83E60859548E09AC74409A5B872A61A165F4F_AdjustorThunk (void);
-extern void U3CLoadIntoBufferAsyncU3Ed__17_MoveNext_m560ECBE51E568A8DCDD028DB6F4C04C8D5A7EC6B_AdjustorThunk (void);
-extern void U3CLoadIntoBufferAsyncU3Ed__17_SetStateMachine_mC2B29647424180EE9132361AB7755EF32205D959_AdjustorThunk (void);
-extern void U3CReadAsStreamAsyncU3Ed__18_MoveNext_m1410EB7E15AA9E28388958F56D822866B40164B5_AdjustorThunk (void);
-extern void U3CReadAsStreamAsyncU3Ed__18_SetStateMachine_mF21531FC0FD728DA2B313504379780D201111D69_AdjustorThunk (void);
-extern void Token__ctor_m4D769FCEE4295A5E0B04C3A5E4676BF6F1EEA76B_AdjustorThunk (void);
-extern void Token_get_StartPosition_mD6FD9852CE20DF1154E2AF279501D86B5E1233C8_AdjustorThunk (void);
-extern void Token_set_StartPosition_m25634DC149D471692C9AD91B9B2998CAFE45FAC2_AdjustorThunk (void);
-extern void Token_get_EndPosition_mC282EF9227016D454DF323DF8C5A0C5DDADE3773_AdjustorThunk (void);
-extern void Token_set_EndPosition_m9A2D60F9B0764CF3314FD2B124F3C5DD05A04A8C_AdjustorThunk (void);
-extern void Token_get_Kind_m31AFFDBB277B54F94EDCA9A3A4EEE2893B82F1A2_AdjustorThunk (void);
-extern void Token_ToString_m0976C25A2557D4AFA80B9031DE2FEE4B37612366_AdjustorThunk (void);
+extern void U3CSendAsyncWorkerU3Ed__47_MoveNext_m83AA95946D2BCEC12F2A28C0E438819938ECC6C9_AdjustorThunk (void);
+extern void U3CSendAsyncWorkerU3Ed__47_SetStateMachine_mDA8B902BFD386F474AE7314EEA1142C3C765EF19_AdjustorThunk (void);
+extern void U3CSendAsyncU3Ed__65_MoveNext_m2A07123CEC3A27A251CECC989A6074F35CFBEB30_AdjustorThunk (void);
+extern void U3CSendAsyncU3Ed__65_SetStateMachine_m3552D85BA0C0A65706A4C53EDBC533D3C4339D2D_AdjustorThunk (void);
+extern void U3CCreateContentReadStreamAsyncU3Ed__12_MoveNext_mF2027F6FF21106FF9C44CE61AB05C11F4491E5BD_AdjustorThunk (void);
+extern void U3CCreateContentReadStreamAsyncU3Ed__12_SetStateMachine_m1D30813C7CF2DCBAF2D8810A48D90F33E3455E4D_AdjustorThunk (void);
+extern void U3CLoadIntoBufferAsyncU3Ed__17_MoveNext_mA6F34CF04479BCFE9277EDB0AEEBB59353DD658F_AdjustorThunk (void);
+extern void U3CLoadIntoBufferAsyncU3Ed__17_SetStateMachine_mB4F43A1B35EFF8C4251CC33EDB7892DCC60DD3C4_AdjustorThunk (void);
+extern void U3CReadAsStreamAsyncU3Ed__18_MoveNext_m91A87731CA5132AC0AA2DC257BA0F447D5A53A23_AdjustorThunk (void);
+extern void U3CReadAsStreamAsyncU3Ed__18_SetStateMachine_m1AE80D430B6880C88D438D67281BAB0D944D9D64_AdjustorThunk (void);
+extern void Token__ctor_mCB4921C7C1E0FB48D2BC5CAAB8424237A549AEEA_AdjustorThunk (void);
+extern void Token_get_StartPosition_mF6C27E4C552C69157A8C0059C7321756332C0136_AdjustorThunk (void);
+extern void Token_set_StartPosition_mD033F6432FF51738ACE9D500C6A7898F36C92EB3_AdjustorThunk (void);
+extern void Token_get_EndPosition_m467A3D75E0A41E44152D304905C81A37FA290578_AdjustorThunk (void);
+extern void Token_set_EndPosition_mA5A0F6B1FB7E9E97518CB7E1BFEC83379F58FAF1_AdjustorThunk (void);
+extern void Token_get_Kind_m719D7946C47260CCC680C4BB5AC7132BBF522914_AdjustorThunk (void);
+extern void Token_ToString_m69ECFF633D7C6B2E3BF20565FA847FB7691A1B04_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[17] = 
 {
-	{ 0x06000029, U3CSendAsyncU3Ed__99_MoveNext_mD015CC1B55C285519224F811D1CA69F527F8F633_AdjustorThunk },
-	{ 0x0600002A, U3CSendAsyncU3Ed__99_SetStateMachine_mC683070F624F909DF81C8BAFD48719411A51F55A_AdjustorThunk },
-	{ 0x06000038, U3CSendAsyncWorkerU3Ed__47_MoveNext_mE32A14C1E715F40E33134DD8478CDFA53F9B0195_AdjustorThunk },
-	{ 0x06000039, U3CSendAsyncWorkerU3Ed__47_SetStateMachine_mFAEEB15454DF7D3F33C3FD1DC98B9938FAF55BF4_AdjustorThunk },
-	{ 0x0600004C, U3CCreateContentReadStreamAsyncU3Ed__12_MoveNext_m276E4611E6EDC86BD0D8980934F2A971B86AC292_AdjustorThunk },
-	{ 0x0600004D, U3CCreateContentReadStreamAsyncU3Ed__12_SetStateMachine_mE4E83E60859548E09AC74409A5B872A61A165F4F_AdjustorThunk },
-	{ 0x0600004E, U3CLoadIntoBufferAsyncU3Ed__17_MoveNext_m560ECBE51E568A8DCDD028DB6F4C04C8D5A7EC6B_AdjustorThunk },
-	{ 0x0600004F, U3CLoadIntoBufferAsyncU3Ed__17_SetStateMachine_mC2B29647424180EE9132361AB7755EF32205D959_AdjustorThunk },
-	{ 0x06000050, U3CReadAsStreamAsyncU3Ed__18_MoveNext_m1410EB7E15AA9E28388958F56D822866B40164B5_AdjustorThunk },
-	{ 0x06000051, U3CReadAsStreamAsyncU3Ed__18_SetStateMachine_mF21531FC0FD728DA2B313504379780D201111D69_AdjustorThunk },
-	{ 0x06000166, Token__ctor_m4D769FCEE4295A5E0B04C3A5E4676BF6F1EEA76B_AdjustorThunk },
-	{ 0x06000167, Token_get_StartPosition_mD6FD9852CE20DF1154E2AF279501D86B5E1233C8_AdjustorThunk },
-	{ 0x06000168, Token_set_StartPosition_m25634DC149D471692C9AD91B9B2998CAFE45FAC2_AdjustorThunk },
-	{ 0x06000169, Token_get_EndPosition_mC282EF9227016D454DF323DF8C5A0C5DDADE3773_AdjustorThunk },
-	{ 0x0600016A, Token_set_EndPosition_m9A2D60F9B0764CF3314FD2B124F3C5DD05A04A8C_AdjustorThunk },
-	{ 0x0600016B, Token_get_Kind_m31AFFDBB277B54F94EDCA9A3A4EEE2893B82F1A2_AdjustorThunk },
-	{ 0x0600016D, Token_ToString_m0976C25A2557D4AFA80B9031DE2FEE4B37612366_AdjustorThunk },
+	{ 0x0600000B, U3CSendAsyncWorkerU3Ed__47_MoveNext_m83AA95946D2BCEC12F2A28C0E438819938ECC6C9_AdjustorThunk },
+	{ 0x0600000C, U3CSendAsyncWorkerU3Ed__47_SetStateMachine_mDA8B902BFD386F474AE7314EEA1142C3C765EF19_AdjustorThunk },
+	{ 0x0600001B, U3CSendAsyncU3Ed__65_MoveNext_m2A07123CEC3A27A251CECC989A6074F35CFBEB30_AdjustorThunk },
+	{ 0x0600001C, U3CSendAsyncU3Ed__65_SetStateMachine_m3552D85BA0C0A65706A4C53EDBC533D3C4339D2D_AdjustorThunk },
+	{ 0x0600002F, U3CCreateContentReadStreamAsyncU3Ed__12_MoveNext_mF2027F6FF21106FF9C44CE61AB05C11F4491E5BD_AdjustorThunk },
+	{ 0x06000030, U3CCreateContentReadStreamAsyncU3Ed__12_SetStateMachine_m1D30813C7CF2DCBAF2D8810A48D90F33E3455E4D_AdjustorThunk },
+	{ 0x06000031, U3CLoadIntoBufferAsyncU3Ed__17_MoveNext_mA6F34CF04479BCFE9277EDB0AEEBB59353DD658F_AdjustorThunk },
+	{ 0x06000032, U3CLoadIntoBufferAsyncU3Ed__17_SetStateMachine_mB4F43A1B35EFF8C4251CC33EDB7892DCC60DD3C4_AdjustorThunk },
+	{ 0x06000033, U3CReadAsStreamAsyncU3Ed__18_MoveNext_m91A87731CA5132AC0AA2DC257BA0F447D5A53A23_AdjustorThunk },
+	{ 0x06000034, U3CReadAsStreamAsyncU3Ed__18_SetStateMachine_m1AE80D430B6880C88D438D67281BAB0D944D9D64_AdjustorThunk },
+	{ 0x06000151, Token__ctor_mCB4921C7C1E0FB48D2BC5CAAB8424237A549AEEA_AdjustorThunk },
+	{ 0x06000152, Token_get_StartPosition_mF6C27E4C552C69157A8C0059C7321756332C0136_AdjustorThunk },
+	{ 0x06000153, Token_set_StartPosition_mD033F6432FF51738ACE9D500C6A7898F36C92EB3_AdjustorThunk },
+	{ 0x06000154, Token_get_EndPosition_m467A3D75E0A41E44152D304905C81A37FA290578_AdjustorThunk },
+	{ 0x06000155, Token_set_EndPosition_mA5A0F6B1FB7E9E97518CB7E1BFEC83379F58FAF1_AdjustorThunk },
+	{ 0x06000156, Token_get_Kind_m719D7946C47260CCC680C4BB5AC7132BBF522914_AdjustorThunk },
+	{ 0x06000158, Token_ToString_m69ECFF633D7C6B2E3BF20565FA847FB7691A1B04_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[570] = 
+static const int32_t s_InvokerIndices[549] = 
 {
-	15979,
-	10532,
-	8551,
-	8390,
-	10532,
-	10280,
-	8493,
-	10341,
-	8493,
-	8672,
-	3953,
-	867,
-	16033,
-	10532,
-	867,
-	0,
-	0,
-	0,
-	0,
-	0,
-	10532,
-	10532,
-	8493,
-	10341,
-	10281,
-	10341,
-	8551,
-	10532,
-	8390,
-	6215,
-	7604,
-	2332,
-	15135,
-	3953,
-	8672,
-	16033,
-	10532,
-	6215,
-	6215,
-	8551,
-	10532,
-	8551,
-	15135,
-	14390,
-	14375,
-	4924,
-	10341,
-	10281,
-	8672,
-	8390,
-	3953,
-	2326,
-	2326,
-	16033,
-	3953,
-	10532,
-	8551,
-	10341,
-	10014,
-	7604,
-	3961,
-	10341,
-	15460,
-	10532,
-	8390,
-	10341,
-	7598,
-	10341,
-	0,
-	0,
-	10532,
-	8494,
-	8493,
-	8390,
-	2648,
-	10532,
-	8551,
-	10532,
-	8551,
-	10532,
-	8551,
-	10532,
-	8390,
-	0,
-	10532,
-	4924,
-	10532,
-	8390,
-	3953,
-	8551,
-	15979,
-	15979,
-	15979,
-	10341,
-	15979,
-	15979,
-	13988,
-	6215,
-	6215,
-	10280,
-	10341,
-	16033,
-	10532,
-	8551,
-	4953,
-	4953,
-	10341,
-	8551,
-	10341,
-	10341,
-	8551,
-	10341,
-	8551,
-	15135,
-	10341,
-	10532,
-	8390,
-	10177,
-	10341,
-	8493,
-	10341,
-	8551,
-	10341,
-	10177,
-	10341,
-	8551,
-	8551,
-	10280,
-	8493,
-	10341,
-	10532,
-	8390,
-	10341,
-	8551,
-	4942,
-	4925,
-	10341,
-	8390,
-	3961,
-	6021,
-	4953,
-	10532,
-	10341,
-	8551,
-	10341,
-	8551,
-	10341,
-	6215,
-	10280,
-	13981,
-	12994,
-	12984,
-	10341,
-	10341,
-	10034,
-	8260,
-	10177,
-	8390,
-	10034,
-	8260,
-	10034,
-	8260,
-	10177,
-	8390,
-	10177,
-	8390,
-	10341,
-	10177,
-	8390,
-	10177,
-	8390,
-	10177,
-	8390,
-	10177,
-	8390,
-	10341,
-	10177,
-	8390,
-	10177,
-	8390,
-	10034,
-	8260,
-	10341,
-	6215,
-	10280,
-	15463,
-	13981,
-	10341,
-	10532,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	12994,
-	12984,
-	10532,
-	8551,
-	10341,
-	10341,
-	6215,
-	10280,
-	15463,
-	10341,
-	13981,
-	10532,
-	10014,
-	8242,
-	10177,
-	10014,
-	8242,
-	10014,
-	8242,
-	10341,
-	10341,
-	6215,
-	10280,
-	13981,
-	10341,
-	10532,
-	15979,
-	10177,
-	8390,
-	10341,
-	8551,
-	10341,
-	6215,
-	10280,
-	15463,
-	13981,
-	12984,
-	12994,
-	10341,
-	16033,
-	0,
-	0,
-	0,
-	0,
-	0,
-	4942,
-	0,
-	0,
-	7604,
-	10341,
-	8551,
-	10341,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	8551,
-	10341,
-	8551,
-	10341,
-	10014,
-	8242,
-	10341,
-	8551,
-	10341,
-	10341,
-	8551,
-	10005,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	16033,
-	10532,
-	8493,
-	4953,
-	4953,
-	2140,
-	1097,
-	3106,
-	3106,
-	7604,
-	3097,
-	6215,
-	10341,
-	10341,
-	7604,
-	6215,
-	3097,
-	14390,
-	10341,
-	0,
-	0,
-	0,
-	3961,
-	15284,
-	0,
-	0,
-	0,
-	4953,
-	10177,
-	10341,
-	8551,
-	10341,
-	8493,
-	10532,
-	10177,
-	10532,
-	9932,
-	10532,
-	10341,
-	10532,
-	8551,
-	8551,
-	10341,
-	10001,
-	10005,
-	10341,
-	10001,
-	8228,
-	10341,
-	10341,
-	10005,
-	8234,
-	10341,
-	10005,
-	8234,
-	10341,
-	10341,
-	10001,
-	10341,
-	8551,
-	16033,
-	10532,
-	6215,
-	6215,
-	6215,
-	6215,
-	10532,
-	10005,
-	10341,
-	2549,
-	10280,
-	8493,
-	10280,
-	8493,
-	10280,
-	15289,
-	10341,
-	16033,
-	8551,
-	10280,
-	8493,
-	7621,
-	3979,
-	7621,
-	7597,
-	6340,
-	3196,
-	3196,
-	5510,
-	3196,
-	13981,
-	3196,
-	15135,
-	15146,
-	10532,
-	10280,
-	6021,
-	2979,
-	7851,
-	16033,
-	8551,
-	8551,
-	10532,
-	8551,
-	10341,
-	10341,
-	6215,
-	10280,
-	15463,
-	10341,
-	13981,
-	13797,
-	10532,
-	12984,
-	12994,
-	8551,
-	4953,
-	8551,
-	10532,
-	10341,
-	8551,
-	8551,
-	14390,
-	10341,
-	10280,
-	6215,
-	12994,
-	12984,
-	10341,
-	12984,
-	8551,
-	8551,
-	10532,
-	10341,
-	10341,
-	6215,
-	10280,
-	10341,
-	12994,
-	12984,
-	15783,
-	15135,
-	15783,
-	13981,
-	16033,
-	16033,
-	10532,
-	7604,
-	13981,
-	13981,
-	13981,
-	13981,
-	13981,
-	16033,
-	16033,
-	10532,
-	7604,
-	13981,
-	13981,
-	8551,
-	4953,
-	10532,
-	10341,
-	8551,
-	10341,
-	8551,
-	10341,
-	6215,
-	10280,
-	12994,
-	12984,
-	10341,
-	8551,
-	8551,
-	4953,
-	10532,
-	10341,
-	8551,
-	10341,
-	8551,
-	10341,
-	6215,
-	10280,
-	12994,
-	13981,
-	10341,
-	8419,
-	8551,
-	10005,
-	8234,
-	10341,
-	8551,
-	10341,
-	6215,
-	10280,
-	13981,
-	10341,
-	10532,
-	8551,
-	10341,
-	10341,
-	10341,
-	6215,
-	10280,
-	13981,
-	10341,
+	4154,
+	8004,
+	7955,
+	6802,
+	6766,
+	3049,
+	2016,
+	2016,
+	13326,
+	3049,
+	8140,
+	6711,
+	8140,
+	8140,
+	6662,
+	8004,
+	7955,
+	6766,
+	5365,
+	2022,
+	13040,
+	3049,
+	13326,
+	8140,
+	5924,
+	6711,
+	8140,
+	6711,
+	8004,
+	7758,
+	5365,
+	3057,
+	8004,
+	12910,
+	8140,
+	6766,
+	8004,
+	5359,
+	8004,
+	3057,
+	5770,
+	8140,
+	6663,
+	6662,
+	6766,
+	2444,
+	8140,
+	6711,
+	8140,
+	6711,
+	8140,
+	6711,
+	8140,
+	6766,
+	3049,
+	8140,
+	4154,
+	8140,
+	6766,
+	3049,
+	6711,
+	13285,
+	13285,
+	13285,
+	8004,
+	13285,
+	13285,
+	12177,
+	5924,
+	5924,
+	7954,
+	8004,
+	13326,
+	8140,
+	6711,
 	4141,
-	10014,
-	8242,
-	10014,
-	8242,
-	10341,
-	6215,
-	10280,
-	10341,
-	8419,
-	8672,
-	10005,
-	8234,
-	10034,
-	8260,
-	10341,
-	6215,
-	10280,
-	13981,
-	10341,
-	10532,
-	10008,
-	8237,
-	10341,
-	8551,
-	10341,
-	6215,
-	10280,
-	12994,
-	12984,
-	10341,
-	8551,
-	10532,
-	10341,
-	10341,
-	10341,
-	6215,
-	10280,
-	10341,
-	12994,
-	12984,
-	10532,
-	12994,
-	12984,
-	10532,
-	10341,
-	8551,
-	10341,
-	8551,
-	10341,
-	8551,
-	10341,
-	8551,
-	10341,
-	6215,
-	10280,
-	12994,
-	12984,
-	10341,
-	10532,
-	10341,
-	8551,
-	10280,
-	8493,
-	10005,
-	8234,
-	10341,
-	8551,
-	15129,
-	10341,
-	6215,
-	10280,
-	12994,
-	12984,
-	10341,
-	15712,
+	4141,
+	8004,
+	6711,
+	8004,
+	8004,
+	6711,
+	8004,
+	6711,
+	13040,
+	8004,
+	8140,
+	6766,
+	8065,
+	8004,
+	6662,
+	8004,
+	6711,
+	8004,
+	8065,
+	8004,
+	6711,
+	6711,
+	7954,
+	6662,
+	8004,
+	8140,
+	6766,
+	8004,
+	6711,
+	4131,
+	4115,
+	8004,
+	6766,
+	3057,
+	5770,
+	4141,
+	8140,
+	8004,
+	6711,
+	8004,
+	6711,
+	8004,
+	5924,
+	7954,
+	12169,
+	11373,
+	11365,
+	8004,
+	8004,
+	7778,
+	6510,
+	8065,
+	6766,
+	7778,
+	6510,
+	7778,
+	6510,
+	8065,
+	6766,
+	8065,
+	6766,
+	8004,
+	8065,
+	6766,
+	8065,
+	6766,
+	8065,
+	6766,
+	8065,
+	6766,
+	8004,
+	8065,
+	6766,
+	8065,
+	6766,
+	7778,
+	6510,
+	8004,
+	5924,
+	7954,
+	12913,
+	12169,
+	8004,
+	8140,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	11373,
+	11365,
+	8140,
+	6711,
+	8004,
+	8004,
+	5924,
+	7954,
+	12913,
+	8004,
+	12169,
+	8140,
+	7758,
+	6494,
+	8065,
+	7758,
+	6494,
+	7758,
+	6494,
+	8004,
+	8004,
+	5924,
+	7954,
+	12169,
+	8004,
+	8140,
+	13285,
+	8065,
+	6766,
+	8004,
+	6711,
+	8004,
+	5924,
+	7954,
+	12913,
+	12169,
+	11365,
+	11373,
+	8004,
+	13326,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	4131,
+	-1,
+	-1,
+	5365,
+	8004,
+	6711,
+	8004,
+	4141,
+	3057,
+	5365,
+	3316,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	6711,
+	8004,
+	6711,
+	8004,
+	7758,
+	6494,
+	8004,
+	6711,
+	8004,
+	8004,
+	6711,
+	7749,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	13326,
+	8140,
+	6662,
+	4141,
+	4141,
+	2230,
+	1551,
+	3325,
+	3325,
+	5365,
+	3316,
+	5924,
+	8004,
+	8004,
+	5365,
+	5924,
+	3316,
+	11990,
+	8004,
+	-1,
+	-1,
+	-1,
+	3057,
+	12753,
+	-1,
+	-1,
+	-1,
+	4141,
+	8065,
+	8004,
+	6711,
+	8004,
+	6662,
+	8140,
+	8065,
+	8140,
+	7709,
+	8140,
+	8004,
+	8140,
+	6711,
+	6711,
+	8004,
+	7745,
+	8065,
+	7749,
+	8004,
+	7745,
+	6481,
+	8004,
+	8004,
+	7749,
+	6486,
+	8004,
+	7749,
+	6486,
+	8004,
+	8004,
+	7745,
+	8004,
+	6711,
+	13326,
+	8140,
+	5924,
+	5924,
+	5924,
+	5924,
+	5924,
+	8140,
+	7749,
+	8004,
+	2364,
+	7954,
+	6662,
+	7954,
+	6662,
+	7954,
+	12759,
+	8004,
+	13326,
+	6711,
+	7954,
+	6662,
+	5380,
+	3079,
+	5380,
+	5358,
+	6012,
+	3394,
+	3394,
+	4500,
+	3394,
+	12169,
+	3394,
+	13040,
+	13033,
+	8140,
+	7954,
+	5770,
+	3220,
+	6236,
+	13326,
+	6711,
+	6711,
+	8140,
+	6711,
+	8004,
+	8004,
+	5924,
+	7954,
+	12913,
+	8004,
+	12169,
+	11696,
+	8140,
+	11365,
+	11373,
+	6711,
+	4141,
+	6711,
+	8140,
+	8004,
+	6711,
+	6711,
+	11990,
+	8004,
+	7954,
+	5924,
+	11373,
+	11365,
+	8004,
+	11365,
+	6711,
+	6711,
+	8140,
+	8004,
+	8004,
+	5924,
+	7954,
+	8004,
+	11373,
+	11365,
+	13152,
+	13040,
+	13152,
+	12169,
+	13326,
+	13326,
+	8140,
+	5365,
+	12169,
+	12169,
+	12169,
+	12169,
+	12169,
+	13326,
+	13326,
+	8140,
+	5365,
+	12169,
+	12169,
+	6711,
+	4141,
+	8140,
+	8004,
+	6711,
+	8004,
+	6711,
+	8004,
+	5924,
+	7954,
+	11373,
+	11365,
+	8004,
+	6711,
+	6711,
+	4141,
+	8140,
+	8004,
+	6711,
+	8004,
+	6711,
+	8004,
+	5924,
+	7954,
+	11373,
+	12169,
+	8004,
+	6602,
+	6711,
+	7749,
+	6486,
+	8004,
+	6711,
+	8004,
+	5924,
+	7954,
+	12169,
+	8004,
+	8140,
+	6711,
+	8004,
+	8004,
+	8004,
+	5924,
+	7954,
+	12169,
+	8004,
+	3546,
+	7758,
+	6494,
+	7758,
+	6494,
+	8004,
+	5924,
+	7954,
+	8004,
+	6602,
+	6802,
+	7749,
+	6486,
+	7778,
+	6510,
+	8004,
+	5924,
+	7954,
+	12169,
+	8004,
+	8140,
+	7752,
+	6489,
+	8004,
+	6711,
+	8004,
+	5924,
+	7954,
+	11373,
+	11365,
+	8004,
+	6711,
+	8140,
+	8004,
+	8004,
+	8004,
+	5924,
+	7954,
+	8004,
+	11373,
+	11365,
+	8140,
+	11373,
+	11365,
+	8140,
+	8004,
+	6711,
+	8004,
+	6711,
+	8004,
+	6711,
+	8004,
+	6711,
+	8004,
+	5924,
+	7954,
+	11373,
+	11365,
+	8004,
+	8140,
+	8004,
+	6711,
+	7954,
+	6662,
+	7749,
+	6486,
+	8004,
+	6711,
+	13034,
+	8004,
+	5924,
+	7954,
+	11373,
+	11365,
+	8004,
+	12753,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[16] = 
 {
-	{ 0x02000025, { 28, 14 } },
-	{ 0x02000026, { 42, 4 } },
-	{ 0x02000029, { 46, 17 } },
-	{ 0x060000BE, { 0, 3 } },
-	{ 0x060000BF, { 3, 4 } },
-	{ 0x060000C0, { 7, 4 } },
-	{ 0x060000C3, { 11, 7 } },
-	{ 0x060000EC, { 18, 6 } },
-	{ 0x060000F2, { 24, 2 } },
-	{ 0x060000F3, { 26, 2 } },
-	{ 0x06000134, { 63, 2 } },
-	{ 0x06000135, { 65, 1 } },
-	{ 0x06000136, { 66, 2 } },
-	{ 0x06000139, { 68, 2 } },
-	{ 0x0600013A, { 70, 3 } },
-	{ 0x0600013B, { 73, 1 } },
+	{ 0x02000020, { 21, 12 } },
+	{ 0x02000021, { 33, 3 } },
+	{ 0x02000024, { 36, 17 } },
+	{ 0x060000A1, { 0, 2 } },
+	{ 0x060000A2, { 2, 3 } },
+	{ 0x060000A3, { 5, 3 } },
+	{ 0x060000A8, { 8, 6 } },
+	{ 0x060000D1, { 14, 3 } },
+	{ 0x060000DB, { 17, 2 } },
+	{ 0x060000DC, { 19, 2 } },
+	{ 0x0600011D, { 53, 2 } },
+	{ 0x0600011E, { 55, 1 } },
+	{ 0x0600011F, { 56, 2 } },
+	{ 0x06000122, { 58, 2 } },
+	{ 0x06000123, { 60, 3 } },
+	{ 0x06000124, { 63, 1 } },
 };
-extern const uint32_t g_rgctx_List_1_t606F688524965EE4529486C1D693FD57F0F78316;
-extern const uint32_t g_rgctx_List_1_get_Count_mD62ADB737F2256DDF63EC43BC33E164924F38801;
-extern const uint32_t g_rgctx_Enumerable_SequenceEqual_TisTSource_t3B550F8698049DCD91F1D7E0C945BA3E4D836B85_m3BEDAC59BAEC3F4B89914AB893B59D39CE30B785;
-extern const uint32_t g_rgctx_List_1_t6450B49D1093A0C8CBFDF854CC336107F430D506;
-extern const uint32_t g_rgctx_List_1_get_Count_m3CD3004E040A582DA7C71E5CBC5B71A2B2991163;
-extern const uint32_t g_rgctx_List_1_get_Item_mBB13AAFAFD722544369D486DAACEEE1DE4FB26D5;
-extern const uint32_t g_rgctx_T_tB73A81EFEC6F081DF20F6B949E6D051D58E9C2FC;
-extern const uint32_t g_rgctx_List_1_tE4066F601AACF38471607B79F4D26F3675ED95F6;
-extern const uint32_t g_rgctx_List_1_get_Count_mD80632FBCEC07B00CBA66EB67B7B9EC2753F2FC7;
-extern const uint32_t g_rgctx_List_1_get_Item_mB2257B3513F6D0B299A241F6047E32DE9447A67D;
-extern const uint32_t g_rgctx_T_tCEF24336CEF05ED8B037D79737F7866C5D991F09;
-extern const uint32_t g_rgctx_List_1_t6D4C8B0587C59FEDEB42D0BE5F60B97F8EF67C68;
-extern const uint32_t g_rgctx_List_1__ctor_m935A78DB8AA4403AD0469591578793C29312C025;
-extern const uint32_t g_rgctx_ElementTryParser_1_tE4DF2DA1C007DB90C9F4144F7DCF8EA14DFBE656;
-extern const uint32_t g_rgctx_ElementTryParser_1_Invoke_m354D5F256BDEBF2882D7386277A2F50BD8849C31;
-extern const uint32_t g_rgctx_T_tCD92A03561F2EC01308301CAA65DAC586C81B4CC;
-extern const uint32_t g_rgctx_List_1_Add_m74518670E8AEE61966A456D9D6F63703BE740749;
-extern const uint32_t g_rgctx_List_1_get_Count_m0BD4F5FDDC1777FAE17236183B5996E5DB0BAE47;
-extern const uint32_t g_rgctx_IEnumerable_1_t794978A31DC7376D81811B3844C73AAEF6EA41A0;
-extern const uint32_t g_rgctx_IEnumerable_1_GetEnumerator_mE7C58426F8A7CD8496A093F97AF20F0799595113;
-extern const uint32_t g_rgctx_IEnumerator_1_tA8C903876ED32FDC42F24E5DB0EB000CC8E809EA;
-extern const uint32_t g_rgctx_IEnumerator_1_get_Current_mA13B71625D0540A56839184F49EB8E8A521EC869;
-extern const uint32_t g_rgctx_T_t7FEA0864E300E1E0DEE10DFDF3BBEDEED44CD5A7;
-extern const Il2CppRGCTXConstrainedData g_rgctx_T_t7FEA0864E300E1E0DEE10DFDF3BBEDEED44CD5A7_Object_GetHashCode_m372C5A7AB16CAC13307C11C4256D706CE57E090C;
-extern const uint32_t g_rgctx_HeaderTypeInfo_2_tF7013981518F0A6B5B202392470D1BB47DEEF9DE;
-extern const uint32_t g_rgctx_HeaderTypeInfo_2__ctor_mE9167677A1F2B56AB97B56EA77BA2B685995DDC1;
-extern const uint32_t g_rgctx_CollectionHeaderTypeInfo_2_t46E857E271F7C5D42B43E280C843090E0C6F9621;
-extern const uint32_t g_rgctx_CollectionHeaderTypeInfo_2__ctor_mA0479AFFFBC40798892ED1DC12993E868FFD278C;
-extern const uint32_t g_rgctx_HttpHeaderValueCollection_1_tE7541CA78A52E97D2405AE0BB148D626B48D5C60;
-extern const uint32_t g_rgctx_List_1_t988EFCE139560E94AA2A3C80C22C4DEDD95D828E;
-extern const uint32_t g_rgctx_HttpHeaderValueCollection_1_AddRange_m93A83A0B6864D4DABBEA92F18EBDCA38B26C88C3;
-extern const uint32_t g_rgctx_U_tB9B3EDC56F4AC91DAAB818870AE0F6DB6958D0A0;
-extern const uint32_t g_rgctx_HttpHeaderValueCollection_1_Add_mF76D8B3D84399D912EAD5C427669B073E6B20FA0;
-extern const uint32_t g_rgctx_HttpHeaderValueCollection_1__ctor_mD955B511DA0C9A3CAACAE66113CFCB75689533DD;
-extern const uint32_t g_rgctx_HttpHeaderValueCollection_1_get_Count_mAB64A66F10C8BC8CFFDEDCCC747D569C00D49F0D;
-extern const uint32_t g_rgctx_HttpHeaderValueCollection_1_get_InvalidValues_m73AE2DFF7D7B99EFF53F3DF720478A7199ECFE04;
-extern const uint32_t g_rgctx_HttpHeaderValueCollection_1_GetEnumerator_mC4810290C730F2F3C4B7DFE545037492D932FBFD;
-extern const uint32_t g_rgctx_IEnumerator_1_t2FDC807259565BE66E5908E85F9B2A6F9151C4FC;
-extern const uint32_t g_rgctx_IEnumerator_1_get_Current_mD6D4CACB71BEBDA24F015FA6CEAD8AC1FF5A4605;
-extern const uint32_t g_rgctx_TryParseDelegate_1_tCFB40FB44E34F50BDFEFA5988DF466246016F3BC;
-extern const uint32_t g_rgctx_TryParseDelegate_1_Invoke_m09FAB16EA552FAF0DD59488B9EE2273B8941C6EA;
-extern const uint32_t g_rgctx_T_t565014E4CDF4A95193100177F41DAF7D668AF6B9;
-extern const uint32_t g_rgctx_HeaderTypeInfo_2__ctor_mF0AB8B191B5813519E44186B31F0BE5B1AB97C1B;
-extern const uint32_t g_rgctx_HeaderTypeInfo_2_tF920AE19643AA7434E44DE72B46D783F73F91152;
-extern const uint32_t g_rgctx_TryParseListDelegate_1_t29647003CA3816DAD4A5DA631FE6C6700EDEB1D1;
-extern const uint32_t g_rgctx_TryParseListDelegate_1_Invoke_mA3C864BF4851DC8A8D5C32563F53AB4EB2A10B36;
-extern const uint32_t g_rgctx_List_1_tA1E4F89020C3D0CDEA15820C6FFDA74FA7E45645;
-extern const uint32_t g_rgctx_List_1__ctor_m155C018E8BAE2CF27177660B9D8E78AEA7491DC4;
-extern const uint32_t g_rgctx_List_1_get_Count_m159921765B05B02416A3E829A49C8A833BFD9260;
-extern const uint32_t g_rgctx_List_1_Add_mB4DA6B5F82DF5FFEF78AF71FBA93504F6F04D5AE;
-extern const uint32_t g_rgctx_List_1_AddRange_m6097181A18BA4C0B071F095BB13CCC7F18DED327;
-extern const uint32_t g_rgctx_List_1_Clear_mC24C6EA59C72A5C3ACFC6BF6912F41CDF7B747AA;
-extern const uint32_t g_rgctx_List_1_Contains_m4A256F37D8E69DFC44CF8516194307DF0BE531EC;
-extern const uint32_t g_rgctx_List_1_CopyTo_m1B6307298A516C16E831DD7F4891C0EA5BF4EAC3;
-extern const uint32_t g_rgctx_List_1_Remove_m0AFC87CAA75DAC347502958826BD1BB875F908A8;
-extern const uint32_t g_rgctx_String_Join_TisT_t2B7A19CD025BEC474051024D5CFB4F64C173FBF8_m6086E5FA58AB87BACEA9038A5A3D7E8BA19C07FF;
-extern const uint32_t g_rgctx_List_1_GetEnumerator_m1804F6D59426FE88C47CAE17C69A5CDE1CDC4FF9;
-extern const uint32_t g_rgctx_Enumerator_t5DA3778ACEE7FF34BBFEA47546F6627390AF79AC;
-extern const uint32_t g_rgctx_HttpHeaderValueCollection_1_GetEnumerator_m4D0E6C1285BBDF2E35C68CAFB5517990C2F7FA93;
-extern const uint32_t g_rgctx_List_1_Find_m4ACDDA33762A872DA9B2D2297B13313F0A9835D2;
-extern const uint32_t g_rgctx_HttpHeaderValueCollection_1_Find_m8653CA91EF349BF306CCC24F178E8CB3D350E5B6;
-extern const uint32_t g_rgctx_T_t2B7A19CD025BEC474051024D5CFB4F64C173FBF8;
-extern const uint32_t g_rgctx_HttpHeaderValueCollection_1_Remove_mDF492D7FB1E571D8A7D56537539B8616EA851498;
-extern const uint32_t g_rgctx_T_t784396DCA994EAB89CD50EDB4BE5321ACED78E35;
-extern const uint32_t g_rgctx_HttpHeaders_SetValue_TisT_t784396DCA994EAB89CD50EDB4BE5321ACED78E35_m0595AC06FFAD2D7CC8AD79DBF53E35A3AA6FDD17;
-extern const uint32_t g_rgctx_HttpHeaders_AddOrRemove_TisT_t1132C428DA6CAA29B3FA7FBC78CB47E40059C0D6_m28D4EC87BA84C4CEC108E163BCEC35F5706FF645;
-extern const uint32_t g_rgctx_Nullable_1_get_HasValue_mC5C7B9FED0B80F2C5C0586DDE2C622DB1658DD1F;
-extern const uint32_t g_rgctx_HttpHeaders_SetValue_TisNullable_1_tDB2554296092AF6632F0F475A1126DFAC0C71EBC_m1EF62FADC1D95E0A9915A66ED2C137755721C136;
-extern const uint32_t g_rgctx_T_tF181E494712C137A0894248D13E8BA96692D5C25;
-extern const uint32_t g_rgctx_T_tF181E494712C137A0894248D13E8BA96692D5C25;
-extern const uint32_t g_rgctx_HttpHeaderValueCollection_1_tA81802A2C724B5B699669695C60BB447EFF32B94;
-extern const uint32_t g_rgctx_HttpHeaderValueCollection_1__ctor_m2D1D0A79C1F1CD6E1D50E9F83E6BB3AE5E83E82B;
-extern const uint32_t g_rgctx_HttpHeaderValueCollection_1_AddInvalidValue_m49CF85466B43A38243FA0B1CC73A59140B8C33F9;
-extern const uint32_t g_rgctx_T_tD9394AD1263B681EEE14A636C47D344778C78AF5;
-static const Il2CppRGCTXDefinition s_rgctxValues[74] = 
+static const Il2CppRGCTXDefinition s_rgctxValues[64] = 
 {
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t606F688524965EE4529486C1D693FD57F0F78316 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_get_Count_mD62ADB737F2256DDF63EC43BC33E164924F38801 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Enumerable_SequenceEqual_TisTSource_t3B550F8698049DCD91F1D7E0C945BA3E4D836B85_m3BEDAC59BAEC3F4B89914AB893B59D39CE30B785 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t6450B49D1093A0C8CBFDF854CC336107F430D506 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_get_Count_m3CD3004E040A582DA7C71E5CBC5B71A2B2991163 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_get_Item_mBB13AAFAFD722544369D486DAACEEE1DE4FB26D5 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tB73A81EFEC6F081DF20F6B949E6D051D58E9C2FC },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_tE4066F601AACF38471607B79F4D26F3675ED95F6 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_get_Count_mD80632FBCEC07B00CBA66EB67B7B9EC2753F2FC7 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_get_Item_mB2257B3513F6D0B299A241F6047E32DE9447A67D },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tCEF24336CEF05ED8B037D79737F7866C5D991F09 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t6D4C8B0587C59FEDEB42D0BE5F60B97F8EF67C68 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1__ctor_m935A78DB8AA4403AD0469591578793C29312C025 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_ElementTryParser_1_tE4DF2DA1C007DB90C9F4144F7DCF8EA14DFBE656 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ElementTryParser_1_Invoke_m354D5F256BDEBF2882D7386277A2F50BD8849C31 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tCD92A03561F2EC01308301CAA65DAC586C81B4CC },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_Add_m74518670E8AEE61966A456D9D6F63703BE740749 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_get_Count_m0BD4F5FDDC1777FAE17236183B5996E5DB0BAE47 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IEnumerable_1_t794978A31DC7376D81811B3844C73AAEF6EA41A0 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IEnumerable_1_GetEnumerator_mE7C58426F8A7CD8496A093F97AF20F0799595113 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IEnumerator_1_tA8C903876ED32FDC42F24E5DB0EB000CC8E809EA },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IEnumerator_1_get_Current_mA13B71625D0540A56839184F49EB8E8A521EC869 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t7FEA0864E300E1E0DEE10DFDF3BBEDEED44CD5A7 },
-	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_T_t7FEA0864E300E1E0DEE10DFDF3BBEDEED44CD5A7_Object_GetHashCode_m372C5A7AB16CAC13307C11C4256D706CE57E090C },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_HeaderTypeInfo_2_tF7013981518F0A6B5B202392470D1BB47DEEF9DE },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HeaderTypeInfo_2__ctor_mE9167677A1F2B56AB97B56EA77BA2B685995DDC1 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CollectionHeaderTypeInfo_2_t46E857E271F7C5D42B43E280C843090E0C6F9621 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CollectionHeaderTypeInfo_2__ctor_mA0479AFFFBC40798892ED1DC12993E868FFD278C },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_HttpHeaderValueCollection_1_tE7541CA78A52E97D2405AE0BB148D626B48D5C60 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t988EFCE139560E94AA2A3C80C22C4DEDD95D828E },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HttpHeaderValueCollection_1_AddRange_m93A83A0B6864D4DABBEA92F18EBDCA38B26C88C3 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U_tB9B3EDC56F4AC91DAAB818870AE0F6DB6958D0A0 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HttpHeaderValueCollection_1_Add_mF76D8B3D84399D912EAD5C427669B073E6B20FA0 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HttpHeaderValueCollection_1__ctor_mD955B511DA0C9A3CAACAE66113CFCB75689533DD },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HttpHeaderValueCollection_1_get_Count_mAB64A66F10C8BC8CFFDEDCCC747D569C00D49F0D },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HttpHeaderValueCollection_1_get_InvalidValues_m73AE2DFF7D7B99EFF53F3DF720478A7199ECFE04 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HttpHeaderValueCollection_1_GetEnumerator_mC4810290C730F2F3C4B7DFE545037492D932FBFD },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IEnumerator_1_t2FDC807259565BE66E5908E85F9B2A6F9151C4FC },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IEnumerator_1_get_Current_mD6D4CACB71BEBDA24F015FA6CEAD8AC1FF5A4605 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TryParseDelegate_1_tCFB40FB44E34F50BDFEFA5988DF466246016F3BC },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TryParseDelegate_1_Invoke_m09FAB16EA552FAF0DD59488B9EE2273B8941C6EA },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t565014E4CDF4A95193100177F41DAF7D668AF6B9 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HeaderTypeInfo_2__ctor_mF0AB8B191B5813519E44186B31F0BE5B1AB97C1B },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_HeaderTypeInfo_2_tF920AE19643AA7434E44DE72B46D783F73F91152 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TryParseListDelegate_1_t29647003CA3816DAD4A5DA631FE6C6700EDEB1D1 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TryParseListDelegate_1_Invoke_mA3C864BF4851DC8A8D5C32563F53AB4EB2A10B36 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_tA1E4F89020C3D0CDEA15820C6FFDA74FA7E45645 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1__ctor_m155C018E8BAE2CF27177660B9D8E78AEA7491DC4 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_get_Count_m159921765B05B02416A3E829A49C8A833BFD9260 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_Add_mB4DA6B5F82DF5FFEF78AF71FBA93504F6F04D5AE },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_AddRange_m6097181A18BA4C0B071F095BB13CCC7F18DED327 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_Clear_mC24C6EA59C72A5C3ACFC6BF6912F41CDF7B747AA },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_Contains_m4A256F37D8E69DFC44CF8516194307DF0BE531EC },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_CopyTo_m1B6307298A516C16E831DD7F4891C0EA5BF4EAC3 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_Remove_m0AFC87CAA75DAC347502958826BD1BB875F908A8 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_String_Join_TisT_t2B7A19CD025BEC474051024D5CFB4F64C173FBF8_m6086E5FA58AB87BACEA9038A5A3D7E8BA19C07FF },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_GetEnumerator_m1804F6D59426FE88C47CAE17C69A5CDE1CDC4FF9 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Enumerator_t5DA3778ACEE7FF34BBFEA47546F6627390AF79AC },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HttpHeaderValueCollection_1_GetEnumerator_m4D0E6C1285BBDF2E35C68CAFB5517990C2F7FA93 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_Find_m4ACDDA33762A872DA9B2D2297B13313F0A9835D2 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HttpHeaderValueCollection_1_Find_m8653CA91EF349BF306CCC24F178E8CB3D350E5B6 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t2B7A19CD025BEC474051024D5CFB4F64C173FBF8 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HttpHeaderValueCollection_1_Remove_mDF492D7FB1E571D8A7D56537539B8616EA851498 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t784396DCA994EAB89CD50EDB4BE5321ACED78E35 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HttpHeaders_SetValue_TisT_t784396DCA994EAB89CD50EDB4BE5321ACED78E35_m0595AC06FFAD2D7CC8AD79DBF53E35A3AA6FDD17 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HttpHeaders_AddOrRemove_TisT_t1132C428DA6CAA29B3FA7FBC78CB47E40059C0D6_m28D4EC87BA84C4CEC108E163BCEC35F5706FF645 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Nullable_1_get_HasValue_mC5C7B9FED0B80F2C5C0586DDE2C622DB1658DD1F },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HttpHeaders_SetValue_TisNullable_1_tDB2554296092AF6632F0F475A1126DFAC0C71EBC_m1EF62FADC1D95E0A9915A66ED2C137755721C136 },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_tF181E494712C137A0894248D13E8BA96692D5C25 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tF181E494712C137A0894248D13E8BA96692D5C25 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_HttpHeaderValueCollection_1_tA81802A2C724B5B699669695C60BB447EFF32B94 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HttpHeaderValueCollection_1__ctor_m2D1D0A79C1F1CD6E1D50E9F83E6BB3AE5E83E82B },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HttpHeaderValueCollection_1_AddInvalidValue_m49CF85466B43A38243FA0B1CC73A59140B8C33F9 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tD9394AD1263B681EEE14A636C47D344778C78AF5 },
+	{ (Il2CppRGCTXDataType)3, 49637 },
+	{ (Il2CppRGCTXDataType)3, 93638 },
+	{ (Il2CppRGCTXDataType)3, 49638 },
+	{ (Il2CppRGCTXDataType)3, 49639 },
+	{ (Il2CppRGCTXDataType)2, 206 },
+	{ (Il2CppRGCTXDataType)3, 49640 },
+	{ (Il2CppRGCTXDataType)3, 49641 },
+	{ (Il2CppRGCTXDataType)2, 207 },
+	{ (Il2CppRGCTXDataType)2, 20732 },
+	{ (Il2CppRGCTXDataType)3, 49642 },
+	{ (Il2CppRGCTXDataType)3, 20036 },
+	{ (Il2CppRGCTXDataType)2, 208 },
+	{ (Il2CppRGCTXDataType)3, 49643 },
+	{ (Il2CppRGCTXDataType)3, 49644 },
+	{ (Il2CppRGCTXDataType)2, 13014 },
+	{ (Il2CppRGCTXDataType)2, 13725 },
+	{ (Il2CppRGCTXDataType)2, 430 },
+	{ (Il2CppRGCTXDataType)2, 12391 },
+	{ (Il2CppRGCTXDataType)3, 33442 },
+	{ (Il2CppRGCTXDataType)2, 6099 },
+	{ (Il2CppRGCTXDataType)3, 8981 },
+	{ (Il2CppRGCTXDataType)2, 12394 },
+	{ (Il2CppRGCTXDataType)2, 20853 },
+	{ (Il2CppRGCTXDataType)3, 33479 },
+	{ (Il2CppRGCTXDataType)2, 3333 },
+	{ (Il2CppRGCTXDataType)3, 33478 },
+	{ (Il2CppRGCTXDataType)3, 33477 },
+	{ (Il2CppRGCTXDataType)3, 33481 },
+	{ (Il2CppRGCTXDataType)3, 33482 },
+	{ (Il2CppRGCTXDataType)3, 33480 },
+	{ (Il2CppRGCTXDataType)2, 13879 },
+	{ (Il2CppRGCTXDataType)3, 81515 },
+	{ (Il2CppRGCTXDataType)2, 2398 },
+	{ (Il2CppRGCTXDataType)3, 33443 },
+	{ (Il2CppRGCTXDataType)2, 12392 },
+	{ (Il2CppRGCTXDataType)3, 81548 },
+	{ (Il2CppRGCTXDataType)2, 20793 },
+	{ (Il2CppRGCTXDataType)3, 49713 },
+	{ (Il2CppRGCTXDataType)3, 49722 },
+	{ (Il2CppRGCTXDataType)3, 49714 },
+	{ (Il2CppRGCTXDataType)3, 49715 },
+	{ (Il2CppRGCTXDataType)3, 49716 },
+	{ (Il2CppRGCTXDataType)3, 49717 },
+	{ (Il2CppRGCTXDataType)3, 49718 },
+	{ (Il2CppRGCTXDataType)3, 49721 },
+	{ (Il2CppRGCTXDataType)3, 96868 },
+	{ (Il2CppRGCTXDataType)3, 49720 },
+	{ (Il2CppRGCTXDataType)2, 9103 },
+	{ (Il2CppRGCTXDataType)3, 33475 },
+	{ (Il2CppRGCTXDataType)3, 49719 },
+	{ (Il2CppRGCTXDataType)3, 33474 },
+	{ (Il2CppRGCTXDataType)2, 1775 },
+	{ (Il2CppRGCTXDataType)3, 33476 },
+	{ (Il2CppRGCTXDataType)2, 437 },
+	{ (Il2CppRGCTXDataType)3, 94488 },
+	{ (Il2CppRGCTXDataType)3, 94464 },
+	{ (Il2CppRGCTXDataType)3, 61184 },
+	{ (Il2CppRGCTXDataType)3, 94489 },
+	{ (Il2CppRGCTXDataType)1, 439 },
+	{ (Il2CppRGCTXDataType)2, 439 },
+	{ (Il2CppRGCTXDataType)2, 12393 },
+	{ (Il2CppRGCTXDataType)3, 33472 },
+	{ (Il2CppRGCTXDataType)3, 33473 },
+	{ (Il2CppRGCTXDataType)2, 438 },
 };
+extern const CustomAttributesCacheGenerator g_System_Net_Http_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Net_Http_CodeGenModule;
 const Il2CppCodeGenModule g_System_Net_Http_CodeGenModule = 
 {
 	"System.Net.Http.dll",
-	570,
+	549,
 	s_methodPointers,
 	17,
 	s_adjustorThunks,
@@ -2462,9 +2294,10 @@ const Il2CppCodeGenModule g_System_Net_Http_CodeGenModule =
 	NULL,
 	16,
 	s_rgctxIndices,
-	74,
+	64,
 	s_rgctxValues,
 	NULL,
+	g_System_Net_Http_AttributeGenerators,
 	NULL, // module initializer,
 	NULL,
 	NULL,

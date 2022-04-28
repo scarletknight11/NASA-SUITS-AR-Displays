@@ -6349,72 +6349,68 @@ struct UIRenderDevice_t59628CBA89B4617E832C2B270E1C1A3931D01302  : public Runtim
 	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___m_Fences_9;
 	// UnityEngine.MaterialPropertyBlock UnityEngine.UIElements.UIR.UIRenderDevice::m_StandardMatProps
 	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* ___m_StandardMatProps_10;
-	// UnityEngine.MaterialPropertyBlock UnityEngine.UIElements.UIR.UIRenderDevice::m_CommonMatProps
-	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* ___m_CommonMatProps_11;
 	// System.UInt32 UnityEngine.UIElements.UIR.UIRenderDevice::m_FrameIndex
-	uint32_t ___m_FrameIndex_12;
+	uint32_t ___m_FrameIndex_11;
 	// System.UInt32 UnityEngine.UIElements.UIR.UIRenderDevice::m_NextUpdateID
-	uint32_t ___m_NextUpdateID_13;
+	uint32_t ___m_NextUpdateID_12;
 	// UnityEngine.UIElements.UIR.UIRenderDevice/DrawStatistics UnityEngine.UIElements.UIR.UIRenderDevice::m_DrawStats
-	DrawStatistics_t4AF06C67CEC7B97509EBAD48E3EE908301598E6F ___m_DrawStats_14;
+	DrawStatistics_t4AF06C67CEC7B97509EBAD48E3EE908301598E6F ___m_DrawStats_13;
 	// UnityEngine.UIElements.UIR.LinkedPool`1<UnityEngine.UIElements.UIR.MeshHandle> UnityEngine.UIElements.UIR.UIRenderDevice::m_MeshHandles
-	LinkedPool_1_tD8A175EE023C8220138E51E722F4A20ACE9CA851* ___m_MeshHandles_15;
+	LinkedPool_1_tD8A175EE023C8220138E51E722F4A20ACE9CA851* ___m_MeshHandles_14;
 	// UnityEngine.UIElements.UIR.DrawParams UnityEngine.UIElements.UIR.UIRenderDevice::m_DrawParams
-	DrawParams_t523864F415D78BD8BB14E8B7BD349594D6187443* ___m_DrawParams_16;
+	DrawParams_t523864F415D78BD8BB14E8B7BD349594D6187443* ___m_DrawParams_15;
 	// UnityEngine.UIElements.UIR.TextureSlotManager UnityEngine.UIElements.UIR.UIRenderDevice::m_TextureSlotManager
-	TextureSlotManager_tB1F8E620AE296DE3728FAAFBE3CC85D2A176928D* ___m_TextureSlotManager_17;
+	TextureSlotManager_tB1F8E620AE296DE3728FAAFBE3CC85D2A176928D* ___m_TextureSlotManager_16;
 	// System.UInt32 UnityEngine.UIElements.UIR.UIRenderDevice::<maxVerticesPerPage>k__BackingField
-	uint32_t ___U3CmaxVerticesPerPageU3Ek__BackingField_37;
+	uint32_t ___U3CmaxVerticesPerPageU3Ek__BackingField_35;
 	// System.Boolean UnityEngine.UIElements.UIR.UIRenderDevice::<breakBatches>k__BackingField
-	bool ___U3CbreakBatchesU3Ek__BackingField_38;
+	bool ___U3CbreakBatchesU3Ek__BackingField_36;
 	// System.Boolean UnityEngine.UIElements.UIR.UIRenderDevice::<disposed>k__BackingField
-	bool ___U3CdisposedU3Ek__BackingField_41;
+	bool ___U3CdisposedU3Ek__BackingField_39;
 };
 
 struct UIRenderDevice_t59628CBA89B4617E832C2B270E1C1A3931D01302_StaticFields
 {
 	// System.Collections.Generic.LinkedList`1<UnityEngine.UIElements.UIR.UIRenderDevice/DeviceToFree> UnityEngine.UIElements.UIR.UIRenderDevice::m_DeviceFreeQueue
-	LinkedList_1_t09F6FB09C766455615BBF59716D285304C49E0E7* ___m_DeviceFreeQueue_18;
+	LinkedList_1_t09F6FB09C766455615BBF59716D285304C49E0E7* ___m_DeviceFreeQueue_17;
 	// System.Int32 UnityEngine.UIElements.UIR.UIRenderDevice::m_ActiveDeviceCount
-	int32_t ___m_ActiveDeviceCount_19;
+	int32_t ___m_ActiveDeviceCount_18;
 	// System.Boolean UnityEngine.UIElements.UIR.UIRenderDevice::m_SubscribedToNotifications
-	bool ___m_SubscribedToNotifications_20;
+	bool ___m_SubscribedToNotifications_19;
 	// System.Boolean UnityEngine.UIElements.UIR.UIRenderDevice::m_SynchronousFree
-	bool ___m_SynchronousFree_21;
+	bool ___m_SynchronousFree_20;
 	// System.Int32 UnityEngine.UIElements.UIR.UIRenderDevice::s_FontTexPropID
-	int32_t ___s_FontTexPropID_22;
+	int32_t ___s_FontTexPropID_21;
 	// System.Int32 UnityEngine.UIElements.UIR.UIRenderDevice::s_FontTexSDFScaleID
-	int32_t ___s_FontTexSDFScaleID_23;
-	// System.Int32 UnityEngine.UIElements.UIR.UIRenderDevice::s_PixelClipInvViewPropID
-	int32_t ___s_PixelClipInvViewPropID_24;
+	int32_t ___s_FontTexSDFScaleID_22;
 	// System.Int32 UnityEngine.UIElements.UIR.UIRenderDevice::s_GradientSettingsTexID
-	int32_t ___s_GradientSettingsTexID_25;
+	int32_t ___s_GradientSettingsTexID_23;
 	// System.Int32 UnityEngine.UIElements.UIR.UIRenderDevice::s_ShaderInfoTexID
-	int32_t ___s_ShaderInfoTexID_26;
-	// System.Int32 UnityEngine.UIElements.UIR.UIRenderDevice::s_ScreenClipRectPropID
-	int32_t ___s_ScreenClipRectPropID_27;
+	int32_t ___s_ShaderInfoTexID_24;
 	// System.Int32 UnityEngine.UIElements.UIR.UIRenderDevice::s_TransformsPropID
-	int32_t ___s_TransformsPropID_28;
+	int32_t ___s_TransformsPropID_25;
 	// System.Int32 UnityEngine.UIElements.UIR.UIRenderDevice::s_ClipRectsPropID
-	int32_t ___s_ClipRectsPropID_29;
+	int32_t ___s_ClipRectsPropID_26;
+	// System.Int32 UnityEngine.UIElements.UIR.UIRenderDevice::s_ClipSpaceParamsID
+	int32_t ___s_ClipSpaceParamsID_27;
 	// Unity.Profiling.ProfilerMarker UnityEngine.UIElements.UIR.UIRenderDevice::s_MarkerAllocate
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_MarkerAllocate_30;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_MarkerAllocate_28;
 	// Unity.Profiling.ProfilerMarker UnityEngine.UIElements.UIR.UIRenderDevice::s_MarkerFree
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_MarkerFree_31;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_MarkerFree_29;
 	// Unity.Profiling.ProfilerMarker UnityEngine.UIElements.UIR.UIRenderDevice::s_MarkerAdvanceFrame
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_MarkerAdvanceFrame_32;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_MarkerAdvanceFrame_30;
 	// Unity.Profiling.ProfilerMarker UnityEngine.UIElements.UIR.UIRenderDevice::s_MarkerFence
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_MarkerFence_33;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_MarkerFence_31;
 	// Unity.Profiling.ProfilerMarker UnityEngine.UIElements.UIR.UIRenderDevice::s_MarkerBeforeDraw
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_MarkerBeforeDraw_34;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_MarkerBeforeDraw_32;
 	// System.Nullable`1<System.Boolean> UnityEngine.UIElements.UIR.UIRenderDevice::s_VertexTexturingIsAvailable
-	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___s_VertexTexturingIsAvailable_35;
+	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___s_VertexTexturingIsAvailable_33;
 	// System.Nullable`1<System.Boolean> UnityEngine.UIElements.UIR.UIRenderDevice::s_ShaderModelIs35
-	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___s_ShaderModelIs35_36;
+	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___s_ShaderModelIs35_34;
 	// UnityEngine.Texture2D UnityEngine.UIElements.UIR.UIRenderDevice::s_DefaultShaderInfoTexFloat
-	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___s_DefaultShaderInfoTexFloat_39;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___s_DefaultShaderInfoTexFloat_37;
 	// UnityEngine.Texture2D UnityEngine.UIElements.UIR.UIRenderDevice::s_DefaultShaderInfoTexARGB8
-	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___s_DefaultShaderInfoTexARGB8_40;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___s_DefaultShaderInfoTexARGB8_38;
 };
 
 // UnityEngine.UIElements.UIR.VectorImageManager
@@ -6493,54 +6489,56 @@ struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115  : public Focusab
 	int32_t ___dependencyPseudoMask_31;
 	// UnityEngine.UIElements.PseudoStates UnityEngine.UIElements.VisualElement::m_PseudoStates
 	int32_t ___m_PseudoStates_32;
+	// System.Int32 UnityEngine.UIElements.VisualElement::<containedPointerIds>k__BackingField
+	int32_t ___U3CcontainedPointerIdsU3Ek__BackingField_33;
 	// UnityEngine.UIElements.PickingMode UnityEngine.UIElements.VisualElement::<pickingMode>k__BackingField
-	int32_t ___U3CpickingModeU3Ek__BackingField_33;
+	int32_t ___U3CpickingModeU3Ek__BackingField_34;
 	// UnityEngine.Yoga.YogaNode UnityEngine.UIElements.VisualElement::<yogaNode>k__BackingField
-	YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* ___U3CyogaNodeU3Ek__BackingField_34;
+	YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* ___U3CyogaNodeU3Ek__BackingField_35;
 	// UnityEngine.UIElements.ComputedStyle UnityEngine.UIElements.VisualElement::m_Style
-	ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C ___m_Style_35;
+	ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C ___m_Style_36;
 	// UnityEngine.UIElements.StyleVariableContext UnityEngine.UIElements.VisualElement::variableContext
-	StyleVariableContext_tF74F2787CE1F6BEBBFBFF0771CF493AC9E403527* ___variableContext_36;
+	StyleVariableContext_tF74F2787CE1F6BEBBFBFF0771CF493AC9E403527* ___variableContext_37;
 	// System.Int32 UnityEngine.UIElements.VisualElement::inheritedStylesHash
-	int32_t ___inheritedStylesHash_37;
+	int32_t ___inheritedStylesHash_38;
 	// System.UInt32 UnityEngine.UIElements.VisualElement::controlid
-	uint32_t ___controlid_38;
+	uint32_t ___controlid_39;
 	// System.Int32 UnityEngine.UIElements.VisualElement::imguiContainerDescendantCount
-	int32_t ___imguiContainerDescendantCount_39;
+	int32_t ___imguiContainerDescendantCount_40;
 	// System.Boolean UnityEngine.UIElements.VisualElement::<enabledSelf>k__BackingField
-	bool ___U3CenabledSelfU3Ek__BackingField_40;
+	bool ___U3CenabledSelfU3Ek__BackingField_41;
 	// System.Action`1<UnityEngine.UIElements.MeshGenerationContext> UnityEngine.UIElements.VisualElement::<generateVisualContent>k__BackingField
-	Action_1_t3DC3411926243F1DB9C330F8E105B904E38C1A0B* ___U3CgenerateVisualContentU3Ek__BackingField_41;
+	Action_1_t3DC3411926243F1DB9C330F8E105B904E38C1A0B* ___U3CgenerateVisualContentU3Ek__BackingField_42;
 	// Unity.Profiling.ProfilerMarker UnityEngine.UIElements.VisualElement::k_GenerateVisualContentMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateVisualContentMarker_42;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateVisualContentMarker_43;
 	// UnityEngine.UIElements.VisualElement/RenderTargetMode UnityEngine.UIElements.VisualElement::m_SubRenderTargetMode
-	int32_t ___m_SubRenderTargetMode_43;
+	int32_t ___m_SubRenderTargetMode_44;
 	// UnityEngine.Material UnityEngine.UIElements.VisualElement::m_defaultMaterial
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_defaultMaterial_45;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_defaultMaterial_46;
 	// System.Collections.Generic.List`1<UnityEngine.UIElements.Experimental.IValueAnimationUpdate> UnityEngine.UIElements.VisualElement::m_RunningAnimations
-	List_1_t96E9133B70FB6765E6B138E810D33E18901715DA* ___m_RunningAnimations_46;
+	List_1_t96E9133B70FB6765E6B138E810D33E18901715DA* ___m_RunningAnimations_47;
 	// UnityEngine.UIElements.VisualElement/Hierarchy UnityEngine.UIElements.VisualElement::<hierarchy>k__BackingField
-	Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677 ___U3ChierarchyU3Ek__BackingField_48;
+	Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677 ___U3ChierarchyU3Ek__BackingField_49;
 	// System.Boolean UnityEngine.UIElements.VisualElement::<isRootVisualContainer>k__BackingField
-	bool ___U3CisRootVisualContainerU3Ek__BackingField_49;
+	bool ___U3CisRootVisualContainerU3Ek__BackingField_50;
 	// System.Boolean UnityEngine.UIElements.VisualElement::<cacheAsBitmap>k__BackingField
-	bool ___U3CcacheAsBitmapU3Ek__BackingField_50;
+	bool ___U3CcacheAsBitmapU3Ek__BackingField_51;
 	// UnityEngine.UIElements.VisualElement UnityEngine.UIElements.VisualElement::m_PhysicalParent
-	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_PhysicalParent_51;
+	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_PhysicalParent_52;
 	// UnityEngine.UIElements.VisualElement UnityEngine.UIElements.VisualElement::m_LogicalParent
-	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_LogicalParent_52;
+	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_LogicalParent_53;
 	// System.Collections.Generic.List`1<UnityEngine.UIElements.VisualElement> UnityEngine.UIElements.VisualElement::m_Children
-	List_1_t6115BBE78FE9310B180A2027321DF46F2A06AC95* ___m_Children_54;
+	List_1_t6115BBE78FE9310B180A2027321DF46F2A06AC95* ___m_Children_55;
 	// UnityEngine.UIElements.BaseVisualElementPanel UnityEngine.UIElements.VisualElement::<elementPanel>k__BackingField
-	BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303* ___U3CelementPanelU3Ek__BackingField_55;
+	BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303* ___U3CelementPanelU3Ek__BackingField_56;
 	// UnityEngine.UIElements.VisualTreeAsset UnityEngine.UIElements.VisualElement::m_VisualTreeAssetSource
-	VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB* ___m_VisualTreeAssetSource_56;
+	VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB* ___m_VisualTreeAssetSource_57;
 	// UnityEngine.UIElements.InlineStyleAccess UnityEngine.UIElements.VisualElement::inlineStyleAccess
-	InlineStyleAccess_t5CA7877999C9442491A220AE50D605C84D09A165* ___inlineStyleAccess_58;
+	InlineStyleAccess_t5CA7877999C9442491A220AE50D605C84D09A165* ___inlineStyleAccess_59;
 	// System.Collections.Generic.List`1<UnityEngine.UIElements.StyleSheet> UnityEngine.UIElements.VisualElement::styleSheetList
-	List_1_tEA16F82F7871418E28EB6F551D77A8AD9F2E337F* ___styleSheetList_59;
+	List_1_tEA16F82F7871418E28EB6F551D77A8AD9F2E337F* ___styleSheetList_60;
 	// UnityEngine.UIElements.VisualElement/TypeData UnityEngine.UIElements.VisualElement::m_TypeData
-	TypeData_t01D670B4E71B5571B38C7412B1E652A47D6AF66A* ___m_TypeData_63;
+	TypeData_t01D670B4E71B5571B38C7412B1E652A47D6AF66A* ___m_TypeData_64;
 };
 
 struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115_StaticFields
@@ -6556,17 +6554,17 @@ struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115_StaticFields
 	// UnityEngine.Rect UnityEngine.UIElements.VisualElement::s_InfiniteRect
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___s_InfiniteRect_29;
 	// UnityEngine.Material UnityEngine.UIElements.VisualElement::s_runtimeMaterial
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_runtimeMaterial_44;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_runtimeMaterial_45;
 	// System.Collections.Generic.List`1<UnityEngine.UIElements.VisualElement> UnityEngine.UIElements.VisualElement::s_EmptyList
-	List_1_t6115BBE78FE9310B180A2027321DF46F2A06AC95* ___s_EmptyList_53;
+	List_1_t6115BBE78FE9310B180A2027321DF46F2A06AC95* ___s_EmptyList_54;
 	// UnityEngine.UIElements.VisualElement/CustomStyleAccess UnityEngine.UIElements.VisualElement::s_CustomStyleAccess
-	CustomStyleAccess_t170C852102B4D09FB478B620A75B14D096F9F2B1* ___s_CustomStyleAccess_57;
+	CustomStyleAccess_t170C852102B4D09FB478B620A75B14D096F9F2B1* ___s_CustomStyleAccess_58;
 	// System.Text.RegularExpressions.Regex UnityEngine.UIElements.VisualElement::s_InternalStyleSheetPath
-	Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* ___s_InternalStyleSheetPath_60;
+	Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* ___s_InternalStyleSheetPath_61;
 	// UnityEngine.PropertyName UnityEngine.UIElements.VisualElement::tooltipPropertyKey
-	PropertyName_tE4B4AAA58AF3BF2C0CD95509EB7B786F096901C2 ___tooltipPropertyKey_61;
+	PropertyName_tE4B4AAA58AF3BF2C0CD95509EB7B786F096901C2 ___tooltipPropertyKey_62;
 	// System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.UIElements.VisualElement/TypeData> UnityEngine.UIElements.VisualElement::s_TypeData
-	Dictionary_2_t4055F6540F36F21F9FEDAFB92D8E0089B38EBBC8* ___s_TypeData_62;
+	Dictionary_2_t4055F6540F36F21F9FEDAFB92D8E0089B38EBBC8* ___s_TypeData_63;
 };
 
 // UnityEngine.UIElements.MeshGenerationContextUtils/BorderParams
@@ -6695,12 +6693,14 @@ struct RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B
 	int32_t ___rightSlice_15;
 	// System.Int32 UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams::bottomSlice
 	int32_t ___bottomSlice_16;
+	// System.Single UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams::sliceScale
+	float ___sliceScale_17;
 	// UnityEngine.Rect UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams::spriteGeomRect
-	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___spriteGeomRect_17;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___spriteGeomRect_18;
 	// UnityEngine.UIElements.ColorPage UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams::colorPage
-	ColorPage_t7C2B8995DE8D27CED5E55F7BFE4E6C70C971FAE0 ___colorPage_18;
+	ColorPage_t7C2B8995DE8D27CED5E55F7BFE4E6C70C971FAE0 ___colorPage_19;
 	// UnityEngine.UIElements.MeshGenerationContext/MeshFlags UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams::meshFlags
-	int32_t ___meshFlags_19;
+	int32_t ___meshFlags_20;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams
 struct RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B_marshaled_pinvoke
@@ -6722,9 +6722,10 @@ struct RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B_marshaled_pinvo
 	int32_t ___topSlice_14;
 	int32_t ___rightSlice_15;
 	int32_t ___bottomSlice_16;
-	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___spriteGeomRect_17;
-	ColorPage_t7C2B8995DE8D27CED5E55F7BFE4E6C70C971FAE0_marshaled_pinvoke ___colorPage_18;
-	int32_t ___meshFlags_19;
+	float ___sliceScale_17;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___spriteGeomRect_18;
+	ColorPage_t7C2B8995DE8D27CED5E55F7BFE4E6C70C971FAE0_marshaled_pinvoke ___colorPage_19;
+	int32_t ___meshFlags_20;
 };
 // Native definition for COM marshalling of UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams
 struct RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B_marshaled_com
@@ -6746,9 +6747,10 @@ struct RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B_marshaled_com
 	int32_t ___topSlice_14;
 	int32_t ___rightSlice_15;
 	int32_t ___bottomSlice_16;
-	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___spriteGeomRect_17;
-	ColorPage_t7C2B8995DE8D27CED5E55F7BFE4E6C70C971FAE0_marshaled_com ___colorPage_18;
-	int32_t ___meshFlags_19;
+	float ___sliceScale_17;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___spriteGeomRect_18;
+	ColorPage_t7C2B8995DE8D27CED5E55F7BFE4E6C70C971FAE0_marshaled_com ___colorPage_19;
+	int32_t ___meshFlags_20;
 };
 
 // UnityEngine.UIElements.VisualTreeAsset/<get_templateDependencies>d__17
@@ -6868,9 +6870,9 @@ struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t
 struct BindableElement_t873EFF65032D21AB3B7BFBA21675D1693967435C  : public VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115
 {
 	// UnityEngine.UIElements.IBinding UnityEngine.UIElements.BindableElement::<binding>k__BackingField
-	RuntimeObject* ___U3CbindingU3Ek__BackingField_64;
+	RuntimeObject* ___U3CbindingU3Ek__BackingField_65;
 	// System.String UnityEngine.UIElements.BindableElement::<bindingPath>k__BackingField
-	String_t* ___U3CbindingPathU3Ek__BackingField_65;
+	String_t* ___U3CbindingPathU3Ek__BackingField_66;
 };
 
 // System.InvalidOperationException
@@ -7453,44 +7455,44 @@ struct PanelTextSettings_tB4960351E6865BC34421430949C4CA68E7425F25_StaticFields
 struct TemplateContainer_tDF6DDDD82C75A6332F0194C2B39AF157F6342DA2  : public BindableElement_t873EFF65032D21AB3B7BFBA21675D1693967435C
 {
 	// System.String UnityEngine.UIElements.TemplateContainer::<templateId>k__BackingField
-	String_t* ___U3CtemplateIdU3Ek__BackingField_66;
+	String_t* ___U3CtemplateIdU3Ek__BackingField_67;
 	// UnityEngine.UIElements.VisualElement UnityEngine.UIElements.TemplateContainer::m_ContentContainer
-	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_ContentContainer_67;
+	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_ContentContainer_68;
 	// UnityEngine.UIElements.VisualTreeAsset UnityEngine.UIElements.TemplateContainer::m_TemplateSource
-	VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB* ___m_TemplateSource_68;
+	VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB* ___m_TemplateSource_69;
 };
 
 // UnityEngine.UIElements.TextElement
 struct TextElement_tD56C5044CCC5552285DC8A9950CC60448C80FEE0  : public BindableElement_t873EFF65032D21AB3B7BFBA21675D1693967435C
 {
 	// UnityEngine.UIElements.ITextHandle UnityEngine.UIElements.TextElement::m_TextHandle
-	RuntimeObject* ___m_TextHandle_67;
+	RuntimeObject* ___m_TextHandle_68;
 	// System.String UnityEngine.UIElements.TextElement::m_Text
-	String_t* ___m_Text_69;
+	String_t* ___m_Text_70;
 	// System.Boolean UnityEngine.UIElements.TextElement::m_EnableRichText
-	bool ___m_EnableRichText_70;
+	bool ___m_EnableRichText_71;
 	// System.Boolean UnityEngine.UIElements.TextElement::m_DisplayTooltipWhenElided
-	bool ___m_DisplayTooltipWhenElided_71;
+	bool ___m_DisplayTooltipWhenElided_72;
 	// System.Boolean UnityEngine.UIElements.TextElement::<isElided>k__BackingField
-	bool ___U3CisElidedU3Ek__BackingField_72;
+	bool ___U3CisElidedU3Ek__BackingField_73;
 	// System.Boolean UnityEngine.UIElements.TextElement::m_WasElided
-	bool ___m_WasElided_74;
+	bool ___m_WasElided_75;
 	// System.Boolean UnityEngine.UIElements.TextElement::m_UpdateTextParams
-	bool ___m_UpdateTextParams_75;
+	bool ___m_UpdateTextParams_76;
 	// UnityEngine.UIElements.MeshGenerationContextUtils/TextParams UnityEngine.UIElements.TextElement::m_TextParams
-	TextParams_t943244753F8E3A49632BBEC7272DAEAA8E10546F ___m_TextParams_76;
+	TextParams_t943244753F8E3A49632BBEC7272DAEAA8E10546F ___m_TextParams_77;
 	// System.Int32 UnityEngine.UIElements.TextElement::m_PreviousTextParamsHashCode
-	int32_t ___m_PreviousTextParamsHashCode_77;
+	int32_t ___m_PreviousTextParamsHashCode_78;
 };
 
 struct TextElement_tD56C5044CCC5552285DC8A9950CC60448C80FEE0_StaticFields
 {
 	// System.String UnityEngine.UIElements.TextElement::ussClassName
-	String_t* ___ussClassName_66;
+	String_t* ___ussClassName_67;
 	// System.Int32 UnityEngine.UIElements.TextElement::maxTextVertices
-	int32_t ___maxTextVertices_68;
+	int32_t ___maxTextVertices_69;
 	// System.String UnityEngine.UIElements.TextElement::k_EllipsisText
-	String_t* ___k_EllipsisText_73;
+	String_t* ___k_EllipsisText_74;
 };
 
 // UnityEngine.UIElements.Label
@@ -7501,7 +7503,7 @@ struct Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70  : public TextElement_tD5
 struct Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70_StaticFields
 {
 	// System.String UnityEngine.UIElements.Label::ussClassName
-	String_t* ___ussClassName_78;
+	String_t* ___ussClassName_79;
 };
 
 // UnityEngine.UIElements.RuntimePanel
@@ -14996,7 +14998,7 @@ IL_0022_1:
 				L_14 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_13, NULL);
 				NullCheck(L_14);
 				String_t* L_15;
-				L_15 = VirtualFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_14);
+				L_15 = VirtualFuncInvoker0< String_t* >::Invoke(35 /* System.String System.Type::get_FullName() */, L_14);
 				String_t* L_16;
 				L_16 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral7AF912EF574F4A4B8D1684A357C31BA4899E2630)), L_15, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA09E2059CFC087EDA705E84D3AECFCB7D8744B91)), NULL);
 				ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_17 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
@@ -15551,7 +15553,7 @@ IL_0079:
 		Type_t* L_29 = V_9;
 		NullCheck(L_28);
 		bool L_30;
-		L_30 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_28, L_29);
+		L_30 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(31 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_28, L_29);
 		if (!L_30)
 		{
 			goto IL_00af;
@@ -15581,7 +15583,7 @@ IL_0079:
 		Type_t* L_35 = V_9;
 		NullCheck(L_35);
 		bool L_36;
-		L_36 = VirtualFuncInvoker0< bool >::Invoke(40 /* System.Boolean System.Type::get_IsGenericType() */, L_35);
+		L_36 = VirtualFuncInvoker0< bool >::Invoke(49 /* System.Boolean System.Type::get_IsGenericType() */, L_35);
 		G_B12_0 = ((int32_t)(L_36));
 		goto IL_00b0;
 	}
@@ -17760,7 +17762,7 @@ IL_00fe:
 		L_42 = Type_GetTypeFromHandle_m2570A2A5B32A5E9D9F0F38B37459DA18736C823E(L_41, NULL);
 		NullCheck(L_42);
 		String_t* L_43;
-		L_43 = VirtualFuncInvoker0< String_t* >::Invoke(24 /* System.String System.Type::get_Namespace() */, L_42);
+		L_43 = VirtualFuncInvoker0< String_t* >::Invoke(33 /* System.String System.Type::get_Namespace() */, L_42);
 		U3CU3Ec__DisplayClass49_0_t15D6F8899A5A974A6A4531B01C67BD951257E3F3 L_44 = V_0;
 		VisualElementAsset_t558B207D551F8C727D1CD0F443F7211D095C3FA9* L_45 = L_44.___asset_0;
 		NullCheck(L_45);
@@ -23369,22 +23371,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder_MakeSlicedQuad_m8636798FE5B1
 	float V_11 = 0.0f;
 	float V_12 = 0.0f;
 	float V_13 = 0.0f;
-	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_14;
-	memset((&V_14), 0, sizeof(V_14));
-	float V_15 = 0.0f;
+	float V_14 = 0.0f;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_15;
+	memset((&V_15), 0, sizeof(V_15));
 	float V_16 = 0.0f;
-	int32_t V_17 = 0;
-	bool V_18 = false;
+	float V_17 = 0.0f;
+	int32_t V_18 = 0;
 	bool V_19 = false;
-	float V_20 = 0.0f;
-	bool V_21 = false;
-	float V_22 = 0.0f;
-	int32_t V_23 = 0;
+	bool V_20 = false;
+	float V_21 = 0.0f;
+	bool V_22 = false;
+	float V_23 = 0.0f;
 	int32_t V_24 = 0;
 	int32_t V_25 = 0;
-	Vertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7 V_26;
-	memset((&V_26), 0, sizeof(V_26));
-	bool V_27 = false;
+	int32_t V_26 = 0;
+	Vertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7 V_27;
+	memset((&V_27), 0, sizeof(V_27));
+	bool V_28 = false;
 	{
 		MeshWriteData_tE09883A6419D2A92CC453702AD6D30486B44F5F9* L_0;
 		L_0 = AllocMeshData_Allocate_mB77ABF867C6F021BDA7422E84B2A790D1DB395F2((&___meshAlloc2), ((int32_t)16), ((int32_t)54), NULL);
@@ -23428,353 +23431,374 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder_MakeSlicedQuad_m8636798FE5B1
 		float L_22;
 		L_22 = Mathf_Max_mA9DCA91E87D6D27034F56ABA52606A9090406016_inline((0.0f), ((float)L_21), NULL);
 		V_9 = L_22;
-		float L_23 = V_6;
-		float L_24 = V_4;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_23 = ___rectParams0;
+		float L_24 = L_23->___sliceScale_17;
 		float L_25;
-		L_25 = Mathf_Clamp_m154E404AF275A3B2EC99ECAA3879B4CB9F0606DC_inline(((float)il2cpp_codegen_multiply(L_23, L_24)), (0.0f), (1.0f), NULL);
+		L_25 = Mathf_Max_mA9DCA91E87D6D27034F56ABA52606A9090406016_inline((0.00999999978f), L_24, NULL);
 		V_10 = L_25;
-		float L_26 = V_7;
+		float L_26 = V_6;
 		float L_27 = V_4;
 		float L_28;
 		L_28 = Mathf_Clamp_m154E404AF275A3B2EC99ECAA3879B4CB9F0606DC_inline(((float)il2cpp_codegen_multiply(L_26, L_27)), (0.0f), (1.0f), NULL);
 		V_11 = L_28;
-		float L_29 = V_8;
-		float L_30 = V_5;
+		float L_29 = V_7;
+		float L_30 = V_4;
 		float L_31;
 		L_31 = Mathf_Clamp_m154E404AF275A3B2EC99ECAA3879B4CB9F0606DC_inline(((float)il2cpp_codegen_multiply(L_29, L_30)), (0.0f), (1.0f), NULL);
 		V_12 = L_31;
-		float L_32 = V_9;
+		float L_32 = V_8;
 		float L_33 = V_5;
 		float L_34;
 		L_34 = Mathf_Clamp_m154E404AF275A3B2EC99ECAA3879B4CB9F0606DC_inline(((float)il2cpp_codegen_multiply(L_32, L_33)), (0.0f), (1.0f), NULL);
 		V_13 = L_34;
+		float L_35 = V_9;
+		float L_36 = V_5;
+		float L_37;
+		L_37 = Mathf_Clamp_m154E404AF275A3B2EC99ECAA3879B4CB9F0606DC_inline(((float)il2cpp_codegen_multiply(L_35, L_36)), (0.0f), (1.0f), NULL);
+		V_14 = L_37;
+		float L_38 = V_6;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_39 = ___rectParams0;
+		float L_40 = L_39->___sliceScale_17;
+		V_6 = ((float)il2cpp_codegen_multiply(L_38, L_40));
+		float L_41 = V_7;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_42 = ___rectParams0;
+		float L_43 = L_42->___sliceScale_17;
+		V_7 = ((float)il2cpp_codegen_multiply(L_41, L_43));
+		float L_44 = V_8;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_45 = ___rectParams0;
+		float L_46 = L_45->___sliceScale_17;
+		V_8 = ((float)il2cpp_codegen_multiply(L_44, L_46));
+		float L_47 = V_9;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_48 = ___rectParams0;
+		float L_49 = L_48->___sliceScale_17;
+		V_9 = ((float)il2cpp_codegen_multiply(L_47, L_49));
 		il2cpp_codegen_runtime_class_init_inline(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_35 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesX_4;
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_36 = ___rectParams0;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_37 = (&L_36->___uv_1);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_38;
-		L_38 = Rect_get_min_mD0D1BABF9C955D2D9CCA86E257B0783ACDEE69AC(L_37, NULL);
-		float L_39 = L_38.___x_0;
-		NullCheck(L_35);
-		(L_35)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)L_39);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_40 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesX_4;
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_41 = ___rectParams0;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_42 = (&L_41->___uv_1);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_43;
-		L_43 = Rect_get_min_mD0D1BABF9C955D2D9CCA86E257B0783ACDEE69AC(L_42, NULL);
-		float L_44 = L_43.___x_0;
-		float L_45 = V_10;
-		NullCheck(L_40);
-		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)((float)il2cpp_codegen_add(L_44, L_45)));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_46 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesX_4;
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_47 = ___rectParams0;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_48 = (&L_47->___uv_1);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_49;
-		L_49 = Rect_get_max_m60149158D9A01113214BB417AA48CEF774899167(L_48, NULL);
-		float L_50 = L_49.___x_0;
-		float L_51 = V_11;
-		NullCheck(L_46);
-		(L_46)->SetAt(static_cast<il2cpp_array_size_t>(2), (float)((float)il2cpp_codegen_subtract(L_50, L_51)));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_52 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesX_4;
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_53 = ___rectParams0;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_54 = (&L_53->___uv_1);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_55;
-		L_55 = Rect_get_max_m60149158D9A01113214BB417AA48CEF774899167(L_54, NULL);
-		float L_56 = L_55.___x_0;
-		NullCheck(L_52);
-		(L_52)->SetAt(static_cast<il2cpp_array_size_t>(3), (float)L_56);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_57 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesY_5;
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_58 = ___rectParams0;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_59 = (&L_58->___uv_1);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_60;
-		L_60 = Rect_get_max_m60149158D9A01113214BB417AA48CEF774899167(L_59, NULL);
-		float L_61 = L_60.___y_1;
-		NullCheck(L_57);
-		(L_57)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)L_61);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_62 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesY_5;
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_63 = ___rectParams0;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_64 = (&L_63->___uv_1);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_65;
-		L_65 = Rect_get_max_m60149158D9A01113214BB417AA48CEF774899167(L_64, NULL);
-		float L_66 = L_65.___y_1;
-		float L_67 = V_12;
-		NullCheck(L_62);
-		(L_62)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)((float)il2cpp_codegen_subtract(L_66, L_67)));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_68 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesY_5;
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_69 = ___rectParams0;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_70 = (&L_69->___uv_1);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_71;
-		L_71 = Rect_get_min_mD0D1BABF9C955D2D9CCA86E257B0783ACDEE69AC(L_70, NULL);
-		float L_72 = L_71.___y_1;
-		float L_73 = V_13;
-		NullCheck(L_68);
-		(L_68)->SetAt(static_cast<il2cpp_array_size_t>(2), (float)((float)il2cpp_codegen_add(L_72, L_73)));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_74 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesY_5;
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_75 = ___rectParams0;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_76 = (&L_75->___uv_1);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_77;
-		L_77 = Rect_get_min_mD0D1BABF9C955D2D9CCA86E257B0783ACDEE69AC(L_76, NULL);
-		float L_78 = L_77.___y_1;
-		NullCheck(L_74);
-		(L_74)->SetAt(static_cast<il2cpp_array_size_t>(3), (float)L_78);
-		MeshWriteData_tE09883A6419D2A92CC453702AD6D30486B44F5F9* L_79 = V_0;
-		NullCheck(L_79);
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_80;
-		L_80 = MeshWriteData_get_uvRegion_m6E543500740DE690E1C3DB46DACA44DE9F785353(L_79, NULL);
-		V_14 = L_80;
-		V_17 = 0;
-		goto IL_0216;
-	}
-
-IL_01ac:
-	{
-		il2cpp_codegen_runtime_class_init_inline(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_81 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesX_4;
-		int32_t L_82 = V_17;
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_83 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesX_4;
-		int32_t L_84 = V_17;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_50 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesX_4;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_51 = ___rectParams0;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_52 = (&L_51->___uv_1);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_53;
+		L_53 = Rect_get_min_mD0D1BABF9C955D2D9CCA86E257B0783ACDEE69AC(L_52, NULL);
+		float L_54 = L_53.___x_0;
+		NullCheck(L_50);
+		(L_50)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)L_54);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_55 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesX_4;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_56 = ___rectParams0;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_57 = (&L_56->___uv_1);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_58;
+		L_58 = Rect_get_min_mD0D1BABF9C955D2D9CCA86E257B0783ACDEE69AC(L_57, NULL);
+		float L_59 = L_58.___x_0;
+		float L_60 = V_11;
+		NullCheck(L_55);
+		(L_55)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)((float)il2cpp_codegen_add(L_59, L_60)));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_61 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesX_4;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_62 = ___rectParams0;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_63 = (&L_62->___uv_1);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_64;
+		L_64 = Rect_get_max_m60149158D9A01113214BB417AA48CEF774899167(L_63, NULL);
+		float L_65 = L_64.___x_0;
+		float L_66 = V_12;
+		NullCheck(L_61);
+		(L_61)->SetAt(static_cast<il2cpp_array_size_t>(2), (float)((float)il2cpp_codegen_subtract(L_65, L_66)));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_67 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesX_4;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_68 = ___rectParams0;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_69 = (&L_68->___uv_1);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_70;
+		L_70 = Rect_get_max_m60149158D9A01113214BB417AA48CEF774899167(L_69, NULL);
+		float L_71 = L_70.___x_0;
+		NullCheck(L_67);
+		(L_67)->SetAt(static_cast<il2cpp_array_size_t>(3), (float)L_71);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_72 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesY_5;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_73 = ___rectParams0;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_74 = (&L_73->___uv_1);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_75;
+		L_75 = Rect_get_max_m60149158D9A01113214BB417AA48CEF774899167(L_74, NULL);
+		float L_76 = L_75.___y_1;
+		NullCheck(L_72);
+		(L_72)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)L_76);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_77 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesY_5;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_78 = ___rectParams0;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_79 = (&L_78->___uv_1);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_80;
+		L_80 = Rect_get_max_m60149158D9A01113214BB417AA48CEF774899167(L_79, NULL);
+		float L_81 = L_80.___y_1;
+		float L_82 = V_13;
+		NullCheck(L_77);
+		(L_77)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)((float)il2cpp_codegen_subtract(L_81, L_82)));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_83 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesY_5;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_84 = ___rectParams0;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_85 = (&L_84->___uv_1);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_86;
+		L_86 = Rect_get_min_mD0D1BABF9C955D2D9CCA86E257B0783ACDEE69AC(L_85, NULL);
+		float L_87 = L_86.___y_1;
+		float L_88 = V_14;
 		NullCheck(L_83);
-		int32_t L_85 = L_84;
-		float L_86 = (L_83)->GetAt(static_cast<il2cpp_array_size_t>(L_85));
-		float L_87;
-		L_87 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9((&V_14), NULL);
-		float L_88;
-		L_88 = Rect_get_xMin_mE89C40702926D016A633399E20DB9501E251630D((&V_14), NULL);
-		NullCheck(L_81);
-		(L_81)->SetAt(static_cast<il2cpp_array_size_t>(L_82), (float)((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_86, L_87)), L_88)));
+		(L_83)->SetAt(static_cast<il2cpp_array_size_t>(2), (float)((float)il2cpp_codegen_add(L_87, L_88)));
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_89 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesY_5;
-		int32_t L_90 = V_17;
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_91 = ___rectParams0;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_92 = (&L_91->___uv_1);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_93;
-		L_93 = Rect_get_min_mD0D1BABF9C955D2D9CCA86E257B0783ACDEE69AC(L_92, NULL);
-		float L_94 = L_93.___y_1;
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_95 = ___rectParams0;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_96 = (&L_95->___uv_1);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_97;
-		L_97 = Rect_get_max_m60149158D9A01113214BB417AA48CEF774899167(L_96, NULL);
-		float L_98 = L_97.___y_1;
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_99 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesY_5;
-		int32_t L_100 = V_17;
-		NullCheck(L_99);
-		int32_t L_101 = L_100;
-		float L_102 = (L_99)->GetAt(static_cast<il2cpp_array_size_t>(L_101));
-		float L_103;
-		L_103 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8((&V_14), NULL);
-		float L_104;
-		L_104 = Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F((&V_14), NULL);
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_90 = ___rectParams0;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_91 = (&L_90->___uv_1);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_92;
+		L_92 = Rect_get_min_mD0D1BABF9C955D2D9CCA86E257B0783ACDEE69AC(L_91, NULL);
+		float L_93 = L_92.___y_1;
 		NullCheck(L_89);
-		(L_89)->SetAt(static_cast<il2cpp_array_size_t>(L_90), (float)((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_94, L_98)), L_102)), L_103)), L_104)));
-		int32_t L_105 = V_17;
-		V_17 = ((int32_t)il2cpp_codegen_add(L_105, 1));
+		(L_89)->SetAt(static_cast<il2cpp_array_size_t>(3), (float)L_93);
+		MeshWriteData_tE09883A6419D2A92CC453702AD6D30486B44F5F9* L_94 = V_0;
+		NullCheck(L_94);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_95;
+		L_95 = MeshWriteData_get_uvRegion_m6E543500740DE690E1C3DB46DACA44DE9F785353(L_94, NULL);
+		V_15 = L_95;
+		V_18 = 0;
+		goto IL_0254;
 	}
 
-IL_0216:
+IL_01ea:
 	{
-		int32_t L_106 = V_17;
-		V_18 = (bool)((((int32_t)L_106) < ((int32_t)4))? 1 : 0);
-		bool L_107 = V_18;
-		if (L_107)
+		il2cpp_codegen_runtime_class_init_inline(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_96 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesX_4;
+		int32_t L_97 = V_18;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_98 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesX_4;
+		int32_t L_99 = V_18;
+		NullCheck(L_98);
+		int32_t L_100 = L_99;
+		float L_101 = (L_98)->GetAt(static_cast<il2cpp_array_size_t>(L_100));
+		float L_102;
+		L_102 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9((&V_15), NULL);
+		float L_103;
+		L_103 = Rect_get_xMin_mE89C40702926D016A633399E20DB9501E251630D((&V_15), NULL);
+		NullCheck(L_96);
+		(L_96)->SetAt(static_cast<il2cpp_array_size_t>(L_97), (float)((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_101, L_102)), L_103)));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_104 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesY_5;
+		int32_t L_105 = V_18;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_106 = ___rectParams0;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_107 = (&L_106->___uv_1);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_108;
+		L_108 = Rect_get_min_mD0D1BABF9C955D2D9CCA86E257B0783ACDEE69AC(L_107, NULL);
+		float L_109 = L_108.___y_1;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_110 = ___rectParams0;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_111 = (&L_110->___uv_1);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_112;
+		L_112 = Rect_get_max_m60149158D9A01113214BB417AA48CEF774899167(L_111, NULL);
+		float L_113 = L_112.___y_1;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_114 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesY_5;
+		int32_t L_115 = V_18;
+		NullCheck(L_114);
+		int32_t L_116 = L_115;
+		float L_117 = (L_114)->GetAt(static_cast<il2cpp_array_size_t>(L_116));
+		float L_118;
+		L_118 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8((&V_15), NULL);
+		float L_119;
+		L_119 = Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F((&V_15), NULL);
+		NullCheck(L_104);
+		(L_104)->SetAt(static_cast<il2cpp_array_size_t>(L_105), (float)((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_109, L_113)), L_117)), L_118)), L_119)));
+		int32_t L_120 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_120, 1));
+	}
+
+IL_0254:
+	{
+		int32_t L_121 = V_18;
+		V_19 = (bool)((((int32_t)L_121) < ((int32_t)4))? 1 : 0);
+		bool L_122 = V_19;
+		if (L_122)
 		{
-			goto IL_01ac;
+			goto IL_01ea;
 		}
 	}
 	{
-		float L_108 = V_6;
-		float L_109 = V_7;
-		V_15 = ((float)il2cpp_codegen_add(L_108, L_109));
-		float L_110 = V_15;
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_111 = ___rectParams0;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_112 = (&L_111->___rect_0);
-		float L_113;
-		L_113 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9(L_112, NULL);
-		V_19 = (bool)((((float)L_110) > ((float)L_113))? 1 : 0);
-		bool L_114 = V_19;
-		if (!L_114)
-		{
-			goto IL_025d;
-		}
-	}
-	{
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_115 = ___rectParams0;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_116 = (&L_115->___rect_0);
-		float L_117;
-		L_117 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9(L_116, NULL);
-		float L_118 = V_15;
-		V_20 = ((float)(L_117/L_118));
-		float L_119 = V_6;
-		float L_120 = V_20;
-		V_6 = ((float)il2cpp_codegen_multiply(L_119, L_120));
-		float L_121 = V_7;
-		float L_122 = V_20;
-		V_7 = ((float)il2cpp_codegen_multiply(L_121, L_122));
-	}
-
-IL_025d:
-	{
-		float L_123 = V_8;
-		float L_124 = V_9;
+		float L_123 = V_6;
+		float L_124 = V_7;
 		V_16 = ((float)il2cpp_codegen_add(L_123, L_124));
 		float L_125 = V_16;
 		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_126 = ___rectParams0;
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_127 = (&L_126->___rect_0);
 		float L_128;
-		L_128 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8(L_127, NULL);
-		V_21 = (bool)((((float)L_125) > ((float)L_128))? 1 : 0);
-		bool L_129 = V_21;
+		L_128 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9(L_127, NULL);
+		V_20 = (bool)((((float)L_125) > ((float)L_128))? 1 : 0);
+		bool L_129 = V_20;
 		if (!L_129)
 		{
-			goto IL_0299;
+			goto IL_029b;
 		}
 	}
 	{
 		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_130 = ___rectParams0;
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_131 = (&L_130->___rect_0);
 		float L_132;
-		L_132 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8(L_131, NULL);
+		L_132 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9(L_131, NULL);
 		float L_133 = V_16;
-		V_22 = ((float)(L_132/L_133));
-		float L_134 = V_8;
-		float L_135 = V_22;
-		V_8 = ((float)il2cpp_codegen_multiply(L_134, L_135));
-		float L_136 = V_9;
-		float L_137 = V_22;
-		V_9 = ((float)il2cpp_codegen_multiply(L_136, L_137));
+		V_21 = ((float)(L_132/L_133));
+		float L_134 = V_6;
+		float L_135 = V_21;
+		V_6 = ((float)il2cpp_codegen_multiply(L_134, L_135));
+		float L_136 = V_7;
+		float L_137 = V_21;
+		V_7 = ((float)il2cpp_codegen_multiply(L_136, L_137));
 	}
 
-IL_0299:
+IL_029b:
 	{
-		il2cpp_codegen_runtime_class_init_inline(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_138 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_PositionSlicesX_6;
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_139 = ___rectParams0;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_140 = (&L_139->___rect_0);
-		float L_141;
-		L_141 = Rect_get_x_mB267B718E0D067F2BAE31BA477647FBF964916EB(L_140, NULL);
-		NullCheck(L_138);
-		(L_138)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)L_141);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_142 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_PositionSlicesX_6;
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_143 = ___rectParams0;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_144 = (&L_143->___rect_0);
-		float L_145;
-		L_145 = Rect_get_x_mB267B718E0D067F2BAE31BA477647FBF964916EB(L_144, NULL);
-		float L_146 = V_6;
-		NullCheck(L_142);
-		(L_142)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)((float)il2cpp_codegen_add(L_145, L_146)));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_147 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_PositionSlicesX_6;
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_148 = ___rectParams0;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_149 = (&L_148->___rect_0);
-		float L_150;
-		L_150 = Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F(L_149, NULL);
-		float L_151 = V_7;
-		NullCheck(L_147);
-		(L_147)->SetAt(static_cast<il2cpp_array_size_t>(2), (float)((float)il2cpp_codegen_subtract(L_150, L_151)));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_152 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_PositionSlicesX_6;
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_153 = ___rectParams0;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_154 = (&L_153->___rect_0);
-		float L_155;
-		L_155 = Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F(L_154, NULL);
-		NullCheck(L_152);
-		(L_152)->SetAt(static_cast<il2cpp_array_size_t>(3), (float)L_155);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_156 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_PositionSlicesY_7;
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_157 = ___rectParams0;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_158 = (&L_157->___rect_0);
-		float L_159;
-		L_159 = Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E(L_158, NULL);
-		NullCheck(L_156);
-		(L_156)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)L_159);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_160 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_PositionSlicesY_7;
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_161 = ___rectParams0;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_162 = (&L_161->___rect_0);
-		float L_163;
-		L_163 = Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E(L_162, NULL);
-		float L_164 = V_8;
-		NullCheck(L_160);
-		(L_160)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)((float)il2cpp_codegen_subtract(L_163, L_164)));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_165 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_PositionSlicesY_7;
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_166 = ___rectParams0;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_167 = (&L_166->___rect_0);
-		float L_168;
-		L_168 = Rect_get_y_mC733E8D49F3CE21B2A3D40A1B72D687F22C97F49(L_167, NULL);
-		float L_169 = V_9;
-		NullCheck(L_165);
-		(L_165)->SetAt(static_cast<il2cpp_array_size_t>(2), (float)((float)il2cpp_codegen_add(L_168, L_169)));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_170 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_PositionSlicesY_7;
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_171 = ___rectParams0;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_172 = (&L_171->___rect_0);
-		float L_173;
-		L_173 = Rect_get_y_mC733E8D49F3CE21B2A3D40A1B72D687F22C97F49(L_172, NULL);
-		NullCheck(L_170);
-		(L_170)->SetAt(static_cast<il2cpp_array_size_t>(3), (float)L_173);
-		V_23 = 0;
-		goto IL_03aa;
-	}
-
-IL_033a:
-	{
-		int32_t L_174 = V_23;
-		V_24 = ((int32_t)(L_174%4));
-		int32_t L_175 = V_23;
-		V_25 = ((int32_t)(L_175/4));
-		MeshWriteData_tE09883A6419D2A92CC453702AD6D30486B44F5F9* L_176 = V_0;
-		il2cpp_codegen_initobj((&V_26), sizeof(Vertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7));
-		il2cpp_codegen_runtime_class_init_inline(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_177 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_PositionSlicesX_6;
-		int32_t L_178 = V_24;
-		NullCheck(L_177);
-		int32_t L_179 = L_178;
-		float L_180 = (L_177)->GetAt(static_cast<il2cpp_array_size_t>(L_179));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_181 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_PositionSlicesY_7;
-		int32_t L_182 = V_25;
-		NullCheck(L_181);
-		int32_t L_183 = L_182;
-		float L_184 = (L_181)->GetAt(static_cast<il2cpp_array_size_t>(L_183));
-		float L_185 = ___posZ1;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_186;
-		memset((&L_186), 0, sizeof(L_186));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_186), L_180, L_184, L_185, /*hidden argument*/NULL);
-		(&V_26)->___position_1 = L_186;
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_187 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesX_4;
-		int32_t L_188 = V_24;
-		NullCheck(L_187);
-		int32_t L_189 = L_188;
-		float L_190 = (L_187)->GetAt(static_cast<il2cpp_array_size_t>(L_189));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_191 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesY_5;
-		int32_t L_192 = V_25;
-		NullCheck(L_191);
-		int32_t L_193 = L_192;
-		float L_194 = (L_191)->GetAt(static_cast<il2cpp_array_size_t>(L_193));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_195;
-		memset((&L_195), 0, sizeof(L_195));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_195), L_190, L_194, /*hidden argument*/NULL);
-		(&V_26)->___uv_3 = L_195;
-		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_196 = ___rectParams0;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_197 = L_196->___color_2;
-		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_198;
-		L_198 = Color32_op_Implicit_m7EFA0B83AD1AE15567E9BC2FA2B8E66D3BFE1395_inline(L_197, NULL);
-		(&V_26)->___tint_2 = L_198;
-		Vertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7 L_199 = V_26;
-		NullCheck(L_176);
-		MeshWriteData_SetNextVertex_m120BCCC7DD2ACF1AA408166C9187500803FCF841(L_176, L_199, NULL);
-		int32_t L_200 = V_23;
-		V_23 = ((int32_t)il2cpp_codegen_add(L_200, 1));
-	}
-
-IL_03aa:
-	{
-		int32_t L_201 = V_23;
-		V_27 = (bool)((((int32_t)L_201) < ((int32_t)((int32_t)16)))? 1 : 0);
-		bool L_202 = V_27;
-		if (L_202)
+		float L_138 = V_8;
+		float L_139 = V_9;
+		V_17 = ((float)il2cpp_codegen_add(L_138, L_139));
+		float L_140 = V_17;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_141 = ___rectParams0;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_142 = (&L_141->___rect_0);
+		float L_143;
+		L_143 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8(L_142, NULL);
+		V_22 = (bool)((((float)L_140) > ((float)L_143))? 1 : 0);
+		bool L_144 = V_22;
+		if (!L_144)
 		{
-			goto IL_033a;
+			goto IL_02d7;
 		}
 	}
 	{
-		MeshWriteData_tE09883A6419D2A92CC453702AD6D30486B44F5F9* L_203 = V_0;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_145 = ___rectParams0;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_146 = (&L_145->___rect_0);
+		float L_147;
+		L_147 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8(L_146, NULL);
+		float L_148 = V_17;
+		V_23 = ((float)(L_147/L_148));
+		float L_149 = V_8;
+		float L_150 = V_23;
+		V_8 = ((float)il2cpp_codegen_multiply(L_149, L_150));
+		float L_151 = V_9;
+		float L_152 = V_23;
+		V_9 = ((float)il2cpp_codegen_multiply(L_151, L_152));
+	}
+
+IL_02d7:
+	{
 		il2cpp_codegen_runtime_class_init_inline(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var);
-		UInt16U5BU5D_tEB7C42D811D999D2AA815BADC3FCCDD9C67B3F83* L_204 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___slicedQuadIndices_3;
-		NullCheck(L_203);
-		MeshWriteData_SetAllIndices_m243F1994B53722F1B42639704E5194AC07309CC4(L_203, L_204, NULL);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_153 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_PositionSlicesX_6;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_154 = ___rectParams0;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_155 = (&L_154->___rect_0);
+		float L_156;
+		L_156 = Rect_get_x_mB267B718E0D067F2BAE31BA477647FBF964916EB(L_155, NULL);
+		NullCheck(L_153);
+		(L_153)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)L_156);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_157 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_PositionSlicesX_6;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_158 = ___rectParams0;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_159 = (&L_158->___rect_0);
+		float L_160;
+		L_160 = Rect_get_x_mB267B718E0D067F2BAE31BA477647FBF964916EB(L_159, NULL);
+		float L_161 = V_6;
+		NullCheck(L_157);
+		(L_157)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)((float)il2cpp_codegen_add(L_160, L_161)));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_162 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_PositionSlicesX_6;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_163 = ___rectParams0;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_164 = (&L_163->___rect_0);
+		float L_165;
+		L_165 = Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F(L_164, NULL);
+		float L_166 = V_7;
+		NullCheck(L_162);
+		(L_162)->SetAt(static_cast<il2cpp_array_size_t>(2), (float)((float)il2cpp_codegen_subtract(L_165, L_166)));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_167 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_PositionSlicesX_6;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_168 = ___rectParams0;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_169 = (&L_168->___rect_0);
+		float L_170;
+		L_170 = Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F(L_169, NULL);
+		NullCheck(L_167);
+		(L_167)->SetAt(static_cast<il2cpp_array_size_t>(3), (float)L_170);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_171 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_PositionSlicesY_7;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_172 = ___rectParams0;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_173 = (&L_172->___rect_0);
+		float L_174;
+		L_174 = Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E(L_173, NULL);
+		NullCheck(L_171);
+		(L_171)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)L_174);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_175 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_PositionSlicesY_7;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_176 = ___rectParams0;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_177 = (&L_176->___rect_0);
+		float L_178;
+		L_178 = Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E(L_177, NULL);
+		float L_179 = V_8;
+		NullCheck(L_175);
+		(L_175)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)((float)il2cpp_codegen_subtract(L_178, L_179)));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_180 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_PositionSlicesY_7;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_181 = ___rectParams0;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_182 = (&L_181->___rect_0);
+		float L_183;
+		L_183 = Rect_get_y_mC733E8D49F3CE21B2A3D40A1B72D687F22C97F49(L_182, NULL);
+		float L_184 = V_9;
+		NullCheck(L_180);
+		(L_180)->SetAt(static_cast<il2cpp_array_size_t>(2), (float)((float)il2cpp_codegen_add(L_183, L_184)));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_185 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_PositionSlicesY_7;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_186 = ___rectParams0;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_187 = (&L_186->___rect_0);
+		float L_188;
+		L_188 = Rect_get_y_mC733E8D49F3CE21B2A3D40A1B72D687F22C97F49(L_187, NULL);
+		NullCheck(L_185);
+		(L_185)->SetAt(static_cast<il2cpp_array_size_t>(3), (float)L_188);
+		V_24 = 0;
+		goto IL_03e8;
+	}
+
+IL_0378:
+	{
+		int32_t L_189 = V_24;
+		V_25 = ((int32_t)(L_189%4));
+		int32_t L_190 = V_24;
+		V_26 = ((int32_t)(L_190/4));
+		MeshWriteData_tE09883A6419D2A92CC453702AD6D30486B44F5F9* L_191 = V_0;
+		il2cpp_codegen_initobj((&V_27), sizeof(Vertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7));
+		il2cpp_codegen_runtime_class_init_inline(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_192 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_PositionSlicesX_6;
+		int32_t L_193 = V_25;
+		NullCheck(L_192);
+		int32_t L_194 = L_193;
+		float L_195 = (L_192)->GetAt(static_cast<il2cpp_array_size_t>(L_194));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_196 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_PositionSlicesY_7;
+		int32_t L_197 = V_26;
+		NullCheck(L_196);
+		int32_t L_198 = L_197;
+		float L_199 = (L_196)->GetAt(static_cast<il2cpp_array_size_t>(L_198));
+		float L_200 = ___posZ1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_201;
+		memset((&L_201), 0, sizeof(L_201));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_201), L_195, L_199, L_200, /*hidden argument*/NULL);
+		(&V_27)->___position_1 = L_201;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_202 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesX_4;
+		int32_t L_203 = V_25;
+		NullCheck(L_202);
+		int32_t L_204 = L_203;
+		float L_205 = (L_202)->GetAt(static_cast<il2cpp_array_size_t>(L_204));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_206 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___k_TexCoordSlicesY_5;
+		int32_t L_207 = V_26;
+		NullCheck(L_206);
+		int32_t L_208 = L_207;
+		float L_209 = (L_206)->GetAt(static_cast<il2cpp_array_size_t>(L_208));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_210;
+		memset((&L_210), 0, sizeof(L_210));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_210), L_205, L_209, /*hidden argument*/NULL);
+		(&V_27)->___uv_3 = L_210;
+		RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B* L_211 = ___rectParams0;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_212 = L_211->___color_2;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_213;
+		L_213 = Color32_op_Implicit_m7EFA0B83AD1AE15567E9BC2FA2B8E66D3BFE1395_inline(L_212, NULL);
+		(&V_27)->___tint_2 = L_213;
+		Vertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7 L_214 = V_27;
+		NullCheck(L_191);
+		MeshWriteData_SetNextVertex_m120BCCC7DD2ACF1AA408166C9187500803FCF841(L_191, L_214, NULL);
+		int32_t L_215 = V_24;
+		V_24 = ((int32_t)il2cpp_codegen_add(L_215, 1));
+	}
+
+IL_03e8:
+	{
+		int32_t L_216 = V_24;
+		V_28 = (bool)((((int32_t)L_216) < ((int32_t)((int32_t)16)))? 1 : 0);
+		bool L_217 = V_28;
+		if (L_217)
+		{
+			goto IL_0378;
+		}
+	}
+	{
+		MeshWriteData_tE09883A6419D2A92CC453702AD6D30486B44F5F9* L_218 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var);
+		UInt16U5BU5D_tEB7C42D811D999D2AA815BADC3FCCDD9C67B3F83* L_219 = ((MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_StaticFields*)il2cpp_codegen_static_fields_for(MeshBuilder_t73D46F57E528BF26B22D710789F8E63D0F966A1F_il2cpp_TypeInfo_var))->___slicedQuadIndices_3;
+		NullCheck(L_218);
+		MeshWriteData_SetAllIndices_m243F1994B53722F1B42639704E5194AC07309CC4(L_218, L_219, NULL);
 		return;
 	}
 }
@@ -28270,11 +28294,11 @@ IL_003f:
 		BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303* L_17 = ___panel0;
 		NullCheck(L_17);
 		AtlasBase_t196C45243F41C19DC6258965057BBAA150D278BC* L_18;
-		L_18 = VirtualFuncInvoker0< AtlasBase_t196C45243F41C19DC6258965057BBAA150D278BC* >::Invoke(47 /* UnityEngine.UIElements.AtlasBase UnityEngine.UIElements.BaseVisualElementPanel::get_atlas() */, L_17);
+		L_18 = VirtualFuncInvoker0< AtlasBase_t196C45243F41C19DC6258965057BBAA150D278BC* >::Invoke(48 /* UnityEngine.UIElements.AtlasBase UnityEngine.UIElements.BaseVisualElementPanel::get_atlas() */, L_17);
 		BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303* L_19 = ___panel0;
 		NullCheck(L_19);
 		AtlasBase_t196C45243F41C19DC6258965057BBAA150D278BC* L_20;
-		L_20 = VirtualFuncInvoker0< AtlasBase_t196C45243F41C19DC6258965057BBAA150D278BC* >::Invoke(47 /* UnityEngine.UIElements.AtlasBase UnityEngine.UIElements.BaseVisualElementPanel::get_atlas() */, L_19);
+		L_20 = VirtualFuncInvoker0< AtlasBase_t196C45243F41C19DC6258965057BBAA150D278BC* >::Invoke(48 /* UnityEngine.UIElements.AtlasBase UnityEngine.UIElements.BaseVisualElementPanel::get_atlas() */, L_19);
 		VectorImageManager_tBABA8290D62F9BDB5DCE3CC8FDA877915D1DBFED* L_21 = (VectorImageManager_tBABA8290D62F9BDB5DCE3CC8FDA877915D1DBFED*)il2cpp_codegen_object_new(VectorImageManager_tBABA8290D62F9BDB5DCE3CC8FDA877915D1DBFED_il2cpp_TypeInfo_var);
 		NullCheck(L_21);
 		VectorImageManager__ctor_mE2CD0FB71F0F2B9AE8658276F195686194A20525(L_21, L_20, NULL);
@@ -29736,7 +29760,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderChain_Render_mE9AB2A96A96C76FE403F
 		L_7 = RenderChain_get_panel_mC62704C111A0F5EAA68B12B7A0A371C53466E47B_inline(__this, NULL);
 		NullCheck(L_7);
 		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_8;
-		L_8 = VirtualFuncInvoker0< VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* >::Invoke(34 /* UnityEngine.UIElements.VisualElement UnityEngine.UIElements.BaseVisualElementPanel::get_visualTree() */, L_7);
+		L_8 = VirtualFuncInvoker0< VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* >::Invoke(35 /* UnityEngine.UIElements.VisualElement UnityEngine.UIElements.BaseVisualElementPanel::get_visualTree() */, L_7);
 		NullCheck(L_8);
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_9;
 		L_9 = VisualElement_get_layout_m71851CB694EE1348CDCA83353FFF3C1FB2F69C1A(L_8, NULL);
@@ -30174,7 +30198,7 @@ IL_013f:
 	{
 		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_47 = __this->___m_FirstTextElement_16;
 		NullCheck(G_B27_0);
-		VirtualActionInvoker2< VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*, int32_t >::Invoke(28 /* System.Void UnityEngine.UIElements.BaseVisualElementPanel::OnVersionChanged(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.VersionChangeType) */, G_B27_0, L_47, ((int32_t)512));
+		VirtualActionInvoker2< VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*, int32_t >::Invoke(29 /* System.Void UnityEngine.UIElements.BaseVisualElementPanel::OnVersionChanged(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.VersionChangeType) */, G_B27_0, L_47, ((int32_t)512));
 	}
 
 IL_0150:
@@ -31915,7 +31939,7 @@ IL_000e:
 		Panel_t2B0DCF68A7A5EBC347FAE66F046EA98B53AF1AB9* L_3 = V_2;
 		NullCheck(L_3);
 		RuntimeObject* L_4;
-		L_4 = VirtualFuncInvoker1< RuntimeObject*, int32_t >::Invoke(44 /* UnityEngine.UIElements.IVisualTreeUpdater UnityEngine.UIElements.BaseVisualElementPanel::GetUpdater(UnityEngine.UIElements.VisualTreeUpdatePhase) */, L_3, 6);
+		L_4 = VirtualFuncInvoker1< RuntimeObject*, int32_t >::Invoke(45 /* UnityEngine.UIElements.IVisualTreeUpdater UnityEngine.UIElements.BaseVisualElementPanel::GetUpdater(UnityEngine.UIElements.VisualTreeUpdatePhase) */, L_3, 6);
 		UIRRepaintUpdater_tA4093F3857EA96D9E5E9EFD7C18785C787E1408E* L_5 = ((UIRRepaintUpdater_tA4093F3857EA96D9E5E9EFD7C18785C787E1408E*)IsInstClass((RuntimeObject*)L_4, UIRRepaintUpdater_tA4093F3857EA96D9E5E9EFD7C18785C787E1408E_il2cpp_TypeInfo_var));
 		G_B2_0 = L_5;
 		if (L_5)
@@ -32485,7 +32509,7 @@ IL_0044:
 		L_14 = RenderChain_get_panel_mC62704C111A0F5EAA68B12B7A0A371C53466E47B_inline(__this, NULL);
 		NullCheck(L_14);
 		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_15;
-		L_15 = VirtualFuncInvoker0< VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* >::Invoke(34 /* UnityEngine.UIElements.VisualElement UnityEngine.UIElements.BaseVisualElementPanel::get_visualTree() */, L_14);
+		L_15 = VirtualFuncInvoker0< VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* >::Invoke(35 /* UnityEngine.UIElements.VisualElement UnityEngine.UIElements.BaseVisualElementPanel::get_visualTree() */, L_14);
 		RenderChain_UIEOnOpacityChanged_m89DFC4B502065583006586603B38AE3DEDF4E680(__this, L_15, (bool)0, NULL);
 		return;
 	}
@@ -33536,8 +33560,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BindableElement_set_bindingP
 {
 	{
 		String_t* L_0 = ___value0;
-		__this->___U3CbindingPathU3Ek__BackingField_65 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CbindingPathU3Ek__BackingField_65), (void*)L_0);
+		__this->___U3CbindingPathU3Ek__BackingField_66 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CbindingPathU3Ek__BackingField_66), (void*)L_0);
 		return;
 	}
 }
@@ -33545,8 +33569,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TemplateContainer_set_templa
 {
 	{
 		VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB* L_0 = ___value0;
-		__this->___m_TemplateSource_68 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TemplateSource_68), (void*)L_0);
+		__this->___m_TemplateSource_69 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TemplateSource_69), (void*)L_0);
 		return;
 	}
 }
@@ -33554,15 +33578,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void VisualElement_set_visualTree
 {
 	{
 		VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB* L_0 = ___value0;
-		__this->___m_VisualTreeAssetSource_56 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_VisualTreeAssetSource_56), (void*)L_0);
+		__this->___m_VisualTreeAssetSource_57 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_VisualTreeAssetSource_57), (void*)L_0);
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677 VisualElement_get_hierarchy_m2E897DE4CFD349E65CFA38EFF6BAAFECE2F4E3E4_inline (VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* __this, const RuntimeMethod* method) 
 {
 	{
-		Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677 L_0 = __this->___U3ChierarchyU3Ek__BackingField_48;
+		Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677 L_0 = __this->___U3ChierarchyU3Ek__BackingField_49;
 		return L_0;
 	}
 }

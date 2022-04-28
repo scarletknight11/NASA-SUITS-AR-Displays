@@ -12,7 +12,7 @@ public class SomeInformation : MonoBehaviour
     void Start()
     {
         mesh = gameObject.GetComponent<TextMesh>();
-        Office365DataHub.Manager.Instance.GetSomeInformation("https://www.microsoft.com", OnGetSomeInformationCompleted);
+        //Office365DataHub.Manager.Instance.GetSomeInformation("https://www.microsoft.com", OnGetSomeInformationCompleted);
     }
 
 
@@ -29,7 +29,7 @@ public class SomeInformation : MonoBehaviour
         if (result.Length > 100)
         {
             text = result.Substring(0, 100);
-        } 
+        }
         else
         {
             text = result;

@@ -34,14 +34,10 @@ struct Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED;
 struct Queue_1_tDCDB1CEF747EF8D38C6708645EC5FD3799C168BA;
 // System.Collections.Generic.Queue`1<System.Object>
 struct Queue_1_tE9EF546915795972C3BFD68FBB8FA859D3BAF3B5;
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.AssetBundle>
-struct SimpleCoroutineAwaiter_1_tCBBDF4FC8ADD3FFC73003A881A5F51009A5418E3;
 // Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.AsyncOperation>
 struct SimpleCoroutineAwaiter_1_tFB61A87F1E8170EB4C3AB8594E342ABD47A4441F;
 // Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<System.Object>
 struct SimpleCoroutineAwaiter_1_tD5FFA99CF378080A397FE1848E78F11832A2E13B;
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.Object>
-struct SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD;
 // System.Collections.Generic.Stack`1<System.Collections.IEnumerator>
 struct Stack_1_tCCF0E342E1E3E67D3A5E29186184FCC97134D9AB;
 // System.Action[]
@@ -56,12 +52,6 @@ struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
 // System.Action
 struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
-// UnityEngine.AssetBundle
-struct AssetBundle_tB38418819A49060CD738CB21541649340F082943;
-// UnityEngine.AssetBundleCreateRequest
-struct AssetBundleCreateRequest_t73B8714B9459A01540E091C3770A408E67188CF6;
-// UnityEngine.AssetBundleRequest
-struct AssetBundleRequest_tED9F5504E75ED1BCFF8DA9B51F5C7356617E6621;
 // System.AsyncCallback
 struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
 // Microsoft.MixedReality.Toolkit.Utilities.AsyncCoroutineRunner
@@ -116,8 +106,6 @@ struct MulticastDelegate_t;
 struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
 // UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
-// UnityEngine.ResourceRequest
-struct ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868;
 // System.Runtime.Serialization.SafeSerializationManager
 struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
 // System.Threading.Tasks.StackGuard
@@ -142,42 +130,22 @@ struct Type_t;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 // Microsoft.MixedReality.Toolkit.Utilities.WaitForBackgroundThread
 struct WaitForBackgroundThread_t75FEB458582D3BE4ADBFA0DEF086C9136F9C24D5;
-// UnityEngine.WaitForEndOfFrame
-struct WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663;
-// UnityEngine.WaitForFixedUpdate
-struct WaitForFixedUpdate_t86F5BC0B6A668AEF2903DE9ADB52062E457BD1B7;
 // UnityEngine.WaitForSeconds
 struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3;
-// UnityEngine.WaitForSecondsRealtime
-struct WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01;
 // Microsoft.MixedReality.Toolkit.Utilities.WaitForUpdate
 struct WaitForUpdate_t38E540D067CC210D30B0B793E795CAACF73B87CB;
 // UnityEngine.WaitUntil
 struct WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD;
-// UnityEngine.WaitWhile
-struct WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967;
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass10_0
-struct U3CU3Ec__DisplayClass10_0_t849944EE04E0228E6F9AB7122186E74626BF19F9;
 // Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass12_0
 struct U3CU3Ec__DisplayClass12_0_t484CC9458C271005CD7AA352B849022CF3D658C3;
 // Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass13_0
 struct U3CU3Ec__DisplayClass13_0_tD3453178C9E4E446463D326928D39B9BF79EDFA8;
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass8_0
-struct U3CU3Ec__DisplayClass8_0_t3B7F940B0648F22E4524DE258B09E5B271042B5D;
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass9_0
-struct U3CU3Ec__DisplayClass9_0_tA02D16E27E5A78B137546CDAD5AAF0F5D8DE7DCD;
 // Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter
 struct SimpleCoroutineAwaiter_t9DF0277C21C7F3B9CE7C9563D257D9A4821B4898;
 // System.Threading.Tasks.Task/ContingentProperties
 struct ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540;
 // Microsoft.MixedReality.Toolkit.Utilities.WaitForBackgroundThread/<>c
 struct U3CU3Ec_t538F83C20A86F4DBC2362AD3111B6BDE3958F38E;
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleCreateRequest>d__1
-struct U3CAssetBundleCreateRequestU3Ed__1_t84410605C5810C9899EF073DCF5146DF46D755B1;
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleRequest>d__3
-struct U3CAssetBundleRequestU3Ed__3_t3C14CB0E04F1D931533C1A1FB43374ACBBE54127;
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<ResourceRequest>d__4
-struct U3CResourceRequestU3Ed__4_tC32A620FC45E2DA87E18E32E7E9D093A53781FFA;
 // Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<ReturnVoid>d__0
 struct U3CReturnVoidU3Ed__0_tC064276ADDB9239FCAF4F75C4E2C11E563DFC54A;
 
@@ -189,21 +157,13 @@ IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A2312933765109421
 IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Queue_1_tDCDB1CEF747EF8D38C6708645EC5FD3799C168BA_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* SimpleCoroutineAwaiter_1_tCBBDF4FC8ADD3FFC73003A881A5F51009A5418E3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SimpleCoroutineAwaiter_1_tD5FFA99CF378080A397FE1848E78F11832A2E13B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SimpleCoroutineAwaiter_t9DF0277C21C7F3B9CE7C9563D257D9A4821B4898_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SyncContextUtility_t5A01A8D5D7433930275F1FF74EEEB4E6A4690533_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CAssetBundleCreateRequestU3Ed__1_t84410605C5810C9899EF073DCF5146DF46D755B1_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CAssetBundleRequestU3Ed__3_t3C14CB0E04F1D931533C1A1FB43374ACBBE54127_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CResourceRequestU3Ed__4_tC32A620FC45E2DA87E18E32E7E9D093A53781FFA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CReturnVoidU3Ed__0_tC064276ADDB9239FCAF4F75C4E2C11E563DFC54A_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass10_0_t849944EE04E0228E6F9AB7122186E74626BF19F9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass12_0_t484CC9458C271005CD7AA352B849022CF3D658C3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass13_0_tD3453178C9E4E446463D326928D39B9BF79EDFA8_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass8_0_t3B7F940B0648F22E4524DE258B09E5B271042B5D_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass9_0_tA02D16E27E5A78B137546CDAD5AAF0F5D8DE7DCD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t538F83C20A86F4DBC2362AD3111B6BDE3958F38E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral03B62F8C1E358CDAAC9087EA83BF715F9693BB90;
 IL2CPP_EXTERN_C String_t* _stringLiteral050B41CD13CB874272967F4F706F49CFFA916B7E;
@@ -224,21 +184,11 @@ IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_Dequeue_m67206C56B5CF9749EFAEF48FAA
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_Enqueue_m9B59C0455EACB768D8D74CA1F57E003C91F6E3D4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1__ctor_mCB1D86FC102A8C3B82A02702CAEDAE815FE04272_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_get_Count_mB986A63C8D68BD8606522BF24176D36503CFD9C3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SimpleCoroutineAwaiter_1_Complete_m53CB91B071BEBC361857F476E65364884C60316B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SimpleCoroutineAwaiter_1_Complete_mFC761A462A6DB2448368556442836D9B4CA121CB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SimpleCoroutineAwaiter_1__ctor_m3BC2166BE8054FB951F08482619502B97693422A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SimpleCoroutineAwaiter_1__ctor_m86DD8FC32284E395DD21EB47F526437B4E945FFD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SimpleCoroutineAwaiter_1__ctor_mD5644B25CA0302D8E29D53363ADFD3EFFB0C7E8B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CAssetBundleCreateRequestU3Ed__1_System_Collections_IEnumerator_Reset_m76EAC22FC12D6663920D2CE8F5D789B78CE00788_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CAssetBundleRequestU3Ed__3_System_Collections_IEnumerator_Reset_m764C4BB18AE88C34D47AC7DE0259A204F7AD1EA0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CResourceRequestU3Ed__4_System_Collections_IEnumerator_Reset_mE22D048960BE586F66827829745E21E28A1A0D22_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CReturnVoidU3Ed__0_System_Collections_IEnumerator_Reset_m8B220FF9D3E89C5E562C331D640F8D317EC133C9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CGetAwaiterU3Eb__0_0_m43159ADE6B56966E8F1DDF90E55C43D879C105B4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass10_0_U3CGetAwaiterU3Eb__0_mA1B49D975863A7A8D12B7E0C710D847B1EF63603_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass12_0_U3CGetAwaiterU3Eb__0_mA4CD1D38C94E5564A7D5FF7F3636D6140D569EC0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass13_0_U3CGetAwaiterReturnVoidU3Eb__0_mAEB148A96FC33E6D60B851D340C193917CA8D42D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass8_0_U3CGetAwaiterU3Eb__0_m1069623F5998EE4D9A16608BB512678E6B171E1D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass9_0_U3CGetAwaiterU3Eb__0_m726EB99216C2B73E2CEF1ACF2A47A9DF47F7A3F2_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -302,19 +252,6 @@ struct Queue_1_tE9EF546915795972C3BFD68FBB8FA859D3BAF3B5  : public RuntimeObject
 	RuntimeObject* ____syncRoot_5;
 };
 
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.AssetBundle>
-struct SimpleCoroutineAwaiter_1_tCBBDF4FC8ADD3FFC73003A881A5F51009A5418E3  : public RuntimeObject
-{
-	// System.Exception Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1::exception
-	Exception_t* ___exception_0;
-	// System.Action Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1::continuation
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___continuation_1;
-	// T Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1::result
-	AssetBundle_tB38418819A49060CD738CB21541649340F082943* ___result_2;
-	// System.Boolean Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1::<IsCompleted>k__BackingField
-	bool ___U3CIsCompletedU3Ek__BackingField_3;
-};
-
 // Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.AsyncOperation>
 struct SimpleCoroutineAwaiter_1_tFB61A87F1E8170EB4C3AB8594E342ABD47A4441F  : public RuntimeObject
 {
@@ -337,19 +274,6 @@ struct SimpleCoroutineAwaiter_1_tD5FFA99CF378080A397FE1848E78F11832A2E13B  : pub
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___continuation_1;
 	// T Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1::result
 	RuntimeObject* ___result_2;
-	// System.Boolean Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1::<IsCompleted>k__BackingField
-	bool ___U3CIsCompletedU3Ek__BackingField_3;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.Object>
-struct SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD  : public RuntimeObject
-{
-	// System.Exception Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1::exception
-	Exception_t* ___exception_0;
-	// System.Action Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1::continuation
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___continuation_1;
-	// T Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1::result
-	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___result_2;
 	// System.Boolean Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1::<IsCompleted>k__BackingField
 	bool ___U3CIsCompletedU3Ek__BackingField_3;
 };
@@ -444,9 +368,9 @@ struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572  : public RuntimeObject
 	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_stateFlags
 	int32_t ___m_stateFlags_6;
 	// System.Object modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_continuationObject
-	RuntimeObject* ___m_continuationObject_23;
+	RuntimeObject* ___m_continuationObject_7;
 	// System.Threading.Tasks.Task/ContingentProperties modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_contingentProperties
-	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties_26;
+	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties_10;
 };
 
 struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
@@ -454,35 +378,35 @@ struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
 	// System.Int32 System.Threading.Tasks.Task::s_taskIdCounter
 	int32_t ___s_taskIdCounter_0;
 	// System.Object System.Threading.Tasks.Task::s_taskCompletionSentinel
-	RuntimeObject* ___s_taskCompletionSentinel_24;
+	RuntimeObject* ___s_taskCompletionSentinel_8;
 	// System.Boolean System.Threading.Tasks.Task::s_asyncDebuggingEnabled
-	bool ___s_asyncDebuggingEnabled_25;
+	bool ___s_asyncDebuggingEnabled_9;
 	// System.Action`1<System.Object> System.Threading.Tasks.Task::s_taskCancelCallback
-	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback_27;
+	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback_11;
 	// System.Func`1<System.Threading.Tasks.Task/ContingentProperties> System.Threading.Tasks.Task::s_createContingentProperties
-	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties_30;
+	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties_14;
 	// System.Threading.Tasks.TaskFactory System.Threading.Tasks.Task::<Factory>k__BackingField
-	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField_31;
+	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField_15;
 	// System.Threading.Tasks.Task System.Threading.Tasks.Task::<CompletedTask>k__BackingField
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField_32;
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField_16;
 	// System.Predicate`1<System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_IsExceptionObservedByParentPredicate
-	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate_33;
+	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate_17;
 	// System.Threading.ContextCallback System.Threading.Tasks.Task::s_ecCallback
-	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback_34;
+	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback_18;
 	// System.Predicate`1<System.Object> System.Threading.Tasks.Task::s_IsTaskContinuationNullPredicate
-	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate_35;
+	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate_19;
 	// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_currentActiveTasks
-	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks_36;
+	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks_20;
 	// System.Object System.Threading.Tasks.Task::s_activeTasksLock
-	RuntimeObject* ___s_activeTasksLock_37;
+	RuntimeObject* ___s_activeTasksLock_21;
 };
 
 struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_ThreadStaticFields
 {
 	// System.Threading.Tasks.Task System.Threading.Tasks.Task::t_currentTask
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask_28;
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask_12;
 	// System.Threading.Tasks.StackGuard System.Threading.Tasks.Task::t_stackGuard
-	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard_29;
+	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard_13;
 };
 
 // System.ValueType
@@ -516,15 +440,6 @@ struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
 {
 };
 
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass10_0
-struct U3CU3Ec__DisplayClass10_0_t849944EE04E0228E6F9AB7122186E74626BF19F9  : public RuntimeObject
-{
-	// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.Object> Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass10_0::awaiter
-	SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* ___awaiter_0;
-	// UnityEngine.AssetBundleRequest Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass10_0::instruction
-	AssetBundleRequest_tED9F5504E75ED1BCFF8DA9B51F5C7356617E6621* ___instruction_1;
-};
-
 // Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass12_0
 struct U3CU3Ec__DisplayClass12_0_t484CC9458C271005CD7AA352B849022CF3D658C3  : public RuntimeObject
 {
@@ -541,24 +456,6 @@ struct U3CU3Ec__DisplayClass13_0_tD3453178C9E4E446463D326928D39B9BF79EDFA8  : pu
 	SimpleCoroutineAwaiter_t9DF0277C21C7F3B9CE7C9563D257D9A4821B4898* ___awaiter_0;
 	// System.Object Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass13_0::instruction
 	RuntimeObject* ___instruction_1;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass8_0
-struct U3CU3Ec__DisplayClass8_0_t3B7F940B0648F22E4524DE258B09E5B271042B5D  : public RuntimeObject
-{
-	// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.Object> Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass8_0::awaiter
-	SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* ___awaiter_0;
-	// UnityEngine.ResourceRequest Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass8_0::instruction
-	ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868* ___instruction_1;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass9_0
-struct U3CU3Ec__DisplayClass9_0_tA02D16E27E5A78B137546CDAD5AAF0F5D8DE7DCD  : public RuntimeObject
-{
-	// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.AssetBundle> Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass9_0::awaiter
-	SimpleCoroutineAwaiter_1_tCBBDF4FC8ADD3FFC73003A881A5F51009A5418E3* ___awaiter_0;
-	// UnityEngine.AssetBundleCreateRequest Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass9_0::instruction
-	AssetBundleCreateRequest_t73B8714B9459A01540E091C3770A408E67188CF6* ___instruction_1;
 };
 
 // Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers
@@ -588,45 +485,6 @@ struct U3CU3Ec_t538F83C20A86F4DBC2362AD3111B6BDE3958F38E_StaticFields
 	U3CU3Ec_t538F83C20A86F4DBC2362AD3111B6BDE3958F38E* ___U3CU3E9_0;
 	// System.Action Microsoft.MixedReality.Toolkit.Utilities.WaitForBackgroundThread/<>c::<>9__0_0
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___U3CU3E9__0_0_1;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleCreateRequest>d__1
-struct U3CAssetBundleCreateRequestU3Ed__1_t84410605C5810C9899EF073DCF5146DF46D755B1  : public RuntimeObject
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleCreateRequest>d__1::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleCreateRequest>d__1::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// UnityEngine.AssetBundleCreateRequest Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleCreateRequest>d__1::instruction
-	AssetBundleCreateRequest_t73B8714B9459A01540E091C3770A408E67188CF6* ___instruction_2;
-	// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.AssetBundle> Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleCreateRequest>d__1::awaiter
-	SimpleCoroutineAwaiter_1_tCBBDF4FC8ADD3FFC73003A881A5F51009A5418E3* ___awaiter_3;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleRequest>d__3
-struct U3CAssetBundleRequestU3Ed__3_t3C14CB0E04F1D931533C1A1FB43374ACBBE54127  : public RuntimeObject
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleRequest>d__3::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleRequest>d__3::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// UnityEngine.AssetBundleRequest Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleRequest>d__3::instruction
-	AssetBundleRequest_tED9F5504E75ED1BCFF8DA9B51F5C7356617E6621* ___instruction_2;
-	// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.Object> Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleRequest>d__3::awaiter
-	SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* ___awaiter_3;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<ResourceRequest>d__4
-struct U3CResourceRequestU3Ed__4_tC32A620FC45E2DA87E18E32E7E9D093A53781FFA  : public RuntimeObject
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<ResourceRequest>d__4::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<ResourceRequest>d__4::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// UnityEngine.ResourceRequest Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<ResourceRequest>d__4::instruction
-	ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868* ___instruction_2;
-	// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.Object> Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<ResourceRequest>d__4::awaiter
-	SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* ___awaiter_3;
 };
 
 // Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<ReturnVoid>d__0
@@ -732,16 +590,6 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 	};
 };
 
-// UnityEngine.WaitForEndOfFrame
-struct WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
-{
-};
-
-// UnityEngine.WaitForFixedUpdate
-struct WaitForFixedUpdate_t86F5BC0B6A668AEF2903DE9ADB52062E457BD1B7  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
-{
-};
-
 // UnityEngine.WaitForSeconds
 struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
 {
@@ -759,15 +607,6 @@ struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : 
 	float ___m_Seconds_0;
 };
 
-// UnityEngine.WaitForSecondsRealtime
-struct WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01  : public CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617
-{
-	// System.Single UnityEngine.WaitForSecondsRealtime::<waitTime>k__BackingField
-	float ___U3CwaitTimeU3Ek__BackingField_0;
-	// System.Single UnityEngine.WaitForSecondsRealtime::m_WaitUntilTime
-	float ___m_WaitUntilTime_1;
-};
-
 // Microsoft.MixedReality.Toolkit.Utilities.WaitForUpdate
 struct WaitForUpdate_t38E540D067CC210D30B0B793E795CAACF73B87CB  : public CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617
 {
@@ -777,13 +616,6 @@ struct WaitForUpdate_t38E540D067CC210D30B0B793E795CAACF73B87CB  : public CustomY
 struct WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD  : public CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617
 {
 	// System.Func`1<System.Boolean> UnityEngine.WaitUntil::m_Predicate
-	Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* ___m_Predicate_0;
-};
-
-// UnityEngine.WaitWhile
-struct WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967  : public CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617
-{
-	// System.Func`1<System.Boolean> UnityEngine.WaitWhile::m_Predicate
 	Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* ___m_Predicate_0;
 };
 
@@ -1034,24 +866,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
 	intptr_t ___m_CachedPtr_0;
 };
 
-// UnityEngine.AssetBundle
-struct AssetBundle_tB38418819A49060CD738CB21541649340F082943  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
-{
-};
-
-// UnityEngine.AssetBundleCreateRequest
-struct AssetBundleCreateRequest_t73B8714B9459A01540E091C3770A408E67188CF6  : public AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C
-{
-};
-// Native definition for P/Invoke marshalling of UnityEngine.AssetBundleCreateRequest
-struct AssetBundleCreateRequest_t73B8714B9459A01540E091C3770A408E67188CF6_marshaled_pinvoke : public AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_marshaled_pinvoke
-{
-};
-// Native definition for COM marshalling of UnityEngine.AssetBundleCreateRequest
-struct AssetBundleCreateRequest_t73B8714B9459A01540E091C3770A408E67188CF6_marshaled_com : public AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_marshaled_com
-{
-};
-
 // UnityEngine.Component
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
@@ -1079,27 +893,6 @@ struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 	Delegate_t_marshaled_com** ___delegates_13;
 };
 
-// UnityEngine.ResourceRequest
-struct ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868  : public AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C
-{
-	// System.String UnityEngine.ResourceRequest::m_Path
-	String_t* ___m_Path_2;
-	// System.Type UnityEngine.ResourceRequest::m_Type
-	Type_t* ___m_Type_3;
-};
-// Native definition for P/Invoke marshalling of UnityEngine.ResourceRequest
-struct ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868_marshaled_pinvoke : public AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_marshaled_pinvoke
-{
-	char* ___m_Path_2;
-	Type_t* ___m_Type_3;
-};
-// Native definition for COM marshalling of UnityEngine.ResourceRequest
-struct ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868_marshaled_com : public AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_marshaled_com
-{
-	Il2CppChar* ___m_Path_2;
-	Type_t* ___m_Type_3;
-};
-
 // System.SystemException
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
@@ -1107,19 +900,6 @@ struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Excep
 
 // System.Action
 struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
-{
-};
-
-// UnityEngine.AssetBundleRequest
-struct AssetBundleRequest_tED9F5504E75ED1BCFF8DA9B51F5C7356617E6621  : public ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868
-{
-};
-// Native definition for P/Invoke marshalling of UnityEngine.AssetBundleRequest
-struct AssetBundleRequest_tED9F5504E75ED1BCFF8DA9B51F5C7356617E6621_marshaled_pinvoke : public ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868_marshaled_pinvoke
-{
-};
-// Native definition for COM marshalling of UnityEngine.AssetBundleRequest
-struct AssetBundleRequest_tED9F5504E75ED1BCFF8DA9B51F5C7356617E6621_marshaled_com : public ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868_marshaled_com
 {
 };
 
@@ -1166,8 +946,6 @@ struct AsyncCoroutineRunner_tDDD731E0BA9EA1F26F48A38429BAE0E8FC2D34A8_StaticFiel
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SimpleCoroutineAwaiter_1_tD5FFA99CF378080A397FE1848E78F11832A2E13B* AwaiterExtensions_GetAwaiterReturnSelf_TisRuntimeObject_mC2BCD8BF63FEC38AA3E782ED400840BE0B5C5D71_gshared (RuntimeObject* ___instruction0, const RuntimeMethod* method) ;
 // System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCoroutineAwaiter_1__ctor_m86DD8FC32284E395DD21EB47F526437B4E945FFD_gshared (SimpleCoroutineAwaiter_1_tD5FFA99CF378080A397FE1848E78F11832A2E13B* __this, const RuntimeMethod* method) ;
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<System.Object>::Complete(T,System.Exception)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCoroutineAwaiter_1_Complete_m477F9FCF56A4D9E7B38243679E8B72864707D657_gshared (SimpleCoroutineAwaiter_1_tD5FFA99CF378080A397FE1848E78F11832A2E13B* __this, RuntimeObject* ___taskResult0, Exception_t* ___e1, const RuntimeMethod* method) ;
 // System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/CoroutineWrapper`1<System.Object>::.ctor(System.Collections.IEnumerator,Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<T>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CoroutineWrapper_1__ctor_m5BF761C008E08E96FDF01E4AFD54128D9BB674E5_gshared (CoroutineWrapper_1_tD7D1159DBECEF2E55F94CE51B1F9A37AD0D8624D* __this, RuntimeObject* ___coroutine0, SimpleCoroutineAwaiter_1_tD5FFA99CF378080A397FE1848E78F11832A2E13B* ___awaiter1, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/CoroutineWrapper`1<System.Object>::Run()
@@ -1194,26 +972,6 @@ inline SimpleCoroutineAwaiter_1_tFB61A87F1E8170EB4C3AB8594E342ABD47A4441F* Await
 {
 	return ((  SimpleCoroutineAwaiter_1_tFB61A87F1E8170EB4C3AB8594E342ABD47A4441F* (*) (AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C*, const RuntimeMethod*))AwaiterExtensions_GetAwaiterReturnSelf_TisRuntimeObject_mC2BCD8BF63FEC38AA3E782ED400840BE0B5C5D71_gshared)(___instruction0, method);
 }
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass8_0::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0__ctor_m215778F7B1B4056E890AECEA27EBEA42B797A499 (U3CU3Ec__DisplayClass8_0_t3B7F940B0648F22E4524DE258B09E5B271042B5D* __this, const RuntimeMethod* method) ;
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.Object>::.ctor()
-inline void SimpleCoroutineAwaiter_1__ctor_mD5644B25CA0302D8E29D53363ADFD3EFFB0C7E8B (SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* __this, const RuntimeMethod* method)
-{
-	((  void (*) (SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD*, const RuntimeMethod*))SimpleCoroutineAwaiter_1__ctor_m86DD8FC32284E395DD21EB47F526437B4E945FFD_gshared)(__this, method);
-}
-// System.Void System.Action::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions::RunOnUnityScheduler(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaiterExtensions_RunOnUnityScheduler_m7E75346A013AE7F5405C3A5205F6D6992927893A (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___action0, const RuntimeMethod* method) ;
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass9_0::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0__ctor_mFA3B7EA4BBAA1FC3A14F09B40B8D785F5CCEA0E0 (U3CU3Ec__DisplayClass9_0_tA02D16E27E5A78B137546CDAD5AAF0F5D8DE7DCD* __this, const RuntimeMethod* method) ;
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.AssetBundle>::.ctor()
-inline void SimpleCoroutineAwaiter_1__ctor_m3BC2166BE8054FB951F08482619502B97693422A (SimpleCoroutineAwaiter_1_tCBBDF4FC8ADD3FFC73003A881A5F51009A5418E3* __this, const RuntimeMethod* method)
-{
-	((  void (*) (SimpleCoroutineAwaiter_1_tCBBDF4FC8ADD3FFC73003A881A5F51009A5418E3*, const RuntimeMethod*))SimpleCoroutineAwaiter_1__ctor_m86DD8FC32284E395DD21EB47F526437B4E945FFD_gshared)(__this, method);
-}
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass10_0::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0__ctor_m6A9BB2F5F39C802DCA3004223EAC19CB85F1396D (U3CU3Ec__DisplayClass10_0_t849944EE04E0228E6F9AB7122186E74626BF19F9* __this, const RuntimeMethod* method) ;
 // System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass12_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass12_0__ctor_mD74994B89E09BBB3A4A74D8C9E19435501603CF1 (U3CU3Ec__DisplayClass12_0_t484CC9458C271005CD7AA352B849022CF3D658C3* __this, const RuntimeMethod* method) ;
 // System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<System.Object>::.ctor()
@@ -1221,6 +979,10 @@ inline void SimpleCoroutineAwaiter_1__ctor_m86DD8FC32284E395DD21EB47F526437B4E94
 {
 	((  void (*) (SimpleCoroutineAwaiter_1_tD5FFA99CF378080A397FE1848E78F11832A2E13B*, const RuntimeMethod*))SimpleCoroutineAwaiter_1__ctor_m86DD8FC32284E395DD21EB47F526437B4E945FFD_gshared)(__this, method);
 }
+// System.Void System.Action::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions::RunOnUnityScheduler(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaiterExtensions_RunOnUnityScheduler_m7E75346A013AE7F5405C3A5205F6D6992927893A (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___action0, const RuntimeMethod* method) ;
 // System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass13_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0__ctor_m3A7D6062389BE6C4B532C860E0E9F3853687BD3F (U3CU3Ec__DisplayClass13_0_tD3453178C9E4E446463D326928D39B9BF79EDFA8* __this, const RuntimeMethod* method) ;
 // System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter::.ctor()
@@ -1247,42 +1009,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SimpleCoroutineAwaiter_set_I
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<ReturnVoid>d__0::.ctor(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReturnVoidU3Ed__0__ctor_m53E4B22E4F0442347ED1E519C00258783535409C (U3CReturnVoidU3Ed__0_tC064276ADDB9239FCAF4F75C4E2C11E563DFC54A* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleCreateRequest>d__1::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAssetBundleCreateRequestU3Ed__1__ctor_mBD6723724D9ED7E72F26DD216FAE593A3FE06A0A (U3CAssetBundleCreateRequestU3Ed__1_t84410605C5810C9899EF073DCF5146DF46D755B1* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleRequest>d__3::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAssetBundleRequestU3Ed__3__ctor_mC286C061264F453324948890233529DC7937A428 (U3CAssetBundleRequestU3Ed__3_t3C14CB0E04F1D931533C1A1FB43374ACBBE54127* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<ResourceRequest>d__4::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CResourceRequestU3Ed__4__ctor_m84BFDB9ED0DDACFA1A5C94C0258436CA01DFF3D4 (U3CResourceRequestU3Ed__4_tC32A620FC45E2DA87E18E32E7E9D093A53781FFA* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
 // System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter::Complete(System.Exception)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCoroutineAwaiter_Complete_m0E350C565EA70A3094F062177B7F443E42BEF8DF (SimpleCoroutineAwaiter_t9DF0277C21C7F3B9CE7C9563D257D9A4821B4898* __this, Exception_t* ___e0, const RuntimeMethod* method) ;
 // System.Void System.NotSupportedException::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
-// UnityEngine.AssetBundle UnityEngine.AssetBundleCreateRequest::get_assetBundle()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AssetBundle_tB38418819A49060CD738CB21541649340F082943* AssetBundleCreateRequest_get_assetBundle_m613FDE589FB86BE1E6920D38ED0706F785D9DB21 (AssetBundleCreateRequest_t73B8714B9459A01540E091C3770A408E67188CF6* __this, const RuntimeMethod* method) ;
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.AssetBundle>::Complete(T,System.Exception)
-inline void SimpleCoroutineAwaiter_1_Complete_m53CB91B071BEBC361857F476E65364884C60316B (SimpleCoroutineAwaiter_1_tCBBDF4FC8ADD3FFC73003A881A5F51009A5418E3* __this, AssetBundle_tB38418819A49060CD738CB21541649340F082943* ___taskResult0, Exception_t* ___e1, const RuntimeMethod* method)
-{
-	((  void (*) (SimpleCoroutineAwaiter_1_tCBBDF4FC8ADD3FFC73003A881A5F51009A5418E3*, AssetBundle_tB38418819A49060CD738CB21541649340F082943*, Exception_t*, const RuntimeMethod*))SimpleCoroutineAwaiter_1_Complete_m477F9FCF56A4D9E7B38243679E8B72864707D657_gshared)(__this, ___taskResult0, ___e1, method);
-}
-// UnityEngine.Object UnityEngine.AssetBundleRequest::get_asset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* AssetBundleRequest_get_asset_mE9FDA3900215925371E7D15E7E19AA98713F5D6C (AssetBundleRequest_tED9F5504E75ED1BCFF8DA9B51F5C7356617E6621* __this, const RuntimeMethod* method) ;
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.Object>::Complete(T,System.Exception)
-inline void SimpleCoroutineAwaiter_1_Complete_mFC761A462A6DB2448368556442836D9B4CA121CB (SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* __this, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___taskResult0, Exception_t* ___e1, const RuntimeMethod* method)
-{
-	((  void (*) (SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD*, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*, Exception_t*, const RuntimeMethod*))SimpleCoroutineAwaiter_1_Complete_m477F9FCF56A4D9E7B38243679E8B72864707D657_gshared)(__this, ___taskResult0, ___e1, method);
-}
-// UnityEngine.Object UnityEngine.ResourceRequest::get_asset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ResourceRequest_get_asset_m740C394902843D080795A49372A2AB3CE9705087 (ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868* __this, const RuntimeMethod* method) ;
 // Microsoft.MixedReality.Toolkit.Utilities.AsyncCoroutineRunner Microsoft.MixedReality.Toolkit.Utilities.AsyncCoroutineRunner::get_Instance()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncCoroutineRunner_tDDD731E0BA9EA1F26F48A38429BAE0E8FC2D34A8* AsyncCoroutineRunner_get_Instance_m422A3CD2BB7176146D39E92B3EB9F73794C3079C (const RuntimeMethod* method) ;
-// System.Collections.IEnumerator Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers::ResourceRequest(Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.Object>,UnityEngine.ResourceRequest)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InstructionWrappers_ResourceRequest_mFDB9674B6DF2BF5010B34F75BDE3C1B7BC080BC1 (SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* ___awaiter0, ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868* ___instruction1, const RuntimeMethod* method) ;
-// UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___routine0, const RuntimeMethod* method) ;
-// System.Collections.IEnumerator Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers::AssetBundleCreateRequest(Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.AssetBundle>,UnityEngine.AssetBundleCreateRequest)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InstructionWrappers_AssetBundleCreateRequest_m2F375030CDDF4243EF7C393F0DFCE49B45C5AF9D (SimpleCoroutineAwaiter_1_tCBBDF4FC8ADD3FFC73003A881A5F51009A5418E3* ___awaiter0, AssetBundleCreateRequest_t73B8714B9459A01540E091C3770A408E67188CF6* ___instruction1, const RuntimeMethod* method) ;
-// System.Collections.IEnumerator Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers::AssetBundleRequest(Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.Object>,UnityEngine.AssetBundleRequest)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InstructionWrappers_AssetBundleRequest_mBB23E0CE31B235B425F1BD02FFB9B4FC9E1F3322 (SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* ___awaiter0, AssetBundleRequest_tED9F5504E75ED1BCFF8DA9B51F5C7356617E6621* ___instruction1, const RuntimeMethod* method) ;
 // System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/CoroutineWrapper`1<System.Object>::.ctor(System.Collections.IEnumerator,Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<T>)
 inline void CoroutineWrapper_1__ctor_m5BF761C008E08E96FDF01E4AFD54128D9BB674E5 (CoroutineWrapper_1_tD7D1159DBECEF2E55F94CE51B1F9A37AD0D8624D* __this, RuntimeObject* ___coroutine0, SimpleCoroutineAwaiter_1_tD5FFA99CF378080A397FE1848E78F11832A2E13B* ___awaiter1, const RuntimeMethod* method)
 {
@@ -1293,6 +1025,8 @@ inline RuntimeObject* CoroutineWrapper_1_Run_m4163A25F53FDAA8483A240C60A6365C426
 {
 	return ((  RuntimeObject* (*) (CoroutineWrapper_1_tD7D1159DBECEF2E55F94CE51B1F9A37AD0D8624D*, const RuntimeMethod*))CoroutineWrapper_1_Run_m4163A25F53FDAA8483A240C60A6365C426BE8EE1_gshared)(__this, method);
 }
+// UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___routine0, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers::ReturnVoid(Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InstructionWrappers_ReturnVoid_m16C42566F2B98DEB343558B319B89DB249A9A04D (SimpleCoroutineAwaiter_t9DF0277C21C7F3B9CE7C9563D257D9A4821B4898* ___awaiter0, RuntimeObject* ___instruction1, const RuntimeMethod* method) ;
 // System.Threading.Tasks.Task System.Threading.Tasks.Task::Run(System.Action)
@@ -1425,56 +1159,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SimpleCoroutineAwaiter_t9DF0277C21C7F3B9CE7C9
 		return L_1;
 	}
 }
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions::GetAwaiter(UnityEngine.WaitForEndOfFrame)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SimpleCoroutineAwaiter_t9DF0277C21C7F3B9CE7C9563D257D9A4821B4898* AwaiterExtensions_GetAwaiter_mBAB2749A8A14C327172B051EDB90DC6B261ABE9B (WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* ___instruction0, const RuntimeMethod* method) 
-{
-	{
-		// return GetAwaiterReturnVoid(instruction);
-		WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* L_0 = ___instruction0;
-		SimpleCoroutineAwaiter_t9DF0277C21C7F3B9CE7C9563D257D9A4821B4898* L_1;
-		L_1 = AwaiterExtensions_GetAwaiterReturnVoid_m3430179EAA630A92530782A1837BCA6C0CA87F2A(L_0, NULL);
-		return L_1;
-	}
-}
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions::GetAwaiter(UnityEngine.WaitForFixedUpdate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SimpleCoroutineAwaiter_t9DF0277C21C7F3B9CE7C9563D257D9A4821B4898* AwaiterExtensions_GetAwaiter_m8C2707FE25C9DE1CFDFF356289109FB2AC18883F (WaitForFixedUpdate_t86F5BC0B6A668AEF2903DE9ADB52062E457BD1B7* ___instruction0, const RuntimeMethod* method) 
-{
-	{
-		// return GetAwaiterReturnVoid(instruction);
-		WaitForFixedUpdate_t86F5BC0B6A668AEF2903DE9ADB52062E457BD1B7* L_0 = ___instruction0;
-		SimpleCoroutineAwaiter_t9DF0277C21C7F3B9CE7C9563D257D9A4821B4898* L_1;
-		L_1 = AwaiterExtensions_GetAwaiterReturnVoid_m3430179EAA630A92530782A1837BCA6C0CA87F2A(L_0, NULL);
-		return L_1;
-	}
-}
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions::GetAwaiter(UnityEngine.WaitForSecondsRealtime)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SimpleCoroutineAwaiter_t9DF0277C21C7F3B9CE7C9563D257D9A4821B4898* AwaiterExtensions_GetAwaiter_mC07BEDFD2BB4FB75D3BC8B7B3B99A980DCA4F3C1 (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* ___instruction0, const RuntimeMethod* method) 
-{
-	{
-		// return GetAwaiterReturnVoid(instruction);
-		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_0 = ___instruction0;
-		SimpleCoroutineAwaiter_t9DF0277C21C7F3B9CE7C9563D257D9A4821B4898* L_1;
-		L_1 = AwaiterExtensions_GetAwaiterReturnVoid_m3430179EAA630A92530782A1837BCA6C0CA87F2A(L_0, NULL);
-		return L_1;
-	}
-}
 // Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions::GetAwaiter(UnityEngine.WaitUntil)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SimpleCoroutineAwaiter_t9DF0277C21C7F3B9CE7C9563D257D9A4821B4898* AwaiterExtensions_GetAwaiter_m9ABD8BB8BEF36E0AC2DE8346ECFC5B1D991FAD1F (WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD* ___instruction0, const RuntimeMethod* method) 
 {
 	{
 		// return GetAwaiterReturnVoid(instruction);
 		WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD* L_0 = ___instruction0;
-		SimpleCoroutineAwaiter_t9DF0277C21C7F3B9CE7C9563D257D9A4821B4898* L_1;
-		L_1 = AwaiterExtensions_GetAwaiterReturnVoid_m3430179EAA630A92530782A1837BCA6C0CA87F2A(L_0, NULL);
-		return L_1;
-	}
-}
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions::GetAwaiter(UnityEngine.WaitWhile)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SimpleCoroutineAwaiter_t9DF0277C21C7F3B9CE7C9563D257D9A4821B4898* AwaiterExtensions_GetAwaiter_m69C6209F5FD62D88B0AEEF4F815BEF91190FCC24 (WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967* ___instruction0, const RuntimeMethod* method) 
-{
-	{
-		// return GetAwaiterReturnVoid(instruction);
-		WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967* L_0 = ___instruction0;
 		SimpleCoroutineAwaiter_t9DF0277C21C7F3B9CE7C9563D257D9A4821B4898* L_1;
 		L_1 = AwaiterExtensions_GetAwaiterReturnVoid_m3430179EAA630A92530782A1837BCA6C0CA87F2A(L_0, NULL);
 		return L_1;
@@ -1495,135 +1185,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SimpleCoroutineAwaiter_1_tFB61A87F1E8170EB4C3
 		SimpleCoroutineAwaiter_1_tFB61A87F1E8170EB4C3AB8594E342ABD47A4441F* L_1;
 		L_1 = AwaiterExtensions_GetAwaiterReturnSelf_TisAsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_m798DE84C5D47E00AFF302EB3AE309E3011ED138E(L_0, AwaiterExtensions_GetAwaiterReturnSelf_TisAsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_m798DE84C5D47E00AFF302EB3AE309E3011ED138E_RuntimeMethod_var);
 		return L_1;
-	}
-}
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.Object> Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions::GetAwaiter(UnityEngine.ResourceRequest)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* AwaiterExtensions_GetAwaiter_m0F5DEE5D787876CC4103EAA291272482F0788783 (ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868* ___instruction0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SimpleCoroutineAwaiter_1__ctor_mD5644B25CA0302D8E29D53363ADFD3EFFB0C7E8B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass8_0_U3CGetAwaiterU3Eb__0_m1069623F5998EE4D9A16608BB512678E6B171E1D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass8_0_t3B7F940B0648F22E4524DE258B09E5B271042B5D_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		U3CU3Ec__DisplayClass8_0_t3B7F940B0648F22E4524DE258B09E5B271042B5D* L_0 = (U3CU3Ec__DisplayClass8_0_t3B7F940B0648F22E4524DE258B09E5B271042B5D*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass8_0_t3B7F940B0648F22E4524DE258B09E5B271042B5D_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		U3CU3Ec__DisplayClass8_0__ctor_m215778F7B1B4056E890AECEA27EBEA42B797A499(L_0, NULL);
-		U3CU3Ec__DisplayClass8_0_t3B7F940B0648F22E4524DE258B09E5B271042B5D* L_1 = L_0;
-		ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868* L_2 = ___instruction0;
-		NullCheck(L_1);
-		L_1->___instruction_1 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&L_1->___instruction_1), (void*)L_2);
-		// var awaiter = new SimpleCoroutineAwaiter<Object>();
-		U3CU3Ec__DisplayClass8_0_t3B7F940B0648F22E4524DE258B09E5B271042B5D* L_3 = L_1;
-		SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* L_4 = (SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD*)il2cpp_codegen_object_new(SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD_il2cpp_TypeInfo_var);
-		NullCheck(L_4);
-		SimpleCoroutineAwaiter_1__ctor_mD5644B25CA0302D8E29D53363ADFD3EFFB0C7E8B(L_4, SimpleCoroutineAwaiter_1__ctor_mD5644B25CA0302D8E29D53363ADFD3EFFB0C7E8B_RuntimeMethod_var);
-		NullCheck(L_3);
-		L_3->___awaiter_0 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&L_3->___awaiter_0), (void*)L_4);
-		// RunOnUnityScheduler(() => AsyncCoroutineRunner.Instance.StartCoroutine(
-		//     InstructionWrappers.ResourceRequest(awaiter, instruction)));
-		U3CU3Ec__DisplayClass8_0_t3B7F940B0648F22E4524DE258B09E5B271042B5D* L_5 = L_3;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		NullCheck(L_6);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass8_0_U3CGetAwaiterU3Eb__0_m1069623F5998EE4D9A16608BB512678E6B171E1D_RuntimeMethod_var), NULL);
-		AwaiterExtensions_RunOnUnityScheduler_m7E75346A013AE7F5405C3A5205F6D6992927893A(L_6, NULL);
-		// return awaiter;
-		NullCheck(L_5);
-		SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* L_7 = L_5->___awaiter_0;
-		return L_7;
-	}
-}
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.AssetBundle> Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions::GetAwaiter(UnityEngine.AssetBundleCreateRequest)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SimpleCoroutineAwaiter_1_tCBBDF4FC8ADD3FFC73003A881A5F51009A5418E3* AwaiterExtensions_GetAwaiter_mF3633D87FDC6FAEBEE778FC62FBF404470F4B71F (AssetBundleCreateRequest_t73B8714B9459A01540E091C3770A408E67188CF6* ___instruction0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SimpleCoroutineAwaiter_1__ctor_m3BC2166BE8054FB951F08482619502B97693422A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SimpleCoroutineAwaiter_1_tCBBDF4FC8ADD3FFC73003A881A5F51009A5418E3_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass9_0_U3CGetAwaiterU3Eb__0_m726EB99216C2B73E2CEF1ACF2A47A9DF47F7A3F2_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass9_0_tA02D16E27E5A78B137546CDAD5AAF0F5D8DE7DCD_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		U3CU3Ec__DisplayClass9_0_tA02D16E27E5A78B137546CDAD5AAF0F5D8DE7DCD* L_0 = (U3CU3Ec__DisplayClass9_0_tA02D16E27E5A78B137546CDAD5AAF0F5D8DE7DCD*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass9_0_tA02D16E27E5A78B137546CDAD5AAF0F5D8DE7DCD_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		U3CU3Ec__DisplayClass9_0__ctor_mFA3B7EA4BBAA1FC3A14F09B40B8D785F5CCEA0E0(L_0, NULL);
-		U3CU3Ec__DisplayClass9_0_tA02D16E27E5A78B137546CDAD5AAF0F5D8DE7DCD* L_1 = L_0;
-		AssetBundleCreateRequest_t73B8714B9459A01540E091C3770A408E67188CF6* L_2 = ___instruction0;
-		NullCheck(L_1);
-		L_1->___instruction_1 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&L_1->___instruction_1), (void*)L_2);
-		// var awaiter = new SimpleCoroutineAwaiter<AssetBundle>();
-		U3CU3Ec__DisplayClass9_0_tA02D16E27E5A78B137546CDAD5AAF0F5D8DE7DCD* L_3 = L_1;
-		SimpleCoroutineAwaiter_1_tCBBDF4FC8ADD3FFC73003A881A5F51009A5418E3* L_4 = (SimpleCoroutineAwaiter_1_tCBBDF4FC8ADD3FFC73003A881A5F51009A5418E3*)il2cpp_codegen_object_new(SimpleCoroutineAwaiter_1_tCBBDF4FC8ADD3FFC73003A881A5F51009A5418E3_il2cpp_TypeInfo_var);
-		NullCheck(L_4);
-		SimpleCoroutineAwaiter_1__ctor_m3BC2166BE8054FB951F08482619502B97693422A(L_4, SimpleCoroutineAwaiter_1__ctor_m3BC2166BE8054FB951F08482619502B97693422A_RuntimeMethod_var);
-		NullCheck(L_3);
-		L_3->___awaiter_0 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&L_3->___awaiter_0), (void*)L_4);
-		// RunOnUnityScheduler(() => AsyncCoroutineRunner.Instance.StartCoroutine(
-		//     InstructionWrappers.AssetBundleCreateRequest(awaiter, instruction)));
-		U3CU3Ec__DisplayClass9_0_tA02D16E27E5A78B137546CDAD5AAF0F5D8DE7DCD* L_5 = L_3;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		NullCheck(L_6);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass9_0_U3CGetAwaiterU3Eb__0_m726EB99216C2B73E2CEF1ACF2A47A9DF47F7A3F2_RuntimeMethod_var), NULL);
-		AwaiterExtensions_RunOnUnityScheduler_m7E75346A013AE7F5405C3A5205F6D6992927893A(L_6, NULL);
-		// return awaiter;
-		NullCheck(L_5);
-		SimpleCoroutineAwaiter_1_tCBBDF4FC8ADD3FFC73003A881A5F51009A5418E3* L_7 = L_5->___awaiter_0;
-		return L_7;
-	}
-}
-// Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.Object> Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions::GetAwaiter(UnityEngine.AssetBundleRequest)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* AwaiterExtensions_GetAwaiter_mDEBA78F34FCFA8633F2FFD4137DEA786EBE73879 (AssetBundleRequest_tED9F5504E75ED1BCFF8DA9B51F5C7356617E6621* ___instruction0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SimpleCoroutineAwaiter_1__ctor_mD5644B25CA0302D8E29D53363ADFD3EFFB0C7E8B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass10_0_U3CGetAwaiterU3Eb__0_mA1B49D975863A7A8D12B7E0C710D847B1EF63603_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass10_0_t849944EE04E0228E6F9AB7122186E74626BF19F9_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		U3CU3Ec__DisplayClass10_0_t849944EE04E0228E6F9AB7122186E74626BF19F9* L_0 = (U3CU3Ec__DisplayClass10_0_t849944EE04E0228E6F9AB7122186E74626BF19F9*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass10_0_t849944EE04E0228E6F9AB7122186E74626BF19F9_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		U3CU3Ec__DisplayClass10_0__ctor_m6A9BB2F5F39C802DCA3004223EAC19CB85F1396D(L_0, NULL);
-		U3CU3Ec__DisplayClass10_0_t849944EE04E0228E6F9AB7122186E74626BF19F9* L_1 = L_0;
-		AssetBundleRequest_tED9F5504E75ED1BCFF8DA9B51F5C7356617E6621* L_2 = ___instruction0;
-		NullCheck(L_1);
-		L_1->___instruction_1 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&L_1->___instruction_1), (void*)L_2);
-		// var awaiter = new SimpleCoroutineAwaiter<Object>();
-		U3CU3Ec__DisplayClass10_0_t849944EE04E0228E6F9AB7122186E74626BF19F9* L_3 = L_1;
-		SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* L_4 = (SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD*)il2cpp_codegen_object_new(SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD_il2cpp_TypeInfo_var);
-		NullCheck(L_4);
-		SimpleCoroutineAwaiter_1__ctor_mD5644B25CA0302D8E29D53363ADFD3EFFB0C7E8B(L_4, SimpleCoroutineAwaiter_1__ctor_mD5644B25CA0302D8E29D53363ADFD3EFFB0C7E8B_RuntimeMethod_var);
-		NullCheck(L_3);
-		L_3->___awaiter_0 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&L_3->___awaiter_0), (void*)L_4);
-		// RunOnUnityScheduler(() => AsyncCoroutineRunner.Instance.StartCoroutine(
-		//     InstructionWrappers.AssetBundleRequest(awaiter, instruction)));
-		U3CU3Ec__DisplayClass10_0_t849944EE04E0228E6F9AB7122186E74626BF19F9* L_5 = L_3;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		NullCheck(L_6);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass10_0_U3CGetAwaiterU3Eb__0_mA1B49D975863A7A8D12B7E0C710D847B1EF63603_RuntimeMethod_var), NULL);
-		AwaiterExtensions_RunOnUnityScheduler_m7E75346A013AE7F5405C3A5205F6D6992927893A(L_6, NULL);
-		// return awaiter;
-		NullCheck(L_5);
-		SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* L_7 = L_5->___awaiter_0;
-		return L_7;
 	}
 }
 // Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<System.Object> Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions::GetAwaiter(System.Collections.IEnumerator)
@@ -1905,84 +1466,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InstructionWrappers_ReturnVoid
 		return L_3;
 	}
 }
-// System.Collections.IEnumerator Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers::AssetBundleCreateRequest(Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.AssetBundle>,UnityEngine.AssetBundleCreateRequest)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InstructionWrappers_AssetBundleCreateRequest_m2F375030CDDF4243EF7C393F0DFCE49B45C5AF9D (SimpleCoroutineAwaiter_1_tCBBDF4FC8ADD3FFC73003A881A5F51009A5418E3* ___awaiter0, AssetBundleCreateRequest_t73B8714B9459A01540E091C3770A408E67188CF6* ___instruction1, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CAssetBundleCreateRequestU3Ed__1_t84410605C5810C9899EF073DCF5146DF46D755B1_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		U3CAssetBundleCreateRequestU3Ed__1_t84410605C5810C9899EF073DCF5146DF46D755B1* L_0 = (U3CAssetBundleCreateRequestU3Ed__1_t84410605C5810C9899EF073DCF5146DF46D755B1*)il2cpp_codegen_object_new(U3CAssetBundleCreateRequestU3Ed__1_t84410605C5810C9899EF073DCF5146DF46D755B1_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		U3CAssetBundleCreateRequestU3Ed__1__ctor_mBD6723724D9ED7E72F26DD216FAE593A3FE06A0A(L_0, 0, NULL);
-		U3CAssetBundleCreateRequestU3Ed__1_t84410605C5810C9899EF073DCF5146DF46D755B1* L_1 = L_0;
-		SimpleCoroutineAwaiter_1_tCBBDF4FC8ADD3FFC73003A881A5F51009A5418E3* L_2 = ___awaiter0;
-		NullCheck(L_1);
-		L_1->___awaiter_3 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&L_1->___awaiter_3), (void*)L_2);
-		U3CAssetBundleCreateRequestU3Ed__1_t84410605C5810C9899EF073DCF5146DF46D755B1* L_3 = L_1;
-		AssetBundleCreateRequest_t73B8714B9459A01540E091C3770A408E67188CF6* L_4 = ___instruction1;
-		NullCheck(L_3);
-		L_3->___instruction_2 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&L_3->___instruction_2), (void*)L_4);
-		return L_3;
-	}
-}
-// System.Collections.IEnumerator Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers::AssetBundleRequest(Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.Object>,UnityEngine.AssetBundleRequest)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InstructionWrappers_AssetBundleRequest_mBB23E0CE31B235B425F1BD02FFB9B4FC9E1F3322 (SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* ___awaiter0, AssetBundleRequest_tED9F5504E75ED1BCFF8DA9B51F5C7356617E6621* ___instruction1, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CAssetBundleRequestU3Ed__3_t3C14CB0E04F1D931533C1A1FB43374ACBBE54127_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		U3CAssetBundleRequestU3Ed__3_t3C14CB0E04F1D931533C1A1FB43374ACBBE54127* L_0 = (U3CAssetBundleRequestU3Ed__3_t3C14CB0E04F1D931533C1A1FB43374ACBBE54127*)il2cpp_codegen_object_new(U3CAssetBundleRequestU3Ed__3_t3C14CB0E04F1D931533C1A1FB43374ACBBE54127_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		U3CAssetBundleRequestU3Ed__3__ctor_mC286C061264F453324948890233529DC7937A428(L_0, 0, NULL);
-		U3CAssetBundleRequestU3Ed__3_t3C14CB0E04F1D931533C1A1FB43374ACBBE54127* L_1 = L_0;
-		SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* L_2 = ___awaiter0;
-		NullCheck(L_1);
-		L_1->___awaiter_3 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&L_1->___awaiter_3), (void*)L_2);
-		U3CAssetBundleRequestU3Ed__3_t3C14CB0E04F1D931533C1A1FB43374ACBBE54127* L_3 = L_1;
-		AssetBundleRequest_tED9F5504E75ED1BCFF8DA9B51F5C7356617E6621* L_4 = ___instruction1;
-		NullCheck(L_3);
-		L_3->___instruction_2 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&L_3->___instruction_2), (void*)L_4);
-		return L_3;
-	}
-}
-// System.Collections.IEnumerator Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers::ResourceRequest(Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/SimpleCoroutineAwaiter`1<UnityEngine.Object>,UnityEngine.ResourceRequest)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InstructionWrappers_ResourceRequest_mFDB9674B6DF2BF5010B34F75BDE3C1B7BC080BC1 (SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* ___awaiter0, ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868* ___instruction1, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CResourceRequestU3Ed__4_tC32A620FC45E2DA87E18E32E7E9D093A53781FFA_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		U3CResourceRequestU3Ed__4_tC32A620FC45E2DA87E18E32E7E9D093A53781FFA* L_0 = (U3CResourceRequestU3Ed__4_tC32A620FC45E2DA87E18E32E7E9D093A53781FFA*)il2cpp_codegen_object_new(U3CResourceRequestU3Ed__4_tC32A620FC45E2DA87E18E32E7E9D093A53781FFA_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		U3CResourceRequestU3Ed__4__ctor_m84BFDB9ED0DDACFA1A5C94C0258436CA01DFF3D4(L_0, 0, NULL);
-		U3CResourceRequestU3Ed__4_tC32A620FC45E2DA87E18E32E7E9D093A53781FFA* L_1 = L_0;
-		SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* L_2 = ___awaiter0;
-		NullCheck(L_1);
-		L_1->___awaiter_3 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&L_1->___awaiter_3), (void*)L_2);
-		U3CResourceRequestU3Ed__4_tC32A620FC45E2DA87E18E32E7E9D093A53781FFA* L_3 = L_1;
-		ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868* L_4 = ___instruction1;
-		NullCheck(L_3);
-		L_3->___instruction_2 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&L_3->___instruction_2), (void*)L_4);
-		return L_3;
-	}
-}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -2078,450 +1561,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CReturnVoidU3Ed__0_System_Co
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleCreateRequest>d__1::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAssetBundleCreateRequestU3Ed__1__ctor_mBD6723724D9ED7E72F26DD216FAE593A3FE06A0A (U3CAssetBundleCreateRequestU3Ed__1_t84410605C5810C9899EF073DCF5146DF46D755B1* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		int32_t L_0 = ___U3CU3E1__state0;
-		__this->___U3CU3E1__state_0 = L_0;
-		return;
-	}
-}
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleCreateRequest>d__1::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAssetBundleCreateRequestU3Ed__1_System_IDisposable_Dispose_m6FE01719BFB6154CBAEBC88C85D97CA223218A4A (U3CAssetBundleCreateRequestU3Ed__1_t84410605C5810C9899EF073DCF5146DF46D755B1* __this, const RuntimeMethod* method) 
-{
-	{
-		return;
-	}
-}
-// System.Boolean Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleCreateRequest>d__1::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAssetBundleCreateRequestU3Ed__1_MoveNext_mDFE5285FF4DD3CF0AD6ECDB25CE27C1E8B2C9E31 (U3CAssetBundleCreateRequestU3Ed__1_t84410605C5810C9899EF073DCF5146DF46D755B1* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SimpleCoroutineAwaiter_1_Complete_m53CB91B071BEBC361857F476E65364884C60316B_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	{
-		int32_t L_0 = __this->___U3CU3E1__state_0;
-		V_0 = L_0;
-		int32_t L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_0010;
-		}
-	}
-	{
-		int32_t L_2 = V_0;
-		if ((((int32_t)L_2) == ((int32_t)1)))
-		{
-			goto IL_002c;
-		}
-	}
-	{
-		return (bool)0;
-	}
-
-IL_0010:
-	{
-		__this->___U3CU3E1__state_0 = (-1);
-		// yield return instruction;
-		AssetBundleCreateRequest_t73B8714B9459A01540E091C3770A408E67188CF6* L_3 = __this->___instruction_2;
-		__this->___U3CU3E2__current_1 = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_3);
-		__this->___U3CU3E1__state_0 = 1;
-		return (bool)1;
-	}
-
-IL_002c:
-	{
-		__this->___U3CU3E1__state_0 = (-1);
-		// awaiter.Complete(instruction.assetBundle, null);
-		SimpleCoroutineAwaiter_1_tCBBDF4FC8ADD3FFC73003A881A5F51009A5418E3* L_4 = __this->___awaiter_3;
-		AssetBundleCreateRequest_t73B8714B9459A01540E091C3770A408E67188CF6* L_5 = __this->___instruction_2;
-		NullCheck(L_5);
-		AssetBundle_tB38418819A49060CD738CB21541649340F082943* L_6;
-		L_6 = AssetBundleCreateRequest_get_assetBundle_m613FDE589FB86BE1E6920D38ED0706F785D9DB21(L_5, NULL);
-		NullCheck(L_4);
-		SimpleCoroutineAwaiter_1_Complete_m53CB91B071BEBC361857F476E65364884C60316B(L_4, L_6, (Exception_t*)NULL, SimpleCoroutineAwaiter_1_Complete_m53CB91B071BEBC361857F476E65364884C60316B_RuntimeMethod_var);
-		// }
-		return (bool)0;
-	}
-}
-// System.Object Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleCreateRequest>d__1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAssetBundleCreateRequestU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3DBB5B353D178D1D3751E6DA04D67B64D5D42F00 (U3CAssetBundleCreateRequestU3Ed__1_t84410605C5810C9899EF073DCF5146DF46D755B1* __this, const RuntimeMethod* method) 
-{
-	{
-		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
-		return L_0;
-	}
-}
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleCreateRequest>d__1::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAssetBundleCreateRequestU3Ed__1_System_Collections_IEnumerator_Reset_m76EAC22FC12D6663920D2CE8F5D789B78CE00788 (U3CAssetBundleCreateRequestU3Ed__1_t84410605C5810C9899EF073DCF5146DF46D755B1* __this, const RuntimeMethod* method) 
-{
-	{
-		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
-		NullCheck(L_0);
-		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CAssetBundleCreateRequestU3Ed__1_System_Collections_IEnumerator_Reset_m76EAC22FC12D6663920D2CE8F5D789B78CE00788_RuntimeMethod_var)));
-	}
-}
-// System.Object Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleCreateRequest>d__1::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAssetBundleCreateRequestU3Ed__1_System_Collections_IEnumerator_get_Current_m5177A26459F01F3EB030FCBA405647649DD76F0F (U3CAssetBundleCreateRequestU3Ed__1_t84410605C5810C9899EF073DCF5146DF46D755B1* __this, const RuntimeMethod* method) 
-{
-	{
-		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
-		return L_0;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleRequest>d__3::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAssetBundleRequestU3Ed__3__ctor_mC286C061264F453324948890233529DC7937A428 (U3CAssetBundleRequestU3Ed__3_t3C14CB0E04F1D931533C1A1FB43374ACBBE54127* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		int32_t L_0 = ___U3CU3E1__state0;
-		__this->___U3CU3E1__state_0 = L_0;
-		return;
-	}
-}
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleRequest>d__3::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAssetBundleRequestU3Ed__3_System_IDisposable_Dispose_m76A706F4363FC6817B952109D13B27AD363A668C (U3CAssetBundleRequestU3Ed__3_t3C14CB0E04F1D931533C1A1FB43374ACBBE54127* __this, const RuntimeMethod* method) 
-{
-	{
-		return;
-	}
-}
-// System.Boolean Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleRequest>d__3::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAssetBundleRequestU3Ed__3_MoveNext_m700C61F6613BA957FEB3A67FD3C7A1E6D2114477 (U3CAssetBundleRequestU3Ed__3_t3C14CB0E04F1D931533C1A1FB43374ACBBE54127* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SimpleCoroutineAwaiter_1_Complete_mFC761A462A6DB2448368556442836D9B4CA121CB_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	{
-		int32_t L_0 = __this->___U3CU3E1__state_0;
-		V_0 = L_0;
-		int32_t L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_0010;
-		}
-	}
-	{
-		int32_t L_2 = V_0;
-		if ((((int32_t)L_2) == ((int32_t)1)))
-		{
-			goto IL_002c;
-		}
-	}
-	{
-		return (bool)0;
-	}
-
-IL_0010:
-	{
-		__this->___U3CU3E1__state_0 = (-1);
-		// yield return instruction;
-		AssetBundleRequest_tED9F5504E75ED1BCFF8DA9B51F5C7356617E6621* L_3 = __this->___instruction_2;
-		__this->___U3CU3E2__current_1 = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_3);
-		__this->___U3CU3E1__state_0 = 1;
-		return (bool)1;
-	}
-
-IL_002c:
-	{
-		__this->___U3CU3E1__state_0 = (-1);
-		// awaiter.Complete(instruction.asset, null);
-		SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* L_4 = __this->___awaiter_3;
-		AssetBundleRequest_tED9F5504E75ED1BCFF8DA9B51F5C7356617E6621* L_5 = __this->___instruction_2;
-		NullCheck(L_5);
-		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_6;
-		L_6 = AssetBundleRequest_get_asset_mE9FDA3900215925371E7D15E7E19AA98713F5D6C(L_5, NULL);
-		NullCheck(L_4);
-		SimpleCoroutineAwaiter_1_Complete_mFC761A462A6DB2448368556442836D9B4CA121CB(L_4, L_6, (Exception_t*)NULL, SimpleCoroutineAwaiter_1_Complete_mFC761A462A6DB2448368556442836D9B4CA121CB_RuntimeMethod_var);
-		// }
-		return (bool)0;
-	}
-}
-// System.Object Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleRequest>d__3::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAssetBundleRequestU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD378764F363772D842CDF3AC2E2AA9D15B44BCA7 (U3CAssetBundleRequestU3Ed__3_t3C14CB0E04F1D931533C1A1FB43374ACBBE54127* __this, const RuntimeMethod* method) 
-{
-	{
-		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
-		return L_0;
-	}
-}
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleRequest>d__3::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAssetBundleRequestU3Ed__3_System_Collections_IEnumerator_Reset_m764C4BB18AE88C34D47AC7DE0259A204F7AD1EA0 (U3CAssetBundleRequestU3Ed__3_t3C14CB0E04F1D931533C1A1FB43374ACBBE54127* __this, const RuntimeMethod* method) 
-{
-	{
-		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
-		NullCheck(L_0);
-		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CAssetBundleRequestU3Ed__3_System_Collections_IEnumerator_Reset_m764C4BB18AE88C34D47AC7DE0259A204F7AD1EA0_RuntimeMethod_var)));
-	}
-}
-// System.Object Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<AssetBundleRequest>d__3::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAssetBundleRequestU3Ed__3_System_Collections_IEnumerator_get_Current_mCC544C161CF25EE2CAEBF18AB81002E94AA405A9 (U3CAssetBundleRequestU3Ed__3_t3C14CB0E04F1D931533C1A1FB43374ACBBE54127* __this, const RuntimeMethod* method) 
-{
-	{
-		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
-		return L_0;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<ResourceRequest>d__4::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CResourceRequestU3Ed__4__ctor_m84BFDB9ED0DDACFA1A5C94C0258436CA01DFF3D4 (U3CResourceRequestU3Ed__4_tC32A620FC45E2DA87E18E32E7E9D093A53781FFA* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		int32_t L_0 = ___U3CU3E1__state0;
-		__this->___U3CU3E1__state_0 = L_0;
-		return;
-	}
-}
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<ResourceRequest>d__4::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CResourceRequestU3Ed__4_System_IDisposable_Dispose_mCEF48D4B9C5A7D72FF5A0A02F63ED019AA0BF9BF (U3CResourceRequestU3Ed__4_tC32A620FC45E2DA87E18E32E7E9D093A53781FFA* __this, const RuntimeMethod* method) 
-{
-	{
-		return;
-	}
-}
-// System.Boolean Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<ResourceRequest>d__4::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CResourceRequestU3Ed__4_MoveNext_mDF81469D071DD0424DB5AB2EFD63A79B175EFD28 (U3CResourceRequestU3Ed__4_tC32A620FC45E2DA87E18E32E7E9D093A53781FFA* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SimpleCoroutineAwaiter_1_Complete_mFC761A462A6DB2448368556442836D9B4CA121CB_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	{
-		int32_t L_0 = __this->___U3CU3E1__state_0;
-		V_0 = L_0;
-		int32_t L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_0010;
-		}
-	}
-	{
-		int32_t L_2 = V_0;
-		if ((((int32_t)L_2) == ((int32_t)1)))
-		{
-			goto IL_002c;
-		}
-	}
-	{
-		return (bool)0;
-	}
-
-IL_0010:
-	{
-		__this->___U3CU3E1__state_0 = (-1);
-		// yield return instruction;
-		ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868* L_3 = __this->___instruction_2;
-		__this->___U3CU3E2__current_1 = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_3);
-		__this->___U3CU3E1__state_0 = 1;
-		return (bool)1;
-	}
-
-IL_002c:
-	{
-		__this->___U3CU3E1__state_0 = (-1);
-		// awaiter.Complete(instruction.asset, null);
-		SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* L_4 = __this->___awaiter_3;
-		ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868* L_5 = __this->___instruction_2;
-		NullCheck(L_5);
-		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_6;
-		L_6 = ResourceRequest_get_asset_m740C394902843D080795A49372A2AB3CE9705087(L_5, NULL);
-		NullCheck(L_4);
-		SimpleCoroutineAwaiter_1_Complete_mFC761A462A6DB2448368556442836D9B4CA121CB(L_4, L_6, (Exception_t*)NULL, SimpleCoroutineAwaiter_1_Complete_mFC761A462A6DB2448368556442836D9B4CA121CB_RuntimeMethod_var);
-		// }
-		return (bool)0;
-	}
-}
-// System.Object Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<ResourceRequest>d__4::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CResourceRequestU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mFF5B2A16AAB9668D2F19342A14A98ABDFB8C6941 (U3CResourceRequestU3Ed__4_tC32A620FC45E2DA87E18E32E7E9D093A53781FFA* __this, const RuntimeMethod* method) 
-{
-	{
-		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
-		return L_0;
-	}
-}
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<ResourceRequest>d__4::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CResourceRequestU3Ed__4_System_Collections_IEnumerator_Reset_mE22D048960BE586F66827829745E21E28A1A0D22 (U3CResourceRequestU3Ed__4_tC32A620FC45E2DA87E18E32E7E9D093A53781FFA* __this, const RuntimeMethod* method) 
-{
-	{
-		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
-		NullCheck(L_0);
-		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CResourceRequestU3Ed__4_System_Collections_IEnumerator_Reset_mE22D048960BE586F66827829745E21E28A1A0D22_RuntimeMethod_var)));
-	}
-}
-// System.Object Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<ResourceRequest>d__4::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CResourceRequestU3Ed__4_System_Collections_IEnumerator_get_Current_m26B94760E6D4D6FF218B60E13294422896E51AAE (U3CResourceRequestU3Ed__4_tC32A620FC45E2DA87E18E32E7E9D093A53781FFA* __this, const RuntimeMethod* method) 
-{
-	{
-		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
-		return L_0;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass8_0::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0__ctor_m215778F7B1B4056E890AECEA27EBEA42B797A499 (U3CU3Ec__DisplayClass8_0_t3B7F940B0648F22E4524DE258B09E5B271042B5D* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass8_0::<GetAwaiter>b__0()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0_U3CGetAwaiterU3Eb__0_m1069623F5998EE4D9A16608BB512678E6B171E1D (U3CU3Ec__DisplayClass8_0_t3B7F940B0648F22E4524DE258B09E5B271042B5D* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncCoroutineRunner_tDDD731E0BA9EA1F26F48A38429BAE0E8FC2D34A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// RunOnUnityScheduler(() => AsyncCoroutineRunner.Instance.StartCoroutine(
-		//     InstructionWrappers.ResourceRequest(awaiter, instruction)));
-		il2cpp_codegen_runtime_class_init_inline(AsyncCoroutineRunner_tDDD731E0BA9EA1F26F48A38429BAE0E8FC2D34A8_il2cpp_TypeInfo_var);
-		AsyncCoroutineRunner_tDDD731E0BA9EA1F26F48A38429BAE0E8FC2D34A8* L_0;
-		L_0 = AsyncCoroutineRunner_get_Instance_m422A3CD2BB7176146D39E92B3EB9F73794C3079C(NULL);
-		SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* L_1 = __this->___awaiter_0;
-		ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868* L_2 = __this->___instruction_1;
-		RuntimeObject* L_3;
-		L_3 = InstructionWrappers_ResourceRequest_mFDB9674B6DF2BF5010B34F75BDE3C1B7BC080BC1(L_1, L_2, NULL);
-		NullCheck(L_0);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4;
-		L_4 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_0, L_3, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass9_0::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0__ctor_mFA3B7EA4BBAA1FC3A14F09B40B8D785F5CCEA0E0 (U3CU3Ec__DisplayClass9_0_tA02D16E27E5A78B137546CDAD5AAF0F5D8DE7DCD* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass9_0::<GetAwaiter>b__0()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0_U3CGetAwaiterU3Eb__0_m726EB99216C2B73E2CEF1ACF2A47A9DF47F7A3F2 (U3CU3Ec__DisplayClass9_0_tA02D16E27E5A78B137546CDAD5AAF0F5D8DE7DCD* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncCoroutineRunner_tDDD731E0BA9EA1F26F48A38429BAE0E8FC2D34A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// RunOnUnityScheduler(() => AsyncCoroutineRunner.Instance.StartCoroutine(
-		//     InstructionWrappers.AssetBundleCreateRequest(awaiter, instruction)));
-		il2cpp_codegen_runtime_class_init_inline(AsyncCoroutineRunner_tDDD731E0BA9EA1F26F48A38429BAE0E8FC2D34A8_il2cpp_TypeInfo_var);
-		AsyncCoroutineRunner_tDDD731E0BA9EA1F26F48A38429BAE0E8FC2D34A8* L_0;
-		L_0 = AsyncCoroutineRunner_get_Instance_m422A3CD2BB7176146D39E92B3EB9F73794C3079C(NULL);
-		SimpleCoroutineAwaiter_1_tCBBDF4FC8ADD3FFC73003A881A5F51009A5418E3* L_1 = __this->___awaiter_0;
-		AssetBundleCreateRequest_t73B8714B9459A01540E091C3770A408E67188CF6* L_2 = __this->___instruction_1;
-		RuntimeObject* L_3;
-		L_3 = InstructionWrappers_AssetBundleCreateRequest_m2F375030CDDF4243EF7C393F0DFCE49B45C5AF9D(L_1, L_2, NULL);
-		NullCheck(L_0);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4;
-		L_4 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_0, L_3, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass10_0::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0__ctor_m6A9BB2F5F39C802DCA3004223EAC19CB85F1396D (U3CU3Ec__DisplayClass10_0_t849944EE04E0228E6F9AB7122186E74626BF19F9* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-// System.Void Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass10_0::<GetAwaiter>b__0()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0_U3CGetAwaiterU3Eb__0_mA1B49D975863A7A8D12B7E0C710D847B1EF63603 (U3CU3Ec__DisplayClass10_0_t849944EE04E0228E6F9AB7122186E74626BF19F9* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncCoroutineRunner_tDDD731E0BA9EA1F26F48A38429BAE0E8FC2D34A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// RunOnUnityScheduler(() => AsyncCoroutineRunner.Instance.StartCoroutine(
-		//     InstructionWrappers.AssetBundleRequest(awaiter, instruction)));
-		il2cpp_codegen_runtime_class_init_inline(AsyncCoroutineRunner_tDDD731E0BA9EA1F26F48A38429BAE0E8FC2D34A8_il2cpp_TypeInfo_var);
-		AsyncCoroutineRunner_tDDD731E0BA9EA1F26F48A38429BAE0E8FC2D34A8* L_0;
-		L_0 = AsyncCoroutineRunner_get_Instance_m422A3CD2BB7176146D39E92B3EB9F73794C3079C(NULL);
-		SimpleCoroutineAwaiter_1_t8F63005B13EC5643D1AAFFDF2957E5F6EB6DFEFD* L_1 = __this->___awaiter_0;
-		AssetBundleRequest_tED9F5504E75ED1BCFF8DA9B51F5C7356617E6621* L_2 = __this->___instruction_1;
-		RuntimeObject* L_3;
-		L_3 = InstructionWrappers_AssetBundleRequest_mBB23E0CE31B235B425F1BD02FFB9B4FC9E1F3322(L_1, L_2, NULL);
-		NullCheck(L_0);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4;
-		L_4 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_0, L_3, NULL);
-		return;
 	}
 }
 #ifdef __clang__
@@ -3421,21 +2460,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SyncContextUtility_Initialize_m86FE940A0
 		SyncContextUtility_set_UnityThreadId_m16E011AB0CA52981F61AB7485A3D21EE53C5E5B4_inline(L_2, NULL);
 		// }
 		return;
-	}
-}
-// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.SyncContextUtility::get_UnityThreadId()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SyncContextUtility_get_UnityThreadId_mDA8CEEE999F5C055F16B10B113DC32FFFF8CCA84 (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SyncContextUtility_t5A01A8D5D7433930275F1FF74EEEB4E6A4690533_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// public static int UnityThreadId { get; private set; }
-		int32_t L_0 = ((SyncContextUtility_t5A01A8D5D7433930275F1FF74EEEB4E6A4690533_StaticFields*)il2cpp_codegen_static_fields_for(SyncContextUtility_t5A01A8D5D7433930275F1FF74EEEB4E6A4690533_il2cpp_TypeInfo_var))->___U3CUnityThreadIdU3Ek__BackingField_0;
-		return L_0;
 	}
 }
 // System.Void Microsoft.MixedReality.Toolkit.Utilities.SyncContextUtility::set_UnityThreadId(System.Int32)

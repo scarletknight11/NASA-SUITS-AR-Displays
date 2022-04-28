@@ -13,55 +13,56 @@
 
 
 // 0x00000001 System.Void Microsoft.MixedReality.Toolkit.Examples.MicrophoneAmplitudeDemo::.ctor()
-extern void MicrophoneAmplitudeDemo__ctor_mF601B012B989B104A5DD3AEFACA19757F63F3203 (void);
+extern void MicrophoneAmplitudeDemo__ctor_m40DD41DC2EB18412C35E360D217D24573560647A (void);
 // 0x00000002 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.LoFiFilterSelection::Start()
-extern void LoFiFilterSelection_Start_m183EABCF741E4AABB8A0C595560AFAF79645E7D3 (void);
+extern void LoFiFilterSelection_Start_mF727AC2C7663E6D8C3554C82FC8A0F7847AAC8C7 (void);
 // 0x00000003 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.LoFiFilterSelection::OnPointerClicked(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
-extern void LoFiFilterSelection_OnPointerClicked_m6FBFC4E6D15837E391976CA87CEB530C0ACDB41C (void);
+extern void LoFiFilterSelection_OnPointerClicked_m3710EB2760BA1BB743E75CE8A1D85696B6E7CF0E (void);
 // 0x00000004 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.LoFiFilterSelection::OnPointerDown(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
-extern void LoFiFilterSelection_OnPointerDown_mBA297C1E401C7B066C6125450047B6A7E78B92F3 (void);
+extern void LoFiFilterSelection_OnPointerDown_m8D4B240177FCE8DDB5E68CCC599A2242979FCDB9 (void);
 // 0x00000005 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.LoFiFilterSelection::OnPointerDragged(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
-extern void LoFiFilterSelection_OnPointerDragged_m7D6C1DFD321EA727697534049AE6FC95D343F3DC (void);
+extern void LoFiFilterSelection_OnPointerDragged_mCE7A833EB4D2759AB25D633C472787C674406BF1 (void);
 // 0x00000006 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.LoFiFilterSelection::OnPointerUp(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
-extern void LoFiFilterSelection_OnPointerUp_m9542A1205B4CB1B7E66D5C03C1A8DACD7977955F (void);
+extern void LoFiFilterSelection_OnPointerUp_mDC612920CF706E5A6183308D2D257A433E740B6B (void);
 // 0x00000007 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.LoFiFilterSelection::SetEmitterMaterial(Microsoft.MixedReality.Toolkit.Audio.AudioLoFiSourceQuality)
-extern void LoFiFilterSelection_SetEmitterMaterial_mB63CD9D523570B55B717C0227A401CB411128A2F (void);
+extern void LoFiFilterSelection_SetEmitterMaterial_mBFB030383501F0990192171413293E180447627F (void);
 // 0x00000008 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.LoFiFilterSelection::.ctor()
-extern void LoFiFilterSelection__ctor_m65280939DF1B14CD932F03218CA221F86239ECC3 (void);
+extern void LoFiFilterSelection__ctor_mC6C409FA428750A298D59C72928991EC37756679 (void);
 // 0x00000009 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.TextToSpeechSample::Awake()
-extern void TextToSpeechSample_Awake_m556F899D92EB47D899B192C1F91E56826CE8989C (void);
+extern void TextToSpeechSample_Awake_m59E07DAE23FA314B21B65F9DDC2356CC8CE7DAAE (void);
 // 0x0000000A System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.TextToSpeechSample::Speak()
-extern void TextToSpeechSample_Speak_m7A5590C2BF6750ACBCAC4D0AB50FDB5909B61235 (void);
+extern void TextToSpeechSample_Speak_m5564F6F454C0B341108F8C9CD23BAE821BBB1C13 (void);
 // 0x0000000B System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.TextToSpeechSample::.ctor()
-extern void TextToSpeechSample__ctor_m2BE936CD8E69478FEDA1D7F387F1CCA45FFE6D73 (void);
+extern void TextToSpeechSample__ctor_m8488677DCF1A0FC1A66374F8085E0C966892DDE0 (void);
 static Il2CppMethodPointer s_methodPointers[11] = 
 {
-	MicrophoneAmplitudeDemo__ctor_mF601B012B989B104A5DD3AEFACA19757F63F3203,
-	LoFiFilterSelection_Start_m183EABCF741E4AABB8A0C595560AFAF79645E7D3,
-	LoFiFilterSelection_OnPointerClicked_m6FBFC4E6D15837E391976CA87CEB530C0ACDB41C,
-	LoFiFilterSelection_OnPointerDown_mBA297C1E401C7B066C6125450047B6A7E78B92F3,
-	LoFiFilterSelection_OnPointerDragged_m7D6C1DFD321EA727697534049AE6FC95D343F3DC,
-	LoFiFilterSelection_OnPointerUp_m9542A1205B4CB1B7E66D5C03C1A8DACD7977955F,
-	LoFiFilterSelection_SetEmitterMaterial_mB63CD9D523570B55B717C0227A401CB411128A2F,
-	LoFiFilterSelection__ctor_m65280939DF1B14CD932F03218CA221F86239ECC3,
-	TextToSpeechSample_Awake_m556F899D92EB47D899B192C1F91E56826CE8989C,
-	TextToSpeechSample_Speak_m7A5590C2BF6750ACBCAC4D0AB50FDB5909B61235,
-	TextToSpeechSample__ctor_m2BE936CD8E69478FEDA1D7F387F1CCA45FFE6D73,
+	MicrophoneAmplitudeDemo__ctor_m40DD41DC2EB18412C35E360D217D24573560647A,
+	LoFiFilterSelection_Start_mF727AC2C7663E6D8C3554C82FC8A0F7847AAC8C7,
+	LoFiFilterSelection_OnPointerClicked_m3710EB2760BA1BB743E75CE8A1D85696B6E7CF0E,
+	LoFiFilterSelection_OnPointerDown_m8D4B240177FCE8DDB5E68CCC599A2242979FCDB9,
+	LoFiFilterSelection_OnPointerDragged_mCE7A833EB4D2759AB25D633C472787C674406BF1,
+	LoFiFilterSelection_OnPointerUp_mDC612920CF706E5A6183308D2D257A433E740B6B,
+	LoFiFilterSelection_SetEmitterMaterial_mBFB030383501F0990192171413293E180447627F,
+	LoFiFilterSelection__ctor_mC6C409FA428750A298D59C72928991EC37756679,
+	TextToSpeechSample_Awake_m59E07DAE23FA314B21B65F9DDC2356CC8CE7DAAE,
+	TextToSpeechSample_Speak_m5564F6F454C0B341108F8C9CD23BAE821BBB1C13,
+	TextToSpeechSample__ctor_m8488677DCF1A0FC1A66374F8085E0C966892DDE0,
 };
 static const int32_t s_InvokerIndices[11] = 
 {
-	10532,
-	10532,
-	8551,
-	8551,
-	8551,
-	8551,
-	8493,
-	10532,
-	10532,
-	10532,
-	10532,
+	8140,
+	8140,
+	6711,
+	6711,
+	6711,
+	6711,
+	6662,
+	8140,
+	8140,
+	8140,
+	8140,
 };
+extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_Toolkit_Demos_Audio_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Demos_Audio_CodeGenModule;
 const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Demos_Audio_CodeGenModule = 
 {
@@ -78,6 +79,7 @@ const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Demos_Audio_CodeGenMo
 	0,
 	NULL,
 	NULL,
+	g_Microsoft_MixedReality_Toolkit_Demos_Audio_AttributeGenerators,
 	NULL, // module initializer,
 	NULL,
 	NULL,

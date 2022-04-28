@@ -12,6 +12,7 @@
 
 
 
+extern const CustomAttributesCacheGenerator g_System_Runtime_Serialization_Formatters_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Runtime_Serialization_Formatters_CodeGenModule;
 const Il2CppCodeGenModule g_System_Runtime_Serialization_Formatters_CodeGenModule = 
 {
@@ -28,6 +29,7 @@ const Il2CppCodeGenModule g_System_Runtime_Serialization_Formatters_CodeGenModul
 	0,
 	NULL,
 	NULL,
+	g_System_Runtime_Serialization_Formatters_AttributeGenerators,
 	NULL, // module initializer,
 	NULL,
 	NULL,

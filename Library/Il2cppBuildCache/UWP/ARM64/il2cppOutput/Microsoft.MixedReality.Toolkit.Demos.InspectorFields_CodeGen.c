@@ -13,23 +13,24 @@
 
 
 // 0x00000001 System.Void Microsoft.MixedReality.Toolkit.Utilities.Editor.InspectorFieldsExample::Awake()
-extern void InspectorFieldsExample_Awake_m6E1647AA4DFDE984FBC59D2F2E3A91E8127CBBF2 (void);
+extern void InspectorFieldsExample_Awake_m1F016E526AE4743D284726049A84504EDF9CAEB7 (void);
 // 0x00000002 System.Void Microsoft.MixedReality.Toolkit.Utilities.Editor.InspectorFieldsExample::Update()
-extern void InspectorFieldsExample_Update_m176C9F27CFC31B6FD6855A372C17CAD6FCEE0006 (void);
+extern void InspectorFieldsExample_Update_m4FBF12815127D3E6B2953F38F21F1C03A3BD2E53 (void);
 // 0x00000003 System.Void Microsoft.MixedReality.Toolkit.Utilities.Editor.InspectorFieldsExample::.ctor()
-extern void InspectorFieldsExample__ctor_m2AB03355F77CC2DB11B01D30128E1EE1EE5D985E (void);
+extern void InspectorFieldsExample__ctor_m8CCB6F823DAD2BB8F50C8024148B37433189941F (void);
 static Il2CppMethodPointer s_methodPointers[3] = 
 {
-	InspectorFieldsExample_Awake_m6E1647AA4DFDE984FBC59D2F2E3A91E8127CBBF2,
-	InspectorFieldsExample_Update_m176C9F27CFC31B6FD6855A372C17CAD6FCEE0006,
-	InspectorFieldsExample__ctor_m2AB03355F77CC2DB11B01D30128E1EE1EE5D985E,
+	InspectorFieldsExample_Awake_m1F016E526AE4743D284726049A84504EDF9CAEB7,
+	InspectorFieldsExample_Update_m4FBF12815127D3E6B2953F38F21F1C03A3BD2E53,
+	InspectorFieldsExample__ctor_m8CCB6F823DAD2BB8F50C8024148B37433189941F,
 };
 static const int32_t s_InvokerIndices[3] = 
 {
-	10532,
-	10532,
-	10532,
+	8140,
+	8140,
+	8140,
 };
+extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_Toolkit_Demos_InspectorFields_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Demos_InspectorFields_CodeGenModule;
 const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Demos_InspectorFields_CodeGenModule = 
 {
@@ -46,6 +47,7 @@ const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Demos_InspectorFields
 	0,
 	NULL,
 	NULL,
+	g_Microsoft_MixedReality_Toolkit_Demos_InspectorFields_AttributeGenerators,
 	NULL, // module initializer,
 	NULL,
 	NULL,

@@ -2792,7 +2792,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TextureFormatUtilities_IsObsolete_m7F982
 		L_6 = Type_GetTypeFromHandle_m2570A2A5B32A5E9D9F0F38B37459DA18736C823E(L_5, NULL);
 		NullCheck(L_4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7;
-		L_7 = VirtualFuncInvoker2< ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, Type_t*, bool >::Invoke(14 /* System.Object[] System.Reflection.MemberInfo::GetCustomAttributes(System.Type,System.Boolean) */, L_4, L_6, (bool)0);
+		L_7 = VirtualFuncInvoker2< ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, Type_t*, bool >::Invoke(20 /* System.Object[] System.Reflection.MemberInfo::GetCustomAttributes(System.Type,System.Boolean) */, L_4, L_6, (bool)0);
 		V_0 = ((ObsoleteAttributeU5BU5D_tCEEAC50D326AEA0B2122C2F48969D6B97C6ABEA6*)Castclass((RuntimeObject*)L_7, ObsoleteAttributeU5BU5D_tCEEAC50D326AEA0B2122C2F48969D6B97C6ABEA6_il2cpp_TypeInfo_var));
 		// return attributes != null && attributes.Length > 0;
 		ObsoleteAttributeU5BU5D_tCEEAC50D326AEA0B2122C2F48969D6B97C6ABEA6* L_8 = V_0;

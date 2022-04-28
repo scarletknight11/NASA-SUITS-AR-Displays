@@ -62,7 +62,6 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_ObjectAnchors_Runtime_Core
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_WindowsAzure_Storage_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Mono_Security_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Newtonsoft_Json_CodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Office365DataHub_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_RestSharp_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Collections_CodeGenModule;
@@ -74,7 +73,6 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Diagnostics_Tracing_CodeGenMo
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Dynamic_Runtime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Globalization_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_IO_CodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_IO_Compression_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_IO_FileSystem_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_IO_FileSystem_Primitives_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Linq_CodeGenModule;
@@ -136,8 +134,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SpriteShapeModule_CodeGe
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SubsystemsModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TerrainModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TerrainPhysicsModule_CodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextCoreFontEngineModule_CodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextCoreTextEngineModule_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextCoreModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextRenderingModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TilemapModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UIElementsModule_CodeGenModule;
@@ -168,12 +165,10 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_MockRuntime
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_OculusQuestSupport_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_RuntimeDebugger_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_WindowsRuntimeMetadata_CodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g___Generated_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_clipper_library_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_netstandard_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[154] = 
+const Il2CppCodeGenModule* g_CodeGenModules[149] = 
 {
 	(&g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule),
 	(&g_AssemblyU2DCSharp_CodeGenModule),
@@ -219,7 +214,6 @@ const Il2CppCodeGenModule* g_CodeGenModules[154] =
 	(&g_Microsoft_WindowsAzure_Storage_CodeGenModule),
 	(&g_Mono_Security_CodeGenModule),
 	(&g_Newtonsoft_Json_CodeGenModule),
-	(&g_Office365DataHub_CodeGenModule),
 	(&g_RestSharp_CodeGenModule),
 	(&g_System_CodeGenModule),
 	(&g_System_Collections_CodeGenModule),
@@ -231,7 +225,6 @@ const Il2CppCodeGenModule* g_CodeGenModules[154] =
 	(&g_System_Dynamic_Runtime_CodeGenModule),
 	(&g_System_Globalization_CodeGenModule),
 	(&g_System_IO_CodeGenModule),
-	(&g_System_IO_Compression_CodeGenModule),
 	(&g_System_IO_FileSystem_CodeGenModule),
 	(&g_System_IO_FileSystem_Primitives_CodeGenModule),
 	(&g_System_Linq_CodeGenModule),
@@ -293,8 +286,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[154] =
 	(&g_UnityEngine_SubsystemsModule_CodeGenModule),
 	(&g_UnityEngine_TerrainModule_CodeGenModule),
 	(&g_UnityEngine_TerrainPhysicsModule_CodeGenModule),
-	(&g_UnityEngine_TextCoreFontEngineModule_CodeGenModule),
-	(&g_UnityEngine_TextCoreTextEngineModule_CodeGenModule),
+	(&g_UnityEngine_TextCoreModule_CodeGenModule),
 	(&g_UnityEngine_TextRenderingModule_CodeGenModule),
 	(&g_UnityEngine_TilemapModule_CodeGenModule),
 	(&g_UnityEngine_UIElementsModule_CodeGenModule),
@@ -325,28 +317,26 @@ const Il2CppCodeGenModule* g_CodeGenModules[154] =
 	(&g_Unity_XR_OpenXR_Features_OculusQuestSupport_CodeGenModule),
 	(&g_Unity_XR_OpenXR_Features_RuntimeDebugger_CodeGenModule),
 	(&g_WindowsRuntimeMetadata_CodeGenModule),
-	(&g___Generated_CodeGenModule),
 	(&g_clipper_library_CodeGenModule),
 	(&g_mscorlib_CodeGenModule),
-	(&g_netstandard_CodeGenModule),
 };
 IL2CPP_EXTERN_C const Il2CppCodeRegistration g_CodeRegistration;
 const Il2CppCodeRegistration g_CodeRegistration = 
 {
-	44,
+	35,
 	g_ReversePInvokeWrapperPointers,
-	106757,
+	80451,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	16060,
+	13345,
 	g_Il2CppInvokerPointers,
-	4036,
+	3060,
 	g_UnresolvedVirtualMethodPointers,
-	15863,
+	13710,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	154,
+	149,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
@@ -354,7 +344,6 @@ static const Il2CppCodeGenOptions s_Il2CppCodeGenOptions =
 {
 	true,
 	7,
-	1,
 };
 void s_Il2CppCodegenRegistration()
 {

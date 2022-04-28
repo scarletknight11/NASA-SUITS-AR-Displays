@@ -12,52 +12,53 @@
 
 
 
-// 0x00000001 System.Void System.Runtime.Serialization.DataContractAttribute::.ctor()
-extern void DataContractAttribute__ctor_mAFB75FDCDDBB5925CCE916496408E843E9DDB6BC (void);
-// 0x00000002 System.Boolean System.Runtime.Serialization.DataContractAttribute::get_IsReference()
-extern void DataContractAttribute_get_IsReference_mEC2FFE0351B0DD896E7805670D6A614B1AE4C101 (void);
-// 0x00000003 System.String System.Runtime.Serialization.DataMemberAttribute::get_Name()
-extern void DataMemberAttribute_get_Name_m8C4BF39A517D901076BAFF6FF89DD53C5F4B2B3E (void);
-// 0x00000004 System.Int32 System.Runtime.Serialization.DataMemberAttribute::get_Order()
-extern void DataMemberAttribute_get_Order_m34D8C756AE07BD345011D887546DF54D71898956 (void);
-// 0x00000005 System.Boolean System.Runtime.Serialization.DataMemberAttribute::get_IsRequired()
-extern void DataMemberAttribute_get_IsRequired_m318C586E28E349EA87096FE6FE473B4C4FD58C73 (void);
-// 0x00000006 System.Boolean System.Runtime.Serialization.DataMemberAttribute::get_EmitDefaultValue()
-extern void DataMemberAttribute_get_EmitDefaultValue_m430708B4CFB34DD522B6D01A66CE8FDEDCC088E8 (void);
-// 0x00000007 System.String System.Runtime.Serialization.EnumMemberAttribute::get_Value()
-extern void EnumMemberAttribute_get_Value_mB41126B613B9FD1CD8A05D08FCEC4B6663864BE9 (void);
-// 0x00000008 System.Void System.Runtime.Serialization.InvalidDataContractException::.ctor()
-extern void InvalidDataContractException__ctor_m1B7907967BE71E252FB194B48A5BAC81EBD7A497 (void);
-// 0x00000009 System.Void System.Runtime.Serialization.InvalidDataContractException::.ctor(System.String)
-extern void InvalidDataContractException__ctor_m6C50A1259C6FD9C49EA59E0905FBCA103A472559 (void);
-// 0x0000000A System.Void System.Runtime.Serialization.InvalidDataContractException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern void InvalidDataContractException__ctor_m4B8827EF5D454CB2E44460D237769C1067C198B8 (void);
+// 0x00000001 System.Boolean System.Runtime.Serialization.DataContractAttribute::get_IsReference()
+extern void DataContractAttribute_get_IsReference_mD233910F6BE95DC8F61D97C2B5BEB0BE0B817518 (void);
+// 0x00000002 System.String System.Runtime.Serialization.DataMemberAttribute::get_Name()
+extern void DataMemberAttribute_get_Name_mB7896BB8772FA242DB9ECA0CF9C68130C40079DD (void);
+// 0x00000003 System.Int32 System.Runtime.Serialization.DataMemberAttribute::get_Order()
+extern void DataMemberAttribute_get_Order_m6276D5139B7020DB7C0D545DC24E6BE287FFF382 (void);
+// 0x00000004 System.Boolean System.Runtime.Serialization.DataMemberAttribute::get_IsRequired()
+extern void DataMemberAttribute_get_IsRequired_mF7CC60E82900625E383EBAACDCB45E6C649E2DB7 (void);
+// 0x00000005 System.Boolean System.Runtime.Serialization.DataMemberAttribute::get_EmitDefaultValue()
+extern void DataMemberAttribute_get_EmitDefaultValue_mFAF0D3A1269ACCAD4A3EF9EA47A2FF6BF1E3AA3B (void);
+// 0x00000006 System.String System.Runtime.Serialization.EnumMemberAttribute::get_Value()
+extern void EnumMemberAttribute_get_Value_mC26949F87E6A636CF952151DC4F77110050627A3 (void);
+// 0x00000007 System.Void System.Runtime.Serialization.InvalidDataContractException::.ctor()
+extern void InvalidDataContractException__ctor_m7DCA71E92EDB3164CB4B80FF225202F651832076 (void);
+// 0x00000008 System.Void System.Runtime.Serialization.InvalidDataContractException::.ctor(System.String)
+extern void InvalidDataContractException__ctor_m796EBCF63AB4885350433E327D305436AC2A63A7 (void);
+// 0x00000009 System.Void System.Runtime.Serialization.InvalidDataContractException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern void InvalidDataContractException__ctor_m9782B03BD03C14F37AA9CA6A8B4678FF5FC9F091 (void);
+// 0x0000000A System.Void System.Runtime.Serialization.KnownTypeAttribute::.ctor(System.Type)
+extern void KnownTypeAttribute__ctor_m4E4832EA5ACAD7B15D9F02CABB221E6F8713482A (void);
 static Il2CppMethodPointer s_methodPointers[10] = 
 {
-	DataContractAttribute__ctor_mAFB75FDCDDBB5925CCE916496408E843E9DDB6BC,
-	DataContractAttribute_get_IsReference_mEC2FFE0351B0DD896E7805670D6A614B1AE4C101,
-	DataMemberAttribute_get_Name_m8C4BF39A517D901076BAFF6FF89DD53C5F4B2B3E,
-	DataMemberAttribute_get_Order_m34D8C756AE07BD345011D887546DF54D71898956,
-	DataMemberAttribute_get_IsRequired_m318C586E28E349EA87096FE6FE473B4C4FD58C73,
-	DataMemberAttribute_get_EmitDefaultValue_m430708B4CFB34DD522B6D01A66CE8FDEDCC088E8,
-	EnumMemberAttribute_get_Value_mB41126B613B9FD1CD8A05D08FCEC4B6663864BE9,
-	InvalidDataContractException__ctor_m1B7907967BE71E252FB194B48A5BAC81EBD7A497,
-	InvalidDataContractException__ctor_m6C50A1259C6FD9C49EA59E0905FBCA103A472559,
-	InvalidDataContractException__ctor_m4B8827EF5D454CB2E44460D237769C1067C198B8,
+	DataContractAttribute_get_IsReference_mD233910F6BE95DC8F61D97C2B5BEB0BE0B817518,
+	DataMemberAttribute_get_Name_mB7896BB8772FA242DB9ECA0CF9C68130C40079DD,
+	DataMemberAttribute_get_Order_m6276D5139B7020DB7C0D545DC24E6BE287FFF382,
+	DataMemberAttribute_get_IsRequired_mF7CC60E82900625E383EBAACDCB45E6C649E2DB7,
+	DataMemberAttribute_get_EmitDefaultValue_mFAF0D3A1269ACCAD4A3EF9EA47A2FF6BF1E3AA3B,
+	EnumMemberAttribute_get_Value_mC26949F87E6A636CF952151DC4F77110050627A3,
+	InvalidDataContractException__ctor_m7DCA71E92EDB3164CB4B80FF225202F651832076,
+	InvalidDataContractException__ctor_m796EBCF63AB4885350433E327D305436AC2A63A7,
+	InvalidDataContractException__ctor_m9782B03BD03C14F37AA9CA6A8B4678FF5FC9F091,
+	KnownTypeAttribute__ctor_m4E4832EA5ACAD7B15D9F02CABB221E6F8713482A,
 };
 static const int32_t s_InvokerIndices[10] = 
 {
-	10532,
-	10177,
-	10341,
-	10280,
-	10177,
-	10177,
-	10341,
-	10532,
-	8551,
-	4969,
+	8065,
+	8004,
+	7954,
+	8065,
+	8065,
+	8004,
+	8140,
+	6711,
+	4157,
+	6711,
 };
+extern const CustomAttributesCacheGenerator g_System_Runtime_Serialization_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Runtime_Serialization_CodeGenModule;
 const Il2CppCodeGenModule g_System_Runtime_Serialization_CodeGenModule = 
 {
@@ -74,6 +75,7 @@ const Il2CppCodeGenModule g_System_Runtime_Serialization_CodeGenModule =
 	0,
 	NULL,
 	NULL,
+	g_System_Runtime_Serialization_AttributeGenerators,
 	NULL, // module initializer,
 	NULL,
 	NULL,

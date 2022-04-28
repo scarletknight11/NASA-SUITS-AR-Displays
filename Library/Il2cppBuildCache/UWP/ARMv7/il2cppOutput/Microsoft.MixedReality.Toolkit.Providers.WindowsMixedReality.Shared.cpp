@@ -143,14 +143,10 @@ struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
 // Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor[]
 struct GltfAccessorU5BU5D_t3D1840550A8A81A5A6840999A543218500FEEB65;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAnimation[]
-struct GltfAnimationU5BU5D_t1C59DCD5062E47E9B7A76E892865A03D32DE9308;
 // Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBuffer[]
 struct GltfBufferU5BU5D_t1A6C0FEC43EA2AB83E1A01F01D62CD916C908E76;
 // Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBufferView[]
 struct GltfBufferViewU5BU5D_t51A35EE9DAFF8307DC21D1436104551E9B7347E5;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfCamera[]
-struct GltfCameraU5BU5D_t34912D5BAB396BED26F7FF526503C0F5CD1CEA60;
 // Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfImage[]
 struct GltfImageU5BU5D_t745E7EA65FEE6BA19EE7E8920D2F64E7FC4F3422;
 // Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMaterial[]
@@ -159,12 +155,8 @@ struct GltfMaterialU5BU5D_tEB929201E6AE4B49931DCF638CEBF8FD3BDD4DAC;
 struct GltfMeshU5BU5D_t9B6FDB4414B450992F66FD6C2068A995618AEBDB;
 // Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNode[]
 struct GltfNodeU5BU5D_t9165905CF35DA7A14211829668A9CFE91808E355;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfSampler[]
-struct GltfSamplerU5BU5D_t6FFADF326289D2A7D6BD970B6E6D85FA29AA1DDE;
 // Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfScene[]
 struct GltfSceneU5BU5D_t66B0532F315A68081D7BCC428D7ED39E48039FC8;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfSkin[]
-struct GltfSkinU5BU5D_t7E9D810F2CC5932DE52D307A2669D397A79A39AF;
 // Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfTexture[]
 struct GltfTextureU5BU5D_t8F3036C18764C052E461D1C33F3DE310D05BED84;
 // Windows.Perception.People.HandMeshVertex[]
@@ -511,8 +503,10 @@ struct IHolographicFramePrediction_t7694E44E1063C899DE4C60CE44C120DD0395BF27;
 struct IHolographicFrame_t61CC414C49785B484C9128BD870A03E5211D897D;
 struct IHolographicViewConfiguration_t93DE64F32B64A57E3BF5CD7125AD272E7C7DE275;
 struct IInputStream_tDC35C23AD45F348D642B40B84F54B80735521E71;
+struct IOutputStream_t40198F11F08A63FACF94FC1BDCD2A01690CC9284;
 struct IPerceptionTimestamp_tB0128B44FA321063E14619076C95B2D0B6E478BC;
 struct IRandomAccessStreamWithContentType_t278A450658A97FD20BE61C1770AF2774F5BBB170;
+struct IRandomAccessStream_t3D652438066E04B156C5800102C1E5613A8B872D;
 struct ISpatialCoordinateSystem_tA613C62238FCE4017258AA4516D69DABCAFF96D8;
 struct ISpatialInteractionController_t4AE31651A04CF9EA38251FF018CDCAFC5CD54860;
 struct ISpatialInteractionManager_t821A82A320E03A01E400678AD9988006DE884DB3;
@@ -594,12 +588,12 @@ struct NOVTABLE IRandomAccessStream_t3D652438066E04B156C5800102C1E5613A8B872D : 
 {
 	static const Il2CppGuid IID;
 	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_get_Size_m29F4D8681FB7E60088E7A665F319EADAF14696BA(uint64_t* comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_U24__Stripped0_put_Size_m5FC1276B736342C05F4B9D58ACBDCB6D8C4B1D2D() = 0;
+	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_put_Size_mF541E936AB539C97B96018952B00DAF943C8E658(uint64_t ___value0) = 0;
 	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_GetInputStreamAt_m5B59AEE63C2736D9CCBB8A4987C5316A34CD343F(uint64_t ___position0, IInputStream_tDC35C23AD45F348D642B40B84F54B80735521E71** comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_U24__Stripped1_GetOutputStreamAt_mB4EEB1A11299F4646015183FD254B1F229AD8135() = 0;
+	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_GetOutputStreamAt_mE15EFF78D7AB63C66957863FE3D54FA33D66CCB8(uint64_t ___position0, IOutputStream_t40198F11F08A63FACF94FC1BDCD2A01690CC9284** comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_get_Position_m3BBAFE5846C2C4581E7E509DC125E3AB508D591A(uint64_t* comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_Seek_m1DDCF62775B861D7FDD3EF761EE05251C13FA512(uint64_t ___position0) = 0;
-	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_U24__Stripped2_CloneStream_m024BDF8A3162B6C21B9E63DEC2C8AAC9AC28290E() = 0;
+	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_CloneStream_mFD31B358478E07E6281E4D329FAC8B6DABE36191(IRandomAccessStream_t3D652438066E04B156C5800102C1E5613A8B872D** comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_get_CanRead_m599EC4BE14290138A7DCE9D82AF647993B4049E1(bool* comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_get_CanWrite_m76930DBC1CC5718B50A9CCFFBB604AF6137C223B(bool* comReturnValue) = 0;
 };
@@ -739,9 +733,9 @@ struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572  : public RuntimeObject
 	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_stateFlags
 	int32_t ___m_stateFlags_6;
 	// System.Object modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_continuationObject
-	RuntimeObject* ___m_continuationObject_23;
+	RuntimeObject* ___m_continuationObject_7;
 	// System.Threading.Tasks.Task/ContingentProperties modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_contingentProperties
-	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties_26;
+	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties_10;
 };
 
 struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
@@ -749,35 +743,35 @@ struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
 	// System.Int32 System.Threading.Tasks.Task::s_taskIdCounter
 	int32_t ___s_taskIdCounter_0;
 	// System.Object System.Threading.Tasks.Task::s_taskCompletionSentinel
-	RuntimeObject* ___s_taskCompletionSentinel_24;
+	RuntimeObject* ___s_taskCompletionSentinel_8;
 	// System.Boolean System.Threading.Tasks.Task::s_asyncDebuggingEnabled
-	bool ___s_asyncDebuggingEnabled_25;
+	bool ___s_asyncDebuggingEnabled_9;
 	// System.Action`1<System.Object> System.Threading.Tasks.Task::s_taskCancelCallback
-	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback_27;
+	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback_11;
 	// System.Func`1<System.Threading.Tasks.Task/ContingentProperties> System.Threading.Tasks.Task::s_createContingentProperties
-	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties_30;
+	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties_14;
 	// System.Threading.Tasks.TaskFactory System.Threading.Tasks.Task::<Factory>k__BackingField
-	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField_31;
+	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField_15;
 	// System.Threading.Tasks.Task System.Threading.Tasks.Task::<CompletedTask>k__BackingField
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField_32;
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField_16;
 	// System.Predicate`1<System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_IsExceptionObservedByParentPredicate
-	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate_33;
+	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate_17;
 	// System.Threading.ContextCallback System.Threading.Tasks.Task::s_ecCallback
-	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback_34;
+	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback_18;
 	// System.Predicate`1<System.Object> System.Threading.Tasks.Task::s_IsTaskContinuationNullPredicate
-	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate_35;
+	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate_19;
 	// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_currentActiveTasks
-	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks_36;
+	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks_20;
 	// System.Object System.Threading.Tasks.Task::s_activeTasksLock
-	RuntimeObject* ___s_activeTasksLock_37;
+	RuntimeObject* ___s_activeTasksLock_21;
 };
 
 struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_ThreadStaticFields
 {
 	// System.Threading.Tasks.Task System.Threading.Tasks.Task::t_currentTask
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask_28;
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask_12;
 	// System.Threading.Tasks.StackGuard System.Threading.Tasks.Task::t_stackGuard
-	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard_29;
+	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard_13;
 };
 
 // System.ValueType
@@ -912,13 +906,13 @@ struct TaskAwaiter_1_t809C1069019962BF095DD2CCBEDBAF8DD22DF595
 struct Task_1_tE06D7E45E347567BB7775D8FB00F95DC55D14506  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
 {
 	// TResult System.Threading.Tasks.Task`1::m_result
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_result_38;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_result_22;
 };
 
 struct Task_1_tE06D7E45E347567BB7775D8FB00F95DC55D14506_StaticFields
 {
 	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
-	TaskFactory_1_t319B003F17AE88C9B30313BA13576A8DC5AB9110* ___s_defaultFactory_39;
+	TaskFactory_1_t319B003F17AE88C9B30313BA13576A8DC5AB9110* ___s_defaultFactory_23;
 };
 
 // System.Runtime.CompilerServices.AsyncMethodBuilderCore
@@ -1083,44 +1077,34 @@ struct GltfObject_t01406610671599590A9A62632F753580951C5438  : public GltfProper
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___extensionsRequired_3;
 	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::accessors
 	GltfAccessorU5BU5D_t3D1840550A8A81A5A6840999A543218500FEEB65* ___accessors_4;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAnimation[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::animations
-	GltfAnimationU5BU5D_t1C59DCD5062E47E9B7A76E892865A03D32DE9308* ___animations_5;
 	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAssetInfo Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::asset
-	GltfAssetInfo_t7F7D2FC5E3D97C2BA2FE68A6C5E094E41FDDB347* ___asset_6;
+	GltfAssetInfo_t7F7D2FC5E3D97C2BA2FE68A6C5E094E41FDDB347* ___asset_5;
 	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBuffer[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::buffers
-	GltfBufferU5BU5D_t1A6C0FEC43EA2AB83E1A01F01D62CD916C908E76* ___buffers_7;
+	GltfBufferU5BU5D_t1A6C0FEC43EA2AB83E1A01F01D62CD916C908E76* ___buffers_6;
 	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBufferView[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::bufferViews
-	GltfBufferViewU5BU5D_t51A35EE9DAFF8307DC21D1436104551E9B7347E5* ___bufferViews_8;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfCamera[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::cameras
-	GltfCameraU5BU5D_t34912D5BAB396BED26F7FF526503C0F5CD1CEA60* ___cameras_9;
+	GltfBufferViewU5BU5D_t51A35EE9DAFF8307DC21D1436104551E9B7347E5* ___bufferViews_7;
 	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfImage[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::images
-	GltfImageU5BU5D_t745E7EA65FEE6BA19EE7E8920D2F64E7FC4F3422* ___images_10;
+	GltfImageU5BU5D_t745E7EA65FEE6BA19EE7E8920D2F64E7FC4F3422* ___images_8;
 	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMaterial[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::materials
-	GltfMaterialU5BU5D_tEB929201E6AE4B49931DCF638CEBF8FD3BDD4DAC* ___materials_11;
+	GltfMaterialU5BU5D_tEB929201E6AE4B49931DCF638CEBF8FD3BDD4DAC* ___materials_9;
 	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMesh[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::meshes
-	GltfMeshU5BU5D_t9B6FDB4414B450992F66FD6C2068A995618AEBDB* ___meshes_12;
+	GltfMeshU5BU5D_t9B6FDB4414B450992F66FD6C2068A995618AEBDB* ___meshes_10;
 	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNode[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::nodes
-	GltfNodeU5BU5D_t9165905CF35DA7A14211829668A9CFE91808E355* ___nodes_13;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfSampler[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::samplers
-	GltfSamplerU5BU5D_t6FFADF326289D2A7D6BD970B6E6D85FA29AA1DDE* ___samplers_14;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::scene
-	int32_t ___scene_15;
+	GltfNodeU5BU5D_t9165905CF35DA7A14211829668A9CFE91808E355* ___nodes_11;
 	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfScene[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::scenes
-	GltfSceneU5BU5D_t66B0532F315A68081D7BCC428D7ED39E48039FC8* ___scenes_16;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfSkin[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::skins
-	GltfSkinU5BU5D_t7E9D810F2CC5932DE52D307A2669D397A79A39AF* ___skins_17;
+	GltfSceneU5BU5D_t66B0532F315A68081D7BCC428D7ED39E48039FC8* ___scenes_12;
 	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfTexture[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::textures
-	GltfTextureU5BU5D_t8F3036C18764C052E461D1C33F3DE310D05BED84* ___textures_18;
+	GltfTextureU5BU5D_t8F3036C18764C052E461D1C33F3DE310D05BED84* ___textures_13;
 	// System.String Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::<Name>k__BackingField
-	String_t* ___U3CNameU3Ek__BackingField_19;
+	String_t* ___U3CNameU3Ek__BackingField_14;
 	// System.String Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::<Uri>k__BackingField
-	String_t* ___U3CUriU3Ek__BackingField_20;
+	String_t* ___U3CUriU3Ek__BackingField_15;
 	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::<GameObjectReference>k__BackingField
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CGameObjectReferenceU3Ek__BackingField_21;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CGameObjectReferenceU3Ek__BackingField_16;
 	// System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.Extensions.GltfExtension> Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::<RegisteredExtensions>k__BackingField
-	List_1_t01CC1DD6F63D9C5EDB251D7667BB63B4216BDC83* ___U3CRegisteredExtensionsU3Ek__BackingField_22;
+	List_1_t01CC1DD6F63D9C5EDB251D7667BB63B4216BDC83* ___U3CRegisteredExtensionsU3Ek__BackingField_17;
 	// System.Boolean Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::<UseBackgroundThread>k__BackingField
-	bool ___U3CUseBackgroundThreadU3Ek__BackingField_23;
+	bool ___U3CUseBackgroundThreadU3Ek__BackingField_18;
 };
 
 // Windows.Perception.People.HandMeshObserver

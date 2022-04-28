@@ -13,73 +13,72 @@
 
 
 // 0x00000001 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoSpatialMeshHandler::Start()
-extern void DemoSpatialMeshHandler_Start_m48A4E737391E236D1A27A49A51CA998F972CDEA4 (void);
+extern void DemoSpatialMeshHandler_Start_mAE8E873A3259657538DBCCCF282A6C54C7FA811C (void);
 // 0x00000002 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoSpatialMeshHandler::OnEnable()
-extern void DemoSpatialMeshHandler_OnEnable_m292A62C3671D9671F069EC6E7EABE07101291189 (void);
+extern void DemoSpatialMeshHandler_OnEnable_mAC661F90F729FF693B566C5741BAABD09141CCB9 (void);
 // 0x00000003 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoSpatialMeshHandler::OnDisable()
-extern void DemoSpatialMeshHandler_OnDisable_m48F2D3F0A146EBFB020B8789EE7A524A3C6A1F1B (void);
+extern void DemoSpatialMeshHandler_OnDisable_mFCA5250EE4F8D1EA81B916526E84A31FD6E428C4 (void);
 // 0x00000004 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoSpatialMeshHandler::OnDestroy()
-extern void DemoSpatialMeshHandler_OnDestroy_m1D2AF55A02FE4FE4CB76652301F5E07084047160 (void);
+extern void DemoSpatialMeshHandler_OnDestroy_mE25BFFA518E17897443229408CBE0063B0A855DF (void);
 // 0x00000005 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoSpatialMeshHandler::RegisterEventHandlers()
 // 0x00000006 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoSpatialMeshHandler::UnregisterEventHandlers()
 // 0x00000007 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoSpatialMeshHandler::OnObservationAdded(Microsoft.MixedReality.Toolkit.SpatialAwareness.MixedRealitySpatialAwarenessEventData`1<Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessMeshObject>)
-extern void DemoSpatialMeshHandler_OnObservationAdded_mF04C3FED1B4B443CBD6A65153BEF4419BFB5CFE6 (void);
+extern void DemoSpatialMeshHandler_OnObservationAdded_m40593E1E2C6001B87F7E3E7EADB56F9309D48F3A (void);
 // 0x00000008 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoSpatialMeshHandler::OnObservationUpdated(Microsoft.MixedReality.Toolkit.SpatialAwareness.MixedRealitySpatialAwarenessEventData`1<Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessMeshObject>)
-extern void DemoSpatialMeshHandler_OnObservationUpdated_m056BD02DA81F91EE4A911D61665B8B314D415632 (void);
+extern void DemoSpatialMeshHandler_OnObservationUpdated_mC16006EA45A05E757E073D5E2CA391EE863B61FD (void);
 // 0x00000009 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoSpatialMeshHandler::OnObservationRemoved(Microsoft.MixedReality.Toolkit.SpatialAwareness.MixedRealitySpatialAwarenessEventData`1<Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessMeshObject>)
-extern void DemoSpatialMeshHandler_OnObservationRemoved_m4CAF7C9A0A9CB14A3D1ED0CBDB03888F6B4F6743 (void);
+extern void DemoSpatialMeshHandler_OnObservationRemoved_m88655D02334D7E844EB189854EC3CA981919D83E (void);
 // 0x0000000A System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoSpatialMeshHandler::AddToData(System.Int32)
-extern void DemoSpatialMeshHandler_AddToData_m03D3CC4E40A135B619FD3CDD2FF50D803B2745F5 (void);
+extern void DemoSpatialMeshHandler_AddToData_m6A9EBF9775CAC09AAC9D3BCEC35898C64A5F66EA (void);
 // 0x0000000B System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoSpatialMeshHandler::UpdateData(System.Int32)
-extern void DemoSpatialMeshHandler_UpdateData_mBE578B5EC4384927F0EDEE67B0F079669A48961D (void);
+extern void DemoSpatialMeshHandler_UpdateData_m128F311F74FDAC1E7A6A39782851DA6C12406191 (void);
 // 0x0000000C System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoSpatialMeshHandler::RemoveFromData(System.Int32)
-extern void DemoSpatialMeshHandler_RemoveFromData_m00802A4584E2C4E1F7804C5D7583916AFE7C4FA6 (void);
+extern void DemoSpatialMeshHandler_RemoveFromData_mF338872244C6BFE3086E64BF1EC9459362F6B4A8 (void);
 // 0x0000000D System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoSpatialMeshHandler::.ctor()
-extern void DemoSpatialMeshHandler__ctor_m3DD926771A64892229BE53755963DB6D5E0B64DF (void);
+extern void DemoSpatialMeshHandler__ctor_mEE011AB0DE9906AC10B2401EC0115268505A1661 (void);
 static Il2CppMethodPointer s_methodPointers[13] = 
 {
-	DemoSpatialMeshHandler_Start_m48A4E737391E236D1A27A49A51CA998F972CDEA4,
-	DemoSpatialMeshHandler_OnEnable_m292A62C3671D9671F069EC6E7EABE07101291189,
-	DemoSpatialMeshHandler_OnDisable_m48F2D3F0A146EBFB020B8789EE7A524A3C6A1F1B,
-	DemoSpatialMeshHandler_OnDestroy_m1D2AF55A02FE4FE4CB76652301F5E07084047160,
+	DemoSpatialMeshHandler_Start_mAE8E873A3259657538DBCCCF282A6C54C7FA811C,
+	DemoSpatialMeshHandler_OnEnable_mAC661F90F729FF693B566C5741BAABD09141CCB9,
+	DemoSpatialMeshHandler_OnDisable_mFCA5250EE4F8D1EA81B916526E84A31FD6E428C4,
+	DemoSpatialMeshHandler_OnDestroy_mE25BFFA518E17897443229408CBE0063B0A855DF,
 	NULL,
 	NULL,
-	DemoSpatialMeshHandler_OnObservationAdded_mF04C3FED1B4B443CBD6A65153BEF4419BFB5CFE6,
-	DemoSpatialMeshHandler_OnObservationUpdated_m056BD02DA81F91EE4A911D61665B8B314D415632,
-	DemoSpatialMeshHandler_OnObservationRemoved_m4CAF7C9A0A9CB14A3D1ED0CBDB03888F6B4F6743,
-	DemoSpatialMeshHandler_AddToData_m03D3CC4E40A135B619FD3CDD2FF50D803B2745F5,
-	DemoSpatialMeshHandler_UpdateData_mBE578B5EC4384927F0EDEE67B0F079669A48961D,
-	DemoSpatialMeshHandler_RemoveFromData_m00802A4584E2C4E1F7804C5D7583916AFE7C4FA6,
-	DemoSpatialMeshHandler__ctor_m3DD926771A64892229BE53755963DB6D5E0B64DF,
+	DemoSpatialMeshHandler_OnObservationAdded_m40593E1E2C6001B87F7E3E7EADB56F9309D48F3A,
+	DemoSpatialMeshHandler_OnObservationUpdated_mC16006EA45A05E757E073D5E2CA391EE863B61FD,
+	DemoSpatialMeshHandler_OnObservationRemoved_m88655D02334D7E844EB189854EC3CA981919D83E,
+	DemoSpatialMeshHandler_AddToData_m6A9EBF9775CAC09AAC9D3BCEC35898C64A5F66EA,
+	DemoSpatialMeshHandler_UpdateData_m128F311F74FDAC1E7A6A39782851DA6C12406191,
+	DemoSpatialMeshHandler_RemoveFromData_mF338872244C6BFE3086E64BF1EC9459362F6B4A8,
+	DemoSpatialMeshHandler__ctor_mEE011AB0DE9906AC10B2401EC0115268505A1661,
 };
 static const int32_t s_InvokerIndices[13] = 
 {
-	10532,
-	10532,
-	10532,
-	10532,
-	0,
-	0,
-	8551,
-	8551,
-	8551,
-	8493,
-	8493,
-	8493,
-	10532,
+	8140,
+	8140,
+	8140,
+	8140,
+	-1,
+	-1,
+	6711,
+	6711,
+	6711,
+	6662,
+	6662,
+	6662,
+	8140,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[2] = 
 {
 	{ 0x06000005, { 0, 1 } },
 	{ 0x06000006, { 1, 1 } },
 };
-extern const uint32_t g_rgctx_IMixedRealityEventSystem_RegisterHandler_TisT_t258801892A03D2D7CF5D3EAC709A999133A95A45_m4331B0E7F2263E9458D8278EE3F224D763AA4F23;
-extern const uint32_t g_rgctx_IMixedRealityEventSystem_UnregisterHandler_TisT_tBD92005FB55CA1801374572D91AC4E5459EEDD0E_m5851123BF01C8CC17F82D395A20A2A3082F22040;
 static const Il2CppRGCTXDefinition s_rgctxValues[2] = 
 {
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IMixedRealityEventSystem_RegisterHandler_TisT_t258801892A03D2D7CF5D3EAC709A999133A95A45_m4331B0E7F2263E9458D8278EE3F224D763AA4F23 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IMixedRealityEventSystem_UnregisterHandler_TisT_tBD92005FB55CA1801374572D91AC4E5459EEDD0E_m5851123BF01C8CC17F82D395A20A2A3082F22040 },
+	{ (Il2CppRGCTXDataType)3, 94561 },
+	{ (Il2CppRGCTXDataType)3, 94578 },
 };
+extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_Toolkit_Examples_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Examples_CodeGenModule;
 const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Examples_CodeGenModule = 
 {
@@ -96,6 +95,7 @@ const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Examples_CodeGenModul
 	2,
 	s_rgctxValues,
 	NULL,
+	g_Microsoft_MixedReality_Toolkit_Examples_AttributeGenerators,
 	NULL, // module initializer,
 	NULL,
 	NULL,

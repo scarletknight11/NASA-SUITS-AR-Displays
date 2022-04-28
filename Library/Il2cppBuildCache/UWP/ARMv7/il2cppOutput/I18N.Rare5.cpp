@@ -130,17 +130,17 @@ struct EncoderFallbackBuffer_t2E7CD7B63BE916D5827701AC6AB8455673FB0281  : public
 struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095  : public RuntimeObject
 {
 	// System.Int32 System.Text.Encoding::m_codePage
-	int32_t ___m_codePage_55;
+	int32_t ___m_codePage_9;
 	// System.Globalization.CodePageDataItem System.Text.Encoding::dataItem
-	CodePageDataItem_t52460FA30AE37F4F26ACB81055E58002262F19F2* ___dataItem_56;
+	CodePageDataItem_t52460FA30AE37F4F26ACB81055E58002262F19F2* ___dataItem_10;
 	// System.Boolean System.Text.Encoding::m_deserializedFromEverett
-	bool ___m_deserializedFromEverett_57;
+	bool ___m_deserializedFromEverett_11;
 	// System.Boolean System.Text.Encoding::m_isReadOnly
-	bool ___m_isReadOnly_58;
+	bool ___m_isReadOnly_12;
 	// System.Text.EncoderFallback System.Text.Encoding::encoderFallback
-	EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293* ___encoderFallback_59;
+	EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293* ___encoderFallback_13;
 	// System.Text.DecoderFallback System.Text.Encoding::decoderFallback
-	DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90* ___decoderFallback_60;
+	DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90* ___decoderFallback_14;
 };
 
 struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
@@ -164,7 +164,7 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
 	// System.Collections.Generic.Dictionary`2<System.Int32,System.Text.Encoding> modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::encodings
 	Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* ___encodings_8;
 	// System.Object System.Text.Encoding::s_InternalSyncObject
-	RuntimeObject* ___s_InternalSyncObject_61;
+	RuntimeObject* ___s_InternalSyncObject_15;
 };
 
 // System.String
@@ -254,7 +254,7 @@ struct IntPtr_t_StaticFields
 struct MonoEncoding_tF2240BBAE3C4348A6AA618289E010385021E4BE3  : public Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095
 {
 	// System.Int32 I18N.Common.MonoEncoding::win_code_page
-	int32_t ___win_code_page_62;
+	int32_t ___win_code_page_16;
 };
 
 // System.Void
@@ -375,35 +375,35 @@ struct U3CPrivateImplementationDetailsU3E_t93D5A3C57223403DF8D245FE4196A05407E89
 struct ByteEncoding_tEE9E9B80611B285A738DFE77F21CB10FEC4FFB67  : public MonoEncoding_tF2240BBAE3C4348A6AA618289E010385021E4BE3
 {
 	// System.Char[] I18N.Common.ByteEncoding::toChars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___toChars_63;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___toChars_17;
 	// System.String I18N.Common.ByteEncoding::encodingName
-	String_t* ___encodingName_64;
+	String_t* ___encodingName_18;
 	// System.String I18N.Common.ByteEncoding::bodyName
-	String_t* ___bodyName_65;
+	String_t* ___bodyName_19;
 	// System.String I18N.Common.ByteEncoding::headerName
-	String_t* ___headerName_66;
+	String_t* ___headerName_20;
 	// System.String I18N.Common.ByteEncoding::webName
-	String_t* ___webName_67;
+	String_t* ___webName_21;
 	// System.Boolean I18N.Common.ByteEncoding::isBrowserDisplay
-	bool ___isBrowserDisplay_68;
+	bool ___isBrowserDisplay_22;
 	// System.Boolean I18N.Common.ByteEncoding::isBrowserSave
-	bool ___isBrowserSave_69;
+	bool ___isBrowserSave_23;
 	// System.Boolean I18N.Common.ByteEncoding::isMailNewsDisplay
-	bool ___isMailNewsDisplay_70;
+	bool ___isMailNewsDisplay_24;
 	// System.Boolean I18N.Common.ByteEncoding::isMailNewsSave
-	bool ___isMailNewsSave_71;
+	bool ___isMailNewsSave_25;
 	// System.Int32 I18N.Common.ByteEncoding::windowsCodePage
-	int32_t ___windowsCodePage_72;
+	int32_t ___windowsCodePage_26;
 };
 
 struct ByteEncoding_tEE9E9B80611B285A738DFE77F21CB10FEC4FFB67_StaticFields
 {
 	// System.Byte[] I18N.Common.ByteEncoding::isNormalized
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___isNormalized_73;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___isNormalized_27;
 	// System.Byte[] I18N.Common.ByteEncoding::isNormalizedComputed
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___isNormalizedComputed_74;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___isNormalizedComputed_28;
 	// System.Byte[] I18N.Common.ByteEncoding::normalization_bytes
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___normalization_bytes_75;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___normalization_bytes_29;
 };
 
 // System.Exception
@@ -504,7 +504,7 @@ struct CP870_tFF44DB2207A70CE1C278CC962AAB65DF92CC5D71  : public ByteEncoding_tE
 struct CP870_tFF44DB2207A70CE1C278CC962AAB65DF92CC5D71_StaticFields
 {
 	// System.Char[] I18N.Rare.CP870::ToChars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___ToChars_76;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___ToChars_30;
 };
 
 // I18N.Rare.CP875
@@ -515,7 +515,7 @@ struct CP875_tDA020E3A30617B8955573D1BB75D6C7B5DA79E48  : public ByteEncoding_tE
 struct CP875_tDA020E3A30617B8955573D1BB75D6C7B5DA79E48_StaticFields
 {
 	// System.Char[] I18N.Rare.CP875::ToChars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___ToChars_76;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___ToChars_30;
 };
 
 // System.SystemException
@@ -642,7 +642,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CP875__ctor_m8A3FCE8CC19636F42168185292E
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(CP875_tDA020E3A30617B8955573D1BB75D6C7B5DA79E48_il2cpp_TypeInfo_var);
-		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_0 = ((CP875_tDA020E3A30617B8955573D1BB75D6C7B5DA79E48_StaticFields*)il2cpp_codegen_static_fields_for(CP875_tDA020E3A30617B8955573D1BB75D6C7B5DA79E48_il2cpp_TypeInfo_var))->___ToChars_76;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_0 = ((CP875_tDA020E3A30617B8955573D1BB75D6C7B5DA79E48_StaticFields*)il2cpp_codegen_static_fields_for(CP875_tDA020E3A30617B8955573D1BB75D6C7B5DA79E48_il2cpp_TypeInfo_var))->___ToChars_30;
 		ByteEncoding__ctor_m36FDF886966C6925B119925A3D4B9B6414162E49(__this, ((int32_t)875), L_0, _stringLiteral52AD5734EC6C5518324632DE5D799D918C9F4FB4, _stringLiteral203354C383795BF034157797B2B7C4321DBD5B7B, _stringLiteral203354C383795BF034157797B2B7C4321DBD5B7B, _stringLiteral203354C383795BF034157797B2B7C4321DBD5B7B, (bool)0, (bool)0, (bool)0, (bool)0, ((int32_t)1253), NULL);
 		return;
 	}
@@ -3353,8 +3353,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CP875__cctor_mB7A2ADAFCF8C0A6BFE4094076D
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_1 = L_0;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t93D5A3C57223403DF8D245FE4196A05407E89C1B____D0B1AB6E6D8C1CD43D3A4885F68DEC33A7DD3C33AD7E5F7B996C7D5494897445_29_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_mE10C3436BA703E4D9D41B3F8F365E4C34F9926EF((RuntimeArray*)L_1, L_2, NULL);
-		((CP875_tDA020E3A30617B8955573D1BB75D6C7B5DA79E48_StaticFields*)il2cpp_codegen_static_fields_for(CP875_tDA020E3A30617B8955573D1BB75D6C7B5DA79E48_il2cpp_TypeInfo_var))->___ToChars_76 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&((CP875_tDA020E3A30617B8955573D1BB75D6C7B5DA79E48_StaticFields*)il2cpp_codegen_static_fields_for(CP875_tDA020E3A30617B8955573D1BB75D6C7B5DA79E48_il2cpp_TypeInfo_var))->___ToChars_76), (void*)L_1);
+		((CP875_tDA020E3A30617B8955573D1BB75D6C7B5DA79E48_StaticFields*)il2cpp_codegen_static_fields_for(CP875_tDA020E3A30617B8955573D1BB75D6C7B5DA79E48_il2cpp_TypeInfo_var))->___ToChars_30 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&((CP875_tDA020E3A30617B8955573D1BB75D6C7B5DA79E48_StaticFields*)il2cpp_codegen_static_fields_for(CP875_tDA020E3A30617B8955573D1BB75D6C7B5DA79E48_il2cpp_TypeInfo_var))->___ToChars_30), (void*)L_1);
 		return;
 	}
 }
@@ -3403,7 +3403,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ENCibm875__ctor_mA3EBD07963AF32FE52E8AD2
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293* Encoding_get_EncoderFallback_m60479C11CA464A5D4AC2EEB87D52F824987DB3A3_inline (Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* __this, const RuntimeMethod* method) 
 {
 	{
-		EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293* L_0 = __this->___encoderFallback_59;
+		EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293* L_0 = __this->___encoderFallback_13;
 		return L_0;
 	}
 }

@@ -12,6 +12,7 @@
 
 
 
+extern const CustomAttributesCacheGenerator g_System_Xml_XmlDocument_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Xml_XmlDocument_CodeGenModule;
 const Il2CppCodeGenModule g_System_Xml_XmlDocument_CodeGenModule = 
 {
@@ -28,6 +29,7 @@ const Il2CppCodeGenModule g_System_Xml_XmlDocument_CodeGenModule =
 	0,
 	NULL,
 	NULL,
+	g_System_Xml_XmlDocument_AttributeGenerators,
 	NULL, // module initializer,
 	NULL,
 	NULL,

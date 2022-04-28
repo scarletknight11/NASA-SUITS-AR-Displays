@@ -13,23 +13,24 @@
 
 
 // 0x00000001 System.Void UnityEngine.AssetBundle::.ctor()
-extern void AssetBundle__ctor_m12989CA081324BB49ED893BDA5E3B4E758D61410 (void);
+extern void AssetBundle__ctor_mCE6DB7758AAD0EDDB044FC67C5BC7EC987BF3F71 (void);
 // 0x00000002 UnityEngine.AssetBundle UnityEngine.AssetBundle::LoadFromMemory_Internal(System.Byte[],System.UInt32)
-extern void AssetBundle_LoadFromMemory_Internal_mE79E56F667501B8204CC522392D538B7C0E28947 (void);
+extern void AssetBundle_LoadFromMemory_Internal_m8686921676AAF7F9A97F6AD306A49689AC7D5B42 (void);
 // 0x00000003 UnityEngine.AssetBundle UnityEngine.AssetBundle::LoadFromMemory(System.Byte[])
-extern void AssetBundle_LoadFromMemory_m1F7131801BA50A09B382DDD86F3B80194B7B1FFE (void);
+extern void AssetBundle_LoadFromMemory_mBD987A63D3D85A01C02CF2FE3987F7AB9C8C0BE5 (void);
 static Il2CppMethodPointer s_methodPointers[3] = 
 {
-	AssetBundle__ctor_m12989CA081324BB49ED893BDA5E3B4E758D61410,
-	AssetBundle_LoadFromMemory_Internal_mE79E56F667501B8204CC522392D538B7C0E28947,
-	AssetBundle_LoadFromMemory_m1F7131801BA50A09B382DDD86F3B80194B7B1FFE,
+	AssetBundle__ctor_mCE6DB7758AAD0EDDB044FC67C5BC7EC987BF3F71,
+	AssetBundle_LoadFromMemory_Internal_m8686921676AAF7F9A97F6AD306A49689AC7D5B42,
+	AssetBundle_LoadFromMemory_mBD987A63D3D85A01C02CF2FE3987F7AB9C8C0BE5,
 };
 static const int32_t s_InvokerIndices[3] = 
 {
-	10532,
-	14398,
-	15463,
+	8140,
+	11985,
+	12913,
 };
+extern const CustomAttributesCacheGenerator g_UnityEngine_AssetBundleModule_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_AssetBundleModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_AssetBundleModule_CodeGenModule = 
 {
@@ -46,6 +47,7 @@ const Il2CppCodeGenModule g_UnityEngine_AssetBundleModule_CodeGenModule =
 	0,
 	NULL,
 	NULL,
+	g_UnityEngine_AssetBundleModule_AttributeGenerators,
 	NULL, // module initializer,
 	NULL,
 	NULL,

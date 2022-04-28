@@ -13,378 +13,378 @@
 
 
 // 0x00000001 System.Void UnityEngine.Rendering.PostProcessing.DisplayNameAttribute::.ctor(System.String)
-extern void DisplayNameAttribute__ctor_mC6DDF0F7FED605C29AF53560DCFABEA3A552AF4D (void);
+extern void DisplayNameAttribute__ctor_mD404388FAB7BC64E48C2B4F77DCBD8807DB26A41 (void);
 // 0x00000002 System.Void UnityEngine.Rendering.PostProcessing.MaxAttribute::.ctor(System.Single)
-extern void MaxAttribute__ctor_m5A0055EF8FA670A4FA37C9E95BD4A843333FD4E3 (void);
+extern void MaxAttribute__ctor_mCDE82B3A782FEB1F352DCCA80B894828FF5C55C9 (void);
 // 0x00000003 System.Void UnityEngine.Rendering.PostProcessing.MinAttribute::.ctor(System.Single)
-extern void MinAttribute__ctor_mF7CC485FE4513A04FCB6896A87A8E4FF2F69EE18 (void);
+extern void MinAttribute__ctor_mD915F3DC59983B038F573369EA1A90B8E65A499F (void);
 // 0x00000004 System.Void UnityEngine.Rendering.PostProcessing.MinMaxAttribute::.ctor(System.Single,System.Single)
-extern void MinMaxAttribute__ctor_m2B86DBABF344BD1EC6BC481E04B41AE5BB29AC1D (void);
+extern void MinMaxAttribute__ctor_mF835CF4D1256E9A46A0AA64ACEA4C40B10ECD534 (void);
 // 0x00000005 System.Void UnityEngine.Rendering.PostProcessing.PostProcessAttribute::.ctor(System.Type,UnityEngine.Rendering.PostProcessing.PostProcessEvent,System.String,System.Boolean)
-extern void PostProcessAttribute__ctor_mDD52E90599E28E71A19B00DB4771CC5950ADDF32 (void);
+extern void PostProcessAttribute__ctor_mD808C615E88B37B9F277D9E07D28151D555113E9 (void);
 // 0x00000006 System.Void UnityEngine.Rendering.PostProcessing.PostProcessAttribute::.ctor(System.Type,System.String,System.Boolean)
-extern void PostProcessAttribute__ctor_mA3FDCA42F863DEDFC594BB5F5818DE320AD154B3 (void);
+extern void PostProcessAttribute__ctor_mE396C63F3D7E97664B61B48652A17B80E9F80567 (void);
 // 0x00000007 System.Void UnityEngine.Rendering.PostProcessing.TrackballAttribute::.ctor(UnityEngine.Rendering.PostProcessing.TrackballAttribute/Mode)
-extern void TrackballAttribute__ctor_m593E6847AC9390ADE5E2A358E69B29967527C2FD (void);
+extern void TrackballAttribute__ctor_mE412487172AF6AC6D86FEA377A46C31BD25CF043 (void);
 // 0x00000008 System.Void UnityEngine.Rendering.PostProcessing.AmbientOcclusionModeParameter::.ctor()
-extern void AmbientOcclusionModeParameter__ctor_mFCE7E1380B0CA42D39F6A66C937D656620E79923 (void);
+extern void AmbientOcclusionModeParameter__ctor_mD12843AA626132E7A3B57342253410DB950BF48E (void);
 // 0x00000009 System.Void UnityEngine.Rendering.PostProcessing.AmbientOcclusionQualityParameter::.ctor()
-extern void AmbientOcclusionQualityParameter__ctor_m14FB3DF7CE2DBF5F11EB1879DCC6887086870AAD (void);
+extern void AmbientOcclusionQualityParameter__ctor_mBD73589DA6EB61847CF80867F91345E5B16F8988 (void);
 // 0x0000000A System.Boolean UnityEngine.Rendering.PostProcessing.AmbientOcclusion::IsEnabledAndSupported(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void AmbientOcclusion_IsEnabledAndSupported_m720CFBDB15B6957D9BDD86026B4CEA80ACB7DA3B (void);
+extern void AmbientOcclusion_IsEnabledAndSupported_m8CFBED8FFA9D16C294C75EDE95E7FA1FBA51A7B6 (void);
 // 0x0000000B System.Void UnityEngine.Rendering.PostProcessing.AmbientOcclusion::.ctor()
-extern void AmbientOcclusion__ctor_m56351F92F528AE1C1572715DFC5317DF012CD11E (void);
+extern void AmbientOcclusion__ctor_m059B352AF269AA5A967C0CFBA209A1A781453A1A (void);
 // 0x0000000C UnityEngine.DepthTextureMode UnityEngine.Rendering.PostProcessing.IAmbientOcclusionMethod::GetCameraFlags()
 // 0x0000000D System.Void UnityEngine.Rendering.PostProcessing.IAmbientOcclusionMethod::RenderAfterOpaque(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
 // 0x0000000E System.Void UnityEngine.Rendering.PostProcessing.IAmbientOcclusionMethod::RenderAmbientOnly(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
 // 0x0000000F System.Void UnityEngine.Rendering.PostProcessing.IAmbientOcclusionMethod::CompositeAmbientOnly(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
 // 0x00000010 System.Void UnityEngine.Rendering.PostProcessing.IAmbientOcclusionMethod::Release()
 // 0x00000011 System.Void UnityEngine.Rendering.PostProcessing.AmbientOcclusionRenderer::Init()
-extern void AmbientOcclusionRenderer_Init_mA3B0F8AE73F6AA694F983B4A5DC87CB7FD6B5CBA (void);
+extern void AmbientOcclusionRenderer_Init_m904B4F12CC64001E4CF9D6BA235F442AD0426D8F (void);
 // 0x00000012 System.Boolean UnityEngine.Rendering.PostProcessing.AmbientOcclusionRenderer::IsAmbientOnly(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void AmbientOcclusionRenderer_IsAmbientOnly_m5A77F8622151A4EA9FE590655B6E7E085A1D7B06 (void);
+extern void AmbientOcclusionRenderer_IsAmbientOnly_m3DE931B77C9135A2BB341ED8B324D958F0EF6350 (void);
 // 0x00000013 UnityEngine.Rendering.PostProcessing.IAmbientOcclusionMethod UnityEngine.Rendering.PostProcessing.AmbientOcclusionRenderer::Get()
-extern void AmbientOcclusionRenderer_Get_m67BA05B631A6740564AF7B0CAAE58F2CD2EC305E (void);
+extern void AmbientOcclusionRenderer_Get_m14806DAC5ECFFABAAA55B40E93A74E880FB74F11 (void);
 // 0x00000014 UnityEngine.DepthTextureMode UnityEngine.Rendering.PostProcessing.AmbientOcclusionRenderer::GetCameraFlags()
-extern void AmbientOcclusionRenderer_GetCameraFlags_m29C1369C24DAD23DCA98CE634F2156DF19FF3592 (void);
+extern void AmbientOcclusionRenderer_GetCameraFlags_m04FA3DB24D435EFAAB523ED8A356123B37A8CE8D (void);
 // 0x00000015 System.Void UnityEngine.Rendering.PostProcessing.AmbientOcclusionRenderer::Release()
-extern void AmbientOcclusionRenderer_Release_mCC9A8A8DAE2CE44CFD3DD09CCA98A38F3B80083A (void);
+extern void AmbientOcclusionRenderer_Release_mFC5EF6603166B4BD64FE224CC374122AC22CB832 (void);
 // 0x00000016 UnityEngine.Rendering.PostProcessing.ScalableAO UnityEngine.Rendering.PostProcessing.AmbientOcclusionRenderer::GetScalableAO()
-extern void AmbientOcclusionRenderer_GetScalableAO_m45EDEED638FC6EC0E7A28ADBA545B5C14D2C9E8C (void);
+extern void AmbientOcclusionRenderer_GetScalableAO_mC4E9BEE576ED937F360A58BFC0F880B558B48C3F (void);
 // 0x00000017 UnityEngine.Rendering.PostProcessing.MultiScaleVO UnityEngine.Rendering.PostProcessing.AmbientOcclusionRenderer::GetMultiScaleVO()
-extern void AmbientOcclusionRenderer_GetMultiScaleVO_m77469D960AE101C9A8A74055CF75096CD62BCF6D (void);
+extern void AmbientOcclusionRenderer_GetMultiScaleVO_m29A85F745C44C5157A17DC84F6A75F822AD7DA8D (void);
 // 0x00000018 System.Void UnityEngine.Rendering.PostProcessing.AmbientOcclusionRenderer::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void AmbientOcclusionRenderer_Render_m780A5831389C81820FCA3ACF7D80CB60878FF57E (void);
+extern void AmbientOcclusionRenderer_Render_m7D0FBFEE5F77B9C84230F949DF6460E92A860EE7 (void);
 // 0x00000019 System.Void UnityEngine.Rendering.PostProcessing.AmbientOcclusionRenderer::.ctor()
-extern void AmbientOcclusionRenderer__ctor_m3350E39318843D75A15F84BE2EF5523D0AEAD28F (void);
+extern void AmbientOcclusionRenderer__ctor_m2162BD961343C6B73BE591E756292B8558957329 (void);
 // 0x0000001A System.Void UnityEngine.Rendering.PostProcessing.EyeAdaptationParameter::.ctor()
-extern void EyeAdaptationParameter__ctor_m7C78083B39B535D78273E813C702706DE51FFF31 (void);
+extern void EyeAdaptationParameter__ctor_mC55A80178DC7BDBAD63627A75CC77F649D5D083C (void);
 // 0x0000001B System.Boolean UnityEngine.Rendering.PostProcessing.AutoExposure::IsEnabledAndSupported(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void AutoExposure_IsEnabledAndSupported_m5AE7A64565EFC721D5D85707F0F585BD18F98C01 (void);
+extern void AutoExposure_IsEnabledAndSupported_m7C4EF92A8E6F28E855C2E6A89B97981AB5E126A5 (void);
 // 0x0000001C System.Void UnityEngine.Rendering.PostProcessing.AutoExposure::.ctor()
-extern void AutoExposure__ctor_m518431E3FB963370308682EA68492306689158FD (void);
+extern void AutoExposure__ctor_m2B5C85D12AED4298AD39D228B4DE744EA3319566 (void);
 // 0x0000001D System.Void UnityEngine.Rendering.PostProcessing.AutoExposureRenderer::.ctor()
-extern void AutoExposureRenderer__ctor_m15269270A88D00BE8CCB970F9BF81E65AED4D43D (void);
+extern void AutoExposureRenderer__ctor_mF3E5927422B8791A2392CE22615CAADDB2298F0C (void);
 // 0x0000001E System.Void UnityEngine.Rendering.PostProcessing.AutoExposureRenderer::CheckTexture(System.Int32,System.Int32)
-extern void AutoExposureRenderer_CheckTexture_m93C720C54FF70AFD18F3B8160E2324548A593558 (void);
+extern void AutoExposureRenderer_CheckTexture_m93DEE20DA2631E4C742C21C943B771C0E4C21C2D (void);
 // 0x0000001F System.Void UnityEngine.Rendering.PostProcessing.AutoExposureRenderer::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void AutoExposureRenderer_Render_m16316D56F1316E8690CB7B485E4C0D2BC3351270 (void);
+extern void AutoExposureRenderer_Render_m7A6627AA9DEAA26DED1D9D5C83B104CCB483913B (void);
 // 0x00000020 System.Void UnityEngine.Rendering.PostProcessing.AutoExposureRenderer::Release()
-extern void AutoExposureRenderer_Release_m199435220AB5F13A9A37E47F92A6484E4FA2483E (void);
+extern void AutoExposureRenderer_Release_mDA69AA9B0F94DE8DF4BC18710960453A31F65AE5 (void);
 // 0x00000021 System.Boolean UnityEngine.Rendering.PostProcessing.Bloom::IsEnabledAndSupported(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void Bloom_IsEnabledAndSupported_m9FB08EC848606657761325B79B76E38FC86D2A65 (void);
+extern void Bloom_IsEnabledAndSupported_mDA7929916AD67D58BE29B39CB64141919F3FC759 (void);
 // 0x00000022 System.Void UnityEngine.Rendering.PostProcessing.Bloom::.ctor()
-extern void Bloom__ctor_m392EA2E063E2471A4B4AC223EB07244D048E8E62 (void);
+extern void Bloom__ctor_mC9943048F55E8947D4AD598BD6159B1B96937966 (void);
 // 0x00000023 System.Void UnityEngine.Rendering.PostProcessing.BloomRenderer::Init()
-extern void BloomRenderer_Init_mE2A298B0A535B1EA48D0412D28B29585B120662B (void);
+extern void BloomRenderer_Init_m9823EE87442FFF3A87D09FEB6800516F291D7F83 (void);
 // 0x00000024 System.Void UnityEngine.Rendering.PostProcessing.BloomRenderer::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void BloomRenderer_Render_m1BF0EADC0232A3AB4A69633601499C3C73C962A4 (void);
+extern void BloomRenderer_Render_m701365AC7F2C5CF721578195F4899855DCDC28D4 (void);
 // 0x00000025 System.Void UnityEngine.Rendering.PostProcessing.BloomRenderer::.ctor()
-extern void BloomRenderer__ctor_m1E750605CCFDEB524EB48B46EAA3FCC67A3E7B5F (void);
+extern void BloomRenderer__ctor_m4BF7CDF7EE1F342D5915FD75F467E78A67C0BC95 (void);
 // 0x00000026 System.Boolean UnityEngine.Rendering.PostProcessing.ChromaticAberration::IsEnabledAndSupported(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void ChromaticAberration_IsEnabledAndSupported_mD13C38E0BAF647433F02E58083B835311C5C10F1 (void);
+extern void ChromaticAberration_IsEnabledAndSupported_mE0117EE3C5D40B1FD46B034030C6E7969A488F93 (void);
 // 0x00000027 System.Void UnityEngine.Rendering.PostProcessing.ChromaticAberration::.ctor()
-extern void ChromaticAberration__ctor_mC334EB12BDE44B8B59E4322021FF201B6E94B10A (void);
+extern void ChromaticAberration__ctor_m04E8F32E8A4A5EAF5744540BE83ACF8434DEBF56 (void);
 // 0x00000028 System.Void UnityEngine.Rendering.PostProcessing.ChromaticAberrationRenderer::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void ChromaticAberrationRenderer_Render_m53D46F69F3A469D00104C7D8FC26BC8E9F315EEA (void);
+extern void ChromaticAberrationRenderer_Render_mFC1C651AE897511A625F2497DA365524B44C7753 (void);
 // 0x00000029 System.Void UnityEngine.Rendering.PostProcessing.ChromaticAberrationRenderer::Release()
-extern void ChromaticAberrationRenderer_Release_m073107CECA2CEAE14A260ECAE2D179E738272578 (void);
+extern void ChromaticAberrationRenderer_Release_m5B371B5DA30D3FB0CAE22210FA002F858D74BE24 (void);
 // 0x0000002A System.Void UnityEngine.Rendering.PostProcessing.ChromaticAberrationRenderer::.ctor()
-extern void ChromaticAberrationRenderer__ctor_m58AE6FAB34E606E0B63222E076606FAC3858C031 (void);
+extern void ChromaticAberrationRenderer__ctor_m10CB311AA263F82B9604232288FC40CA9D29D788 (void);
 // 0x0000002B System.Void UnityEngine.Rendering.PostProcessing.GradingModeParameter::.ctor()
-extern void GradingModeParameter__ctor_mF96EA897EA9CEF4FBC07C714CDB95CFE02F93B9F (void);
+extern void GradingModeParameter__ctor_m4EB094CF7B7C8575C2576E29922AFC7E64679B86 (void);
 // 0x0000002C System.Void UnityEngine.Rendering.PostProcessing.TonemapperParameter::.ctor()
-extern void TonemapperParameter__ctor_m00E44E11E8C010507848A1767300E1053679A5F0 (void);
+extern void TonemapperParameter__ctor_m757E9DE14ED2A9817B7D88D20C3BE84AE75BF11C (void);
 // 0x0000002D System.Boolean UnityEngine.Rendering.PostProcessing.ColorGrading::IsEnabledAndSupported(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void ColorGrading_IsEnabledAndSupported_mA0B5513241A97D08D46AE8840751FED4BA533101 (void);
+extern void ColorGrading_IsEnabledAndSupported_m96E40B0270AC0206FA335007CC4BD7B0A1D6655E (void);
 // 0x0000002E System.Void UnityEngine.Rendering.PostProcessing.ColorGrading::.ctor()
-extern void ColorGrading__ctor_m33D6A092A5F620B80BB9822003AD59DB98CDC31F (void);
+extern void ColorGrading__ctor_mFBB106220A7328C1BD5964624E86896635A141A8 (void);
 // 0x0000002F System.Void UnityEngine.Rendering.PostProcessing.ColorGradingRenderer::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void ColorGradingRenderer_Render_m3A5815D59F04D8BF0FBFFCE7E86DCDD666E19592 (void);
+extern void ColorGradingRenderer_Render_m9132CDF00AE0F266842B55C7AE5FDA536F4CE6B0 (void);
 // 0x00000030 System.Void UnityEngine.Rendering.PostProcessing.ColorGradingRenderer::RenderExternalPipeline3D(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void ColorGradingRenderer_RenderExternalPipeline3D_m4BA3989C71C16FBA2FD6B820D2363FC9620D1BF7 (void);
+extern void ColorGradingRenderer_RenderExternalPipeline3D_m02AA7E6CFFA6C41422AC323E1ACF8552C24006B7 (void);
 // 0x00000031 System.Void UnityEngine.Rendering.PostProcessing.ColorGradingRenderer::RenderHDRPipeline3D(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void ColorGradingRenderer_RenderHDRPipeline3D_mB3D126713A64C33C75EF4DAB05CB53FEA2EE5D43 (void);
+extern void ColorGradingRenderer_RenderHDRPipeline3D_mBA6A4A07299D3926D89B0C3E1DB9954733FE0813 (void);
 // 0x00000032 System.Void UnityEngine.Rendering.PostProcessing.ColorGradingRenderer::RenderHDRPipeline2D(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void ColorGradingRenderer_RenderHDRPipeline2D_m1A21E68693FBB0759745896776D49EA280870D75 (void);
+extern void ColorGradingRenderer_RenderHDRPipeline2D_mD2908E098AC8E19EEE3E82EA4071B5BFBA928BCE (void);
 // 0x00000033 System.Void UnityEngine.Rendering.PostProcessing.ColorGradingRenderer::RenderLDRPipeline2D(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void ColorGradingRenderer_RenderLDRPipeline2D_m616DBEC56443AF51A5FF9DF1626C915DA6BC6597 (void);
+extern void ColorGradingRenderer_RenderLDRPipeline2D_mC7EB9283FD55ECD0A2448FE8E5A6D26A83BF9D0A (void);
 // 0x00000034 System.Void UnityEngine.Rendering.PostProcessing.ColorGradingRenderer::CheckInternalLogLut()
-extern void ColorGradingRenderer_CheckInternalLogLut_m4E3605B5F95F0FDDD1030F4C8A5897149BAA3475 (void);
+extern void ColorGradingRenderer_CheckInternalLogLut_m9B08E583178EC931D0BADD54FB087780465B4712 (void);
 // 0x00000035 System.Void UnityEngine.Rendering.PostProcessing.ColorGradingRenderer::CheckInternalStripLut()
-extern void ColorGradingRenderer_CheckInternalStripLut_mBDFEBFA559753E181002AE5AD1C660CE3CE69B59 (void);
+extern void ColorGradingRenderer_CheckInternalStripLut_m0804D99EC165F1837BDED2A44274EF22A268F868 (void);
 // 0x00000036 UnityEngine.Texture2D UnityEngine.Rendering.PostProcessing.ColorGradingRenderer::GetCurveTexture(System.Boolean)
-extern void ColorGradingRenderer_GetCurveTexture_m23FDC74489540547C8708E78C5B291EA368FB008 (void);
+extern void ColorGradingRenderer_GetCurveTexture_m7C2EDC8751B0DD78FEBDE0E43771E017BC6512C1 (void);
 // 0x00000037 System.Boolean UnityEngine.Rendering.PostProcessing.ColorGradingRenderer::IsRenderTextureFormatSupportedForLinearFiltering(UnityEngine.RenderTextureFormat)
-extern void ColorGradingRenderer_IsRenderTextureFormatSupportedForLinearFiltering_m02926363725E54488952ABFF10F55E50F4D9E624 (void);
+extern void ColorGradingRenderer_IsRenderTextureFormatSupportedForLinearFiltering_mBC5380027FC41AA7A001E921386EC5E892E78788 (void);
 // 0x00000038 UnityEngine.RenderTextureFormat UnityEngine.Rendering.PostProcessing.ColorGradingRenderer::GetLutFormat()
-extern void ColorGradingRenderer_GetLutFormat_m69AEC69765A47055E562D7A1518E00B0F6633CC5 (void);
+extern void ColorGradingRenderer_GetLutFormat_m834A0F08AA3A650CF45C2F18755BB50EF4D29F72 (void);
 // 0x00000039 UnityEngine.TextureFormat UnityEngine.Rendering.PostProcessing.ColorGradingRenderer::GetCurveFormat()
-extern void ColorGradingRenderer_GetCurveFormat_m8A1EC367E4192CF5D6904B3DB295C4B62C4CF13D (void);
+extern void ColorGradingRenderer_GetCurveFormat_m431B4F009CE2883626ECC8C99112B952686C435E (void);
 // 0x0000003A System.Void UnityEngine.Rendering.PostProcessing.ColorGradingRenderer::Release()
-extern void ColorGradingRenderer_Release_m46B7BEFF864C3FCB6616E05EC71E5A8DCB6EB1D8 (void);
+extern void ColorGradingRenderer_Release_m743869A2FAEE47F6C38EA5E24A2E3400FD72503D (void);
 // 0x0000003B System.Void UnityEngine.Rendering.PostProcessing.ColorGradingRenderer::.ctor()
-extern void ColorGradingRenderer__ctor_m609EFB8891282C1971EF851DC04C12B20CB2A6BE (void);
+extern void ColorGradingRenderer__ctor_mB1D488E8B02FC89D31BD0A18AEB76CE1C23E2937 (void);
 // 0x0000003C System.Void UnityEngine.Rendering.PostProcessing.KernelSizeParameter::.ctor()
-extern void KernelSizeParameter__ctor_mC9FA15B0A3D6D56495B3DB38EC1E685C9CDAEB00 (void);
+extern void KernelSizeParameter__ctor_m02E8E2494699BD065A857AC3CF3271E28E047AC7 (void);
 // 0x0000003D System.Boolean UnityEngine.Rendering.PostProcessing.DepthOfField::IsEnabledAndSupported(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void DepthOfField_IsEnabledAndSupported_m5B41DD100C9314561E15314BF33D7B5937AD53F6 (void);
+extern void DepthOfField_IsEnabledAndSupported_m332DDA477F5677E8EB94E36C945BB72A9C1E3472 (void);
 // 0x0000003E System.Void UnityEngine.Rendering.PostProcessing.DepthOfField::.ctor()
-extern void DepthOfField__ctor_m5E5C8EDEDCD6643E99AEF4D37073AD7128D765A5 (void);
+extern void DepthOfField__ctor_m1D9FD9685E0AE6F9F637CD5B617C16966855F99D (void);
 // 0x0000003F System.Void UnityEngine.Rendering.PostProcessing.DepthOfFieldRenderer::.ctor()
-extern void DepthOfFieldRenderer__ctor_mDD6E938F8A2D32A3F586D5DF97749638EF57EE4F (void);
+extern void DepthOfFieldRenderer__ctor_m6D1CFBDDED446333F9FD35D0428D0D59D8442876 (void);
 // 0x00000040 UnityEngine.DepthTextureMode UnityEngine.Rendering.PostProcessing.DepthOfFieldRenderer::GetCameraFlags()
-extern void DepthOfFieldRenderer_GetCameraFlags_mA24EAFABABBC714F206293BF191323730A15ED1C (void);
+extern void DepthOfFieldRenderer_GetCameraFlags_m85265C2F017E9E11337D968D5E19F7F2FC05F3BF (void);
 // 0x00000041 UnityEngine.RenderTextureFormat UnityEngine.Rendering.PostProcessing.DepthOfFieldRenderer::SelectFormat(UnityEngine.RenderTextureFormat,UnityEngine.RenderTextureFormat)
-extern void DepthOfFieldRenderer_SelectFormat_mA727185D2B1E89DC0962E26672D7509147BD462B (void);
+extern void DepthOfFieldRenderer_SelectFormat_m5DCA0B8EBCEEB912ACFAD63C24C295D84DCDC319 (void);
 // 0x00000042 System.Single UnityEngine.Rendering.PostProcessing.DepthOfFieldRenderer::CalculateMaxCoCRadius(System.Int32)
-extern void DepthOfFieldRenderer_CalculateMaxCoCRadius_m3813326711DC8EDD78C1FB179682F3AD40319593 (void);
+extern void DepthOfFieldRenderer_CalculateMaxCoCRadius_m8AF587EC38985A579212875BCFB1EB25E6B62588 (void);
 // 0x00000043 UnityEngine.RenderTexture UnityEngine.Rendering.PostProcessing.DepthOfFieldRenderer::CheckHistory(System.Int32,System.Int32,UnityEngine.Rendering.PostProcessing.PostProcessRenderContext,UnityEngine.RenderTextureFormat)
-extern void DepthOfFieldRenderer_CheckHistory_m911AC1AF4CF4A874FD38C941F5C58C47C7FE561B (void);
+extern void DepthOfFieldRenderer_CheckHistory_m4F40D3F9F6747505574662EE883D77C91B5F6F5D (void);
 // 0x00000044 System.Void UnityEngine.Rendering.PostProcessing.DepthOfFieldRenderer::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void DepthOfFieldRenderer_Render_m32989A445B3004E689397E072AC31DA1F456216A (void);
+extern void DepthOfFieldRenderer_Render_mD0E0D9A22DC30408BA0137CBC769F3CA6A657D95 (void);
 // 0x00000045 System.Void UnityEngine.Rendering.PostProcessing.DepthOfFieldRenderer::Release()
-extern void DepthOfFieldRenderer_Release_m71B33FB0AEB8ED07A52ED8AA9FA28C0198B4AC27 (void);
+extern void DepthOfFieldRenderer_Release_m81001CF218952ABE27CDA20D10D8906B99690A05 (void);
 // 0x00000046 System.Void UnityEngine.Rendering.PostProcessing.Dithering::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void Dithering_Render_mE6124E38F680E37934C3BBD1E8F73D926D28B661 (void);
+extern void Dithering_Render_m2A63356904D7001E64C2D37C30DDACA4D0E6B4CB (void);
 // 0x00000047 System.Void UnityEngine.Rendering.PostProcessing.Dithering::.ctor()
-extern void Dithering__ctor_m143E4229BCAC785FA75CC5EBDAF7BDB6EFD388EB (void);
+extern void Dithering__ctor_m5D4174B7BA915DF68D42E7AAD2790CF77389F367 (void);
 // 0x00000048 System.Void UnityEngine.Rendering.PostProcessing.FastApproximateAntialiasing::.ctor()
-extern void FastApproximateAntialiasing__ctor_m4C443FEB81618E3B5EA4D2EEA75BB67F4910EEA1 (void);
+extern void FastApproximateAntialiasing__ctor_m03A7571D2FE565764D1C3870ECDC0DB98A705534 (void);
 // 0x00000049 UnityEngine.DepthTextureMode UnityEngine.Rendering.PostProcessing.Fog::GetCameraFlags()
-extern void Fog_GetCameraFlags_m1FE74A3121D526C50A78863CC9ACBC38F0694CC4 (void);
+extern void Fog_GetCameraFlags_m0CD11892B23BCF37816DDD2ABCA800E0B59840AB (void);
 // 0x0000004A System.Boolean UnityEngine.Rendering.PostProcessing.Fog::IsEnabledAndSupported(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void Fog_IsEnabledAndSupported_m032F2A56D8DE3B1FDACAE8174B20C7CEE8325F0E (void);
+extern void Fog_IsEnabledAndSupported_m3765593250DA2989C6CB47B0FEDC0F8F42E8238D (void);
 // 0x0000004B System.Void UnityEngine.Rendering.PostProcessing.Fog::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void Fog_Render_m435B9A6B92833EBD9E237F46F4F066F4F03A732E (void);
+extern void Fog_Render_mFCFDB2221D238D2AF0685BF06D7151624DA89DEF (void);
 // 0x0000004C System.Void UnityEngine.Rendering.PostProcessing.Fog::.ctor()
-extern void Fog__ctor_mA98F3BA37BFA53225EE74C53ACF4DEF218211F28 (void);
+extern void Fog__ctor_m4FDE689E60A0CA0024330751A65762581F3044D4 (void);
 // 0x0000004D System.Boolean UnityEngine.Rendering.PostProcessing.Grain::IsEnabledAndSupported(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void Grain_IsEnabledAndSupported_mBC536DDC0E38B9D7B18EB436196900F2B6403592 (void);
+extern void Grain_IsEnabledAndSupported_m714CE4BF54BF2F8431338A0AEB238D93B852CF58 (void);
 // 0x0000004E System.Void UnityEngine.Rendering.PostProcessing.Grain::.ctor()
-extern void Grain__ctor_m10C6547CD0B0CFD9BC6D639C1E920434816235DF (void);
+extern void Grain__ctor_mE32A176A0D4E2BAB094EE4B678E9744106082C90 (void);
 // 0x0000004F System.Void UnityEngine.Rendering.PostProcessing.GrainRenderer::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void GrainRenderer_Render_m0646753B2E6222A1C00F3AEE8A7E567878919B57 (void);
+extern void GrainRenderer_Render_mA348D64F74D77E69F5967CFA8CDE2B529D47E8CD (void);
 // 0x00000050 UnityEngine.RenderTextureFormat UnityEngine.Rendering.PostProcessing.GrainRenderer::GetLookupFormat()
-extern void GrainRenderer_GetLookupFormat_mD362BF97912F5B3D7CF6ED8C21906346A7989697 (void);
+extern void GrainRenderer_GetLookupFormat_mA9474D1E0D0DB0355C4390A77C05E2DA70472456 (void);
 // 0x00000051 System.Void UnityEngine.Rendering.PostProcessing.GrainRenderer::Release()
-extern void GrainRenderer_Release_mAC267606A532714D11C5BE1A2B0D284893A5BDD9 (void);
+extern void GrainRenderer_Release_m30F3E2C531A239D4C12CD6E35DDF26FD359E0839 (void);
 // 0x00000052 System.Void UnityEngine.Rendering.PostProcessing.GrainRenderer::.ctor()
-extern void GrainRenderer__ctor_m2265B02AC4735EB4875F8D32A6EBE73BC80403A1 (void);
+extern void GrainRenderer__ctor_m6312758BC043BD8778A45375DEEE09397FD8A3B5 (void);
 // 0x00000053 System.Boolean UnityEngine.Rendering.PostProcessing.LensDistortion::IsEnabledAndSupported(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void LensDistortion_IsEnabledAndSupported_mA7204A7B6840B7B2F9A650A03AAC28CE5DC98587 (void);
+extern void LensDistortion_IsEnabledAndSupported_m994A02345564E130B93CCB5A5E97AEDECFE11385 (void);
 // 0x00000054 System.Void UnityEngine.Rendering.PostProcessing.LensDistortion::.ctor()
-extern void LensDistortion__ctor_m257562372044829F89320AA2D2CFF46FFB8E4255 (void);
+extern void LensDistortion__ctor_m7D56919266FD2CCFE5F584C319A8A72D1DF0F6FD (void);
 // 0x00000055 System.Void UnityEngine.Rendering.PostProcessing.LensDistortionRenderer::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void LensDistortionRenderer_Render_m4D3343279E5BF87021BAF56EC0388DC1395DF52A (void);
+extern void LensDistortionRenderer_Render_mB75B7A2511AFE2526BBF90ADCF329169FD2A743B (void);
 // 0x00000056 System.Void UnityEngine.Rendering.PostProcessing.LensDistortionRenderer::.ctor()
-extern void LensDistortionRenderer__ctor_mA5092D594C99AF56A5DBBE5C2D4377B73006D05E (void);
+extern void LensDistortionRenderer__ctor_m5C70B231E68D05341F7F70FF3DC84E0B9835681C (void);
 // 0x00000057 System.Boolean UnityEngine.Rendering.PostProcessing.MotionBlur::IsEnabledAndSupported(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void MotionBlur_IsEnabledAndSupported_m5028AFA3FA6894818C3DE261DD71B3785B6D4FA3 (void);
+extern void MotionBlur_IsEnabledAndSupported_m2637A8FDA6EE8F6762B26CB9439C2983D0F08545 (void);
 // 0x00000058 System.Void UnityEngine.Rendering.PostProcessing.MotionBlur::.ctor()
-extern void MotionBlur__ctor_mC86A4CC11E1CF95CC533BC29A46BA28914B2224B (void);
+extern void MotionBlur__ctor_mABC4806405C8C23F6827A8719AAF4BCE505C2199 (void);
 // 0x00000059 UnityEngine.DepthTextureMode UnityEngine.Rendering.PostProcessing.MotionBlurRenderer::GetCameraFlags()
-extern void MotionBlurRenderer_GetCameraFlags_m4DB815C78AD85619B40F4797D896149E52D450CE (void);
+extern void MotionBlurRenderer_GetCameraFlags_m8FBE177C22E2A6481ACB8B07639C32722A4D3CB9 (void);
 // 0x0000005A System.Void UnityEngine.Rendering.PostProcessing.MotionBlurRenderer::CreateTemporaryRT(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext,System.Int32,System.Int32,System.Int32,UnityEngine.RenderTextureFormat)
-extern void MotionBlurRenderer_CreateTemporaryRT_mD976DBC2C27CEEA14915FF82A210B39CBC5E086D (void);
+extern void MotionBlurRenderer_CreateTemporaryRT_mD35099F366DC910373843C70F6EED1F5DA4B6D3E (void);
 // 0x0000005B System.Void UnityEngine.Rendering.PostProcessing.MotionBlurRenderer::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void MotionBlurRenderer_Render_m2BFC40DD564E324ACDEDB6B4E13E92057F96DA25 (void);
+extern void MotionBlurRenderer_Render_m7D063770AD5D49DAA1CF9EA900F314627A1BB9CE (void);
 // 0x0000005C System.Void UnityEngine.Rendering.PostProcessing.MotionBlurRenderer::.ctor()
-extern void MotionBlurRenderer__ctor_m3AF94ED2942706ADA6EC007A084462BE9047D774 (void);
+extern void MotionBlurRenderer__ctor_m94A7AABF7B45B4040B4C477565B2430D9E7E033F (void);
 // 0x0000005D System.Void UnityEngine.Rendering.PostProcessing.MultiScaleVO::.ctor(UnityEngine.Rendering.PostProcessing.AmbientOcclusion)
-extern void MultiScaleVO__ctor_m9BFC7ADD2493601C3DB9371EB189D4635612F1DF (void);
+extern void MultiScaleVO__ctor_m56A06D216B589373ACE0226330B14FC7409D99AC (void);
 // 0x0000005E UnityEngine.DepthTextureMode UnityEngine.Rendering.PostProcessing.MultiScaleVO::GetCameraFlags()
-extern void MultiScaleVO_GetCameraFlags_m8E4A64719125B3893304CA2A2EC1F3C85F7687EF (void);
+extern void MultiScaleVO_GetCameraFlags_mA3903D4962793D37F8FF7C9126699F6A25285F63 (void);
 // 0x0000005F System.Void UnityEngine.Rendering.PostProcessing.MultiScaleVO::SetResources(UnityEngine.Rendering.PostProcessing.PostProcessResources)
-extern void MultiScaleVO_SetResources_m84240174825540B7F4C74D968DC59AD2ECC591C1 (void);
+extern void MultiScaleVO_SetResources_mD27AE95B42095C196E5C9F859FC65125C2B17CB7 (void);
 // 0x00000060 System.Void UnityEngine.Rendering.PostProcessing.MultiScaleVO::Alloc(UnityEngine.Rendering.CommandBuffer,System.Int32,UnityEngine.Rendering.PostProcessing.MultiScaleVO/MipLevel,UnityEngine.RenderTextureFormat,System.Boolean,System.Boolean)
-extern void MultiScaleVO_Alloc_m6CBEE89199B35D51B3647752CBBBE5FF548BF5B4 (void);
+extern void MultiScaleVO_Alloc_mE6CA89F62AAC3E48252F2609AAA273155472825F (void);
 // 0x00000061 System.Void UnityEngine.Rendering.PostProcessing.MultiScaleVO::AllocArray(UnityEngine.Rendering.CommandBuffer,System.Int32,UnityEngine.Rendering.PostProcessing.MultiScaleVO/MipLevel,UnityEngine.RenderTextureFormat,System.Boolean,System.Boolean)
-extern void MultiScaleVO_AllocArray_m36BD4376B54B4A1E87ACA920D78C2E8E33ECCD72 (void);
+extern void MultiScaleVO_AllocArray_mC17B2B99497FE7AE4D14A7B321E2D3F4E3F11414 (void);
 // 0x00000062 System.Void UnityEngine.Rendering.PostProcessing.MultiScaleVO::Release(UnityEngine.Rendering.CommandBuffer,System.Int32)
-extern void MultiScaleVO_Release_m0E5ED7DC133AB8FD150B5FFE16BAA0E2DF2D4230 (void);
+extern void MultiScaleVO_Release_mA35971D3CA091E429E827DAAB81A40D0AB3B478A (void);
 // 0x00000063 UnityEngine.Vector4 UnityEngine.Rendering.PostProcessing.MultiScaleVO::CalculateZBufferParams(UnityEngine.Camera)
-extern void MultiScaleVO_CalculateZBufferParams_m22B0A0F3F81F8B763B4FC56576A24CEF93836E8F (void);
+extern void MultiScaleVO_CalculateZBufferParams_mEBF313AA1309A44441338D1A4954CA65BB1F41B0 (void);
 // 0x00000064 System.Single UnityEngine.Rendering.PostProcessing.MultiScaleVO::CalculateTanHalfFovHeight(UnityEngine.Camera)
-extern void MultiScaleVO_CalculateTanHalfFovHeight_mC39EF131E77E87D11C46F6F0407FFF242D775BE8 (void);
+extern void MultiScaleVO_CalculateTanHalfFovHeight_mFE5FFE28FE9DE669ED3FEC7CF576D250803028ED (void);
 // 0x00000065 UnityEngine.Vector2 UnityEngine.Rendering.PostProcessing.MultiScaleVO::GetSize(UnityEngine.Rendering.PostProcessing.MultiScaleVO/MipLevel)
-extern void MultiScaleVO_GetSize_mE37BB8127DB121C2D77ACD8C28FB07142364C992 (void);
+extern void MultiScaleVO_GetSize_mA0FA9BEFA50D233B1A43D84566C473C0CDAEEC42 (void);
 // 0x00000066 UnityEngine.Vector3 UnityEngine.Rendering.PostProcessing.MultiScaleVO::GetSizeArray(UnityEngine.Rendering.PostProcessing.MultiScaleVO/MipLevel)
-extern void MultiScaleVO_GetSizeArray_m69FBD800D97C26290A466A097E7E50A2CE9CDFFA (void);
+extern void MultiScaleVO_GetSizeArray_mAEE6EEB9207F52E0D5B240857EAA1E9E7CBB03F4 (void);
 // 0x00000067 System.Void UnityEngine.Rendering.PostProcessing.MultiScaleVO::GenerateAOMap(UnityEngine.Rendering.CommandBuffer,UnityEngine.Camera,UnityEngine.Rendering.RenderTargetIdentifier,System.Nullable`1<UnityEngine.Rendering.RenderTargetIdentifier>,System.Boolean,System.Boolean)
-extern void MultiScaleVO_GenerateAOMap_m5F19CF58D1022B3A75F65C0DBC8BF6F77CBA4BD1 (void);
+extern void MultiScaleVO_GenerateAOMap_m70485C868D89DEFF5B1F28DF0D799CA56DC4A673 (void);
 // 0x00000068 System.Void UnityEngine.Rendering.PostProcessing.MultiScaleVO::PushAllocCommands(UnityEngine.Rendering.CommandBuffer,System.Boolean,UnityEngine.Camera)
-extern void MultiScaleVO_PushAllocCommands_mBEB5A921C0C0E84B9E42F6FAD1B53492DAAEA31E (void);
+extern void MultiScaleVO_PushAllocCommands_m4855010CA72876876873A3F63E912277BE96EF07 (void);
 // 0x00000069 System.Void UnityEngine.Rendering.PostProcessing.MultiScaleVO::PushDownsampleCommands(UnityEngine.Rendering.CommandBuffer,UnityEngine.Camera,System.Nullable`1<UnityEngine.Rendering.RenderTargetIdentifier>,System.Boolean)
-extern void MultiScaleVO_PushDownsampleCommands_m2CDAC714FB28F0F9C7ABB7CC7A18E40C1402CEDB (void);
+extern void MultiScaleVO_PushDownsampleCommands_mE617A997C8C8BFA926C2D45E7D13E4EC816E960B (void);
 // 0x0000006A System.Void UnityEngine.Rendering.PostProcessing.MultiScaleVO::PushRenderCommands(UnityEngine.Rendering.CommandBuffer,System.Int32,System.Int32,UnityEngine.Vector3,System.Single,System.Boolean)
-extern void MultiScaleVO_PushRenderCommands_m08B92180E92671B64E66E4EE3000DBC68C3598AF (void);
+extern void MultiScaleVO_PushRenderCommands_mEDA72E38796BCEEF37245068F8DD72D5CEDFDCB4 (void);
 // 0x0000006B System.Void UnityEngine.Rendering.PostProcessing.MultiScaleVO::PushUpsampleCommands(UnityEngine.Rendering.CommandBuffer,System.Int32,System.Int32,System.Int32,System.Nullable`1<System.Int32>,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Vector3,UnityEngine.Vector2,System.Boolean,System.Boolean)
-extern void MultiScaleVO_PushUpsampleCommands_mE4D317E8951EC0CF04E6AECBA833A24332AD2BB0 (void);
+extern void MultiScaleVO_PushUpsampleCommands_mDA5153640C6B7A6213CD3029ADE5532E46346E07 (void);
 // 0x0000006C System.Void UnityEngine.Rendering.PostProcessing.MultiScaleVO::PushReleaseCommands(UnityEngine.Rendering.CommandBuffer)
-extern void MultiScaleVO_PushReleaseCommands_mBE63709DDB6352D2F7025AE89BDE97BE0909C1AC (void);
+extern void MultiScaleVO_PushReleaseCommands_m0F91F4240F3C4FD77F9E55C171CAC3F85479C423 (void);
 // 0x0000006D System.Void UnityEngine.Rendering.PostProcessing.MultiScaleVO::PreparePropertySheet(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void MultiScaleVO_PreparePropertySheet_m475E87B885128A12DA6B62324E654E9CF9B30C76 (void);
+extern void MultiScaleVO_PreparePropertySheet_mB2FB10841C2C656C45F57F38ECDF41A1C72EBB62 (void);
 // 0x0000006E System.Void UnityEngine.Rendering.PostProcessing.MultiScaleVO::CheckAOTexture(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void MultiScaleVO_CheckAOTexture_mE6F5AA4D7F06D3BAA1FABE1D8991C36104CD7B6C (void);
+extern void MultiScaleVO_CheckAOTexture_m3B3920F85B40D19CD50F81E22F7489661B4A121A (void);
 // 0x0000006F System.Void UnityEngine.Rendering.PostProcessing.MultiScaleVO::PushDebug(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void MultiScaleVO_PushDebug_mCF96B0B7C0E4CF071BD1658991DCC6570BCDB137 (void);
+extern void MultiScaleVO_PushDebug_m7C9BF6BA31BCADF7C7FEEC163DA000A36B7A00E1 (void);
 // 0x00000070 System.Void UnityEngine.Rendering.PostProcessing.MultiScaleVO::RenderAfterOpaque(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void MultiScaleVO_RenderAfterOpaque_m5DBCFF788852A66C0887BEF1C47531C556C58A96 (void);
+extern void MultiScaleVO_RenderAfterOpaque_m4AE0C2B5BCCE63F05BACD4683435583C6254A9CA (void);
 // 0x00000071 System.Void UnityEngine.Rendering.PostProcessing.MultiScaleVO::RenderAmbientOnly(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void MultiScaleVO_RenderAmbientOnly_m4BED5F04E1CAE684E5DA32CB487A8BF192FCB106 (void);
+extern void MultiScaleVO_RenderAmbientOnly_m72F7944DDD75FD33CC8DF0D011B4E9D9A7858720 (void);
 // 0x00000072 System.Void UnityEngine.Rendering.PostProcessing.MultiScaleVO::CompositeAmbientOnly(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void MultiScaleVO_CompositeAmbientOnly_mEAC61D7DC1731ED82CF03EA69F18E95E375FA64A (void);
+extern void MultiScaleVO_CompositeAmbientOnly_mA977FA7C49993A246CEC7EE2D519C8E19968F837 (void);
 // 0x00000073 System.Void UnityEngine.Rendering.PostProcessing.MultiScaleVO::Release()
-extern void MultiScaleVO_Release_m9311D4CEA6B8EB25B19A66D012720DD084696D2C (void);
+extern void MultiScaleVO_Release_m1D8257CD9AA16F5EC83EB9D322EC482520A3FA91 (void);
 // 0x00000074 System.Void UnityEngine.Rendering.PostProcessing.ScalableAO::.ctor(UnityEngine.Rendering.PostProcessing.AmbientOcclusion)
-extern void ScalableAO__ctor_m2E13FF1404D88C933436F64E64446A3E8C58EC25 (void);
+extern void ScalableAO__ctor_m4D7075A6C55CD96ED70F04A18D240A85407A393C (void);
 // 0x00000075 UnityEngine.DepthTextureMode UnityEngine.Rendering.PostProcessing.ScalableAO::GetCameraFlags()
-extern void ScalableAO_GetCameraFlags_mF3DC2F17B0C42898A785241EAB4762496A270FA3 (void);
+extern void ScalableAO_GetCameraFlags_mF4A326DDAFA85ED2FDC244292D2AA2928860CCF8 (void);
 // 0x00000076 System.Void UnityEngine.Rendering.PostProcessing.ScalableAO::DoLazyInitialization(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void ScalableAO_DoLazyInitialization_m9CDAE5877C189D77F1F5E7FDAF0D9A6A4EDB1825 (void);
+extern void ScalableAO_DoLazyInitialization_m903EE3834B6F2179FE500CFE56340A4404F6B13D (void);
 // 0x00000077 System.Void UnityEngine.Rendering.PostProcessing.ScalableAO::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext,UnityEngine.Rendering.CommandBuffer,System.Int32)
-extern void ScalableAO_Render_m28BC49E3F61595E532B03D0588B47E377C5C64DA (void);
+extern void ScalableAO_Render_mEE62842649ED551F6B4AA25CA4E98D538FC2D5C9 (void);
 // 0x00000078 System.Void UnityEngine.Rendering.PostProcessing.ScalableAO::RenderAfterOpaque(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void ScalableAO_RenderAfterOpaque_mA72DCBC2E4E26729754816757F95BB5A445F2EB8 (void);
+extern void ScalableAO_RenderAfterOpaque_mD46BECD843E406FBC4E3F57433CB4FB2308D1181 (void);
 // 0x00000079 System.Void UnityEngine.Rendering.PostProcessing.ScalableAO::RenderAmbientOnly(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void ScalableAO_RenderAmbientOnly_m1F800BE3EBE499449E0D10F9332D2225CBA17459 (void);
+extern void ScalableAO_RenderAmbientOnly_m58B43370F43A78988BA6EA2020F743CB1794EEDD (void);
 // 0x0000007A System.Void UnityEngine.Rendering.PostProcessing.ScalableAO::CompositeAmbientOnly(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void ScalableAO_CompositeAmbientOnly_m6BDA0561AF5B1D66CC0D7EB7730F0FD8BDE332E1 (void);
+extern void ScalableAO_CompositeAmbientOnly_m53C54C3CDD26B6FBE2580A19BBBBEA7E7BE38ED3 (void);
 // 0x0000007B System.Void UnityEngine.Rendering.PostProcessing.ScalableAO::Release()
-extern void ScalableAO_Release_m9A84BB9F350E9F1573DF794DD79CF6C89ACA522D (void);
+extern void ScalableAO_Release_m74ADCC0C2622285E04AA12242602EC0FFEF67457 (void);
 // 0x0000007C System.Void UnityEngine.Rendering.PostProcessing.ScreenSpaceReflectionPresetParameter::.ctor()
-extern void ScreenSpaceReflectionPresetParameter__ctor_m788759481354D194C96F8569A5FA0CF600DD9959 (void);
+extern void ScreenSpaceReflectionPresetParameter__ctor_m75F370544477729CE162E3132B83687D31F5C82B (void);
 // 0x0000007D System.Void UnityEngine.Rendering.PostProcessing.ScreenSpaceReflectionResolutionParameter::.ctor()
-extern void ScreenSpaceReflectionResolutionParameter__ctor_m13C6DA3B4C340969D44063CA3750D4563EF4ABC2 (void);
+extern void ScreenSpaceReflectionResolutionParameter__ctor_mC41F4B980A1EC522E5B353FFEB8C3944726A2F55 (void);
 // 0x0000007E System.Boolean UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections::IsEnabledAndSupported(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void ScreenSpaceReflections_IsEnabledAndSupported_mCDB8B7AE8CC67387ACF1615CB34140C958117C11 (void);
+extern void ScreenSpaceReflections_IsEnabledAndSupported_mF11E939BBB8A3CD56E19BE15030A03296F10AFA6 (void);
 // 0x0000007F System.Void UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections::.ctor()
-extern void ScreenSpaceReflections__ctor_m00CB810B6E82A82F1D61C5573C138DD088851D7A (void);
+extern void ScreenSpaceReflections__ctor_mD19F63DC79F4D7DAE2163CBD5C2686A7BC4D24F4 (void);
 // 0x00000080 UnityEngine.DepthTextureMode UnityEngine.Rendering.PostProcessing.ScreenSpaceReflectionsRenderer::GetCameraFlags()
-extern void ScreenSpaceReflectionsRenderer_GetCameraFlags_m23B86CC0CEA0E26EB5A2051FEC23130634FB0B9B (void);
+extern void ScreenSpaceReflectionsRenderer_GetCameraFlags_m239B90FE76547365FB620D6C43C57E376FFE5D0E (void);
 // 0x00000081 System.Void UnityEngine.Rendering.PostProcessing.ScreenSpaceReflectionsRenderer::CheckRT(UnityEngine.RenderTexture&,System.Int32,System.Int32,UnityEngine.FilterMode,System.Boolean)
-extern void ScreenSpaceReflectionsRenderer_CheckRT_mC9AB522FC1B490E25DAF07666863F6572954DA94 (void);
+extern void ScreenSpaceReflectionsRenderer_CheckRT_m537EF4F5CA1602454A73B3253D03EA213EED2050 (void);
 // 0x00000082 System.Void UnityEngine.Rendering.PostProcessing.ScreenSpaceReflectionsRenderer::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void ScreenSpaceReflectionsRenderer_Render_m852E13492673A7D34B735265B7B5D7BE4B533D1B (void);
+extern void ScreenSpaceReflectionsRenderer_Render_m862916BA674C077634BEB145C6E5490864C39FC6 (void);
 // 0x00000083 System.Void UnityEngine.Rendering.PostProcessing.ScreenSpaceReflectionsRenderer::Release()
-extern void ScreenSpaceReflectionsRenderer_Release_m2B7890B1A7F4B90CFE4D086B85755435840CE5FA (void);
+extern void ScreenSpaceReflectionsRenderer_Release_mA27BFF9A8D2E5352BDFC30DF689A33EF9A3CBA36 (void);
 // 0x00000084 System.Void UnityEngine.Rendering.PostProcessing.ScreenSpaceReflectionsRenderer::.ctor()
-extern void ScreenSpaceReflectionsRenderer__ctor_mE1144CEA7E4E5AE7FCE33024EC6C0754FCA49397 (void);
+extern void ScreenSpaceReflectionsRenderer__ctor_m36B3C290E39DD20778B8532D190C9C1E1D15A606 (void);
 // 0x00000085 System.Void UnityEngine.Rendering.PostProcessing.ScreenSpaceReflectionsRenderer/QualityPreset::.ctor()
-extern void QualityPreset__ctor_m7AC033D833C201BBECA54DF1886D30824A2955E8 (void);
+extern void QualityPreset__ctor_m53DF5C886DB82C2C535810DA644183104AA1FAFF (void);
 // 0x00000086 System.Boolean UnityEngine.Rendering.PostProcessing.SubpixelMorphologicalAntialiasing::IsSupported()
-extern void SubpixelMorphologicalAntialiasing_IsSupported_m1705607A7079C11A6FAAEB07746977F804A8ECFF (void);
+extern void SubpixelMorphologicalAntialiasing_IsSupported_m36BF5ED85CCE881F282294770640F2CF3919089B (void);
 // 0x00000087 System.Void UnityEngine.Rendering.PostProcessing.SubpixelMorphologicalAntialiasing::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void SubpixelMorphologicalAntialiasing_Render_m5C772116EF78929A662C6C1EE168A998AEE3F028 (void);
+extern void SubpixelMorphologicalAntialiasing_Render_m3FA7E7FDF3AB6EFC8128FFC01E64CB77322589B8 (void);
 // 0x00000088 System.Void UnityEngine.Rendering.PostProcessing.SubpixelMorphologicalAntialiasing::.ctor()
-extern void SubpixelMorphologicalAntialiasing__ctor_mFD4BB185541D16D22FD47ABE4427F81D531A50A5 (void);
+extern void SubpixelMorphologicalAntialiasing__ctor_m7B9AE5611F4A33D29FC40BA3375B14C5C63CDFBC (void);
 // 0x00000089 UnityEngine.Vector2 UnityEngine.Rendering.PostProcessing.TemporalAntialiasing::get_jitter()
-extern void TemporalAntialiasing_get_jitter_m95640074A28A81D1CFD87CFBE39B9EA8F514C3DC (void);
+extern void TemporalAntialiasing_get_jitter_mD89AFB2AFDEE63822CF1C632364408FDF76FB418 (void);
 // 0x0000008A System.Void UnityEngine.Rendering.PostProcessing.TemporalAntialiasing::set_jitter(UnityEngine.Vector2)
-extern void TemporalAntialiasing_set_jitter_m813C3D64082BE1924BB5B7A1D9A8B1FF9877AABB (void);
+extern void TemporalAntialiasing_set_jitter_m9450BBE1B75081EE0E5084A2A83B06DD89748C1B (void);
 // 0x0000008B System.Int32 UnityEngine.Rendering.PostProcessing.TemporalAntialiasing::get_sampleIndex()
-extern void TemporalAntialiasing_get_sampleIndex_m6F27F29D737C6529F14ED99D25E1A60BB1A77348 (void);
+extern void TemporalAntialiasing_get_sampleIndex_m91D33ECE0C6D0DC89B585FF7DEB824239655C94F (void);
 // 0x0000008C System.Void UnityEngine.Rendering.PostProcessing.TemporalAntialiasing::set_sampleIndex(System.Int32)
-extern void TemporalAntialiasing_set_sampleIndex_mF0B4CE95B0AAB362A3A6DDE6F77E274A9BBB8ADE (void);
+extern void TemporalAntialiasing_set_sampleIndex_m7DBCBC1B1A1423533E4CDFDB5224F49BE48405AE (void);
 // 0x0000008D System.Boolean UnityEngine.Rendering.PostProcessing.TemporalAntialiasing::IsSupported()
-extern void TemporalAntialiasing_IsSupported_mAE5BCF24068A7E94E3BB643E549AA055192C045E (void);
+extern void TemporalAntialiasing_IsSupported_m8FBD9000C346E38D503D9D0570DB89006EEDBC5E (void);
 // 0x0000008E UnityEngine.DepthTextureMode UnityEngine.Rendering.PostProcessing.TemporalAntialiasing::GetCameraFlags()
-extern void TemporalAntialiasing_GetCameraFlags_mFDB0F48DA9DD43DC96F0001D8AEC3EC0BDF8B9AA (void);
+extern void TemporalAntialiasing_GetCameraFlags_mFDDC41042F5315ED2B8FBF5363807EC312B49E99 (void);
 // 0x0000008F System.Void UnityEngine.Rendering.PostProcessing.TemporalAntialiasing::ResetHistory()
-extern void TemporalAntialiasing_ResetHistory_m1E1611D2244E90EB7C3CC493B98C0AA0A1A52010 (void);
+extern void TemporalAntialiasing_ResetHistory_m02880AF6BF6467418C89DC15AFEE07CA2DCDD693 (void);
 // 0x00000090 UnityEngine.Vector2 UnityEngine.Rendering.PostProcessing.TemporalAntialiasing::GenerateRandomOffset()
-extern void TemporalAntialiasing_GenerateRandomOffset_m8C20703188A9078739CEF48A902F636142E06712 (void);
+extern void TemporalAntialiasing_GenerateRandomOffset_mA022EBD160240B67B11EEF31DFF79C275532D4B1 (void);
 // 0x00000091 UnityEngine.Matrix4x4 UnityEngine.Rendering.PostProcessing.TemporalAntialiasing::GetJitteredProjectionMatrix(UnityEngine.Camera)
-extern void TemporalAntialiasing_GetJitteredProjectionMatrix_m05C5BC645B3761AFDDEBF885743BBB71419F12F1 (void);
+extern void TemporalAntialiasing_GetJitteredProjectionMatrix_m0795E81DB41C2D8E4399A289A28648EDB1DF554A (void);
 // 0x00000092 System.Void UnityEngine.Rendering.PostProcessing.TemporalAntialiasing::ConfigureJitteredProjectionMatrix(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void TemporalAntialiasing_ConfigureJitteredProjectionMatrix_mD1658F905FA0B40616F94A72596803C4DFD11476 (void);
+extern void TemporalAntialiasing_ConfigureJitteredProjectionMatrix_mAF68323051A8891986F77097CBBF64DBBAFB369F (void);
 // 0x00000093 System.Void UnityEngine.Rendering.PostProcessing.TemporalAntialiasing::ConfigureStereoJitteredProjectionMatrices(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void TemporalAntialiasing_ConfigureStereoJitteredProjectionMatrices_m6778161075072CB286B1C1082F1535B39D13E546 (void);
+extern void TemporalAntialiasing_ConfigureStereoJitteredProjectionMatrices_mA0AB57E1C881BEEFE2E22EAA97CBFCF463AB7ACD (void);
 // 0x00000094 System.Void UnityEngine.Rendering.PostProcessing.TemporalAntialiasing::GenerateHistoryName(UnityEngine.RenderTexture,System.Int32,UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void TemporalAntialiasing_GenerateHistoryName_m39F69FC9226519CDFE2BAECF99334772C7EBD22D (void);
+extern void TemporalAntialiasing_GenerateHistoryName_m20B5ABFEF42DE2A387BFDD207E7805FA9B715674 (void);
 // 0x00000095 UnityEngine.RenderTexture UnityEngine.Rendering.PostProcessing.TemporalAntialiasing::CheckHistory(System.Int32,UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void TemporalAntialiasing_CheckHistory_mA35B44ECD13BB4F9CF19E766131FFC11CC5B41AE (void);
+extern void TemporalAntialiasing_CheckHistory_m01C9B2DD2A27A0898EE0E3604D91BA0334627D13 (void);
 // 0x00000096 System.Void UnityEngine.Rendering.PostProcessing.TemporalAntialiasing::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void TemporalAntialiasing_Render_m1F5CDB905DA7AB9A5D2C8335E7F40A0B984C767F (void);
+extern void TemporalAntialiasing_Render_m9BC1E4F4D6EDD4678E9D3B4C6B22B0EC36E546AC (void);
 // 0x00000097 System.Void UnityEngine.Rendering.PostProcessing.TemporalAntialiasing::Release()
-extern void TemporalAntialiasing_Release_m7F07A845A790B3E98E9618400D360CAC8BCF44B7 (void);
+extern void TemporalAntialiasing_Release_mE12D10DE8B832C1AB7B2714415567ECEDB455458 (void);
 // 0x00000098 System.Void UnityEngine.Rendering.PostProcessing.TemporalAntialiasing::.ctor()
-extern void TemporalAntialiasing__ctor_m1F3DCAB166187D2B412DFE69787E46242313D9FD (void);
+extern void TemporalAntialiasing__ctor_mFA837D71FA4C40ED15FA225C89CB7480FB4A8CE8 (void);
 // 0x00000099 System.Void UnityEngine.Rendering.PostProcessing.VignetteModeParameter::.ctor()
-extern void VignetteModeParameter__ctor_m4D63838C20AE0CB9DDD27D1D31235D918456F304 (void);
+extern void VignetteModeParameter__ctor_mC6796A35EABF529ECE1B9EA6691490DB2EA20DDF (void);
 // 0x0000009A System.Boolean UnityEngine.Rendering.PostProcessing.Vignette::IsEnabledAndSupported(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void Vignette_IsEnabledAndSupported_m2D67AF6B97A94BBD4B2A7FDEAA4028847C5FAFB4 (void);
+extern void Vignette_IsEnabledAndSupported_m7A340C82967FA38016983E5F3239E93DE9C2F0F9 (void);
 // 0x0000009B System.Void UnityEngine.Rendering.PostProcessing.Vignette::.ctor()
-extern void Vignette__ctor_mB0325E1C20E1C0EACC4E22F90C88C2376A0DC537 (void);
+extern void Vignette__ctor_m9242C87DA8620C4BACE46BA166A9C48ACF1B22E2 (void);
 // 0x0000009C System.Void UnityEngine.Rendering.PostProcessing.VignetteRenderer::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void VignetteRenderer_Render_mB738733CA260ECFBA104310C8283AB153FA32110 (void);
+extern void VignetteRenderer_Render_mB651EE8183D17273A8A72093B2A12107A2B3B578 (void);
 // 0x0000009D System.Void UnityEngine.Rendering.PostProcessing.VignetteRenderer::.ctor()
-extern void VignetteRenderer__ctor_m2CA1FD8CC001CF2FF6CF2C6D4030A42B8B41E89D (void);
+extern void VignetteRenderer__ctor_m23883AA78F043BA298E07EA5F4708B1849502912 (void);
 // 0x0000009E System.Void UnityEngine.Rendering.PostProcessing.HistogramMonitor::OnDisable()
-extern void HistogramMonitor_OnDisable_m230FF2666443F85287241087449BA4CE5BB789DC (void);
+extern void HistogramMonitor_OnDisable_mFEFD19AB59AD84F4D28FF735267A431E68A3BC46 (void);
 // 0x0000009F System.Boolean UnityEngine.Rendering.PostProcessing.HistogramMonitor::NeedsHalfRes()
-extern void HistogramMonitor_NeedsHalfRes_m73CFC4DC4E26DED01E7819E191E727BA7126073F (void);
+extern void HistogramMonitor_NeedsHalfRes_m90641952FDCD66D62E102BF89CEA10D49EE70C5D (void);
 // 0x000000A0 System.Boolean UnityEngine.Rendering.PostProcessing.HistogramMonitor::ShaderResourcesAvailable(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void HistogramMonitor_ShaderResourcesAvailable_m9A5B187C0479D7E3DF5248EA991F0454FE9B5949 (void);
+extern void HistogramMonitor_ShaderResourcesAvailable_m84669AE0A0C1C3E97BA14C8C6E689589FF6EE8D5 (void);
 // 0x000000A1 System.Void UnityEngine.Rendering.PostProcessing.HistogramMonitor::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void HistogramMonitor_Render_m500233055734F82F0F28E848401821AB906B55FE (void);
+extern void HistogramMonitor_Render_m3CA37ACEF4C0AF4FEF77A5F69D37ED785A7D1C4A (void);
 // 0x000000A2 System.Void UnityEngine.Rendering.PostProcessing.HistogramMonitor::.ctor()
-extern void HistogramMonitor__ctor_m076097076CBE7E0589A84CA904C357FBE4822551 (void);
+extern void HistogramMonitor__ctor_mCF5750B7F3C9C33A7F56800447089684FF5D7C3B (void);
 // 0x000000A3 System.Boolean UnityEngine.Rendering.PostProcessing.LightMeterMonitor::ShaderResourcesAvailable(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void LightMeterMonitor_ShaderResourcesAvailable_m0C0CB920F8EAA6888F402D529CE55422F9569406 (void);
+extern void LightMeterMonitor_ShaderResourcesAvailable_mD004EA3D0B76D68EB8707894CB91B778F3F8F89B (void);
 // 0x000000A4 System.Void UnityEngine.Rendering.PostProcessing.LightMeterMonitor::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void LightMeterMonitor_Render_m55BC89DB32BE88F0059E446D90612DFBA6F00DC3 (void);
+extern void LightMeterMonitor_Render_mD3CAFB6C9316A47AEF75465893FCB2A235BD37B9 (void);
 // 0x000000A5 System.Void UnityEngine.Rendering.PostProcessing.LightMeterMonitor::.ctor()
-extern void LightMeterMonitor__ctor_mBB777FF1522832DE5450C9A5DD64E8F8D30C7C11 (void);
+extern void LightMeterMonitor__ctor_mD3298B885C5224D2EEDC22F75C80CBF153599601 (void);
 // 0x000000A6 UnityEngine.RenderTexture UnityEngine.Rendering.PostProcessing.Monitor::get_output()
-extern void Monitor_get_output_m47DF8F109DA67DEF62A5993E579B62750DA196C0 (void);
+extern void Monitor_get_output_m7CEEB7508AD1B405744EA32D5FB767644FD2776D (void);
 // 0x000000A7 System.Void UnityEngine.Rendering.PostProcessing.Monitor::set_output(UnityEngine.RenderTexture)
-extern void Monitor_set_output_mE14C51217A4CCAB88EC656889034C4D55764AECA (void);
+extern void Monitor_set_output_m9456D0B5DE53E9662D4B3C15CC3C087017697809 (void);
 // 0x000000A8 System.Boolean UnityEngine.Rendering.PostProcessing.Monitor::IsRequestedAndSupported(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void Monitor_IsRequestedAndSupported_m54722701F2E06E92EEC20B760616F534C58C07EF (void);
+extern void Monitor_IsRequestedAndSupported_m787CEE59C8F6F20D7BCEB6BC757F350B09181FE4 (void);
 // 0x000000A9 System.Boolean UnityEngine.Rendering.PostProcessing.Monitor::ShaderResourcesAvailable(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
 // 0x000000AA System.Boolean UnityEngine.Rendering.PostProcessing.Monitor::NeedsHalfRes()
-extern void Monitor_NeedsHalfRes_m6288FC8B3CFE546BFEE1590D91DE4CD385312E0B (void);
+extern void Monitor_NeedsHalfRes_mE9D09433A57BCBE9201970FBDFE71E3BE64674FA (void);
 // 0x000000AB System.Void UnityEngine.Rendering.PostProcessing.Monitor::CheckOutput(System.Int32,System.Int32)
-extern void Monitor_CheckOutput_m413208864EA3CACC6D40DFAEF1DB04DC0A30150C (void);
+extern void Monitor_CheckOutput_m3BB128BD30F3AB15E6DB71D68B4EBB7F656DCE71 (void);
 // 0x000000AC System.Void UnityEngine.Rendering.PostProcessing.Monitor::OnEnable()
-extern void Monitor_OnEnable_mD8E42BFFD458B4A7D2B3975C01DD33BFA4D1A54C (void);
+extern void Monitor_OnEnable_m4C91FCEBD693A5E875B7C4EC25F35400E6267084 (void);
 // 0x000000AD System.Void UnityEngine.Rendering.PostProcessing.Monitor::OnDisable()
-extern void Monitor_OnDisable_mA3610794EB2C764C2F7892CA17BB71D772A2C943 (void);
+extern void Monitor_OnDisable_m14F2DEE3F862B0B00809D578BA7FE816BE712E64 (void);
 // 0x000000AE System.Void UnityEngine.Rendering.PostProcessing.Monitor::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
 // 0x000000AF System.Void UnityEngine.Rendering.PostProcessing.Monitor::.ctor()
-extern void Monitor__ctor_m6EF591E063563E2D6DC7B8884243426EAC35561C (void);
+extern void Monitor__ctor_mE42FA0D19C9F80DE341A10BC7A383C667D2103C2 (void);
 // 0x000000B0 System.Void UnityEngine.Rendering.PostProcessing.VectorscopeMonitor::OnDisable()
-extern void VectorscopeMonitor_OnDisable_m001686957BD5361704A15E2E4B386DDD3D02252B (void);
+extern void VectorscopeMonitor_OnDisable_mF2F1FBC4F10592E41DABB18E6F94065C4DDFE1FB (void);
 // 0x000000B1 System.Boolean UnityEngine.Rendering.PostProcessing.VectorscopeMonitor::NeedsHalfRes()
-extern void VectorscopeMonitor_NeedsHalfRes_m723A2717D7FE50FF8A2D9027277ADC22A150BC64 (void);
+extern void VectorscopeMonitor_NeedsHalfRes_mEDAA987D057135D2700AA5F339DCCA66E5E403E3 (void);
 // 0x000000B2 System.Boolean UnityEngine.Rendering.PostProcessing.VectorscopeMonitor::ShaderResourcesAvailable(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void VectorscopeMonitor_ShaderResourcesAvailable_m528D2CE0BBA9B10610EE653F824AA9B1D1DC2661 (void);
+extern void VectorscopeMonitor_ShaderResourcesAvailable_mC6C2F43688127875D767E9121F1ACAACBF2F416A (void);
 // 0x000000B3 System.Void UnityEngine.Rendering.PostProcessing.VectorscopeMonitor::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void VectorscopeMonitor_Render_m84CA6B45C4331890F0455119D86C1A07EB966B5B (void);
+extern void VectorscopeMonitor_Render_m56F2F09E2EEFA0E8717AAA24AB66C36FCEBD7124 (void);
 // 0x000000B4 System.Void UnityEngine.Rendering.PostProcessing.VectorscopeMonitor::.ctor()
-extern void VectorscopeMonitor__ctor_mC27FEEE84A6557F3B4BACA78805AA2D7DADF39A7 (void);
+extern void VectorscopeMonitor__ctor_m3FF3FEE834FF5E9C836C047075CF9CE7A4644669 (void);
 // 0x000000B5 System.Void UnityEngine.Rendering.PostProcessing.WaveformMonitor::OnDisable()
-extern void WaveformMonitor_OnDisable_mBDEB4FC072BE8751732B2E9EE6A16E587BA75B8B (void);
+extern void WaveformMonitor_OnDisable_m96AF46B13D58488C8AF1C4C8C55F3929EDC43D8A (void);
 // 0x000000B6 System.Boolean UnityEngine.Rendering.PostProcessing.WaveformMonitor::NeedsHalfRes()
-extern void WaveformMonitor_NeedsHalfRes_mA40030095FA31CFD4D978649A9B82D4ADCE7697D (void);
+extern void WaveformMonitor_NeedsHalfRes_m22881EA8A18A6827CF948F94C0FA1BDCF7F183FA (void);
 // 0x000000B7 System.Boolean UnityEngine.Rendering.PostProcessing.WaveformMonitor::ShaderResourcesAvailable(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void WaveformMonitor_ShaderResourcesAvailable_mFA14E2CE435250C9C197E09F212F0C14E823082D (void);
+extern void WaveformMonitor_ShaderResourcesAvailable_m9DAD32A0C8ADAD01A16313B34AC3CE3D59511378 (void);
 // 0x000000B8 System.Void UnityEngine.Rendering.PostProcessing.WaveformMonitor::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void WaveformMonitor_Render_m52105139C3FF21B5598DA81E5F456294F9759E91 (void);
+extern void WaveformMonitor_Render_mE343E98903B15A4E77731364274F84EA4086B78F (void);
 // 0x000000B9 System.Void UnityEngine.Rendering.PostProcessing.WaveformMonitor::.ctor()
-extern void WaveformMonitor__ctor_mB3BA30A53C9FE94CF150E6768D3229A08BFDDD77 (void);
+extern void WaveformMonitor__ctor_mB6E1D88F47EBA174808D114DD162FFBA077E5B5F (void);
 // 0x000000BA System.Void UnityEngine.Rendering.PostProcessing.ParameterOverride::Interp(UnityEngine.Rendering.PostProcessing.ParameterOverride,UnityEngine.Rendering.PostProcessing.ParameterOverride,System.Single)
 // 0x000000BB System.Int32 UnityEngine.Rendering.PostProcessing.ParameterOverride::GetHash()
 // 0x000000BC T UnityEngine.Rendering.PostProcessing.ParameterOverride::GetValue()
 // 0x000000BD System.Void UnityEngine.Rendering.PostProcessing.ParameterOverride::OnEnable()
-extern void ParameterOverride_OnEnable_m0D67F5FA71AEEAB671BF019E14CD91A5EF213A66 (void);
+extern void ParameterOverride_OnEnable_m97C09751CF65B2B75B6F1092FE2A79B3044F4A08 (void);
 // 0x000000BE System.Void UnityEngine.Rendering.PostProcessing.ParameterOverride::OnDisable()
-extern void ParameterOverride_OnDisable_mB1BB0C4E6E712345795DAC5066843364DBEF65FC (void);
+extern void ParameterOverride_OnDisable_m212C568CC863EB7DF8BA97C6FE7A91311B680618 (void);
 // 0x000000BF System.Void UnityEngine.Rendering.PostProcessing.ParameterOverride::SetValue(UnityEngine.Rendering.PostProcessing.ParameterOverride)
 // 0x000000C0 System.Void UnityEngine.Rendering.PostProcessing.ParameterOverride::.ctor()
-extern void ParameterOverride__ctor_mF2BC731CBB924D3621F1B84DFFCA4F5CDB42C0E2 (void);
+extern void ParameterOverride__ctor_mB21AA23325BDCA1EAB88AD7669E4392C6107B48A (void);
 // 0x000000C1 System.Void UnityEngine.Rendering.PostProcessing.ParameterOverride`1::.ctor()
 // 0x000000C2 System.Void UnityEngine.Rendering.PostProcessing.ParameterOverride`1::.ctor(T)
 // 0x000000C3 System.Void UnityEngine.Rendering.PostProcessing.ParameterOverride`1::.ctor(T,System.Boolean)
@@ -395,1348 +395,973 @@ extern void ParameterOverride__ctor_mF2BC731CBB924D3621F1B84DFFCA4F5CDB42C0E2 (v
 // 0x000000C8 System.Int32 UnityEngine.Rendering.PostProcessing.ParameterOverride`1::GetHash()
 // 0x000000C9 T UnityEngine.Rendering.PostProcessing.ParameterOverride`1::op_Implicit(UnityEngine.Rendering.PostProcessing.ParameterOverride`1<T>)
 // 0x000000CA System.Void UnityEngine.Rendering.PostProcessing.FloatParameter::Interp(System.Single,System.Single,System.Single)
-extern void FloatParameter_Interp_m1434238DF5487DF3540A5A71E6B59C533A05122F (void);
+extern void FloatParameter_Interp_m365DAF368A4F2ABC713DA76E6E944BC9E2BA18DA (void);
 // 0x000000CB System.Void UnityEngine.Rendering.PostProcessing.FloatParameter::.ctor()
-extern void FloatParameter__ctor_m9DB1EF263F257D4CF8C8B6BE717EA1D129CEF984 (void);
+extern void FloatParameter__ctor_m9D086D769C6C1B3596C4A38B5ED8C7B401628650 (void);
 // 0x000000CC System.Void UnityEngine.Rendering.PostProcessing.IntParameter::Interp(System.Int32,System.Int32,System.Single)
-extern void IntParameter_Interp_m51A6FD54C0AF0F087F75835AD873DBD6417D09E9 (void);
+extern void IntParameter_Interp_m96347A4B0DC935FDE5FA3A377404C4FAA7FB1D88 (void);
 // 0x000000CD System.Void UnityEngine.Rendering.PostProcessing.IntParameter::.ctor()
-extern void IntParameter__ctor_mD0B577F7B6F29156C6F34A31852CE0015B544312 (void);
+extern void IntParameter__ctor_mAD01DFAF328EEF972D980308CBBA0804F0BD1AD5 (void);
 // 0x000000CE System.Void UnityEngine.Rendering.PostProcessing.BoolParameter::.ctor()
-extern void BoolParameter__ctor_m3D75EA93FDC7D88D346025CB612A459B92915FE7 (void);
+extern void BoolParameter__ctor_m04A36F46605F50DC4BB82080139D88760BC19284 (void);
 // 0x000000CF System.Void UnityEngine.Rendering.PostProcessing.ColorParameter::Interp(UnityEngine.Color,UnityEngine.Color,System.Single)
-extern void ColorParameter_Interp_m4B0D83B2F72792D5BF6C537BDD0992AC9586442D (void);
+extern void ColorParameter_Interp_m12A8C8F6690E94502D389505D6461FA6AB72341A (void);
 // 0x000000D0 UnityEngine.Vector4 UnityEngine.Rendering.PostProcessing.ColorParameter::op_Implicit(UnityEngine.Rendering.PostProcessing.ColorParameter)
-extern void ColorParameter_op_Implicit_m2F0225AB103CD2ACFB2D27F95BF65BBC67CAE620 (void);
+extern void ColorParameter_op_Implicit_m12846D24C2826DFF648C1962D1BD74A4029081F3 (void);
 // 0x000000D1 System.Void UnityEngine.Rendering.PostProcessing.ColorParameter::.ctor()
-extern void ColorParameter__ctor_m30D0D993F9B30802429AA3176816DFC889D6DAA3 (void);
+extern void ColorParameter__ctor_m0EFA9DD0C4820F5834ACD00E9FDCBFB953624834 (void);
 // 0x000000D2 System.Void UnityEngine.Rendering.PostProcessing.Vector2Parameter::Interp(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
-extern void Vector2Parameter_Interp_mB14285E63AE62C206098BDCA80211C3F90041B34 (void);
+extern void Vector2Parameter_Interp_m7927995FFE395D14C63049AA319143C0F947A590 (void);
 // 0x000000D3 UnityEngine.Vector3 UnityEngine.Rendering.PostProcessing.Vector2Parameter::op_Implicit(UnityEngine.Rendering.PostProcessing.Vector2Parameter)
-extern void Vector2Parameter_op_Implicit_m5DDC3EC5E33C6A1424DE6D0D5572F4A69D29922C (void);
+extern void Vector2Parameter_op_Implicit_m76A0D44A92CA9662912652E9A5B9E74FD9FFFC11 (void);
 // 0x000000D4 UnityEngine.Vector4 UnityEngine.Rendering.PostProcessing.Vector2Parameter::op_Implicit(UnityEngine.Rendering.PostProcessing.Vector2Parameter)
-extern void Vector2Parameter_op_Implicit_m1D8F7413BFCAEDC232837EBF957EAF83C7D76EDB (void);
+extern void Vector2Parameter_op_Implicit_m416F6B3A8B23E7B1E5183EA9E6AB64AE4B70A377 (void);
 // 0x000000D5 System.Void UnityEngine.Rendering.PostProcessing.Vector2Parameter::.ctor()
-extern void Vector2Parameter__ctor_mBF44FC58FB4108A066A973BE3891A8B85479214A (void);
+extern void Vector2Parameter__ctor_m3FA2F5CBEAF9F462CE5AEFED865F4B87679ACDDE (void);
 // 0x000000D6 System.Void UnityEngine.Rendering.PostProcessing.Vector3Parameter::Interp(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
-extern void Vector3Parameter_Interp_mFFCF54E2FBB40DA854BE1CBA9B2BC0C67CB1138D (void);
+extern void Vector3Parameter_Interp_m9E4B92F63D7C69520B58D673C88B8FD961E317DD (void);
 // 0x000000D7 UnityEngine.Vector2 UnityEngine.Rendering.PostProcessing.Vector3Parameter::op_Implicit(UnityEngine.Rendering.PostProcessing.Vector3Parameter)
-extern void Vector3Parameter_op_Implicit_m00671C8049AA1C65C5FEF41E6558A886BA29128B (void);
+extern void Vector3Parameter_op_Implicit_m7F266DC7AED71744FFA1053A75DDFE5429F70063 (void);
 // 0x000000D8 UnityEngine.Vector4 UnityEngine.Rendering.PostProcessing.Vector3Parameter::op_Implicit(UnityEngine.Rendering.PostProcessing.Vector3Parameter)
-extern void Vector3Parameter_op_Implicit_m0B7770279089F3D676A48881ADF18F9A602319B6 (void);
+extern void Vector3Parameter_op_Implicit_m747A41EC59166330DA13EB15CBCD5CEEE2D780F6 (void);
 // 0x000000D9 System.Void UnityEngine.Rendering.PostProcessing.Vector3Parameter::.ctor()
-extern void Vector3Parameter__ctor_m63367026D81EAD74CF6600AE30FA1A0617FE86D2 (void);
+extern void Vector3Parameter__ctor_m67636F3D860D14546BC29384143E2F84F3572B33 (void);
 // 0x000000DA System.Void UnityEngine.Rendering.PostProcessing.Vector4Parameter::Interp(UnityEngine.Vector4,UnityEngine.Vector4,System.Single)
-extern void Vector4Parameter_Interp_m0899065B59819646F5192F92ACAF28D1F15DF37F (void);
+extern void Vector4Parameter_Interp_m1648D6BC6029B5B8147DF0BD4AA234EBA25A4D8E (void);
 // 0x000000DB UnityEngine.Vector2 UnityEngine.Rendering.PostProcessing.Vector4Parameter::op_Implicit(UnityEngine.Rendering.PostProcessing.Vector4Parameter)
-extern void Vector4Parameter_op_Implicit_mE7C1B3FA998B3FA686873E000CB8FBF20D8171CF (void);
+extern void Vector4Parameter_op_Implicit_mA186885FA1D9F9377546C35DD5C695AB08F20F23 (void);
 // 0x000000DC UnityEngine.Vector3 UnityEngine.Rendering.PostProcessing.Vector4Parameter::op_Implicit(UnityEngine.Rendering.PostProcessing.Vector4Parameter)
-extern void Vector4Parameter_op_Implicit_mB1F2B9AAB559F73B0D3C69FB04F527A3D820002D (void);
+extern void Vector4Parameter_op_Implicit_mCEDA69AFFE136DBC59FED8EAF4ABAB4969A0C850 (void);
 // 0x000000DD System.Void UnityEngine.Rendering.PostProcessing.Vector4Parameter::.ctor()
-extern void Vector4Parameter__ctor_m8C8DED1875F2A781AC4F18369E08DDA46C13D243 (void);
+extern void Vector4Parameter__ctor_m7DC5D037D038B31556F05CA7B809716041F09A95 (void);
 // 0x000000DE System.Void UnityEngine.Rendering.PostProcessing.SplineParameter::OnEnable()
-extern void SplineParameter_OnEnable_mD33338349D3C87DA7758922C0CF7E03FF626E5B1 (void);
+extern void SplineParameter_OnEnable_m9D99A04E17F6FE5953609600C28AEAEDCE989CBF (void);
 // 0x000000DF System.Void UnityEngine.Rendering.PostProcessing.SplineParameter::SetValue(UnityEngine.Rendering.PostProcessing.ParameterOverride)
-extern void SplineParameter_SetValue_m536D3CDC09CA93E5F1E06F5C327D183F5611FBA2 (void);
+extern void SplineParameter_SetValue_m69C0F27B7E38731878EFFD3A4E0CDB5AF84FDF4B (void);
 // 0x000000E0 System.Void UnityEngine.Rendering.PostProcessing.SplineParameter::Interp(UnityEngine.Rendering.PostProcessing.Spline,UnityEngine.Rendering.PostProcessing.Spline,System.Single)
-extern void SplineParameter_Interp_m7FDEAE34BED3B0731915281DA8B0D34A360AF1E8 (void);
+extern void SplineParameter_Interp_m6176D958775A7A8B72A1C506EAB7D7AF01EAF79D (void);
 // 0x000000E1 System.Void UnityEngine.Rendering.PostProcessing.SplineParameter::.ctor()
-extern void SplineParameter__ctor_m11C763DDA15AAC2E1E8A1AAD11E0D8C2E7B11520 (void);
+extern void SplineParameter__ctor_mEC00ACA5793BDCC57C9B7AF36C910807FB874D30 (void);
 // 0x000000E2 System.Void UnityEngine.Rendering.PostProcessing.TextureParameter::Interp(UnityEngine.Texture,UnityEngine.Texture,System.Single)
-extern void TextureParameter_Interp_m6BDA698BA090B8731A7DECDD1A7D654207CE6EB4 (void);
+extern void TextureParameter_Interp_m1E0F073609A17091BF589BA178C17A46CD1FF81F (void);
 // 0x000000E3 System.Void UnityEngine.Rendering.PostProcessing.TextureParameter::.ctor()
-extern void TextureParameter__ctor_mFB8A59BFF1213A53DD6C87017E3025607C25AD0A (void);
+extern void TextureParameter__ctor_m126D706CA8F854F68EE6BC93B11862051D2DBAFC (void);
 // 0x000000E4 UnityEngine.Rendering.PostProcessing.PostProcessAttribute UnityEngine.Rendering.PostProcessing.PostProcessBundle::get_attribute()
-extern void PostProcessBundle_get_attribute_m23310FCCFEE897EBF93C36296D6C5D565B4C19A0 (void);
+extern void PostProcessBundle_get_attribute_mBF4459B0E62B71CD348781716456E69DC676D03F (void);
 // 0x000000E5 System.Void UnityEngine.Rendering.PostProcessing.PostProcessBundle::set_attribute(UnityEngine.Rendering.PostProcessing.PostProcessAttribute)
-extern void PostProcessBundle_set_attribute_m2675212E0F5625E6B7436C50F63DB75E26045434 (void);
+extern void PostProcessBundle_set_attribute_mEFAA5ACCC37D9DB44E34D269C20FAC87AF5B5A45 (void);
 // 0x000000E6 UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings UnityEngine.Rendering.PostProcessing.PostProcessBundle::get_settings()
-extern void PostProcessBundle_get_settings_m5BA726BCC8ADCCEA4AD25AD51798950474EFC046 (void);
+extern void PostProcessBundle_get_settings_m2636D9B1938880F353CBC47627D3F713D65009BD (void);
 // 0x000000E7 System.Void UnityEngine.Rendering.PostProcessing.PostProcessBundle::set_settings(UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings)
-extern void PostProcessBundle_set_settings_m954BB49AE94AC89911931978FABA469BBBBCC8BF (void);
+extern void PostProcessBundle_set_settings_mCC40A828251B7F32D724E226D95991BA231AEBC0 (void);
 // 0x000000E8 UnityEngine.Rendering.PostProcessing.PostProcessEffectRenderer UnityEngine.Rendering.PostProcessing.PostProcessBundle::get_renderer()
-extern void PostProcessBundle_get_renderer_m9B9D011FC8ED8B384FE16AEC5A5955A87243A61C (void);
+extern void PostProcessBundle_get_renderer_m085C7E9914D3A8F71DDBE3681F5FE6F72ACE521F (void);
 // 0x000000E9 System.Void UnityEngine.Rendering.PostProcessing.PostProcessBundle::.ctor(UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings)
-extern void PostProcessBundle__ctor_m980F8608CC22C6F40C0382EA3208A4D6889F33FD (void);
+extern void PostProcessBundle__ctor_mDDE4BDB6BE1105524414E7FA1EA777B8E619E38D (void);
 // 0x000000EA System.Void UnityEngine.Rendering.PostProcessing.PostProcessBundle::Release()
-extern void PostProcessBundle_Release_m31FD40E9428001418B7A2BB323C7B41202AE7EB6 (void);
+extern void PostProcessBundle_Release_m85149021A3A38F4D1A7CD2E5B916FCCB0B1E54FE (void);
 // 0x000000EB System.Void UnityEngine.Rendering.PostProcessing.PostProcessBundle::ResetHistory()
-extern void PostProcessBundle_ResetHistory_m5EB7270369216D54DE183E1A91C530F562BBCC12 (void);
+extern void PostProcessBundle_ResetHistory_mA3F75C3D9B66CDFD403AC001AEF6E2DDD530573A (void);
 // 0x000000EC T UnityEngine.Rendering.PostProcessing.PostProcessBundle::CastSettings()
 // 0x000000ED T UnityEngine.Rendering.PostProcessing.PostProcessBundle::CastRenderer()
 // 0x000000EE System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebug::OnEnable()
-extern void PostProcessDebug_OnEnable_m0E16911F18EF441731CE713DEE1ACEFE4F02ACF9 (void);
+extern void PostProcessDebug_OnEnable_m4DA07CC4C80EA113E80083095E756C120BA33609 (void);
 // 0x000000EF System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebug::OnDisable()
-extern void PostProcessDebug_OnDisable_mBF085AE70BB3C64033F1237405B3F79C2ABA534E (void);
+extern void PostProcessDebug_OnDisable_m492ACC73CA8755CCF1BEB06A38308275043E373B (void);
 // 0x000000F0 System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebug::Update()
-extern void PostProcessDebug_Update_m9204444EA8F6033682668146D9C7DD2F47860A18 (void);
+extern void PostProcessDebug_Update_mD56C9801A97D252EB14887D7D01A1024FCEF687F (void);
 // 0x000000F1 System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebug::Reset()
-extern void PostProcessDebug_Reset_m6D7E28AA1BB3B8E5038E166EC0F8A0189243B052 (void);
+extern void PostProcessDebug_Reset_m5FD06553D8F2BE77C92BE80C165272FFF13701D5 (void);
 // 0x000000F2 System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebug::UpdateStates()
-extern void PostProcessDebug_UpdateStates_m3B346B1ACC1CEFB5BB88E964A06472DF292B2AF4 (void);
+extern void PostProcessDebug_UpdateStates_m19D21D74C647CD1A62AEA61F884DB736061183BE (void);
 // 0x000000F3 System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebug::OnPostRender()
-extern void PostProcessDebug_OnPostRender_m2D4EC435B0FE91A816166C88A5E35C2EFB47811E (void);
+extern void PostProcessDebug_OnPostRender_m991A4FA1778E895CA148AC7296BE3E9EFB319FBA (void);
 // 0x000000F4 System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebug::OnGUI()
-extern void PostProcessDebug_OnGUI_m1E59188038FE7A2B7B447F5130DAFE884147821F (void);
+extern void PostProcessDebug_OnGUI_m5B1C1F80433846F50A6C8A54E0D358447920C98C (void);
 // 0x000000F5 System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebug::DrawMonitor(UnityEngine.Rect&,UnityEngine.Rendering.PostProcessing.Monitor,System.Boolean)
-extern void PostProcessDebug_DrawMonitor_m74A733544A3194E48CB5E9A914261038CCDB8BCF (void);
+extern void PostProcessDebug_DrawMonitor_mFCEC123A69E327A1456F6E02775D231DD81C6A4E (void);
 // 0x000000F6 System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebug::.ctor()
-extern void PostProcessDebug__ctor_mF9E6A457F3E8A9A982FDA6B75E2AB37E3396A6E8 (void);
+extern void PostProcessDebug__ctor_mBCD1AAFC7E6AD42013B9E37B20B7E4D95E8F7568 (void);
 // 0x000000F7 UnityEngine.RenderTexture UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer::get_debugOverlayTarget()
-extern void PostProcessDebugLayer_get_debugOverlayTarget_mEE851EF1356AE899D0EF902AD0E0966B16AFD940 (void);
+extern void PostProcessDebugLayer_get_debugOverlayTarget_mA518D12183B36B275756AFA1D3E7F6CC39BFF905 (void);
 // 0x000000F8 System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer::set_debugOverlayTarget(UnityEngine.RenderTexture)
-extern void PostProcessDebugLayer_set_debugOverlayTarget_m7566FD9B25470C7ACCF14606AAF975AE00715332 (void);
+extern void PostProcessDebugLayer_set_debugOverlayTarget_m7C2285DA52C3BD7361056591AD57F7A75572EDD6 (void);
 // 0x000000F9 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer::get_debugOverlayActive()
-extern void PostProcessDebugLayer_get_debugOverlayActive_m7990B750167EF1A31F8A3F96B539B322D3F7FC84 (void);
+extern void PostProcessDebugLayer_get_debugOverlayActive_m588FABBDBC5A882404CEA19BB6814B2AB82FC8C6 (void);
 // 0x000000FA System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer::set_debugOverlayActive(System.Boolean)
-extern void PostProcessDebugLayer_set_debugOverlayActive_mC83941C3612A2745BD1B6C771FCF0053B6D3BC77 (void);
+extern void PostProcessDebugLayer_set_debugOverlayActive_m114C6829F2267EC9E669948750B9ADE72AA56221 (void);
 // 0x000000FB UnityEngine.Rendering.PostProcessing.DebugOverlay UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer::get_debugOverlay()
-extern void PostProcessDebugLayer_get_debugOverlay_m50CBB64D3FEE070BD29DEC24C8CD57DD37EFE1C3 (void);
+extern void PostProcessDebugLayer_get_debugOverlay_m053337138AF10CA87F4E5F685111E29837CE3E4A (void);
 // 0x000000FC System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer::set_debugOverlay(UnityEngine.Rendering.PostProcessing.DebugOverlay)
-extern void PostProcessDebugLayer_set_debugOverlay_m8A972C54696447B69FBC597FA9E67C3D9B7C322A (void);
+extern void PostProcessDebugLayer_set_debugOverlay_mFC72528135BB5A2601D06FE30728D194E33064AE (void);
 // 0x000000FD System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer::OnEnable()
-extern void PostProcessDebugLayer_OnEnable_m387008B7ED2B3F492C6D5F57EEC62057BF293C3E (void);
+extern void PostProcessDebugLayer_OnEnable_m39CB12593990B49428DE7941170FC45A3A6DF96C (void);
 // 0x000000FE System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer::OnDisable()
-extern void PostProcessDebugLayer_OnDisable_mC4762A0AEBE23067EAE67F82A7BCCFE8BD192017 (void);
+extern void PostProcessDebugLayer_OnDisable_mA773E8876D899E376ECFB3D95BF57EAA774F8264 (void);
 // 0x000000FF System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer::DestroyDebugOverlayTarget()
-extern void PostProcessDebugLayer_DestroyDebugOverlayTarget_mA98B3230B16094649A5149FA8FD978634B755846 (void);
+extern void PostProcessDebugLayer_DestroyDebugOverlayTarget_mC9BBFEBFA10FCA25FFA466E3D362E430A34BC750 (void);
 // 0x00000100 System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer::RequestMonitorPass(UnityEngine.Rendering.PostProcessing.MonitorType)
-extern void PostProcessDebugLayer_RequestMonitorPass_m9B42D207764F56193FF6679ED694F4F96D9060C7 (void);
+extern void PostProcessDebugLayer_RequestMonitorPass_m919CA6BB8F3438F2125EB67F759B87B13E592414 (void);
 // 0x00000101 System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer::RequestDebugOverlay(UnityEngine.Rendering.PostProcessing.DebugOverlay)
-extern void PostProcessDebugLayer_RequestDebugOverlay_mE1A09CF679302D4842204FB750299BBED0B726CE (void);
+extern void PostProcessDebugLayer_RequestDebugOverlay_m30D5B9F57FCE9420B636118DA7C5EA2D63610F02 (void);
 // 0x00000102 System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer::SetFrameSize(System.Int32,System.Int32)
-extern void PostProcessDebugLayer_SetFrameSize_m38E163EE3B51AA81D8C2AF7B2C5D58498F64287A (void);
+extern void PostProcessDebugLayer_SetFrameSize_m5EA41FE15E544C2FEC318CB509A4A14399D102C0 (void);
 // 0x00000103 System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer::PushDebugOverlay(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.PostProcessing.PropertySheet,System.Int32)
-extern void PostProcessDebugLayer_PushDebugOverlay_m43912718B6ABE4DB9485F8A51A5B12B879186697 (void);
+extern void PostProcessDebugLayer_PushDebugOverlay_m354B0416740BE8928AC3226AF9A3777090F2CEC1 (void);
 // 0x00000104 UnityEngine.DepthTextureMode UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer::GetCameraFlags()
-extern void PostProcessDebugLayer_GetCameraFlags_mAD93FA644A0C5AC136F382ED927B6E3237336EFD (void);
+extern void PostProcessDebugLayer_GetCameraFlags_mFC417D73293EEB74F5E48F4AE13C817B29E5E440 (void);
 // 0x00000105 System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer::RenderMonitors(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void PostProcessDebugLayer_RenderMonitors_mD366E3E3E7D8F0F1A686CB33D352DDBE4B1B8DE8 (void);
+extern void PostProcessDebugLayer_RenderMonitors_mF9B6E9E28AA71EAE2C213669BDEDC7DFAB363A33 (void);
 // 0x00000106 System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer::RenderSpecialOverlays(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void PostProcessDebugLayer_RenderSpecialOverlays_mD23CFE4FC14A61B52A41E88A03B85174BEE1D211 (void);
+extern void PostProcessDebugLayer_RenderSpecialOverlays_m816143A8FAC39EA9D5FD8F8658A2BC0D898B06A1 (void);
 // 0x00000107 System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer::EndFrame()
-extern void PostProcessDebugLayer_EndFrame_mDBDCD82C1BE519E65293D44A840500FE4B6D58A8 (void);
+extern void PostProcessDebugLayer_EndFrame_mD958DB63AAE31EEC002DB2543B300010FB4D7716 (void);
 // 0x00000108 System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer::.ctor()
-extern void PostProcessDebugLayer__ctor_m5A99D89DCB5BFFEE99D91396CED829F86B24EE61 (void);
+extern void PostProcessDebugLayer__ctor_m3DF3C43195EB86DD75101557CC0CC7E37CE1A9BF (void);
 // 0x00000109 System.Void UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer/OverlaySettings::.ctor()
-extern void OverlaySettings__ctor_m88E7EAF9BE31DF010DA0CC32DBF93ACF0C6CE22D (void);
+extern void OverlaySettings__ctor_m093BD985FF4AF650D08DCE7791B2A4D45E9FED7B (void);
 // 0x0000010A System.Void UnityEngine.Rendering.PostProcessing.PostProcessEffectRenderer::Init()
-extern void PostProcessEffectRenderer_Init_m174682ACFF9ABF0E0FC7E7684A84C9442A30D19C (void);
+extern void PostProcessEffectRenderer_Init_m423CEA78440BF7902BFA305E2B02C4A784EF6C99 (void);
 // 0x0000010B UnityEngine.DepthTextureMode UnityEngine.Rendering.PostProcessing.PostProcessEffectRenderer::GetCameraFlags()
-extern void PostProcessEffectRenderer_GetCameraFlags_mC65D31F164C708C88C624B63E25FCA32C3F0DDFD (void);
+extern void PostProcessEffectRenderer_GetCameraFlags_m0C1907B2D7474E5D12151DBC3F81978D283B5579 (void);
 // 0x0000010C System.Void UnityEngine.Rendering.PostProcessing.PostProcessEffectRenderer::ResetHistory()
-extern void PostProcessEffectRenderer_ResetHistory_mB97A23456B52D5B555005D46FB5C38C7887DF918 (void);
+extern void PostProcessEffectRenderer_ResetHistory_mAD5B2BB867294DC6ED93B43547E8D82A55C00119 (void);
 // 0x0000010D System.Void UnityEngine.Rendering.PostProcessing.PostProcessEffectRenderer::Release()
-extern void PostProcessEffectRenderer_Release_m9464A96E9F63258C17DA6480A46A13F06FC8EAEB (void);
+extern void PostProcessEffectRenderer_Release_m22E84207748138261F62048C7D96E835AC30803A (void);
 // 0x0000010E System.Void UnityEngine.Rendering.PostProcessing.PostProcessEffectRenderer::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
 // 0x0000010F System.Void UnityEngine.Rendering.PostProcessing.PostProcessEffectRenderer::SetSettings(UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings)
 // 0x00000110 System.Void UnityEngine.Rendering.PostProcessing.PostProcessEffectRenderer::.ctor()
-extern void PostProcessEffectRenderer__ctor_m0E9A4D08F3DDABC9B7C4D3E81DF54F43D9729538 (void);
+extern void PostProcessEffectRenderer__ctor_m02BE05D7BA0BE8D8ED69C556674D49D1D016B443 (void);
 // 0x00000111 T UnityEngine.Rendering.PostProcessing.PostProcessEffectRenderer`1::get_settings()
 // 0x00000112 System.Void UnityEngine.Rendering.PostProcessing.PostProcessEffectRenderer`1::set_settings(T)
 // 0x00000113 System.Void UnityEngine.Rendering.PostProcessing.PostProcessEffectRenderer`1::SetSettings(UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings)
 // 0x00000114 System.Void UnityEngine.Rendering.PostProcessing.PostProcessEffectRenderer`1::.ctor()
 // 0x00000115 System.Void UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings::OnEnable()
-extern void PostProcessEffectSettings_OnEnable_m53B71C90196D55E0557B09526B62F1964F90DE60 (void);
+extern void PostProcessEffectSettings_OnEnable_m0F9FBA7D03957BF89BE698BA1F703F8DE847E935 (void);
 // 0x00000116 System.Void UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings::OnDisable()
-extern void PostProcessEffectSettings_OnDisable_m9FAE66EBBEACD6D7BE2ECCE9FBAAEF0A0C54FDE0 (void);
+extern void PostProcessEffectSettings_OnDisable_m67DE62450BE71288ECEF934BAF10748727ECDE5C (void);
 // 0x00000117 System.Void UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings::SetAllOverridesTo(System.Boolean,System.Boolean)
-extern void PostProcessEffectSettings_SetAllOverridesTo_m0EFF9FC7563FE058E728801E91F01808431BF140 (void);
+extern void PostProcessEffectSettings_SetAllOverridesTo_mF86C7C651A9ABEF30ECF2E7AB3566DE08A00F680 (void);
 // 0x00000118 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings::IsEnabledAndSupported(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void PostProcessEffectSettings_IsEnabledAndSupported_m3A0E447900FC7C1DFA163D851CACD45C7836760D (void);
+extern void PostProcessEffectSettings_IsEnabledAndSupported_m8499ED7A534A00C3E25E69DF3EBB4932D35A99AF (void);
 // 0x00000119 System.Int32 UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings::GetHash()
-extern void PostProcessEffectSettings_GetHash_m4E159616856B60028F64AB21661EBABA8072D9E8 (void);
+extern void PostProcessEffectSettings_GetHash_m386BB5D563FB5356234EBFFD6CBA5CDC14C9F858 (void);
 // 0x0000011A System.Void UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings::.ctor()
-extern void PostProcessEffectSettings__ctor_mD40D0A07297AB8295240B8AFDA7A961384C4F82D (void);
+extern void PostProcessEffectSettings__ctor_m60531067359283C000461ED8A1FCF58FC1C4D0EB (void);
 // 0x0000011B UnityEngine.Rendering.PostProcessing.ParameterOverride UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings::<OnEnable>b__3_2(System.Reflection.FieldInfo)
-extern void PostProcessEffectSettings_U3COnEnableU3Eb__3_2_mE5072CBCD4F5E941C6DE52C0A9EC5BEAD6A7AE9A (void);
+extern void PostProcessEffectSettings_U3COnEnableU3Eb__3_2_m1CDE934C53256BC7BEA3ECE640B0AC61E6632601 (void);
 // 0x0000011C System.Void UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings/<>c::.cctor()
-extern void U3CU3Ec__cctor_mC7235B15133C4C5EA850C4DF85821BD857D330D7 (void);
+extern void U3CU3Ec__cctor_mD089AB18230B99D147F44E2EA3F6223C17564D14 (void);
 // 0x0000011D System.Void UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings/<>c::.ctor()
-extern void U3CU3Ec__ctor_mF340714BAF696077FEEB50C8F0921CBADB691665 (void);
+extern void U3CU3Ec__ctor_mEEFF6CF7892F8783B9AB8EDAF11A367344B0A2C3 (void);
 // 0x0000011E System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings/<>c::<OnEnable>b__3_0(System.Reflection.FieldInfo)
-extern void U3CU3Ec_U3COnEnableU3Eb__3_0_m85647CDDCD9A9892F0F99E85586B15BF0AD725F3 (void);
+extern void U3CU3Ec_U3COnEnableU3Eb__3_0_mFB0450A2EA91C54C174F251C8F4B5B520F5314CE (void);
 // 0x0000011F System.Int32 UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings/<>c::<OnEnable>b__3_1(System.Reflection.FieldInfo)
-extern void U3CU3Ec_U3COnEnableU3Eb__3_1_m50822ACB3F5C9C9F17FB2CD5DD51E85C307D1ED0 (void);
+extern void U3CU3Ec_U3COnEnableU3Eb__3_1_m842306E3DBC19895D5D0AE7036743BA0E68F4370 (void);
 // 0x00000120 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessEventComparer::Equals(UnityEngine.Rendering.PostProcessing.PostProcessEvent,UnityEngine.Rendering.PostProcessing.PostProcessEvent)
-extern void PostProcessEventComparer_Equals_m2166068BCF36DB77A9E738FC50C0A77AC8C4C96D (void);
+extern void PostProcessEventComparer_Equals_mA9CD3A312BFBBD4298A84686C3E401C13715DC56 (void);
 // 0x00000121 System.Int32 UnityEngine.Rendering.PostProcessing.PostProcessEventComparer::GetHashCode(UnityEngine.Rendering.PostProcessing.PostProcessEvent)
-extern void PostProcessEventComparer_GetHashCode_mDF3708FBF53C71BC1FA3024694AB19BD0553D45A (void);
+extern void PostProcessEventComparer_GetHashCode_mD68272AD873202C39427019A58D5AC53BA2432AC (void);
 // 0x00000122 System.Collections.Generic.Dictionary`2<UnityEngine.Rendering.PostProcessing.PostProcessEvent,System.Collections.Generic.List`1<UnityEngine.Rendering.PostProcessing.PostProcessLayer/SerializedBundleRef>> UnityEngine.Rendering.PostProcessing.PostProcessLayer::get_sortedBundles()
-extern void PostProcessLayer_get_sortedBundles_m1C832D9F4C17EBC0E9E8704923DE1876634588B9 (void);
+extern void PostProcessLayer_get_sortedBundles_m7F527E542B4326BD09832F981A8DB7FDDC47C1C3 (void);
 // 0x00000123 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::set_sortedBundles(System.Collections.Generic.Dictionary`2<UnityEngine.Rendering.PostProcessing.PostProcessEvent,System.Collections.Generic.List`1<UnityEngine.Rendering.PostProcessing.PostProcessLayer/SerializedBundleRef>>)
-extern void PostProcessLayer_set_sortedBundles_mF014B030591011A9935170FCC8747EDD3F6075FF (void);
+extern void PostProcessLayer_set_sortedBundles_m43C16332F23BBB734D3C283DE6F19AE7859CE671 (void);
 // 0x00000124 UnityEngine.DepthTextureMode UnityEngine.Rendering.PostProcessing.PostProcessLayer::get_cameraDepthFlags()
-extern void PostProcessLayer_get_cameraDepthFlags_m7B14DC4DFC770826A06AF45843738D2EC68EDD01 (void);
+extern void PostProcessLayer_get_cameraDepthFlags_mCD1FA03FAD69711693C0E6B3B6DDEECA97FCA5E5 (void);
 // 0x00000125 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::set_cameraDepthFlags(UnityEngine.DepthTextureMode)
-extern void PostProcessLayer_set_cameraDepthFlags_mBC9A8CE97A08E406A3DF3F3F6AAA157330316578 (void);
+extern void PostProcessLayer_set_cameraDepthFlags_m40AF94D61FBD5E5388CFD5C713ABD33467E7EBEE (void);
 // 0x00000126 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessLayer::get_haveBundlesBeenInited()
-extern void PostProcessLayer_get_haveBundlesBeenInited_m8FC1BB2B461C9427AE234EAB8B3C83339B0C544B (void);
+extern void PostProcessLayer_get_haveBundlesBeenInited_m875912DA8C9089CAD6FBA02041A598C77BF3FA28 (void);
 // 0x00000127 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::set_haveBundlesBeenInited(System.Boolean)
-extern void PostProcessLayer_set_haveBundlesBeenInited_mC73845F7B1DF581C092B4A735244B17E75D979FA (void);
+extern void PostProcessLayer_set_haveBundlesBeenInited_mDAC84DE4D411C12D63923C06E0EB331FE1BA733E (void);
 // 0x00000128 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::OnEnable()
-extern void PostProcessLayer_OnEnable_m9CF9B052529EEF6E2016CE00FFBA81C130342EE2 (void);
+extern void PostProcessLayer_OnEnable_m038AEF25333C15073060C4FF1A217AADAE648779 (void);
 // 0x00000129 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::InitLegacy()
-extern void PostProcessLayer_InitLegacy_m354AC408E683A1B536D8C30BA93720037025BB5E (void);
+extern void PostProcessLayer_InitLegacy_mFB3E1F8550B26314EB66AAF52ACC4951CF40FD01 (void);
 // 0x0000012A System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessLayer::DynamicResolutionAllowsFinalBlitToCameraTarget()
-extern void PostProcessLayer_DynamicResolutionAllowsFinalBlitToCameraTarget_m9AACAA266C7632AF1B271CA5A4B3ADB8713BF199 (void);
+extern void PostProcessLayer_DynamicResolutionAllowsFinalBlitToCameraTarget_mA7DEE562681AA1DCE31197282E89A9E3CC4DA689 (void);
 // 0x0000012B System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::OnRenderImage(UnityEngine.RenderTexture,UnityEngine.RenderTexture)
-extern void PostProcessLayer_OnRenderImage_m88AE7F294CBCA2042C76BC0B45544109752B4FA4 (void);
+extern void PostProcessLayer_OnRenderImage_m8A9A17B541C8F4490205B5CE434B07FE9FF8FCA1 (void);
 // 0x0000012C System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::Init(UnityEngine.Rendering.PostProcessing.PostProcessResources)
-extern void PostProcessLayer_Init_m0FDB593A6B13381DAFAA2078CCA2F913AAC983F9 (void);
+extern void PostProcessLayer_Init_m7059B365A95482AA821896EB5771FEDCB5522D58 (void);
 // 0x0000012D System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::InitBundles()
-extern void PostProcessLayer_InitBundles_mF98EC0C218D2F1E0D21B643EEBE109CA4F8C71B3 (void);
+extern void PostProcessLayer_InitBundles_mD814393DE3858B94DD4E2A10E022033646773F91 (void);
 // 0x0000012E System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::UpdateBundleSortList(System.Collections.Generic.List`1<UnityEngine.Rendering.PostProcessing.PostProcessLayer/SerializedBundleRef>,UnityEngine.Rendering.PostProcessing.PostProcessEvent)
-extern void PostProcessLayer_UpdateBundleSortList_m5FC7EB336E878E425F971CB0BDB37FC55CF40A62 (void);
+extern void PostProcessLayer_UpdateBundleSortList_m56105BF16E586720CBE1F3C38056370F7A164085 (void);
 // 0x0000012F System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::OnDisable()
-extern void PostProcessLayer_OnDisable_m8F51B4254A45A8E2A323478871B69427A98F7094 (void);
+extern void PostProcessLayer_OnDisable_m62CC05ABE560523CB141ED103D59BA976FAC86FA (void);
 // 0x00000130 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::Reset()
-extern void PostProcessLayer_Reset_m96933BBE49EB42C0B5B754EEF3B22B33C0B20B1C (void);
+extern void PostProcessLayer_Reset_mE0E7046035DCE582615748E0B81BC3FA7CFC44F9 (void);
 // 0x00000131 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::OnPreCull()
-extern void PostProcessLayer_OnPreCull_m0E5B78C5458852CDF36759FA5E785109E23FA426 (void);
+extern void PostProcessLayer_OnPreCull_mC755907A06C3F0F0CE22DF2FF933A0A812618E13 (void);
 // 0x00000132 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::OnPreRender()
-extern void PostProcessLayer_OnPreRender_mB714954409087F5BA3EF538B47338B77F5E20B2E (void);
+extern void PostProcessLayer_OnPreRender_mA87D4DDF7A35E0DEF1C7E9F43D7859FE944CCD59 (void);
 // 0x00000133 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessLayer::RequiresInitialBlit(UnityEngine.Camera,UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void PostProcessLayer_RequiresInitialBlit_mD66D72DEBA225AC8F064BED6451AA98C410F8226 (void);
+extern void PostProcessLayer_RequiresInitialBlit_m98BC117C7E65CDC76C3EABD797EA1E98BF7680E5 (void);
 // 0x00000134 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::UpdateSrcDstForOpaqueOnly(System.Int32&,System.Int32&,UnityEngine.Rendering.PostProcessing.PostProcessRenderContext,UnityEngine.Rendering.RenderTargetIdentifier,System.Int32)
-extern void PostProcessLayer_UpdateSrcDstForOpaqueOnly_m06DEFDC679EDCE932F13D9258CD4B159C7172DF3 (void);
+extern void PostProcessLayer_UpdateSrcDstForOpaqueOnly_mA073B6B2BC7FCD8FE5454E061C29520C7FDBCE28 (void);
 // 0x00000135 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::BuildCommandBuffers()
-extern void PostProcessLayer_BuildCommandBuffers_m8C6C6754F27A786AD80D12898F26711769FCE03D (void);
+extern void PostProcessLayer_BuildCommandBuffers_m3BB6EA16C9358EA7EC921C01FA8BC5AFA8D32B66 (void);
 // 0x00000136 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::OnPostRender()
-extern void PostProcessLayer_OnPostRender_m3EF2E660A385A6FE533503FCFBAE2481AB2767F8 (void);
+extern void PostProcessLayer_OnPostRender_m8605BB280184DA80938484798979E71231CC3FFC (void);
 // 0x00000137 UnityEngine.Rendering.PostProcessing.PostProcessBundle UnityEngine.Rendering.PostProcessing.PostProcessLayer::GetBundle()
 // 0x00000138 UnityEngine.Rendering.PostProcessing.PostProcessBundle UnityEngine.Rendering.PostProcessing.PostProcessLayer::GetBundle(System.Type)
-extern void PostProcessLayer_GetBundle_mFE6B4B8D6F1300AB3A011A60E25FB3A9C7EF4A67 (void);
+extern void PostProcessLayer_GetBundle_m82529C003E49C026D4BCC02059CD4F8C03922B28 (void);
 // 0x00000139 T UnityEngine.Rendering.PostProcessing.PostProcessLayer::GetSettings()
 // 0x0000013A System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::BakeMSVOMap(UnityEngine.Rendering.CommandBuffer,UnityEngine.Camera,UnityEngine.Rendering.RenderTargetIdentifier,System.Nullable`1<UnityEngine.Rendering.RenderTargetIdentifier>,System.Boolean,System.Boolean)
-extern void PostProcessLayer_BakeMSVOMap_m2103A1A15DE80E0036FE655A19740615E9196F7D (void);
+extern void PostProcessLayer_BakeMSVOMap_m7FFF41E558912FA0A5E5002E242D54473699A18F (void);
 // 0x0000013B System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::OverrideSettings(System.Collections.Generic.List`1<UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings>,System.Single)
-extern void PostProcessLayer_OverrideSettings_m49989C317280F87560366678EBCFF62739921F7C (void);
+extern void PostProcessLayer_OverrideSettings_m83A232955C850CBB747E71A6AC5857A8A63D3925 (void);
 // 0x0000013C System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::SetLegacyCameraFlags(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void PostProcessLayer_SetLegacyCameraFlags_m72D14BAB60AC3CEE06CEFF07D112D46486A2F958 (void);
+extern void PostProcessLayer_SetLegacyCameraFlags_m361B7962131650ECDA4E3F59C83A16FA64FD07FC (void);
 // 0x0000013D System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::ResetHistory()
-extern void PostProcessLayer_ResetHistory_mB886C39683321E5A65C86CE6D13860B7DEA79100 (void);
+extern void PostProcessLayer_ResetHistory_mC960CBC3E1ED40E0DF175BDB231BF9E6B2557B71 (void);
 // 0x0000013E System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessLayer::HasOpaqueOnlyEffects(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void PostProcessLayer_HasOpaqueOnlyEffects_mFD8E5AB8219E71D4464704477E0EFF8A42D94F6B (void);
+extern void PostProcessLayer_HasOpaqueOnlyEffects_m3684482D330279919C983DC7BB3961C77F98BBD4 (void);
 // 0x0000013F System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessLayer::HasActiveEffects(UnityEngine.Rendering.PostProcessing.PostProcessEvent,UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void PostProcessLayer_HasActiveEffects_mE7155905AC4D8288AF4CF87F542511377F110AB7 (void);
+extern void PostProcessLayer_HasActiveEffects_m8FDE4761D6E4BEE273E722140B105ADBD6E15909 (void);
 // 0x00000140 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::SetupContext(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void PostProcessLayer_SetupContext_mB51E288FAF90059C947F7B56982611A62D92B190 (void);
+extern void PostProcessLayer_SetupContext_m62E4AE18C83A990DE9A597891B3B4E2662DDC10C (void);
 // 0x00000141 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::UpdateVolumeSystem(UnityEngine.Camera,UnityEngine.Rendering.CommandBuffer)
-extern void PostProcessLayer_UpdateVolumeSystem_m67096C3D2687CA32B0CAA5EEC3EFDBDCD1156DD2 (void);
+extern void PostProcessLayer_UpdateVolumeSystem_m689BA9BBCFC0BC579FBCFFC03E16D57020ABE64A (void);
 // 0x00000142 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::RenderOpaqueOnly(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void PostProcessLayer_RenderOpaqueOnly_m3A58A1E06E6DBA8D582F18BBCB1BCF58B702B508 (void);
+extern void PostProcessLayer_RenderOpaqueOnly_mE60D48853AA875751334DFB1C881B37F1321390A (void);
 // 0x00000143 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::Render(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void PostProcessLayer_Render_m9AD8F461328CF3AAD58078BE9959D39A5DB20191 (void);
+extern void PostProcessLayer_Render_m20436CD2D012C080C4DD3FAC79D63E98A5EF0BF4 (void);
 // 0x00000144 System.Int32 UnityEngine.Rendering.PostProcessing.PostProcessLayer::RenderInjectionPoint(UnityEngine.Rendering.PostProcessing.PostProcessEvent,UnityEngine.Rendering.PostProcessing.PostProcessRenderContext,System.String,System.Int32)
-extern void PostProcessLayer_RenderInjectionPoint_m42D83392ABD881E8434BABB7F8BC46E548DE8EBB (void);
+extern void PostProcessLayer_RenderInjectionPoint_m01C078BBEDB9851E8E8CB0FC4603E56421DB9D29 (void);
 // 0x00000145 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::RenderList(System.Collections.Generic.List`1<UnityEngine.Rendering.PostProcessing.PostProcessLayer/SerializedBundleRef>,UnityEngine.Rendering.PostProcessing.PostProcessRenderContext,System.String)
-extern void PostProcessLayer_RenderList_m478A2ECAB77361DB4A85AE3B2A5FD55A65D6D851 (void);
+extern void PostProcessLayer_RenderList_m11987024F4B018FDA5524BE0B4B4A3918682D292 (void);
 // 0x00000146 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::ApplyFlip(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext,UnityEngine.MaterialPropertyBlock)
-extern void PostProcessLayer_ApplyFlip_m64131F71DAA216E393712E1B43656056B16F6DFC (void);
+extern void PostProcessLayer_ApplyFlip_mB31467464158960ACE257039E6C3124A04E7EA3F (void);
 // 0x00000147 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::ApplyDefaultFlip(UnityEngine.MaterialPropertyBlock)
-extern void PostProcessLayer_ApplyDefaultFlip_mA6FF046E1DC3BABDAE6ABEB463F139329516B2DD (void);
+extern void PostProcessLayer_ApplyDefaultFlip_m35A97C9027CE51CC70BAC26B1E99C7C525AAF1BB (void);
 // 0x00000148 System.Int32 UnityEngine.Rendering.PostProcessing.PostProcessLayer::RenderBuiltins(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext,System.Boolean,System.Int32,System.Int32)
-extern void PostProcessLayer_RenderBuiltins_mB9B7DA7EE55CAC51BF153F488BFCAF5800D3FFB0 (void);
+extern void PostProcessLayer_RenderBuiltins_mF3469C24150B99C8D013A2EEFBD23CB5EE847C27 (void);
 // 0x00000149 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::RenderFinalPass(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext,System.Int32,System.Int32)
-extern void PostProcessLayer_RenderFinalPass_mA79AF4EF4D050FED050FF29356384FE8F681044F (void);
+extern void PostProcessLayer_RenderFinalPass_mFFE0D433E1D5869D4CE990E18A225B7036CB07FC (void);
 // 0x0000014A System.Int32 UnityEngine.Rendering.PostProcessing.PostProcessLayer::RenderEffect(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext,System.Boolean)
 // 0x0000014B System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessLayer::ShouldGenerateLogHistogram(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void PostProcessLayer_ShouldGenerateLogHistogram_m69235046FAF79ECE1E98A97DB703550D1AF56BDD (void);
-// 0x0000014C System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessLayer::HasAlpha(UnityEngine.RenderTextureFormat)
-extern void PostProcessLayer_HasAlpha_mDE928A04CEF23E731DD324026784BB6EFEBB29D1 (void);
-// 0x0000014D System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::.ctor()
-extern void PostProcessLayer__ctor_mD8712392B04023FC43F79821EC8A498B33043683 (void);
-// 0x0000014E System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer/SerializedBundleRef::.ctor()
-extern void SerializedBundleRef__ctor_mF79561705E11260D6DE0F7022B78D6CBFCD75BC9 (void);
-// 0x0000014F System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c__DisplayClass54_0::.ctor()
-extern void U3CU3Ec__DisplayClass54_0__ctor_mE4663058DF29F83DC658899887FEA21A00782E5C (void);
-// 0x00000150 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c__DisplayClass54_0::<UpdateBundleSortList>b__0(System.Collections.Generic.KeyValuePair`2<System.Type,UnityEngine.Rendering.PostProcessing.PostProcessBundle>)
-extern void U3CU3Ec__DisplayClass54_0_U3CUpdateBundleSortListU3Eb__0_m68FE9719E12A93BBC74A3446509B93A404D9E081 (void);
-// 0x00000151 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c__DisplayClass54_0::<UpdateBundleSortList>b__2(UnityEngine.Rendering.PostProcessing.PostProcessLayer/SerializedBundleRef)
-extern void U3CU3Ec__DisplayClass54_0_U3CUpdateBundleSortListU3Eb__2_mD7BD333124C1F57B7842028BF5E1B53EB8BBF368 (void);
-// 0x00000152 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c__DisplayClass54_1::.ctor()
-extern void U3CU3Ec__DisplayClass54_1__ctor_mAC82F6C1E46CBDE83CFF53574D9910FADB232983 (void);
-// 0x00000153 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c__DisplayClass54_1::<UpdateBundleSortList>b__3(UnityEngine.Rendering.PostProcessing.PostProcessBundle)
-extern void U3CU3Ec__DisplayClass54_1_U3CUpdateBundleSortListU3Eb__3_m240E53745432F10C5F771D79E4B629B46E665D41 (void);
-// 0x00000154 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c__DisplayClass54_2::.ctor()
-extern void U3CU3Ec__DisplayClass54_2__ctor_m36472C800FCB96E7021A9ED363DBCDFE8102F00F (void);
-// 0x00000155 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c__DisplayClass54_2::<UpdateBundleSortList>b__4(UnityEngine.Rendering.PostProcessing.PostProcessLayer/SerializedBundleRef)
-extern void U3CU3Ec__DisplayClass54_2_U3CUpdateBundleSortListU3Eb__4_mDAA5434E8160298ACAEE90154CA37D7DE54DEC84 (void);
-// 0x00000156 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c__DisplayClass54_3::.ctor()
-extern void U3CU3Ec__DisplayClass54_3__ctor_mDF80A7734D48DF6C65686CEFA8DEFEE73C64EC51 (void);
-// 0x00000157 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c__DisplayClass54_3::<UpdateBundleSortList>b__5(UnityEngine.Rendering.PostProcessing.PostProcessBundle)
-extern void U3CU3Ec__DisplayClass54_3_U3CUpdateBundleSortListU3Eb__5_mEF229FE5216D4F13351BCF429CAB0C4B83462935 (void);
-// 0x00000158 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c::.cctor()
-extern void U3CU3Ec__cctor_m4A509F397AFC6DD90DDAEBED822D0AD13621AE73 (void);
-// 0x00000159 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c::.ctor()
-extern void U3CU3Ec__ctor_m14CE645D40F0ED598B358C218449CC214E67F6D5 (void);
-// 0x0000015A UnityEngine.Rendering.PostProcessing.PostProcessBundle UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c::<UpdateBundleSortList>b__54_1(System.Collections.Generic.KeyValuePair`2<System.Type,UnityEngine.Rendering.PostProcessing.PostProcessBundle>)
-extern void U3CU3Ec_U3CUpdateBundleSortListU3Eb__54_1_m6F744BBAF634606AB77DCEFB1F8645805257300D (void);
-// 0x0000015B UnityEngine.Rendering.PostProcessing.PostProcessManager UnityEngine.Rendering.PostProcessing.PostProcessManager::get_instance()
-extern void PostProcessManager_get_instance_mAADE6DC8E78168BEA2E1B48B4AA1715DB47945BE (void);
-// 0x0000015C System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::.ctor()
-extern void PostProcessManager__ctor_mE18C53FBF36094C52BF5E888AA8E399423BE6688 (void);
-// 0x0000015D System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::CleanBaseTypes()
-extern void PostProcessManager_CleanBaseTypes_m3CE8A80B457017D42537722008D62AD735AD7E02 (void);
-// 0x0000015E System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::ReloadBaseTypes()
-extern void PostProcessManager_ReloadBaseTypes_m1945136D79E4679F586C858EE2A72631A3FF9360 (void);
-// 0x0000015F System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::GetActiveVolumes(UnityEngine.Rendering.PostProcessing.PostProcessLayer,System.Collections.Generic.List`1<UnityEngine.Rendering.PostProcessing.PostProcessVolume>,System.Boolean,System.Boolean)
-extern void PostProcessManager_GetActiveVolumes_mE1DE0B97D24148DD711FD4FDDD50539861B2AEE7 (void);
-// 0x00000160 UnityEngine.Rendering.PostProcessing.PostProcessVolume UnityEngine.Rendering.PostProcessing.PostProcessManager::GetHighestPriorityVolume(UnityEngine.Rendering.PostProcessing.PostProcessLayer)
-extern void PostProcessManager_GetHighestPriorityVolume_m186B87FC51722A91E9EB72F94B2ADA49D36415FF (void);
-// 0x00000161 UnityEngine.Rendering.PostProcessing.PostProcessVolume UnityEngine.Rendering.PostProcessing.PostProcessManager::GetHighestPriorityVolume(UnityEngine.LayerMask)
-extern void PostProcessManager_GetHighestPriorityVolume_m7EE09A9E1D8C17AF61A84C1518B383F79008E1D3 (void);
-// 0x00000162 UnityEngine.Rendering.PostProcessing.PostProcessVolume UnityEngine.Rendering.PostProcessing.PostProcessManager::QuickVolume(System.Int32,System.Single,UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings[])
-extern void PostProcessManager_QuickVolume_m827605349F0365B9197849142456E71323569906 (void);
-// 0x00000163 System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::SetLayerDirty(System.Int32)
-extern void PostProcessManager_SetLayerDirty_m85F4D44F755A2E86AF17993DDA7A2CD47ECF568B (void);
-// 0x00000164 System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::UpdateVolumeLayer(UnityEngine.Rendering.PostProcessing.PostProcessVolume,System.Int32,System.Int32)
-extern void PostProcessManager_UpdateVolumeLayer_mE7C602B2A996873EFEAE5619F4E410AC55CDF9F9 (void);
-// 0x00000165 System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::Register(UnityEngine.Rendering.PostProcessing.PostProcessVolume,System.Int32)
-extern void PostProcessManager_Register_m1C449C90BAD2503D192D361F09DE5B8FD4E8D1D0 (void);
-// 0x00000166 System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::Register(UnityEngine.Rendering.PostProcessing.PostProcessVolume)
-extern void PostProcessManager_Register_m8A5D93C913BA9E62722006B1ED8C5C7BD2A5C36A (void);
-// 0x00000167 System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::Unregister(UnityEngine.Rendering.PostProcessing.PostProcessVolume,System.Int32)
-extern void PostProcessManager_Unregister_m96F25B0BB879AA90EFAFA0CC051EFC96B3B8982F (void);
-// 0x00000168 System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::Unregister(UnityEngine.Rendering.PostProcessing.PostProcessVolume)
-extern void PostProcessManager_Unregister_m49EE0FFAD8D79AB25CCF12C82C17C831ADE9C79F (void);
-// 0x00000169 System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::ReplaceData(UnityEngine.Rendering.PostProcessing.PostProcessLayer)
-extern void PostProcessManager_ReplaceData_mFCAC48F8D1C2581BDB1A72670EEB91DB2DCF5426 (void);
-// 0x0000016A System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::UpdateSettings(UnityEngine.Rendering.PostProcessing.PostProcessLayer,UnityEngine.Camera)
-extern void PostProcessManager_UpdateSettings_m4B9B9670DEDA150A20023F98DEB45DA98F120EEA (void);
-// 0x0000016B System.Collections.Generic.List`1<UnityEngine.Rendering.PostProcessing.PostProcessVolume> UnityEngine.Rendering.PostProcessing.PostProcessManager::GrabVolumes(UnityEngine.LayerMask)
-extern void PostProcessManager_GrabVolumes_m1AF11581681DB4092AE61C86D06F2463A36F7814 (void);
-// 0x0000016C System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::SortByPriority(System.Collections.Generic.List`1<UnityEngine.Rendering.PostProcessing.PostProcessVolume>)
-extern void PostProcessManager_SortByPriority_m1AA00E04F996DF2F0A808524FB3CD4A082B1F5F5 (void);
-// 0x0000016D System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessManager::IsVolumeRenderedByCamera(UnityEngine.Rendering.PostProcessing.PostProcessVolume,UnityEngine.Camera)
-extern void PostProcessManager_IsVolumeRenderedByCamera_mBD28781F400E3F3B69D3462017A0746D2847A947 (void);
-// 0x0000016E System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager/<>c::.cctor()
-extern void U3CU3Ec__cctor_m4E875ABE10ECE9CE0B92A81DD17EC2D4A6FD36D9 (void);
-// 0x0000016F System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager/<>c::.ctor()
-extern void U3CU3Ec__ctor_mBDFDD56BBE85E5B393B14B106BAEB772C3CA95D4 (void);
-// 0x00000170 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessManager/<>c::<ReloadBaseTypes>b__12_0(System.Type)
-extern void U3CU3Ec_U3CReloadBaseTypesU3Eb__12_0_m865537CCEE58BF53B4AC1A1EF580E114A31BAE85 (void);
-// 0x00000171 System.Void UnityEngine.Rendering.PostProcessing.PostProcessProfile::OnEnable()
-extern void PostProcessProfile_OnEnable_m23364CDE321796BC226CBEFAF9DC6F1323938CDC (void);
-// 0x00000172 T UnityEngine.Rendering.PostProcessing.PostProcessProfile::AddSettings()
-// 0x00000173 UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings UnityEngine.Rendering.PostProcessing.PostProcessProfile::AddSettings(System.Type)
-extern void PostProcessProfile_AddSettings_m610279C7E82C2F2E9156FF80FE7F6C3A2FC1F1C3 (void);
-// 0x00000174 UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings UnityEngine.Rendering.PostProcessing.PostProcessProfile::AddSettings(UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings)
-extern void PostProcessProfile_AddSettings_m7446918C8FB730367D486136D3DF233B57A5FCD8 (void);
-// 0x00000175 System.Void UnityEngine.Rendering.PostProcessing.PostProcessProfile::RemoveSettings()
-// 0x00000176 System.Void UnityEngine.Rendering.PostProcessing.PostProcessProfile::RemoveSettings(System.Type)
-extern void PostProcessProfile_RemoveSettings_mA0FB19DEC43521661C67F12EF6A13DB3F8D3B9EC (void);
-// 0x00000177 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessProfile::HasSettings()
-// 0x00000178 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessProfile::HasSettings(System.Type)
-extern void PostProcessProfile_HasSettings_mAAAD536DF4C2CBD9EB73C2683D007F65297BD8BC (void);
-// 0x00000179 T UnityEngine.Rendering.PostProcessing.PostProcessProfile::GetSetting()
-// 0x0000017A System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessProfile::TryGetSettings(T&)
-// 0x0000017B System.Void UnityEngine.Rendering.PostProcessing.PostProcessProfile::.ctor()
-extern void PostProcessProfile__ctor_m665590DA298A7A9BB57B1C54FE52F252C1B399DE (void);
-// 0x0000017C System.Void UnityEngine.Rendering.PostProcessing.PostProcessProfile/<>c::.cctor()
-extern void U3CU3Ec__cctor_m5120AEC1D5F6E171DAE28DFAB9DE1411820F9FD8 (void);
-// 0x0000017D System.Void UnityEngine.Rendering.PostProcessing.PostProcessProfile/<>c::.ctor()
-extern void U3CU3Ec__ctor_m28471842FE201AEF91CB04F5F8FBABF89DA37BB7 (void);
-// 0x0000017E System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessProfile/<>c::<OnEnable>b__2_0(UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings)
-extern void U3CU3Ec_U3COnEnableU3Eb__2_0_mEBC7A0AA00EBF9BFA5042D81206E56B406A1FCD7 (void);
-// 0x0000017F UnityEngine.Camera UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_camera()
-extern void PostProcessRenderContext_get_camera_m03C2533C3B4CC5300541CEC486849C58B1F8BBAE (void);
-// 0x00000180 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_camera(UnityEngine.Camera)
-extern void PostProcessRenderContext_set_camera_m616159FD16EF298057D8C92C9D4E04DC583A35CF (void);
-// 0x00000181 UnityEngine.Rendering.CommandBuffer UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_command()
-extern void PostProcessRenderContext_get_command_m028BE33B6194640A1DE901A6F935658034A3E2CD (void);
-// 0x00000182 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_command(UnityEngine.Rendering.CommandBuffer)
-extern void PostProcessRenderContext_set_command_m383214635AE4777FFE746270157B265E6CB3A799 (void);
-// 0x00000183 UnityEngine.Rendering.RenderTargetIdentifier UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_source()
-extern void PostProcessRenderContext_get_source_mD66060FCBE2897F0510AE91E86370440226FA430 (void);
-// 0x00000184 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_source(UnityEngine.Rendering.RenderTargetIdentifier)
-extern void PostProcessRenderContext_set_source_m8747B57F6213BC84C7C2990508D029FB4D31C3DE (void);
-// 0x00000185 UnityEngine.Rendering.RenderTargetIdentifier UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_destination()
-extern void PostProcessRenderContext_get_destination_m9A1924F891A773105919295D97A474741CAB9F28 (void);
-// 0x00000186 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_destination(UnityEngine.Rendering.RenderTargetIdentifier)
-extern void PostProcessRenderContext_set_destination_mED49AE5FCE8CEB9D8B64AA82E1693D4913D48759 (void);
-// 0x00000187 UnityEngine.RenderTextureFormat UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_sourceFormat()
-extern void PostProcessRenderContext_get_sourceFormat_m5EB6DD7D586BC0E5B3E3C385CF96AC63575ED61B (void);
-// 0x00000188 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_sourceFormat(UnityEngine.RenderTextureFormat)
-extern void PostProcessRenderContext_set_sourceFormat_mFBDC1C325F8E32DA2A40C784659D2DD8BA057258 (void);
-// 0x00000189 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_flip()
-extern void PostProcessRenderContext_get_flip_mFE0933034DE2E1C6174C09EED54F03C472D29C32 (void);
-// 0x0000018A System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_flip(System.Boolean)
-extern void PostProcessRenderContext_set_flip_m91DFA83ED3118BB02CF2849D2177C65D186F3E11 (void);
-// 0x0000018B UnityEngine.Rendering.PostProcessing.PostProcessResources UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_resources()
-extern void PostProcessRenderContext_get_resources_m89879DF69E4B910F9EE3008AB8DC60B732ABF02A (void);
-// 0x0000018C System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_resources(UnityEngine.Rendering.PostProcessing.PostProcessResources)
-extern void PostProcessRenderContext_set_resources_mD928596BD2CF34330CA3F8FA83845C9BB39E5651 (void);
-// 0x0000018D UnityEngine.Rendering.PostProcessing.PropertySheetFactory UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_propertySheets()
-extern void PostProcessRenderContext_get_propertySheets_m60E7825143611FEC183803150D8F7C2785514D79 (void);
-// 0x0000018E System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_propertySheets(UnityEngine.Rendering.PostProcessing.PropertySheetFactory)
-extern void PostProcessRenderContext_set_propertySheets_m06436C85901FFAF383447F35F3A19909E1C60344 (void);
-// 0x0000018F System.Collections.Generic.Dictionary`2<System.String,System.Object> UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_userData()
-extern void PostProcessRenderContext_get_userData_m9C88F1615E7C029E65F8A1BA3C0D22986FE27B98 (void);
-// 0x00000190 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_userData(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
-extern void PostProcessRenderContext_set_userData_m1D9CEBBB566FC3841231E033269B030FDBE98431 (void);
-// 0x00000191 UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_debugLayer()
-extern void PostProcessRenderContext_get_debugLayer_mD44CD6FBE77E24B243E0EDE0A332A6BB32AA6C25 (void);
-// 0x00000192 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_debugLayer(UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer)
-extern void PostProcessRenderContext_set_debugLayer_mF9A346FF61AD7CD0AC5605BD3B2A2007084CFA5A (void);
-// 0x00000193 System.Int32 UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_width()
-extern void PostProcessRenderContext_get_width_m551FAECA1D38B547E9337BEC7316D6B113B00F03 (void);
-// 0x00000194 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_width(System.Int32)
-extern void PostProcessRenderContext_set_width_m1613BDCAF13B96F72BE7A91E82E9EB6D1C4C39EF (void);
-// 0x00000195 System.Int32 UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_height()
-extern void PostProcessRenderContext_get_height_mECB24899496181711525B9E8204F8A85AAA84181 (void);
-// 0x00000196 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_height(System.Int32)
-extern void PostProcessRenderContext_set_height_m4CAF4DB1F50557C276D2683C799FC9CFC19B357F (void);
-// 0x00000197 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_stereoActive()
-extern void PostProcessRenderContext_get_stereoActive_m54D0889CF302150E3850FD7BA9AF72BB9EE94C7B (void);
-// 0x00000198 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_stereoActive(System.Boolean)
-extern void PostProcessRenderContext_set_stereoActive_m133C99DFFB79D8C1D33176258C5A96D8587CDEB0 (void);
-// 0x00000199 System.Int32 UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_xrActiveEye()
-extern void PostProcessRenderContext_get_xrActiveEye_m1ED0BDA4DC07BAD4096F3B66DF35520815C7F208 (void);
-// 0x0000019A System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_xrActiveEye(System.Int32)
-extern void PostProcessRenderContext_set_xrActiveEye_mA344A4FBC049CA99096413FBE81F0F8F9A12D9A8 (void);
-// 0x0000019B System.Int32 UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_numberOfEyes()
-extern void PostProcessRenderContext_get_numberOfEyes_m172652A2003AFD49FB6ED64C3F46249B92D21AE4 (void);
-// 0x0000019C System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_numberOfEyes(System.Int32)
-extern void PostProcessRenderContext_set_numberOfEyes_m047ECAB2F0CE41026EECD96F2FDAC3B49AB178B9 (void);
-// 0x0000019D UnityEngine.Rendering.PostProcessing.PostProcessRenderContext/StereoRenderingMode UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_stereoRenderingMode()
-extern void PostProcessRenderContext_get_stereoRenderingMode_m674A9251277DC05913F1EA02B6E5ADA1AE4E00F5 (void);
-// 0x0000019E System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_stereoRenderingMode(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext/StereoRenderingMode)
-extern void PostProcessRenderContext_set_stereoRenderingMode_mCCE43DEFBEFEEAE8D4512991FA5117C781710287 (void);
-// 0x0000019F System.Int32 UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_screenWidth()
-extern void PostProcessRenderContext_get_screenWidth_mF6EF29A7E49F6132C7376A841571FB65A1573147 (void);
-// 0x000001A0 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_screenWidth(System.Int32)
-extern void PostProcessRenderContext_set_screenWidth_m2472914DC0C907A2A78B7BB990F3DBE9DE785C5C (void);
-// 0x000001A1 System.Int32 UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_screenHeight()
-extern void PostProcessRenderContext_get_screenHeight_mFF2D3EF9A84D53D9125EF96DD746CF8B257687FD (void);
-// 0x000001A2 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_screenHeight(System.Int32)
-extern void PostProcessRenderContext_set_screenHeight_m3D69896EFE6A480285D300EA3E99164661144FC4 (void);
-// 0x000001A3 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_isSceneView()
-extern void PostProcessRenderContext_get_isSceneView_mADB2A9705C42D62BCB2DD13C1A64202A7BF32801 (void);
-// 0x000001A4 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_isSceneView(System.Boolean)
-extern void PostProcessRenderContext_set_isSceneView_m25BC585A98717333E55435BF060FBC8352979120 (void);
-// 0x000001A5 UnityEngine.Rendering.PostProcessing.PostProcessLayer/Antialiasing UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_antialiasing()
-extern void PostProcessRenderContext_get_antialiasing_m8FA450C8086C96DB987CF8F9B707DA5CFB7AA108 (void);
-// 0x000001A6 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_antialiasing(UnityEngine.Rendering.PostProcessing.PostProcessLayer/Antialiasing)
-extern void PostProcessRenderContext_set_antialiasing_m487F83A7E53C46AE4C2015794DA6568950E3C181 (void);
-// 0x000001A7 UnityEngine.Rendering.PostProcessing.TemporalAntialiasing UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_temporalAntialiasing()
-extern void PostProcessRenderContext_get_temporalAntialiasing_m18BFEF6B423A28BD505D611A15643580B8E6CCD7 (void);
-// 0x000001A8 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_temporalAntialiasing(UnityEngine.Rendering.PostProcessing.TemporalAntialiasing)
-extern void PostProcessRenderContext_set_temporalAntialiasing_mF2B2A0D8F39F49690FD4F76B3347C4D168B22597 (void);
-// 0x000001A9 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::Reset()
-extern void PostProcessRenderContext_Reset_m69F96AA7B7CCE9927AB6061B887CF81F8AF06BCB (void);
-// 0x000001AA System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::IsTemporalAntialiasingActive()
-extern void PostProcessRenderContext_IsTemporalAntialiasingActive_m835118A884E10E19B5625C77EC029B088ECE11E3 (void);
-// 0x000001AB System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::IsDebugOverlayEnabled(UnityEngine.Rendering.PostProcessing.DebugOverlay)
-extern void PostProcessRenderContext_IsDebugOverlayEnabled_m10FA8ED9E7FE01A6B9FB48BFF9B19A5F70908927 (void);
-// 0x000001AC System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::PushDebugOverlay(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.PostProcessing.PropertySheet,System.Int32)
-extern void PostProcessRenderContext_PushDebugOverlay_m543E6F22232FAC40200E8D93FE089CFE05FF2860 (void);
-// 0x000001AD UnityEngine.RenderTextureDescriptor UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::GetDescriptor(System.Int32,UnityEngine.RenderTextureFormat,UnityEngine.RenderTextureReadWrite)
-extern void PostProcessRenderContext_GetDescriptor_m60FCFCD9D6751F4A6F6A3CC93D3630B8052BA662 (void);
-// 0x000001AE System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::GetScreenSpaceTemporaryRT(UnityEngine.Rendering.CommandBuffer,System.Int32,System.Int32,UnityEngine.RenderTextureFormat,UnityEngine.RenderTextureReadWrite,UnityEngine.FilterMode,System.Int32,System.Int32)
-extern void PostProcessRenderContext_GetScreenSpaceTemporaryRT_m57C7BBE2412BE154A54A57A7794A157BEB033E83 (void);
-// 0x000001AF UnityEngine.RenderTexture UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::GetScreenSpaceTemporaryRT(System.Int32,UnityEngine.RenderTextureFormat,UnityEngine.RenderTextureReadWrite,System.Int32,System.Int32)
-extern void PostProcessRenderContext_GetScreenSpaceTemporaryRT_m74A46F835124FF373853218F774E7A178B80145C (void);
-// 0x000001B0 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::UpdateSinglePassStereoState(System.Boolean,System.Boolean,System.Boolean)
-extern void PostProcessRenderContext_UpdateSinglePassStereoState_m8BF9AC8139E61F9799B33B8E5B9D989E7A493D98 (void);
-// 0x000001B1 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::.ctor()
-extern void PostProcessRenderContext__ctor_m3475CD5D0C8B8A1BCEAC80C4FA8DBBA15A4EEF45 (void);
-// 0x000001B2 System.Void UnityEngine.Rendering.PostProcessing.PostProcessResources::.ctor()
-extern void PostProcessResources__ctor_mD8FED6086600D1B1502981BB6653372136779B5F (void);
-// 0x000001B3 UnityEngine.Rendering.PostProcessing.PostProcessResources/Shaders UnityEngine.Rendering.PostProcessing.PostProcessResources/Shaders::Clone()
-extern void Shaders_Clone_mE43ADD04A701E40A2B13AA099B2F9AD41FC762CD (void);
-// 0x000001B4 System.Void UnityEngine.Rendering.PostProcessing.PostProcessResources/Shaders::.ctor()
-extern void Shaders__ctor_mBA5C3BD6B1ACC5F0CA9824495FC283988F5EAEB3 (void);
-// 0x000001B5 UnityEngine.Rendering.PostProcessing.PostProcessResources/ComputeShaders UnityEngine.Rendering.PostProcessing.PostProcessResources/ComputeShaders::Clone()
-extern void ComputeShaders_Clone_m83E53DB9116485FDD4BB44E48B514E3A3CC9E5E9 (void);
-// 0x000001B6 System.Void UnityEngine.Rendering.PostProcessing.PostProcessResources/ComputeShaders::.ctor()
-extern void ComputeShaders__ctor_m311C126CA5133910F014F4FEA6E3ABE8BE1300F1 (void);
-// 0x000001B7 System.Void UnityEngine.Rendering.PostProcessing.PostProcessResources/SMAALuts::.ctor()
-extern void SMAALuts__ctor_m687B0322BBE8261955C375339262DDC04550A029 (void);
-// 0x000001B8 UnityEngine.Rendering.PostProcessing.PostProcessProfile UnityEngine.Rendering.PostProcessing.PostProcessVolume::get_profile()
-extern void PostProcessVolume_get_profile_m0055B48AC6C698FDD30573AA75D09D4BE1B2727D (void);
-// 0x000001B9 System.Void UnityEngine.Rendering.PostProcessing.PostProcessVolume::set_profile(UnityEngine.Rendering.PostProcessing.PostProcessProfile)
-extern void PostProcessVolume_set_profile_m45BDE65CB13CB5AE6C769F117C75563A78BD7BF8 (void);
-// 0x000001BA UnityEngine.Rendering.PostProcessing.PostProcessProfile UnityEngine.Rendering.PostProcessing.PostProcessVolume::get_profileRef()
-extern void PostProcessVolume_get_profileRef_m94E97BE839967F36E42FA05C626111242638CFEE (void);
-// 0x000001BB System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessVolume::HasInstantiatedProfile()
-extern void PostProcessVolume_HasInstantiatedProfile_mABB6FB57F696D6B8232710F2E97D2B0E6FB48663 (void);
-// 0x000001BC System.Int32 UnityEngine.Rendering.PostProcessing.PostProcessVolume::get_previousLayer()
-extern void PostProcessVolume_get_previousLayer_mDD1CFB67F2C14C50E3DE2430D1631145BE7079B2 (void);
-// 0x000001BD System.Void UnityEngine.Rendering.PostProcessing.PostProcessVolume::OnEnable()
-extern void PostProcessVolume_OnEnable_m538EE2AF9AB4EAC16D218CFB752A5DDC47D06FFB (void);
-// 0x000001BE System.Void UnityEngine.Rendering.PostProcessing.PostProcessVolume::OnDisable()
-extern void PostProcessVolume_OnDisable_m6EC44652B2F1F35FBE42213FBF5F432B594F5138 (void);
-// 0x000001BF System.Void UnityEngine.Rendering.PostProcessing.PostProcessVolume::Update()
-extern void PostProcessVolume_Update_m36216CCB5CE0AB129BE95B8FC92E5A13F8A0FC36 (void);
-// 0x000001C0 System.Void UnityEngine.Rendering.PostProcessing.PostProcessVolume::OnDrawGizmos()
-extern void PostProcessVolume_OnDrawGizmos_mB93DE796603855DF433CF9C12D18946CB29FE4BB (void);
-// 0x000001C1 System.Void UnityEngine.Rendering.PostProcessing.PostProcessVolume::.ctor()
-extern void PostProcessVolume__ctor_m8F2103B14292EE670A3E07AAC16A7CBF8141EA1E (void);
-// 0x000001C2 System.Single UnityEngine.Rendering.PostProcessing.ColorUtilities::StandardIlluminantY(System.Single)
-extern void ColorUtilities_StandardIlluminantY_m4784E66BC1F7391EB46005D5EEBF0627057B2763 (void);
-// 0x000001C3 UnityEngine.Vector3 UnityEngine.Rendering.PostProcessing.ColorUtilities::CIExyToLMS(System.Single,System.Single)
-extern void ColorUtilities_CIExyToLMS_m07B559E3AF22740A45229EFD63D7885EF79B4F53 (void);
-// 0x000001C4 UnityEngine.Vector3 UnityEngine.Rendering.PostProcessing.ColorUtilities::ComputeColorBalance(System.Single,System.Single)
-extern void ColorUtilities_ComputeColorBalance_mA83F1CFFA2504BA1FCB24D3BA6B670BF1816BB82 (void);
-// 0x000001C5 UnityEngine.Vector3 UnityEngine.Rendering.PostProcessing.ColorUtilities::ColorToLift(UnityEngine.Vector4)
-extern void ColorUtilities_ColorToLift_mB71B27EAC5FABED6580EAC23AF98AB360C73E818 (void);
-// 0x000001C6 UnityEngine.Vector3 UnityEngine.Rendering.PostProcessing.ColorUtilities::ColorToInverseGamma(UnityEngine.Vector4)
-extern void ColorUtilities_ColorToInverseGamma_m391454B8BBB9230F16FFA9BB90E3E4B1B38AE47A (void);
-// 0x000001C7 UnityEngine.Vector3 UnityEngine.Rendering.PostProcessing.ColorUtilities::ColorToGain(UnityEngine.Vector4)
-extern void ColorUtilities_ColorToGain_m485D52802108F17F16A6CF616E683A6359A2ED4F (void);
-// 0x000001C8 System.Single UnityEngine.Rendering.PostProcessing.ColorUtilities::LogCToLinear(System.Single)
-extern void ColorUtilities_LogCToLinear_m29AFF68BF0F714D76DD6634984BE4E105826A52A (void);
-// 0x000001C9 System.Single UnityEngine.Rendering.PostProcessing.ColorUtilities::LinearToLogC(System.Single)
-extern void ColorUtilities_LinearToLogC_mAC2E8AA3CF2B595BF5B00CD20F222B8D771903DE (void);
-// 0x000001CA System.UInt32 UnityEngine.Rendering.PostProcessing.ColorUtilities::ToHex(UnityEngine.Color)
-extern void ColorUtilities_ToHex_m5F7F74B4AA72949BD1F8896A241A71F8B7560583 (void);
-// 0x000001CB UnityEngine.Color UnityEngine.Rendering.PostProcessing.ColorUtilities::ToRGBA(System.UInt32)
-extern void ColorUtilities_ToRGBA_mE412AE9D8616BDFFEB2E6678B439CA6D78571A97 (void);
-// 0x000001CC System.Single UnityEngine.Rendering.PostProcessing.HableCurve::get_whitePoint()
-extern void HableCurve_get_whitePoint_m440A8FBA6A10FDF890B1C3EEBF444710FD53386C (void);
-// 0x000001CD System.Void UnityEngine.Rendering.PostProcessing.HableCurve::set_whitePoint(System.Single)
-extern void HableCurve_set_whitePoint_m98FA0F3792036AA3F539010B465DF48676052109 (void);
-// 0x000001CE System.Single UnityEngine.Rendering.PostProcessing.HableCurve::get_inverseWhitePoint()
-extern void HableCurve_get_inverseWhitePoint_mDC81A80F665704FE457ACC2CC735D7DBB883F7F4 (void);
-// 0x000001CF System.Void UnityEngine.Rendering.PostProcessing.HableCurve::set_inverseWhitePoint(System.Single)
-extern void HableCurve_set_inverseWhitePoint_m647D3BF345A9A0AB6DC32E044593286CD08F78F6 (void);
-// 0x000001D0 System.Single UnityEngine.Rendering.PostProcessing.HableCurve::get_x0()
-extern void HableCurve_get_x0_m6B20430F19A2692748015AAD52E22CF6F19021FF (void);
-// 0x000001D1 System.Void UnityEngine.Rendering.PostProcessing.HableCurve::set_x0(System.Single)
-extern void HableCurve_set_x0_mFF0E70FF9B980FE4A13468E5A4C7B755CA290CB3 (void);
-// 0x000001D2 System.Single UnityEngine.Rendering.PostProcessing.HableCurve::get_x1()
-extern void HableCurve_get_x1_mCC8296F534ABB9B938D803FD24218DDD3A1D8FE0 (void);
-// 0x000001D3 System.Void UnityEngine.Rendering.PostProcessing.HableCurve::set_x1(System.Single)
-extern void HableCurve_set_x1_m6EFC16C8CC1F0B430D4D3436FD736B20841AEE32 (void);
-// 0x000001D4 System.Void UnityEngine.Rendering.PostProcessing.HableCurve::.ctor()
-extern void HableCurve__ctor_m8E74EA1950C5E352E36A4AC15BE688FC1A17F2A3 (void);
-// 0x000001D5 System.Single UnityEngine.Rendering.PostProcessing.HableCurve::Eval(System.Single)
-extern void HableCurve_Eval_mDC9315392A7685F22D4ED9BBEBBBFC5022610CF6 (void);
-// 0x000001D6 System.Void UnityEngine.Rendering.PostProcessing.HableCurve::Init(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
-extern void HableCurve_Init_m0331C88204E2EEB65A8727E580614B3733033EF1 (void);
-// 0x000001D7 System.Void UnityEngine.Rendering.PostProcessing.HableCurve::InitSegments(UnityEngine.Rendering.PostProcessing.HableCurve/DirectParams)
-extern void HableCurve_InitSegments_m3E6803A12AF50C93D0D052CCECED893CD85E3C37 (void);
-// 0x000001D8 System.Void UnityEngine.Rendering.PostProcessing.HableCurve::SolveAB(System.Single&,System.Single&,System.Single,System.Single,System.Single)
-extern void HableCurve_SolveAB_m6CDF86F0CF4191F0BBE8BA819DCA716EAA2439AA (void);
-// 0x000001D9 System.Void UnityEngine.Rendering.PostProcessing.HableCurve::AsSlopeIntercept(System.Single&,System.Single&,System.Single,System.Single,System.Single,System.Single)
-extern void HableCurve_AsSlopeIntercept_mCAF8DEAEB3E843025E1F817421EBE951E54A0B5B (void);
-// 0x000001DA System.Single UnityEngine.Rendering.PostProcessing.HableCurve::EvalDerivativeLinearGamma(System.Single,System.Single,System.Single,System.Single)
-extern void HableCurve_EvalDerivativeLinearGamma_m2B9B56FAB2A3C3C2C5A39BCDC4C1A4FDE0AC7BCA (void);
-// 0x000001DB System.Single UnityEngine.Rendering.PostProcessing.HableCurve/Segment::Eval(System.Single)
-extern void Segment_Eval_mCDF8072217E3B3B5FD7EAE9716D4FC5B7B5EA83B (void);
-// 0x000001DC System.Void UnityEngine.Rendering.PostProcessing.HableCurve/Segment::.ctor()
-extern void Segment__ctor_mB049A24BFA0A15439F0D5949A7AE896695D0D120 (void);
-// 0x000001DD System.Void UnityEngine.Rendering.PostProcessing.HableCurve/Uniforms::.ctor(UnityEngine.Rendering.PostProcessing.HableCurve)
-extern void Uniforms__ctor_mA66464181B9A9090B823A9803BD11699B9B7BA74 (void);
-// 0x000001DE UnityEngine.Vector4 UnityEngine.Rendering.PostProcessing.HableCurve/Uniforms::get_curve()
-extern void Uniforms_get_curve_mD9034647B7B7C3A8B47B414FB7C5B821200AA32E (void);
-// 0x000001DF UnityEngine.Vector4 UnityEngine.Rendering.PostProcessing.HableCurve/Uniforms::get_toeSegmentA()
-extern void Uniforms_get_toeSegmentA_m1316C3F6B4E6B82839C9CDACD398FA33D88964BA (void);
-// 0x000001E0 UnityEngine.Vector4 UnityEngine.Rendering.PostProcessing.HableCurve/Uniforms::get_toeSegmentB()
-extern void Uniforms_get_toeSegmentB_mEC3F93FF1CF8399FDE4AD8FF6355F4D5B9C5D42F (void);
-// 0x000001E1 UnityEngine.Vector4 UnityEngine.Rendering.PostProcessing.HableCurve/Uniforms::get_midSegmentA()
-extern void Uniforms_get_midSegmentA_m5A302D93655083BD41167F50535C0B6AA0C9DA6D (void);
-// 0x000001E2 UnityEngine.Vector4 UnityEngine.Rendering.PostProcessing.HableCurve/Uniforms::get_midSegmentB()
-extern void Uniforms_get_midSegmentB_m1478AA904368A2DEDAAF4C1BCF343B0566494E21 (void);
-// 0x000001E3 UnityEngine.Vector4 UnityEngine.Rendering.PostProcessing.HableCurve/Uniforms::get_shoSegmentA()
-extern void Uniforms_get_shoSegmentA_m06733BA44C5FB0E3A7E692DC40252468694D5965 (void);
-// 0x000001E4 UnityEngine.Vector4 UnityEngine.Rendering.PostProcessing.HableCurve/Uniforms::get_shoSegmentB()
-extern void Uniforms_get_shoSegmentB_m77AB80D8ABA78E633A8BB96CF76149679685184B (void);
-// 0x000001E5 System.Single UnityEngine.Rendering.PostProcessing.HaltonSeq::Get(System.Int32,System.Int32)
-extern void HaltonSeq_Get_m5D16189CF830B507716FEDCBDF575A39DED2124A (void);
-// 0x000001E6 UnityEngine.ComputeBuffer UnityEngine.Rendering.PostProcessing.LogHistogram::get_data()
-extern void LogHistogram_get_data_m3F3310AAF8C2368E2D3D724BF95E1632F52E8684 (void);
-// 0x000001E7 System.Void UnityEngine.Rendering.PostProcessing.LogHistogram::set_data(UnityEngine.ComputeBuffer)
-extern void LogHistogram_set_data_mB1A03174A98EFFE606B50D8AB90A73DC141B2435 (void);
-// 0x000001E8 System.Void UnityEngine.Rendering.PostProcessing.LogHistogram::Generate(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void LogHistogram_Generate_m5C64740C383CDB7BFD1E459A8066F16BB1FCC6D4 (void);
-// 0x000001E9 UnityEngine.Vector4 UnityEngine.Rendering.PostProcessing.LogHistogram::GetHistogramScaleOffsetRes(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void LogHistogram_GetHistogramScaleOffsetRes_m6FA5B33FBE2EABD16713EFC2C7A9F61E201AA2E8 (void);
-// 0x000001EA System.Void UnityEngine.Rendering.PostProcessing.LogHistogram::Release()
-extern void LogHistogram_Release_m0CF4E13BFC28F7515A88B4B96B377D1496F3D4B6 (void);
-// 0x000001EB System.Void UnityEngine.Rendering.PostProcessing.LogHistogram::.ctor()
-extern void LogHistogram__ctor_mF476B2492B4A33D5D402DC14EB9671CE61364CC7 (void);
-// 0x000001EC System.Void UnityEngine.Rendering.PostProcessing.MeshUtilities::.cctor()
-extern void MeshUtilities__cctor_mB6B37E180953A8CF9C80452EF6CAC4FE3643D974 (void);
-// 0x000001ED UnityEngine.Mesh UnityEngine.Rendering.PostProcessing.MeshUtilities::GetColliderMesh(UnityEngine.Collider)
-extern void MeshUtilities_GetColliderMesh_mED90DC043E600D717C14B845C4CA9DD0AF4300E9 (void);
-// 0x000001EE UnityEngine.Mesh UnityEngine.Rendering.PostProcessing.MeshUtilities::GetPrimitive(UnityEngine.PrimitiveType)
-extern void MeshUtilities_GetPrimitive_m266E63F215D05366D7303A44C847860944E019ED (void);
-// 0x000001EF UnityEngine.Mesh UnityEngine.Rendering.PostProcessing.MeshUtilities::GetBuiltinMesh(UnityEngine.PrimitiveType)
-extern void MeshUtilities_GetBuiltinMesh_m93FA8BD36732E4D5DA7A7D2E1AA3581F95075D87 (void);
-// 0x000001F0 System.Exception UnityEngine.Rendering.PostProcessing.PostProcessEffectRendererExtensions::RenderOrLog(UnityEngine.Rendering.PostProcessing.PostProcessEffectRenderer,UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void PostProcessEffectRendererExtensions_RenderOrLog_m3734A6E93FDFF3B989D5E9744A14FFE2DE9E3F13 (void);
-// 0x000001F1 UnityEngine.MaterialPropertyBlock UnityEngine.Rendering.PostProcessing.PropertySheet::get_properties()
-extern void PropertySheet_get_properties_m3F54B6A690186CF8AE8CCD585068A4DB80AA50F5 (void);
-// 0x000001F2 System.Void UnityEngine.Rendering.PostProcessing.PropertySheet::set_properties(UnityEngine.MaterialPropertyBlock)
-extern void PropertySheet_set_properties_mAAFE39A44E47611F99AAB7CEF4F189CAD248D2EB (void);
-// 0x000001F3 UnityEngine.Material UnityEngine.Rendering.PostProcessing.PropertySheet::get_material()
-extern void PropertySheet_get_material_m04C2AF7A0AFC078C1477EAE39535742E746118AF (void);
-// 0x000001F4 System.Void UnityEngine.Rendering.PostProcessing.PropertySheet::set_material(UnityEngine.Material)
-extern void PropertySheet_set_material_m73FB05230DB52CF4F4086E7165FDE8EEE334F709 (void);
-// 0x000001F5 System.Void UnityEngine.Rendering.PostProcessing.PropertySheet::.ctor(UnityEngine.Material)
-extern void PropertySheet__ctor_m856578925217FFB32911485BC651613C936B0E09 (void);
-// 0x000001F6 System.Void UnityEngine.Rendering.PostProcessing.PropertySheet::ClearKeywords()
-extern void PropertySheet_ClearKeywords_m3A886177632A2DF75DC115107A2BE995375C79E4 (void);
-// 0x000001F7 System.Void UnityEngine.Rendering.PostProcessing.PropertySheet::EnableKeyword(System.String)
-extern void PropertySheet_EnableKeyword_mE87386C289094FE73D84061BE6F716BAE6F43062 (void);
-// 0x000001F8 System.Void UnityEngine.Rendering.PostProcessing.PropertySheet::DisableKeyword(System.String)
-extern void PropertySheet_DisableKeyword_mA132CA2330E534BF4FCC48E1437AA13C991436DB (void);
-// 0x000001F9 System.Void UnityEngine.Rendering.PostProcessing.PropertySheet::Release()
-extern void PropertySheet_Release_mE8C333C8D788A25012EB4EC66C855232F0A93653 (void);
-// 0x000001FA System.Void UnityEngine.Rendering.PostProcessing.PropertySheetFactory::.ctor()
-extern void PropertySheetFactory__ctor_mA96B46A130766B88D431ECDC3A6B5838DCF916D7 (void);
-// 0x000001FB UnityEngine.Rendering.PostProcessing.PropertySheet UnityEngine.Rendering.PostProcessing.PropertySheetFactory::Get(System.String)
-extern void PropertySheetFactory_Get_mD75BC3EB9CA3661CDD2478FFEA76B80A2E94273E (void);
-// 0x000001FC UnityEngine.Rendering.PostProcessing.PropertySheet UnityEngine.Rendering.PostProcessing.PropertySheetFactory::Get(UnityEngine.Shader)
-extern void PropertySheetFactory_Get_mCFDB007DD001F66FCC0EAD7549B63C74857569FC (void);
-// 0x000001FD System.Void UnityEngine.Rendering.PostProcessing.PropertySheetFactory::Release()
-extern void PropertySheetFactory_Release_mDDF78ACFFC94C6E7015461F0B248E3F93E906CA1 (void);
-// 0x000001FE UnityEngine.Texture2D UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_whiteTexture()
-extern void RuntimeUtilities_get_whiteTexture_mDCC20028D975A9CC761C4C741CAD3F0608BD86E5 (void);
-// 0x000001FF UnityEngine.Texture3D UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_whiteTexture3D()
-extern void RuntimeUtilities_get_whiteTexture3D_m7FD8F25E3321EA19ABF97C3E4963ADE87F9202F8 (void);
-// 0x00000200 UnityEngine.Texture2D UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_blackTexture()
-extern void RuntimeUtilities_get_blackTexture_m848AFDA72B4044ADFAB4373CF726480911EABDEF (void);
-// 0x00000201 UnityEngine.Texture3D UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_blackTexture3D()
-extern void RuntimeUtilities_get_blackTexture3D_m8701C102D3D0472E18C1C6BCC5EB191DC51EDE78 (void);
-// 0x00000202 UnityEngine.Texture2D UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_transparentTexture()
-extern void RuntimeUtilities_get_transparentTexture_m7F86E9A06D745AC66B419A5979B70599CB09DE0C (void);
-// 0x00000203 UnityEngine.Texture3D UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_transparentTexture3D()
-extern void RuntimeUtilities_get_transparentTexture3D_m93D6E7B9EA25B0D1FCFF5DB47AEB6ED8E0299866 (void);
-// 0x00000204 UnityEngine.Texture2D UnityEngine.Rendering.PostProcessing.RuntimeUtilities::GetLutStrip(System.Int32)
-extern void RuntimeUtilities_GetLutStrip_mF1A81D3B29653B159091BE6B24B9C458C949AFA6 (void);
-// 0x00000205 UnityEngine.Mesh UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_fullscreenTriangle()
-extern void RuntimeUtilities_get_fullscreenTriangle_m726C7E66DAFF550DB765BBF6FDF86CC38D162062 (void);
-// 0x00000206 UnityEngine.Material UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_copyStdMaterial()
-extern void RuntimeUtilities_get_copyStdMaterial_m0AEE2266347844DDB77A1F3C67CB8AEE3211F875 (void);
-// 0x00000207 UnityEngine.Material UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_copyStdFromDoubleWideMaterial()
-extern void RuntimeUtilities_get_copyStdFromDoubleWideMaterial_m63444E0BD488C7CB2EB26BC5EBE22510F73AC3BD (void);
-// 0x00000208 UnityEngine.Material UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_copyMaterial()
-extern void RuntimeUtilities_get_copyMaterial_m28D2D657F8152B4B956236EABFE398678BE9A300 (void);
-// 0x00000209 UnityEngine.Material UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_copyFromTexArrayMaterial()
-extern void RuntimeUtilities_get_copyFromTexArrayMaterial_m8256B0BC7E9E507870CD56AB1B799D44A1851FB4 (void);
-// 0x0000020A UnityEngine.Rendering.PostProcessing.PropertySheet UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_copySheet()
-extern void RuntimeUtilities_get_copySheet_m6EA58A85A27A489801813480408A9D322BB83984 (void);
-// 0x0000020B UnityEngine.Rendering.PostProcessing.PropertySheet UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_copyFromTexArraySheet()
-extern void RuntimeUtilities_get_copyFromTexArraySheet_m0A7187E492D578C3DEBD42437FC02DF00E86239E (void);
-// 0x0000020C System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::isValidResources()
-extern void RuntimeUtilities_isValidResources_mCC945187A4B3DA2A8054806FACEDC37423486B4A (void);
-// 0x0000020D System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::UpdateResources(UnityEngine.Rendering.PostProcessing.PostProcessResources)
-extern void RuntimeUtilities_UpdateResources_m6D2B178C20681DA38A28C4F0090FF5F5B39DEE36 (void);
-// 0x0000020E System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::SetRenderTargetWithLoadStoreAction(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderBufferLoadAction,UnityEngine.Rendering.RenderBufferStoreAction)
-extern void RuntimeUtilities_SetRenderTargetWithLoadStoreAction_mDB26FE41B90AB28A3F6C8F8E5A9B4F655C933951 (void);
-// 0x0000020F System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::SetRenderTargetWithLoadStoreAction(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderBufferLoadAction,UnityEngine.Rendering.RenderBufferStoreAction,UnityEngine.Rendering.RenderBufferLoadAction,UnityEngine.Rendering.RenderBufferStoreAction)
-extern void RuntimeUtilities_SetRenderTargetWithLoadStoreAction_m273CB6161002A165792D63057CF87624AA5455CA (void);
-// 0x00000210 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::SetRenderTargetWithLoadStoreAction(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderBufferLoadAction,UnityEngine.Rendering.RenderBufferStoreAction,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderBufferLoadAction,UnityEngine.Rendering.RenderBufferStoreAction)
-extern void RuntimeUtilities_SetRenderTargetWithLoadStoreAction_m28E46AE4905861B173E6F341FFE2D26B63E9E655 (void);
-// 0x00000211 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BlitFullscreenTriangle(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,System.Boolean,System.Nullable`1<UnityEngine.Rect>,System.Boolean)
-extern void RuntimeUtilities_BlitFullscreenTriangle_mD7A6C60001968CCDE0211930A802064B5521A571 (void);
-// 0x00000212 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BlitFullscreenTriangle(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.PostProcessing.PropertySheet,System.Int32,UnityEngine.Rendering.RenderBufferLoadAction,System.Nullable`1<UnityEngine.Rect>,System.Boolean)
-extern void RuntimeUtilities_BlitFullscreenTriangle_m924D1CA61D3F307B70B2E2EF6DC568EC30CE4303 (void);
-// 0x00000213 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BlitFullscreenTriangle(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.PostProcessing.PropertySheet,System.Int32,System.Boolean,System.Nullable`1<UnityEngine.Rect>,System.Boolean)
-extern void RuntimeUtilities_BlitFullscreenTriangle_m47F50E78D34C19A071CA607E59C783D88E58CD5F (void);
-// 0x00000214 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BlitFullscreenTriangleFromDoubleWide(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Material,System.Int32,System.Int32)
-extern void RuntimeUtilities_BlitFullscreenTriangleFromDoubleWide_m79E6214D1A1FEB1DADD62AEBDB4D47519D715CDB (void);
-// 0x00000215 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BlitFullscreenTriangleToDoubleWide(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.PostProcessing.PropertySheet,System.Int32,System.Int32)
-extern void RuntimeUtilities_BlitFullscreenTriangleToDoubleWide_mA874EC0243A6F27115403C783643BF4CA0917A3E (void);
-// 0x00000216 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BlitFullscreenTriangleFromTexArray(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.PostProcessing.PropertySheet,System.Int32,System.Boolean,System.Int32)
-extern void RuntimeUtilities_BlitFullscreenTriangleFromTexArray_mB8EC632337670B4F00C912DCCE6F67A11A2F34D6 (void);
-// 0x00000217 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BlitFullscreenTriangleToTexArray(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.PostProcessing.PropertySheet,System.Int32,System.Boolean,System.Int32)
-extern void RuntimeUtilities_BlitFullscreenTriangleToTexArray_mB31623B10E8A78B8295B4F047249C17459A21033 (void);
-// 0x00000218 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BlitFullscreenTriangle(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.PostProcessing.PropertySheet,System.Int32,System.Boolean,System.Nullable`1<UnityEngine.Rect>)
-extern void RuntimeUtilities_BlitFullscreenTriangle_mD0D195264B906488850C0E4F136A63E0CCEB5906 (void);
-// 0x00000219 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BlitFullscreenTriangle(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier[],UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.PostProcessing.PropertySheet,System.Int32,System.Boolean,System.Nullable`1<UnityEngine.Rect>)
-extern void RuntimeUtilities_BlitFullscreenTriangle_m75DC578DD2ABA0906AACBE2FBF170BAF82BCFA3D (void);
-// 0x0000021A System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BuiltinBlit(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier)
-extern void RuntimeUtilities_BuiltinBlit_m19AF944542692E4974BB91E78E07283C87CA26DD (void);
-// 0x0000021B System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BuiltinBlit(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Material,System.Int32)
-extern void RuntimeUtilities_BuiltinBlit_m1018C90233FB5F9C32ED980EFB54506B1B2901CE (void);
-// 0x0000021C System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::CopyTexture(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier)
-extern void RuntimeUtilities_CopyTexture_mEDD7B068211C3466CCFA1E820D4940ADFFC5C79A (void);
-// 0x0000021D System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_scriptableRenderPipelineActive()
-extern void RuntimeUtilities_get_scriptableRenderPipelineActive_mA72865D0A2FB67CDB4F689220C7DD9FDC1012A60 (void);
-// 0x0000021E System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_supportsDeferredShading()
-extern void RuntimeUtilities_get_supportsDeferredShading_m9CFD0EB9901057B50E520422B538DD08B5440603 (void);
-// 0x0000021F System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_supportsDepthNormals()
-extern void RuntimeUtilities_get_supportsDepthNormals_mB8147300A27CC774D768A7B4F46328A8B28BA338 (void);
-// 0x00000220 System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_isSinglePassStereoEnabled()
-extern void RuntimeUtilities_get_isSinglePassStereoEnabled_m55C6085623509D46EBDDC4B5965BC6D355734AF9 (void);
-// 0x00000221 System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_isVREnabled()
-extern void RuntimeUtilities_get_isVREnabled_m6E7CBC7C4221EED0AE1443BE27D871C5167C9572 (void);
-// 0x00000222 System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_isAndroidOpenGL()
-extern void RuntimeUtilities_get_isAndroidOpenGL_mAB8C6632A02A6090917A17284685CB525B1E9229 (void);
-// 0x00000223 UnityEngine.RenderTextureFormat UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_defaultHDRRenderTextureFormat()
-extern void RuntimeUtilities_get_defaultHDRRenderTextureFormat_mC7ACF8E4DE82EE142C7053772270307EB82B5DC6 (void);
-// 0x00000224 System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::isFloatingPointFormat(UnityEngine.RenderTextureFormat)
-extern void RuntimeUtilities_isFloatingPointFormat_mC84E744C9174A95E2AB88985CDF76A2DD0E52737 (void);
+extern void PostProcessLayer_ShouldGenerateLogHistogram_m675CAA571334F9D4C14BA63B2F793CB86CE0EAFB (void);
+// 0x0000014C System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer::.ctor()
+extern void PostProcessLayer__ctor_m8296051A2DCE4647080189E8B1881890A338229C (void);
+// 0x0000014D System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer/SerializedBundleRef::.ctor()
+extern void SerializedBundleRef__ctor_m8BCF65DB003655135E182A9BCD19ED4AC775B0E3 (void);
+// 0x0000014E System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c__DisplayClass54_0::.ctor()
+extern void U3CU3Ec__DisplayClass54_0__ctor_mD1620D37E1580A84A09C8F5A942C2164441C6145 (void);
+// 0x0000014F System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c__DisplayClass54_0::<UpdateBundleSortList>b__0(System.Collections.Generic.KeyValuePair`2<System.Type,UnityEngine.Rendering.PostProcessing.PostProcessBundle>)
+extern void U3CU3Ec__DisplayClass54_0_U3CUpdateBundleSortListU3Eb__0_mD5BFE7EE8C78489DE37C5540F13B448ED71370F8 (void);
+// 0x00000150 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c__DisplayClass54_0::<UpdateBundleSortList>b__2(UnityEngine.Rendering.PostProcessing.PostProcessLayer/SerializedBundleRef)
+extern void U3CU3Ec__DisplayClass54_0_U3CUpdateBundleSortListU3Eb__2_mCBF7E5A0DACDA7A8E0964D1730BE64A965F2C086 (void);
+// 0x00000151 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c__DisplayClass54_1::.ctor()
+extern void U3CU3Ec__DisplayClass54_1__ctor_m6FED926DF3698E86D9ED7733D7E10EE1A3FD70DD (void);
+// 0x00000152 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c__DisplayClass54_1::<UpdateBundleSortList>b__3(UnityEngine.Rendering.PostProcessing.PostProcessBundle)
+extern void U3CU3Ec__DisplayClass54_1_U3CUpdateBundleSortListU3Eb__3_m5079F5352A08BCFD0798E251F89B2E969B954B0A (void);
+// 0x00000153 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c__DisplayClass54_2::.ctor()
+extern void U3CU3Ec__DisplayClass54_2__ctor_m8AFCE8901A93CE6261DDF071562470B1A2D7BAEF (void);
+// 0x00000154 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c__DisplayClass54_2::<UpdateBundleSortList>b__4(UnityEngine.Rendering.PostProcessing.PostProcessLayer/SerializedBundleRef)
+extern void U3CU3Ec__DisplayClass54_2_U3CUpdateBundleSortListU3Eb__4_m2AD2BE8A99A17C2F0AB45C2F9CA94511E3B6C20E (void);
+// 0x00000155 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c__DisplayClass54_3::.ctor()
+extern void U3CU3Ec__DisplayClass54_3__ctor_mB20B9DF760C344A8C3DD74BCE5DE6E18E0CF76C1 (void);
+// 0x00000156 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c__DisplayClass54_3::<UpdateBundleSortList>b__5(UnityEngine.Rendering.PostProcessing.PostProcessBundle)
+extern void U3CU3Ec__DisplayClass54_3_U3CUpdateBundleSortListU3Eb__5_m2C3256279151D818C94CE366DBF927C277EF9960 (void);
+// 0x00000157 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c::.cctor()
+extern void U3CU3Ec__cctor_mC58AF5101E2ABD2CCED0D14A832AB73EDEBB5407 (void);
+// 0x00000158 System.Void UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c::.ctor()
+extern void U3CU3Ec__ctor_m612827A29AEDBBCC3CC4BB9C7E0E26A82CCF52B3 (void);
+// 0x00000159 UnityEngine.Rendering.PostProcessing.PostProcessBundle UnityEngine.Rendering.PostProcessing.PostProcessLayer/<>c::<UpdateBundleSortList>b__54_1(System.Collections.Generic.KeyValuePair`2<System.Type,UnityEngine.Rendering.PostProcessing.PostProcessBundle>)
+extern void U3CU3Ec_U3CUpdateBundleSortListU3Eb__54_1_m3A74A6B00FFBFB1E96DB0F5287825C7A258F5866 (void);
+// 0x0000015A UnityEngine.Rendering.PostProcessing.PostProcessManager UnityEngine.Rendering.PostProcessing.PostProcessManager::get_instance()
+extern void PostProcessManager_get_instance_mAD06BDBF8DC9F8658B2245A4EC0940404B219B87 (void);
+// 0x0000015B System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::.ctor()
+extern void PostProcessManager__ctor_m8FB25D90E014F9C20FED4173115052A40C255A83 (void);
+// 0x0000015C System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::CleanBaseTypes()
+extern void PostProcessManager_CleanBaseTypes_mE22DD79EC42EC1C71DCB01856EF7E80709ED98E2 (void);
+// 0x0000015D System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::ReloadBaseTypes()
+extern void PostProcessManager_ReloadBaseTypes_m582DBC14B099E81CF96FC236D69E4188ABB55788 (void);
+// 0x0000015E System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::GetActiveVolumes(UnityEngine.Rendering.PostProcessing.PostProcessLayer,System.Collections.Generic.List`1<UnityEngine.Rendering.PostProcessing.PostProcessVolume>,System.Boolean,System.Boolean)
+extern void PostProcessManager_GetActiveVolumes_m808A05F2F4A6CFF8A88CF85F733E045B584550BB (void);
+// 0x0000015F UnityEngine.Rendering.PostProcessing.PostProcessVolume UnityEngine.Rendering.PostProcessing.PostProcessManager::GetHighestPriorityVolume(UnityEngine.Rendering.PostProcessing.PostProcessLayer)
+extern void PostProcessManager_GetHighestPriorityVolume_mFF5FBB334E0ED2776C1BD3B44970DBF20A4D3D4C (void);
+// 0x00000160 UnityEngine.Rendering.PostProcessing.PostProcessVolume UnityEngine.Rendering.PostProcessing.PostProcessManager::GetHighestPriorityVolume(UnityEngine.LayerMask)
+extern void PostProcessManager_GetHighestPriorityVolume_m4D3FCE52F077EF101C8E9D4FD586102BCD605946 (void);
+// 0x00000161 UnityEngine.Rendering.PostProcessing.PostProcessVolume UnityEngine.Rendering.PostProcessing.PostProcessManager::QuickVolume(System.Int32,System.Single,UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings[])
+extern void PostProcessManager_QuickVolume_m7FFC5885224F957D91AED95616E3CA5A70832332 (void);
+// 0x00000162 System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::SetLayerDirty(System.Int32)
+extern void PostProcessManager_SetLayerDirty_mA10A7367AE66AB61DE3B761ECFBC3EF35DC86E2C (void);
+// 0x00000163 System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::UpdateVolumeLayer(UnityEngine.Rendering.PostProcessing.PostProcessVolume,System.Int32,System.Int32)
+extern void PostProcessManager_UpdateVolumeLayer_m36A628F3F0B79DB27CE52B44272E973AF1F581A0 (void);
+// 0x00000164 System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::Register(UnityEngine.Rendering.PostProcessing.PostProcessVolume,System.Int32)
+extern void PostProcessManager_Register_mE29A4009A4FC20CC5A6F95444356C2381FB19427 (void);
+// 0x00000165 System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::Register(UnityEngine.Rendering.PostProcessing.PostProcessVolume)
+extern void PostProcessManager_Register_m20ABDF3942B7F71D347DF3E7E12514DD243FD059 (void);
+// 0x00000166 System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::Unregister(UnityEngine.Rendering.PostProcessing.PostProcessVolume,System.Int32)
+extern void PostProcessManager_Unregister_m06731BA17E01E742A84CA7B6E01F9DFA1375E333 (void);
+// 0x00000167 System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::Unregister(UnityEngine.Rendering.PostProcessing.PostProcessVolume)
+extern void PostProcessManager_Unregister_m171AB0124D7DB78DD042F57DFA62155E8D6866BC (void);
+// 0x00000168 System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::ReplaceData(UnityEngine.Rendering.PostProcessing.PostProcessLayer)
+extern void PostProcessManager_ReplaceData_m2ECCA7279A2E64CB6868C112A39A37109A7930C9 (void);
+// 0x00000169 System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::UpdateSettings(UnityEngine.Rendering.PostProcessing.PostProcessLayer,UnityEngine.Camera)
+extern void PostProcessManager_UpdateSettings_mAE1647AFBE52ACB3A47F9E933FC64D50C8C10FBD (void);
+// 0x0000016A System.Collections.Generic.List`1<UnityEngine.Rendering.PostProcessing.PostProcessVolume> UnityEngine.Rendering.PostProcessing.PostProcessManager::GrabVolumes(UnityEngine.LayerMask)
+extern void PostProcessManager_GrabVolumes_m0F7D7E964ED05BAB574BDB311D1CFAED9FBC6EC0 (void);
+// 0x0000016B System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager::SortByPriority(System.Collections.Generic.List`1<UnityEngine.Rendering.PostProcessing.PostProcessVolume>)
+extern void PostProcessManager_SortByPriority_mF27627941ACC25372674D5949EB3103FEFE0C82E (void);
+// 0x0000016C System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessManager::IsVolumeRenderedByCamera(UnityEngine.Rendering.PostProcessing.PostProcessVolume,UnityEngine.Camera)
+extern void PostProcessManager_IsVolumeRenderedByCamera_mE4C35A868A7F24DF617E7AC149573FEF9D4BAD9E (void);
+// 0x0000016D System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager/<>c::.cctor()
+extern void U3CU3Ec__cctor_m804752D66A0DA7EC353907540D281DF948CD8C5F (void);
+// 0x0000016E System.Void UnityEngine.Rendering.PostProcessing.PostProcessManager/<>c::.ctor()
+extern void U3CU3Ec__ctor_m425E24478A6F17E4ED7213D83B81FD8E999C46FB (void);
+// 0x0000016F System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessManager/<>c::<ReloadBaseTypes>b__12_0(System.Type)
+extern void U3CU3Ec_U3CReloadBaseTypesU3Eb__12_0_mF55DE1849B2343C42C736A9685CDA2AABD975E62 (void);
+// 0x00000170 System.Void UnityEngine.Rendering.PostProcessing.PostProcessProfile::OnEnable()
+extern void PostProcessProfile_OnEnable_m27BACDB462EC7171F0BC370995A809A1049DBD26 (void);
+// 0x00000171 T UnityEngine.Rendering.PostProcessing.PostProcessProfile::AddSettings()
+// 0x00000172 UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings UnityEngine.Rendering.PostProcessing.PostProcessProfile::AddSettings(System.Type)
+extern void PostProcessProfile_AddSettings_mB4770661981987A90558315ABC9F3D7C89B19E64 (void);
+// 0x00000173 UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings UnityEngine.Rendering.PostProcessing.PostProcessProfile::AddSettings(UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings)
+extern void PostProcessProfile_AddSettings_m636C8393796396CDBE72A34AD0CEC930791DB895 (void);
+// 0x00000174 System.Void UnityEngine.Rendering.PostProcessing.PostProcessProfile::RemoveSettings()
+// 0x00000175 System.Void UnityEngine.Rendering.PostProcessing.PostProcessProfile::RemoveSettings(System.Type)
+extern void PostProcessProfile_RemoveSettings_m5735C7842B32CDCA41048105ED64CD31529BBEAD (void);
+// 0x00000176 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessProfile::HasSettings()
+// 0x00000177 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessProfile::HasSettings(System.Type)
+extern void PostProcessProfile_HasSettings_m4D611773882B755A054DE98D3DD3234291781FC8 (void);
+// 0x00000178 T UnityEngine.Rendering.PostProcessing.PostProcessProfile::GetSetting()
+// 0x00000179 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessProfile::TryGetSettings(T&)
+// 0x0000017A System.Void UnityEngine.Rendering.PostProcessing.PostProcessProfile::.ctor()
+extern void PostProcessProfile__ctor_m53B809D0279348483F3DD4A19B10CE4B712BE1BD (void);
+// 0x0000017B System.Void UnityEngine.Rendering.PostProcessing.PostProcessProfile/<>c::.cctor()
+extern void U3CU3Ec__cctor_m7B98D4CD437C5CBE7D38D80F53000EC8DE6536AF (void);
+// 0x0000017C System.Void UnityEngine.Rendering.PostProcessing.PostProcessProfile/<>c::.ctor()
+extern void U3CU3Ec__ctor_m007B39B322384120C3311450483FEDF4C671420D (void);
+// 0x0000017D System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessProfile/<>c::<OnEnable>b__2_0(UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings)
+extern void U3CU3Ec_U3COnEnableU3Eb__2_0_m4E9BE45F5C322F3C227039CB72B5CE5FD569F4A6 (void);
+// 0x0000017E UnityEngine.Camera UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_camera()
+extern void PostProcessRenderContext_get_camera_m56CA965425F5C59D32D7CF2E11E589FBD8A16C3D (void);
+// 0x0000017F System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_camera(UnityEngine.Camera)
+extern void PostProcessRenderContext_set_camera_m5A32D4F5ABA6D932E58334ACA8AE246AAF9D8D47 (void);
+// 0x00000180 UnityEngine.Rendering.CommandBuffer UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_command()
+extern void PostProcessRenderContext_get_command_mE54DFA2523219208C87BA95ECD2D766889DACA71 (void);
+// 0x00000181 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_command(UnityEngine.Rendering.CommandBuffer)
+extern void PostProcessRenderContext_set_command_m2C45D5AD8D68476937078FC1A8CAD67F40B363CA (void);
+// 0x00000182 UnityEngine.Rendering.RenderTargetIdentifier UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_source()
+extern void PostProcessRenderContext_get_source_m7AB20613A7F91FDB5B7872995E6DD205A9D52135 (void);
+// 0x00000183 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_source(UnityEngine.Rendering.RenderTargetIdentifier)
+extern void PostProcessRenderContext_set_source_m4DBE8CEB425BC3F295EC258CEA9A71B87040BD2C (void);
+// 0x00000184 UnityEngine.Rendering.RenderTargetIdentifier UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_destination()
+extern void PostProcessRenderContext_get_destination_mD5A4C6656F4FC57B0FF57FA7F7CC597F62BD2C88 (void);
+// 0x00000185 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_destination(UnityEngine.Rendering.RenderTargetIdentifier)
+extern void PostProcessRenderContext_set_destination_mEF2A011AB58DEDB4A62AFCA766D19846ABB95C2F (void);
+// 0x00000186 UnityEngine.RenderTextureFormat UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_sourceFormat()
+extern void PostProcessRenderContext_get_sourceFormat_mD846BE618AD913E5A3EFF8AE3BDFD1B2DF53896E (void);
+// 0x00000187 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_sourceFormat(UnityEngine.RenderTextureFormat)
+extern void PostProcessRenderContext_set_sourceFormat_mA41E34B795170887013696DB9903C224B570D0BD (void);
+// 0x00000188 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_flip()
+extern void PostProcessRenderContext_get_flip_mE2F46E47D4554EF081D57D8369E5878E657D5103 (void);
+// 0x00000189 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_flip(System.Boolean)
+extern void PostProcessRenderContext_set_flip_m27C840F9FC7AA91DEF02F5921E96A8FA09EF8582 (void);
+// 0x0000018A UnityEngine.Rendering.PostProcessing.PostProcessResources UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_resources()
+extern void PostProcessRenderContext_get_resources_mEC353AFE49A4A72D561FCB8758E364578AB2B9D7 (void);
+// 0x0000018B System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_resources(UnityEngine.Rendering.PostProcessing.PostProcessResources)
+extern void PostProcessRenderContext_set_resources_m1BF26E65F227D1503F6259E07DEED008C7FE1163 (void);
+// 0x0000018C UnityEngine.Rendering.PostProcessing.PropertySheetFactory UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_propertySheets()
+extern void PostProcessRenderContext_get_propertySheets_mE1135E07BE4F59354198DF05198E64CAF2E41D5C (void);
+// 0x0000018D System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_propertySheets(UnityEngine.Rendering.PostProcessing.PropertySheetFactory)
+extern void PostProcessRenderContext_set_propertySheets_m360844DFB76FA97FED4807602FEF53E81F573E3D (void);
+// 0x0000018E System.Collections.Generic.Dictionary`2<System.String,System.Object> UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_userData()
+extern void PostProcessRenderContext_get_userData_m40E610315DE3A5B623CD39497F28C2F25FEA8188 (void);
+// 0x0000018F System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_userData(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+extern void PostProcessRenderContext_set_userData_m003BC92230DEEFC331EB433694B7C40DFACB6030 (void);
+// 0x00000190 UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_debugLayer()
+extern void PostProcessRenderContext_get_debugLayer_m26C1CC3A2F3BBC10E71F0827E8B35204C7D9C008 (void);
+// 0x00000191 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_debugLayer(UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer)
+extern void PostProcessRenderContext_set_debugLayer_m5CBEDD3DC87DB8728E18EDF8E9FA5769A149A03A (void);
+// 0x00000192 System.Int32 UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_width()
+extern void PostProcessRenderContext_get_width_m4965F17411CA0E2AEC993B02D9CEEB0E258E8A74 (void);
+// 0x00000193 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_width(System.Int32)
+extern void PostProcessRenderContext_set_width_mB7C5BBE29EB306CFFC8909844C114110DFE6BE64 (void);
+// 0x00000194 System.Int32 UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_height()
+extern void PostProcessRenderContext_get_height_m3F500068E9E598DA75850D864AEC83708B1D9BD4 (void);
+// 0x00000195 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_height(System.Int32)
+extern void PostProcessRenderContext_set_height_m4503893008BB36236343F69E4CD90EB4B4434420 (void);
+// 0x00000196 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_stereoActive()
+extern void PostProcessRenderContext_get_stereoActive_mFF6F57ABA3F8A044D7EE09143A5F8C47B5EF6AE3 (void);
+// 0x00000197 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_stereoActive(System.Boolean)
+extern void PostProcessRenderContext_set_stereoActive_mD4C23489E1E4539919D6B16AD9C20DDEE1FAD960 (void);
+// 0x00000198 System.Int32 UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_xrActiveEye()
+extern void PostProcessRenderContext_get_xrActiveEye_mF542BBCE2BE780B1018E8640BF92BF44A1B25586 (void);
+// 0x00000199 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_xrActiveEye(System.Int32)
+extern void PostProcessRenderContext_set_xrActiveEye_mC0E126C2BCEF92AB645EC13658F3B89CBE536D5B (void);
+// 0x0000019A System.Int32 UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_numberOfEyes()
+extern void PostProcessRenderContext_get_numberOfEyes_m06AE156D5CEDCB464CA682ADAFF3AD2A9A347D60 (void);
+// 0x0000019B System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_numberOfEyes(System.Int32)
+extern void PostProcessRenderContext_set_numberOfEyes_m36DEBBC58365FF4315CCEB689D7BC6F86E4C1492 (void);
+// 0x0000019C UnityEngine.Rendering.PostProcessing.PostProcessRenderContext/StereoRenderingMode UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_stereoRenderingMode()
+extern void PostProcessRenderContext_get_stereoRenderingMode_m103F34804451F1883241CBA29C9E7423188B9FE1 (void);
+// 0x0000019D System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_stereoRenderingMode(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext/StereoRenderingMode)
+extern void PostProcessRenderContext_set_stereoRenderingMode_mCC8077506E225DF64ED657D9AF8B8E32293ABCE0 (void);
+// 0x0000019E System.Int32 UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_screenWidth()
+extern void PostProcessRenderContext_get_screenWidth_m9F3ECB9E1D36F430FADA9EC9C19A8EAD0C714D04 (void);
+// 0x0000019F System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_screenWidth(System.Int32)
+extern void PostProcessRenderContext_set_screenWidth_mD75AD636E7F34B00779E42C2C6464BB60C12BE20 (void);
+// 0x000001A0 System.Int32 UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_screenHeight()
+extern void PostProcessRenderContext_get_screenHeight_m6E8CD22AEA7C1A754C1652DF457FA7D6E11C84B9 (void);
+// 0x000001A1 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_screenHeight(System.Int32)
+extern void PostProcessRenderContext_set_screenHeight_m05BE0C2BB553342E4271DFB5E7380D2A5DAC30A2 (void);
+// 0x000001A2 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_isSceneView()
+extern void PostProcessRenderContext_get_isSceneView_mBBE9F6C699D243C8746362C84F466432818DAB10 (void);
+// 0x000001A3 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_isSceneView(System.Boolean)
+extern void PostProcessRenderContext_set_isSceneView_mEF3EC48FF1742A6E1A8171775707F7AB9CF45911 (void);
+// 0x000001A4 UnityEngine.Rendering.PostProcessing.PostProcessLayer/Antialiasing UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_antialiasing()
+extern void PostProcessRenderContext_get_antialiasing_m869EE41D29DB840249DC2773AC27E6DD1FC400ED (void);
+// 0x000001A5 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_antialiasing(UnityEngine.Rendering.PostProcessing.PostProcessLayer/Antialiasing)
+extern void PostProcessRenderContext_set_antialiasing_m3154972A25A18801221194E34B43B89855E11511 (void);
+// 0x000001A6 UnityEngine.Rendering.PostProcessing.TemporalAntialiasing UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::get_temporalAntialiasing()
+extern void PostProcessRenderContext_get_temporalAntialiasing_mA4FFD948F979FAE3046EFAC74FD22429DFE8288A (void);
+// 0x000001A7 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::set_temporalAntialiasing(UnityEngine.Rendering.PostProcessing.TemporalAntialiasing)
+extern void PostProcessRenderContext_set_temporalAntialiasing_mD3988FC83821BB3378D61DA0FCF4475853759DB7 (void);
+// 0x000001A8 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::Reset()
+extern void PostProcessRenderContext_Reset_mF0DDCB7DA38BB880DC0966836F06E43B9B3D81A0 (void);
+// 0x000001A9 System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::IsTemporalAntialiasingActive()
+extern void PostProcessRenderContext_IsTemporalAntialiasingActive_mF2954B94F2D907B159A45E745C5666D06F692E3F (void);
+// 0x000001AA System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::IsDebugOverlayEnabled(UnityEngine.Rendering.PostProcessing.DebugOverlay)
+extern void PostProcessRenderContext_IsDebugOverlayEnabled_m9779C07E4F3D9C746FB03148E28D54210A0758B3 (void);
+// 0x000001AB System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::PushDebugOverlay(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.PostProcessing.PropertySheet,System.Int32)
+extern void PostProcessRenderContext_PushDebugOverlay_m1CDDDF242E8818D9DF89E8AEECBE0C4ECC0C2D5F (void);
+// 0x000001AC UnityEngine.RenderTextureDescriptor UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::GetDescriptor(System.Int32,UnityEngine.RenderTextureFormat,UnityEngine.RenderTextureReadWrite)
+extern void PostProcessRenderContext_GetDescriptor_m830411A853CE21A05476D5A9F1697DD707024D50 (void);
+// 0x000001AD System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::GetScreenSpaceTemporaryRT(UnityEngine.Rendering.CommandBuffer,System.Int32,System.Int32,UnityEngine.RenderTextureFormat,UnityEngine.RenderTextureReadWrite,UnityEngine.FilterMode,System.Int32,System.Int32)
+extern void PostProcessRenderContext_GetScreenSpaceTemporaryRT_m5B29752DFD38640C69AB9B80AB164E1A7D89803A (void);
+// 0x000001AE UnityEngine.RenderTexture UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::GetScreenSpaceTemporaryRT(System.Int32,UnityEngine.RenderTextureFormat,UnityEngine.RenderTextureReadWrite,System.Int32,System.Int32)
+extern void PostProcessRenderContext_GetScreenSpaceTemporaryRT_m2E603ACA026F7EFBD88C774950E07FBCD1E10CF5 (void);
+// 0x000001AF System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::UpdateSinglePassStereoState(System.Boolean,System.Boolean,System.Boolean)
+extern void PostProcessRenderContext_UpdateSinglePassStereoState_m542DFC93E905B1EE3F6319435D264FFCB32C0BF7 (void);
+// 0x000001B0 System.Void UnityEngine.Rendering.PostProcessing.PostProcessRenderContext::.ctor()
+extern void PostProcessRenderContext__ctor_m3ADE6FCD2E4958F4D20F8C3EC2A665A4D7A905C5 (void);
+// 0x000001B1 System.Void UnityEngine.Rendering.PostProcessing.PostProcessResources::.ctor()
+extern void PostProcessResources__ctor_m2084C0E99D4DD0D00B7AC4902269640FD27FA1B9 (void);
+// 0x000001B2 UnityEngine.Rendering.PostProcessing.PostProcessResources/Shaders UnityEngine.Rendering.PostProcessing.PostProcessResources/Shaders::Clone()
+extern void Shaders_Clone_mB5A22F5783F424816A1F720B7067B83165D18EE0 (void);
+// 0x000001B3 System.Void UnityEngine.Rendering.PostProcessing.PostProcessResources/Shaders::.ctor()
+extern void Shaders__ctor_mDB6F202FB553B707FE57621ABD7DE9CD03F6D5BA (void);
+// 0x000001B4 UnityEngine.Rendering.PostProcessing.PostProcessResources/ComputeShaders UnityEngine.Rendering.PostProcessing.PostProcessResources/ComputeShaders::Clone()
+extern void ComputeShaders_Clone_m4C1F80D224F4997657B5CB621E6912167850FAAF (void);
+// 0x000001B5 System.Void UnityEngine.Rendering.PostProcessing.PostProcessResources/ComputeShaders::.ctor()
+extern void ComputeShaders__ctor_mB4F115D586184617C09790914E78FA6F4FF1CDD5 (void);
+// 0x000001B6 System.Void UnityEngine.Rendering.PostProcessing.PostProcessResources/SMAALuts::.ctor()
+extern void SMAALuts__ctor_mB89E9BBA28FD1F388D17F3AC4FAEFE466A5A9408 (void);
+// 0x000001B7 UnityEngine.Rendering.PostProcessing.PostProcessProfile UnityEngine.Rendering.PostProcessing.PostProcessVolume::get_profile()
+extern void PostProcessVolume_get_profile_m40F01FBBA48C74FBCAA82CC71390FE5289418F55 (void);
+// 0x000001B8 System.Void UnityEngine.Rendering.PostProcessing.PostProcessVolume::set_profile(UnityEngine.Rendering.PostProcessing.PostProcessProfile)
+extern void PostProcessVolume_set_profile_mE53F7D304FF743A59EFF91892175018ADBC62F90 (void);
+// 0x000001B9 UnityEngine.Rendering.PostProcessing.PostProcessProfile UnityEngine.Rendering.PostProcessing.PostProcessVolume::get_profileRef()
+extern void PostProcessVolume_get_profileRef_m76A55FA99804C180BAFDEB7A7BDD3523E28F8AA6 (void);
+// 0x000001BA System.Boolean UnityEngine.Rendering.PostProcessing.PostProcessVolume::HasInstantiatedProfile()
+extern void PostProcessVolume_HasInstantiatedProfile_m84C6BF4FA77029154272D970827AE0523DA833C5 (void);
+// 0x000001BB System.Int32 UnityEngine.Rendering.PostProcessing.PostProcessVolume::get_previousLayer()
+extern void PostProcessVolume_get_previousLayer_m3B53D4611832871C02FC6BA9344B7514FA5E7D00 (void);
+// 0x000001BC System.Void UnityEngine.Rendering.PostProcessing.PostProcessVolume::OnEnable()
+extern void PostProcessVolume_OnEnable_m0679E88ECC0AC854401DCBB71073649DABDAB6E8 (void);
+// 0x000001BD System.Void UnityEngine.Rendering.PostProcessing.PostProcessVolume::OnDisable()
+extern void PostProcessVolume_OnDisable_m605905C1D51CCFDA73310D36F0280FB3FDE05863 (void);
+// 0x000001BE System.Void UnityEngine.Rendering.PostProcessing.PostProcessVolume::Update()
+extern void PostProcessVolume_Update_m703E8F7AABE2325197A57C6FDC15439632AE94B4 (void);
+// 0x000001BF System.Void UnityEngine.Rendering.PostProcessing.PostProcessVolume::OnDrawGizmos()
+extern void PostProcessVolume_OnDrawGizmos_m5E3854C1C530EA1144381107BAB670F8134447BA (void);
+// 0x000001C0 System.Void UnityEngine.Rendering.PostProcessing.PostProcessVolume::.ctor()
+extern void PostProcessVolume__ctor_mFE361D59FFA90A9C28D27E33A1BEDFAE362ED4A7 (void);
+// 0x000001C1 System.Single UnityEngine.Rendering.PostProcessing.ColorUtilities::StandardIlluminantY(System.Single)
+extern void ColorUtilities_StandardIlluminantY_m3FBB1CCF60384B1713325307423657B42C3B03E4 (void);
+// 0x000001C2 UnityEngine.Vector3 UnityEngine.Rendering.PostProcessing.ColorUtilities::CIExyToLMS(System.Single,System.Single)
+extern void ColorUtilities_CIExyToLMS_m8D473B3357FB2D160852BED2F538A784C17B4CC9 (void);
+// 0x000001C3 UnityEngine.Vector3 UnityEngine.Rendering.PostProcessing.ColorUtilities::ComputeColorBalance(System.Single,System.Single)
+extern void ColorUtilities_ComputeColorBalance_m6F834BC5F095E6271F8AC5CC284F914D5CE0B933 (void);
+// 0x000001C4 UnityEngine.Vector3 UnityEngine.Rendering.PostProcessing.ColorUtilities::ColorToLift(UnityEngine.Vector4)
+extern void ColorUtilities_ColorToLift_mACA8C790FED7F582C2ACE11A1622D1B0460F6B62 (void);
+// 0x000001C5 UnityEngine.Vector3 UnityEngine.Rendering.PostProcessing.ColorUtilities::ColorToInverseGamma(UnityEngine.Vector4)
+extern void ColorUtilities_ColorToInverseGamma_mE84FD6FAB24BE5E7201E585938314FBD86DDE017 (void);
+// 0x000001C6 UnityEngine.Vector3 UnityEngine.Rendering.PostProcessing.ColorUtilities::ColorToGain(UnityEngine.Vector4)
+extern void ColorUtilities_ColorToGain_mEECB128C59AB6438E235C38ED0C362EA7FDCEEC5 (void);
+// 0x000001C7 System.Single UnityEngine.Rendering.PostProcessing.ColorUtilities::LogCToLinear(System.Single)
+extern void ColorUtilities_LogCToLinear_m2EEB0779584410AAAF03251C9A46C60CFECC0A7A (void);
+// 0x000001C8 System.Single UnityEngine.Rendering.PostProcessing.ColorUtilities::LinearToLogC(System.Single)
+extern void ColorUtilities_LinearToLogC_m56293C3570027D0278DA162E9AC4F80C85750E98 (void);
+// 0x000001C9 System.UInt32 UnityEngine.Rendering.PostProcessing.ColorUtilities::ToHex(UnityEngine.Color)
+extern void ColorUtilities_ToHex_mBBADA29C60998F8F47D8DA02DF21BD2A3E8F8BF3 (void);
+// 0x000001CA UnityEngine.Color UnityEngine.Rendering.PostProcessing.ColorUtilities::ToRGBA(System.UInt32)
+extern void ColorUtilities_ToRGBA_m7F8285B5AD83A5B8C1DAAC5A06C9DB505A32FA3E (void);
+// 0x000001CB System.Single UnityEngine.Rendering.PostProcessing.HableCurve::get_whitePoint()
+extern void HableCurve_get_whitePoint_m2F29170B50424B70627129A58E8FE2F3044C3D36 (void);
+// 0x000001CC System.Void UnityEngine.Rendering.PostProcessing.HableCurve::set_whitePoint(System.Single)
+extern void HableCurve_set_whitePoint_m9DE79052E9DE4EA31BC195EC0301EFE3B5A2AE35 (void);
+// 0x000001CD System.Single UnityEngine.Rendering.PostProcessing.HableCurve::get_inverseWhitePoint()
+extern void HableCurve_get_inverseWhitePoint_mD9A48EF5A7542BEF6DECEC1F7F6354D210B7C90D (void);
+// 0x000001CE System.Void UnityEngine.Rendering.PostProcessing.HableCurve::set_inverseWhitePoint(System.Single)
+extern void HableCurve_set_inverseWhitePoint_mB3D3BF0AFCA8BD49DE8AEC09F29EE952F6552816 (void);
+// 0x000001CF System.Single UnityEngine.Rendering.PostProcessing.HableCurve::get_x0()
+extern void HableCurve_get_x0_m611124271E4A894A9FB9D350C2F4215AE20A10E7 (void);
+// 0x000001D0 System.Void UnityEngine.Rendering.PostProcessing.HableCurve::set_x0(System.Single)
+extern void HableCurve_set_x0_m17B21635E66B6B69A3188BF21541D649E06EB08F (void);
+// 0x000001D1 System.Single UnityEngine.Rendering.PostProcessing.HableCurve::get_x1()
+extern void HableCurve_get_x1_mA8B86FCBC557774456D8B63D57FFDFB913BA42B9 (void);
+// 0x000001D2 System.Void UnityEngine.Rendering.PostProcessing.HableCurve::set_x1(System.Single)
+extern void HableCurve_set_x1_mD617C1D13AF6B24705401761BD7E6C0976E46481 (void);
+// 0x000001D3 System.Void UnityEngine.Rendering.PostProcessing.HableCurve::.ctor()
+extern void HableCurve__ctor_m6C38032F3D6CB2A7D9F0BBA7FEF3F03B239E6346 (void);
+// 0x000001D4 System.Single UnityEngine.Rendering.PostProcessing.HableCurve::Eval(System.Single)
+extern void HableCurve_Eval_m62C28C1C04E4AA3A98355941D4A7C9BD88A98D24 (void);
+// 0x000001D5 System.Void UnityEngine.Rendering.PostProcessing.HableCurve::Init(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+extern void HableCurve_Init_mF86BFB984A9C048E677608A6E57DBE608AF2F2AD (void);
+// 0x000001D6 System.Void UnityEngine.Rendering.PostProcessing.HableCurve::InitSegments(UnityEngine.Rendering.PostProcessing.HableCurve/DirectParams)
+extern void HableCurve_InitSegments_m99F5C7DFD8A1EE46152354EB808F8AC3EDAF9B8F (void);
+// 0x000001D7 System.Void UnityEngine.Rendering.PostProcessing.HableCurve::SolveAB(System.Single&,System.Single&,System.Single,System.Single,System.Single)
+extern void HableCurve_SolveAB_mF1FD47DE1784364139D0D3245F8F5676FE675501 (void);
+// 0x000001D8 System.Void UnityEngine.Rendering.PostProcessing.HableCurve::AsSlopeIntercept(System.Single&,System.Single&,System.Single,System.Single,System.Single,System.Single)
+extern void HableCurve_AsSlopeIntercept_mB6BB968BEF2D16A47FD21363B3B3E80E30510A14 (void);
+// 0x000001D9 System.Single UnityEngine.Rendering.PostProcessing.HableCurve::EvalDerivativeLinearGamma(System.Single,System.Single,System.Single,System.Single)
+extern void HableCurve_EvalDerivativeLinearGamma_mD6EEFB44BE65203522B6BFC1E79CBC061B314881 (void);
+// 0x000001DA System.Single UnityEngine.Rendering.PostProcessing.HableCurve/Segment::Eval(System.Single)
+extern void Segment_Eval_mC4DF32486D62BCE96992E05A8E38C8950A6DB9D9 (void);
+// 0x000001DB System.Void UnityEngine.Rendering.PostProcessing.HableCurve/Segment::.ctor()
+extern void Segment__ctor_m8297F8231D9F5D57A6F13F9137832D6F73A04B63 (void);
+// 0x000001DC System.Void UnityEngine.Rendering.PostProcessing.HableCurve/Uniforms::.ctor(UnityEngine.Rendering.PostProcessing.HableCurve)
+extern void Uniforms__ctor_m3C3B6EE6EFF78D57E84C54D123D7258FFC3C3142 (void);
+// 0x000001DD UnityEngine.Vector4 UnityEngine.Rendering.PostProcessing.HableCurve/Uniforms::get_curve()
+extern void Uniforms_get_curve_mE7638E38D4063126F49C74A01AC768F0BD33F811 (void);
+// 0x000001DE UnityEngine.Vector4 UnityEngine.Rendering.PostProcessing.HableCurve/Uniforms::get_toeSegmentA()
+extern void Uniforms_get_toeSegmentA_mEBB2FF2937CBF4EAE75AFADB90944177F8A4792B (void);
+// 0x000001DF UnityEngine.Vector4 UnityEngine.Rendering.PostProcessing.HableCurve/Uniforms::get_toeSegmentB()
+extern void Uniforms_get_toeSegmentB_m4EE19F443F65899DC40CF56BADF489C62E035A6B (void);
+// 0x000001E0 UnityEngine.Vector4 UnityEngine.Rendering.PostProcessing.HableCurve/Uniforms::get_midSegmentA()
+extern void Uniforms_get_midSegmentA_m22A551965BFAB754EEDAE7AE6CEF466B0206B0DC (void);
+// 0x000001E1 UnityEngine.Vector4 UnityEngine.Rendering.PostProcessing.HableCurve/Uniforms::get_midSegmentB()
+extern void Uniforms_get_midSegmentB_m63DC3ED45ABDF1B406A7A0433115668EA33A6FA0 (void);
+// 0x000001E2 UnityEngine.Vector4 UnityEngine.Rendering.PostProcessing.HableCurve/Uniforms::get_shoSegmentA()
+extern void Uniforms_get_shoSegmentA_mF90FE052FC65FA7565F0ACFC08426791DC95A6DB (void);
+// 0x000001E3 UnityEngine.Vector4 UnityEngine.Rendering.PostProcessing.HableCurve/Uniforms::get_shoSegmentB()
+extern void Uniforms_get_shoSegmentB_m81DFB20837E05225D64F6BBF7B4A3181CF270EB4 (void);
+// 0x000001E4 System.Single UnityEngine.Rendering.PostProcessing.HaltonSeq::Get(System.Int32,System.Int32)
+extern void HaltonSeq_Get_m506F719276E54819A350ECA521DC14CAAF93DCDE (void);
+// 0x000001E5 UnityEngine.ComputeBuffer UnityEngine.Rendering.PostProcessing.LogHistogram::get_data()
+extern void LogHistogram_get_data_m97AC8B626DFB12E861FC4763BD074D78A33BDFC8 (void);
+// 0x000001E6 System.Void UnityEngine.Rendering.PostProcessing.LogHistogram::set_data(UnityEngine.ComputeBuffer)
+extern void LogHistogram_set_data_m11BCBDD14B39CAC012EEF0A025E0841CE9E7C0AC (void);
+// 0x000001E7 System.Void UnityEngine.Rendering.PostProcessing.LogHistogram::Generate(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
+extern void LogHistogram_Generate_mF6172BCF49EA5B84247F3B398AFDC9048A1997B5 (void);
+// 0x000001E8 UnityEngine.Vector4 UnityEngine.Rendering.PostProcessing.LogHistogram::GetHistogramScaleOffsetRes(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
+extern void LogHistogram_GetHistogramScaleOffsetRes_m8EE8EFAD19303076A548CC87BDB786D0E4627FAC (void);
+// 0x000001E9 System.Void UnityEngine.Rendering.PostProcessing.LogHistogram::Release()
+extern void LogHistogram_Release_m223FD2D21A047DD6152B77F51C08D8695F868293 (void);
+// 0x000001EA System.Void UnityEngine.Rendering.PostProcessing.LogHistogram::.ctor()
+extern void LogHistogram__ctor_m499CC8C266595035BBF5484943F188ED0F63000C (void);
+// 0x000001EB System.Void UnityEngine.Rendering.PostProcessing.MeshUtilities::.cctor()
+extern void MeshUtilities__cctor_mE9F94FE9661CC0EF8B16B40B5836A31A418D5868 (void);
+// 0x000001EC UnityEngine.Mesh UnityEngine.Rendering.PostProcessing.MeshUtilities::GetColliderMesh(UnityEngine.Collider)
+extern void MeshUtilities_GetColliderMesh_mD569C157849D4D351DC60BCE6E553DEC62499337 (void);
+// 0x000001ED UnityEngine.Mesh UnityEngine.Rendering.PostProcessing.MeshUtilities::GetPrimitive(UnityEngine.PrimitiveType)
+extern void MeshUtilities_GetPrimitive_m0623DD14F5EF49794513508BF72DF9400B55B464 (void);
+// 0x000001EE UnityEngine.Mesh UnityEngine.Rendering.PostProcessing.MeshUtilities::GetBuiltinMesh(UnityEngine.PrimitiveType)
+extern void MeshUtilities_GetBuiltinMesh_m2D76FE268B86B252CF140CA0CAE23893A66B6BA2 (void);
+// 0x000001EF System.Exception UnityEngine.Rendering.PostProcessing.PostProcessEffectRendererExtensions::RenderOrLog(UnityEngine.Rendering.PostProcessing.PostProcessEffectRenderer,UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
+extern void PostProcessEffectRendererExtensions_RenderOrLog_m469A5B8C31928779C45EC9F5516A389259FB09B3 (void);
+// 0x000001F0 UnityEngine.MaterialPropertyBlock UnityEngine.Rendering.PostProcessing.PropertySheet::get_properties()
+extern void PropertySheet_get_properties_m3AB962E1C6A0C44D98E16AFBB73B40BA5E21B504 (void);
+// 0x000001F1 System.Void UnityEngine.Rendering.PostProcessing.PropertySheet::set_properties(UnityEngine.MaterialPropertyBlock)
+extern void PropertySheet_set_properties_m5CC3AC3311CFDFC9E2BDE0B24C518C755341B09D (void);
+// 0x000001F2 UnityEngine.Material UnityEngine.Rendering.PostProcessing.PropertySheet::get_material()
+extern void PropertySheet_get_material_m39C81AE4053740E4956C4AAC9324417A32924EAF (void);
+// 0x000001F3 System.Void UnityEngine.Rendering.PostProcessing.PropertySheet::set_material(UnityEngine.Material)
+extern void PropertySheet_set_material_m08D1FD201981FD7D61112C2FDF41B3D4CFC9BB34 (void);
+// 0x000001F4 System.Void UnityEngine.Rendering.PostProcessing.PropertySheet::.ctor(UnityEngine.Material)
+extern void PropertySheet__ctor_m81478DD7D6D0B5AE15F23708DB6ED51E6A5E79EB (void);
+// 0x000001F5 System.Void UnityEngine.Rendering.PostProcessing.PropertySheet::ClearKeywords()
+extern void PropertySheet_ClearKeywords_mC8018F4A0C5AC9C1E9CAC706E6C191AF8691DB23 (void);
+// 0x000001F6 System.Void UnityEngine.Rendering.PostProcessing.PropertySheet::EnableKeyword(System.String)
+extern void PropertySheet_EnableKeyword_m8689E0BDBEF8AF049C3764DBE9CDDF1EF6A8E753 (void);
+// 0x000001F7 System.Void UnityEngine.Rendering.PostProcessing.PropertySheet::DisableKeyword(System.String)
+extern void PropertySheet_DisableKeyword_m66CA5D315600A0E7191D4548A609380CC607BF0E (void);
+// 0x000001F8 System.Void UnityEngine.Rendering.PostProcessing.PropertySheet::Release()
+extern void PropertySheet_Release_m009DE84A228752E7B8E98E69771A7993C29B4DFF (void);
+// 0x000001F9 System.Void UnityEngine.Rendering.PostProcessing.PropertySheetFactory::.ctor()
+extern void PropertySheetFactory__ctor_m2D800F5C980C606D19A82AFFF58CC4AA99DAF435 (void);
+// 0x000001FA UnityEngine.Rendering.PostProcessing.PropertySheet UnityEngine.Rendering.PostProcessing.PropertySheetFactory::Get(System.String)
+extern void PropertySheetFactory_Get_m65ADC20DA9BB9BADEAE8B52967593CD7943BE47A (void);
+// 0x000001FB UnityEngine.Rendering.PostProcessing.PropertySheet UnityEngine.Rendering.PostProcessing.PropertySheetFactory::Get(UnityEngine.Shader)
+extern void PropertySheetFactory_Get_mE4CC267B0EB28F0892A426B67015A309F2540CBF (void);
+// 0x000001FC System.Void UnityEngine.Rendering.PostProcessing.PropertySheetFactory::Release()
+extern void PropertySheetFactory_Release_m12FB943E69158B214069975CC937D751A5AEFA12 (void);
+// 0x000001FD UnityEngine.Texture2D UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_whiteTexture()
+extern void RuntimeUtilities_get_whiteTexture_m64DAED686068CD4826ADA952773923BDBA7FFFC4 (void);
+// 0x000001FE UnityEngine.Texture3D UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_whiteTexture3D()
+extern void RuntimeUtilities_get_whiteTexture3D_m28D22535909589CC391AB3D064062C4CA09268D7 (void);
+// 0x000001FF UnityEngine.Texture2D UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_blackTexture()
+extern void RuntimeUtilities_get_blackTexture_mE66C0D8EB7B079DF15773227F43CDAF0395F32EC (void);
+// 0x00000200 UnityEngine.Texture3D UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_blackTexture3D()
+extern void RuntimeUtilities_get_blackTexture3D_m10A30FE08D2EAEB2F25608BA22C76787CA34F880 (void);
+// 0x00000201 UnityEngine.Texture2D UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_transparentTexture()
+extern void RuntimeUtilities_get_transparentTexture_m4917227EFCE667A0B6F7E732201C477F5E685EEE (void);
+// 0x00000202 UnityEngine.Texture3D UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_transparentTexture3D()
+extern void RuntimeUtilities_get_transparentTexture3D_mC2D525F564DBD156833FB8C96ED322F2B9A646B3 (void);
+// 0x00000203 UnityEngine.Texture2D UnityEngine.Rendering.PostProcessing.RuntimeUtilities::GetLutStrip(System.Int32)
+extern void RuntimeUtilities_GetLutStrip_m036B3B4D4A254F44036A937D2720F80C40A7A5A3 (void);
+// 0x00000204 UnityEngine.Mesh UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_fullscreenTriangle()
+extern void RuntimeUtilities_get_fullscreenTriangle_m734342DD95DF90ABE4D598237796D4889E2FDB0D (void);
+// 0x00000205 UnityEngine.Material UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_copyStdMaterial()
+extern void RuntimeUtilities_get_copyStdMaterial_mAE6B9079561D8BCFC1EB7CCF21B3E4654BA06B51 (void);
+// 0x00000206 UnityEngine.Material UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_copyStdFromDoubleWideMaterial()
+extern void RuntimeUtilities_get_copyStdFromDoubleWideMaterial_m816BC783CBA583147E8A533DD154CB31DA9699F4 (void);
+// 0x00000207 UnityEngine.Material UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_copyMaterial()
+extern void RuntimeUtilities_get_copyMaterial_mAF502F4C003A749D6FC218BC090643C142A54CCF (void);
+// 0x00000208 UnityEngine.Material UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_copyFromTexArrayMaterial()
+extern void RuntimeUtilities_get_copyFromTexArrayMaterial_mF3DDCE8636095398F6FA0FAF35D90E5CC519B195 (void);
+// 0x00000209 UnityEngine.Rendering.PostProcessing.PropertySheet UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_copySheet()
+extern void RuntimeUtilities_get_copySheet_mB6A1F90C3046685DC524C6A0868F772E0A4ACEE2 (void);
+// 0x0000020A UnityEngine.Rendering.PostProcessing.PropertySheet UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_copyFromTexArraySheet()
+extern void RuntimeUtilities_get_copyFromTexArraySheet_mA47411707A4F90C18844B3F3485A1939FB4366FE (void);
+// 0x0000020B System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::isValidResources()
+extern void RuntimeUtilities_isValidResources_mF3D66BA59876C317ECECD09DCE1019CAD27E9AA0 (void);
+// 0x0000020C System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::UpdateResources(UnityEngine.Rendering.PostProcessing.PostProcessResources)
+extern void RuntimeUtilities_UpdateResources_m486DEDA144F35DC556C38ADA5803511EC713C3A8 (void);
+// 0x0000020D System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::SetRenderTargetWithLoadStoreAction(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderBufferLoadAction,UnityEngine.Rendering.RenderBufferStoreAction)
+extern void RuntimeUtilities_SetRenderTargetWithLoadStoreAction_m468317D20673FF9A27A95018379BC40D0FB29621 (void);
+// 0x0000020E System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::SetRenderTargetWithLoadStoreAction(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderBufferLoadAction,UnityEngine.Rendering.RenderBufferStoreAction,UnityEngine.Rendering.RenderBufferLoadAction,UnityEngine.Rendering.RenderBufferStoreAction)
+extern void RuntimeUtilities_SetRenderTargetWithLoadStoreAction_mE8607763894898BD6482B2BFFFBB3ED433A46492 (void);
+// 0x0000020F System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::SetRenderTargetWithLoadStoreAction(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderBufferLoadAction,UnityEngine.Rendering.RenderBufferStoreAction,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderBufferLoadAction,UnityEngine.Rendering.RenderBufferStoreAction)
+extern void RuntimeUtilities_SetRenderTargetWithLoadStoreAction_m128A852933A1DAB4620F294B25957B59A17FA9BF (void);
+// 0x00000210 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BlitFullscreenTriangle(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,System.Boolean,System.Nullable`1<UnityEngine.Rect>,System.Boolean)
+extern void RuntimeUtilities_BlitFullscreenTriangle_m22F3BBD690659F81B7927839DCCB9A0218E2CA58 (void);
+// 0x00000211 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BlitFullscreenTriangle(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.PostProcessing.PropertySheet,System.Int32,UnityEngine.Rendering.RenderBufferLoadAction,System.Nullable`1<UnityEngine.Rect>,System.Boolean)
+extern void RuntimeUtilities_BlitFullscreenTriangle_m5A6195FD875AD714F50CD555AC48EA6108628985 (void);
+// 0x00000212 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BlitFullscreenTriangle(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.PostProcessing.PropertySheet,System.Int32,System.Boolean,System.Nullable`1<UnityEngine.Rect>,System.Boolean)
+extern void RuntimeUtilities_BlitFullscreenTriangle_mDBE33BDDBDD10BFB36C486BEB821EF17997D448E (void);
+// 0x00000213 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BlitFullscreenTriangleFromDoubleWide(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Material,System.Int32,System.Int32)
+extern void RuntimeUtilities_BlitFullscreenTriangleFromDoubleWide_mBC9EBEC455FCBE9C2C698E308A7BDC24F95BEC87 (void);
+// 0x00000214 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BlitFullscreenTriangleToDoubleWide(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.PostProcessing.PropertySheet,System.Int32,System.Int32)
+extern void RuntimeUtilities_BlitFullscreenTriangleToDoubleWide_m991CE3F278215B9EA30FCAD56E8D199AD6214D86 (void);
+// 0x00000215 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BlitFullscreenTriangleFromTexArray(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.PostProcessing.PropertySheet,System.Int32,System.Boolean,System.Int32)
+extern void RuntimeUtilities_BlitFullscreenTriangleFromTexArray_m209783E94383C31EE29C9605E8C6B3AA46EDF6B1 (void);
+// 0x00000216 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BlitFullscreenTriangleToTexArray(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.PostProcessing.PropertySheet,System.Int32,System.Boolean,System.Int32)
+extern void RuntimeUtilities_BlitFullscreenTriangleToTexArray_m9584D6F3239DB167D19414A84A3BD0C257372CD4 (void);
+// 0x00000217 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BlitFullscreenTriangle(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.PostProcessing.PropertySheet,System.Int32,System.Boolean,System.Nullable`1<UnityEngine.Rect>)
+extern void RuntimeUtilities_BlitFullscreenTriangle_mC5B7E273D565CDB20FCC50B52A4567C3D0C242CB (void);
+// 0x00000218 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BlitFullscreenTriangle(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier[],UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.PostProcessing.PropertySheet,System.Int32,System.Boolean,System.Nullable`1<UnityEngine.Rect>)
+extern void RuntimeUtilities_BlitFullscreenTriangle_mB52EBC17810E59AAE9D3D4CB04D29CB09E953916 (void);
+// 0x00000219 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BuiltinBlit(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier)
+extern void RuntimeUtilities_BuiltinBlit_mAC1D19F549F9CBF10B00D5449EE72F394262B860 (void);
+// 0x0000021A System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::BuiltinBlit(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Material,System.Int32)
+extern void RuntimeUtilities_BuiltinBlit_m2FEA794D39C795470A2C44D28F1A72CB0BF5CC8D (void);
+// 0x0000021B System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::CopyTexture(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier)
+extern void RuntimeUtilities_CopyTexture_mCADF3045D379D4E9771BEB16EBB3AB0282284753 (void);
+// 0x0000021C System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_scriptableRenderPipelineActive()
+extern void RuntimeUtilities_get_scriptableRenderPipelineActive_m7442F2DFF6D5C3AFE4AB82550470A951559C4F3C (void);
+// 0x0000021D System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_supportsDeferredShading()
+extern void RuntimeUtilities_get_supportsDeferredShading_mC6F86E18FF2817F79C47298074A78171758F3FD1 (void);
+// 0x0000021E System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_supportsDepthNormals()
+extern void RuntimeUtilities_get_supportsDepthNormals_m089408C08DA95BC0CDC5B99B13F3CF6E1D9D300A (void);
+// 0x0000021F System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_isSinglePassStereoEnabled()
+extern void RuntimeUtilities_get_isSinglePassStereoEnabled_m32CAA62D88CC87AC5C737817D7E92580CF57E40C (void);
+// 0x00000220 System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_isVREnabled()
+extern void RuntimeUtilities_get_isVREnabled_m5E1BD81DFDF3743EA95103C8E9FA75D02D761733 (void);
+// 0x00000221 System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_isAndroidOpenGL()
+extern void RuntimeUtilities_get_isAndroidOpenGL_mE41A09A4E4AE4545C75E6838F4D2EB58ECF0CBEC (void);
+// 0x00000222 UnityEngine.RenderTextureFormat UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_defaultHDRRenderTextureFormat()
+extern void RuntimeUtilities_get_defaultHDRRenderTextureFormat_m5A7F7F512A227464CE206E167BEE2253CA3AB81F (void);
+// 0x00000223 System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::isFloatingPointFormat(UnityEngine.RenderTextureFormat)
+extern void RuntimeUtilities_isFloatingPointFormat_mB39D112459A26588C3399CD4DF5412F5DB851BBB (void);
+// 0x00000224 System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::hasAlpha(UnityEngine.RenderTextureFormat)
+extern void RuntimeUtilities_hasAlpha_m441A0B21BB036F4A3BF0DB0E8AF58D45EAACD97D (void);
 // 0x00000225 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::Destroy(UnityEngine.Object)
-extern void RuntimeUtilities_Destroy_m481422E48E94E2BB1632F64A76343E6A864F6CD0 (void);
+extern void RuntimeUtilities_Destroy_mFACBF0A88388BF2481DCF65832A811B0BA873FFB (void);
 // 0x00000226 System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::get_isLinearColorSpace()
-extern void RuntimeUtilities_get_isLinearColorSpace_m7E36D6D674A05B1F9FA8CD948E0081E6F2748A68 (void);
+extern void RuntimeUtilities_get_isLinearColorSpace_m1D106C8BE629AEB323D34C96816B2518699F2578 (void);
 // 0x00000227 System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::IsResolvedDepthAvailable(UnityEngine.Camera)
-extern void RuntimeUtilities_IsResolvedDepthAvailable_m02B90B8B549F50DA20B76BCDAFCE694372A39AC8 (void);
+extern void RuntimeUtilities_IsResolvedDepthAvailable_mEABC85E56BBE0441A12E3F49916BC28013AA076A (void);
 // 0x00000228 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::DestroyProfile(UnityEngine.Rendering.PostProcessing.PostProcessProfile,System.Boolean)
-extern void RuntimeUtilities_DestroyProfile_m083E21FEA3ED48683D56972906D30D6C3A429CE6 (void);
+extern void RuntimeUtilities_DestroyProfile_m97EDA1F03D597F78B1CD73B022D7B35FB656F2C7 (void);
 // 0x00000229 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::DestroyVolume(UnityEngine.Rendering.PostProcessing.PostProcessVolume,System.Boolean,System.Boolean)
-extern void RuntimeUtilities_DestroyVolume_mEC597C040338F3DC50B60517A50FDA89D480F651 (void);
+extern void RuntimeUtilities_DestroyVolume_m313A0B7EE3542ED29B90A72394EA81A7077D4C38 (void);
 // 0x0000022A System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::IsPostProcessingActive(UnityEngine.Rendering.PostProcessing.PostProcessLayer)
-extern void RuntimeUtilities_IsPostProcessingActive_mDCCF4692700907136EAFF637BCAA19F69E0EA4E0 (void);
+extern void RuntimeUtilities_IsPostProcessingActive_m3A2D987EC710989F8EB49B2E5B62461068AE607B (void);
 // 0x0000022B System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities::IsTemporalAntialiasingActive(UnityEngine.Rendering.PostProcessing.PostProcessLayer)
-extern void RuntimeUtilities_IsTemporalAntialiasingActive_m829221C23A4456D28EE2A26DC65E21DA8299E524 (void);
+extern void RuntimeUtilities_IsTemporalAntialiasingActive_m39EEECBF0E676A46108FDF37EFEC8951ADFF6A46 (void);
 // 0x0000022C System.Collections.Generic.IEnumerable`1<T> UnityEngine.Rendering.PostProcessing.RuntimeUtilities::GetAllSceneObjects()
 // 0x0000022D System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::CreateIfNull(T&)
 // 0x0000022E System.Single UnityEngine.Rendering.PostProcessing.RuntimeUtilities::Exp2(System.Single)
-extern void RuntimeUtilities_Exp2_mBD3F6650C509623481B6B415CE0290C3439823EF (void);
+extern void RuntimeUtilities_Exp2_m9B6310836A239D1376BAAC7EB4082603F5834B0E (void);
 // 0x0000022F UnityEngine.Matrix4x4 UnityEngine.Rendering.PostProcessing.RuntimeUtilities::GetJitteredPerspectiveProjectionMatrix(UnityEngine.Camera,UnityEngine.Vector2)
-extern void RuntimeUtilities_GetJitteredPerspectiveProjectionMatrix_m1FEA6CB94354375DE0E8DBD4D05C13055C056413 (void);
+extern void RuntimeUtilities_GetJitteredPerspectiveProjectionMatrix_m0D997EC76CAA5CE3D381F17C798D0575847C1D3A (void);
 // 0x00000230 UnityEngine.Matrix4x4 UnityEngine.Rendering.PostProcessing.RuntimeUtilities::GetJitteredOrthographicProjectionMatrix(UnityEngine.Camera,UnityEngine.Vector2)
-extern void RuntimeUtilities_GetJitteredOrthographicProjectionMatrix_m8ADC57FB4AA74B7AAB5C35A1D4B68CDB189F2C5D (void);
+extern void RuntimeUtilities_GetJitteredOrthographicProjectionMatrix_mB97B8CD7C2D251DF19C5BB5C3394E8A31F885B13 (void);
 // 0x00000231 UnityEngine.Matrix4x4 UnityEngine.Rendering.PostProcessing.RuntimeUtilities::GenerateJitteredProjectionMatrixFromOriginal(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext,UnityEngine.Matrix4x4,UnityEngine.Vector2)
-extern void RuntimeUtilities_GenerateJitteredProjectionMatrixFromOriginal_m29DAC8AAF501847AD3A83AF8652B0FC97ED70DBE (void);
+extern void RuntimeUtilities_GenerateJitteredProjectionMatrixFromOriginal_mA84280675C3CBE08CD98DFCFD7EF70C155EF52C5 (void);
 // 0x00000232 System.Collections.Generic.IEnumerable`1<System.Type> UnityEngine.Rendering.PostProcessing.RuntimeUtilities::GetAllAssemblyTypes()
-extern void RuntimeUtilities_GetAllAssemblyTypes_m296B4E9AD50902E0FAABDD7292982789DC1B1492 (void);
+extern void RuntimeUtilities_GetAllAssemblyTypes_m3D6AD3153927DF17E88B4BF2A631472D0BCE8B87 (void);
 // 0x00000233 System.Collections.Generic.IEnumerable`1<System.Type> UnityEngine.Rendering.PostProcessing.RuntimeUtilities::GetAllTypesDerivedFrom()
 // 0x00000234 T UnityEngine.Rendering.PostProcessing.RuntimeUtilities::GetAttribute(System.Type)
 // 0x00000235 System.Attribute[] UnityEngine.Rendering.PostProcessing.RuntimeUtilities::GetMemberAttributes(System.Linq.Expressions.Expression`1<System.Func`2<TType,TValue>>)
 // 0x00000236 System.String UnityEngine.Rendering.PostProcessing.RuntimeUtilities::GetFieldPath(System.Linq.Expressions.Expression`1<System.Func`2<TType,TValue>>)
 // 0x00000237 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities::.cctor()
-extern void RuntimeUtilities__cctor_m6DEC1088FBCC589605BBDF06708DAC08659F9A2D (void);
-// 0x00000238 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<GetAllSceneObjects>d__82`1::.ctor(System.Int32)
-// 0x00000239 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<GetAllSceneObjects>d__82`1::System.IDisposable.Dispose()
-// 0x0000023A System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<GetAllSceneObjects>d__82`1::MoveNext()
-// 0x0000023B System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<GetAllSceneObjects>d__82`1::<>m__Finally1()
-// 0x0000023C T UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<GetAllSceneObjects>d__82`1::System.Collections.Generic.IEnumerator<T>.get_Current()
-// 0x0000023D System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<GetAllSceneObjects>d__82`1::System.Collections.IEnumerator.Reset()
-// 0x0000023E System.Object UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<GetAllSceneObjects>d__82`1::System.Collections.IEnumerator.get_Current()
-// 0x0000023F System.Collections.Generic.IEnumerator`1<T> UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<GetAllSceneObjects>d__82`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-// 0x00000240 System.Collections.IEnumerator UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<GetAllSceneObjects>d__82`1::System.Collections.IEnumerable.GetEnumerator()
+extern void RuntimeUtilities__cctor_m79937C569B2DD59623B1E2036A965699C6501C94 (void);
+// 0x00000238 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<GetAllSceneObjects>d__83`1::.ctor(System.Int32)
+// 0x00000239 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<GetAllSceneObjects>d__83`1::System.IDisposable.Dispose()
+// 0x0000023A System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<GetAllSceneObjects>d__83`1::MoveNext()
+// 0x0000023B System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<GetAllSceneObjects>d__83`1::<>m__Finally1()
+// 0x0000023C T UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<GetAllSceneObjects>d__83`1::System.Collections.Generic.IEnumerator<T>.get_Current()
+// 0x0000023D System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<GetAllSceneObjects>d__83`1::System.Collections.IEnumerator.Reset()
+// 0x0000023E System.Object UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<GetAllSceneObjects>d__83`1::System.Collections.IEnumerator.get_Current()
+// 0x0000023F System.Collections.Generic.IEnumerator`1<T> UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<GetAllSceneObjects>d__83`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+// 0x00000240 System.Collections.IEnumerator UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<GetAllSceneObjects>d__83`1::System.Collections.IEnumerable.GetEnumerator()
 // 0x00000241 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<>c::.cctor()
-extern void U3CU3Ec__cctor_m26E6EFBFBBC1F858E452CC4D882B5469B50F0F98 (void);
+extern void U3CU3Ec__cctor_mBECE476BF31EC12809FDABDAE7B3AB117FB5A0BF (void);
 // 0x00000242 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<>c::.ctor()
-extern void U3CU3Ec__ctor_m90691D1FA1D38AC16E174EC5EA02291F7F1FDD7B (void);
-// 0x00000243 System.Collections.Generic.IEnumerable`1<System.Type> UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<>c::<GetAllAssemblyTypes>b__89_0(System.Reflection.Assembly)
-extern void U3CU3Ec_U3CGetAllAssemblyTypesU3Eb__89_0_m2D8A0406174FF37CEF55D05CBF0AD7651DA48726 (void);
-// 0x00000244 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<>c__90`1::.cctor()
-// 0x00000245 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<>c__90`1::.ctor()
-// 0x00000246 System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<>c__90`1::<GetAllTypesDerivedFrom>b__90_0(System.Type)
+extern void U3CU3Ec__ctor_m2BC17DAAA4D21C741B7E25F193024C940AB1F8F3 (void);
+// 0x00000243 System.Collections.Generic.IEnumerable`1<System.Type> UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<>c::<GetAllAssemblyTypes>b__90_0(System.Reflection.Assembly)
+extern void U3CU3Ec_U3CGetAllAssemblyTypesU3Eb__90_0_m42BF0A67E4023EC15D9167C9A3B033E513D0E099 (void);
+// 0x00000244 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<>c__91`1::.cctor()
+// 0x00000245 System.Void UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<>c__91`1::.ctor()
+// 0x00000246 System.Boolean UnityEngine.Rendering.PostProcessing.RuntimeUtilities/<>c__91`1::<GetAllTypesDerivedFrom>b__91_0(System.Type)
 // 0x00000247 System.Void UnityEngine.Rendering.PostProcessing.ShaderIDs::.cctor()
-extern void ShaderIDs__cctor_m5C13ADD34F943EF7F1B0EC8A0BD1EBB645E082D0 (void);
+extern void ShaderIDs__cctor_m9C46D8E05E8D4188836A87723CBCB359E14C8CBD (void);
 // 0x00000248 System.Void UnityEngine.Rendering.PostProcessing.Spline::.ctor(UnityEngine.AnimationCurve,System.Single,System.Boolean,UnityEngine.Vector2)
-extern void Spline__ctor_mF4CB5FE207BD36B6A8B1425A3CEC164DD61B74B3 (void);
+extern void Spline__ctor_mD644879C46B45FF62C7B6D65F536BC66A00890B3 (void);
 // 0x00000249 System.Void UnityEngine.Rendering.PostProcessing.Spline::Cache(System.Int32)
-extern void Spline_Cache_mF98EF50CC2A26EC6716EB5452FD4B88641A7F833 (void);
+extern void Spline_Cache_mC30B8B6D444CFFFD1677515BC60323612E5F799A (void);
 // 0x0000024A System.Single UnityEngine.Rendering.PostProcessing.Spline::Evaluate(System.Single,System.Int32)
-extern void Spline_Evaluate_m908B44D36171764274B429D923E47F36BF972516 (void);
+extern void Spline_Evaluate_m1460BA797E9037E0E124E23228F3740E554EDCAB (void);
 // 0x0000024B System.Single UnityEngine.Rendering.PostProcessing.Spline::Evaluate(System.Single)
-extern void Spline_Evaluate_m782264B22BBC1BADE12ED2E0A0C4CD1DE9A79BBC (void);
+extern void Spline_Evaluate_m03A5DA5ED5DB3EF65549D7A34EA9BEF93002DB39 (void);
 // 0x0000024C System.Int32 UnityEngine.Rendering.PostProcessing.Spline::GetHashCode()
-extern void Spline_GetHashCode_mF43C4207D64C2A5725F5341460012D79371FBFD7 (void);
+extern void Spline_GetHashCode_m0FBD6BFA0E4AEEC84B5CD48133F76658A687B59E (void);
 // 0x0000024D System.Void UnityEngine.Rendering.PostProcessing.TargetPool::.ctor()
-extern void TargetPool__ctor_m00A7A8FD2FB5F0FD7BF02F424D32A9FB6B365199 (void);
+extern void TargetPool__ctor_m53BBB5D1522A6404B1F418DA26C491B0889222A3 (void);
 // 0x0000024E System.Int32 UnityEngine.Rendering.PostProcessing.TargetPool::Get()
-extern void TargetPool_Get_m0547F5C89835B0586BE4B46593AD5A388FF434B0 (void);
+extern void TargetPool_Get_mFD7A784E2BDD7B37E3F25B3C61CEF986665CC59C (void);
 // 0x0000024F System.Int32 UnityEngine.Rendering.PostProcessing.TargetPool::Get(System.Int32)
-extern void TargetPool_Get_m3E7EF2A9C513F78863718A8237F3A0277A33DC1A (void);
+extern void TargetPool_Get_m15FB87703C592304BBC6D92F2EFF5A192458F75A (void);
 // 0x00000250 System.Void UnityEngine.Rendering.PostProcessing.TargetPool::Reset()
-extern void TargetPool_Reset_m2D79A232CECE4951254E2EDA0529F0C877B97BB3 (void);
+extern void TargetPool_Reset_m446CF3DF6B8C18795EE04F60EC7091DCF5C2DC11 (void);
 // 0x00000251 System.Void UnityEngine.Rendering.PostProcessing.TextureFormatUtilities::.cctor()
-extern void TextureFormatUtilities__cctor_m80F059F44CECC5A39BFE15307B85CDB3A8C0154C (void);
+extern void TextureFormatUtilities__cctor_m62691A726B8793932D87E5E0049A3220D9D2AD2E (void);
 // 0x00000252 System.Boolean UnityEngine.Rendering.PostProcessing.TextureFormatUtilities::IsObsolete(System.Object)
-extern void TextureFormatUtilities_IsObsolete_m7F982EEAB23550BC1C661F9498072043C17A2B15 (void);
+extern void TextureFormatUtilities_IsObsolete_m0D83C3AEA2A6B680C34266EAC453678EECB87EDC (void);
 // 0x00000253 UnityEngine.RenderTextureFormat UnityEngine.Rendering.PostProcessing.TextureFormatUtilities::GetUncompressedRenderTextureFormat(UnityEngine.Texture)
-extern void TextureFormatUtilities_GetUncompressedRenderTextureFormat_m0A47B765B1D6E974F3C303A5D19E00520730D58C (void);
+extern void TextureFormatUtilities_GetUncompressedRenderTextureFormat_mA9DD8DE489A31097C86EAB22E736EF837C243473 (void);
 // 0x00000254 System.Boolean UnityEngine.Rendering.PostProcessing.TextureFormatUtilities::IsSupported(UnityEngine.RenderTextureFormat)
-extern void TextureFormatUtilities_IsSupported_m47ADFD683457DEBF0498B6C06C4D49541CFA1452 (void);
+extern void TextureFormatUtilities_IsSupported_mBEAA34D83680E03E11B2951EE0276C0DD8F28EE1 (void);
 // 0x00000255 System.Boolean UnityEngine.Rendering.PostProcessing.TextureFormatUtilities::IsSupported(UnityEngine.TextureFormat)
-extern void TextureFormatUtilities_IsSupported_mB592C8F78ABEF5D0138D103EE63B9E8006D1E463 (void);
+extern void TextureFormatUtilities_IsSupported_m7E56F1F567F73A9147B94EBCF846FF9DA9A7931D (void);
 // 0x00000256 UnityEngine.Rendering.PostProcessing.TextureLerper UnityEngine.Rendering.PostProcessing.TextureLerper::get_instance()
-extern void TextureLerper_get_instance_mCC583A6374F5049A37F412180FED1BA4713728F7 (void);
+extern void TextureLerper_get_instance_m0AB68B6199F15DE585DA84890EFFBEA18C0C9135 (void);
 // 0x00000257 System.Void UnityEngine.Rendering.PostProcessing.TextureLerper::.ctor()
-extern void TextureLerper__ctor_m326A48946F64C5733E75607AE62A9D247FC7E67D (void);
+extern void TextureLerper__ctor_m74C29B82F5BDDEE941798B3451F5CAC949786403 (void);
 // 0x00000258 System.Void UnityEngine.Rendering.PostProcessing.TextureLerper::BeginFrame(UnityEngine.Rendering.PostProcessing.PostProcessRenderContext)
-extern void TextureLerper_BeginFrame_mF2957CC10D96B1A568D284E0A7DA7F4E0CFE0558 (void);
+extern void TextureLerper_BeginFrame_mCF5241E01ADD975AE44EEB2BAF8F8392DE25D2D4 (void);
 // 0x00000259 System.Void UnityEngine.Rendering.PostProcessing.TextureLerper::EndFrame()
-extern void TextureLerper_EndFrame_m827E01313363D563B9D08D245272A162D1872745 (void);
+extern void TextureLerper_EndFrame_mE08975C8094A7C272C77F81234C060A5B7D04CDE (void);
 // 0x0000025A UnityEngine.RenderTexture UnityEngine.Rendering.PostProcessing.TextureLerper::Get(UnityEngine.RenderTextureFormat,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean)
-extern void TextureLerper_Get_mD700555241B9F131B78A0302883C35AD0936F120 (void);
+extern void TextureLerper_Get_m7BD996F475523844239018F193F65A66ED0DC2C8 (void);
 // 0x0000025B UnityEngine.Texture UnityEngine.Rendering.PostProcessing.TextureLerper::Lerp(UnityEngine.Texture,UnityEngine.Texture,System.Single)
-extern void TextureLerper_Lerp_m675AC3EF5BB02D904E0988F874D1F6F9AF9FB257 (void);
+extern void TextureLerper_Lerp_mCA914BD184BAC500B67975AB1259C3CB53AFF517 (void);
 // 0x0000025C UnityEngine.Texture UnityEngine.Rendering.PostProcessing.TextureLerper::Lerp(UnityEngine.Texture,UnityEngine.Color,System.Single)
-extern void TextureLerper_Lerp_mF45DC5D430B5C7B0C0067B55F390910DE27232DA (void);
+extern void TextureLerper_Lerp_mE50D3C8F764C051E06B7D02A7AA434BA89E948B6 (void);
 // 0x0000025D System.Void UnityEngine.Rendering.PostProcessing.TextureLerper::Clear()
-extern void TextureLerper_Clear_mF79AC272E135A60DFE6AB2012B81905934090214 (void);
+extern void TextureLerper_Clear_m623E91726AE717C516B15A778FB79906A268F205 (void);
 static Il2CppMethodPointer s_methodPointers[605] = 
 {
-	DisplayNameAttribute__ctor_mC6DDF0F7FED605C29AF53560DCFABEA3A552AF4D,
-	MaxAttribute__ctor_m5A0055EF8FA670A4FA37C9E95BD4A843333FD4E3,
-	MinAttribute__ctor_mF7CC485FE4513A04FCB6896A87A8E4FF2F69EE18,
-	MinMaxAttribute__ctor_m2B86DBABF344BD1EC6BC481E04B41AE5BB29AC1D,
-	PostProcessAttribute__ctor_mDD52E90599E28E71A19B00DB4771CC5950ADDF32,
-	PostProcessAttribute__ctor_mA3FDCA42F863DEDFC594BB5F5818DE320AD154B3,
-	TrackballAttribute__ctor_m593E6847AC9390ADE5E2A358E69B29967527C2FD,
-	AmbientOcclusionModeParameter__ctor_mFCE7E1380B0CA42D39F6A66C937D656620E79923,
-	AmbientOcclusionQualityParameter__ctor_m14FB3DF7CE2DBF5F11EB1879DCC6887086870AAD,
-	AmbientOcclusion_IsEnabledAndSupported_m720CFBDB15B6957D9BDD86026B4CEA80ACB7DA3B,
-	AmbientOcclusion__ctor_m56351F92F528AE1C1572715DFC5317DF012CD11E,
+	DisplayNameAttribute__ctor_mD404388FAB7BC64E48C2B4F77DCBD8807DB26A41,
+	MaxAttribute__ctor_mCDE82B3A782FEB1F352DCCA80B894828FF5C55C9,
+	MinAttribute__ctor_mD915F3DC59983B038F573369EA1A90B8E65A499F,
+	MinMaxAttribute__ctor_mF835CF4D1256E9A46A0AA64ACEA4C40B10ECD534,
+	PostProcessAttribute__ctor_mD808C615E88B37B9F277D9E07D28151D555113E9,
+	PostProcessAttribute__ctor_mE396C63F3D7E97664B61B48652A17B80E9F80567,
+	TrackballAttribute__ctor_mE412487172AF6AC6D86FEA377A46C31BD25CF043,
+	AmbientOcclusionModeParameter__ctor_mD12843AA626132E7A3B57342253410DB950BF48E,
+	AmbientOcclusionQualityParameter__ctor_mBD73589DA6EB61847CF80867F91345E5B16F8988,
+	AmbientOcclusion_IsEnabledAndSupported_m8CFBED8FFA9D16C294C75EDE95E7FA1FBA51A7B6,
+	AmbientOcclusion__ctor_m059B352AF269AA5A967C0CFBA209A1A781453A1A,
 	NULL,
 	NULL,
 	NULL,
 	NULL,
 	NULL,
-	AmbientOcclusionRenderer_Init_mA3B0F8AE73F6AA694F983B4A5DC87CB7FD6B5CBA,
-	AmbientOcclusionRenderer_IsAmbientOnly_m5A77F8622151A4EA9FE590655B6E7E085A1D7B06,
-	AmbientOcclusionRenderer_Get_m67BA05B631A6740564AF7B0CAAE58F2CD2EC305E,
-	AmbientOcclusionRenderer_GetCameraFlags_m29C1369C24DAD23DCA98CE634F2156DF19FF3592,
-	AmbientOcclusionRenderer_Release_mCC9A8A8DAE2CE44CFD3DD09CCA98A38F3B80083A,
-	AmbientOcclusionRenderer_GetScalableAO_m45EDEED638FC6EC0E7A28ADBA545B5C14D2C9E8C,
-	AmbientOcclusionRenderer_GetMultiScaleVO_m77469D960AE101C9A8A74055CF75096CD62BCF6D,
-	AmbientOcclusionRenderer_Render_m780A5831389C81820FCA3ACF7D80CB60878FF57E,
-	AmbientOcclusionRenderer__ctor_m3350E39318843D75A15F84BE2EF5523D0AEAD28F,
-	EyeAdaptationParameter__ctor_m7C78083B39B535D78273E813C702706DE51FFF31,
-	AutoExposure_IsEnabledAndSupported_m5AE7A64565EFC721D5D85707F0F585BD18F98C01,
-	AutoExposure__ctor_m518431E3FB963370308682EA68492306689158FD,
-	AutoExposureRenderer__ctor_m15269270A88D00BE8CCB970F9BF81E65AED4D43D,
-	AutoExposureRenderer_CheckTexture_m93C720C54FF70AFD18F3B8160E2324548A593558,
-	AutoExposureRenderer_Render_m16316D56F1316E8690CB7B485E4C0D2BC3351270,
-	AutoExposureRenderer_Release_m199435220AB5F13A9A37E47F92A6484E4FA2483E,
-	Bloom_IsEnabledAndSupported_m9FB08EC848606657761325B79B76E38FC86D2A65,
-	Bloom__ctor_m392EA2E063E2471A4B4AC223EB07244D048E8E62,
-	BloomRenderer_Init_mE2A298B0A535B1EA48D0412D28B29585B120662B,
-	BloomRenderer_Render_m1BF0EADC0232A3AB4A69633601499C3C73C962A4,
-	BloomRenderer__ctor_m1E750605CCFDEB524EB48B46EAA3FCC67A3E7B5F,
-	ChromaticAberration_IsEnabledAndSupported_mD13C38E0BAF647433F02E58083B835311C5C10F1,
-	ChromaticAberration__ctor_mC334EB12BDE44B8B59E4322021FF201B6E94B10A,
-	ChromaticAberrationRenderer_Render_m53D46F69F3A469D00104C7D8FC26BC8E9F315EEA,
-	ChromaticAberrationRenderer_Release_m073107CECA2CEAE14A260ECAE2D179E738272578,
-	ChromaticAberrationRenderer__ctor_m58AE6FAB34E606E0B63222E076606FAC3858C031,
-	GradingModeParameter__ctor_mF96EA897EA9CEF4FBC07C714CDB95CFE02F93B9F,
-	TonemapperParameter__ctor_m00E44E11E8C010507848A1767300E1053679A5F0,
-	ColorGrading_IsEnabledAndSupported_mA0B5513241A97D08D46AE8840751FED4BA533101,
-	ColorGrading__ctor_m33D6A092A5F620B80BB9822003AD59DB98CDC31F,
-	ColorGradingRenderer_Render_m3A5815D59F04D8BF0FBFFCE7E86DCDD666E19592,
-	ColorGradingRenderer_RenderExternalPipeline3D_m4BA3989C71C16FBA2FD6B820D2363FC9620D1BF7,
-	ColorGradingRenderer_RenderHDRPipeline3D_mB3D126713A64C33C75EF4DAB05CB53FEA2EE5D43,
-	ColorGradingRenderer_RenderHDRPipeline2D_m1A21E68693FBB0759745896776D49EA280870D75,
-	ColorGradingRenderer_RenderLDRPipeline2D_m616DBEC56443AF51A5FF9DF1626C915DA6BC6597,
-	ColorGradingRenderer_CheckInternalLogLut_m4E3605B5F95F0FDDD1030F4C8A5897149BAA3475,
-	ColorGradingRenderer_CheckInternalStripLut_mBDFEBFA559753E181002AE5AD1C660CE3CE69B59,
-	ColorGradingRenderer_GetCurveTexture_m23FDC74489540547C8708E78C5B291EA368FB008,
-	ColorGradingRenderer_IsRenderTextureFormatSupportedForLinearFiltering_m02926363725E54488952ABFF10F55E50F4D9E624,
-	ColorGradingRenderer_GetLutFormat_m69AEC69765A47055E562D7A1518E00B0F6633CC5,
-	ColorGradingRenderer_GetCurveFormat_m8A1EC367E4192CF5D6904B3DB295C4B62C4CF13D,
-	ColorGradingRenderer_Release_m46B7BEFF864C3FCB6616E05EC71E5A8DCB6EB1D8,
-	ColorGradingRenderer__ctor_m609EFB8891282C1971EF851DC04C12B20CB2A6BE,
-	KernelSizeParameter__ctor_mC9FA15B0A3D6D56495B3DB38EC1E685C9CDAEB00,
-	DepthOfField_IsEnabledAndSupported_m5B41DD100C9314561E15314BF33D7B5937AD53F6,
-	DepthOfField__ctor_m5E5C8EDEDCD6643E99AEF4D37073AD7128D765A5,
-	DepthOfFieldRenderer__ctor_mDD6E938F8A2D32A3F586D5DF97749638EF57EE4F,
-	DepthOfFieldRenderer_GetCameraFlags_mA24EAFABABBC714F206293BF191323730A15ED1C,
-	DepthOfFieldRenderer_SelectFormat_mA727185D2B1E89DC0962E26672D7509147BD462B,
-	DepthOfFieldRenderer_CalculateMaxCoCRadius_m3813326711DC8EDD78C1FB179682F3AD40319593,
-	DepthOfFieldRenderer_CheckHistory_m911AC1AF4CF4A874FD38C941F5C58C47C7FE561B,
-	DepthOfFieldRenderer_Render_m32989A445B3004E689397E072AC31DA1F456216A,
-	DepthOfFieldRenderer_Release_m71B33FB0AEB8ED07A52ED8AA9FA28C0198B4AC27,
-	Dithering_Render_mE6124E38F680E37934C3BBD1E8F73D926D28B661,
-	Dithering__ctor_m143E4229BCAC785FA75CC5EBDAF7BDB6EFD388EB,
-	FastApproximateAntialiasing__ctor_m4C443FEB81618E3B5EA4D2EEA75BB67F4910EEA1,
-	Fog_GetCameraFlags_m1FE74A3121D526C50A78863CC9ACBC38F0694CC4,
-	Fog_IsEnabledAndSupported_m032F2A56D8DE3B1FDACAE8174B20C7CEE8325F0E,
-	Fog_Render_m435B9A6B92833EBD9E237F46F4F066F4F03A732E,
-	Fog__ctor_mA98F3BA37BFA53225EE74C53ACF4DEF218211F28,
-	Grain_IsEnabledAndSupported_mBC536DDC0E38B9D7B18EB436196900F2B6403592,
-	Grain__ctor_m10C6547CD0B0CFD9BC6D639C1E920434816235DF,
-	GrainRenderer_Render_m0646753B2E6222A1C00F3AEE8A7E567878919B57,
-	GrainRenderer_GetLookupFormat_mD362BF97912F5B3D7CF6ED8C21906346A7989697,
-	GrainRenderer_Release_mAC267606A532714D11C5BE1A2B0D284893A5BDD9,
-	GrainRenderer__ctor_m2265B02AC4735EB4875F8D32A6EBE73BC80403A1,
-	LensDistortion_IsEnabledAndSupported_mA7204A7B6840B7B2F9A650A03AAC28CE5DC98587,
-	LensDistortion__ctor_m257562372044829F89320AA2D2CFF46FFB8E4255,
-	LensDistortionRenderer_Render_m4D3343279E5BF87021BAF56EC0388DC1395DF52A,
-	LensDistortionRenderer__ctor_mA5092D594C99AF56A5DBBE5C2D4377B73006D05E,
-	MotionBlur_IsEnabledAndSupported_m5028AFA3FA6894818C3DE261DD71B3785B6D4FA3,
-	MotionBlur__ctor_mC86A4CC11E1CF95CC533BC29A46BA28914B2224B,
-	MotionBlurRenderer_GetCameraFlags_m4DB815C78AD85619B40F4797D896149E52D450CE,
-	MotionBlurRenderer_CreateTemporaryRT_mD976DBC2C27CEEA14915FF82A210B39CBC5E086D,
-	MotionBlurRenderer_Render_m2BFC40DD564E324ACDEDB6B4E13E92057F96DA25,
-	MotionBlurRenderer__ctor_m3AF94ED2942706ADA6EC007A084462BE9047D774,
-	MultiScaleVO__ctor_m9BFC7ADD2493601C3DB9371EB189D4635612F1DF,
-	MultiScaleVO_GetCameraFlags_m8E4A64719125B3893304CA2A2EC1F3C85F7687EF,
-	MultiScaleVO_SetResources_m84240174825540B7F4C74D968DC59AD2ECC591C1,
-	MultiScaleVO_Alloc_m6CBEE89199B35D51B3647752CBBBE5FF548BF5B4,
-	MultiScaleVO_AllocArray_m36BD4376B54B4A1E87ACA920D78C2E8E33ECCD72,
-	MultiScaleVO_Release_m0E5ED7DC133AB8FD150B5FFE16BAA0E2DF2D4230,
-	MultiScaleVO_CalculateZBufferParams_m22B0A0F3F81F8B763B4FC56576A24CEF93836E8F,
-	MultiScaleVO_CalculateTanHalfFovHeight_mC39EF131E77E87D11C46F6F0407FFF242D775BE8,
-	MultiScaleVO_GetSize_mE37BB8127DB121C2D77ACD8C28FB07142364C992,
-	MultiScaleVO_GetSizeArray_m69FBD800D97C26290A466A097E7E50A2CE9CDFFA,
-	MultiScaleVO_GenerateAOMap_m5F19CF58D1022B3A75F65C0DBC8BF6F77CBA4BD1,
-	MultiScaleVO_PushAllocCommands_mBEB5A921C0C0E84B9E42F6FAD1B53492DAAEA31E,
-	MultiScaleVO_PushDownsampleCommands_m2CDAC714FB28F0F9C7ABB7CC7A18E40C1402CEDB,
-	MultiScaleVO_PushRenderCommands_m08B92180E92671B64E66E4EE3000DBC68C3598AF,
-	MultiScaleVO_PushUpsampleCommands_mE4D317E8951EC0CF04E6AECBA833A24332AD2BB0,
-	MultiScaleVO_PushReleaseCommands_mBE63709DDB6352D2F7025AE89BDE97BE0909C1AC,
-	MultiScaleVO_PreparePropertySheet_m475E87B885128A12DA6B62324E654E9CF9B30C76,
-	MultiScaleVO_CheckAOTexture_mE6F5AA4D7F06D3BAA1FABE1D8991C36104CD7B6C,
-	MultiScaleVO_PushDebug_mCF96B0B7C0E4CF071BD1658991DCC6570BCDB137,
-	MultiScaleVO_RenderAfterOpaque_m5DBCFF788852A66C0887BEF1C47531C556C58A96,
-	MultiScaleVO_RenderAmbientOnly_m4BED5F04E1CAE684E5DA32CB487A8BF192FCB106,
-	MultiScaleVO_CompositeAmbientOnly_mEAC61D7DC1731ED82CF03EA69F18E95E375FA64A,
-	MultiScaleVO_Release_m9311D4CEA6B8EB25B19A66D012720DD084696D2C,
-	ScalableAO__ctor_m2E13FF1404D88C933436F64E64446A3E8C58EC25,
-	ScalableAO_GetCameraFlags_mF3DC2F17B0C42898A785241EAB4762496A270FA3,
-	ScalableAO_DoLazyInitialization_m9CDAE5877C189D77F1F5E7FDAF0D9A6A4EDB1825,
-	ScalableAO_Render_m28BC49E3F61595E532B03D0588B47E377C5C64DA,
-	ScalableAO_RenderAfterOpaque_mA72DCBC2E4E26729754816757F95BB5A445F2EB8,
-	ScalableAO_RenderAmbientOnly_m1F800BE3EBE499449E0D10F9332D2225CBA17459,
-	ScalableAO_CompositeAmbientOnly_m6BDA0561AF5B1D66CC0D7EB7730F0FD8BDE332E1,
-	ScalableAO_Release_m9A84BB9F350E9F1573DF794DD79CF6C89ACA522D,
-	ScreenSpaceReflectionPresetParameter__ctor_m788759481354D194C96F8569A5FA0CF600DD9959,
-	ScreenSpaceReflectionResolutionParameter__ctor_m13C6DA3B4C340969D44063CA3750D4563EF4ABC2,
-	ScreenSpaceReflections_IsEnabledAndSupported_mCDB8B7AE8CC67387ACF1615CB34140C958117C11,
-	ScreenSpaceReflections__ctor_m00CB810B6E82A82F1D61C5573C138DD088851D7A,
-	ScreenSpaceReflectionsRenderer_GetCameraFlags_m23B86CC0CEA0E26EB5A2051FEC23130634FB0B9B,
-	ScreenSpaceReflectionsRenderer_CheckRT_mC9AB522FC1B490E25DAF07666863F6572954DA94,
-	ScreenSpaceReflectionsRenderer_Render_m852E13492673A7D34B735265B7B5D7BE4B533D1B,
-	ScreenSpaceReflectionsRenderer_Release_m2B7890B1A7F4B90CFE4D086B85755435840CE5FA,
-	ScreenSpaceReflectionsRenderer__ctor_mE1144CEA7E4E5AE7FCE33024EC6C0754FCA49397,
-	QualityPreset__ctor_m7AC033D833C201BBECA54DF1886D30824A2955E8,
-	SubpixelMorphologicalAntialiasing_IsSupported_m1705607A7079C11A6FAAEB07746977F804A8ECFF,
-	SubpixelMorphologicalAntialiasing_Render_m5C772116EF78929A662C6C1EE168A998AEE3F028,
-	SubpixelMorphologicalAntialiasing__ctor_mFD4BB185541D16D22FD47ABE4427F81D531A50A5,
-	TemporalAntialiasing_get_jitter_m95640074A28A81D1CFD87CFBE39B9EA8F514C3DC,
-	TemporalAntialiasing_set_jitter_m813C3D64082BE1924BB5B7A1D9A8B1FF9877AABB,
-	TemporalAntialiasing_get_sampleIndex_m6F27F29D737C6529F14ED99D25E1A60BB1A77348,
-	TemporalAntialiasing_set_sampleIndex_mF0B4CE95B0AAB362A3A6DDE6F77E274A9BBB8ADE,
-	TemporalAntialiasing_IsSupported_mAE5BCF24068A7E94E3BB643E549AA055192C045E,
-	TemporalAntialiasing_GetCameraFlags_mFDB0F48DA9DD43DC96F0001D8AEC3EC0BDF8B9AA,
-	TemporalAntialiasing_ResetHistory_m1E1611D2244E90EB7C3CC493B98C0AA0A1A52010,
-	TemporalAntialiasing_GenerateRandomOffset_m8C20703188A9078739CEF48A902F636142E06712,
-	TemporalAntialiasing_GetJitteredProjectionMatrix_m05C5BC645B3761AFDDEBF885743BBB71419F12F1,
-	TemporalAntialiasing_ConfigureJitteredProjectionMatrix_mD1658F905FA0B40616F94A72596803C4DFD11476,
-	TemporalAntialiasing_ConfigureStereoJitteredProjectionMatrices_m6778161075072CB286B1C1082F1535B39D13E546,
-	TemporalAntialiasing_GenerateHistoryName_m39F69FC9226519CDFE2BAECF99334772C7EBD22D,
-	TemporalAntialiasing_CheckHistory_mA35B44ECD13BB4F9CF19E766131FFC11CC5B41AE,
-	TemporalAntialiasing_Render_m1F5CDB905DA7AB9A5D2C8335E7F40A0B984C767F,
-	TemporalAntialiasing_Release_m7F07A845A790B3E98E9618400D360CAC8BCF44B7,
-	TemporalAntialiasing__ctor_m1F3DCAB166187D2B412DFE69787E46242313D9FD,
-	VignetteModeParameter__ctor_m4D63838C20AE0CB9DDD27D1D31235D918456F304,
-	Vignette_IsEnabledAndSupported_m2D67AF6B97A94BBD4B2A7FDEAA4028847C5FAFB4,
-	Vignette__ctor_mB0325E1C20E1C0EACC4E22F90C88C2376A0DC537,
-	VignetteRenderer_Render_mB738733CA260ECFBA104310C8283AB153FA32110,
-	VignetteRenderer__ctor_m2CA1FD8CC001CF2FF6CF2C6D4030A42B8B41E89D,
-	HistogramMonitor_OnDisable_m230FF2666443F85287241087449BA4CE5BB789DC,
-	HistogramMonitor_NeedsHalfRes_m73CFC4DC4E26DED01E7819E191E727BA7126073F,
-	HistogramMonitor_ShaderResourcesAvailable_m9A5B187C0479D7E3DF5248EA991F0454FE9B5949,
-	HistogramMonitor_Render_m500233055734F82F0F28E848401821AB906B55FE,
-	HistogramMonitor__ctor_m076097076CBE7E0589A84CA904C357FBE4822551,
-	LightMeterMonitor_ShaderResourcesAvailable_m0C0CB920F8EAA6888F402D529CE55422F9569406,
-	LightMeterMonitor_Render_m55BC89DB32BE88F0059E446D90612DFBA6F00DC3,
-	LightMeterMonitor__ctor_mBB777FF1522832DE5450C9A5DD64E8F8D30C7C11,
-	Monitor_get_output_m47DF8F109DA67DEF62A5993E579B62750DA196C0,
-	Monitor_set_output_mE14C51217A4CCAB88EC656889034C4D55764AECA,
-	Monitor_IsRequestedAndSupported_m54722701F2E06E92EEC20B760616F534C58C07EF,
+	AmbientOcclusionRenderer_Init_m904B4F12CC64001E4CF9D6BA235F442AD0426D8F,
+	AmbientOcclusionRenderer_IsAmbientOnly_m3DE931B77C9135A2BB341ED8B324D958F0EF6350,
+	AmbientOcclusionRenderer_Get_m14806DAC5ECFFABAAA55B40E93A74E880FB74F11,
+	AmbientOcclusionRenderer_GetCameraFlags_m04FA3DB24D435EFAAB523ED8A356123B37A8CE8D,
+	AmbientOcclusionRenderer_Release_mFC5EF6603166B4BD64FE224CC374122AC22CB832,
+	AmbientOcclusionRenderer_GetScalableAO_mC4E9BEE576ED937F360A58BFC0F880B558B48C3F,
+	AmbientOcclusionRenderer_GetMultiScaleVO_m29A85F745C44C5157A17DC84F6A75F822AD7DA8D,
+	AmbientOcclusionRenderer_Render_m7D0FBFEE5F77B9C84230F949DF6460E92A860EE7,
+	AmbientOcclusionRenderer__ctor_m2162BD961343C6B73BE591E756292B8558957329,
+	EyeAdaptationParameter__ctor_mC55A80178DC7BDBAD63627A75CC77F649D5D083C,
+	AutoExposure_IsEnabledAndSupported_m7C4EF92A8E6F28E855C2E6A89B97981AB5E126A5,
+	AutoExposure__ctor_m2B5C85D12AED4298AD39D228B4DE744EA3319566,
+	AutoExposureRenderer__ctor_mF3E5927422B8791A2392CE22615CAADDB2298F0C,
+	AutoExposureRenderer_CheckTexture_m93DEE20DA2631E4C742C21C943B771C0E4C21C2D,
+	AutoExposureRenderer_Render_m7A6627AA9DEAA26DED1D9D5C83B104CCB483913B,
+	AutoExposureRenderer_Release_mDA69AA9B0F94DE8DF4BC18710960453A31F65AE5,
+	Bloom_IsEnabledAndSupported_mDA7929916AD67D58BE29B39CB64141919F3FC759,
+	Bloom__ctor_mC9943048F55E8947D4AD598BD6159B1B96937966,
+	BloomRenderer_Init_m9823EE87442FFF3A87D09FEB6800516F291D7F83,
+	BloomRenderer_Render_m701365AC7F2C5CF721578195F4899855DCDC28D4,
+	BloomRenderer__ctor_m4BF7CDF7EE1F342D5915FD75F467E78A67C0BC95,
+	ChromaticAberration_IsEnabledAndSupported_mE0117EE3C5D40B1FD46B034030C6E7969A488F93,
+	ChromaticAberration__ctor_m04E8F32E8A4A5EAF5744540BE83ACF8434DEBF56,
+	ChromaticAberrationRenderer_Render_mFC1C651AE897511A625F2497DA365524B44C7753,
+	ChromaticAberrationRenderer_Release_m5B371B5DA30D3FB0CAE22210FA002F858D74BE24,
+	ChromaticAberrationRenderer__ctor_m10CB311AA263F82B9604232288FC40CA9D29D788,
+	GradingModeParameter__ctor_m4EB094CF7B7C8575C2576E29922AFC7E64679B86,
+	TonemapperParameter__ctor_m757E9DE14ED2A9817B7D88D20C3BE84AE75BF11C,
+	ColorGrading_IsEnabledAndSupported_m96E40B0270AC0206FA335007CC4BD7B0A1D6655E,
+	ColorGrading__ctor_mFBB106220A7328C1BD5964624E86896635A141A8,
+	ColorGradingRenderer_Render_m9132CDF00AE0F266842B55C7AE5FDA536F4CE6B0,
+	ColorGradingRenderer_RenderExternalPipeline3D_m02AA7E6CFFA6C41422AC323E1ACF8552C24006B7,
+	ColorGradingRenderer_RenderHDRPipeline3D_mBA6A4A07299D3926D89B0C3E1DB9954733FE0813,
+	ColorGradingRenderer_RenderHDRPipeline2D_mD2908E098AC8E19EEE3E82EA4071B5BFBA928BCE,
+	ColorGradingRenderer_RenderLDRPipeline2D_mC7EB9283FD55ECD0A2448FE8E5A6D26A83BF9D0A,
+	ColorGradingRenderer_CheckInternalLogLut_m9B08E583178EC931D0BADD54FB087780465B4712,
+	ColorGradingRenderer_CheckInternalStripLut_m0804D99EC165F1837BDED2A44274EF22A268F868,
+	ColorGradingRenderer_GetCurveTexture_m7C2EDC8751B0DD78FEBDE0E43771E017BC6512C1,
+	ColorGradingRenderer_IsRenderTextureFormatSupportedForLinearFiltering_mBC5380027FC41AA7A001E921386EC5E892E78788,
+	ColorGradingRenderer_GetLutFormat_m834A0F08AA3A650CF45C2F18755BB50EF4D29F72,
+	ColorGradingRenderer_GetCurveFormat_m431B4F009CE2883626ECC8C99112B952686C435E,
+	ColorGradingRenderer_Release_m743869A2FAEE47F6C38EA5E24A2E3400FD72503D,
+	ColorGradingRenderer__ctor_mB1D488E8B02FC89D31BD0A18AEB76CE1C23E2937,
+	KernelSizeParameter__ctor_m02E8E2494699BD065A857AC3CF3271E28E047AC7,
+	DepthOfField_IsEnabledAndSupported_m332DDA477F5677E8EB94E36C945BB72A9C1E3472,
+	DepthOfField__ctor_m1D9FD9685E0AE6F9F637CD5B617C16966855F99D,
+	DepthOfFieldRenderer__ctor_m6D1CFBDDED446333F9FD35D0428D0D59D8442876,
+	DepthOfFieldRenderer_GetCameraFlags_m85265C2F017E9E11337D968D5E19F7F2FC05F3BF,
+	DepthOfFieldRenderer_SelectFormat_m5DCA0B8EBCEEB912ACFAD63C24C295D84DCDC319,
+	DepthOfFieldRenderer_CalculateMaxCoCRadius_m8AF587EC38985A579212875BCFB1EB25E6B62588,
+	DepthOfFieldRenderer_CheckHistory_m4F40D3F9F6747505574662EE883D77C91B5F6F5D,
+	DepthOfFieldRenderer_Render_mD0E0D9A22DC30408BA0137CBC769F3CA6A657D95,
+	DepthOfFieldRenderer_Release_m81001CF218952ABE27CDA20D10D8906B99690A05,
+	Dithering_Render_m2A63356904D7001E64C2D37C30DDACA4D0E6B4CB,
+	Dithering__ctor_m5D4174B7BA915DF68D42E7AAD2790CF77389F367,
+	FastApproximateAntialiasing__ctor_m03A7571D2FE565764D1C3870ECDC0DB98A705534,
+	Fog_GetCameraFlags_m0CD11892B23BCF37816DDD2ABCA800E0B59840AB,
+	Fog_IsEnabledAndSupported_m3765593250DA2989C6CB47B0FEDC0F8F42E8238D,
+	Fog_Render_mFCFDB2221D238D2AF0685BF06D7151624DA89DEF,
+	Fog__ctor_m4FDE689E60A0CA0024330751A65762581F3044D4,
+	Grain_IsEnabledAndSupported_m714CE4BF54BF2F8431338A0AEB238D93B852CF58,
+	Grain__ctor_mE32A176A0D4E2BAB094EE4B678E9744106082C90,
+	GrainRenderer_Render_mA348D64F74D77E69F5967CFA8CDE2B529D47E8CD,
+	GrainRenderer_GetLookupFormat_mA9474D1E0D0DB0355C4390A77C05E2DA70472456,
+	GrainRenderer_Release_m30F3E2C531A239D4C12CD6E35DDF26FD359E0839,
+	GrainRenderer__ctor_m6312758BC043BD8778A45375DEEE09397FD8A3B5,
+	LensDistortion_IsEnabledAndSupported_m994A02345564E130B93CCB5A5E97AEDECFE11385,
+	LensDistortion__ctor_m7D56919266FD2CCFE5F584C319A8A72D1DF0F6FD,
+	LensDistortionRenderer_Render_mB75B7A2511AFE2526BBF90ADCF329169FD2A743B,
+	LensDistortionRenderer__ctor_m5C70B231E68D05341F7F70FF3DC84E0B9835681C,
+	MotionBlur_IsEnabledAndSupported_m2637A8FDA6EE8F6762B26CB9439C2983D0F08545,
+	MotionBlur__ctor_mABC4806405C8C23F6827A8719AAF4BCE505C2199,
+	MotionBlurRenderer_GetCameraFlags_m8FBE177C22E2A6481ACB8B07639C32722A4D3CB9,
+	MotionBlurRenderer_CreateTemporaryRT_mD35099F366DC910373843C70F6EED1F5DA4B6D3E,
+	MotionBlurRenderer_Render_m7D063770AD5D49DAA1CF9EA900F314627A1BB9CE,
+	MotionBlurRenderer__ctor_m94A7AABF7B45B4040B4C477565B2430D9E7E033F,
+	MultiScaleVO__ctor_m56A06D216B589373ACE0226330B14FC7409D99AC,
+	MultiScaleVO_GetCameraFlags_mA3903D4962793D37F8FF7C9126699F6A25285F63,
+	MultiScaleVO_SetResources_mD27AE95B42095C196E5C9F859FC65125C2B17CB7,
+	MultiScaleVO_Alloc_mE6CA89F62AAC3E48252F2609AAA273155472825F,
+	MultiScaleVO_AllocArray_mC17B2B99497FE7AE4D14A7B321E2D3F4E3F11414,
+	MultiScaleVO_Release_mA35971D3CA091E429E827DAAB81A40D0AB3B478A,
+	MultiScaleVO_CalculateZBufferParams_mEBF313AA1309A44441338D1A4954CA65BB1F41B0,
+	MultiScaleVO_CalculateTanHalfFovHeight_mFE5FFE28FE9DE669ED3FEC7CF576D250803028ED,
+	MultiScaleVO_GetSize_mA0FA9BEFA50D233B1A43D84566C473C0CDAEEC42,
+	MultiScaleVO_GetSizeArray_mAEE6EEB9207F52E0D5B240857EAA1E9E7CBB03F4,
+	MultiScaleVO_GenerateAOMap_m70485C868D89DEFF5B1F28DF0D799CA56DC4A673,
+	MultiScaleVO_PushAllocCommands_m4855010CA72876876873A3F63E912277BE96EF07,
+	MultiScaleVO_PushDownsampleCommands_mE617A997C8C8BFA926C2D45E7D13E4EC816E960B,
+	MultiScaleVO_PushRenderCommands_mEDA72E38796BCEEF37245068F8DD72D5CEDFDCB4,
+	MultiScaleVO_PushUpsampleCommands_mDA5153640C6B7A6213CD3029ADE5532E46346E07,
+	MultiScaleVO_PushReleaseCommands_m0F91F4240F3C4FD77F9E55C171CAC3F85479C423,
+	MultiScaleVO_PreparePropertySheet_mB2FB10841C2C656C45F57F38ECDF41A1C72EBB62,
+	MultiScaleVO_CheckAOTexture_m3B3920F85B40D19CD50F81E22F7489661B4A121A,
+	MultiScaleVO_PushDebug_m7C9BF6BA31BCADF7C7FEEC163DA000A36B7A00E1,
+	MultiScaleVO_RenderAfterOpaque_m4AE0C2B5BCCE63F05BACD4683435583C6254A9CA,
+	MultiScaleVO_RenderAmbientOnly_m72F7944DDD75FD33CC8DF0D011B4E9D9A7858720,
+	MultiScaleVO_CompositeAmbientOnly_mA977FA7C49993A246CEC7EE2D519C8E19968F837,
+	MultiScaleVO_Release_m1D8257CD9AA16F5EC83EB9D322EC482520A3FA91,
+	ScalableAO__ctor_m4D7075A6C55CD96ED70F04A18D240A85407A393C,
+	ScalableAO_GetCameraFlags_mF4A326DDAFA85ED2FDC244292D2AA2928860CCF8,
+	ScalableAO_DoLazyInitialization_m903EE3834B6F2179FE500CFE56340A4404F6B13D,
+	ScalableAO_Render_mEE62842649ED551F6B4AA25CA4E98D538FC2D5C9,
+	ScalableAO_RenderAfterOpaque_mD46BECD843E406FBC4E3F57433CB4FB2308D1181,
+	ScalableAO_RenderAmbientOnly_m58B43370F43A78988BA6EA2020F743CB1794EEDD,
+	ScalableAO_CompositeAmbientOnly_m53C54C3CDD26B6FBE2580A19BBBBEA7E7BE38ED3,
+	ScalableAO_Release_m74ADCC0C2622285E04AA12242602EC0FFEF67457,
+	ScreenSpaceReflectionPresetParameter__ctor_m75F370544477729CE162E3132B83687D31F5C82B,
+	ScreenSpaceReflectionResolutionParameter__ctor_mC41F4B980A1EC522E5B353FFEB8C3944726A2F55,
+	ScreenSpaceReflections_IsEnabledAndSupported_mF11E939BBB8A3CD56E19BE15030A03296F10AFA6,
+	ScreenSpaceReflections__ctor_mD19F63DC79F4D7DAE2163CBD5C2686A7BC4D24F4,
+	ScreenSpaceReflectionsRenderer_GetCameraFlags_m239B90FE76547365FB620D6C43C57E376FFE5D0E,
+	ScreenSpaceReflectionsRenderer_CheckRT_m537EF4F5CA1602454A73B3253D03EA213EED2050,
+	ScreenSpaceReflectionsRenderer_Render_m862916BA674C077634BEB145C6E5490864C39FC6,
+	ScreenSpaceReflectionsRenderer_Release_mA27BFF9A8D2E5352BDFC30DF689A33EF9A3CBA36,
+	ScreenSpaceReflectionsRenderer__ctor_m36B3C290E39DD20778B8532D190C9C1E1D15A606,
+	QualityPreset__ctor_m53DF5C886DB82C2C535810DA644183104AA1FAFF,
+	SubpixelMorphologicalAntialiasing_IsSupported_m36BF5ED85CCE881F282294770640F2CF3919089B,
+	SubpixelMorphologicalAntialiasing_Render_m3FA7E7FDF3AB6EFC8128FFC01E64CB77322589B8,
+	SubpixelMorphologicalAntialiasing__ctor_m7B9AE5611F4A33D29FC40BA3375B14C5C63CDFBC,
+	TemporalAntialiasing_get_jitter_mD89AFB2AFDEE63822CF1C632364408FDF76FB418,
+	TemporalAntialiasing_set_jitter_m9450BBE1B75081EE0E5084A2A83B06DD89748C1B,
+	TemporalAntialiasing_get_sampleIndex_m91D33ECE0C6D0DC89B585FF7DEB824239655C94F,
+	TemporalAntialiasing_set_sampleIndex_m7DBCBC1B1A1423533E4CDFDB5224F49BE48405AE,
+	TemporalAntialiasing_IsSupported_m8FBD9000C346E38D503D9D0570DB89006EEDBC5E,
+	TemporalAntialiasing_GetCameraFlags_mFDDC41042F5315ED2B8FBF5363807EC312B49E99,
+	TemporalAntialiasing_ResetHistory_m02880AF6BF6467418C89DC15AFEE07CA2DCDD693,
+	TemporalAntialiasing_GenerateRandomOffset_mA022EBD160240B67B11EEF31DFF79C275532D4B1,
+	TemporalAntialiasing_GetJitteredProjectionMatrix_m0795E81DB41C2D8E4399A289A28648EDB1DF554A,
+	TemporalAntialiasing_ConfigureJitteredProjectionMatrix_mAF68323051A8891986F77097CBBF64DBBAFB369F,
+	TemporalAntialiasing_ConfigureStereoJitteredProjectionMatrices_mA0AB57E1C881BEEFE2E22EAA97CBFCF463AB7ACD,
+	TemporalAntialiasing_GenerateHistoryName_m20B5ABFEF42DE2A387BFDD207E7805FA9B715674,
+	TemporalAntialiasing_CheckHistory_m01C9B2DD2A27A0898EE0E3604D91BA0334627D13,
+	TemporalAntialiasing_Render_m9BC1E4F4D6EDD4678E9D3B4C6B22B0EC36E546AC,
+	TemporalAntialiasing_Release_mE12D10DE8B832C1AB7B2714415567ECEDB455458,
+	TemporalAntialiasing__ctor_mFA837D71FA4C40ED15FA225C89CB7480FB4A8CE8,
+	VignetteModeParameter__ctor_mC6796A35EABF529ECE1B9EA6691490DB2EA20DDF,
+	Vignette_IsEnabledAndSupported_m7A340C82967FA38016983E5F3239E93DE9C2F0F9,
+	Vignette__ctor_m9242C87DA8620C4BACE46BA166A9C48ACF1B22E2,
+	VignetteRenderer_Render_mB651EE8183D17273A8A72093B2A12107A2B3B578,
+	VignetteRenderer__ctor_m23883AA78F043BA298E07EA5F4708B1849502912,
+	HistogramMonitor_OnDisable_mFEFD19AB59AD84F4D28FF735267A431E68A3BC46,
+	HistogramMonitor_NeedsHalfRes_m90641952FDCD66D62E102BF89CEA10D49EE70C5D,
+	HistogramMonitor_ShaderResourcesAvailable_m84669AE0A0C1C3E97BA14C8C6E689589FF6EE8D5,
+	HistogramMonitor_Render_m3CA37ACEF4C0AF4FEF77A5F69D37ED785A7D1C4A,
+	HistogramMonitor__ctor_mCF5750B7F3C9C33A7F56800447089684FF5D7C3B,
+	LightMeterMonitor_ShaderResourcesAvailable_mD004EA3D0B76D68EB8707894CB91B778F3F8F89B,
+	LightMeterMonitor_Render_mD3CAFB6C9316A47AEF75465893FCB2A235BD37B9,
+	LightMeterMonitor__ctor_mD3298B885C5224D2EEDC22F75C80CBF153599601,
+	Monitor_get_output_m7CEEB7508AD1B405744EA32D5FB767644FD2776D,
+	Monitor_set_output_m9456D0B5DE53E9662D4B3C15CC3C087017697809,
+	Monitor_IsRequestedAndSupported_m787CEE59C8F6F20D7BCEB6BC757F350B09181FE4,
 	NULL,
-	Monitor_NeedsHalfRes_m6288FC8B3CFE546BFEE1590D91DE4CD385312E0B,
-	Monitor_CheckOutput_m413208864EA3CACC6D40DFAEF1DB04DC0A30150C,
-	Monitor_OnEnable_mD8E42BFFD458B4A7D2B3975C01DD33BFA4D1A54C,
-	Monitor_OnDisable_mA3610794EB2C764C2F7892CA17BB71D772A2C943,
+	Monitor_NeedsHalfRes_mE9D09433A57BCBE9201970FBDFE71E3BE64674FA,
+	Monitor_CheckOutput_m3BB128BD30F3AB15E6DB71D68B4EBB7F656DCE71,
+	Monitor_OnEnable_m4C91FCEBD693A5E875B7C4EC25F35400E6267084,
+	Monitor_OnDisable_m14F2DEE3F862B0B00809D578BA7FE816BE712E64,
 	NULL,
-	Monitor__ctor_m6EF591E063563E2D6DC7B8884243426EAC35561C,
-	VectorscopeMonitor_OnDisable_m001686957BD5361704A15E2E4B386DDD3D02252B,
-	VectorscopeMonitor_NeedsHalfRes_m723A2717D7FE50FF8A2D9027277ADC22A150BC64,
-	VectorscopeMonitor_ShaderResourcesAvailable_m528D2CE0BBA9B10610EE653F824AA9B1D1DC2661,
-	VectorscopeMonitor_Render_m84CA6B45C4331890F0455119D86C1A07EB966B5B,
-	VectorscopeMonitor__ctor_mC27FEEE84A6557F3B4BACA78805AA2D7DADF39A7,
-	WaveformMonitor_OnDisable_mBDEB4FC072BE8751732B2E9EE6A16E587BA75B8B,
-	WaveformMonitor_NeedsHalfRes_mA40030095FA31CFD4D978649A9B82D4ADCE7697D,
-	WaveformMonitor_ShaderResourcesAvailable_mFA14E2CE435250C9C197E09F212F0C14E823082D,
-	WaveformMonitor_Render_m52105139C3FF21B5598DA81E5F456294F9759E91,
-	WaveformMonitor__ctor_mB3BA30A53C9FE94CF150E6768D3229A08BFDDD77,
-	NULL,
-	NULL,
-	NULL,
-	ParameterOverride_OnEnable_m0D67F5FA71AEEAB671BF019E14CD91A5EF213A66,
-	ParameterOverride_OnDisable_mB1BB0C4E6E712345795DAC5066843364DBEF65FC,
-	NULL,
-	ParameterOverride__ctor_mF2BC731CBB924D3621F1B84DFFCA4F5CDB42C0E2,
+	Monitor__ctor_mE42FA0D19C9F80DE341A10BC7A383C667D2103C2,
+	VectorscopeMonitor_OnDisable_mF2F1FBC4F10592E41DABB18E6F94065C4DDFE1FB,
+	VectorscopeMonitor_NeedsHalfRes_mEDAA987D057135D2700AA5F339DCCA66E5E403E3,
+	VectorscopeMonitor_ShaderResourcesAvailable_mC6C2F43688127875D767E9121F1ACAACBF2F416A,
+	VectorscopeMonitor_Render_m56F2F09E2EEFA0E8717AAA24AB66C36FCEBD7124,
+	VectorscopeMonitor__ctor_m3FF3FEE834FF5E9C836C047075CF9CE7A4644669,
+	WaveformMonitor_OnDisable_m96AF46B13D58488C8AF1C4C8C55F3929EDC43D8A,
+	WaveformMonitor_NeedsHalfRes_m22881EA8A18A6827CF948F94C0FA1BDCF7F183FA,
+	WaveformMonitor_ShaderResourcesAvailable_m9DAD32A0C8ADAD01A16313B34AC3CE3D59511378,
+	WaveformMonitor_Render_mE343E98903B15A4E77731364274F84EA4086B78F,
+	WaveformMonitor__ctor_mB6E1D88F47EBA174808D114DD162FFBA077E5B5F,
 	NULL,
 	NULL,
 	NULL,
+	ParameterOverride_OnEnable_m97C09751CF65B2B75B6F1092FE2A79B3044F4A08,
+	ParameterOverride_OnDisable_m212C568CC863EB7DF8BA97C6FE7A91311B680618,
 	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	FloatParameter_Interp_m1434238DF5487DF3540A5A71E6B59C533A05122F,
-	FloatParameter__ctor_m9DB1EF263F257D4CF8C8B6BE717EA1D129CEF984,
-	IntParameter_Interp_m51A6FD54C0AF0F087F75835AD873DBD6417D09E9,
-	IntParameter__ctor_mD0B577F7B6F29156C6F34A31852CE0015B544312,
-	BoolParameter__ctor_m3D75EA93FDC7D88D346025CB612A459B92915FE7,
-	ColorParameter_Interp_m4B0D83B2F72792D5BF6C537BDD0992AC9586442D,
-	ColorParameter_op_Implicit_m2F0225AB103CD2ACFB2D27F95BF65BBC67CAE620,
-	ColorParameter__ctor_m30D0D993F9B30802429AA3176816DFC889D6DAA3,
-	Vector2Parameter_Interp_mB14285E63AE62C206098BDCA80211C3F90041B34,
-	Vector2Parameter_op_Implicit_m5DDC3EC5E33C6A1424DE6D0D5572F4A69D29922C,
-	Vector2Parameter_op_Implicit_m1D8F7413BFCAEDC232837EBF957EAF83C7D76EDB,
-	Vector2Parameter__ctor_mBF44FC58FB4108A066A973BE3891A8B85479214A,
-	Vector3Parameter_Interp_mFFCF54E2FBB40DA854BE1CBA9B2BC0C67CB1138D,
-	Vector3Parameter_op_Implicit_m00671C8049AA1C65C5FEF41E6558A886BA29128B,
-	Vector3Parameter_op_Implicit_m0B7770279089F3D676A48881ADF18F9A602319B6,
-	Vector3Parameter__ctor_m63367026D81EAD74CF6600AE30FA1A0617FE86D2,
-	Vector4Parameter_Interp_m0899065B59819646F5192F92ACAF28D1F15DF37F,
-	Vector4Parameter_op_Implicit_mE7C1B3FA998B3FA686873E000CB8FBF20D8171CF,
-	Vector4Parameter_op_Implicit_mB1F2B9AAB559F73B0D3C69FB04F527A3D820002D,
-	Vector4Parameter__ctor_m8C8DED1875F2A781AC4F18369E08DDA46C13D243,
-	SplineParameter_OnEnable_mD33338349D3C87DA7758922C0CF7E03FF626E5B1,
-	SplineParameter_SetValue_m536D3CDC09CA93E5F1E06F5C327D183F5611FBA2,
-	SplineParameter_Interp_m7FDEAE34BED3B0731915281DA8B0D34A360AF1E8,
-	SplineParameter__ctor_m11C763DDA15AAC2E1E8A1AAD11E0D8C2E7B11520,
-	TextureParameter_Interp_m6BDA698BA090B8731A7DECDD1A7D654207CE6EB4,
-	TextureParameter__ctor_mFB8A59BFF1213A53DD6C87017E3025607C25AD0A,
-	PostProcessBundle_get_attribute_m23310FCCFEE897EBF93C36296D6C5D565B4C19A0,
-	PostProcessBundle_set_attribute_m2675212E0F5625E6B7436C50F63DB75E26045434,
-	PostProcessBundle_get_settings_m5BA726BCC8ADCCEA4AD25AD51798950474EFC046,
-	PostProcessBundle_set_settings_m954BB49AE94AC89911931978FABA469BBBBCC8BF,
-	PostProcessBundle_get_renderer_m9B9D011FC8ED8B384FE16AEC5A5955A87243A61C,
-	PostProcessBundle__ctor_m980F8608CC22C6F40C0382EA3208A4D6889F33FD,
-	PostProcessBundle_Release_m31FD40E9428001418B7A2BB323C7B41202AE7EB6,
-	PostProcessBundle_ResetHistory_m5EB7270369216D54DE183E1A91C530F562BBCC12,
-	NULL,
-	NULL,
-	PostProcessDebug_OnEnable_m0E16911F18EF441731CE713DEE1ACEFE4F02ACF9,
-	PostProcessDebug_OnDisable_mBF085AE70BB3C64033F1237405B3F79C2ABA534E,
-	PostProcessDebug_Update_m9204444EA8F6033682668146D9C7DD2F47860A18,
-	PostProcessDebug_Reset_m6D7E28AA1BB3B8E5038E166EC0F8A0189243B052,
-	PostProcessDebug_UpdateStates_m3B346B1ACC1CEFB5BB88E964A06472DF292B2AF4,
-	PostProcessDebug_OnPostRender_m2D4EC435B0FE91A816166C88A5E35C2EFB47811E,
-	PostProcessDebug_OnGUI_m1E59188038FE7A2B7B447F5130DAFE884147821F,
-	PostProcessDebug_DrawMonitor_m74A733544A3194E48CB5E9A914261038CCDB8BCF,
-	PostProcessDebug__ctor_mF9E6A457F3E8A9A982FDA6B75E2AB37E3396A6E8,
-	PostProcessDebugLayer_get_debugOverlayTarget_mEE851EF1356AE899D0EF902AD0E0966B16AFD940,
-	PostProcessDebugLayer_set_debugOverlayTarget_m7566FD9B25470C7ACCF14606AAF975AE00715332,
-	PostProcessDebugLayer_get_debugOverlayActive_m7990B750167EF1A31F8A3F96B539B322D3F7FC84,
-	PostProcessDebugLayer_set_debugOverlayActive_mC83941C3612A2745BD1B6C771FCF0053B6D3BC77,
-	PostProcessDebugLayer_get_debugOverlay_m50CBB64D3FEE070BD29DEC24C8CD57DD37EFE1C3,
-	PostProcessDebugLayer_set_debugOverlay_m8A972C54696447B69FBC597FA9E67C3D9B7C322A,
-	PostProcessDebugLayer_OnEnable_m387008B7ED2B3F492C6D5F57EEC62057BF293C3E,
-	PostProcessDebugLayer_OnDisable_mC4762A0AEBE23067EAE67F82A7BCCFE8BD192017,
-	PostProcessDebugLayer_DestroyDebugOverlayTarget_mA98B3230B16094649A5149FA8FD978634B755846,
-	PostProcessDebugLayer_RequestMonitorPass_m9B42D207764F56193FF6679ED694F4F96D9060C7,
-	PostProcessDebugLayer_RequestDebugOverlay_mE1A09CF679302D4842204FB750299BBED0B726CE,
-	PostProcessDebugLayer_SetFrameSize_m38E163EE3B51AA81D8C2AF7B2C5D58498F64287A,
-	PostProcessDebugLayer_PushDebugOverlay_m43912718B6ABE4DB9485F8A51A5B12B879186697,
-	PostProcessDebugLayer_GetCameraFlags_mAD93FA644A0C5AC136F382ED927B6E3237336EFD,
-	PostProcessDebugLayer_RenderMonitors_mD366E3E3E7D8F0F1A686CB33D352DDBE4B1B8DE8,
-	PostProcessDebugLayer_RenderSpecialOverlays_mD23CFE4FC14A61B52A41E88A03B85174BEE1D211,
-	PostProcessDebugLayer_EndFrame_mDBDCD82C1BE519E65293D44A840500FE4B6D58A8,
-	PostProcessDebugLayer__ctor_m5A99D89DCB5BFFEE99D91396CED829F86B24EE61,
-	OverlaySettings__ctor_m88E7EAF9BE31DF010DA0CC32DBF93ACF0C6CE22D,
-	PostProcessEffectRenderer_Init_m174682ACFF9ABF0E0FC7E7684A84C9442A30D19C,
-	PostProcessEffectRenderer_GetCameraFlags_mC65D31F164C708C88C624B63E25FCA32C3F0DDFD,
-	PostProcessEffectRenderer_ResetHistory_mB97A23456B52D5B555005D46FB5C38C7887DF918,
-	PostProcessEffectRenderer_Release_m9464A96E9F63258C17DA6480A46A13F06FC8EAEB,
-	NULL,
-	NULL,
-	PostProcessEffectRenderer__ctor_m0E9A4D08F3DDABC9B7C4D3E81DF54F43D9729538,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	PostProcessEffectSettings_OnEnable_m53B71C90196D55E0557B09526B62F1964F90DE60,
-	PostProcessEffectSettings_OnDisable_m9FAE66EBBEACD6D7BE2ECCE9FBAAEF0A0C54FDE0,
-	PostProcessEffectSettings_SetAllOverridesTo_m0EFF9FC7563FE058E728801E91F01808431BF140,
-	PostProcessEffectSettings_IsEnabledAndSupported_m3A0E447900FC7C1DFA163D851CACD45C7836760D,
-	PostProcessEffectSettings_GetHash_m4E159616856B60028F64AB21661EBABA8072D9E8,
-	PostProcessEffectSettings__ctor_mD40D0A07297AB8295240B8AFDA7A961384C4F82D,
-	PostProcessEffectSettings_U3COnEnableU3Eb__3_2_mE5072CBCD4F5E941C6DE52C0A9EC5BEAD6A7AE9A,
-	U3CU3Ec__cctor_mC7235B15133C4C5EA850C4DF85821BD857D330D7,
-	U3CU3Ec__ctor_mF340714BAF696077FEEB50C8F0921CBADB691665,
-	U3CU3Ec_U3COnEnableU3Eb__3_0_m85647CDDCD9A9892F0F99E85586B15BF0AD725F3,
-	U3CU3Ec_U3COnEnableU3Eb__3_1_m50822ACB3F5C9C9F17FB2CD5DD51E85C307D1ED0,
-	PostProcessEventComparer_Equals_m2166068BCF36DB77A9E738FC50C0A77AC8C4C96D,
-	PostProcessEventComparer_GetHashCode_mDF3708FBF53C71BC1FA3024694AB19BD0553D45A,
-	PostProcessLayer_get_sortedBundles_m1C832D9F4C17EBC0E9E8704923DE1876634588B9,
-	PostProcessLayer_set_sortedBundles_mF014B030591011A9935170FCC8747EDD3F6075FF,
-	PostProcessLayer_get_cameraDepthFlags_m7B14DC4DFC770826A06AF45843738D2EC68EDD01,
-	PostProcessLayer_set_cameraDepthFlags_mBC9A8CE97A08E406A3DF3F3F6AAA157330316578,
-	PostProcessLayer_get_haveBundlesBeenInited_m8FC1BB2B461C9427AE234EAB8B3C83339B0C544B,
-	PostProcessLayer_set_haveBundlesBeenInited_mC73845F7B1DF581C092B4A735244B17E75D979FA,
-	PostProcessLayer_OnEnable_m9CF9B052529EEF6E2016CE00FFBA81C130342EE2,
-	PostProcessLayer_InitLegacy_m354AC408E683A1B536D8C30BA93720037025BB5E,
-	PostProcessLayer_DynamicResolutionAllowsFinalBlitToCameraTarget_m9AACAA266C7632AF1B271CA5A4B3ADB8713BF199,
-	PostProcessLayer_OnRenderImage_m88AE7F294CBCA2042C76BC0B45544109752B4FA4,
-	PostProcessLayer_Init_m0FDB593A6B13381DAFAA2078CCA2F913AAC983F9,
-	PostProcessLayer_InitBundles_mF98EC0C218D2F1E0D21B643EEBE109CA4F8C71B3,
-	PostProcessLayer_UpdateBundleSortList_m5FC7EB336E878E425F971CB0BDB37FC55CF40A62,
-	PostProcessLayer_OnDisable_m8F51B4254A45A8E2A323478871B69427A98F7094,
-	PostProcessLayer_Reset_m96933BBE49EB42C0B5B754EEF3B22B33C0B20B1C,
-	PostProcessLayer_OnPreCull_m0E5B78C5458852CDF36759FA5E785109E23FA426,
-	PostProcessLayer_OnPreRender_mB714954409087F5BA3EF538B47338B77F5E20B2E,
-	PostProcessLayer_RequiresInitialBlit_mD66D72DEBA225AC8F064BED6451AA98C410F8226,
-	PostProcessLayer_UpdateSrcDstForOpaqueOnly_m06DEFDC679EDCE932F13D9258CD4B159C7172DF3,
-	PostProcessLayer_BuildCommandBuffers_m8C6C6754F27A786AD80D12898F26711769FCE03D,
-	PostProcessLayer_OnPostRender_m3EF2E660A385A6FE533503FCFBAE2481AB2767F8,
-	NULL,
-	PostProcessLayer_GetBundle_mFE6B4B8D6F1300AB3A011A60E25FB3A9C7EF4A67,
-	NULL,
-	PostProcessLayer_BakeMSVOMap_m2103A1A15DE80E0036FE655A19740615E9196F7D,
-	PostProcessLayer_OverrideSettings_m49989C317280F87560366678EBCFF62739921F7C,
-	PostProcessLayer_SetLegacyCameraFlags_m72D14BAB60AC3CEE06CEFF07D112D46486A2F958,
-	PostProcessLayer_ResetHistory_mB886C39683321E5A65C86CE6D13860B7DEA79100,
-	PostProcessLayer_HasOpaqueOnlyEffects_mFD8E5AB8219E71D4464704477E0EFF8A42D94F6B,
-	PostProcessLayer_HasActiveEffects_mE7155905AC4D8288AF4CF87F542511377F110AB7,
-	PostProcessLayer_SetupContext_mB51E288FAF90059C947F7B56982611A62D92B190,
-	PostProcessLayer_UpdateVolumeSystem_m67096C3D2687CA32B0CAA5EEC3EFDBDCD1156DD2,
-	PostProcessLayer_RenderOpaqueOnly_m3A58A1E06E6DBA8D582F18BBCB1BCF58B702B508,
-	PostProcessLayer_Render_m9AD8F461328CF3AAD58078BE9959D39A5DB20191,
-	PostProcessLayer_RenderInjectionPoint_m42D83392ABD881E8434BABB7F8BC46E548DE8EBB,
-	PostProcessLayer_RenderList_m478A2ECAB77361DB4A85AE3B2A5FD55A65D6D851,
-	PostProcessLayer_ApplyFlip_m64131F71DAA216E393712E1B43656056B16F6DFC,
-	PostProcessLayer_ApplyDefaultFlip_mA6FF046E1DC3BABDAE6ABEB463F139329516B2DD,
-	PostProcessLayer_RenderBuiltins_mB9B7DA7EE55CAC51BF153F488BFCAF5800D3FFB0,
-	PostProcessLayer_RenderFinalPass_mA79AF4EF4D050FED050FF29356384FE8F681044F,
-	NULL,
-	PostProcessLayer_ShouldGenerateLogHistogram_m69235046FAF79ECE1E98A97DB703550D1AF56BDD,
-	PostProcessLayer_HasAlpha_mDE928A04CEF23E731DD324026784BB6EFEBB29D1,
-	PostProcessLayer__ctor_mD8712392B04023FC43F79821EC8A498B33043683,
-	SerializedBundleRef__ctor_mF79561705E11260D6DE0F7022B78D6CBFCD75BC9,
-	U3CU3Ec__DisplayClass54_0__ctor_mE4663058DF29F83DC658899887FEA21A00782E5C,
-	U3CU3Ec__DisplayClass54_0_U3CUpdateBundleSortListU3Eb__0_m68FE9719E12A93BBC74A3446509B93A404D9E081,
-	U3CU3Ec__DisplayClass54_0_U3CUpdateBundleSortListU3Eb__2_mD7BD333124C1F57B7842028BF5E1B53EB8BBF368,
-	U3CU3Ec__DisplayClass54_1__ctor_mAC82F6C1E46CBDE83CFF53574D9910FADB232983,
-	U3CU3Ec__DisplayClass54_1_U3CUpdateBundleSortListU3Eb__3_m240E53745432F10C5F771D79E4B629B46E665D41,
-	U3CU3Ec__DisplayClass54_2__ctor_m36472C800FCB96E7021A9ED363DBCDFE8102F00F,
-	U3CU3Ec__DisplayClass54_2_U3CUpdateBundleSortListU3Eb__4_mDAA5434E8160298ACAEE90154CA37D7DE54DEC84,
-	U3CU3Ec__DisplayClass54_3__ctor_mDF80A7734D48DF6C65686CEFA8DEFEE73C64EC51,
-	U3CU3Ec__DisplayClass54_3_U3CUpdateBundleSortListU3Eb__5_mEF229FE5216D4F13351BCF429CAB0C4B83462935,
-	U3CU3Ec__cctor_m4A509F397AFC6DD90DDAEBED822D0AD13621AE73,
-	U3CU3Ec__ctor_m14CE645D40F0ED598B358C218449CC214E67F6D5,
-	U3CU3Ec_U3CUpdateBundleSortListU3Eb__54_1_m6F744BBAF634606AB77DCEFB1F8645805257300D,
-	PostProcessManager_get_instance_mAADE6DC8E78168BEA2E1B48B4AA1715DB47945BE,
-	PostProcessManager__ctor_mE18C53FBF36094C52BF5E888AA8E399423BE6688,
-	PostProcessManager_CleanBaseTypes_m3CE8A80B457017D42537722008D62AD735AD7E02,
-	PostProcessManager_ReloadBaseTypes_m1945136D79E4679F586C858EE2A72631A3FF9360,
-	PostProcessManager_GetActiveVolumes_mE1DE0B97D24148DD711FD4FDDD50539861B2AEE7,
-	PostProcessManager_GetHighestPriorityVolume_m186B87FC51722A91E9EB72F94B2ADA49D36415FF,
-	PostProcessManager_GetHighestPriorityVolume_m7EE09A9E1D8C17AF61A84C1518B383F79008E1D3,
-	PostProcessManager_QuickVolume_m827605349F0365B9197849142456E71323569906,
-	PostProcessManager_SetLayerDirty_m85F4D44F755A2E86AF17993DDA7A2CD47ECF568B,
-	PostProcessManager_UpdateVolumeLayer_mE7C602B2A996873EFEAE5619F4E410AC55CDF9F9,
-	PostProcessManager_Register_m1C449C90BAD2503D192D361F09DE5B8FD4E8D1D0,
-	PostProcessManager_Register_m8A5D93C913BA9E62722006B1ED8C5C7BD2A5C36A,
-	PostProcessManager_Unregister_m96F25B0BB879AA90EFAFA0CC051EFC96B3B8982F,
-	PostProcessManager_Unregister_m49EE0FFAD8D79AB25CCF12C82C17C831ADE9C79F,
-	PostProcessManager_ReplaceData_mFCAC48F8D1C2581BDB1A72670EEB91DB2DCF5426,
-	PostProcessManager_UpdateSettings_m4B9B9670DEDA150A20023F98DEB45DA98F120EEA,
-	PostProcessManager_GrabVolumes_m1AF11581681DB4092AE61C86D06F2463A36F7814,
-	PostProcessManager_SortByPriority_m1AA00E04F996DF2F0A808524FB3CD4A082B1F5F5,
-	PostProcessManager_IsVolumeRenderedByCamera_mBD28781F400E3F3B69D3462017A0746D2847A947,
-	U3CU3Ec__cctor_m4E875ABE10ECE9CE0B92A81DD17EC2D4A6FD36D9,
-	U3CU3Ec__ctor_mBDFDD56BBE85E5B393B14B106BAEB772C3CA95D4,
-	U3CU3Ec_U3CReloadBaseTypesU3Eb__12_0_m865537CCEE58BF53B4AC1A1EF580E114A31BAE85,
-	PostProcessProfile_OnEnable_m23364CDE321796BC226CBEFAF9DC6F1323938CDC,
-	NULL,
-	PostProcessProfile_AddSettings_m610279C7E82C2F2E9156FF80FE7F6C3A2FC1F1C3,
-	PostProcessProfile_AddSettings_m7446918C8FB730367D486136D3DF233B57A5FCD8,
-	NULL,
-	PostProcessProfile_RemoveSettings_mA0FB19DEC43521661C67F12EF6A13DB3F8D3B9EC,
-	NULL,
-	PostProcessProfile_HasSettings_mAAAD536DF4C2CBD9EB73C2683D007F65297BD8BC,
-	NULL,
-	NULL,
-	PostProcessProfile__ctor_m665590DA298A7A9BB57B1C54FE52F252C1B399DE,
-	U3CU3Ec__cctor_m5120AEC1D5F6E171DAE28DFAB9DE1411820F9FD8,
-	U3CU3Ec__ctor_m28471842FE201AEF91CB04F5F8FBABF89DA37BB7,
-	U3CU3Ec_U3COnEnableU3Eb__2_0_mEBC7A0AA00EBF9BFA5042D81206E56B406A1FCD7,
-	PostProcessRenderContext_get_camera_m03C2533C3B4CC5300541CEC486849C58B1F8BBAE,
-	PostProcessRenderContext_set_camera_m616159FD16EF298057D8C92C9D4E04DC583A35CF,
-	PostProcessRenderContext_get_command_m028BE33B6194640A1DE901A6F935658034A3E2CD,
-	PostProcessRenderContext_set_command_m383214635AE4777FFE746270157B265E6CB3A799,
-	PostProcessRenderContext_get_source_mD66060FCBE2897F0510AE91E86370440226FA430,
-	PostProcessRenderContext_set_source_m8747B57F6213BC84C7C2990508D029FB4D31C3DE,
-	PostProcessRenderContext_get_destination_m9A1924F891A773105919295D97A474741CAB9F28,
-	PostProcessRenderContext_set_destination_mED49AE5FCE8CEB9D8B64AA82E1693D4913D48759,
-	PostProcessRenderContext_get_sourceFormat_m5EB6DD7D586BC0E5B3E3C385CF96AC63575ED61B,
-	PostProcessRenderContext_set_sourceFormat_mFBDC1C325F8E32DA2A40C784659D2DD8BA057258,
-	PostProcessRenderContext_get_flip_mFE0933034DE2E1C6174C09EED54F03C472D29C32,
-	PostProcessRenderContext_set_flip_m91DFA83ED3118BB02CF2849D2177C65D186F3E11,
-	PostProcessRenderContext_get_resources_m89879DF69E4B910F9EE3008AB8DC60B732ABF02A,
-	PostProcessRenderContext_set_resources_mD928596BD2CF34330CA3F8FA83845C9BB39E5651,
-	PostProcessRenderContext_get_propertySheets_m60E7825143611FEC183803150D8F7C2785514D79,
-	PostProcessRenderContext_set_propertySheets_m06436C85901FFAF383447F35F3A19909E1C60344,
-	PostProcessRenderContext_get_userData_m9C88F1615E7C029E65F8A1BA3C0D22986FE27B98,
-	PostProcessRenderContext_set_userData_m1D9CEBBB566FC3841231E033269B030FDBE98431,
-	PostProcessRenderContext_get_debugLayer_mD44CD6FBE77E24B243E0EDE0A332A6BB32AA6C25,
-	PostProcessRenderContext_set_debugLayer_mF9A346FF61AD7CD0AC5605BD3B2A2007084CFA5A,
-	PostProcessRenderContext_get_width_m551FAECA1D38B547E9337BEC7316D6B113B00F03,
-	PostProcessRenderContext_set_width_m1613BDCAF13B96F72BE7A91E82E9EB6D1C4C39EF,
-	PostProcessRenderContext_get_height_mECB24899496181711525B9E8204F8A85AAA84181,
-	PostProcessRenderContext_set_height_m4CAF4DB1F50557C276D2683C799FC9CFC19B357F,
-	PostProcessRenderContext_get_stereoActive_m54D0889CF302150E3850FD7BA9AF72BB9EE94C7B,
-	PostProcessRenderContext_set_stereoActive_m133C99DFFB79D8C1D33176258C5A96D8587CDEB0,
-	PostProcessRenderContext_get_xrActiveEye_m1ED0BDA4DC07BAD4096F3B66DF35520815C7F208,
-	PostProcessRenderContext_set_xrActiveEye_mA344A4FBC049CA99096413FBE81F0F8F9A12D9A8,
-	PostProcessRenderContext_get_numberOfEyes_m172652A2003AFD49FB6ED64C3F46249B92D21AE4,
-	PostProcessRenderContext_set_numberOfEyes_m047ECAB2F0CE41026EECD96F2FDAC3B49AB178B9,
-	PostProcessRenderContext_get_stereoRenderingMode_m674A9251277DC05913F1EA02B6E5ADA1AE4E00F5,
-	PostProcessRenderContext_set_stereoRenderingMode_mCCE43DEFBEFEEAE8D4512991FA5117C781710287,
-	PostProcessRenderContext_get_screenWidth_mF6EF29A7E49F6132C7376A841571FB65A1573147,
-	PostProcessRenderContext_set_screenWidth_m2472914DC0C907A2A78B7BB990F3DBE9DE785C5C,
-	PostProcessRenderContext_get_screenHeight_mFF2D3EF9A84D53D9125EF96DD746CF8B257687FD,
-	PostProcessRenderContext_set_screenHeight_m3D69896EFE6A480285D300EA3E99164661144FC4,
-	PostProcessRenderContext_get_isSceneView_mADB2A9705C42D62BCB2DD13C1A64202A7BF32801,
-	PostProcessRenderContext_set_isSceneView_m25BC585A98717333E55435BF060FBC8352979120,
-	PostProcessRenderContext_get_antialiasing_m8FA450C8086C96DB987CF8F9B707DA5CFB7AA108,
-	PostProcessRenderContext_set_antialiasing_m487F83A7E53C46AE4C2015794DA6568950E3C181,
-	PostProcessRenderContext_get_temporalAntialiasing_m18BFEF6B423A28BD505D611A15643580B8E6CCD7,
-	PostProcessRenderContext_set_temporalAntialiasing_mF2B2A0D8F39F49690FD4F76B3347C4D168B22597,
-	PostProcessRenderContext_Reset_m69F96AA7B7CCE9927AB6061B887CF81F8AF06BCB,
-	PostProcessRenderContext_IsTemporalAntialiasingActive_m835118A884E10E19B5625C77EC029B088ECE11E3,
-	PostProcessRenderContext_IsDebugOverlayEnabled_m10FA8ED9E7FE01A6B9FB48BFF9B19A5F70908927,
-	PostProcessRenderContext_PushDebugOverlay_m543E6F22232FAC40200E8D93FE089CFE05FF2860,
-	PostProcessRenderContext_GetDescriptor_m60FCFCD9D6751F4A6F6A3CC93D3630B8052BA662,
-	PostProcessRenderContext_GetScreenSpaceTemporaryRT_m57C7BBE2412BE154A54A57A7794A157BEB033E83,
-	PostProcessRenderContext_GetScreenSpaceTemporaryRT_m74A46F835124FF373853218F774E7A178B80145C,
-	PostProcessRenderContext_UpdateSinglePassStereoState_m8BF9AC8139E61F9799B33B8E5B9D989E7A493D98,
-	PostProcessRenderContext__ctor_m3475CD5D0C8B8A1BCEAC80C4FA8DBBA15A4EEF45,
-	PostProcessResources__ctor_mD8FED6086600D1B1502981BB6653372136779B5F,
-	Shaders_Clone_mE43ADD04A701E40A2B13AA099B2F9AD41FC762CD,
-	Shaders__ctor_mBA5C3BD6B1ACC5F0CA9824495FC283988F5EAEB3,
-	ComputeShaders_Clone_m83E53DB9116485FDD4BB44E48B514E3A3CC9E5E9,
-	ComputeShaders__ctor_m311C126CA5133910F014F4FEA6E3ABE8BE1300F1,
-	SMAALuts__ctor_m687B0322BBE8261955C375339262DDC04550A029,
-	PostProcessVolume_get_profile_m0055B48AC6C698FDD30573AA75D09D4BE1B2727D,
-	PostProcessVolume_set_profile_m45BDE65CB13CB5AE6C769F117C75563A78BD7BF8,
-	PostProcessVolume_get_profileRef_m94E97BE839967F36E42FA05C626111242638CFEE,
-	PostProcessVolume_HasInstantiatedProfile_mABB6FB57F696D6B8232710F2E97D2B0E6FB48663,
-	PostProcessVolume_get_previousLayer_mDD1CFB67F2C14C50E3DE2430D1631145BE7079B2,
-	PostProcessVolume_OnEnable_m538EE2AF9AB4EAC16D218CFB752A5DDC47D06FFB,
-	PostProcessVolume_OnDisable_m6EC44652B2F1F35FBE42213FBF5F432B594F5138,
-	PostProcessVolume_Update_m36216CCB5CE0AB129BE95B8FC92E5A13F8A0FC36,
-	PostProcessVolume_OnDrawGizmos_mB93DE796603855DF433CF9C12D18946CB29FE4BB,
-	PostProcessVolume__ctor_m8F2103B14292EE670A3E07AAC16A7CBF8141EA1E,
-	ColorUtilities_StandardIlluminantY_m4784E66BC1F7391EB46005D5EEBF0627057B2763,
-	ColorUtilities_CIExyToLMS_m07B559E3AF22740A45229EFD63D7885EF79B4F53,
-	ColorUtilities_ComputeColorBalance_mA83F1CFFA2504BA1FCB24D3BA6B670BF1816BB82,
-	ColorUtilities_ColorToLift_mB71B27EAC5FABED6580EAC23AF98AB360C73E818,
-	ColorUtilities_ColorToInverseGamma_m391454B8BBB9230F16FFA9BB90E3E4B1B38AE47A,
-	ColorUtilities_ColorToGain_m485D52802108F17F16A6CF616E683A6359A2ED4F,
-	ColorUtilities_LogCToLinear_m29AFF68BF0F714D76DD6634984BE4E105826A52A,
-	ColorUtilities_LinearToLogC_mAC2E8AA3CF2B595BF5B00CD20F222B8D771903DE,
-	ColorUtilities_ToHex_m5F7F74B4AA72949BD1F8896A241A71F8B7560583,
-	ColorUtilities_ToRGBA_mE412AE9D8616BDFFEB2E6678B439CA6D78571A97,
-	HableCurve_get_whitePoint_m440A8FBA6A10FDF890B1C3EEBF444710FD53386C,
-	HableCurve_set_whitePoint_m98FA0F3792036AA3F539010B465DF48676052109,
-	HableCurve_get_inverseWhitePoint_mDC81A80F665704FE457ACC2CC735D7DBB883F7F4,
-	HableCurve_set_inverseWhitePoint_m647D3BF345A9A0AB6DC32E044593286CD08F78F6,
-	HableCurve_get_x0_m6B20430F19A2692748015AAD52E22CF6F19021FF,
-	HableCurve_set_x0_mFF0E70FF9B980FE4A13468E5A4C7B755CA290CB3,
-	HableCurve_get_x1_mCC8296F534ABB9B938D803FD24218DDD3A1D8FE0,
-	HableCurve_set_x1_m6EFC16C8CC1F0B430D4D3436FD736B20841AEE32,
-	HableCurve__ctor_m8E74EA1950C5E352E36A4AC15BE688FC1A17F2A3,
-	HableCurve_Eval_mDC9315392A7685F22D4ED9BBEBBBFC5022610CF6,
-	HableCurve_Init_m0331C88204E2EEB65A8727E580614B3733033EF1,
-	HableCurve_InitSegments_m3E6803A12AF50C93D0D052CCECED893CD85E3C37,
-	HableCurve_SolveAB_m6CDF86F0CF4191F0BBE8BA819DCA716EAA2439AA,
-	HableCurve_AsSlopeIntercept_mCAF8DEAEB3E843025E1F817421EBE951E54A0B5B,
-	HableCurve_EvalDerivativeLinearGamma_m2B9B56FAB2A3C3C2C5A39BCDC4C1A4FDE0AC7BCA,
-	Segment_Eval_mCDF8072217E3B3B5FD7EAE9716D4FC5B7B5EA83B,
-	Segment__ctor_mB049A24BFA0A15439F0D5949A7AE896695D0D120,
-	Uniforms__ctor_mA66464181B9A9090B823A9803BD11699B9B7BA74,
-	Uniforms_get_curve_mD9034647B7B7C3A8B47B414FB7C5B821200AA32E,
-	Uniforms_get_toeSegmentA_m1316C3F6B4E6B82839C9CDACD398FA33D88964BA,
-	Uniforms_get_toeSegmentB_mEC3F93FF1CF8399FDE4AD8FF6355F4D5B9C5D42F,
-	Uniforms_get_midSegmentA_m5A302D93655083BD41167F50535C0B6AA0C9DA6D,
-	Uniforms_get_midSegmentB_m1478AA904368A2DEDAAF4C1BCF343B0566494E21,
-	Uniforms_get_shoSegmentA_m06733BA44C5FB0E3A7E692DC40252468694D5965,
-	Uniforms_get_shoSegmentB_m77AB80D8ABA78E633A8BB96CF76149679685184B,
-	HaltonSeq_Get_m5D16189CF830B507716FEDCBDF575A39DED2124A,
-	LogHistogram_get_data_m3F3310AAF8C2368E2D3D724BF95E1632F52E8684,
-	LogHistogram_set_data_mB1A03174A98EFFE606B50D8AB90A73DC141B2435,
-	LogHistogram_Generate_m5C64740C383CDB7BFD1E459A8066F16BB1FCC6D4,
-	LogHistogram_GetHistogramScaleOffsetRes_m6FA5B33FBE2EABD16713EFC2C7A9F61E201AA2E8,
-	LogHistogram_Release_m0CF4E13BFC28F7515A88B4B96B377D1496F3D4B6,
-	LogHistogram__ctor_mF476B2492B4A33D5D402DC14EB9671CE61364CC7,
-	MeshUtilities__cctor_mB6B37E180953A8CF9C80452EF6CAC4FE3643D974,
-	MeshUtilities_GetColliderMesh_mED90DC043E600D717C14B845C4CA9DD0AF4300E9,
-	MeshUtilities_GetPrimitive_m266E63F215D05366D7303A44C847860944E019ED,
-	MeshUtilities_GetBuiltinMesh_m93FA8BD36732E4D5DA7A7D2E1AA3581F95075D87,
-	PostProcessEffectRendererExtensions_RenderOrLog_m3734A6E93FDFF3B989D5E9744A14FFE2DE9E3F13,
-	PropertySheet_get_properties_m3F54B6A690186CF8AE8CCD585068A4DB80AA50F5,
-	PropertySheet_set_properties_mAAFE39A44E47611F99AAB7CEF4F189CAD248D2EB,
-	PropertySheet_get_material_m04C2AF7A0AFC078C1477EAE39535742E746118AF,
-	PropertySheet_set_material_m73FB05230DB52CF4F4086E7165FDE8EEE334F709,
-	PropertySheet__ctor_m856578925217FFB32911485BC651613C936B0E09,
-	PropertySheet_ClearKeywords_m3A886177632A2DF75DC115107A2BE995375C79E4,
-	PropertySheet_EnableKeyword_mE87386C289094FE73D84061BE6F716BAE6F43062,
-	PropertySheet_DisableKeyword_mA132CA2330E534BF4FCC48E1437AA13C991436DB,
-	PropertySheet_Release_mE8C333C8D788A25012EB4EC66C855232F0A93653,
-	PropertySheetFactory__ctor_mA96B46A130766B88D431ECDC3A6B5838DCF916D7,
-	PropertySheetFactory_Get_mD75BC3EB9CA3661CDD2478FFEA76B80A2E94273E,
-	PropertySheetFactory_Get_mCFDB007DD001F66FCC0EAD7549B63C74857569FC,
-	PropertySheetFactory_Release_mDDF78ACFFC94C6E7015461F0B248E3F93E906CA1,
-	RuntimeUtilities_get_whiteTexture_mDCC20028D975A9CC761C4C741CAD3F0608BD86E5,
-	RuntimeUtilities_get_whiteTexture3D_m7FD8F25E3321EA19ABF97C3E4963ADE87F9202F8,
-	RuntimeUtilities_get_blackTexture_m848AFDA72B4044ADFAB4373CF726480911EABDEF,
-	RuntimeUtilities_get_blackTexture3D_m8701C102D3D0472E18C1C6BCC5EB191DC51EDE78,
-	RuntimeUtilities_get_transparentTexture_m7F86E9A06D745AC66B419A5979B70599CB09DE0C,
-	RuntimeUtilities_get_transparentTexture3D_m93D6E7B9EA25B0D1FCFF5DB47AEB6ED8E0299866,
-	RuntimeUtilities_GetLutStrip_mF1A81D3B29653B159091BE6B24B9C458C949AFA6,
-	RuntimeUtilities_get_fullscreenTriangle_m726C7E66DAFF550DB765BBF6FDF86CC38D162062,
-	RuntimeUtilities_get_copyStdMaterial_m0AEE2266347844DDB77A1F3C67CB8AEE3211F875,
-	RuntimeUtilities_get_copyStdFromDoubleWideMaterial_m63444E0BD488C7CB2EB26BC5EBE22510F73AC3BD,
-	RuntimeUtilities_get_copyMaterial_m28D2D657F8152B4B956236EABFE398678BE9A300,
-	RuntimeUtilities_get_copyFromTexArrayMaterial_m8256B0BC7E9E507870CD56AB1B799D44A1851FB4,
-	RuntimeUtilities_get_copySheet_m6EA58A85A27A489801813480408A9D322BB83984,
-	RuntimeUtilities_get_copyFromTexArraySheet_m0A7187E492D578C3DEBD42437FC02DF00E86239E,
-	RuntimeUtilities_isValidResources_mCC945187A4B3DA2A8054806FACEDC37423486B4A,
-	RuntimeUtilities_UpdateResources_m6D2B178C20681DA38A28C4F0090FF5F5B39DEE36,
-	RuntimeUtilities_SetRenderTargetWithLoadStoreAction_mDB26FE41B90AB28A3F6C8F8E5A9B4F655C933951,
-	RuntimeUtilities_SetRenderTargetWithLoadStoreAction_m273CB6161002A165792D63057CF87624AA5455CA,
-	RuntimeUtilities_SetRenderTargetWithLoadStoreAction_m28E46AE4905861B173E6F341FFE2D26B63E9E655,
-	RuntimeUtilities_BlitFullscreenTriangle_mD7A6C60001968CCDE0211930A802064B5521A571,
-	RuntimeUtilities_BlitFullscreenTriangle_m924D1CA61D3F307B70B2E2EF6DC568EC30CE4303,
-	RuntimeUtilities_BlitFullscreenTriangle_m47F50E78D34C19A071CA607E59C783D88E58CD5F,
-	RuntimeUtilities_BlitFullscreenTriangleFromDoubleWide_m79E6214D1A1FEB1DADD62AEBDB4D47519D715CDB,
-	RuntimeUtilities_BlitFullscreenTriangleToDoubleWide_mA874EC0243A6F27115403C783643BF4CA0917A3E,
-	RuntimeUtilities_BlitFullscreenTriangleFromTexArray_mB8EC632337670B4F00C912DCCE6F67A11A2F34D6,
-	RuntimeUtilities_BlitFullscreenTriangleToTexArray_mB31623B10E8A78B8295B4F047249C17459A21033,
-	RuntimeUtilities_BlitFullscreenTriangle_mD0D195264B906488850C0E4F136A63E0CCEB5906,
-	RuntimeUtilities_BlitFullscreenTriangle_m75DC578DD2ABA0906AACBE2FBF170BAF82BCFA3D,
-	RuntimeUtilities_BuiltinBlit_m19AF944542692E4974BB91E78E07283C87CA26DD,
-	RuntimeUtilities_BuiltinBlit_m1018C90233FB5F9C32ED980EFB54506B1B2901CE,
-	RuntimeUtilities_CopyTexture_mEDD7B068211C3466CCFA1E820D4940ADFFC5C79A,
-	RuntimeUtilities_get_scriptableRenderPipelineActive_mA72865D0A2FB67CDB4F689220C7DD9FDC1012A60,
-	RuntimeUtilities_get_supportsDeferredShading_m9CFD0EB9901057B50E520422B538DD08B5440603,
-	RuntimeUtilities_get_supportsDepthNormals_mB8147300A27CC774D768A7B4F46328A8B28BA338,
-	RuntimeUtilities_get_isSinglePassStereoEnabled_m55C6085623509D46EBDDC4B5965BC6D355734AF9,
-	RuntimeUtilities_get_isVREnabled_m6E7CBC7C4221EED0AE1443BE27D871C5167C9572,
-	RuntimeUtilities_get_isAndroidOpenGL_mAB8C6632A02A6090917A17284685CB525B1E9229,
-	RuntimeUtilities_get_defaultHDRRenderTextureFormat_mC7ACF8E4DE82EE142C7053772270307EB82B5DC6,
-	RuntimeUtilities_isFloatingPointFormat_mC84E744C9174A95E2AB88985CDF76A2DD0E52737,
-	RuntimeUtilities_Destroy_m481422E48E94E2BB1632F64A76343E6A864F6CD0,
-	RuntimeUtilities_get_isLinearColorSpace_m7E36D6D674A05B1F9FA8CD948E0081E6F2748A68,
-	RuntimeUtilities_IsResolvedDepthAvailable_m02B90B8B549F50DA20B76BCDAFCE694372A39AC8,
-	RuntimeUtilities_DestroyProfile_m083E21FEA3ED48683D56972906D30D6C3A429CE6,
-	RuntimeUtilities_DestroyVolume_mEC597C040338F3DC50B60517A50FDA89D480F651,
-	RuntimeUtilities_IsPostProcessingActive_mDCCF4692700907136EAFF637BCAA19F69E0EA4E0,
-	RuntimeUtilities_IsTemporalAntialiasingActive_m829221C23A4456D28EE2A26DC65E21DA8299E524,
-	NULL,
-	NULL,
-	RuntimeUtilities_Exp2_mBD3F6650C509623481B6B415CE0290C3439823EF,
-	RuntimeUtilities_GetJitteredPerspectiveProjectionMatrix_m1FEA6CB94354375DE0E8DBD4D05C13055C056413,
-	RuntimeUtilities_GetJitteredOrthographicProjectionMatrix_m8ADC57FB4AA74B7AAB5C35A1D4B68CDB189F2C5D,
-	RuntimeUtilities_GenerateJitteredProjectionMatrixFromOriginal_m29DAC8AAF501847AD3A83AF8652B0FC97ED70DBE,
-	RuntimeUtilities_GetAllAssemblyTypes_m296B4E9AD50902E0FAABDD7292982789DC1B1492,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	RuntimeUtilities__cctor_m6DEC1088FBCC589605BBDF06708DAC08659F9A2D,
+	ParameterOverride__ctor_mB21AA23325BDCA1EAB88AD7669E4392C6107B48A,
 	NULL,
 	NULL,
 	NULL,
@@ -1746,760 +1371,1092 @@ static Il2CppMethodPointer s_methodPointers[605] =
 	NULL,
 	NULL,
 	NULL,
-	U3CU3Ec__cctor_m26E6EFBFBBC1F858E452CC4D882B5469B50F0F98,
-	U3CU3Ec__ctor_m90691D1FA1D38AC16E174EC5EA02291F7F1FDD7B,
-	U3CU3Ec_U3CGetAllAssemblyTypesU3Eb__89_0_m2D8A0406174FF37CEF55D05CBF0AD7651DA48726,
+	FloatParameter_Interp_m365DAF368A4F2ABC713DA76E6E944BC9E2BA18DA,
+	FloatParameter__ctor_m9D086D769C6C1B3596C4A38B5ED8C7B401628650,
+	IntParameter_Interp_m96347A4B0DC935FDE5FA3A377404C4FAA7FB1D88,
+	IntParameter__ctor_mAD01DFAF328EEF972D980308CBBA0804F0BD1AD5,
+	BoolParameter__ctor_m04A36F46605F50DC4BB82080139D88760BC19284,
+	ColorParameter_Interp_m12A8C8F6690E94502D389505D6461FA6AB72341A,
+	ColorParameter_op_Implicit_m12846D24C2826DFF648C1962D1BD74A4029081F3,
+	ColorParameter__ctor_m0EFA9DD0C4820F5834ACD00E9FDCBFB953624834,
+	Vector2Parameter_Interp_m7927995FFE395D14C63049AA319143C0F947A590,
+	Vector2Parameter_op_Implicit_m76A0D44A92CA9662912652E9A5B9E74FD9FFFC11,
+	Vector2Parameter_op_Implicit_m416F6B3A8B23E7B1E5183EA9E6AB64AE4B70A377,
+	Vector2Parameter__ctor_m3FA2F5CBEAF9F462CE5AEFED865F4B87679ACDDE,
+	Vector3Parameter_Interp_m9E4B92F63D7C69520B58D673C88B8FD961E317DD,
+	Vector3Parameter_op_Implicit_m7F266DC7AED71744FFA1053A75DDFE5429F70063,
+	Vector3Parameter_op_Implicit_m747A41EC59166330DA13EB15CBCD5CEEE2D780F6,
+	Vector3Parameter__ctor_m67636F3D860D14546BC29384143E2F84F3572B33,
+	Vector4Parameter_Interp_m1648D6BC6029B5B8147DF0BD4AA234EBA25A4D8E,
+	Vector4Parameter_op_Implicit_mA186885FA1D9F9377546C35DD5C695AB08F20F23,
+	Vector4Parameter_op_Implicit_mCEDA69AFFE136DBC59FED8EAF4ABAB4969A0C850,
+	Vector4Parameter__ctor_m7DC5D037D038B31556F05CA7B809716041F09A95,
+	SplineParameter_OnEnable_m9D99A04E17F6FE5953609600C28AEAEDCE989CBF,
+	SplineParameter_SetValue_m69C0F27B7E38731878EFFD3A4E0CDB5AF84FDF4B,
+	SplineParameter_Interp_m6176D958775A7A8B72A1C506EAB7D7AF01EAF79D,
+	SplineParameter__ctor_mEC00ACA5793BDCC57C9B7AF36C910807FB874D30,
+	TextureParameter_Interp_m1E0F073609A17091BF589BA178C17A46CD1FF81F,
+	TextureParameter__ctor_m126D706CA8F854F68EE6BC93B11862051D2DBAFC,
+	PostProcessBundle_get_attribute_mBF4459B0E62B71CD348781716456E69DC676D03F,
+	PostProcessBundle_set_attribute_mEFAA5ACCC37D9DB44E34D269C20FAC87AF5B5A45,
+	PostProcessBundle_get_settings_m2636D9B1938880F353CBC47627D3F713D65009BD,
+	PostProcessBundle_set_settings_mCC40A828251B7F32D724E226D95991BA231AEBC0,
+	PostProcessBundle_get_renderer_m085C7E9914D3A8F71DDBE3681F5FE6F72ACE521F,
+	PostProcessBundle__ctor_mDDE4BDB6BE1105524414E7FA1EA777B8E619E38D,
+	PostProcessBundle_Release_m85149021A3A38F4D1A7CD2E5B916FCCB0B1E54FE,
+	PostProcessBundle_ResetHistory_mA3F75C3D9B66CDFD403AC001AEF6E2DDD530573A,
+	NULL,
+	NULL,
+	PostProcessDebug_OnEnable_m4DA07CC4C80EA113E80083095E756C120BA33609,
+	PostProcessDebug_OnDisable_m492ACC73CA8755CCF1BEB06A38308275043E373B,
+	PostProcessDebug_Update_mD56C9801A97D252EB14887D7D01A1024FCEF687F,
+	PostProcessDebug_Reset_m5FD06553D8F2BE77C92BE80C165272FFF13701D5,
+	PostProcessDebug_UpdateStates_m19D21D74C647CD1A62AEA61F884DB736061183BE,
+	PostProcessDebug_OnPostRender_m991A4FA1778E895CA148AC7296BE3E9EFB319FBA,
+	PostProcessDebug_OnGUI_m5B1C1F80433846F50A6C8A54E0D358447920C98C,
+	PostProcessDebug_DrawMonitor_mFCEC123A69E327A1456F6E02775D231DD81C6A4E,
+	PostProcessDebug__ctor_mBCD1AAFC7E6AD42013B9E37B20B7E4D95E8F7568,
+	PostProcessDebugLayer_get_debugOverlayTarget_mA518D12183B36B275756AFA1D3E7F6CC39BFF905,
+	PostProcessDebugLayer_set_debugOverlayTarget_m7C2285DA52C3BD7361056591AD57F7A75572EDD6,
+	PostProcessDebugLayer_get_debugOverlayActive_m588FABBDBC5A882404CEA19BB6814B2AB82FC8C6,
+	PostProcessDebugLayer_set_debugOverlayActive_m114C6829F2267EC9E669948750B9ADE72AA56221,
+	PostProcessDebugLayer_get_debugOverlay_m053337138AF10CA87F4E5F685111E29837CE3E4A,
+	PostProcessDebugLayer_set_debugOverlay_mFC72528135BB5A2601D06FE30728D194E33064AE,
+	PostProcessDebugLayer_OnEnable_m39CB12593990B49428DE7941170FC45A3A6DF96C,
+	PostProcessDebugLayer_OnDisable_mA773E8876D899E376ECFB3D95BF57EAA774F8264,
+	PostProcessDebugLayer_DestroyDebugOverlayTarget_mC9BBFEBFA10FCA25FFA466E3D362E430A34BC750,
+	PostProcessDebugLayer_RequestMonitorPass_m919CA6BB8F3438F2125EB67F759B87B13E592414,
+	PostProcessDebugLayer_RequestDebugOverlay_m30D5B9F57FCE9420B636118DA7C5EA2D63610F02,
+	PostProcessDebugLayer_SetFrameSize_m5EA41FE15E544C2FEC318CB509A4A14399D102C0,
+	PostProcessDebugLayer_PushDebugOverlay_m354B0416740BE8928AC3226AF9A3777090F2CEC1,
+	PostProcessDebugLayer_GetCameraFlags_mFC417D73293EEB74F5E48F4AE13C817B29E5E440,
+	PostProcessDebugLayer_RenderMonitors_mF9B6E9E28AA71EAE2C213669BDEDC7DFAB363A33,
+	PostProcessDebugLayer_RenderSpecialOverlays_m816143A8FAC39EA9D5FD8F8658A2BC0D898B06A1,
+	PostProcessDebugLayer_EndFrame_mD958DB63AAE31EEC002DB2543B300010FB4D7716,
+	PostProcessDebugLayer__ctor_m3DF3C43195EB86DD75101557CC0CC7E37CE1A9BF,
+	OverlaySettings__ctor_m093BD985FF4AF650D08DCE7791B2A4D45E9FED7B,
+	PostProcessEffectRenderer_Init_m423CEA78440BF7902BFA305E2B02C4A784EF6C99,
+	PostProcessEffectRenderer_GetCameraFlags_m0C1907B2D7474E5D12151DBC3F81978D283B5579,
+	PostProcessEffectRenderer_ResetHistory_mAD5B2BB867294DC6ED93B43547E8D82A55C00119,
+	PostProcessEffectRenderer_Release_m22E84207748138261F62048C7D96E835AC30803A,
+	NULL,
+	NULL,
+	PostProcessEffectRenderer__ctor_m02BE05D7BA0BE8D8ED69C556674D49D1D016B443,
 	NULL,
 	NULL,
 	NULL,
-	ShaderIDs__cctor_m5C13ADD34F943EF7F1B0EC8A0BD1EBB645E082D0,
-	Spline__ctor_mF4CB5FE207BD36B6A8B1425A3CEC164DD61B74B3,
-	Spline_Cache_mF98EF50CC2A26EC6716EB5452FD4B88641A7F833,
-	Spline_Evaluate_m908B44D36171764274B429D923E47F36BF972516,
-	Spline_Evaluate_m782264B22BBC1BADE12ED2E0A0C4CD1DE9A79BBC,
-	Spline_GetHashCode_mF43C4207D64C2A5725F5341460012D79371FBFD7,
-	TargetPool__ctor_m00A7A8FD2FB5F0FD7BF02F424D32A9FB6B365199,
-	TargetPool_Get_m0547F5C89835B0586BE4B46593AD5A388FF434B0,
-	TargetPool_Get_m3E7EF2A9C513F78863718A8237F3A0277A33DC1A,
-	TargetPool_Reset_m2D79A232CECE4951254E2EDA0529F0C877B97BB3,
-	TextureFormatUtilities__cctor_m80F059F44CECC5A39BFE15307B85CDB3A8C0154C,
-	TextureFormatUtilities_IsObsolete_m7F982EEAB23550BC1C661F9498072043C17A2B15,
-	TextureFormatUtilities_GetUncompressedRenderTextureFormat_m0A47B765B1D6E974F3C303A5D19E00520730D58C,
-	TextureFormatUtilities_IsSupported_m47ADFD683457DEBF0498B6C06C4D49541CFA1452,
-	TextureFormatUtilities_IsSupported_mB592C8F78ABEF5D0138D103EE63B9E8006D1E463,
-	TextureLerper_get_instance_mCC583A6374F5049A37F412180FED1BA4713728F7,
-	TextureLerper__ctor_m326A48946F64C5733E75607AE62A9D247FC7E67D,
-	TextureLerper_BeginFrame_mF2957CC10D96B1A568D284E0A7DA7F4E0CFE0558,
-	TextureLerper_EndFrame_m827E01313363D563B9D08D245272A162D1872745,
-	TextureLerper_Get_mD700555241B9F131B78A0302883C35AD0936F120,
-	TextureLerper_Lerp_m675AC3EF5BB02D904E0988F874D1F6F9AF9FB257,
-	TextureLerper_Lerp_mF45DC5D430B5C7B0C0067B55F390910DE27232DA,
-	TextureLerper_Clear_mF79AC272E135A60DFE6AB2012B81905934090214,
+	NULL,
+	PostProcessEffectSettings_OnEnable_m0F9FBA7D03957BF89BE698BA1F703F8DE847E935,
+	PostProcessEffectSettings_OnDisable_m67DE62450BE71288ECEF934BAF10748727ECDE5C,
+	PostProcessEffectSettings_SetAllOverridesTo_mF86C7C651A9ABEF30ECF2E7AB3566DE08A00F680,
+	PostProcessEffectSettings_IsEnabledAndSupported_m8499ED7A534A00C3E25E69DF3EBB4932D35A99AF,
+	PostProcessEffectSettings_GetHash_m386BB5D563FB5356234EBFFD6CBA5CDC14C9F858,
+	PostProcessEffectSettings__ctor_m60531067359283C000461ED8A1FCF58FC1C4D0EB,
+	PostProcessEffectSettings_U3COnEnableU3Eb__3_2_m1CDE934C53256BC7BEA3ECE640B0AC61E6632601,
+	U3CU3Ec__cctor_mD089AB18230B99D147F44E2EA3F6223C17564D14,
+	U3CU3Ec__ctor_mEEFF6CF7892F8783B9AB8EDAF11A367344B0A2C3,
+	U3CU3Ec_U3COnEnableU3Eb__3_0_mFB0450A2EA91C54C174F251C8F4B5B520F5314CE,
+	U3CU3Ec_U3COnEnableU3Eb__3_1_m842306E3DBC19895D5D0AE7036743BA0E68F4370,
+	PostProcessEventComparer_Equals_mA9CD3A312BFBBD4298A84686C3E401C13715DC56,
+	PostProcessEventComparer_GetHashCode_mD68272AD873202C39427019A58D5AC53BA2432AC,
+	PostProcessLayer_get_sortedBundles_m7F527E542B4326BD09832F981A8DB7FDDC47C1C3,
+	PostProcessLayer_set_sortedBundles_m43C16332F23BBB734D3C283DE6F19AE7859CE671,
+	PostProcessLayer_get_cameraDepthFlags_mCD1FA03FAD69711693C0E6B3B6DDEECA97FCA5E5,
+	PostProcessLayer_set_cameraDepthFlags_m40AF94D61FBD5E5388CFD5C713ABD33467E7EBEE,
+	PostProcessLayer_get_haveBundlesBeenInited_m875912DA8C9089CAD6FBA02041A598C77BF3FA28,
+	PostProcessLayer_set_haveBundlesBeenInited_mDAC84DE4D411C12D63923C06E0EB331FE1BA733E,
+	PostProcessLayer_OnEnable_m038AEF25333C15073060C4FF1A217AADAE648779,
+	PostProcessLayer_InitLegacy_mFB3E1F8550B26314EB66AAF52ACC4951CF40FD01,
+	PostProcessLayer_DynamicResolutionAllowsFinalBlitToCameraTarget_mA7DEE562681AA1DCE31197282E89A9E3CC4DA689,
+	PostProcessLayer_OnRenderImage_m8A9A17B541C8F4490205B5CE434B07FE9FF8FCA1,
+	PostProcessLayer_Init_m7059B365A95482AA821896EB5771FEDCB5522D58,
+	PostProcessLayer_InitBundles_mD814393DE3858B94DD4E2A10E022033646773F91,
+	PostProcessLayer_UpdateBundleSortList_m56105BF16E586720CBE1F3C38056370F7A164085,
+	PostProcessLayer_OnDisable_m62CC05ABE560523CB141ED103D59BA976FAC86FA,
+	PostProcessLayer_Reset_mE0E7046035DCE582615748E0B81BC3FA7CFC44F9,
+	PostProcessLayer_OnPreCull_mC755907A06C3F0F0CE22DF2FF933A0A812618E13,
+	PostProcessLayer_OnPreRender_mA87D4DDF7A35E0DEF1C7E9F43D7859FE944CCD59,
+	PostProcessLayer_RequiresInitialBlit_m98BC117C7E65CDC76C3EABD797EA1E98BF7680E5,
+	PostProcessLayer_UpdateSrcDstForOpaqueOnly_mA073B6B2BC7FCD8FE5454E061C29520C7FDBCE28,
+	PostProcessLayer_BuildCommandBuffers_m3BB6EA16C9358EA7EC921C01FA8BC5AFA8D32B66,
+	PostProcessLayer_OnPostRender_m8605BB280184DA80938484798979E71231CC3FFC,
+	NULL,
+	PostProcessLayer_GetBundle_m82529C003E49C026D4BCC02059CD4F8C03922B28,
+	NULL,
+	PostProcessLayer_BakeMSVOMap_m7FFF41E558912FA0A5E5002E242D54473699A18F,
+	PostProcessLayer_OverrideSettings_m83A232955C850CBB747E71A6AC5857A8A63D3925,
+	PostProcessLayer_SetLegacyCameraFlags_m361B7962131650ECDA4E3F59C83A16FA64FD07FC,
+	PostProcessLayer_ResetHistory_mC960CBC3E1ED40E0DF175BDB231BF9E6B2557B71,
+	PostProcessLayer_HasOpaqueOnlyEffects_m3684482D330279919C983DC7BB3961C77F98BBD4,
+	PostProcessLayer_HasActiveEffects_m8FDE4761D6E4BEE273E722140B105ADBD6E15909,
+	PostProcessLayer_SetupContext_m62E4AE18C83A990DE9A597891B3B4E2662DDC10C,
+	PostProcessLayer_UpdateVolumeSystem_m689BA9BBCFC0BC579FBCFFC03E16D57020ABE64A,
+	PostProcessLayer_RenderOpaqueOnly_mE60D48853AA875751334DFB1C881B37F1321390A,
+	PostProcessLayer_Render_m20436CD2D012C080C4DD3FAC79D63E98A5EF0BF4,
+	PostProcessLayer_RenderInjectionPoint_m01C078BBEDB9851E8E8CB0FC4603E56421DB9D29,
+	PostProcessLayer_RenderList_m11987024F4B018FDA5524BE0B4B4A3918682D292,
+	PostProcessLayer_ApplyFlip_mB31467464158960ACE257039E6C3124A04E7EA3F,
+	PostProcessLayer_ApplyDefaultFlip_m35A97C9027CE51CC70BAC26B1E99C7C525AAF1BB,
+	PostProcessLayer_RenderBuiltins_mF3469C24150B99C8D013A2EEFBD23CB5EE847C27,
+	PostProcessLayer_RenderFinalPass_mFFE0D433E1D5869D4CE990E18A225B7036CB07FC,
+	NULL,
+	PostProcessLayer_ShouldGenerateLogHistogram_m675CAA571334F9D4C14BA63B2F793CB86CE0EAFB,
+	PostProcessLayer__ctor_m8296051A2DCE4647080189E8B1881890A338229C,
+	SerializedBundleRef__ctor_m8BCF65DB003655135E182A9BCD19ED4AC775B0E3,
+	U3CU3Ec__DisplayClass54_0__ctor_mD1620D37E1580A84A09C8F5A942C2164441C6145,
+	U3CU3Ec__DisplayClass54_0_U3CUpdateBundleSortListU3Eb__0_mD5BFE7EE8C78489DE37C5540F13B448ED71370F8,
+	U3CU3Ec__DisplayClass54_0_U3CUpdateBundleSortListU3Eb__2_mCBF7E5A0DACDA7A8E0964D1730BE64A965F2C086,
+	U3CU3Ec__DisplayClass54_1__ctor_m6FED926DF3698E86D9ED7733D7E10EE1A3FD70DD,
+	U3CU3Ec__DisplayClass54_1_U3CUpdateBundleSortListU3Eb__3_m5079F5352A08BCFD0798E251F89B2E969B954B0A,
+	U3CU3Ec__DisplayClass54_2__ctor_m8AFCE8901A93CE6261DDF071562470B1A2D7BAEF,
+	U3CU3Ec__DisplayClass54_2_U3CUpdateBundleSortListU3Eb__4_m2AD2BE8A99A17C2F0AB45C2F9CA94511E3B6C20E,
+	U3CU3Ec__DisplayClass54_3__ctor_mB20B9DF760C344A8C3DD74BCE5DE6E18E0CF76C1,
+	U3CU3Ec__DisplayClass54_3_U3CUpdateBundleSortListU3Eb__5_m2C3256279151D818C94CE366DBF927C277EF9960,
+	U3CU3Ec__cctor_mC58AF5101E2ABD2CCED0D14A832AB73EDEBB5407,
+	U3CU3Ec__ctor_m612827A29AEDBBCC3CC4BB9C7E0E26A82CCF52B3,
+	U3CU3Ec_U3CUpdateBundleSortListU3Eb__54_1_m3A74A6B00FFBFB1E96DB0F5287825C7A258F5866,
+	PostProcessManager_get_instance_mAD06BDBF8DC9F8658B2245A4EC0940404B219B87,
+	PostProcessManager__ctor_m8FB25D90E014F9C20FED4173115052A40C255A83,
+	PostProcessManager_CleanBaseTypes_mE22DD79EC42EC1C71DCB01856EF7E80709ED98E2,
+	PostProcessManager_ReloadBaseTypes_m582DBC14B099E81CF96FC236D69E4188ABB55788,
+	PostProcessManager_GetActiveVolumes_m808A05F2F4A6CFF8A88CF85F733E045B584550BB,
+	PostProcessManager_GetHighestPriorityVolume_mFF5FBB334E0ED2776C1BD3B44970DBF20A4D3D4C,
+	PostProcessManager_GetHighestPriorityVolume_m4D3FCE52F077EF101C8E9D4FD586102BCD605946,
+	PostProcessManager_QuickVolume_m7FFC5885224F957D91AED95616E3CA5A70832332,
+	PostProcessManager_SetLayerDirty_mA10A7367AE66AB61DE3B761ECFBC3EF35DC86E2C,
+	PostProcessManager_UpdateVolumeLayer_m36A628F3F0B79DB27CE52B44272E973AF1F581A0,
+	PostProcessManager_Register_mE29A4009A4FC20CC5A6F95444356C2381FB19427,
+	PostProcessManager_Register_m20ABDF3942B7F71D347DF3E7E12514DD243FD059,
+	PostProcessManager_Unregister_m06731BA17E01E742A84CA7B6E01F9DFA1375E333,
+	PostProcessManager_Unregister_m171AB0124D7DB78DD042F57DFA62155E8D6866BC,
+	PostProcessManager_ReplaceData_m2ECCA7279A2E64CB6868C112A39A37109A7930C9,
+	PostProcessManager_UpdateSettings_mAE1647AFBE52ACB3A47F9E933FC64D50C8C10FBD,
+	PostProcessManager_GrabVolumes_m0F7D7E964ED05BAB574BDB311D1CFAED9FBC6EC0,
+	PostProcessManager_SortByPriority_mF27627941ACC25372674D5949EB3103FEFE0C82E,
+	PostProcessManager_IsVolumeRenderedByCamera_mE4C35A868A7F24DF617E7AC149573FEF9D4BAD9E,
+	U3CU3Ec__cctor_m804752D66A0DA7EC353907540D281DF948CD8C5F,
+	U3CU3Ec__ctor_m425E24478A6F17E4ED7213D83B81FD8E999C46FB,
+	U3CU3Ec_U3CReloadBaseTypesU3Eb__12_0_mF55DE1849B2343C42C736A9685CDA2AABD975E62,
+	PostProcessProfile_OnEnable_m27BACDB462EC7171F0BC370995A809A1049DBD26,
+	NULL,
+	PostProcessProfile_AddSettings_mB4770661981987A90558315ABC9F3D7C89B19E64,
+	PostProcessProfile_AddSettings_m636C8393796396CDBE72A34AD0CEC930791DB895,
+	NULL,
+	PostProcessProfile_RemoveSettings_m5735C7842B32CDCA41048105ED64CD31529BBEAD,
+	NULL,
+	PostProcessProfile_HasSettings_m4D611773882B755A054DE98D3DD3234291781FC8,
+	NULL,
+	NULL,
+	PostProcessProfile__ctor_m53B809D0279348483F3DD4A19B10CE4B712BE1BD,
+	U3CU3Ec__cctor_m7B98D4CD437C5CBE7D38D80F53000EC8DE6536AF,
+	U3CU3Ec__ctor_m007B39B322384120C3311450483FEDF4C671420D,
+	U3CU3Ec_U3COnEnableU3Eb__2_0_m4E9BE45F5C322F3C227039CB72B5CE5FD569F4A6,
+	PostProcessRenderContext_get_camera_m56CA965425F5C59D32D7CF2E11E589FBD8A16C3D,
+	PostProcessRenderContext_set_camera_m5A32D4F5ABA6D932E58334ACA8AE246AAF9D8D47,
+	PostProcessRenderContext_get_command_mE54DFA2523219208C87BA95ECD2D766889DACA71,
+	PostProcessRenderContext_set_command_m2C45D5AD8D68476937078FC1A8CAD67F40B363CA,
+	PostProcessRenderContext_get_source_m7AB20613A7F91FDB5B7872995E6DD205A9D52135,
+	PostProcessRenderContext_set_source_m4DBE8CEB425BC3F295EC258CEA9A71B87040BD2C,
+	PostProcessRenderContext_get_destination_mD5A4C6656F4FC57B0FF57FA7F7CC597F62BD2C88,
+	PostProcessRenderContext_set_destination_mEF2A011AB58DEDB4A62AFCA766D19846ABB95C2F,
+	PostProcessRenderContext_get_sourceFormat_mD846BE618AD913E5A3EFF8AE3BDFD1B2DF53896E,
+	PostProcessRenderContext_set_sourceFormat_mA41E34B795170887013696DB9903C224B570D0BD,
+	PostProcessRenderContext_get_flip_mE2F46E47D4554EF081D57D8369E5878E657D5103,
+	PostProcessRenderContext_set_flip_m27C840F9FC7AA91DEF02F5921E96A8FA09EF8582,
+	PostProcessRenderContext_get_resources_mEC353AFE49A4A72D561FCB8758E364578AB2B9D7,
+	PostProcessRenderContext_set_resources_m1BF26E65F227D1503F6259E07DEED008C7FE1163,
+	PostProcessRenderContext_get_propertySheets_mE1135E07BE4F59354198DF05198E64CAF2E41D5C,
+	PostProcessRenderContext_set_propertySheets_m360844DFB76FA97FED4807602FEF53E81F573E3D,
+	PostProcessRenderContext_get_userData_m40E610315DE3A5B623CD39497F28C2F25FEA8188,
+	PostProcessRenderContext_set_userData_m003BC92230DEEFC331EB433694B7C40DFACB6030,
+	PostProcessRenderContext_get_debugLayer_m26C1CC3A2F3BBC10E71F0827E8B35204C7D9C008,
+	PostProcessRenderContext_set_debugLayer_m5CBEDD3DC87DB8728E18EDF8E9FA5769A149A03A,
+	PostProcessRenderContext_get_width_m4965F17411CA0E2AEC993B02D9CEEB0E258E8A74,
+	PostProcessRenderContext_set_width_mB7C5BBE29EB306CFFC8909844C114110DFE6BE64,
+	PostProcessRenderContext_get_height_m3F500068E9E598DA75850D864AEC83708B1D9BD4,
+	PostProcessRenderContext_set_height_m4503893008BB36236343F69E4CD90EB4B4434420,
+	PostProcessRenderContext_get_stereoActive_mFF6F57ABA3F8A044D7EE09143A5F8C47B5EF6AE3,
+	PostProcessRenderContext_set_stereoActive_mD4C23489E1E4539919D6B16AD9C20DDEE1FAD960,
+	PostProcessRenderContext_get_xrActiveEye_mF542BBCE2BE780B1018E8640BF92BF44A1B25586,
+	PostProcessRenderContext_set_xrActiveEye_mC0E126C2BCEF92AB645EC13658F3B89CBE536D5B,
+	PostProcessRenderContext_get_numberOfEyes_m06AE156D5CEDCB464CA682ADAFF3AD2A9A347D60,
+	PostProcessRenderContext_set_numberOfEyes_m36DEBBC58365FF4315CCEB689D7BC6F86E4C1492,
+	PostProcessRenderContext_get_stereoRenderingMode_m103F34804451F1883241CBA29C9E7423188B9FE1,
+	PostProcessRenderContext_set_stereoRenderingMode_mCC8077506E225DF64ED657D9AF8B8E32293ABCE0,
+	PostProcessRenderContext_get_screenWidth_m9F3ECB9E1D36F430FADA9EC9C19A8EAD0C714D04,
+	PostProcessRenderContext_set_screenWidth_mD75AD636E7F34B00779E42C2C6464BB60C12BE20,
+	PostProcessRenderContext_get_screenHeight_m6E8CD22AEA7C1A754C1652DF457FA7D6E11C84B9,
+	PostProcessRenderContext_set_screenHeight_m05BE0C2BB553342E4271DFB5E7380D2A5DAC30A2,
+	PostProcessRenderContext_get_isSceneView_mBBE9F6C699D243C8746362C84F466432818DAB10,
+	PostProcessRenderContext_set_isSceneView_mEF3EC48FF1742A6E1A8171775707F7AB9CF45911,
+	PostProcessRenderContext_get_antialiasing_m869EE41D29DB840249DC2773AC27E6DD1FC400ED,
+	PostProcessRenderContext_set_antialiasing_m3154972A25A18801221194E34B43B89855E11511,
+	PostProcessRenderContext_get_temporalAntialiasing_mA4FFD948F979FAE3046EFAC74FD22429DFE8288A,
+	PostProcessRenderContext_set_temporalAntialiasing_mD3988FC83821BB3378D61DA0FCF4475853759DB7,
+	PostProcessRenderContext_Reset_mF0DDCB7DA38BB880DC0966836F06E43B9B3D81A0,
+	PostProcessRenderContext_IsTemporalAntialiasingActive_mF2954B94F2D907B159A45E745C5666D06F692E3F,
+	PostProcessRenderContext_IsDebugOverlayEnabled_m9779C07E4F3D9C746FB03148E28D54210A0758B3,
+	PostProcessRenderContext_PushDebugOverlay_m1CDDDF242E8818D9DF89E8AEECBE0C4ECC0C2D5F,
+	PostProcessRenderContext_GetDescriptor_m830411A853CE21A05476D5A9F1697DD707024D50,
+	PostProcessRenderContext_GetScreenSpaceTemporaryRT_m5B29752DFD38640C69AB9B80AB164E1A7D89803A,
+	PostProcessRenderContext_GetScreenSpaceTemporaryRT_m2E603ACA026F7EFBD88C774950E07FBCD1E10CF5,
+	PostProcessRenderContext_UpdateSinglePassStereoState_m542DFC93E905B1EE3F6319435D264FFCB32C0BF7,
+	PostProcessRenderContext__ctor_m3ADE6FCD2E4958F4D20F8C3EC2A665A4D7A905C5,
+	PostProcessResources__ctor_m2084C0E99D4DD0D00B7AC4902269640FD27FA1B9,
+	Shaders_Clone_mB5A22F5783F424816A1F720B7067B83165D18EE0,
+	Shaders__ctor_mDB6F202FB553B707FE57621ABD7DE9CD03F6D5BA,
+	ComputeShaders_Clone_m4C1F80D224F4997657B5CB621E6912167850FAAF,
+	ComputeShaders__ctor_mB4F115D586184617C09790914E78FA6F4FF1CDD5,
+	SMAALuts__ctor_mB89E9BBA28FD1F388D17F3AC4FAEFE466A5A9408,
+	PostProcessVolume_get_profile_m40F01FBBA48C74FBCAA82CC71390FE5289418F55,
+	PostProcessVolume_set_profile_mE53F7D304FF743A59EFF91892175018ADBC62F90,
+	PostProcessVolume_get_profileRef_m76A55FA99804C180BAFDEB7A7BDD3523E28F8AA6,
+	PostProcessVolume_HasInstantiatedProfile_m84C6BF4FA77029154272D970827AE0523DA833C5,
+	PostProcessVolume_get_previousLayer_m3B53D4611832871C02FC6BA9344B7514FA5E7D00,
+	PostProcessVolume_OnEnable_m0679E88ECC0AC854401DCBB71073649DABDAB6E8,
+	PostProcessVolume_OnDisable_m605905C1D51CCFDA73310D36F0280FB3FDE05863,
+	PostProcessVolume_Update_m703E8F7AABE2325197A57C6FDC15439632AE94B4,
+	PostProcessVolume_OnDrawGizmos_m5E3854C1C530EA1144381107BAB670F8134447BA,
+	PostProcessVolume__ctor_mFE361D59FFA90A9C28D27E33A1BEDFAE362ED4A7,
+	ColorUtilities_StandardIlluminantY_m3FBB1CCF60384B1713325307423657B42C3B03E4,
+	ColorUtilities_CIExyToLMS_m8D473B3357FB2D160852BED2F538A784C17B4CC9,
+	ColorUtilities_ComputeColorBalance_m6F834BC5F095E6271F8AC5CC284F914D5CE0B933,
+	ColorUtilities_ColorToLift_mACA8C790FED7F582C2ACE11A1622D1B0460F6B62,
+	ColorUtilities_ColorToInverseGamma_mE84FD6FAB24BE5E7201E585938314FBD86DDE017,
+	ColorUtilities_ColorToGain_mEECB128C59AB6438E235C38ED0C362EA7FDCEEC5,
+	ColorUtilities_LogCToLinear_m2EEB0779584410AAAF03251C9A46C60CFECC0A7A,
+	ColorUtilities_LinearToLogC_m56293C3570027D0278DA162E9AC4F80C85750E98,
+	ColorUtilities_ToHex_mBBADA29C60998F8F47D8DA02DF21BD2A3E8F8BF3,
+	ColorUtilities_ToRGBA_m7F8285B5AD83A5B8C1DAAC5A06C9DB505A32FA3E,
+	HableCurve_get_whitePoint_m2F29170B50424B70627129A58E8FE2F3044C3D36,
+	HableCurve_set_whitePoint_m9DE79052E9DE4EA31BC195EC0301EFE3B5A2AE35,
+	HableCurve_get_inverseWhitePoint_mD9A48EF5A7542BEF6DECEC1F7F6354D210B7C90D,
+	HableCurve_set_inverseWhitePoint_mB3D3BF0AFCA8BD49DE8AEC09F29EE952F6552816,
+	HableCurve_get_x0_m611124271E4A894A9FB9D350C2F4215AE20A10E7,
+	HableCurve_set_x0_m17B21635E66B6B69A3188BF21541D649E06EB08F,
+	HableCurve_get_x1_mA8B86FCBC557774456D8B63D57FFDFB913BA42B9,
+	HableCurve_set_x1_mD617C1D13AF6B24705401761BD7E6C0976E46481,
+	HableCurve__ctor_m6C38032F3D6CB2A7D9F0BBA7FEF3F03B239E6346,
+	HableCurve_Eval_m62C28C1C04E4AA3A98355941D4A7C9BD88A98D24,
+	HableCurve_Init_mF86BFB984A9C048E677608A6E57DBE608AF2F2AD,
+	HableCurve_InitSegments_m99F5C7DFD8A1EE46152354EB808F8AC3EDAF9B8F,
+	HableCurve_SolveAB_mF1FD47DE1784364139D0D3245F8F5676FE675501,
+	HableCurve_AsSlopeIntercept_mB6BB968BEF2D16A47FD21363B3B3E80E30510A14,
+	HableCurve_EvalDerivativeLinearGamma_mD6EEFB44BE65203522B6BFC1E79CBC061B314881,
+	Segment_Eval_mC4DF32486D62BCE96992E05A8E38C8950A6DB9D9,
+	Segment__ctor_m8297F8231D9F5D57A6F13F9137832D6F73A04B63,
+	Uniforms__ctor_m3C3B6EE6EFF78D57E84C54D123D7258FFC3C3142,
+	Uniforms_get_curve_mE7638E38D4063126F49C74A01AC768F0BD33F811,
+	Uniforms_get_toeSegmentA_mEBB2FF2937CBF4EAE75AFADB90944177F8A4792B,
+	Uniforms_get_toeSegmentB_m4EE19F443F65899DC40CF56BADF489C62E035A6B,
+	Uniforms_get_midSegmentA_m22A551965BFAB754EEDAE7AE6CEF466B0206B0DC,
+	Uniforms_get_midSegmentB_m63DC3ED45ABDF1B406A7A0433115668EA33A6FA0,
+	Uniforms_get_shoSegmentA_mF90FE052FC65FA7565F0ACFC08426791DC95A6DB,
+	Uniforms_get_shoSegmentB_m81DFB20837E05225D64F6BBF7B4A3181CF270EB4,
+	HaltonSeq_Get_m506F719276E54819A350ECA521DC14CAAF93DCDE,
+	LogHistogram_get_data_m97AC8B626DFB12E861FC4763BD074D78A33BDFC8,
+	LogHistogram_set_data_m11BCBDD14B39CAC012EEF0A025E0841CE9E7C0AC,
+	LogHistogram_Generate_mF6172BCF49EA5B84247F3B398AFDC9048A1997B5,
+	LogHistogram_GetHistogramScaleOffsetRes_m8EE8EFAD19303076A548CC87BDB786D0E4627FAC,
+	LogHistogram_Release_m223FD2D21A047DD6152B77F51C08D8695F868293,
+	LogHistogram__ctor_m499CC8C266595035BBF5484943F188ED0F63000C,
+	MeshUtilities__cctor_mE9F94FE9661CC0EF8B16B40B5836A31A418D5868,
+	MeshUtilities_GetColliderMesh_mD569C157849D4D351DC60BCE6E553DEC62499337,
+	MeshUtilities_GetPrimitive_m0623DD14F5EF49794513508BF72DF9400B55B464,
+	MeshUtilities_GetBuiltinMesh_m2D76FE268B86B252CF140CA0CAE23893A66B6BA2,
+	PostProcessEffectRendererExtensions_RenderOrLog_m469A5B8C31928779C45EC9F5516A389259FB09B3,
+	PropertySheet_get_properties_m3AB962E1C6A0C44D98E16AFBB73B40BA5E21B504,
+	PropertySheet_set_properties_m5CC3AC3311CFDFC9E2BDE0B24C518C755341B09D,
+	PropertySheet_get_material_m39C81AE4053740E4956C4AAC9324417A32924EAF,
+	PropertySheet_set_material_m08D1FD201981FD7D61112C2FDF41B3D4CFC9BB34,
+	PropertySheet__ctor_m81478DD7D6D0B5AE15F23708DB6ED51E6A5E79EB,
+	PropertySheet_ClearKeywords_mC8018F4A0C5AC9C1E9CAC706E6C191AF8691DB23,
+	PropertySheet_EnableKeyword_m8689E0BDBEF8AF049C3764DBE9CDDF1EF6A8E753,
+	PropertySheet_DisableKeyword_m66CA5D315600A0E7191D4548A609380CC607BF0E,
+	PropertySheet_Release_m009DE84A228752E7B8E98E69771A7993C29B4DFF,
+	PropertySheetFactory__ctor_m2D800F5C980C606D19A82AFFF58CC4AA99DAF435,
+	PropertySheetFactory_Get_m65ADC20DA9BB9BADEAE8B52967593CD7943BE47A,
+	PropertySheetFactory_Get_mE4CC267B0EB28F0892A426B67015A309F2540CBF,
+	PropertySheetFactory_Release_m12FB943E69158B214069975CC937D751A5AEFA12,
+	RuntimeUtilities_get_whiteTexture_m64DAED686068CD4826ADA952773923BDBA7FFFC4,
+	RuntimeUtilities_get_whiteTexture3D_m28D22535909589CC391AB3D064062C4CA09268D7,
+	RuntimeUtilities_get_blackTexture_mE66C0D8EB7B079DF15773227F43CDAF0395F32EC,
+	RuntimeUtilities_get_blackTexture3D_m10A30FE08D2EAEB2F25608BA22C76787CA34F880,
+	RuntimeUtilities_get_transparentTexture_m4917227EFCE667A0B6F7E732201C477F5E685EEE,
+	RuntimeUtilities_get_transparentTexture3D_mC2D525F564DBD156833FB8C96ED322F2B9A646B3,
+	RuntimeUtilities_GetLutStrip_m036B3B4D4A254F44036A937D2720F80C40A7A5A3,
+	RuntimeUtilities_get_fullscreenTriangle_m734342DD95DF90ABE4D598237796D4889E2FDB0D,
+	RuntimeUtilities_get_copyStdMaterial_mAE6B9079561D8BCFC1EB7CCF21B3E4654BA06B51,
+	RuntimeUtilities_get_copyStdFromDoubleWideMaterial_m816BC783CBA583147E8A533DD154CB31DA9699F4,
+	RuntimeUtilities_get_copyMaterial_mAF502F4C003A749D6FC218BC090643C142A54CCF,
+	RuntimeUtilities_get_copyFromTexArrayMaterial_mF3DDCE8636095398F6FA0FAF35D90E5CC519B195,
+	RuntimeUtilities_get_copySheet_mB6A1F90C3046685DC524C6A0868F772E0A4ACEE2,
+	RuntimeUtilities_get_copyFromTexArraySheet_mA47411707A4F90C18844B3F3485A1939FB4366FE,
+	RuntimeUtilities_isValidResources_mF3D66BA59876C317ECECD09DCE1019CAD27E9AA0,
+	RuntimeUtilities_UpdateResources_m486DEDA144F35DC556C38ADA5803511EC713C3A8,
+	RuntimeUtilities_SetRenderTargetWithLoadStoreAction_m468317D20673FF9A27A95018379BC40D0FB29621,
+	RuntimeUtilities_SetRenderTargetWithLoadStoreAction_mE8607763894898BD6482B2BFFFBB3ED433A46492,
+	RuntimeUtilities_SetRenderTargetWithLoadStoreAction_m128A852933A1DAB4620F294B25957B59A17FA9BF,
+	RuntimeUtilities_BlitFullscreenTriangle_m22F3BBD690659F81B7927839DCCB9A0218E2CA58,
+	RuntimeUtilities_BlitFullscreenTriangle_m5A6195FD875AD714F50CD555AC48EA6108628985,
+	RuntimeUtilities_BlitFullscreenTriangle_mDBE33BDDBDD10BFB36C486BEB821EF17997D448E,
+	RuntimeUtilities_BlitFullscreenTriangleFromDoubleWide_mBC9EBEC455FCBE9C2C698E308A7BDC24F95BEC87,
+	RuntimeUtilities_BlitFullscreenTriangleToDoubleWide_m991CE3F278215B9EA30FCAD56E8D199AD6214D86,
+	RuntimeUtilities_BlitFullscreenTriangleFromTexArray_m209783E94383C31EE29C9605E8C6B3AA46EDF6B1,
+	RuntimeUtilities_BlitFullscreenTriangleToTexArray_m9584D6F3239DB167D19414A84A3BD0C257372CD4,
+	RuntimeUtilities_BlitFullscreenTriangle_mC5B7E273D565CDB20FCC50B52A4567C3D0C242CB,
+	RuntimeUtilities_BlitFullscreenTriangle_mB52EBC17810E59AAE9D3D4CB04D29CB09E953916,
+	RuntimeUtilities_BuiltinBlit_mAC1D19F549F9CBF10B00D5449EE72F394262B860,
+	RuntimeUtilities_BuiltinBlit_m2FEA794D39C795470A2C44D28F1A72CB0BF5CC8D,
+	RuntimeUtilities_CopyTexture_mCADF3045D379D4E9771BEB16EBB3AB0282284753,
+	RuntimeUtilities_get_scriptableRenderPipelineActive_m7442F2DFF6D5C3AFE4AB82550470A951559C4F3C,
+	RuntimeUtilities_get_supportsDeferredShading_mC6F86E18FF2817F79C47298074A78171758F3FD1,
+	RuntimeUtilities_get_supportsDepthNormals_m089408C08DA95BC0CDC5B99B13F3CF6E1D9D300A,
+	RuntimeUtilities_get_isSinglePassStereoEnabled_m32CAA62D88CC87AC5C737817D7E92580CF57E40C,
+	RuntimeUtilities_get_isVREnabled_m5E1BD81DFDF3743EA95103C8E9FA75D02D761733,
+	RuntimeUtilities_get_isAndroidOpenGL_mE41A09A4E4AE4545C75E6838F4D2EB58ECF0CBEC,
+	RuntimeUtilities_get_defaultHDRRenderTextureFormat_m5A7F7F512A227464CE206E167BEE2253CA3AB81F,
+	RuntimeUtilities_isFloatingPointFormat_mB39D112459A26588C3399CD4DF5412F5DB851BBB,
+	RuntimeUtilities_hasAlpha_m441A0B21BB036F4A3BF0DB0E8AF58D45EAACD97D,
+	RuntimeUtilities_Destroy_mFACBF0A88388BF2481DCF65832A811B0BA873FFB,
+	RuntimeUtilities_get_isLinearColorSpace_m1D106C8BE629AEB323D34C96816B2518699F2578,
+	RuntimeUtilities_IsResolvedDepthAvailable_mEABC85E56BBE0441A12E3F49916BC28013AA076A,
+	RuntimeUtilities_DestroyProfile_m97EDA1F03D597F78B1CD73B022D7B35FB656F2C7,
+	RuntimeUtilities_DestroyVolume_m313A0B7EE3542ED29B90A72394EA81A7077D4C38,
+	RuntimeUtilities_IsPostProcessingActive_m3A2D987EC710989F8EB49B2E5B62461068AE607B,
+	RuntimeUtilities_IsTemporalAntialiasingActive_m39EEECBF0E676A46108FDF37EFEC8951ADFF6A46,
+	NULL,
+	NULL,
+	RuntimeUtilities_Exp2_m9B6310836A239D1376BAAC7EB4082603F5834B0E,
+	RuntimeUtilities_GetJitteredPerspectiveProjectionMatrix_m0D997EC76CAA5CE3D381F17C798D0575847C1D3A,
+	RuntimeUtilities_GetJitteredOrthographicProjectionMatrix_mB97B8CD7C2D251DF19C5BB5C3394E8A31F885B13,
+	RuntimeUtilities_GenerateJitteredProjectionMatrixFromOriginal_mA84280675C3CBE08CD98DFCFD7EF70C155EF52C5,
+	RuntimeUtilities_GetAllAssemblyTypes_m3D6AD3153927DF17E88B4BF2A631472D0BCE8B87,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	RuntimeUtilities__cctor_m79937C569B2DD59623B1E2036A965699C6501C94,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	U3CU3Ec__cctor_mBECE476BF31EC12809FDABDAE7B3AB117FB5A0BF,
+	U3CU3Ec__ctor_m2BC17DAAA4D21C741B7E25F193024C940AB1F8F3,
+	U3CU3Ec_U3CGetAllAssemblyTypesU3Eb__90_0_m42BF0A67E4023EC15D9167C9A3B033E513D0E099,
+	NULL,
+	NULL,
+	NULL,
+	ShaderIDs__cctor_m9C46D8E05E8D4188836A87723CBCB359E14C8CBD,
+	Spline__ctor_mD644879C46B45FF62C7B6D65F536BC66A00890B3,
+	Spline_Cache_mC30B8B6D444CFFFD1677515BC60323612E5F799A,
+	Spline_Evaluate_m1460BA797E9037E0E124E23228F3740E554EDCAB,
+	Spline_Evaluate_m03A5DA5ED5DB3EF65549D7A34EA9BEF93002DB39,
+	Spline_GetHashCode_m0FBD6BFA0E4AEEC84B5CD48133F76658A687B59E,
+	TargetPool__ctor_m53BBB5D1522A6404B1F418DA26C491B0889222A3,
+	TargetPool_Get_mFD7A784E2BDD7B37E3F25B3C61CEF986665CC59C,
+	TargetPool_Get_m15FB87703C592304BBC6D92F2EFF5A192458F75A,
+	TargetPool_Reset_m446CF3DF6B8C18795EE04F60EC7091DCF5C2DC11,
+	TextureFormatUtilities__cctor_m62691A726B8793932D87E5E0049A3220D9D2AD2E,
+	TextureFormatUtilities_IsObsolete_m0D83C3AEA2A6B680C34266EAC453678EECB87EDC,
+	TextureFormatUtilities_GetUncompressedRenderTextureFormat_mA9DD8DE489A31097C86EAB22E736EF837C243473,
+	TextureFormatUtilities_IsSupported_mBEAA34D83680E03E11B2951EE0276C0DD8F28EE1,
+	TextureFormatUtilities_IsSupported_m7E56F1F567F73A9147B94EBCF846FF9DA9A7931D,
+	TextureLerper_get_instance_m0AB68B6199F15DE585DA84890EFFBEA18C0C9135,
+	TextureLerper__ctor_m74C29B82F5BDDEE941798B3451F5CAC949786403,
+	TextureLerper_BeginFrame_mCF5241E01ADD975AE44EEB2BAF8F8392DE25D2D4,
+	TextureLerper_EndFrame_mE08975C8094A7C272C77F81234C060A5B7D04CDE,
+	TextureLerper_Get_m7BD996F475523844239018F193F65A66ED0DC2C8,
+	TextureLerper_Lerp_mCA914BD184BAC500B67975AB1259C3CB53AFF517,
+	TextureLerper_Lerp_mE50D3C8F764C051E06B7D02A7AA434BA89E948B6,
+	TextureLerper_Clear_m623E91726AE717C516B15A778FB79906A268F205,
 };
-extern void PostProcessEventComparer_Equals_m2166068BCF36DB77A9E738FC50C0A77AC8C4C96D_AdjustorThunk (void);
-extern void PostProcessEventComparer_GetHashCode_mDF3708FBF53C71BC1FA3024694AB19BD0553D45A_AdjustorThunk (void);
+extern void PostProcessEventComparer_Equals_mA9CD3A312BFBBD4298A84686C3E401C13715DC56_AdjustorThunk (void);
+extern void PostProcessEventComparer_GetHashCode_mD68272AD873202C39427019A58D5AC53BA2432AC_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] = 
 {
-	{ 0x06000120, PostProcessEventComparer_Equals_m2166068BCF36DB77A9E738FC50C0A77AC8C4C96D_AdjustorThunk },
-	{ 0x06000121, PostProcessEventComparer_GetHashCode_mDF3708FBF53C71BC1FA3024694AB19BD0553D45A_AdjustorThunk },
+	{ 0x06000120, PostProcessEventComparer_Equals_mA9CD3A312BFBBD4298A84686C3E401C13715DC56_AdjustorThunk },
+	{ 0x06000121, PostProcessEventComparer_GetHashCode_mD68272AD873202C39427019A58D5AC53BA2432AC_AdjustorThunk },
 };
 static const int32_t s_InvokerIndices[605] = 
 {
-	8551,
-	8625,
-	8625,
-	5048,
-	1944,
-	2676,
-	8493,
-	10532,
-	10532,
-	6215,
-	10532,
-	0,
-	0,
-	0,
-	0,
-	0,
-	10532,
-	6215,
-	10341,
+	6711,
+	6773,
+	6773,
+	4219,
+	1706,
+	2473,
+	6662,
+	8140,
+	8140,
+	5924,
+	8140,
+	7954,
+	6711,
+	6711,
+	6711,
+	8140,
+	8140,
+	5924,
+	8004,
+	7954,
+	8140,
+	8004,
+	8004,
+	6711,
+	8140,
+	8140,
+	5924,
+	8140,
+	8140,
+	3820,
+	6711,
+	8140,
+	5924,
+	8140,
+	8140,
+	6711,
+	8140,
+	5924,
+	8140,
+	6711,
+	8140,
+	8140,
+	8140,
+	8140,
+	5924,
+	8140,
+	6711,
+	6711,
+	6711,
+	6711,
+	6711,
+	8140,
+	8140,
+	5374,
+	13034,
+	13272,
+	13272,
+	8140,
+	8140,
+	8140,
+	5924,
+	8140,
+	8140,
+	7954,
+	2740,
+	6196,
+	1317,
+	6711,
+	8140,
+	6711,
+	8140,
+	8140,
+	7954,
+	5924,
+	6711,
+	8140,
+	5924,
+	8140,
+	6711,
+	7954,
+	8140,
+	8140,
+	5924,
+	8140,
+	6711,
+	8140,
+	5924,
+	8140,
+	7954,
+	734,
+	6711,
+	8140,
+	6711,
+	7954,
+	6711,
+	446,
+	446,
+	4131,
+	6296,
+	6198,
+	6280,
+	6287,
+	485,
+	2493,
+	1718,
+	449,
+	48,
+	6711,
+	6711,
+	6711,
+	6711,
+	6711,
+	6711,
+	6711,
+	8140,
+	6711,
+	7954,
+	6711,
+	2465,
+	6711,
+	6711,
+	6711,
+	8140,
+	8140,
+	8140,
+	5924,
+	8140,
+	7954,
+	684,
+	6711,
+	8140,
+	8140,
+	8140,
+	8065,
+	6711,
+	8140,
+	8130,
+	6828,
+	7954,
+	6662,
+	8065,
+	7954,
+	8140,
+	8130,
+	5283,
+	6711,
+	6711,
+	2447,
+	3034,
+	6711,
+	8140,
+	8140,
+	8140,
+	5924,
+	8140,
+	6711,
+	8140,
+	8140,
+	8065,
+	5924,
+	6711,
+	8140,
+	5924,
+	6711,
+	8140,
+	8004,
+	6711,
+	5924,
+	5924,
+	8065,
+	3820,
+	8140,
+	8140,
+	6711,
+	8140,
+	8140,
+	8065,
+	5924,
+	6711,
+	8140,
+	8140,
+	8065,
+	5924,
+	6711,
+	8140,
+	2475,
+	7954,
+	-1,
+	8140,
+	8140,
+	6711,
+	8140,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	2544,
+	8140,
+	2377,
+	8140,
+	8140,
+	2336,
+	13134,
+	8140,
+	2551,
+	13126,
+	13134,
+	8140,
+	2561,
+	13118,
+	13134,
+	8140,
+	2565,
+	13118,
+	13126,
+	8140,
+	8140,
+	6711,
+	2475,
+	8140,
+	2475,
+	8140,
+	8004,
+	6711,
+	8004,
+	6711,
+	8004,
+	6711,
+	8140,
+	8140,
+	-1,
+	-1,
+	8140,
+	8140,
+	8140,
+	8140,
+	8140,
+	8140,
+	8140,
+	2329,
+	8140,
+	8004,
+	6711,
+	8065,
+	6766,
+	7954,
+	6662,
+	8140,
+	8140,
+	8140,
+	6662,
+	6662,
+	3820,
+	1753,
+	7954,
+	6711,
+	6711,
+	8140,
+	8140,
+	8140,
+	8140,
+	7954,
+	8140,
+	8140,
+	6711,
+	6711,
+	8140,
+	-1,
+	-1,
+	-1,
+	-1,
+	8140,
+	8140,
+	4206,
+	5924,
+	7954,
+	8140,
+	5365,
+	13326,
+	8140,
+	5924,
+	4980,
+	3277,
+	4940,
+	8004,
+	6711,
+	7954,
+	6662,
+	8065,
+	6766,
+	8140,
+	8140,
+	8065,
+	4141,
+	6711,
+	8140,
+	4131,
+	8140,
+	8140,
+	8140,
+	8140,
+	12177,
+	681,
+	8140,
+	8140,
+	-1,
+	5365,
+	-1,
+	485,
+	4156,
+	6711,
+	8140,
+	5924,
+	3281,
+	6711,
+	4141,
+	6711,
+	6711,
+	966,
+	2469,
+	4141,
+	6711,
+	1114,
+	2444,
+	-1,
+	5924,
+	8140,
+	8140,
+	8140,
+	5637,
+	5924,
+	8140,
+	5924,
+	8140,
+	5924,
+	8140,
+	5924,
+	13326,
+	8140,
+	5326,
+	13285,
+	8140,
+	8140,
+	8140,
+	1748,
+	5365,
+	5362,
+	1987,
+	6662,
+	2444,
+	4131,
+	6711,
+	4131,
+	6711,
+	6711,
+	4141,
+	5362,
+	13152,
+	12177,
+	13326,
+	8140,
+	5924,
+	8140,
+	-1,
+	5365,
+	5365,
+	-1,
+	6711,
+	-1,
+	5924,
+	-1,
+	-1,
+	8140,
+	13326,
+	8140,
+	5924,
+	8004,
+	6711,
+	8004,
+	6711,
+	8052,
+	6756,
+	8052,
+	6756,
+	7954,
+	6662,
+	8065,
+	6766,
+	8004,
+	6711,
+	8004,
+	6711,
+	8004,
+	6711,
+	8004,
+	6711,
+	7954,
+	6662,
+	7954,
+	6662,
+	8065,
+	6766,
+	7954,
+	6662,
+	7954,
+	6662,
+	7954,
+	6662,
+	7954,
+	6662,
+	7954,
+	6662,
+	8065,
+	6766,
+	7954,
+	6662,
+	8004,
+	6711,
+	8140,
+	8065,
+	5879,
+	1753,
+	2164,
+	152,
+	556,
+	2529,
+	8140,
+	8140,
+	8004,
+	8140,
+	8004,
+	8140,
+	8140,
+	8004,
+	6711,
+	8004,
+	8065,
+	7954,
+	8140,
+	8140,
+	8140,
+	8140,
+	8140,
+	13089,
+	12308,
+	12308,
+	13131,
+	13131,
+	13131,
+	13089,
+	13089,
+	12736,
+	12648,
+	8073,
+	6773,
+	8073,
+	6773,
+	8073,
+	6773,
+	8073,
+	6773,
+	8140,
+	6200,
+	509,
+	6889,
+	682,
+	410,
+	1579,
+	6200,
+	8140,
+	6711,
+	8137,
+	8137,
+	8137,
+	8137,
+	8137,
+	8137,
+	8137,
+	12244,
+	8004,
+	6711,
+	6711,
+	6296,
+	8140,
+	8140,
+	13326,
+	12913,
+	12909,
+	12909,
+	11990,
+	8004,
+	6711,
+	8004,
+	6711,
+	6711,
+	8140,
+	6711,
+	6711,
+	8140,
+	8140,
+	5365,
+	5365,
+	8140,
+	13285,
+	13285,
+	13285,
+	13285,
+	13285,
+	13285,
+	12909,
+	13285,
+	13285,
+	13285,
+	13285,
+	13285,
+	13285,
+	13285,
+	13308,
+	13152,
+	10962,
+	9636,
+	9273,
+	9638,
+	8971,
+	8972,
+	9637,
+	9637,
+	9274,
+	9274,
+	8973,
+	8970,
+	11634,
 	10280,
-	10532,
-	10341,
-	10341,
-	8551,
-	10532,
-	10532,
-	6215,
-	10532,
-	10532,
-	4536,
-	8551,
-	10532,
-	6215,
-	10532,
-	10532,
-	8551,
-	10532,
-	6215,
-	10532,
-	8551,
-	10532,
-	10532,
-	10532,
-	10532,
-	6215,
-	10532,
-	8551,
-	8551,
-	8551,
-	8551,
-	8551,
-	10532,
-	10532,
-	7583,
-	15129,
-	15965,
-	15965,
-	10532,
-	10532,
-	10532,
-	6215,
-	10532,
-	10532,
-	10280,
-	3555,
-	7780,
-	1654,
-	8551,
-	10532,
-	8551,
-	10532,
-	10532,
-	10280,
-	6215,
-	8551,
-	10532,
-	6215,
-	10532,
-	8551,
-	10280,
-	10532,
-	10532,
-	6215,
-	10532,
-	8551,
-	10532,
-	6215,
-	10532,
-	10280,
-	973,
-	8551,
-	10532,
-	8551,
-	10280,
-	8551,
-	438,
-	438,
-	4942,
-	7939,
-	7782,
-	7920,
-	7928,
-	468,
-	2634,
-	1959,
-	442,
-	36,
-	8551,
-	8551,
-	8551,
-	8551,
-	8551,
-	8551,
-	8551,
-	10532,
-	8551,
-	10280,
-	8551,
-	2679,
-	8551,
-	8551,
-	8551,
-	10532,
-	10532,
-	10532,
-	6215,
-	10532,
-	10280,
-	897,
-	8551,
-	10532,
-	10532,
-	10532,
-	10177,
-	8551,
-	10532,
-	10516,
-	8708,
-	10280,
-	8493,
-	10177,
-	10280,
-	10532,
-	10516,
-	7520,
-	8551,
-	8551,
-	2652,
-	3937,
-	8551,
-	10532,
-	10532,
-	10532,
-	6215,
-	10532,
-	8551,
-	10532,
-	10532,
-	10177,
-	6215,
-	8551,
-	10532,
-	6215,
-	8551,
-	10532,
-	10341,
-	8551,
-	6215,
-	0,
-	10177,
-	4536,
-	10532,
-	10532,
-	0,
-	10532,
-	10532,
-	10177,
-	6215,
-	8551,
-	10532,
-	10532,
-	10177,
-	6215,
-	8551,
-	10532,
-	0,
-	0,
-	0,
-	10532,
-	10532,
-	0,
-	10532,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	2741,
-	10532,
-	2562,
-	10532,
-	10532,
-	2497,
-	15761,
-	10532,
-	2762,
-	15753,
-	15761,
-	10532,
-	2774,
-	15745,
-	15761,
-	10532,
-	2778,
-	15745,
-	15753,
-	10532,
-	10532,
-	8551,
-	2687,
-	10532,
-	2687,
-	10532,
-	10341,
-	8551,
-	10341,
-	8551,
-	10341,
-	8551,
-	10532,
-	10532,
-	0,
-	0,
-	10532,
-	10532,
-	10532,
-	10532,
-	10532,
-	10532,
-	10532,
-	2474,
-	10532,
-	10341,
-	8551,
-	10177,
-	8390,
-	10280,
-	8493,
-	10532,
-	10532,
-	10532,
-	8493,
-	8493,
-	4536,
-	1997,
-	10280,
-	8551,
-	8551,
-	10532,
-	10532,
-	10532,
-	10532,
-	10280,
-	10532,
-	10532,
-	0,
-	0,
-	10532,
-	0,
-	0,
-	0,
-	0,
-	10532,
-	10532,
-	4177,
-	6215,
-	10280,
-	10532,
-	7604,
-	16033,
-	10532,
-	6215,
-	7138,
-	3048,
-	7090,
-	10341,
-	8551,
-	10280,
-	8493,
-	10177,
-	8390,
-	10532,
-	10532,
-	10177,
-	4953,
-	8551,
-	10532,
-	4942,
-	10532,
-	10532,
-	10532,
-	10532,
-	13988,
-	895,
-	10532,
-	10532,
-	0,
-	7604,
-	0,
-	468,
-	4968,
-	8551,
-	10532,
-	6215,
-	3052,
-	8551,
-	4953,
-	8551,
-	8551,
-	1301,
-	2683,
-	4953,
-	8551,
-	1404,
-	2648,
-	0,
-	6215,
-	15129,
-	10532,
-	10532,
-	10532,
-	5845,
-	6215,
-	10532,
-	6215,
-	10532,
-	6215,
-	10532,
-	6215,
-	16033,
-	10532,
-	7571,
-	15979,
-	10532,
-	10532,
-	10532,
-	1964,
-	7604,
-	7601,
-	2306,
-	8493,
-	2648,
-	4942,
-	8551,
-	4942,
-	8551,
-	8551,
-	4953,
-	7601,
-	15783,
-	13988,
-	16033,
-	10532,
-	6215,
-	10532,
-	0,
-	7604,
-	7604,
-	0,
-	8551,
-	0,
-	6215,
-	0,
-	0,
-	10532,
-	16033,
-	10532,
-	6215,
-	10341,
-	8551,
-	10341,
-	8551,
-	10397,
-	8602,
-	10397,
-	8602,
-	10280,
-	8493,
-	10177,
-	8390,
-	10341,
-	8551,
-	10341,
-	8551,
-	10341,
-	8551,
-	10341,
-	8551,
-	10280,
-	8493,
-	10280,
-	8493,
-	10177,
-	8390,
-	10280,
-	8493,
-	10280,
-	8493,
-	10280,
-	8493,
-	10280,
-	8493,
-	10280,
-	8493,
-	10177,
-	8390,
-	10280,
-	8493,
-	10341,
-	8551,
-	10532,
-	10177,
-	6161,
-	1997,
-	2383,
-	158,
-	810,
-	2483,
-	10532,
-	10532,
-	10341,
-	10532,
-	10341,
-	10532,
-	10532,
-	10341,
-	8551,
-	10341,
-	10177,
-	10280,
-	10532,
-	10532,
-	10532,
-	10532,
-	10532,
-	15644,
-	14598,
-	14598,
-	15758,
-	15758,
-	15758,
-	15644,
-	15644,
-	15706,
-	15162,
-	10424,
-	8625,
-	10424,
-	8625,
-	10424,
-	8625,
-	10424,
-	8625,
-	10532,
-	7783,
-	486,
-	8800,
-	896,
-	397,
-	1739,
-	7783,
-	10532,
-	8551,
-	10523,
-	10523,
-	10523,
-	10523,
-	10523,
-	10523,
-	10523,
-	14502,
-	10341,
-	8551,
-	8551,
-	7939,
-	10532,
-	10532,
-	16033,
-	15463,
-	15459,
-	15459,
-	14390,
-	10341,
-	8551,
-	10341,
-	8551,
-	8551,
-	10532,
-	8551,
-	8551,
-	10532,
-	10532,
-	7604,
-	7604,
-	10532,
-	15979,
-	15979,
-	15979,
-	15979,
-	15979,
-	15979,
-	15459,
-	15979,
-	15979,
-	15979,
-	15979,
-	15979,
-	15979,
-	15979,
-	15937,
-	15783,
-	12839,
-	11380,
-	11160,
-	11381,
-	11004,
-	11003,
-	11382,
-	11382,
-	11161,
-	11161,
-	11005,
-	11002,
-	13725,
-	12121,
-	13725,
-	15937,
-	15937,
-	15937,
-	15937,
-	15937,
-	15937,
-	15965,
-	15129,
-	15783,
-	15937,
-	15135,
-	14806,
-	13683,
-	15135,
-	15135,
-	0,
-	0,
-	15644,
-	14323,
-	14323,
-	13231,
-	15979,
-	0,
-	0,
-	0,
-	0,
-	16033,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	16033,
-	10532,
-	7604,
-	0,
-	0,
-	0,
-	16033,
-	1999,
-	8493,
-	4036,
-	7783,
-	10280,
-	10532,
-	10280,
-	7090,
-	10532,
-	16033,
-	15135,
-	15284,
-	15129,
-	15129,
-	15979,
-	10532,
-	8551,
-	10532,
-	343,
-	2339,
-	2323,
-	10532,
+	11634,
+	13308,
+	13308,
+	13308,
+	13308,
+	13308,
+	13308,
+	13272,
+	13034,
+	13034,
+	13152,
+	13308,
+	13040,
+	12455,
+	11636,
+	13040,
+	13040,
+	-1,
+	-1,
+	13089,
+	11925,
+	11925,
+	11183,
+	13285,
+	-1,
+	-1,
+	-1,
+	-1,
+	13326,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	13326,
+	8140,
+	5365,
+	-1,
+	-1,
+	-1,
+	13326,
+	1769,
+	6662,
+	3506,
+	6200,
+	7954,
+	8140,
+	7954,
+	4940,
+	8140,
+	13326,
+	13040,
+	12753,
+	13034,
+	13034,
+	13285,
+	8140,
+	6711,
+	8140,
+	327,
+	2030,
+	2014,
+	8140,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[19] = 
 {
-	{ 0x0200004E, { 1, 6 } },
-	{ 0x02000060, { 9, 2 } },
-	{ 0x02000084, { 30, 8 } },
-	{ 0x02000086, { 38, 4 } },
+	{ 0x0200004E, { 1, 4 } },
+	{ 0x02000060, { 7, 2 } },
+	{ 0x02000084, { 28, 8 } },
+	{ 0x02000086, { 36, 4 } },
 	{ 0x060000BC, { 0, 1 } },
-	{ 0x060000EC, { 7, 1 } },
-	{ 0x060000ED, { 8, 1 } },
-	{ 0x06000137, { 11, 1 } },
-	{ 0x06000139, { 12, 2 } },
-	{ 0x0600014A, { 14, 1 } },
-	{ 0x06000172, { 15, 2 } },
-	{ 0x06000175, { 17, 1 } },
-	{ 0x06000177, { 18, 1 } },
-	{ 0x06000179, { 19, 1 } },
-	{ 0x0600017A, { 20, 2 } },
-	{ 0x0600022C, { 22, 2 } },
-	{ 0x0600022D, { 24, 2 } },
-	{ 0x06000233, { 26, 2 } },
-	{ 0x06000234, { 28, 2 } },
+	{ 0x060000EC, { 5, 1 } },
+	{ 0x060000ED, { 6, 1 } },
+	{ 0x06000137, { 9, 1 } },
+	{ 0x06000139, { 10, 2 } },
+	{ 0x0600014A, { 12, 1 } },
+	{ 0x06000171, { 13, 2 } },
+	{ 0x06000174, { 15, 1 } },
+	{ 0x06000176, { 16, 1 } },
+	{ 0x06000178, { 17, 1 } },
+	{ 0x06000179, { 18, 2 } },
+	{ 0x0600022C, { 20, 2 } },
+	{ 0x0600022D, { 22, 2 } },
+	{ 0x06000233, { 24, 2 } },
+	{ 0x06000234, { 26, 2 } },
 };
-extern const uint32_t g_rgctx_ParameterOverride_1_t851F8FAF457076A957D8F469496E581551BF3458;
-extern const uint32_t g_rgctx_ParameterOverride_1__ctor_m3B4D09AAAE3E4FD2B423C485B4512CD2DC308FB0;
-extern const uint32_t g_rgctx_ParameterOverride_GetValue_TisT_t4B99FE542949CF1BDC32D0D3ADC6E46FC8694246_m136547529B242865D367D70F7562E55C63AA74ED;
-extern const uint32_t g_rgctx_ParameterOverride_1_t800539A2FDED702BFAF17DFE5D09357F5BB34C3E;
-extern const uint32_t g_rgctx_ParameterOverride_1_Interp_m094F7E2AAFED335EF632649D3DF59B1AF40493D3;
-extern const uint32_t g_rgctx_T_t4B99FE542949CF1BDC32D0D3ADC6E46FC8694246;
-extern const Il2CppRGCTXConstrainedData g_rgctx_T_t4B99FE542949CF1BDC32D0D3ADC6E46FC8694246_Object_GetHashCode_m372C5A7AB16CAC13307C11C4256D706CE57E090C;
-extern const uint32_t g_rgctx_T_t58ACEC224C010C0E8AADBC708F0A3297086214E4;
-extern const uint32_t g_rgctx_T_t6BD2B403215AF6A0B06B042F56B27821CBB492BF;
-extern const uint32_t g_rgctx_T_t3EFA4867E2D9B672F2AFA9715F65189CEDCFAB0B;
-extern const uint32_t g_rgctx_PostProcessEffectRenderer_1_set_settings_mC5CC2F0B6BE390DBD5B0609B030DE066AD4EAA23;
-extern const uint32_t g_rgctx_T_t0CEC14A755E76AFCB00B7328A16C9C661B4890C4;
-extern const uint32_t g_rgctx_PostProcessLayer_GetBundle_TisT_t0D4730ECF1763E33275FBDE9311686C2D9F37E89_m1826B43E3B5EB5CC75C500A9CC1B75A47C1FDA9B;
-extern const uint32_t g_rgctx_PostProcessBundle_CastSettings_TisT_t0D4730ECF1763E33275FBDE9311686C2D9F37E89_m4D96FA7799EC8A98E5E493DF5CFFAFBAB6A2156F;
-extern const uint32_t g_rgctx_PostProcessLayer_GetBundle_TisT_t1865F64A2B3C97F55C1CC446C763BD79EA49A22B_mB893F5E792A969CDC14E4FAF2F119F15048289BA;
-extern const uint32_t g_rgctx_T_t518029E80EB5D00BCBF9BDFF6346F8FAC1ACE593;
-extern const uint32_t g_rgctx_T_t518029E80EB5D00BCBF9BDFF6346F8FAC1ACE593;
-extern const uint32_t g_rgctx_T_tA42B7E1F723DBE344EA078A143186AC86F610E5A;
-extern const uint32_t g_rgctx_T_tF2245FFC9693AAF3CA16C500BE68C591FB4343CB;
-extern const uint32_t g_rgctx_T_t83F02F123608421C5DA113BD09FC8C139A733E32;
-extern const uint32_t g_rgctx_T_t62E6F4001A4FF2B8FF118F1EE056A17BEB756505;
-extern const uint32_t g_rgctx_T_t62E6F4001A4FF2B8FF118F1EE056A17BEB756505;
-extern const uint32_t g_rgctx_U3CGetAllSceneObjectsU3Ed__82_1_t6AA920F1A2DE7FFB91164B506E43C7709D7BFB04;
-extern const uint32_t g_rgctx_U3CGetAllSceneObjectsU3Ed__82_1__ctor_m73809068B471B1A376E3C980279522FE84F66DE8;
-extern const uint32_t g_rgctx_T_t99B51B31C8A2679012BD5C6EEDFA0247B38CB569;
-extern const uint32_t g_rgctx_Activator_CreateInstance_TisT_t99B51B31C8A2679012BD5C6EEDFA0247B38CB569_mAA49EA4D842D06C393A3C390474A55B1B42175A8;
-extern const uint32_t g_rgctx_U3CU3Ec__90_1_t91F316270565B20FB9AABDC5F19A2DE97A48C4ED;
-extern const uint32_t g_rgctx_U3CU3Ec__90_1_U3CGetAllTypesDerivedFromU3Eb__90_0_mA683B29EE7973EF717DD1AFE763B9B12D8F73E88;
-extern const uint32_t g_rgctx_T_t793657BEE4F07744BB7610A77EFC2484FD34B056;
-extern const uint32_t g_rgctx_T_t793657BEE4F07744BB7610A77EFC2484FD34B056;
-extern const uint32_t g_rgctx_U3CGetAllSceneObjectsU3Ed__82_1_U3CU3Em__Finally1_m1D824A61094AB68C50C3A01288C2C7FCB783ECD2;
-extern const uint32_t g_rgctx_GameObject_GetComponent_TisT_t6588896D60CB4B762A5FB1814F67D7204CA9087B_mA2A9741F12D85C22013032043B82788A2D0A52D0;
-extern const uint32_t g_rgctx_T_t6588896D60CB4B762A5FB1814F67D7204CA9087B;
-extern const uint32_t g_rgctx_Component_GetComponent_TisT_t6588896D60CB4B762A5FB1814F67D7204CA9087B_m079113B0F7EDB214537A341D7504EDFA85C2305F;
-extern const uint32_t g_rgctx_U3CGetAllSceneObjectsU3Ed__82_1_System_IDisposable_Dispose_mD60C18FA18E7F81887F27B86C31A2AC920617889;
-extern const uint32_t g_rgctx_U3CGetAllSceneObjectsU3Ed__82_1_t16B71B3A74D11C2EC793AAB9341AF03A4BF102F5;
-extern const uint32_t g_rgctx_U3CGetAllSceneObjectsU3Ed__82_1__ctor_mF4109BC5C47A0181C90F38FB32B0867C26A039B7;
-extern const uint32_t g_rgctx_U3CGetAllSceneObjectsU3Ed__82_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m4E176D4E1F49B0D7D2F0EC277D025A8724264854;
-extern const uint32_t g_rgctx_U3CU3Ec__90_1_tF949EBCE8995E5B4F26EBF4C9EF1BF8F3938FFFA;
-extern const uint32_t g_rgctx_U3CU3Ec__90_1__ctor_mB259F35A86A0D748599C0AF2BFA61C417B861D23;
-extern const uint32_t g_rgctx_U3CU3Ec__90_1_tF949EBCE8995E5B4F26EBF4C9EF1BF8F3938FFFA;
-extern const uint32_t g_rgctx_T_t5643A2683E7DEA8760862EBCBE564AF88A7CE29A;
-static const Il2CppRGCTXDefinition s_rgctxValues[42] = 
+static const Il2CppRGCTXDefinition s_rgctxValues[40] = 
 {
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_ParameterOverride_1_t851F8FAF457076A957D8F469496E581551BF3458 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ParameterOverride_1__ctor_m3B4D09AAAE3E4FD2B423C485B4512CD2DC308FB0 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ParameterOverride_GetValue_TisT_t4B99FE542949CF1BDC32D0D3ADC6E46FC8694246_m136547529B242865D367D70F7562E55C63AA74ED },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_ParameterOverride_1_t800539A2FDED702BFAF17DFE5D09357F5BB34C3E },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ParameterOverride_1_Interp_m094F7E2AAFED335EF632649D3DF59B1AF40493D3 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t4B99FE542949CF1BDC32D0D3ADC6E46FC8694246 },
-	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_T_t4B99FE542949CF1BDC32D0D3ADC6E46FC8694246_Object_GetHashCode_m372C5A7AB16CAC13307C11C4256D706CE57E090C },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t58ACEC224C010C0E8AADBC708F0A3297086214E4 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t6BD2B403215AF6A0B06B042F56B27821CBB492BF },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t3EFA4867E2D9B672F2AFA9715F65189CEDCFAB0B },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_PostProcessEffectRenderer_1_set_settings_mC5CC2F0B6BE390DBD5B0609B030DE066AD4EAA23 },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t0CEC14A755E76AFCB00B7328A16C9C661B4890C4 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_PostProcessLayer_GetBundle_TisT_t0D4730ECF1763E33275FBDE9311686C2D9F37E89_m1826B43E3B5EB5CC75C500A9CC1B75A47C1FDA9B },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_PostProcessBundle_CastSettings_TisT_t0D4730ECF1763E33275FBDE9311686C2D9F37E89_m4D96FA7799EC8A98E5E493DF5CFFAFBAB6A2156F },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_PostProcessLayer_GetBundle_TisT_t1865F64A2B3C97F55C1CC446C763BD79EA49A22B_mB893F5E792A969CDC14E4FAF2F119F15048289BA },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t518029E80EB5D00BCBF9BDFF6346F8FAC1ACE593 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t518029E80EB5D00BCBF9BDFF6346F8FAC1ACE593 },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_tA42B7E1F723DBE344EA078A143186AC86F610E5A },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_tF2245FFC9693AAF3CA16C500BE68C591FB4343CB },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t83F02F123608421C5DA113BD09FC8C139A733E32 },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t62E6F4001A4FF2B8FF118F1EE056A17BEB756505 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t62E6F4001A4FF2B8FF118F1EE056A17BEB756505 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetAllSceneObjectsU3Ed__82_1_t6AA920F1A2DE7FFB91164B506E43C7709D7BFB04 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CGetAllSceneObjectsU3Ed__82_1__ctor_m73809068B471B1A376E3C980279522FE84F66DE8 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t99B51B31C8A2679012BD5C6EEDFA0247B38CB569 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Activator_CreateInstance_TisT_t99B51B31C8A2679012BD5C6EEDFA0247B38CB569_mAA49EA4D842D06C393A3C390474A55B1B42175A8 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__90_1_t91F316270565B20FB9AABDC5F19A2DE97A48C4ED },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__90_1_U3CGetAllTypesDerivedFromU3Eb__90_0_mA683B29EE7973EF717DD1AFE763B9B12D8F73E88 },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t793657BEE4F07744BB7610A77EFC2484FD34B056 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t793657BEE4F07744BB7610A77EFC2484FD34B056 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CGetAllSceneObjectsU3Ed__82_1_U3CU3Em__Finally1_m1D824A61094AB68C50C3A01288C2C7FCB783ECD2 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_GameObject_GetComponent_TisT_t6588896D60CB4B762A5FB1814F67D7204CA9087B_mA2A9741F12D85C22013032043B82788A2D0A52D0 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t6588896D60CB4B762A5FB1814F67D7204CA9087B },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Component_GetComponent_TisT_t6588896D60CB4B762A5FB1814F67D7204CA9087B_m079113B0F7EDB214537A341D7504EDFA85C2305F },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CGetAllSceneObjectsU3Ed__82_1_System_IDisposable_Dispose_mD60C18FA18E7F81887F27B86C31A2AC920617889 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetAllSceneObjectsU3Ed__82_1_t16B71B3A74D11C2EC793AAB9341AF03A4BF102F5 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CGetAllSceneObjectsU3Ed__82_1__ctor_mF4109BC5C47A0181C90F38FB32B0867C26A039B7 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CGetAllSceneObjectsU3Ed__82_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m4E176D4E1F49B0D7D2F0EC277D025A8724264854 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__90_1_tF949EBCE8995E5B4F26EBF4C9EF1BF8F3938FFFA },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__90_1__ctor_mB259F35A86A0D748599C0AF2BFA61C417B861D23 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__90_1_tF949EBCE8995E5B4F26EBF4C9EF1BF8F3938FFFA },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t5643A2683E7DEA8760862EBCBE564AF88A7CE29A },
+	{ (Il2CppRGCTXDataType)2, 22574 },
+	{ (Il2CppRGCTXDataType)3, 66016 },
+	{ (Il2CppRGCTXDataType)3, 96379 },
+	{ (Il2CppRGCTXDataType)3, 66017 },
+	{ (Il2CppRGCTXDataType)2, 1953 },
+	{ (Il2CppRGCTXDataType)2, 1003 },
+	{ (Il2CppRGCTXDataType)2, 1002 },
+	{ (Il2CppRGCTXDataType)2, 1959 },
+	{ (Il2CppRGCTXDataType)3, 66183 },
+	{ (Il2CppRGCTXDataType)1, 1006 },
+	{ (Il2CppRGCTXDataType)3, 96509 },
+	{ (Il2CppRGCTXDataType)3, 96505 },
+	{ (Il2CppRGCTXDataType)3, 96508 },
+	{ (Il2CppRGCTXDataType)1, 1010 },
+	{ (Il2CppRGCTXDataType)2, 1010 },
+	{ (Il2CppRGCTXDataType)1, 1009 },
+	{ (Il2CppRGCTXDataType)1, 1007 },
+	{ (Il2CppRGCTXDataType)2, 1011 },
+	{ (Il2CppRGCTXDataType)1, 1008 },
+	{ (Il2CppRGCTXDataType)2, 1008 },
+	{ (Il2CppRGCTXDataType)2, 4804 },
+	{ (Il2CppRGCTXDataType)3, 1558 },
+	{ (Il2CppRGCTXDataType)2, 1066 },
+	{ (Il2CppRGCTXDataType)3, 85339 },
+	{ (Il2CppRGCTXDataType)2, 4595 },
+	{ (Il2CppRGCTXDataType)3, 445 },
+	{ (Il2CppRGCTXDataType)1, 1067 },
+	{ (Il2CppRGCTXDataType)2, 1067 },
+	{ (Il2CppRGCTXDataType)3, 1560 },
+	{ (Il2CppRGCTXDataType)3, 94261 },
+	{ (Il2CppRGCTXDataType)2, 2562 },
+	{ (Il2CppRGCTXDataType)3, 92876 },
+	{ (Il2CppRGCTXDataType)3, 1562 },
+	{ (Il2CppRGCTXDataType)2, 4805 },
+	{ (Il2CppRGCTXDataType)3, 1559 },
+	{ (Il2CppRGCTXDataType)3, 1561 },
+	{ (Il2CppRGCTXDataType)2, 4596 },
+	{ (Il2CppRGCTXDataType)3, 446 },
+	{ (Il2CppRGCTXDataType)2, 4596 },
+	{ (Il2CppRGCTXDataType)1, 2561 },
 };
+extern const CustomAttributesCacheGenerator g_Unity_Postprocessing_Runtime_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Postprocessing_Runtime_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_Postprocessing_Runtime_CodeGenModule = 
 {
@@ -2513,9 +2470,10 @@ const Il2CppCodeGenModule g_Unity_Postprocessing_Runtime_CodeGenModule =
 	NULL,
 	19,
 	s_rgctxIndices,
-	42,
+	40,
 	s_rgctxValues,
 	NULL,
+	g_Unity_Postprocessing_Runtime_AttributeGenerators,
 	NULL, // module initializer,
 	NULL,
 	NULL,

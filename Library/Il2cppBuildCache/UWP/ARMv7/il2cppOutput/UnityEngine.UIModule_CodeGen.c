@@ -23,142 +23,142 @@ extern void CanvasGroup_get_interactable_mE5EE5E3AFEAD06D18E15A91C0A0E706D9FE40F
 extern void CanvasGroup_set_interactable_m86928BB0894EF3F06BC7BE63594272FBA0DAC757 (void);
 // 0x00000006 System.Boolean UnityEngine.CanvasGroup::get_blocksRaycasts()
 extern void CanvasGroup_get_blocksRaycasts_mFEC4D16E66CD2480692CC66CF79FCA06DBF0307C (void);
-// 0x00000007 System.Boolean UnityEngine.CanvasGroup::get_ignoreParentGroups()
+// 0x00000007 System.Void UnityEngine.CanvasGroup::set_blocksRaycasts(System.Boolean)
+extern void CanvasGroup_set_blocksRaycasts_m6C17F35782D16AE3FC42FCD1A4D68E1C4A4776E0 (void);
+// 0x00000008 System.Boolean UnityEngine.CanvasGroup::get_ignoreParentGroups()
 extern void CanvasGroup_get_ignoreParentGroups_m2F38E053B86FD01735C2DA2047E197C0B8654361 (void);
-// 0x00000008 System.Boolean UnityEngine.CanvasGroup::IsRaycastLocationValid(UnityEngine.Vector2,UnityEngine.Camera)
+// 0x00000009 System.Boolean UnityEngine.CanvasGroup::IsRaycastLocationValid(UnityEngine.Vector2,UnityEngine.Camera)
 extern void CanvasGroup_IsRaycastLocationValid_m3B745747F3BF9BAC4EFB9F76F02DE3219D8D54D1 (void);
-// 0x00000009 System.Void UnityEngine.CanvasRenderer::set_hasPopInstruction(System.Boolean)
+// 0x0000000A System.Void UnityEngine.CanvasRenderer::set_hasPopInstruction(System.Boolean)
 extern void CanvasRenderer_set_hasPopInstruction_mDE56514A0B57434BCE041751AC7D889E9E0BD3FD (void);
-// 0x0000000A System.Int32 UnityEngine.CanvasRenderer::get_materialCount()
+// 0x0000000B System.Int32 UnityEngine.CanvasRenderer::get_materialCount()
 extern void CanvasRenderer_get_materialCount_mC1D89124EFE51534C3A43577FFA54117DA7083B9 (void);
-// 0x0000000B System.Void UnityEngine.CanvasRenderer::set_materialCount(System.Int32)
+// 0x0000000C System.Void UnityEngine.CanvasRenderer::set_materialCount(System.Int32)
 extern void CanvasRenderer_set_materialCount_m333926C78CD98557B86A8EAC66F47BD4DD4554C3 (void);
-// 0x0000000C System.Void UnityEngine.CanvasRenderer::set_popMaterialCount(System.Int32)
+// 0x0000000D System.Void UnityEngine.CanvasRenderer::set_popMaterialCount(System.Int32)
 extern void CanvasRenderer_set_popMaterialCount_m050FF45A10F54F403BBC43AB7C3D919627922A50 (void);
-// 0x0000000D System.Int32 UnityEngine.CanvasRenderer::get_absoluteDepth()
+// 0x0000000E System.Int32 UnityEngine.CanvasRenderer::get_absoluteDepth()
 extern void CanvasRenderer_get_absoluteDepth_m1B5551330C58C020463F56DF65C40A49AEABFED5 (void);
-// 0x0000000E System.Boolean UnityEngine.CanvasRenderer::get_hasMoved()
+// 0x0000000F System.Boolean UnityEngine.CanvasRenderer::get_hasMoved()
 extern void CanvasRenderer_get_hasMoved_mB87D3AF4E79897CCB8C48A9287093A8E3012362A (void);
-// 0x0000000F System.Boolean UnityEngine.CanvasRenderer::get_cullTransparentMesh()
+// 0x00000010 System.Boolean UnityEngine.CanvasRenderer::get_cullTransparentMesh()
 extern void CanvasRenderer_get_cullTransparentMesh_m116BB768D49AC0068E6861A8F7F1A52A0DC5DC7C (void);
-// 0x00000010 System.Void UnityEngine.CanvasRenderer::set_cullTransparentMesh(System.Boolean)
+// 0x00000011 System.Void UnityEngine.CanvasRenderer::set_cullTransparentMesh(System.Boolean)
 extern void CanvasRenderer_set_cullTransparentMesh_m72093B655EFCCF35FE50C60258F0B1440BFD04BE (void);
-// 0x00000011 System.Boolean UnityEngine.CanvasRenderer::get_cull()
+// 0x00000012 System.Boolean UnityEngine.CanvasRenderer::get_cull()
 extern void CanvasRenderer_get_cull_m48007D7CB40B3C0EC29F0CB316AFAC88748EF3D7 (void);
-// 0x00000012 System.Void UnityEngine.CanvasRenderer::set_cull(System.Boolean)
+// 0x00000013 System.Void UnityEngine.CanvasRenderer::set_cull(System.Boolean)
 extern void CanvasRenderer_set_cull_mA2A521F41185511CCFF6E2BFCD7B68B1DE3C0D9D (void);
-// 0x00000013 System.Void UnityEngine.CanvasRenderer::SetColor(UnityEngine.Color)
+// 0x00000014 System.Void UnityEngine.CanvasRenderer::SetColor(UnityEngine.Color)
 extern void CanvasRenderer_SetColor_mA65CB97B7C6673C0EA7A42BED93D22DD127C7BFA (void);
-// 0x00000014 UnityEngine.Color UnityEngine.CanvasRenderer::GetColor()
+// 0x00000015 UnityEngine.Color UnityEngine.CanvasRenderer::GetColor()
 extern void CanvasRenderer_GetColor_m16A530AA6D0A6ACB5A6C1DDCC17D259DA856EC70 (void);
-// 0x00000015 System.Void UnityEngine.CanvasRenderer::EnableRectClipping(UnityEngine.Rect)
+// 0x00000016 System.Void UnityEngine.CanvasRenderer::EnableRectClipping(UnityEngine.Rect)
 extern void CanvasRenderer_EnableRectClipping_mEE0DE5F753BACD2917366469CBFA21894F26759E (void);
-// 0x00000016 System.Void UnityEngine.CanvasRenderer::set_clippingSoftness(UnityEngine.Vector2)
+// 0x00000017 System.Void UnityEngine.CanvasRenderer::set_clippingSoftness(UnityEngine.Vector2)
 extern void CanvasRenderer_set_clippingSoftness_m5727572B7D9CB6906BB4635F98FB5805675C823C (void);
-// 0x00000017 System.Void UnityEngine.CanvasRenderer::DisableRectClipping()
+// 0x00000018 System.Void UnityEngine.CanvasRenderer::DisableRectClipping()
 extern void CanvasRenderer_DisableRectClipping_mEAD0277DF092A2CF7D2D421336BCB5C8FC84600C (void);
-// 0x00000018 System.Void UnityEngine.CanvasRenderer::SetMaterial(UnityEngine.Material,System.Int32)
+// 0x00000019 System.Void UnityEngine.CanvasRenderer::SetMaterial(UnityEngine.Material,System.Int32)
 extern void CanvasRenderer_SetMaterial_mBB733E272FB6A5B30C3B24F557AF5ED9EAC5DBD7 (void);
-// 0x00000019 UnityEngine.Material UnityEngine.CanvasRenderer::GetMaterial(System.Int32)
+// 0x0000001A UnityEngine.Material UnityEngine.CanvasRenderer::GetMaterial(System.Int32)
 extern void CanvasRenderer_GetMaterial_mDA3246B02DDDE378C3E6DED6263F6D989B0982A9 (void);
-// 0x0000001A System.Void UnityEngine.CanvasRenderer::SetPopMaterial(UnityEngine.Material,System.Int32)
+// 0x0000001B System.Void UnityEngine.CanvasRenderer::SetPopMaterial(UnityEngine.Material,System.Int32)
 extern void CanvasRenderer_SetPopMaterial_m9CE3CD36F79C60B5BBB4A67D6A422756F2E3EF75 (void);
-// 0x0000001B System.Void UnityEngine.CanvasRenderer::SetTexture(UnityEngine.Texture)
+// 0x0000001C System.Void UnityEngine.CanvasRenderer::SetTexture(UnityEngine.Texture)
 extern void CanvasRenderer_SetTexture_m8A670DA4B435058550D64A1B16CAB8E421F45AAC (void);
-// 0x0000001C System.Void UnityEngine.CanvasRenderer::SetAlphaTexture(UnityEngine.Texture)
+// 0x0000001D System.Void UnityEngine.CanvasRenderer::SetAlphaTexture(UnityEngine.Texture)
 extern void CanvasRenderer_SetAlphaTexture_mB4EFE8A6962A88CA025D7A4DAB0CF76EED9AD5E3 (void);
-// 0x0000001D System.Void UnityEngine.CanvasRenderer::SetMesh(UnityEngine.Mesh)
+// 0x0000001E System.Void UnityEngine.CanvasRenderer::SetMesh(UnityEngine.Mesh)
 extern void CanvasRenderer_SetMesh_m1DF21BBC31233AC324BC08331BB542C619DC7543 (void);
-// 0x0000001E System.Void UnityEngine.CanvasRenderer::Clear()
+// 0x0000001F System.Void UnityEngine.CanvasRenderer::Clear()
 extern void CanvasRenderer_Clear_m496D522F1DBD1037417E470CF2D4D9FD22F68E81 (void);
-// 0x0000001F System.Void UnityEngine.CanvasRenderer::SetMaterial(UnityEngine.Material,UnityEngine.Texture)
+// 0x00000020 System.Void UnityEngine.CanvasRenderer::SetMaterial(UnityEngine.Material,UnityEngine.Texture)
 extern void CanvasRenderer_SetMaterial_m445BACF01EF1997CBFCBB79AB64E09AF39860196 (void);
-// 0x00000020 UnityEngine.Material UnityEngine.CanvasRenderer::GetMaterial()
+// 0x00000021 UnityEngine.Material UnityEngine.CanvasRenderer::GetMaterial()
 extern void CanvasRenderer_GetMaterial_m42376FD7C07D8E1700FC3627D1DCF1AECCC47A1C (void);
-// 0x00000021 System.Void UnityEngine.CanvasRenderer::SplitUIVertexStreams(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Color32>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<System.Int32>)
+// 0x00000022 System.Void UnityEngine.CanvasRenderer::SplitUIVertexStreams(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Color32>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<System.Int32>)
 extern void CanvasRenderer_SplitUIVertexStreams_mADBCA231F4372AB9CCBFC75A0868A0FC61D8E0E8 (void);
-// 0x00000022 System.Void UnityEngine.CanvasRenderer::CreateUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Color32>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<System.Int32>)
+// 0x00000023 System.Void UnityEngine.CanvasRenderer::CreateUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Color32>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<System.Int32>)
 extern void CanvasRenderer_CreateUIVertexStream_mBC3200DB0EEBD5F1767EFDEE4E56491391827845 (void);
-// 0x00000023 System.Void UnityEngine.CanvasRenderer::AddUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Color32>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector4>)
+// 0x00000024 System.Void UnityEngine.CanvasRenderer::AddUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Color32>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector4>)
 extern void CanvasRenderer_AddUIVertexStream_m5E69259D4C7B6D2BA7918DA95E624770C08AD36B (void);
-// 0x00000024 System.Void UnityEngine.CanvasRenderer::SplitIndicesStreamsInternal(System.Object,System.Object)
+// 0x00000025 System.Void UnityEngine.CanvasRenderer::SplitIndicesStreamsInternal(System.Object,System.Object)
 extern void CanvasRenderer_SplitIndicesStreamsInternal_mE668FCB68D8E72DED8DD76A7B279F1E8F9255E7E (void);
-// 0x00000025 System.Void UnityEngine.CanvasRenderer::SplitUIVertexStreamsInternal(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)
+// 0x00000026 System.Void UnityEngine.CanvasRenderer::SplitUIVertexStreamsInternal(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)
 extern void CanvasRenderer_SplitUIVertexStreamsInternal_mE412B745C0058864766658C150B8ADD827C7CF33 (void);
-// 0x00000026 System.Void UnityEngine.CanvasRenderer::CreateUIVertexStreamInternal(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)
+// 0x00000027 System.Void UnityEngine.CanvasRenderer::CreateUIVertexStreamInternal(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)
 extern void CanvasRenderer_CreateUIVertexStreamInternal_mC860BDE90ECE4DCAB3B9B1F11D50E9378B518914 (void);
-// 0x00000027 System.Void UnityEngine.CanvasRenderer::SetColor_Injected(UnityEngine.Color&)
+// 0x00000028 System.Void UnityEngine.CanvasRenderer::SetColor_Injected(UnityEngine.Color&)
 extern void CanvasRenderer_SetColor_Injected_m6B0B403517E37EC59E63BB8C7123D1C267666FF9 (void);
-// 0x00000028 System.Void UnityEngine.CanvasRenderer::GetColor_Injected(UnityEngine.Color&)
+// 0x00000029 System.Void UnityEngine.CanvasRenderer::GetColor_Injected(UnityEngine.Color&)
 extern void CanvasRenderer_GetColor_Injected_m2D453196FA486DEE106CE656D21D32A133ECBF62 (void);
-// 0x00000029 System.Void UnityEngine.CanvasRenderer::EnableRectClipping_Injected(UnityEngine.Rect&)
+// 0x0000002A System.Void UnityEngine.CanvasRenderer::EnableRectClipping_Injected(UnityEngine.Rect&)
 extern void CanvasRenderer_EnableRectClipping_Injected_m8B48D01DFAF55EA4FD654D3E7F21CB61BF367A43 (void);
-// 0x0000002A System.Void UnityEngine.CanvasRenderer::set_clippingSoftness_Injected(UnityEngine.Vector2&)
+// 0x0000002B System.Void UnityEngine.CanvasRenderer::set_clippingSoftness_Injected(UnityEngine.Vector2&)
 extern void CanvasRenderer_set_clippingSoftness_Injected_mF81E8D06D9399AA4067931F8D663D1F31657E6E6 (void);
-// 0x0000002B UnityEngine.Vector2 UnityEngine.RectTransformUtility::PixelAdjustPoint(UnityEngine.Vector2,UnityEngine.Transform,UnityEngine.Canvas)
+// 0x0000002C UnityEngine.Vector2 UnityEngine.RectTransformUtility::PixelAdjustPoint(UnityEngine.Vector2,UnityEngine.Transform,UnityEngine.Canvas)
 extern void RectTransformUtility_PixelAdjustPoint_mED6B7556040E1DA95321F6C8CC81E4E77A4FA23C (void);
-// 0x0000002C UnityEngine.Rect UnityEngine.RectTransformUtility::PixelAdjustRect(UnityEngine.RectTransform,UnityEngine.Canvas)
+// 0x0000002D UnityEngine.Rect UnityEngine.RectTransformUtility::PixelAdjustRect(UnityEngine.RectTransform,UnityEngine.Canvas)
 extern void RectTransformUtility_PixelAdjustRect_mCEF21C9C8B767E5E7BC5EC604D472E806F770053 (void);
-// 0x0000002D System.Boolean UnityEngine.RectTransformUtility::PointInRectangle(UnityEngine.Vector2,UnityEngine.RectTransform,UnityEngine.Camera,UnityEngine.Vector4)
+// 0x0000002E System.Boolean UnityEngine.RectTransformUtility::PointInRectangle(UnityEngine.Vector2,UnityEngine.RectTransform,UnityEngine.Camera,UnityEngine.Vector4)
 extern void RectTransformUtility_PointInRectangle_mAE1DBFE241C0C1B4A509477EEE37EEB2D3EC4A39 (void);
-// 0x0000002E System.Boolean UnityEngine.RectTransformUtility::RectangleContainsScreenPoint(UnityEngine.RectTransform,UnityEngine.Vector2,UnityEngine.Camera)
+// 0x0000002F System.Boolean UnityEngine.RectTransformUtility::RectangleContainsScreenPoint(UnityEngine.RectTransform,UnityEngine.Vector2,UnityEngine.Camera)
 extern void RectTransformUtility_RectangleContainsScreenPoint_mAD33D83F019F2E0C4BCE2D743175A042A233616A (void);
-// 0x0000002F System.Boolean UnityEngine.RectTransformUtility::RectangleContainsScreenPoint(UnityEngine.RectTransform,UnityEngine.Vector2,UnityEngine.Camera,UnityEngine.Vector4)
+// 0x00000030 System.Boolean UnityEngine.RectTransformUtility::RectangleContainsScreenPoint(UnityEngine.RectTransform,UnityEngine.Vector2,UnityEngine.Camera,UnityEngine.Vector4)
 extern void RectTransformUtility_RectangleContainsScreenPoint_mC881827F3FB3ED67FEF279D369CBDA71B9F68680 (void);
-// 0x00000030 System.Boolean UnityEngine.RectTransformUtility::ScreenPointToWorldPointInRectangle(UnityEngine.RectTransform,UnityEngine.Vector2,UnityEngine.Camera,UnityEngine.Vector3&)
+// 0x00000031 System.Boolean UnityEngine.RectTransformUtility::ScreenPointToWorldPointInRectangle(UnityEngine.RectTransform,UnityEngine.Vector2,UnityEngine.Camera,UnityEngine.Vector3&)
 extern void RectTransformUtility_ScreenPointToWorldPointInRectangle_mA37289182AEA7D89BA927C325F82980085D6A882 (void);
-// 0x00000031 System.Boolean UnityEngine.RectTransformUtility::ScreenPointToLocalPointInRectangle(UnityEngine.RectTransform,UnityEngine.Vector2,UnityEngine.Camera,UnityEngine.Vector2&)
+// 0x00000032 System.Boolean UnityEngine.RectTransformUtility::ScreenPointToLocalPointInRectangle(UnityEngine.RectTransform,UnityEngine.Vector2,UnityEngine.Camera,UnityEngine.Vector2&)
 extern void RectTransformUtility_ScreenPointToLocalPointInRectangle_m9E502D410F5B141117D263D4706C426EFA109DC0 (void);
-// 0x00000032 UnityEngine.Ray UnityEngine.RectTransformUtility::ScreenPointToRay(UnityEngine.Camera,UnityEngine.Vector2)
+// 0x00000033 UnityEngine.Ray UnityEngine.RectTransformUtility::ScreenPointToRay(UnityEngine.Camera,UnityEngine.Vector2)
 extern void RectTransformUtility_ScreenPointToRay_m4893D10741EADF21F1141590F1BD2E96B15E8308 (void);
-// 0x00000033 UnityEngine.Vector2 UnityEngine.RectTransformUtility::WorldToScreenPoint(UnityEngine.Camera,UnityEngine.Vector3)
+// 0x00000034 UnityEngine.Vector2 UnityEngine.RectTransformUtility::WorldToScreenPoint(UnityEngine.Camera,UnityEngine.Vector3)
 extern void RectTransformUtility_WorldToScreenPoint_m5629068CE7C8D2E654F8F529E89DC5802F3452BB (void);
-// 0x00000034 UnityEngine.Bounds UnityEngine.RectTransformUtility::CalculateRelativeRectTransformBounds(UnityEngine.Transform,UnityEngine.Transform)
+// 0x00000035 UnityEngine.Bounds UnityEngine.RectTransformUtility::CalculateRelativeRectTransformBounds(UnityEngine.Transform,UnityEngine.Transform)
 extern void RectTransformUtility_CalculateRelativeRectTransformBounds_m6E4A807EDE3D6655B37D62DDC0D19328DB2DB5BA (void);
-// 0x00000035 UnityEngine.Bounds UnityEngine.RectTransformUtility::CalculateRelativeRectTransformBounds(UnityEngine.Transform)
+// 0x00000036 UnityEngine.Bounds UnityEngine.RectTransformUtility::CalculateRelativeRectTransformBounds(UnityEngine.Transform)
 extern void RectTransformUtility_CalculateRelativeRectTransformBounds_m5FEECECB27D9BE429B1FFD3CEBFAC5CDEA84C7F0 (void);
-// 0x00000036 System.Void UnityEngine.RectTransformUtility::FlipLayoutOnAxis(UnityEngine.RectTransform,System.Int32,System.Boolean,System.Boolean)
+// 0x00000037 System.Void UnityEngine.RectTransformUtility::FlipLayoutOnAxis(UnityEngine.RectTransform,System.Int32,System.Boolean,System.Boolean)
 extern void RectTransformUtility_FlipLayoutOnAxis_m01F500B9F67360C94852A52560797558C2A6CED7 (void);
-// 0x00000037 System.Void UnityEngine.RectTransformUtility::FlipLayoutAxes(UnityEngine.RectTransform,System.Boolean,System.Boolean)
+// 0x00000038 System.Void UnityEngine.RectTransformUtility::FlipLayoutAxes(UnityEngine.RectTransform,System.Boolean,System.Boolean)
 extern void RectTransformUtility_FlipLayoutAxes_m4FE6CCDEA9A561F9831A414954A8303C1D521FB5 (void);
-// 0x00000038 UnityEngine.Vector2 UnityEngine.RectTransformUtility::GetTransposed(UnityEngine.Vector2)
+// 0x00000039 UnityEngine.Vector2 UnityEngine.RectTransformUtility::GetTransposed(UnityEngine.Vector2)
 extern void RectTransformUtility_GetTransposed_mFFC9C108E4A7015BB2410E7EC49D907A22EF4D07 (void);
-// 0x00000039 System.Void UnityEngine.RectTransformUtility::.cctor()
+// 0x0000003A System.Void UnityEngine.RectTransformUtility::.cctor()
 extern void RectTransformUtility__cctor_m0BC09ADEE66FDA5C9C945774EF813ADA185CD7DC (void);
-// 0x0000003A System.Void UnityEngine.RectTransformUtility::PixelAdjustPoint_Injected(UnityEngine.Vector2&,UnityEngine.Transform,UnityEngine.Canvas,UnityEngine.Vector2&)
+// 0x0000003B System.Void UnityEngine.RectTransformUtility::PixelAdjustPoint_Injected(UnityEngine.Vector2&,UnityEngine.Transform,UnityEngine.Canvas,UnityEngine.Vector2&)
 extern void RectTransformUtility_PixelAdjustPoint_Injected_m4D5A1EF5C5E56E0BE0FB896F16A6FBD2CEDD7ED5 (void);
-// 0x0000003B System.Void UnityEngine.RectTransformUtility::PixelAdjustRect_Injected(UnityEngine.RectTransform,UnityEngine.Canvas,UnityEngine.Rect&)
+// 0x0000003C System.Void UnityEngine.RectTransformUtility::PixelAdjustRect_Injected(UnityEngine.RectTransform,UnityEngine.Canvas,UnityEngine.Rect&)
 extern void RectTransformUtility_PixelAdjustRect_Injected_m78075A3338B225EF28535E9D2C417D85F10B146B (void);
-// 0x0000003C System.Boolean UnityEngine.RectTransformUtility::PointInRectangle_Injected(UnityEngine.Vector2&,UnityEngine.RectTransform,UnityEngine.Camera,UnityEngine.Vector4&)
+// 0x0000003D System.Boolean UnityEngine.RectTransformUtility::PointInRectangle_Injected(UnityEngine.Vector2&,UnityEngine.RectTransform,UnityEngine.Camera,UnityEngine.Vector4&)
 extern void RectTransformUtility_PointInRectangle_Injected_m5BD7C2C06A789B40A6B5D3410CD89F48F4C80A89 (void);
-// 0x0000003D System.Void UnityEngine.Canvas::add_preWillRenderCanvases(UnityEngine.Canvas/WillRenderCanvases)
+// 0x0000003E System.Void UnityEngine.Canvas::add_preWillRenderCanvases(UnityEngine.Canvas/WillRenderCanvases)
 extern void Canvas_add_preWillRenderCanvases_mFB0527C352723B6F899CD9EC9D701F5772E21211 (void);
-// 0x0000003E System.Void UnityEngine.Canvas::remove_preWillRenderCanvases(UnityEngine.Canvas/WillRenderCanvases)
+// 0x0000003F System.Void UnityEngine.Canvas::remove_preWillRenderCanvases(UnityEngine.Canvas/WillRenderCanvases)
 extern void Canvas_remove_preWillRenderCanvases_m02654D9601184475BDA4E44D9D8DB04180F9BD83 (void);
-// 0x0000003F System.Void UnityEngine.Canvas::add_willRenderCanvases(UnityEngine.Canvas/WillRenderCanvases)
+// 0x00000040 System.Void UnityEngine.Canvas::add_willRenderCanvases(UnityEngine.Canvas/WillRenderCanvases)
 extern void Canvas_add_willRenderCanvases_mC422627A81F9E101686192E587FC42C20718265A (void);
-// 0x00000040 System.Void UnityEngine.Canvas::remove_willRenderCanvases(UnityEngine.Canvas/WillRenderCanvases)
+// 0x00000041 System.Void UnityEngine.Canvas::remove_willRenderCanvases(UnityEngine.Canvas/WillRenderCanvases)
 extern void Canvas_remove_willRenderCanvases_m50B55BBCEC98C23AF7E09A7F5F513939CEE0F652 (void);
-// 0x00000041 UnityEngine.RenderMode UnityEngine.Canvas::get_renderMode()
+// 0x00000042 UnityEngine.RenderMode UnityEngine.Canvas::get_renderMode()
 extern void Canvas_get_renderMode_m1BEF259548C6CAD27E4466F31D20752D246688CC (void);
-// 0x00000042 System.Void UnityEngine.Canvas::set_renderMode(UnityEngine.RenderMode)
+// 0x00000043 System.Void UnityEngine.Canvas::set_renderMode(UnityEngine.RenderMode)
 extern void Canvas_set_renderMode_mD73E953F8A115CF469508448A00D0EDAFAF5AB47 (void);
-// 0x00000043 System.Boolean UnityEngine.Canvas::get_isRootCanvas()
+// 0x00000044 System.Boolean UnityEngine.Canvas::get_isRootCanvas()
 extern void Canvas_get_isRootCanvas_m57410F800ED6E96C75E2703468B66DE0D5AC6846 (void);
-// 0x00000044 UnityEngine.Rect UnityEngine.Canvas::get_pixelRect()
+// 0x00000045 UnityEngine.Rect UnityEngine.Canvas::get_pixelRect()
 extern void Canvas_get_pixelRect_m6093115759D4B39B4076AFE44F7ECC886B1F6C9F (void);
-// 0x00000045 System.Single UnityEngine.Canvas::get_scaleFactor()
+// 0x00000046 System.Single UnityEngine.Canvas::get_scaleFactor()
 extern void Canvas_get_scaleFactor_m6B8D694A68376EE5E13D9B0B0F037E2E90C99921 (void);
-// 0x00000046 System.Void UnityEngine.Canvas::set_scaleFactor(System.Single)
+// 0x00000047 System.Void UnityEngine.Canvas::set_scaleFactor(System.Single)
 extern void Canvas_set_scaleFactor_m65383E2F466BC670568C9CC1D631FA63911DB095 (void);
-// 0x00000047 System.Single UnityEngine.Canvas::get_referencePixelsPerUnit()
+// 0x00000048 System.Single UnityEngine.Canvas::get_referencePixelsPerUnit()
 extern void Canvas_get_referencePixelsPerUnit_mE402D29BA765D8AC4BBBBA71A87BEBB8D398432A (void);
-// 0x00000048 System.Void UnityEngine.Canvas::set_referencePixelsPerUnit(System.Single)
+// 0x00000049 System.Void UnityEngine.Canvas::set_referencePixelsPerUnit(System.Single)
 extern void Canvas_set_referencePixelsPerUnit_m7114F49D5EAAA8FA40AA5A3191B02325FEBF9B30 (void);
-// 0x00000049 System.Boolean UnityEngine.Canvas::get_pixelPerfect()
+// 0x0000004A System.Boolean UnityEngine.Canvas::get_pixelPerfect()
 extern void Canvas_get_pixelPerfect_mFD997D340F57D87C0307F92A9AA1155EF3DF7E75 (void);
-// 0x0000004A System.Single UnityEngine.Canvas::get_planeDistance()
-extern void Canvas_get_planeDistance_mA37842426E220D0CDA03606E674B581F67BC3338 (void);
 // 0x0000004B System.Void UnityEngine.Canvas::set_planeDistance(System.Single)
 extern void Canvas_set_planeDistance_m730278089C7546A512385305C1F250C6477C279E (void);
 // 0x0000004C System.Int32 UnityEngine.Canvas::get_renderOrder()
@@ -243,6 +243,7 @@ static Il2CppMethodPointer s_methodPointers[112] =
 	CanvasGroup_get_interactable_mE5EE5E3AFEAD06D18E15A91C0A0E706D9FE40F76,
 	CanvasGroup_set_interactable_m86928BB0894EF3F06BC7BE63594272FBA0DAC757,
 	CanvasGroup_get_blocksRaycasts_mFEC4D16E66CD2480692CC66CF79FCA06DBF0307C,
+	CanvasGroup_set_blocksRaycasts_m6C17F35782D16AE3FC42FCD1A4D68E1C4A4776E0,
 	CanvasGroup_get_ignoreParentGroups_m2F38E053B86FD01735C2DA2047E197C0B8654361,
 	CanvasGroup_IsRaycastLocationValid_m3B745747F3BF9BAC4EFB9F76F02DE3219D8D54D1,
 	CanvasRenderer_set_hasPopInstruction_mDE56514A0B57434BCE041751AC7D889E9E0BD3FD,
@@ -310,7 +311,6 @@ static Il2CppMethodPointer s_methodPointers[112] =
 	Canvas_get_referencePixelsPerUnit_mE402D29BA765D8AC4BBBBA71A87BEBB8D398432A,
 	Canvas_set_referencePixelsPerUnit_m7114F49D5EAAA8FA40AA5A3191B02325FEBF9B30,
 	Canvas_get_pixelPerfect_mFD997D340F57D87C0307F92A9AA1155EF3DF7E75,
-	Canvas_get_planeDistance_mA37842426E220D0CDA03606E674B581F67BC3338,
 	Canvas_set_planeDistance_m730278089C7546A512385305C1F250C6477C279E,
 	Canvas_get_renderOrder_m4BC79FD8062270F9848DFE38DE6CC578BBF7DFAC,
 	Canvas_get_overrideSorting_mF0E6E695650194B15D53BB544926756F370CF33B,
@@ -353,117 +353,117 @@ static Il2CppMethodPointer s_methodPointers[112] =
 static const int32_t s_InvokerIndices[112] = 
 {
 	0,
-	9811,
-	8066,
-	9800,
-	8056,
-	9800,
-	9800,
-	3636,
-	8056,
-	9672,
-	7940,
-	7940,
-	9672,
-	9800,
-	9800,
-	8056,
-	9800,
-	8056,
-	7842,
-	9574,
-	8038,
-	8141,
-	9911,
-	4650,
-	6186,
-	4650,
-	7996,
-	7996,
-	7996,
-	9911,
-	4660,
-	9732,
-	10210,
-	10210,
-	10249,
-	13936,
-	10249,
-	10210,
-	7798,
-	7798,
-	7798,
-	7798,
-	12663,
-	13358,
-	11934,
-	12595,
-	11925,
-	11924,
-	11924,
-	13345,
-	13706,
-	13033,
-	14196,
-	12086,
-	12943,
-	14682,
-	14947,
-	12003,
-	12925,
-	11875,
-	14717,
-	14717,
-	14717,
-	14717,
-	9672,
-	7940,
-	9800,
-	9777,
-	9811,
-	8066,
-	9811,
-	8066,
-	9800,
-	9811,
-	8066,
-	9672,
-	9800,
-	8056,
-	9672,
-	7940,
-	9672,
-	9672,
-	7940,
-	9672,
-	7940,
-	9732,
-	9895,
-	14895,
-	14717,
-	14895,
-	14717,
-	14895,
-	14717,
-	14725,
-	9732,
-	7996,
-	14895,
-	14895,
-	14947,
-	14947,
-	14947,
-	14712,
-	13820,
-	14712,
-	9911,
-	7798,
-	7798,
-	4653,
-	9911,
-	14712,
-	14712,
-	13936,
+	10552,
+	8746,
+	10304,
+	8510,
+	10304,
+	8510,
+	10304,
+	3340,
+	8510,
+	10407,
+	8613,
+	8613,
+	10407,
+	10304,
+	10304,
+	8510,
+	10304,
+	8510,
+	8516,
+	10309,
+	8717,
+	8829,
+	10659,
+	5050,
+	7713,
+	5050,
+	8671,
+	8671,
+	8671,
+	10659,
+	5061,
+	10468,
+	11204,
+	11204,
+	11337,
+	16038,
+	11337,
+	11204,
+	8470,
+	8470,
+	8470,
+	8470,
+	14615,
+	15692,
+	13269,
+	14144,
+	13248,
+	13247,
+	13247,
+	15679,
+	15791,
+	15029,
+	16329,
+	13913,
+	14876,
+	16965,
+	17252,
+	13812,
+	14904,
+	13194,
+	17002,
+	17002,
+	17002,
+	17002,
+	10407,
+	8613,
+	10304,
+	10518,
+	10552,
+	8746,
+	10552,
+	8746,
+	10304,
+	8746,
+	10407,
+	10304,
+	8510,
+	10407,
+	8613,
+	10407,
+	10407,
+	8613,
+	10407,
+	8613,
+	10468,
+	10644,
+	17198,
+	17002,
+	17198,
+	17002,
+	17198,
+	17002,
+	16988,
+	10468,
+	8671,
+	17198,
+	17198,
+	17252,
+	17252,
+	17252,
+	16997,
+	15914,
+	16997,
+	10659,
+	8470,
+	8470,
+	5053,
+	10659,
+	16997,
+	16997,
+	16038,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_UIModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_UIModule_CodeGenModule = 

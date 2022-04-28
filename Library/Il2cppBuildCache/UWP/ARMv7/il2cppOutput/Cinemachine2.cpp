@@ -565,6 +565,8 @@ struct LensSettings_t6DAB2F204EC22686BF4397E0871B4875414A84FE;
 struct LensSettingsPropertyAttribute_t5539598E05FD9A9577DC426077865268A41F0288;
 // ClipperLib.LocalMinima
 struct LocalMinima_t28E3D73E1279EE6C26441A003E1B103B6E87E310;
+// UnityEngine.LocationService
+struct LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2;
 // ClipperLib.Maxima
 struct Maxima_t0270419107246C2CC093E959D35B3C47295D29AB;
 // System.Reflection.MemberFilter
@@ -1460,6 +1462,12 @@ struct Documentation_tB9A5316855124F3D66BDCE585D52E29BF2D7F676  : public Runtime
 // UnityEngine.Input
 struct Input_t47D83E2A50E6AF7F8A47AA06FBEF9EBE6BBC22BB  : public RuntimeObject
 {
+};
+
+struct Input_t47D83E2A50E6AF7F8A47AA06FBEF9EBE6BBC22BB_StaticFields
+{
+	// UnityEngine.LocationService UnityEngine.Input::locationServiceInstance
+	LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* ___locationServiceInstance_0;
 };
 
 // System.Reflection.MemberInfo
@@ -18591,7 +18599,7 @@ IL_003c:
 		L_15 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(__this, NULL);
 		NullCheck(L_15);
 		String_t* L_16;
-		L_16 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_15);
+		L_16 = VirtualFuncInvoker0< String_t* >::Invoke(13 /* System.String System.Reflection.MemberInfo::get_Name() */, L_15);
 		String_t* L_17;
 		L_17 = String_Concat_mF8B69BE42B5C5ABCAD3C176FBBE3010E0815D65D(L_14, _stringLiteral20543B3471A4F19DEEE5D3493EBD551C4EAAE0B6, L_16, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);

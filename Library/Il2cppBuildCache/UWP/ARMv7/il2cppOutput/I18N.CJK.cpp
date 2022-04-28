@@ -464,17 +464,17 @@ struct EncoderFallbackBuffer_t2E7CD7B63BE916D5827701AC6AB8455673FB0281  : public
 struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095  : public RuntimeObject
 {
 	// System.Int32 System.Text.Encoding::m_codePage
-	int32_t ___m_codePage_55;
+	int32_t ___m_codePage_9;
 	// System.Globalization.CodePageDataItem System.Text.Encoding::dataItem
-	CodePageDataItem_t52460FA30AE37F4F26ACB81055E58002262F19F2* ___dataItem_56;
+	CodePageDataItem_t52460FA30AE37F4F26ACB81055E58002262F19F2* ___dataItem_10;
 	// System.Boolean System.Text.Encoding::m_deserializedFromEverett
-	bool ___m_deserializedFromEverett_57;
+	bool ___m_deserializedFromEverett_11;
 	// System.Boolean System.Text.Encoding::m_isReadOnly
-	bool ___m_isReadOnly_58;
+	bool ___m_isReadOnly_12;
 	// System.Text.EncoderFallback System.Text.Encoding::encoderFallback
-	EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293* ___encoderFallback_59;
+	EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293* ___encoderFallback_13;
 	// System.Text.DecoderFallback System.Text.Encoding::decoderFallback
-	DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90* ___decoderFallback_60;
+	DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90* ___decoderFallback_14;
 };
 
 struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
@@ -498,7 +498,7 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
 	// System.Collections.Generic.Dictionary`2<System.Int32,System.Text.Encoding> modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::encodings
 	Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* ___encodings_8;
 	// System.Object System.Text.Encoding::s_InternalSyncObject
-	RuntimeObject* ___s_InternalSyncObject_61;
+	RuntimeObject* ___s_InternalSyncObject_15;
 };
 
 // I18N.CJK.GB18030Source
@@ -730,7 +730,7 @@ struct MonoSafeEncoder_t83CE20A4AA5929CCE727E6473451865B2D6F15CB  : public Encod
 struct MonoSafeEncoding_t8884DD71F6DACB72298BB203FA3AC1D6E7BA9BA1  : public Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095
 {
 	// System.Int32 I18N.Common.MonoSafeEncoding::win_code_page
-	int32_t ___win_code_page_62;
+	int32_t ___win_code_page_16;
 };
 
 // I18N.Common.ReferenceSourceDefaultEncoder
@@ -748,9 +748,9 @@ struct ReferenceSourceDefaultEncoder_tDD1DD45D2814C888BFA129916A24E1A5955A80A3  
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
 {
 	// System.IO.Stream/ReadWriteTask System.IO.Stream::_activeReadWriteTask
-	ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05* ____activeReadWriteTask_3;
+	ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05* ____activeReadWriteTask_2;
 	// System.Threading.SemaphoreSlim System.IO.Stream::_asyncActiveSemaphore
-	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore_4;
+	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore_3;
 };
 
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
@@ -994,9 +994,9 @@ struct ISO2022JPEncoder_t4B6E7F878CA03736201127DB793AEBF2E8B757C3_StaticFields
 struct ISO2022JPEncoding_tABED431997748ED47FD19D054362AB00A2DBE4D0  : public MonoSafeEncoding_t8884DD71F6DACB72298BB203FA3AC1D6E7BA9BA1
 {
 	// System.Boolean I18N.CJK.ISO2022JPEncoding::allow_1byte_kana
-	bool ___allow_1byte_kana_63;
+	bool ___allow_1byte_kana_17;
 	// System.Boolean I18N.CJK.ISO2022JPEncoding::allow_shift_io
-	bool ___allow_shift_io_64;
+	bool ___allow_shift_io_18;
 };
 
 // System.Reflection.MethodInfo
@@ -1092,7 +1092,7 @@ struct ENCshift_jis_t86FE97D56443D5379FCA17BB646DD344E0AAB5F0  : public CP932_t4
 struct KoreanEncoding_t81467F5DA4FB6691C2543814BB76C2ADC61ECE98  : public DbcsEncoding_t14FA251CFAB9E7C9140C4EB2325B69AED54F8D72
 {
 	// System.Boolean I18N.CJK.KoreanEncoding::useUHC
-	bool ___useUHC_63;
+	bool ___useUHC_17;
 };
 
 // System.SystemException
@@ -6087,7 +6087,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KoreanEncoding__ctor_m7116F2236894BC1C32
 		int32_t L_0 = ___codepage0;
 		DbcsEncoding__ctor_m15702DAC08C911DB93F4107B83F02F0A6CC68126(__this, L_0, ((int32_t)949), NULL);
 		bool L_1 = ___useUHC1;
-		__this->___useUHC_63 = L_1;
+		__this->___useUHC_17 = L_1;
 		return;
 	}
 }
@@ -6398,7 +6398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Decoder_tE16E789E38B25DD304004FC630EA8B21000E
 	{
 		DbcsConvert_t98C6FD39C54B643CC598990CAFB4C21FE14B9601* L_0;
 		L_0 = VirtualFuncInvoker0< DbcsConvert_t98C6FD39C54B643CC598990CAFB4C21FE14B9601* >::Invoke(48 /* I18N.CJK.DbcsConvert I18N.CJK.DbcsEncoding::GetConvert() */, __this);
-		bool L_1 = __this->___useUHC_63;
+		bool L_1 = __this->___useUHC_17;
 		KoreanDecoder_t237A0BF12F5862F3E14E458E4D67A0D41F0ED134* L_2 = (KoreanDecoder_t237A0BF12F5862F3E14E458E4D67A0D41F0ED134*)il2cpp_codegen_object_new(KoreanDecoder_t237A0BF12F5862F3E14E458E4D67A0D41F0ED134_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
 		KoreanDecoder__ctor_mA0F9C742CBE2D3D2B06412BB15847587028C795A(L_2, L_0, L_1, NULL);
@@ -8377,7 +8377,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CodeTable_Dispose_mDC43F0CDDA3C50F303982
 	{
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_1 = __this->___stream_0;
 		NullCheck(L_1);
-		VirtualActionInvoker0::Invoke(18 /* System.Void System.IO.Stream::Close() */, L_1);
+		VirtualActionInvoker0::Invoke(20 /* System.Void System.IO.Stream::Close() */, L_1);
 		__this->___stream_0 = (Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___stream_0), (void*)(Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*)NULL);
 	}
@@ -8435,7 +8435,7 @@ IL_0022:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7 = V_2;
 		NullCheck(L_6);
 		int32_t L_8;
-		L_8 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(31 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_6, L_7, 0, 8);
+		L_8 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_6, L_7, 0, 8);
 		if ((!(((uint32_t)L_8) == ((uint32_t)8))))
 		{
 			goto IL_009c;
@@ -8490,7 +8490,7 @@ IL_0022:
 		int32_t L_38 = V_3;
 		NullCheck(L_36);
 		int32_t L_39;
-		L_39 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(31 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_36, L_37, 0, L_38);
+		L_39 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_36, L_37, 0, L_38);
 		int32_t L_40 = V_3;
 		if ((!(((uint32_t)L_39) == ((uint32_t)L_40))))
 		{
@@ -11042,7 +11042,7 @@ IL_03bb_1:
 				Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_82 = V_4;
 				NullCheck(L_82);
 				int32_t L_83;
-				L_83 = VirtualFuncInvoker0< int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::ReadByte() */, L_82);
+				L_83 = VirtualFuncInvoker0< int32_t >::Invoke(36 /* System.Int32 System.IO.Stream::ReadByte() */, L_82);
 				*((int8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_80, L_81))) = (int8_t)((int32_t)(uint8_t)L_83);
 				int32_t L_84 = V_7;
 				V_7 = ((int32_t)il2cpp_codegen_add(L_84, 1));
@@ -11837,9 +11837,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ISO2022JPEncoding__ctor_mFC96E6F514248B6
 		int32_t L_0 = ___codePage0;
 		MonoSafeEncoding__ctor_m9B488181197AB2A87BF8409E953A8E00ACBDE979(__this, L_0, ((int32_t)932), NULL);
 		bool L_1 = ___allow1ByteKana1;
-		__this->___allow_1byte_kana_63 = L_1;
+		__this->___allow_1byte_kana_17 = L_1;
 		bool L_2 = ___allowShiftIO2;
-		__this->___allow_shift_io_64 = L_2;
+		__this->___allow_shift_io_18 = L_2;
 		return;
 	}
 }
@@ -11929,8 +11929,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ISO2022JPEncoding_GetBytesInternal_m1
 
 IL_0019:
 	{
-		bool L_8 = __this->___allow_1byte_kana_63;
-		bool L_9 = __this->___allow_shift_io_64;
+		bool L_8 = __this->___allow_1byte_kana_17;
+		bool L_9 = __this->___allow_shift_io_18;
 		ISO2022JPEncoder_t4B6E7F878CA03736201127DB793AEBF2E8B757C3* L_10 = (ISO2022JPEncoder_t4B6E7F878CA03736201127DB793AEBF2E8B757C3*)il2cpp_codegen_object_new(ISO2022JPEncoder_t4B6E7F878CA03736201127DB793AEBF2E8B757C3_il2cpp_TypeInfo_var);
 		NullCheck(L_10);
 		ISO2022JPEncoder__ctor_mC7894C4BA81ED400B7EA6B42B2E443F083356FBF(L_10, __this, L_8, L_9, NULL);
@@ -11955,8 +11955,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ISO2022JPEncoding_GetByteCount_m4FE1B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		bool L_0 = __this->___allow_1byte_kana_63;
-		bool L_1 = __this->___allow_shift_io_64;
+		bool L_0 = __this->___allow_1byte_kana_17;
+		bool L_1 = __this->___allow_shift_io_18;
 		ISO2022JPEncoder_t4B6E7F878CA03736201127DB793AEBF2E8B757C3* L_2 = (ISO2022JPEncoder_t4B6E7F878CA03736201127DB793AEBF2E8B757C3*)il2cpp_codegen_object_new(ISO2022JPEncoder_t4B6E7F878CA03736201127DB793AEBF2E8B757C3_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
 		ISO2022JPEncoder__ctor_mC7894C4BA81ED400B7EA6B42B2E443F083356FBF(L_2, __this, L_0, L_1, NULL);
@@ -11979,8 +11979,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ISO2022JPEncoding_GetBytes_m47F35DB2A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		bool L_0 = __this->___allow_1byte_kana_63;
-		bool L_1 = __this->___allow_shift_io_64;
+		bool L_0 = __this->___allow_1byte_kana_17;
+		bool L_1 = __this->___allow_shift_io_18;
 		ISO2022JPEncoder_t4B6E7F878CA03736201127DB793AEBF2E8B757C3* L_2 = (ISO2022JPEncoder_t4B6E7F878CA03736201127DB793AEBF2E8B757C3*)il2cpp_codegen_object_new(ISO2022JPEncoder_t4B6E7F878CA03736201127DB793AEBF2E8B757C3_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
 		ISO2022JPEncoder__ctor_mC7894C4BA81ED400B7EA6B42B2E443F083356FBF(L_2, __this, L_0, L_1, NULL);
@@ -12005,8 +12005,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ISO2022JPEncoding_GetCharCount_mC01F8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		bool L_0 = __this->___allow_1byte_kana_63;
-		bool L_1 = __this->___allow_shift_io_64;
+		bool L_0 = __this->___allow_1byte_kana_17;
+		bool L_1 = __this->___allow_shift_io_18;
 		ISO2022JPDecoder_t8D0626304C10AD3F1302C29C1AE886391E7686DA* L_2 = (ISO2022JPDecoder_t8D0626304C10AD3F1302C29C1AE886391E7686DA*)il2cpp_codegen_object_new(ISO2022JPDecoder_t8D0626304C10AD3F1302C29C1AE886391E7686DA_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
 		ISO2022JPDecoder__ctor_m52FB47B45BC2AD66A5FCE4BB406D8B078533F666(L_2, L_0, L_1, NULL);
@@ -12029,8 +12029,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ISO2022JPEncoding_GetChars_m358B683B0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		bool L_0 = __this->___allow_1byte_kana_63;
-		bool L_1 = __this->___allow_shift_io_64;
+		bool L_0 = __this->___allow_1byte_kana_17;
+		bool L_1 = __this->___allow_shift_io_18;
 		ISO2022JPDecoder_t8D0626304C10AD3F1302C29C1AE886391E7686DA* L_2 = (ISO2022JPDecoder_t8D0626304C10AD3F1302C29C1AE886391E7686DA*)il2cpp_codegen_object_new(ISO2022JPDecoder_t8D0626304C10AD3F1302C29C1AE886391E7686DA_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
 		ISO2022JPDecoder__ctor_m52FB47B45BC2AD66A5FCE4BB406D8B078533F666(L_2, L_0, L_1, NULL);
