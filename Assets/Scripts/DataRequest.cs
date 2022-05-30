@@ -8,7 +8,7 @@ using TMPro;
 
 public class DataRequest : MonoBehaviour {
     //string url = "http://localhost:8080/api/simulationstate/1";
-    string url = "http://192.168.86.224:8080/api/simulationstate/1";
+    string url = "http://192.168.1.156:8080/api/simulationstate/1";
 
     Text timer;
     Text heart_bpm;
