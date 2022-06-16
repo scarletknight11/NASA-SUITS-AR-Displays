@@ -42874,6 +42874,10 @@ IL2CPP_EXTERN_C void BlocksAndRenderer_tF583D143167DBC0C9BA5575BCE054D11CD059F0C
 // System.Void Microsoft.MixedReality.Toolkit.UI.InteractableColorTheme/GetColorFromText::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetColorFromText__ctor_m3D153A20FEE3D7D43C793225434F50D6DDD35176 (GetColorFromText_t9859CE096A7D1F9180D59A3AC33274A582A5B15E * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -42971,7 +42975,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GetColorFromText_Invoke_m6A6578DC7EC6712
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 1)
 				{
 					typedef bool (*FunctionPointerType) (ThemeStateProperty_t18BF7C113B10C7D6141824706DA6121949A14A19 *, Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659 *, const RuntimeMethod*);
 					result = ((FunctionPointerType)targetMethodPointer)(___property0, ___color1, targetMethod);
@@ -43020,6 +43024,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GetColorFromText_EndInvoke_mBB407BBFEAA3
 // System.Void Microsoft.MixedReality.Toolkit.UI.InteractableColorTheme/SetColorOnText::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SetColorOnText__ctor_m6895E890BC06ADC55101ADD04FDCF38910C50387 (SetColorOnText_tEDF3A9B16CA0B5DE90F27D41DE2623BCCF095236 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -43091,7 +43099,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetColorOnText_Invoke_m2880DAA57A48FB75D
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 3)
 				{
 					typedef bool (*FunctionPointerType) (RuntimeObject*, ThemeStateProperty_t18BF7C113B10C7D6141824706DA6121949A14A19 *, int32_t, float, const RuntimeMethod*);
 					result = ((FunctionPointerType)targetMethodPointer)((RuntimeObject*)(reinterpret_cast<RuntimeObject*>(&___color0) - 1), ___property1, ___index2, ___percentage3, targetMethod);
@@ -43168,7 +43176,7 @@ IL_0006:
 		Type_t * L_1 = ___s0;
 		NullCheck(L_1);
 		String_t* L_2;
-		L_2 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_1);
+		L_2 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_1);
 		G_B3_0 = L_2;
 	}
 

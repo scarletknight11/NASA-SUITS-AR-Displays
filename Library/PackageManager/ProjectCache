@@ -1,31 +1,31 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/NASA-SUITS-AR-Displays/Packages/manifest.json
+    m_FilePath: D:/dist/NASA-SUITS-AR-Displays/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637861956680951960
-    m_Hash: 2253015377
+      ticks: 637904994946067096
+    m_Hash: 2450776901
   m_LockFileStatus:
-    m_FilePath: D:/NASA-SUITS-AR-Displays/Packages/packages-lock.json
+    m_FilePath: D:/dist/NASA-SUITS-AR-Displays/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637865335586644660
-    m_Hash: 684747548
+      ticks: 637904995375746375
+    m_Hash: 688054021
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.microsoft.azure.object-anchors.runtime@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.object-anchors.runtime-0.19.0.tgz
+    - packageId: com.microsoft.azure.object-anchors.runtime@file:D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.object-anchors.runtime-0.19.0.tgz
       testable: 0
       isDirectDependency: 1
       version: 0.19.0
       source: 6
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.azure.object-anchors.runtime@daf948a61fb3-1646885269858
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.azure.object-anchors.runtime@2bb61998fb89
       assetPath: Packages/com.microsoft.azure.object-anchors.runtime
       name: com.microsoft.azure.object-anchors.runtime
       displayName: Microsoft Azure Object Anchors
@@ -51,13 +51,13 @@ m_PackageAssets:
       - mixed-reality
       - object-anchors
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -70,12 +70,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.microsoft.azure.spatial-anchors-sdk.core@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.core-2.12.0.tgz
+    - packageId: com.microsoft.azure.spatial-anchors-sdk.core@file:D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.core-2.12.0.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.12.0
       source: 6
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.azure.spatial-anchors-sdk.core@108364444f90-1646885266365
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.azure.spatial-anchors-sdk.core@973c35dbea33
       assetPath: Packages/com.microsoft.azure.spatial-anchors-sdk.core
       name: com.microsoft.azure.spatial-anchors-sdk.core
       displayName: Azure Spatial Anchors SDK Core
@@ -117,7 +117,7 @@ m_PackageAssets:
       - name: com.unity.modules.xr
         version: 1.0.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.8
+        version: 2.1.9
       - name: com.unity.xr.arfoundation
         version: 4.2.2
       - name: com.unity.modules.particlesystem
@@ -136,13 +136,13 @@ m_PackageAssets:
       - anchors
       - core
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 0
       entitlements:
         isAllowed: 1
@@ -155,12 +155,12 @@ m_PackageAssets:
         url: git+https://github.com/Azure/azure-spatial-anchors-samples.git
         revision: 
         path: 
-    - packageId: com.microsoft.azure.spatial-anchors-sdk.windows@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.windows-2.12.0.tgz
+    - packageId: com.microsoft.azure.spatial-anchors-sdk.windows@file:D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.windows-2.12.0.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.12.0
       source: 6
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.azure.spatial-anchors-sdk.windows@f2d0a51cdf09-1646885270805
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.azure.spatial-anchors-sdk.windows@4b928bb293e8
       assetPath: Packages/com.microsoft.azure.spatial-anchors-sdk.windows
       name: com.microsoft.azure.spatial-anchors-sdk.windows
       displayName: Azure Spatial Anchors SDK for Windows
@@ -200,7 +200,7 @@ m_PackageAssets:
       - name: com.unity.modules.xr
         version: 1.0.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.8
+        version: 2.1.9
       - name: com.unity.xr.arfoundation
         version: 4.2.2
       - name: com.unity.modules.particlesystem
@@ -217,13 +217,13 @@ m_PackageAssets:
       - anchors
       - windows
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 0
       entitlements:
         isAllowed: 1
@@ -236,12 +236,12 @@ m_PackageAssets:
         url: git+https://github.com/Azure/azure-spatial-anchors-samples.git
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.openxr@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.4.0.tgz
+    - packageId: com.microsoft.mixedreality.openxr@file:D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.4.1.tgz
       testable: 0
       isDirectDependency: 1
-      version: 1.4.0
+      version: 1.4.1
       source: 6
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.openxr@198babd54d51-1649940945328
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.openxr@e9fcfff63016
       assetPath: Packages/com.microsoft.mixedreality.openxr
       name: com.microsoft.mixedreality.openxr
       displayName: Mixed Reality OpenXR Plugin
@@ -265,7 +265,7 @@ m_PackageAssets:
       - name: com.unity.xr.management
         version: 4.2.0
       - name: com.unity.xr.openxr
-        version: 1.3.1
+        version: 1.4.2
       resolvedDependencies:
       - name: com.unity.xr.arfoundation
         version: 4.2.2
@@ -286,11 +286,11 @@ m_PackageAssets:
       - name: com.unity.modules.xr
         version: 1.0.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.8
+        version: 2.1.9
       - name: com.unity.modules.particlesystem
         version: 1.0.0
       - name: com.unity.xr.openxr
-        version: 1.4.1
+        version: 1.4.2
       - name: com.unity.inputsystem
         version: 1.3.0
       - name: com.unity.modules.uielements
@@ -309,31 +309,31 @@ m_PackageAssets:
       - hololens
       - xreditorsubsystem
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
-      documentationUrl: 
+      documentationUrl: https://aka.ms/openxr-unity-api-reference
       hasRepository: 0
       repository:
         type: 
         url: 
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.examples@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.3.tgz
+    - packageId: com.microsoft.mixedreality.toolkit.examples@file:D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.3.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.7.3
       source: 6
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.toolkit.examples@bbcfb3b3b806-1647365839894
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.toolkit.examples@38699c4ce8cf
       assetPath: Packages/com.microsoft.mixedreality.toolkit.examples
       name: com.microsoft.mixedreality.toolkit.examples
       displayName: Mixed Reality Toolkit Examples
@@ -380,13 +380,13 @@ m_PackageAssets:
       - xr
       - hololens
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -399,12 +399,12 @@ m_PackageAssets:
         url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.extensions@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.3.tgz
+    - packageId: com.microsoft.mixedreality.toolkit.extensions@file:D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.3.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.7.3
       source: 6
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.toolkit.extensions@3e93747f93fd-1647365826157
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.toolkit.extensions@dd97a7745746
       assetPath: Packages/com.microsoft.mixedreality.toolkit.extensions
       name: com.microsoft.mixedreality.toolkit.extensions
       displayName: Mixed Reality Toolkit Extensions
@@ -450,13 +450,13 @@ m_PackageAssets:
       - xr
       - extensions
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -469,12 +469,12 @@ m_PackageAssets:
         url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.foundation@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.3.tgz
+    - packageId: com.microsoft.mixedreality.toolkit.foundation@file:D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.3.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.7.3
       source: 6
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@cd24046fa317-1647359371804
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3bad99c89252
       assetPath: Packages/com.microsoft.mixedreality.toolkit.foundation
       name: com.microsoft.mixedreality.toolkit.foundation
       displayName: Mixed Reality Toolkit Foundation
@@ -516,13 +516,13 @@ m_PackageAssets:
       - xr
       - hololens
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -535,12 +535,12 @@ m_PackageAssets:
         url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.standardassets@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.3.tgz
+    - packageId: com.microsoft.mixedreality.toolkit.standardassets@file:D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.3.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.7.3
       source: 6
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@8f7d1af185f6-1647359371721
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@2095abe3b61d
       assetPath: Packages/com.microsoft.mixedreality.toolkit.standardassets
       name: com.microsoft.mixedreality.toolkit.standardassets
       displayName: Mixed Reality Toolkit Standard Assets
@@ -583,13 +583,13 @@ m_PackageAssets:
       - standardassets
       - coreassets
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -602,12 +602,12 @@ m_PackageAssets:
         url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.testutilities@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.7.3.tgz
+    - packageId: com.microsoft.mixedreality.toolkit.testutilities@file:D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.7.3.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.7.3
       source: 6
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.toolkit.testutilities@21e7e2fa65ef-1647365825318
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.toolkit.testutilities@4e92ced1683c
       assetPath: Packages/com.microsoft.mixedreality.toolkit.testutilities
       name: com.microsoft.mixedreality.toolkit.testutilities
       displayName: Mixed Reality Toolkit Test Utilities
@@ -651,13 +651,13 @@ m_PackageAssets:
       - hololens
       - test
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -670,12 +670,12 @@ m_PackageAssets:
         url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.tools@file:D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.7.3.tgz
+    - packageId: com.microsoft.mixedreality.toolkit.tools@file:D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.7.3.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.7.3
       source: 6
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.toolkit.tools@7cffbd680c5e-1647365826415
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.microsoft.mixedreality.toolkit.tools@2c119bd3c146
       assetPath: Packages/com.microsoft.mixedreality.toolkit.tools
       name: com.microsoft.mixedreality.toolkit.tools
       displayName: Mixed Reality Toolkit Tools
@@ -719,13 +719,13 @@ m_PackageAssets:
       - hololens
       - tools
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -743,7 +743,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.8.4
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.cinemachine@2.8.4
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.cinemachine@2.8.4
       assetPath: Packages/com.unity.cinemachine
       name: com.unity.cinemachine
       displayName: Cinemachine
@@ -800,6 +800,8 @@ m_PackageAssets:
         - 2.6.9
         - 2.6.10
         - 2.6.11
+        - 2.6.14
+        - 2.6.15
         - 2.7.1
         - 2.7.2
         - 2.7.3
@@ -815,6 +817,7 @@ m_PackageAssets:
         - 2.8.2
         - 2.8.3
         - 2.8.4
+        - 2.8.6
         - 2.9.0-pre.1
         - 2.9.0-pre.6
         compatible:
@@ -835,6 +838,8 @@ m_PackageAssets:
         - 2.6.9
         - 2.6.10
         - 2.6.11
+        - 2.6.14
+        - 2.6.15
         - 2.7.1
         - 2.7.2
         - 2.7.3
@@ -850,9 +855,10 @@ m_PackageAssets:
         - 2.8.2
         - 2.8.3
         - 2.8.4
+        - 2.8.6
         - 2.9.0-pre.1
         - 2.9.0-pre.6
-        verified: 2.6.11
+        verified: 2.6.15
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -898,12 +904,12 @@ m_PackageAssets:
         url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
         revision: 15a386e047f93d18479f6ae075bd3dcc985d3c34
         path: 
-    - packageId: com.unity.collab-proxy@1.15.16
+    - packageId: com.unity.collab-proxy@1.15.17
       testable: 0
       isDirectDependency: 1
-      version: 1.15.16
+      version: 1.15.17
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.collab-proxy@1.15.16
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.collab-proxy@1.15.17
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -956,6 +962,8 @@ m_PackageAssets:
         - 1.14.13
         - 1.14.15
         - 1.14.16
+        - 1.14.17
+        - 1.14.18
         - 1.15.1
         - 1.15.4
         - 1.15.7
@@ -964,6 +972,8 @@ m_PackageAssets:
         - 1.15.13
         - 1.15.15
         - 1.15.16
+        - 1.15.17
+        - 1.15.18
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -975,10 +985,8 @@ m_PackageAssets:
         - 2.1.0-preview.5
         - 2.1.0-preview.6
         compatible:
-        - 1.15.12
-        - 1.15.13
-        - 1.15.15
-        - 1.15.16
+        - 1.15.17
+        - 1.15.18
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -989,7 +997,7 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.15.16
+        verified: 1.15.18
       dependencies:
       - name: com.unity.services.core
         version: 1.0.1
@@ -1024,20 +1032,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637847776260000000
+      datePublishedTicks: 637871149130000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-        revision: 714a2838c2d55add3d0accf539488f96caa757b2
+        revision: fd95d00c5a7961beec85ee190181439d53fb0dba
         path: 
     - packageId: com.unity.ext.nunit@1.0.6
       testable: 0
       isDirectDependency: 1
       version: 1.0.6
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -1100,7 +1108,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.14
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.ide.rider@3.0.14
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.ide.rider@3.0.14
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -1211,7 +1219,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.15
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.ide.visualstudio@2.0.15
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.ide.visualstudio@2.0.15
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -1304,7 +1312,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.5
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.ide.vscode@1.2.5
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.ide.vscode@1.2.5
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -1377,7 +1385,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.2.2
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.postprocessing@3.2.2
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.postprocessing@3.2.2
       assetPath: Packages/com.unity.postprocessing
       name: com.unity.postprocessing
       displayName: Post Processing
@@ -1472,7 +1480,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.3
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.recorder@3.0.3
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.recorder@3.0.3
       assetPath: Packages/com.unity.recorder
       name: com.unity.recorder
       displayName: Recorder
@@ -1514,6 +1522,7 @@ m_PackageAssets:
         - 4.0.0-pre.2
         - 4.0.0-pre.3
         - 4.0.0-pre.4
+        - 4.0.0-pre.5
         compatible:
         - 2.0.0-preview.6
         - 2.0.1-preview.1
@@ -1592,7 +1601,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.31
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.test-framework@1.1.31
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.test-framework@1.1.31
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -1644,8 +1653,6 @@ m_PackageAssets:
         - 2.0.1-pre.12
         - 2.0.1-pre.18
         compatible:
-        - 1.1.29
-        - 1.1.30
         - 1.1.31
         - 2.0.1-exp.1
         - 2.0.1-pre.12
@@ -1693,7 +1700,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.6
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -1859,7 +1866,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.6.4
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.timeline@1.6.4
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.timeline@1.6.4
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -2025,7 +2032,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.toolchain.win-x86_64-linux-x86_64@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.toolchain.win-x86_64-linux-x86_64@1.0.0
       assetPath: Packages/com.unity.toolchain.win-x86_64-linux-x86_64
       name: com.unity.toolchain.win-x86_64-linux-x86_64
       displayName: Toolchain Win Linux x64
@@ -2060,6 +2067,8 @@ m_PackageAssets:
         - 0.1.21-preview
         - 1.0.0
         - 2.0.0
+        - 2.0.1
+        - 2.0.2
         compatible:
         - 0.1.4-preview
         - 0.1.5-preview
@@ -2080,6 +2089,8 @@ m_PackageAssets:
         - 0.1.21-preview
         - 1.0.0
         - 2.0.0
+        - 2.0.1
+        - 2.0.2
         verified: 
       dependencies:
       - name: com.unity.sysroot
@@ -2121,7 +2132,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.ugui@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.ugui@1.0.0
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -2160,13 +2171,13 @@ m_PackageAssets:
       - Unity UI
       - Canvas
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -2184,7 +2195,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.2.2
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.arfoundation@4.2.2
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.arfoundation@4.2.2
       assetPath: Packages/com.unity.xr.arfoundation
       name: com.unity.xr.arfoundation
       displayName: AR Foundation
@@ -2270,6 +2281,7 @@ m_PackageAssets:
         - 4.1.5
         - 4.1.7
         - 4.1.9
+        - 4.1.10
         - 4.2.0-pre.2
         - 4.2.0-pre.3
         - 4.2.0-pre.4
@@ -2282,11 +2294,13 @@ m_PackageAssets:
         - 4.2.0
         - 4.2.1
         - 4.2.2
+        - 4.2.3
         - 5.0.0-pre.5
         - 5.0.0-pre.6
         - 5.0.0-pre.7
         - 5.0.0-pre.8
         - 5.0.0-pre.9
+        - 5.0.0-pre.12
         compatible:
         - 1.0.0-preview.12
         - 1.0.0-preview.13
@@ -2355,6 +2369,7 @@ m_PackageAssets:
         - 4.1.5
         - 4.1.7
         - 4.1.9
+        - 4.1.10
         - 4.2.0-pre.2
         - 4.2.0-pre.3
         - 4.2.0-pre.4
@@ -2367,7 +2382,8 @@ m_PackageAssets:
         - 4.2.0
         - 4.2.1
         - 4.2.2
-        verified: 4.1.9
+        - 4.2.3
+        verified: 4.1.10
       dependencies:
       - name: com.unity.xr.arsubsystems
         version: 4.2.2
@@ -2393,7 +2409,7 @@ m_PackageAssets:
       - name: com.unity.modules.xr
         version: 1.0.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.8
+        version: 2.1.9
       - name: com.unity.modules.particlesystem
         version: 1.0.0
       keywords:
@@ -2430,7 +2446,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.1
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.1
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.1
       assetPath: Packages/com.unity.xr.interaction.toolkit
       name: com.unity.xr.interaction.toolkit
       displayName: XR Interaction Toolkit
@@ -2469,6 +2485,8 @@ m_PackageAssets:
         - 2.0.0-pre.7
         - 2.0.0
         - 2.0.1
+        - 2.0.2
+        - 2.1.0-pre.1
         compatible:
         - 0.0.6-preview
         - 0.9.0-preview
@@ -2489,6 +2507,8 @@ m_PackageAssets:
         - 2.0.0-pre.7
         - 2.0.0
         - 2.0.1
+        - 2.0.2
+        - 2.1.0-pre.1
         verified: 
       dependencies:
       - name: com.unity.inputsystem
@@ -2529,7 +2549,7 @@ m_PackageAssets:
       - name: com.unity.modules.subsystems
         version: 1.0.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.8
+        version: 2.1.9
       - name: com.unity.modules.vr
         version: 1.0.0
       - name: com.unity.modules.audio
@@ -2564,7 +2584,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.1
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.interactionsubsystems@1.0.1
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.interactionsubsystems@1.0.1
       assetPath: Packages/com.unity.xr.interactionsubsystems
       name: com.unity.xr.interactionsubsystems
       displayName: XR Interaction Subsystems
@@ -2627,7 +2647,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 6.4.1
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.magicleap@6.4.1
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.magicleap@6.4.1
       assetPath: Packages/com.unity.xr.magicleap
       name: com.unity.xr.magicleap
       displayName: Magic Leap XR Plugin
@@ -2780,7 +2800,7 @@ m_PackageAssets:
       - name: com.unity.xr.management
         version: 4.2.1
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.8
+        version: 2.1.9
       - name: com.unity.xr.interactionsubsystems
         version: 1.0.1
       keywords:
@@ -2815,7 +2835,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.2.1
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.management@4.2.1
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.management@4.2.1
       assetPath: Packages/com.unity.xr.management
       name: com.unity.xr.management
       displayName: XR Plugin Management
@@ -2916,7 +2936,7 @@ m_PackageAssets:
       - name: com.unity.modules.xr
         version: 1.0.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.8
+        version: 2.1.9
       - name: com.unity.subsystemregistration
         version: 1.1.0
       keywords:
@@ -2947,123 +2967,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
         revision: 9c99228887ff65cc0729434b3b9371d22b707cb9
         path: 
-    - packageId: com.unity.xr.openxr@1.4.1
-      testable: 0
-      isDirectDependency: 1
-      version: 1.4.1
-      source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.openxr@1.4.1
-      assetPath: Packages/com.unity.xr.openxr
-      name: com.unity.xr.openxr
-      displayName: OpenXR Plugin
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: OpenXR is an open, royalty-free standard developed by Khronos
-        that aims to simplify AR/VR development by allowing developers to target
-        a wide range of AR/VR devices. Use this plug-in to enable OpenXR in XR Plug-in
-        Management.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 0.1.1-preview.1
-        - 0.1.2-preview.2
-        - 1.0.0-pre.1
-        - 1.0.2
-        - 1.0.3
-        - 1.1.1
-        - 1.2.0
-        - 1.2.2
-        - 1.2.3
-        - 1.2.8
-        - 1.3.0
-        - 1.3.1
-        - 1.4.0
-        - 1.4.1
-        compatible:
-        - 0.1.1-preview.1
-        - 0.1.2-preview.2
-        - 1.0.2
-        - 1.0.3
-        - 1.1.1
-        - 1.2.0
-        - 1.2.2
-        - 1.2.3
-        - 1.2.8
-        - 1.3.0
-        - 1.3.1
-        - 1.4.0
-        - 1.4.1
-        verified: 1.3.1
-      dependencies:
-      - name: com.unity.xr.management
-        version: 4.0.1
-      - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.2
-      - name: com.unity.inputsystem
-        version: 1.3.0
-      resolvedDependencies:
-      - name: com.unity.xr.management
-        version: 4.2.1
-      - name: com.unity.modules.subsystems
-        version: 1.0.0
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
-      - name: com.unity.modules.vr
-        version: 1.0.0
-      - name: com.unity.modules.physics
-        version: 1.0.0
-      - name: com.unity.modules.xr
-        version: 1.0.0
-      - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.8
-      - name: com.unity.subsystemregistration
-        version: 1.1.0
-      - name: com.unity.inputsystem
-        version: 1.3.0
-      - name: com.unity.modules.uielements
-        version: 1.0.0
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      - name: com.unity.modules.uielementsnative
-        version: 1.0.0
-      keywords:
-      - openxr
-      - xr
-      - reality
-      - xreditorsubsystem
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637855523330000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/xr.sdk.openxr.git
-        revision: 3e32a6803be6624fae3cad273ca346404003bd5f
-        path: 
     - packageId: com.unity.modules.ai@1.0.0
       testable: 0
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.ai@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.ai@1.0.0
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -3087,13 +2996,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -3111,7 +3020,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.androidjni@1.0.0
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -3135,13 +3044,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -3159,7 +3068,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.animation@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.animation@1.0.0
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -3183,13 +3092,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -3207,7 +3116,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -3231,13 +3140,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -3255,7 +3164,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.audio@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.audio@1.0.0
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -3279,13 +3188,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -3303,7 +3212,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.cloth@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.cloth@1.0.0
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -3331,13 +3240,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -3355,7 +3264,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.director@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.director@1.0.0
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -3387,13 +3296,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -3411,7 +3320,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -3436,13 +3345,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -3460,7 +3369,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.imgui@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.imgui@1.0.0
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -3484,13 +3393,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -3508,7 +3417,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -3532,13 +3441,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -3556,7 +3465,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -3580,13 +3489,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -3604,7 +3513,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.physics@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.physics@1.0.0
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -3628,13 +3537,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -3652,7 +3561,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.physics2d@1.0.0
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -3676,13 +3585,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -3700,7 +3609,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.screencapture@1.0.0
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -3728,13 +3637,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -3752,7 +3661,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.terrain@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.terrain@1.0.0
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -3776,13 +3685,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -3800,7 +3709,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -3832,13 +3741,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -3856,7 +3765,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.tilemap@1.0.0
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -3884,13 +3793,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -3908,7 +3817,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.ui@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.ui@1.0.0
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -3932,13 +3841,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -3956,7 +3865,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.uielements@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.uielements@1.0.0
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -3996,13 +3905,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -4020,7 +3929,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.umbra@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.umbra@1.0.0
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -4044,13 +3953,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -4068,7 +3977,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -4100,13 +4009,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -4124,7 +4033,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -4148,13 +4057,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -4172,7 +4081,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -4204,13 +4113,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -4228,7 +4137,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -4260,13 +4169,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -4284,7 +4193,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -4316,13 +4225,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -4340,7 +4249,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -4388,13 +4297,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -4412,7 +4321,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.vehicles@1.0.0
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -4440,13 +4349,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -4464,7 +4373,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.video@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.video@1.0.0
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -4500,13 +4409,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -4524,7 +4433,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.vr@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.vr@1.0.0
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -4562,13 +4471,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -4586,7 +4495,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.wind@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.wind@1.0.0
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -4610,13 +4519,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -4634,7 +4543,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.xr@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.xr@1.0.0
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -4670,13 +4579,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -4694,7 +4603,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.subsystems@1.0.0
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -4722,13 +4631,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -4746,7 +4655,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -4781,13 +4690,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -4800,12 +4709,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.xr.legacyinputhelpers@2.1.8
+    - packageId: com.unity.xr.legacyinputhelpers@2.1.9
       testable: 0
       isDirectDependency: 0
-      version: 2.1.8
+      version: 2.1.9
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.8
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9
       assetPath: Packages/com.unity.xr.legacyinputhelpers
       name: com.unity.xr.legacyinputhelpers
       displayName: XR Legacy Input Helpers
@@ -4850,7 +4759,6 @@ m_PackageAssets:
         - 2.1.8
         - 2.1.9
         compatible:
-        - 2.1.8
         - 2.1.9
         verified: 2.1.9
       dependencies:
@@ -4887,20 +4795,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637623088970000000
+      datePublishedTicks: 637812095140000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
-        revision: ed3b32c709a0e51cf73fda4b200c59b48955c4be
+        revision: 8e4581a11c14b64d41aabb67f51b0d8a0c75f5c4
         path: 
     - packageId: com.unity.inputsystem@1.3.0
       testable: 0
       isDirectDependency: 0
       version: 1.3.0
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.inputsystem@1.3.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.inputsystem@1.3.0
       assetPath: Packages/com.unity.inputsystem
       name: com.unity.inputsystem
       displayName: Input System
@@ -5030,7 +4938,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 2.0.0
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.core-utils@2.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.core-utils@2.0.0
       assetPath: Packages/com.unity.xr.core-utils
       name: com.unity.xr.core-utils
       displayName: XR Core Utilities
@@ -5056,11 +4964,13 @@ m_PackageAssets:
         - 2.0.0-pre.5
         - 2.0.0-pre.6
         - 2.0.0
+        - 2.1.0-pre.1
         compatible:
         - 2.0.0-pre.3
         - 2.0.0-pre.5
         - 2.0.0-pre.6
         - 2.0.0
+        - 2.1.0-pre.1
         verified: 
       dependencies:
       - name: com.unity.modules.xr
@@ -5107,7 +5017,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.2.2
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.arsubsystems@4.2.2
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.arsubsystems@4.2.2
       assetPath: Packages/com.unity.xr.arsubsystems
       name: com.unity.xr.arsubsystems
       displayName: AR Subsystems
@@ -5176,6 +5086,7 @@ m_PackageAssets:
         - 4.1.5
         - 4.1.7
         - 4.1.9
+        - 4.1.10
         - 4.2.0-pre.2
         - 4.2.0-pre.3
         - 4.2.0-pre.4
@@ -5188,13 +5099,16 @@ m_PackageAssets:
         - 4.2.0
         - 4.2.1
         - 4.2.2
+        - 4.2.3
         - 5.0.0-pre.5
         - 5.0.0-pre.6
         - 5.0.0-pre.7
         - 5.0.0-pre.8
         - 5.0.0-pre.9
+        - 5.0.0-pre.12
         compatible:
         - 4.1.9
+        - 4.1.10
         - 4.2.0-pre.2
         - 4.2.0-pre.3
         - 4.2.0-pre.4
@@ -5207,7 +5121,8 @@ m_PackageAssets:
         - 4.2.0
         - 4.2.1
         - 4.2.2
-        verified: 4.1.9
+        - 4.2.3
+        verified: 4.1.10
       dependencies:
       - name: com.unity.subsystemregistration
         version: 1.1.0
@@ -5229,7 +5144,7 @@ m_PackageAssets:
       - name: com.unity.modules.xr
         version: 1.0.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.8
+        version: 2.1.9
       keywords:
       - subsystem
       - XR
@@ -5259,7 +5174,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.sysroot@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.sysroot@1.0.0
       assetPath: Packages/com.unity.sysroot
       name: com.unity.sysroot
       displayName: Sysroot Base
@@ -5289,6 +5204,8 @@ m_PackageAssets:
         - 0.1.19-preview
         - 1.0.0
         - 2.0.0
+        - 2.0.2
+        - 2.0.3
         compatible:
         - 0.1.7-preview
         - 0.1.8-preview
@@ -5304,6 +5221,8 @@ m_PackageAssets:
         - 0.1.19-preview
         - 1.0.0
         - 2.0.0
+        - 2.0.2
+        - 2.0.3
         verified: 
       dependencies: []
       resolvedDependencies: []
@@ -5336,7 +5255,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.sysroot.linux-x86_64@1.0.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.sysroot.linux-x86_64@1.0.0
       assetPath: Packages/com.unity.sysroot.linux-x86_64
       name: com.unity.sysroot.linux-x86_64
       displayName: Sysroot Linux x64
@@ -5363,6 +5282,8 @@ m_PackageAssets:
         - 0.1.15-preview
         - 1.0.0
         - 2.0.0
+        - 2.0.1
+        - 2.0.2
         compatible:
         - 0.1.6-preview
         - 0.1.7-preview
@@ -5376,6 +5297,8 @@ m_PackageAssets:
         - 0.1.15-preview
         - 1.0.0
         - 2.0.0
+        - 2.0.1
+        - 2.0.2
         verified: 
       dependencies:
       - name: com.unity.sysroot
@@ -5412,7 +5335,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.1
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.services.core@1.0.1
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.services.core@1.0.1
       assetPath: Packages/com.unity.services.core
       name: com.unity.services.core
       displayName: Services Core
@@ -5442,6 +5365,8 @@ m_PackageAssets:
         - 1.2.0
         - 1.3.1
         - 1.3.2
+        - 1.4.0
+        - 1.4.1
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -5454,7 +5379,9 @@ m_PackageAssets:
         - 1.2.0
         - 1.3.1
         - 1.3.2
-        verified: 1.0.1
+        - 1.4.0
+        - 1.4.1
+        verified: 1.4.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
         version: 1.0.0
@@ -5482,12 +5409,125 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
         revision: 4cd880d4fd5c60597629249bf4f324e4c8d7aa2e
         path: 
+    - packageId: com.unity.xr.openxr@1.4.2
+      testable: 0
+      isDirectDependency: 1
+      version: 1.4.2
+      source: 1
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.xr.openxr@1.4.2
+      assetPath: Packages/com.unity.xr.openxr
+      name: com.unity.xr.openxr
+      displayName: OpenXR Plugin
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: OpenXR is an open, royalty-free standard developed by Khronos
+        that aims to simplify AR/VR development by allowing developers to target
+        a wide range of AR/VR devices. Use this plug-in to enable OpenXR in XR Plug-in
+        Management.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.1-preview.1
+        - 0.1.2-preview.2
+        - 1.0.0-pre.1
+        - 1.0.2
+        - 1.0.3
+        - 1.1.1
+        - 1.2.0
+        - 1.2.2
+        - 1.2.3
+        - 1.2.8
+        - 1.3.0
+        - 1.3.1
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        compatible:
+        - 0.1.1-preview.1
+        - 0.1.2-preview.2
+        - 1.0.2
+        - 1.0.3
+        - 1.1.1
+        - 1.2.0
+        - 1.2.2
+        - 1.2.3
+        - 1.2.8
+        - 1.3.0
+        - 1.3.1
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        verified: 1.4.2
+      dependencies:
+      - name: com.unity.xr.management
+        version: 4.0.1
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.2
+      - name: com.unity.inputsystem
+        version: 1.3.0
+      resolvedDependencies:
+      - name: com.unity.xr.management
+        version: 4.2.1
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.vr
+        version: 1.0.0
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.xr
+        version: 1.0.0
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.9
+      - name: com.unity.subsystemregistration
+        version: 1.1.0
+      - name: com.unity.inputsystem
+        version: 1.3.0
+      - name: com.unity.modules.uielements
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.uielementsnative
+        version: 1.0.0
+      keywords:
+      - openxr
+      - xr
+      - reality
+      - xreditorsubsystem
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637884092510000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/xr.sdk.openxr.git
+        revision: 9f7014aa33bf536ec867484ee501dec6c2a4bc16
+        path: 
     - packageId: com.unity.subsystemregistration@1.1.0
       testable: 0
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: D:\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.subsystemregistration@1.1.0
+      resolvedPath: D:\dist\NASA-SUITS-AR-Displays\Library\PackageCache\com.unity.subsystemregistration@1.1.0
       assetPath: Packages/com.unity.subsystemregistration
       name: com.unity.subsystemregistration
       displayName: Subsystem Registration
@@ -5548,145 +5588,145 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus:
-    - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.object-anchors.runtime-0.19.0.tgz/package.json
+    - m_FilePath: D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.object-anchors.runtime-0.19.0.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.object-anchors.runtime-0.19.0.tgz
+    - m_FilePath: D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.object-anchors.runtime-0.19.0.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637824820698575990
+        ticks: 637894835347552115
       m_Hash: 797392719
-    - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.core-2.12.0.tgz/package.json
+    - m_FilePath: D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.core-2.12.0.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.core-2.12.0.tgz
+    - m_FilePath: D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.core-2.12.0.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637824820663654410
+        ticks: 637894835396194065
       m_Hash: 3075304
-    - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.windows-2.12.0.tgz/package.json
+    - m_FilePath: D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.windows-2.12.0.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.windows-2.12.0.tgz
+    - m_FilePath: D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.windows-2.12.0.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637824820708047185
+        ticks: 637894835466002897
       m_Hash: 2192533702
-    - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.4.0.tgz/package.json
+    - m_FilePath: D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.4.1.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.4.0.tgz
+    - m_FilePath: D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.4.1.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637855377453277717
-      m_Hash: 3343198222
-    - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.3.tgz/package.json
+        ticks: 637904922542210418
+      m_Hash: 3283315275
+    - m_FilePath: D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.3.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.3.tgz
+    - m_FilePath: D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.3.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637829626398944721
+        ticks: 637894835483776820
       m_Hash: 3612649047
-    - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.3.tgz/package.json
+    - m_FilePath: D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.3.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.3.tgz
+    - m_FilePath: D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.3.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637829626261574901
+        ticks: 637894835491715317
       m_Hash: 3675552526
-    - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.3.tgz/package.json
+    - m_FilePath: D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.3.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.3.tgz
+    - m_FilePath: D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.3.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637829561718044319
+        ticks: 637894835505036726
       m_Hash: 3313935279
-    - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.3.tgz/package.json
+    - m_FilePath: D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.3.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.3.tgz
+    - m_FilePath: D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.3.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637829561717214369
+        ticks: 637894835505927959
       m_Hash: 418450698
-    - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.7.3.tgz/package.json
+    - m_FilePath: D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.7.3.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.7.3.tgz
+    - m_FilePath: D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.7.3.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637829626253182533
+        ticks: 637894835505927959
       m_Hash: 419775529
-    - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.7.3.tgz/package.json
+    - m_FilePath: D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.7.3.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: D:\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.7.3.tgz
+    - m_FilePath: D:\dist\NASA-SUITS-AR-Displays\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.7.3.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637829626264150639
+        ticks: 637894835506396670
       m_Hash: 762988747
-m_ProjectPath: D:/NASA-SUITS-AR-Displays/Packages
-m_EditorVersion: 2020.3.30f1 (1fb1bf06830e)
+m_ProjectPath: D:/dist/NASA-SUITS-AR-Displays/Packages
+m_EditorVersion: 2020.3.35f1 (18e4db7a9996)

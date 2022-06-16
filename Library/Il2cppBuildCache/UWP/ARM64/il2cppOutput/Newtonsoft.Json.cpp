@@ -19262,7 +19262,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19
 		L_1 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		String_t* L_2;
-		L_2 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_1);
+		L_2 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_1);
 		bool L_3;
 		L_3 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_2, _stringLiteral4D76D6CCB5F49599732D1DB1BB6FCA9B4532AD01, /*hidden argument*/NULL);
 		if (!L_3)
@@ -19502,7 +19502,7 @@ IL_008d:
 		Type_t * L_32 = V_1;
 		NullCheck(L_32);
 		String_t* L_33;
-		L_33 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_32);
+		L_33 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_32);
 		bool L_34;
 		L_34 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_33, _stringLiteral4D76D6CCB5F49599732D1DB1BB6FCA9B4532AD01, /*hidden argument*/NULL);
 		if (!L_34)
@@ -19674,7 +19674,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BinaryConverter_CanConvert_mB36DF72CD8F9
 		Type_t * L_0 = ___objectType0;
 		NullCheck(L_0);
 		String_t* L_1;
-		L_1 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_0);
+		L_1 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_0);
 		bool L_2;
 		L_2 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_1, _stringLiteral4D76D6CCB5F49599732D1DB1BB6FCA9B4532AD01, /*hidden argument*/NULL);
 		if (!L_2)
@@ -26377,7 +26377,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConstructorInfo_t449AEC508DCA508EE46784C4F271
 		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_4);
 		NullCheck(L_1);
 		Type_t * L_5;
-		L_5 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(107 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_1, L_3);
+		L_5 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(106 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_1, L_3);
 		V_0 = L_5;
 		Type_t * L_6 = ___collectionType0;
 		Type_t * L_7 = ___collectionItemType1;
@@ -26426,7 +26426,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConstructorInfo_t449AEC508DCA508EE46784C4F271
 		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_4);
 		NullCheck(L_1);
 		Type_t * L_5;
-		L_5 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(107 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_1, L_3);
+		L_5 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(106 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_1, L_3);
 		V_0 = L_5;
 		V_1 = (ConstructorInfo_t449AEC508DCA508EE46784C4F2716545488ACD5B *)NULL;
 		Type_t * L_6 = ___collectionType0;
@@ -26456,7 +26456,7 @@ IL_002c:
 			ConstructorInfo_t449AEC508DCA508EE46784C4F2716545488ACD5B * L_11 = V_3;
 			NullCheck(L_11);
 			ParameterInfoU5BU5D_tB1B367487BAA9E1B2DA7EAA95B443D0B183AF80B* L_12;
-			L_12 = VirtFuncInvoker0< ParameterInfoU5BU5D_tB1B367487BAA9E1B2DA7EAA95B443D0B183AF80B* >::Invoke(19 /* System.Reflection.ParameterInfo[] System.Reflection.MethodBase::GetParameters() */, L_11);
+			L_12 = VirtFuncInvoker0< ParameterInfoU5BU5D_tB1B367487BAA9E1B2DA7EAA95B443D0B183AF80B* >::Invoke(18 /* System.Reflection.ParameterInfo[] System.Reflection.MethodBase::GetParameters() */, L_11);
 			V_4 = (RuntimeObject*)L_12;
 			RuntimeObject* L_13 = V_4;
 			NullCheck(L_13);
@@ -26476,7 +26476,7 @@ IL_0045:
 			L_16 = InterfaceFuncInvoker1< ParameterInfo_t9D9DBDD93E685815E35F4F6D6F58E90EBC8852B7 *, int32_t >::Invoke(0 /* !0 System.Collections.Generic.IList`1<System.Reflection.ParameterInfo>::get_Item(System.Int32) */, IList_1_t8F74EAED104F0A35E1CFEB0AA58667E0E38FFD01_il2cpp_TypeInfo_var, L_15, 0);
 			NullCheck(L_16);
 			Type_t * L_17;
-			L_17 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_16);
+			L_17 = VirtFuncInvoker0< Type_t * >::Invoke(7 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_16);
 			V_5 = L_17;
 			Type_t * L_18 = V_0;
 			Type_t * L_19 = V_5;
@@ -27314,7 +27314,7 @@ IL_002b:
 		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_22);
 		NullCheck(L_18);
 		Type_t * L_23;
-		L_23 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(107 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_18, L_20);
+		L_23 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(106 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_18, L_20);
 		bool* L_24 = ___isEnum1;
 		*((int8_t*)L_24) = (int8_t)1;
 		IL2CPP_RUNTIME_CLASS_INIT(ConvertUtils_t3E09421BCC5937191033C5D56C8F438A459D131B_il2cpp_TypeInfo_var);
@@ -36261,7 +36261,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultContractResolver_ShouldSerializeE
 		PropertyInfo_t * L_2 = V_0;
 		NullCheck(L_2);
 		Type_t * L_3;
-		L_3 = VirtFuncInvoker0< Type_t * >::Invoke(23 /* System.Type System.Reflection.PropertyInfo::get_PropertyType() */, L_2);
+		L_3 = VirtFuncInvoker0< Type_t * >::Invoke(22 /* System.Type System.Reflection.PropertyInfo::get_PropertyType() */, L_2);
 		IL2CPP_RUNTIME_CLASS_INIT(TypeExtensions_t406B076970B54E5920E9F0D33844AE5481A3BDB7_il2cpp_TypeInfo_var);
 		bool L_4;
 		L_4 = TypeExtensions_IsGenericType_m16A81415AB5FD132A878ABF8E1441CCE48E98BEE(L_3, /*hidden argument*/NULL);
@@ -36274,13 +36274,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultContractResolver_ShouldSerializeE
 		PropertyInfo_t * L_5 = V_0;
 		NullCheck(L_5);
 		Type_t * L_6;
-		L_6 = VirtFuncInvoker0< Type_t * >::Invoke(23 /* System.Type System.Reflection.PropertyInfo::get_PropertyType() */, L_5);
+		L_6 = VirtFuncInvoker0< Type_t * >::Invoke(22 /* System.Type System.Reflection.PropertyInfo::get_PropertyType() */, L_5);
 		NullCheck(L_6);
 		Type_t * L_7;
-		L_7 = VirtFuncInvoker0< Type_t * >::Invoke(113 /* System.Type System.Type::GetGenericTypeDefinition() */, L_6);
+		L_7 = VirtFuncInvoker0< Type_t * >::Invoke(112 /* System.Type System.Type::GetGenericTypeDefinition() */, L_6);
 		NullCheck(L_7);
 		String_t* L_8;
-		L_8 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_7);
+		L_8 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_7);
 		bool L_9;
 		L_9 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_8, _stringLiteralFA2185790BBBFA49678D5ACF72BA0A089939D474, /*hidden argument*/NULL);
 		if (!L_9)
@@ -36840,7 +36840,7 @@ IL_001d:
 		(L_31)->SetAt(static_cast<il2cpp_array_size_t>(1), (Type_t *)L_32);
 		NullCheck(L_27);
 		Type_t * L_33;
-		L_33 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(107 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_27, L_31);
+		L_33 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(106 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_27, L_31);
 		V_6 = L_33;
 		goto IL_0088;
 	}
@@ -37006,7 +37006,7 @@ IL_0147:
 		(L_84)->SetAt(static_cast<il2cpp_array_size_t>(1), (Type_t *)L_85);
 		NullCheck(L_80);
 		Type_t * L_86;
-		L_86 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(107 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_80, L_84);
+		L_86 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(106 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_80, L_84);
 		IL2CPP_RUNTIME_CLASS_INIT(TypeExtensions_t406B076970B54E5920E9F0D33844AE5481A3BDB7_il2cpp_TypeInfo_var);
 		RuntimeObject* L_87;
 		L_87 = TypeExtensions_GetConstructors_m1B3535EA007787A9DF225A002B87675D4F962C7D(L_86, /*hidden argument*/NULL);
@@ -37252,7 +37252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConstructorInfo_t449AEC508DCA508EE46784C4F271
 		ConstructorInfo_t449AEC508DCA508EE46784C4F2716545488ACD5B * L_9 = V_1;
 		NullCheck(L_9);
 		ParameterInfoU5BU5D_tB1B367487BAA9E1B2DA7EAA95B443D0B183AF80B* L_10;
-		L_10 = VirtFuncInvoker0< ParameterInfoU5BU5D_tB1B367487BAA9E1B2DA7EAA95B443D0B183AF80B* >::Invoke(19 /* System.Reflection.ParameterInfo[] System.Reflection.MethodBase::GetParameters() */, L_9);
+		L_10 = VirtFuncInvoker0< ParameterInfoU5BU5D_tB1B367487BAA9E1B2DA7EAA95B443D0B183AF80B* >::Invoke(18 /* System.Reflection.ParameterInfo[] System.Reflection.MethodBase::GetParameters() */, L_9);
 		V_2 = L_10;
 		ParameterInfoU5BU5D_tB1B367487BAA9E1B2DA7EAA95B443D0B183AF80B* L_11 = V_2;
 		NullCheck(L_11);
@@ -37280,11 +37280,11 @@ IL_0035:
 		ParameterInfo_t9D9DBDD93E685815E35F4F6D6F58E90EBC8852B7 * L_18 = V_5;
 		NullCheck(L_18);
 		String_t* L_19;
-		L_19 = VirtFuncInvoker0< String_t* >::Invoke(11 /* System.String System.Reflection.ParameterInfo::get_Name() */, L_18);
+		L_19 = VirtFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Reflection.ParameterInfo::get_Name() */, L_18);
 		ParameterInfo_t9D9DBDD93E685815E35F4F6D6F58E90EBC8852B7 * L_20 = V_5;
 		NullCheck(L_20);
 		Type_t * L_21;
-		L_21 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_20);
+		L_21 = VirtFuncInvoker0< Type_t * >::Invoke(7 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_20);
 		JsonProperty_tC3DF24A38DA04DDFF3942784DC08AEEC53D5C788 * L_22;
 		L_22 = DefaultContractResolver_MatchProperty_m658736E8551E4E986688149149B646DB21A49FA5(__this, L_17, L_19, L_21, /*hidden argument*/NULL);
 		V_6 = L_22;
@@ -37412,11 +37412,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DefaultContractResolver_Create
 		ConstructorInfo_t449AEC508DCA508EE46784C4F2716545488ACD5B * L_0 = ___constructor0;
 		NullCheck(L_0);
 		ParameterInfoU5BU5D_tB1B367487BAA9E1B2DA7EAA95B443D0B183AF80B* L_1;
-		L_1 = VirtFuncInvoker0< ParameterInfoU5BU5D_tB1B367487BAA9E1B2DA7EAA95B443D0B183AF80B* >::Invoke(19 /* System.Reflection.ParameterInfo[] System.Reflection.MethodBase::GetParameters() */, L_0);
+		L_1 = VirtFuncInvoker0< ParameterInfoU5BU5D_tB1B367487BAA9E1B2DA7EAA95B443D0B183AF80B* >::Invoke(18 /* System.Reflection.ParameterInfo[] System.Reflection.MethodBase::GetParameters() */, L_0);
 		ConstructorInfo_t449AEC508DCA508EE46784C4F2716545488ACD5B * L_2 = ___constructor0;
 		NullCheck(L_2);
 		Type_t * L_3;
-		L_3 = VirtFuncInvoker0< Type_t * >::Invoke(9 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_2);
+		L_3 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_2);
 		JsonPropertyCollection_tBA02C08A880BBA61B97CE7712093F14BE27EF4D1 * L_4 = (JsonPropertyCollection_tBA02C08A880BBA61B97CE7712093F14BE27EF4D1 *)il2cpp_codegen_object_new(JsonPropertyCollection_tBA02C08A880BBA61B97CE7712093F14BE27EF4D1_il2cpp_TypeInfo_var);
 		JsonPropertyCollection__ctor_mE779ACE612A4A7A60273DB80D9E10BAD26EF8D7F(L_4, L_3, /*hidden argument*/NULL);
 		V_0 = L_4;
@@ -37437,11 +37437,11 @@ IL_0017:
 		ParameterInfo_t9D9DBDD93E685815E35F4F6D6F58E90EBC8852B7 * L_10 = V_3;
 		NullCheck(L_10);
 		String_t* L_11;
-		L_11 = VirtFuncInvoker0< String_t* >::Invoke(11 /* System.String System.Reflection.ParameterInfo::get_Name() */, L_10);
+		L_11 = VirtFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Reflection.ParameterInfo::get_Name() */, L_10);
 		ParameterInfo_t9D9DBDD93E685815E35F4F6D6F58E90EBC8852B7 * L_12 = V_3;
 		NullCheck(L_12);
 		Type_t * L_13;
-		L_13 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_12);
+		L_13 = VirtFuncInvoker0< Type_t * >::Invoke(7 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_12);
 		JsonProperty_tC3DF24A38DA04DDFF3942784DC08AEEC53D5C788 * L_14;
 		L_14 = DefaultContractResolver_MatchProperty_m658736E8551E4E986688149149B646DB21A49FA5(__this, L_9, L_11, L_13, /*hidden argument*/NULL);
 		V_4 = L_14;
@@ -37455,7 +37455,7 @@ IL_0017:
 		ParameterInfo_t9D9DBDD93E685815E35F4F6D6F58E90EBC8852B7 * L_16 = V_3;
 		NullCheck(L_16);
 		String_t* L_17;
-		L_17 = VirtFuncInvoker0< String_t* >::Invoke(11 /* System.String System.Reflection.ParameterInfo::get_Name() */, L_16);
+		L_17 = VirtFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Reflection.ParameterInfo::get_Name() */, L_16);
 		if (!L_17)
 		{
 			goto IL_0053;
@@ -37643,7 +37643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JsonProperty_tC3DF24A38DA04DDFF3942784DC08AEE
 		ParameterInfo_t9D9DBDD93E685815E35F4F6D6F58E90EBC8852B7 * L_2 = ___parameterInfo1;
 		NullCheck(L_2);
 		Type_t * L_3;
-		L_3 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_2);
+		L_3 = VirtFuncInvoker0< Type_t * >::Invoke(7 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_2);
 		NullCheck(L_1);
 		JsonProperty_set_PropertyType_m71E327AA3FA1033372FF171886B8D51C0C817021(L_1, L_3, /*hidden argument*/NULL);
 		JsonProperty_tC3DF24A38DA04DDFF3942784DC08AEEC53D5C788 * L_4 = V_0;
@@ -37657,14 +37657,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JsonProperty_tC3DF24A38DA04DDFF3942784DC08AEE
 		ParameterInfo_t9D9DBDD93E685815E35F4F6D6F58E90EBC8852B7 * L_9 = ___parameterInfo1;
 		NullCheck(L_9);
 		String_t* L_10;
-		L_10 = VirtFuncInvoker0< String_t* >::Invoke(11 /* System.String System.Reflection.ParameterInfo::get_Name() */, L_9);
+		L_10 = VirtFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Reflection.ParameterInfo::get_Name() */, L_9);
 		ParameterInfo_t9D9DBDD93E685815E35F4F6D6F58E90EBC8852B7 * L_11 = ___parameterInfo1;
 		NullCheck(L_11);
 		MemberInfo_t * L_12;
-		L_12 = VirtFuncInvoker0< MemberInfo_t * >::Invoke(10 /* System.Reflection.MemberInfo System.Reflection.ParameterInfo::get_Member() */, L_11);
+		L_12 = VirtFuncInvoker0< MemberInfo_t * >::Invoke(9 /* System.Reflection.MemberInfo System.Reflection.ParameterInfo::get_Member() */, L_11);
 		NullCheck(L_12);
 		Type_t * L_13;
-		L_13 = VirtFuncInvoker0< Type_t * >::Invoke(9 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_12);
+		L_13 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_12);
 		DefaultContractResolver_SetPropertySettingsFromAttributes_m10EEBCE63510B3CD0E6C8BAB13230AA5D89E5857(__this, L_7, L_8, L_10, L_13, 0, (bool*)(&V_1), /*hidden argument*/NULL);
 		JsonProperty_tC3DF24A38DA04DDFF3942784DC08AEEC53D5C788 * L_14 = V_0;
 		NullCheck(L_14);
@@ -37687,7 +37687,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JsonProperty_tC3DF24A38DA04DDFF3942784DC08AEE
 		ParameterInfo_t9D9DBDD93E685815E35F4F6D6F58E90EBC8852B7 * L_20 = ___parameterInfo1;
 		NullCheck(L_20);
 		String_t* L_21;
-		L_21 = VirtFuncInvoker0< String_t* >::Invoke(11 /* System.String System.Reflection.ParameterInfo::get_Name() */, L_20);
+		L_21 = VirtFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Reflection.ParameterInfo::get_Name() */, L_20);
 		bool L_22;
 		L_22 = String_op_Inequality_mDDA2DDED3E7EF042987EB7180EE3E88105F0AAE2(L_19, L_21, /*hidden argument*/NULL);
 		G_B2_0 = L_17;
@@ -38543,7 +38543,7 @@ IL_005a:
 				MethodInfo_t * L_17 = V_9;
 				NullCheck(L_17);
 				bool L_18;
-				L_18 = VirtFuncInvoker0< bool >::Invoke(27 /* System.Boolean System.Reflection.MethodBase::get_ContainsGenericParameters() */, L_17);
+				L_18 = VirtFuncInvoker0< bool >::Invoke(26 /* System.Boolean System.Reflection.MethodBase::get_ContainsGenericParameters() */, L_17);
 				if (L_18)
 				{
 					goto IL_019e;
@@ -38556,7 +38556,7 @@ IL_006f:
 				MethodInfo_t * L_19 = V_9;
 				NullCheck(L_19);
 				ParameterInfoU5BU5D_tB1B367487BAA9E1B2DA7EAA95B443D0B183AF80B* L_20;
-				L_20 = VirtFuncInvoker0< ParameterInfoU5BU5D_tB1B367487BAA9E1B2DA7EAA95B443D0B183AF80B* >::Invoke(19 /* System.Reflection.ParameterInfo[] System.Reflection.MethodBase::GetParameters() */, L_19);
+				L_20 = VirtFuncInvoker0< ParameterInfoU5BU5D_tB1B367487BAA9E1B2DA7EAA95B443D0B183AF80B* >::Invoke(18 /* System.Reflection.ParameterInfo[] System.Reflection.MethodBase::GetParameters() */, L_19);
 				V_11 = L_20;
 				bool L_21 = V_6;
 				if (L_21)
@@ -38961,7 +38961,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultContractResolver_ShouldSkipDeseri
 		Type_t * L_0 = ___t0;
 		NullCheck(L_0);
 		String_t* L_1;
-		L_1 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Type::get_Name() */, L_0);
+		L_1 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Type::get_Name() */, L_0);
 		bool L_2;
 		L_2 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_1, _stringLiteral89A8A6DFE51E6293077916D2B707D10D9F9A7913, /*hidden argument*/NULL);
 		if (L_2)
@@ -38973,7 +38973,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultContractResolver_ShouldSkipDeseri
 		Type_t * L_3 = ___t0;
 		NullCheck(L_3);
 		String_t* L_4;
-		L_4 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Type::get_Name() */, L_3);
+		L_4 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Type::get_Name() */, L_3);
 		bool L_5;
 		L_5 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_4, _stringLiteralABCBF9237C1838708E0ABCCBC46B379E6CF55480, /*hidden argument*/NULL);
 		if (!L_5)
@@ -39006,7 +39006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultContractResolver_ShouldSkipSerial
 		Type_t * L_0 = ___t0;
 		NullCheck(L_0);
 		String_t* L_1;
-		L_1 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Type::get_Name() */, L_0);
+		L_1 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Type::get_Name() */, L_0);
 		bool L_2;
 		L_2 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_1, _stringLiteral89A8A6DFE51E6293077916D2B707D10D9F9A7913, /*hidden argument*/NULL);
 		if (L_2)
@@ -39018,7 +39018,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultContractResolver_ShouldSkipSerial
 		Type_t * L_3 = ___t0;
 		NullCheck(L_3);
 		String_t* L_4;
-		L_4 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Type::get_Name() */, L_3);
+		L_4 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Type::get_Name() */, L_3);
 		bool L_5;
 		L_5 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_4, _stringLiteralABCBF9237C1838708E0ABCCBC46B379E6CF55480, /*hidden argument*/NULL);
 		if (!L_5)
@@ -39220,7 +39220,7 @@ IL_005c:
 		ConstructorInfo_t449AEC508DCA508EE46784C4F2716545488ACD5B * L_21 = V_2;
 		NullCheck(L_21);
 		ParameterInfoU5BU5D_tB1B367487BAA9E1B2DA7EAA95B443D0B183AF80B* L_22;
-		L_22 = VirtFuncInvoker0< ParameterInfoU5BU5D_tB1B367487BAA9E1B2DA7EAA95B443D0B183AF80B* >::Invoke(19 /* System.Reflection.ParameterInfo[] System.Reflection.MethodBase::GetParameters() */, L_21);
+		L_22 = VirtFuncInvoker0< ParameterInfoU5BU5D_tB1B367487BAA9E1B2DA7EAA95B443D0B183AF80B* >::Invoke(18 /* System.Reflection.ParameterInfo[] System.Reflection.MethodBase::GetParameters() */, L_21);
 		V_4 = L_22;
 		JsonDictionaryContract_tFA1FB24D54F68DAE039B9C2B71A942998430EFF1 * L_23 = V_0;
 		NullCheck(L_23);
@@ -39282,13 +39282,13 @@ IL_0093:
 		(L_39)->SetAt(static_cast<il2cpp_array_size_t>(1), (Type_t *)L_41);
 		NullCheck(L_34);
 		Type_t * L_42;
-		L_42 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(107 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_34, L_39);
+		L_42 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(106 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_34, L_39);
 		NullCheck(L_32);
 		ArrayElementTypeCheck (L_32, L_42);
 		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_42);
 		NullCheck(L_30);
 		Type_t * L_43;
-		L_43 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(107 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_30, L_32);
+		L_43 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(106 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_30, L_32);
 		G_B11_0 = L_43;
 	}
 
@@ -39326,7 +39326,7 @@ IL_00e2:
 		ParameterInfo_t9D9DBDD93E685815E35F4F6D6F58E90EBC8852B7 * L_50 = (L_48)->GetAt(static_cast<il2cpp_array_size_t>(L_49));
 		NullCheck(L_50);
 		Type_t * L_51;
-		L_51 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_50);
+		L_51 = VirtFuncInvoker0< Type_t * >::Invoke(7 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_50);
 		IL2CPP_RUNTIME_CLASS_INIT(TypeExtensions_t406B076970B54E5920E9F0D33844AE5481A3BDB7_il2cpp_TypeInfo_var);
 		bool L_52;
 		L_52 = TypeExtensions_IsAssignableFrom_m10215D3BD09436FE7B18448561BEDDCF0ADAC625(L_47, L_51, /*hidden argument*/NULL);
@@ -39422,7 +39422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JsonArrayContract_tF09D91289F9A4DEE9216C633EB
 		ConstructorInfo_t449AEC508DCA508EE46784C4F2716545488ACD5B * L_7 = V_1;
 		NullCheck(L_7);
 		ParameterInfoU5BU5D_tB1B367487BAA9E1B2DA7EAA95B443D0B183AF80B* L_8;
-		L_8 = VirtFuncInvoker0< ParameterInfoU5BU5D_tB1B367487BAA9E1B2DA7EAA95B443D0B183AF80B* >::Invoke(19 /* System.Reflection.ParameterInfo[] System.Reflection.MethodBase::GetParameters() */, L_7);
+		L_8 = VirtFuncInvoker0< ParameterInfoU5BU5D_tB1B367487BAA9E1B2DA7EAA95B443D0B183AF80B* >::Invoke(18 /* System.Reflection.ParameterInfo[] System.Reflection.MethodBase::GetParameters() */, L_7);
 		V_2 = L_8;
 		JsonArrayContract_tF09D91289F9A4DEE9216C633EB82705F9427E12B * L_9 = V_0;
 		NullCheck(L_9);
@@ -39459,7 +39459,7 @@ IL_003c:
 		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_18);
 		NullCheck(L_14);
 		Type_t * L_19;
-		L_19 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(107 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_14, L_16);
+		L_19 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(106 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_14, L_16);
 		G_B4_0 = L_19;
 	}
 
@@ -39497,7 +39497,7 @@ IL_0068:
 		ParameterInfo_t9D9DBDD93E685815E35F4F6D6F58E90EBC8852B7 * L_26 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
 		NullCheck(L_26);
 		Type_t * L_27;
-		L_27 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_26);
+		L_27 = VirtFuncInvoker0< Type_t * >::Invoke(7 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_26);
 		IL2CPP_RUNTIME_CLASS_INIT(TypeExtensions_t406B076970B54E5920E9F0D33844AE5481A3BDB7_il2cpp_TypeInfo_var);
 		bool L_28;
 		L_28 = TypeExtensions_IsAssignableFrom_m10215D3BD09436FE7B18448561BEDDCF0ADAC625(L_23, L_27, /*hidden argument*/NULL);
@@ -40177,7 +40177,7 @@ IL_000c:
 		MethodInfo_t * L_7 = ___method0;
 		NullCheck(L_7);
 		Type_t * L_8;
-		L_8 = VirtFuncInvoker0< Type_t * >::Invoke(9 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_7);
+		L_8 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_7);
 		IL2CPP_RUNTIME_CLASS_INIT(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DefaultContractResolver_t32E1CDE6DC4E954DCE81A7F9BD2DDA699125C894_il2cpp_TypeInfo_var)));
 		String_t* L_9;
 		L_9 = DefaultContractResolver_GetClrTypeFullName_mA415A07570AA6659AFA44A0B7482CE44D9CBC74B(L_8, /*hidden argument*/NULL);
@@ -40208,7 +40208,7 @@ IL_0032:
 		MethodInfo_t * L_19 = ___method0;
 		NullCheck(L_19);
 		Type_t * L_20;
-		L_20 = VirtFuncInvoker0< Type_t * >::Invoke(9 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_19);
+		L_20 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_19);
 		IL2CPP_RUNTIME_CLASS_INIT(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DefaultContractResolver_t32E1CDE6DC4E954DCE81A7F9BD2DDA699125C894_il2cpp_TypeInfo_var)));
 		String_t* L_21;
 		L_21 = DefaultContractResolver_GetClrTypeFullName_mA415A07570AA6659AFA44A0B7482CE44D9CBC74B(L_20, /*hidden argument*/NULL);
@@ -40239,7 +40239,7 @@ IL_005c:
 		MethodInfo_t * L_29 = ___method0;
 		NullCheck(L_29);
 		Type_t * L_30;
-		L_30 = VirtFuncInvoker0< Type_t * >::Invoke(9 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_29);
+		L_30 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_29);
 		IL2CPP_RUNTIME_CLASS_INIT(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DefaultContractResolver_t32E1CDE6DC4E954DCE81A7F9BD2DDA699125C894_il2cpp_TypeInfo_var)));
 		String_t* L_31;
 		L_31 = DefaultContractResolver_GetClrTypeFullName_mA415A07570AA6659AFA44A0B7482CE44D9CBC74B(L_30, /*hidden argument*/NULL);
@@ -40256,7 +40256,7 @@ IL_0086:
 		MethodInfo_t * L_35 = ___method0;
 		NullCheck(L_35);
 		Type_t * L_36;
-		L_36 = VirtFuncInvoker0< Type_t * >::Invoke(46 /* System.Type System.Reflection.MethodInfo::get_ReturnType() */, L_35);
+		L_36 = VirtFuncInvoker0< Type_t * >::Invoke(45 /* System.Type System.Reflection.MethodInfo::get_ReturnType() */, L_35);
 		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_37 = { reinterpret_cast<intptr_t> (Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_0_0_0_var) };
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_38;
@@ -40273,7 +40273,7 @@ IL_0086:
 		MethodInfo_t * L_40 = ___method0;
 		NullCheck(L_40);
 		Type_t * L_41;
-		L_41 = VirtFuncInvoker0< Type_t * >::Invoke(9 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_40);
+		L_41 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_40);
 		IL2CPP_RUNTIME_CLASS_INIT(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DefaultContractResolver_t32E1CDE6DC4E954DCE81A7F9BD2DDA699125C894_il2cpp_TypeInfo_var)));
 		String_t* L_42;
 		L_42 = DefaultContractResolver_GetClrTypeFullName_mA415A07570AA6659AFA44A0B7482CE44D9CBC74B(L_41, /*hidden argument*/NULL);
@@ -40319,7 +40319,7 @@ IL_00b9:
 		ParameterInfo_t9D9DBDD93E685815E35F4F6D6F58E90EBC8852B7 * L_53 = (L_51)->GetAt(static_cast<il2cpp_array_size_t>(L_52));
 		NullCheck(L_53);
 		Type_t * L_54;
-		L_54 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_53);
+		L_54 = VirtFuncInvoker0< Type_t * >::Invoke(7 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_53);
 		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_55 = { reinterpret_cast<intptr_t> (StreamingContext_t5888E7E8C81AB6EF3B14FDDA6674F458076A8505_0_0_0_var) };
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_56;
@@ -40336,7 +40336,7 @@ IL_00b9:
 		ParameterInfo_t9D9DBDD93E685815E35F4F6D6F58E90EBC8852B7 * L_59 = (L_57)->GetAt(static_cast<il2cpp_array_size_t>(L_58));
 		NullCheck(L_59);
 		Type_t * L_60;
-		L_60 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_59);
+		L_60 = VirtFuncInvoker0< Type_t * >::Invoke(7 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_59);
 		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_61 = { reinterpret_cast<intptr_t> (ErrorContext_tD9B091352F3C603C05E388FFA66D3E3208B075EF_0_0_0_var) };
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_62;
@@ -40355,7 +40355,7 @@ IL_00f7:
 		MethodInfo_t * L_64 = ___method0;
 		NullCheck(L_64);
 		Type_t * L_65;
-		L_65 = VirtFuncInvoker0< Type_t * >::Invoke(9 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_64);
+		L_65 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_64);
 		IL2CPP_RUNTIME_CLASS_INIT(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DefaultContractResolver_t32E1CDE6DC4E954DCE81A7F9BD2DDA699125C894_il2cpp_TypeInfo_var)));
 		String_t* L_66;
 		L_66 = DefaultContractResolver_GetClrTypeFullName_mA415A07570AA6659AFA44A0B7482CE44D9CBC74B(L_65, /*hidden argument*/NULL);
@@ -40397,7 +40397,7 @@ IL_012c:
 		ParameterInfo_t9D9DBDD93E685815E35F4F6D6F58E90EBC8852B7 * L_78 = (L_76)->GetAt(static_cast<il2cpp_array_size_t>(L_77));
 		NullCheck(L_78);
 		Type_t * L_79;
-		L_79 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_78);
+		L_79 = VirtFuncInvoker0< Type_t * >::Invoke(7 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_78);
 		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_80 = { reinterpret_cast<intptr_t> (StreamingContext_t5888E7E8C81AB6EF3B14FDDA6674F458076A8505_0_0_0_var) };
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_81;
@@ -40416,7 +40416,7 @@ IL_0149:
 		MethodInfo_t * L_83 = ___method0;
 		NullCheck(L_83);
 		Type_t * L_84;
-		L_84 = VirtFuncInvoker0< Type_t * >::Invoke(9 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_83);
+		L_84 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_83);
 		IL2CPP_RUNTIME_CLASS_INIT(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DefaultContractResolver_t32E1CDE6DC4E954DCE81A7F9BD2DDA699125C894_il2cpp_TypeInfo_var)));
 		String_t* L_85;
 		L_85 = DefaultContractResolver_GetClrTypeFullName_mA415A07570AA6659AFA44A0B7482CE44D9CBC74B(L_84, /*hidden argument*/NULL);
@@ -40478,7 +40478,7 @@ IL_0010:
 		Type_t * L_4 = ___type0;
 		NullCheck(L_4);
 		String_t* L_5;
-		L_5 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_4);
+		L_5 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_4);
 		return L_5;
 	}
 
@@ -40490,11 +40490,11 @@ IL_0017:
 		Type_t * L_7 = ___type0;
 		NullCheck(L_7);
 		String_t* L_8;
-		L_8 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_Namespace() */, L_7);
+		L_8 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_Namespace() */, L_7);
 		Type_t * L_9 = ___type0;
 		NullCheck(L_9);
 		String_t* L_10;
-		L_10 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Type::get_Name() */, L_9);
+		L_10 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Type::get_Name() */, L_9);
 		String_t* L_11;
 		L_11 = StringUtils_FormatWith_m0C1E31943079BDDC649F300D393B1E6E6BAD71D5(_stringLiteral1517117F1C97F9858A0CAB40CD0F7B384BE59539, L_6, L_8, L_10, /*hidden argument*/NULL);
 		return L_11;
@@ -40777,7 +40777,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JsonProperty_tC3DF24A38DA04DDFF3942784DC08AEE
 		MemberInfo_t * L_5 = ___member0;
 		NullCheck(L_5);
 		Type_t * L_6;
-		L_6 = VirtFuncInvoker0< Type_t * >::Invoke(9 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_5);
+		L_6 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_5);
 		NullCheck(L_4);
 		JsonProperty_set_DeclaringType_m7454D4578DCCD5FEB99BEAEFB88BA2D32B6C8FD9_inline(L_4, L_6, /*hidden argument*/NULL);
 		JsonProperty_tC3DF24A38DA04DDFF3942784DC08AEEC53D5C788 * L_7 = V_0;
@@ -40797,11 +40797,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JsonProperty_tC3DF24A38DA04DDFF3942784DC08AEE
 		MemberInfo_t * L_15 = ___member0;
 		NullCheck(L_15);
 		String_t* L_16;
-		L_16 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_15);
+		L_16 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_15);
 		MemberInfo_t * L_17 = ___member0;
 		NullCheck(L_17);
 		Type_t * L_18;
-		L_18 = VirtFuncInvoker0< Type_t * >::Invoke(9 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_17);
+		L_18 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_17);
 		int32_t L_19 = ___memberSerialization1;
 		DefaultContractResolver_SetPropertySettingsFromAttributes_m10EEBCE63510B3CD0E6C8BAB13230AA5D89E5857(__this, L_13, L_14, L_16, L_18, L_19, (bool*)(&V_1), /*hidden argument*/NULL);
 		int32_t L_20 = ___memberSerialization1;
@@ -41746,11 +41746,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Predicate_1_t5C96B81B31A697B11C4C3767E3298773
 		MemberInfo_t * L_1 = ___member0;
 		NullCheck(L_1);
 		Type_t * L_2;
-		L_2 = VirtFuncInvoker0< Type_t * >::Invoke(9 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_1);
+		L_2 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_1);
 		MemberInfo_t * L_3 = ___member0;
 		NullCheck(L_3);
 		String_t* L_4;
-		L_4 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_3);
+		L_4 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_3);
 		String_t* L_5;
 		L_5 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral7A846A225A3909AB39CFF23BE13DACF54C540FEC, L_4, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(ReflectionUtils_tC5F3EDC1B5774F00A1CDFECD8B8B74735DF70A82_il2cpp_TypeInfo_var);
@@ -41769,7 +41769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Predicate_1_t5C96B81B31A697B11C4C3767E3298773
 		MethodInfo_t * L_9 = V_1;
 		NullCheck(L_9);
 		Type_t * L_10;
-		L_10 = VirtFuncInvoker0< Type_t * >::Invoke(46 /* System.Type System.Reflection.MethodInfo::get_ReturnType() */, L_9);
+		L_10 = VirtFuncInvoker0< Type_t * >::Invoke(45 /* System.Type System.Reflection.MethodInfo::get_ReturnType() */, L_9);
 		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_11 = { reinterpret_cast<intptr_t> (Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_0_0_0_var) };
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_12;
@@ -41832,11 +41832,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultContractResolver_SetIsSpecifiedAc
 		MemberInfo_t * L_1 = ___member1;
 		NullCheck(L_1);
 		Type_t * L_2;
-		L_2 = VirtFuncInvoker0< Type_t * >::Invoke(9 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_1);
+		L_2 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_1);
 		MemberInfo_t * L_3 = ___member1;
 		NullCheck(L_3);
 		String_t* L_4;
-		L_4 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_3);
+		L_4 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_3);
 		String_t* L_5;
 		L_5 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_4, _stringLiteral87C858E345116CE7C4123AF185CDD74EFDD94384, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(TypeExtensions_t406B076970B54E5920E9F0D33844AE5481A3BDB7_il2cpp_TypeInfo_var);
@@ -41853,11 +41853,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultContractResolver_SetIsSpecifiedAc
 		MemberInfo_t * L_8 = ___member1;
 		NullCheck(L_8);
 		Type_t * L_9;
-		L_9 = VirtFuncInvoker0< Type_t * >::Invoke(9 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_8);
+		L_9 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_8);
 		MemberInfo_t * L_10 = ___member1;
 		NullCheck(L_10);
 		String_t* L_11;
-		L_11 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_10);
+		L_11 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_10);
 		String_t* L_12;
 		L_12 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_11, _stringLiteral87C858E345116CE7C4123AF185CDD74EFDD94384, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(TypeExtensions_t406B076970B54E5920E9F0D33844AE5481A3BDB7_il2cpp_TypeInfo_var);
@@ -42397,7 +42397,7 @@ IL_0039:
 		String_t* L_14 = V_1;
 		NullCheck(L_13);
 		Type_t * L_15;
-		L_15 = VirtFuncInvoker1< Type_t *, String_t* >::Invoke(20 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_13, L_14);
+		L_15 = VirtFuncInvoker1< Type_t *, String_t* >::Invoke(18 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_13, L_14);
 		V_3 = L_15;
 		Type_t * L_16 = V_3;
 		if (L_16)
@@ -42446,7 +42446,7 @@ CATCH_005a:
 		Assembly_t * L_24 = V_2;
 		NullCheck(L_24);
 		String_t* L_25;
-		L_25 = VirtFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.Assembly::get_FullName() */, L_24);
+		L_25 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.Assembly::get_FullName() */, L_24);
 		String_t* L_26;
 		L_26 = StringUtils_FormatWith_m0C1E31943079BDDC649F300D393B1E6E6BAD71D5(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA3DE867B22875213D8C91D2CAA3C292A6B85B2E2)), L_22, L_23, L_25, /*hidden argument*/NULL);
 		Exception_t * L_27 = V_4;
@@ -42471,7 +42471,7 @@ IL_007a:
 		Assembly_t * L_32 = V_2;
 		NullCheck(L_32);
 		String_t* L_33;
-		L_33 = VirtFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.Assembly::get_FullName() */, L_32);
+		L_33 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.Assembly::get_FullName() */, L_32);
 		String_t* L_34;
 		L_34 = StringUtils_FormatWith_m0C1E31943079BDDC649F300D393B1E6E6BAD71D5(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA3DE867B22875213D8C91D2CAA3C292A6B85B2E2)), L_30, L_31, L_33, /*hidden argument*/NULL);
 		JsonSerializationException_t1089D3825FC6AF0892636A87C43EE798D25BA320 * L_35 = (JsonSerializationException_t1089D3825FC6AF0892636A87C43EE798D25BA320 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&JsonSerializationException_t1089D3825FC6AF0892636A87C43EE798D25BA320_il2cpp_TypeInfo_var)));
@@ -42543,7 +42543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t * DefaultSerializationBinder_GetGeneri
 		String_t* L_7 = V_2;
 		NullCheck(L_6);
 		Type_t * L_8;
-		L_8 = VirtFuncInvoker1< Type_t *, String_t* >::Invoke(20 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_6, L_7);
+		L_8 = VirtFuncInvoker1< Type_t *, String_t* >::Invoke(18 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_6, L_7);
 		V_3 = L_8;
 		Type_t * L_9 = V_3;
 		if (!L_9)
@@ -42665,7 +42665,7 @@ IL_00a4:
 		L_38 = List_1_ToArray_mB2CE10C5396AA1FDB680D3725ADDBE12BCE0462E(L_37, /*hidden argument*/List_1_ToArray_mB2CE10C5396AA1FDB680D3725ADDBE12BCE0462E_RuntimeMethod_var);
 		NullCheck(L_36);
 		Type_t * L_39;
-		L_39 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(107 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_36, L_38);
+		L_39 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(106 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_36, L_38);
 		V_0 = L_39;
 	}
 
@@ -42717,17 +42717,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultSerializationBinder_BindToName_mB
 		L_2 = IntrospectionExtensions_GetTypeInfo_m77034F8576BE695819427C13103C591277C1B636(L_1, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		Assembly_t * L_3;
-		L_3 = VirtFuncInvoker0< Assembly_t * >::Invoke(25 /* System.Reflection.Assembly System.Reflection.TypeInfo::get_Assembly() */, L_2);
+		L_3 = VirtFuncInvoker0< Assembly_t * >::Invoke(24 /* System.Reflection.Assembly System.Reflection.TypeInfo::get_Assembly() */, L_2);
 		NullCheck(L_3);
 		String_t* L_4;
-		L_4 = VirtFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.Assembly::get_FullName() */, L_3);
+		L_4 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.Assembly::get_FullName() */, L_3);
 		*((RuntimeObject **)L_0) = (RuntimeObject *)L_4;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject **)L_0, (void*)(RuntimeObject *)L_4);
 		String_t** L_5 = ___typeName2;
 		Type_t * L_6 = ___serializedType0;
 		NullCheck(L_6);
 		String_t* L_7;
-		L_7 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_6);
+		L_7 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_6);
 		*((RuntimeObject **)L_5) = (RuntimeObject *)L_7;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject **)L_5, (void*)(RuntimeObject *)L_7);
 		return;

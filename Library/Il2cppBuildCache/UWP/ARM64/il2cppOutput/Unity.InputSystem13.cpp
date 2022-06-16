@@ -566,6 +566,7 @@ IL2CPP_EXTERN_C RuntimeClass* Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_il2
 IL2CPP_EXTERN_C RuntimeClass* Convert_tDA947A979C1DAB4F09C461FAFD94FE194743A671_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Enum_t23B90B40F60E677A8025267341651C94AE079CDA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
@@ -26008,7 +26009,7 @@ CATCH_0033:
 		L_12 = Exception_GetType_mC5B8B5C944B326B751282AB0E8C25A7F85457D9F(L_11, /*hidden argument*/NULL);
 		NullCheck(L_12);
 		String_t* L_13;
-		L_13 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_12);
+		L_13 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_12);
 		int32_t L_14 = ___updateType0;
 		int32_t L_15 = L_14;
 		RuntimeObject * L_16 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NativeInputUpdateType_t4225BE835D53F0F56168B34BEF726468058A5C94_il2cpp_TypeInfo_var)), &L_15);
@@ -26093,13 +26094,13 @@ IL_00c5:
 // Conversion methods for marshalling of: UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo
 IL2CPP_EXTERN_C void OnScreenDeviceInfo_t701029E591B5E506D42354E75C70EA7CE96A602C_marshal_pinvoke(const OnScreenDeviceInfo_t701029E591B5E506D42354E75C70EA7CE96A602C& unmarshaled, OnScreenDeviceInfo_t701029E591B5E506D42354E75C70EA7CE96A602C_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___buffer_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'buffer' of type 'OnScreenDeviceInfo'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___buffer_1Exception, NULL);
+	Exception_t* ___device_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'device' of type 'OnScreenDeviceInfo': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___device_2Exception, NULL);
 }
 IL2CPP_EXTERN_C void OnScreenDeviceInfo_t701029E591B5E506D42354E75C70EA7CE96A602C_marshal_pinvoke_back(const OnScreenDeviceInfo_t701029E591B5E506D42354E75C70EA7CE96A602C_marshaled_pinvoke& marshaled, OnScreenDeviceInfo_t701029E591B5E506D42354E75C70EA7CE96A602C& unmarshaled)
 {
-	Exception_t* ___buffer_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'buffer' of type 'OnScreenDeviceInfo'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___buffer_1Exception, NULL);
+	Exception_t* ___device_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'device' of type 'OnScreenDeviceInfo': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___device_2Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo
 IL2CPP_EXTERN_C void OnScreenDeviceInfo_t701029E591B5E506D42354E75C70EA7CE96A602C_marshal_pinvoke_cleanup(OnScreenDeviceInfo_t701029E591B5E506D42354E75C70EA7CE96A602C_marshaled_pinvoke& marshaled)
@@ -26108,13 +26109,13 @@ IL2CPP_EXTERN_C void OnScreenDeviceInfo_t701029E591B5E506D42354E75C70EA7CE96A602
 // Conversion methods for marshalling of: UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo
 IL2CPP_EXTERN_C void OnScreenDeviceInfo_t701029E591B5E506D42354E75C70EA7CE96A602C_marshal_com(const OnScreenDeviceInfo_t701029E591B5E506D42354E75C70EA7CE96A602C& unmarshaled, OnScreenDeviceInfo_t701029E591B5E506D42354E75C70EA7CE96A602C_marshaled_com& marshaled)
 {
-	Exception_t* ___buffer_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'buffer' of type 'OnScreenDeviceInfo'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___buffer_1Exception, NULL);
+	Exception_t* ___device_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'device' of type 'OnScreenDeviceInfo': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___device_2Exception, NULL);
 }
 IL2CPP_EXTERN_C void OnScreenDeviceInfo_t701029E591B5E506D42354E75C70EA7CE96A602C_marshal_com_back(const OnScreenDeviceInfo_t701029E591B5E506D42354E75C70EA7CE96A602C_marshaled_com& marshaled, OnScreenDeviceInfo_t701029E591B5E506D42354E75C70EA7CE96A602C& unmarshaled)
 {
-	Exception_t* ___buffer_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'buffer' of type 'OnScreenDeviceInfo'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___buffer_1Exception, NULL);
+	Exception_t* ___device_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'device' of type 'OnScreenDeviceInfo': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___device_2Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo
 IL2CPP_EXTERN_C void OnScreenDeviceInfo_t701029E591B5E506D42354E75C70EA7CE96A602C_marshal_com_cleanup(OnScreenDeviceInfo_t701029E591B5E506D42354E75C70EA7CE96A602C_marshaled_com& marshaled)
@@ -31623,34 +31624,132 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3Cget_usagesU3Eb__7_0_mDDE
 // Conversion methods for marshalling of: UnityEngine.InputSystem.InputControlScheme/MatchResult/Enumerator
 IL2CPP_EXTERN_C void Enumerator_t266370635B45A4CE0B182A35DD226145DB253DFF_marshal_pinvoke(const Enumerator_t266370635B45A4CE0B182A35DD226145DB253DFF& unmarshaled, Enumerator_t266370635B45A4CE0B182A35DD226145DB253DFF_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___m_Controls_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Controls' of type 'Enumerator'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Controls_2Exception, NULL);
+	marshaled.___m_Index_0 = unmarshaled.get_m_Index_0();
+	if (unmarshaled.get_m_Requirements_1() != NULL)
+	{
+		il2cpp_array_size_t _unmarshaled_m_Requirements_Length = (unmarshaled.get_m_Requirements_1())->max_length;
+		marshaled.___m_Requirements_1 = il2cpp_codegen_marshal_allocate_array<DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshaled_pinvoke>(_unmarshaled_m_Requirements_Length);
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(_unmarshaled_m_Requirements_Length); i++)
+		{
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshal_pinvoke((unmarshaled.get_m_Requirements_1())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)), (marshaled.___m_Requirements_1)[i]);
+		}
+	}
+	else
+	{
+		marshaled.___m_Requirements_1 = NULL;
+	}
+	marshaled.___m_Controls_2 = unmarshaled.get_m_Controls_2();
 }
 IL2CPP_EXTERN_C void Enumerator_t266370635B45A4CE0B182A35DD226145DB253DFF_marshal_pinvoke_back(const Enumerator_t266370635B45A4CE0B182A35DD226145DB253DFF_marshaled_pinvoke& marshaled, Enumerator_t266370635B45A4CE0B182A35DD226145DB253DFF& unmarshaled)
 {
-	Exception_t* ___m_Controls_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Controls' of type 'Enumerator'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Controls_2Exception, NULL);
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t unmarshaled_m_Index_temp_0 = 0;
+	unmarshaled_m_Index_temp_0 = marshaled.___m_Index_0;
+	unmarshaled.set_m_Index_0(unmarshaled_m_Index_temp_0);
+	if (marshaled.___m_Requirements_1 != NULL)
+	{
+		if (unmarshaled.get_m_Requirements_1() == NULL)
+		{
+			unmarshaled.set_m_Requirements_1(reinterpret_cast<DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A*>((DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A*)SZArrayNew(DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A_il2cpp_TypeInfo_var, 1)));
+		}
+		il2cpp_array_size_t _arrayLength = (unmarshaled.get_m_Requirements_1())->max_length;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(_arrayLength); i++)
+		{
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B  _marshaled____m_Requirements_1_i__unmarshaled;
+			memset((&_marshaled____m_Requirements_1_i__unmarshaled), 0, sizeof(_marshaled____m_Requirements_1_i__unmarshaled));
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshal_pinvoke_back((marshaled.___m_Requirements_1)[i], _marshaled____m_Requirements_1_i__unmarshaled);
+			(unmarshaled.get_m_Requirements_1())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), _marshaled____m_Requirements_1_i__unmarshaled);
+		}
+	}
+	InputControlList_1_t93EF19606838D35DD384F2FA70936A23C387CDE8  unmarshaled_m_Controls_temp_2;
+	memset((&unmarshaled_m_Controls_temp_2), 0, sizeof(unmarshaled_m_Controls_temp_2));
+	unmarshaled_m_Controls_temp_2 = marshaled.___m_Controls_2;
+	unmarshaled.set_m_Controls_2(unmarshaled_m_Controls_temp_2);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.InputSystem.InputControlScheme/MatchResult/Enumerator
 IL2CPP_EXTERN_C void Enumerator_t266370635B45A4CE0B182A35DD226145DB253DFF_marshal_pinvoke_cleanup(Enumerator_t266370635B45A4CE0B182A35DD226145DB253DFF_marshaled_pinvoke& marshaled)
 {
+	if (marshaled.___m_Requirements_1 != NULL)
+	{
+		const il2cpp_array_size_t marshaled____m_Requirements_1_CleanupLoopCount = 1;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(marshaled____m_Requirements_1_CleanupLoopCount); i++)
+		{
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshal_pinvoke_cleanup((marshaled.___m_Requirements_1)[i]);
+		}
+		il2cpp_codegen_marshal_free(marshaled.___m_Requirements_1);
+		marshaled.___m_Requirements_1 = NULL;
+	}
 }
 
 
 // Conversion methods for marshalling of: UnityEngine.InputSystem.InputControlScheme/MatchResult/Enumerator
 IL2CPP_EXTERN_C void Enumerator_t266370635B45A4CE0B182A35DD226145DB253DFF_marshal_com(const Enumerator_t266370635B45A4CE0B182A35DD226145DB253DFF& unmarshaled, Enumerator_t266370635B45A4CE0B182A35DD226145DB253DFF_marshaled_com& marshaled)
 {
-	Exception_t* ___m_Controls_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Controls' of type 'Enumerator'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Controls_2Exception, NULL);
+	marshaled.___m_Index_0 = unmarshaled.get_m_Index_0();
+	if (unmarshaled.get_m_Requirements_1() != NULL)
+	{
+		il2cpp_array_size_t _unmarshaled_m_Requirements_Length = (unmarshaled.get_m_Requirements_1())->max_length;
+		marshaled.___m_Requirements_1 = il2cpp_codegen_marshal_allocate_array<DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshaled_com>(_unmarshaled_m_Requirements_Length);
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(_unmarshaled_m_Requirements_Length); i++)
+		{
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshal_com((unmarshaled.get_m_Requirements_1())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)), (marshaled.___m_Requirements_1)[i]);
+		}
+	}
+	else
+	{
+		marshaled.___m_Requirements_1 = NULL;
+	}
+	marshaled.___m_Controls_2 = unmarshaled.get_m_Controls_2();
 }
 IL2CPP_EXTERN_C void Enumerator_t266370635B45A4CE0B182A35DD226145DB253DFF_marshal_com_back(const Enumerator_t266370635B45A4CE0B182A35DD226145DB253DFF_marshaled_com& marshaled, Enumerator_t266370635B45A4CE0B182A35DD226145DB253DFF& unmarshaled)
 {
-	Exception_t* ___m_Controls_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Controls' of type 'Enumerator'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Controls_2Exception, NULL);
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t unmarshaled_m_Index_temp_0 = 0;
+	unmarshaled_m_Index_temp_0 = marshaled.___m_Index_0;
+	unmarshaled.set_m_Index_0(unmarshaled_m_Index_temp_0);
+	if (marshaled.___m_Requirements_1 != NULL)
+	{
+		if (unmarshaled.get_m_Requirements_1() == NULL)
+		{
+			unmarshaled.set_m_Requirements_1(reinterpret_cast<DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A*>((DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A*)SZArrayNew(DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A_il2cpp_TypeInfo_var, 1)));
+		}
+		il2cpp_array_size_t _arrayLength = (unmarshaled.get_m_Requirements_1())->max_length;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(_arrayLength); i++)
+		{
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B  _marshaled____m_Requirements_1_i__unmarshaled;
+			memset((&_marshaled____m_Requirements_1_i__unmarshaled), 0, sizeof(_marshaled____m_Requirements_1_i__unmarshaled));
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshal_com_back((marshaled.___m_Requirements_1)[i], _marshaled____m_Requirements_1_i__unmarshaled);
+			(unmarshaled.get_m_Requirements_1())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), _marshaled____m_Requirements_1_i__unmarshaled);
+		}
+	}
+	InputControlList_1_t93EF19606838D35DD384F2FA70936A23C387CDE8  unmarshaled_m_Controls_temp_2;
+	memset((&unmarshaled_m_Controls_temp_2), 0, sizeof(unmarshaled_m_Controls_temp_2));
+	unmarshaled_m_Controls_temp_2 = marshaled.___m_Controls_2;
+	unmarshaled.set_m_Controls_2(unmarshaled_m_Controls_temp_2);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.InputSystem.InputControlScheme/MatchResult/Enumerator
 IL2CPP_EXTERN_C void Enumerator_t266370635B45A4CE0B182A35DD226145DB253DFF_marshal_com_cleanup(Enumerator_t266370635B45A4CE0B182A35DD226145DB253DFF_marshaled_com& marshaled)
 {
+	if (marshaled.___m_Requirements_1 != NULL)
+	{
+		const il2cpp_array_size_t marshaled____m_Requirements_1_CleanupLoopCount = 1;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(marshaled____m_Requirements_1_CleanupLoopCount); i++)
+		{
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshal_com_cleanup((marshaled.___m_Requirements_1)[i]);
+		}
+		il2cpp_codegen_marshal_free(marshaled.___m_Requirements_1);
+		marshaled.___m_Requirements_1 = NULL;
+	}
 }
 // System.Boolean UnityEngine.InputSystem.InputControlScheme/MatchResult/Enumerator::MoveNext()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m48392C57AECF4364597C006B858C3F944E5875CE (Enumerator_t266370635B45A4CE0B182A35DD226145DB253DFF * __this, const RuntimeMethod* method)
@@ -31859,34 +31958,132 @@ IL2CPP_EXTERN_C  void Enumerator_Dispose_mDA42B8D5D2355A8E68BA5B8E587D77A710454B
 // Conversion methods for marshalling of: UnityEngine.InputSystem.InputControlScheme/MatchResult/Match
 IL2CPP_EXTERN_C void Match_tE2E63FA1C3F6AD6FC9001880245850AB04E85B9C_marshal_pinvoke(const Match_tE2E63FA1C3F6AD6FC9001880245850AB04E85B9C& unmarshaled, Match_tE2E63FA1C3F6AD6FC9001880245850AB04E85B9C_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___m_Controls_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Controls' of type 'Match'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Controls_2Exception, NULL);
+	marshaled.___m_RequirementIndex_0 = unmarshaled.get_m_RequirementIndex_0();
+	if (unmarshaled.get_m_Requirements_1() != NULL)
+	{
+		il2cpp_array_size_t _unmarshaled_m_Requirements_Length = (unmarshaled.get_m_Requirements_1())->max_length;
+		marshaled.___m_Requirements_1 = il2cpp_codegen_marshal_allocate_array<DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshaled_pinvoke>(_unmarshaled_m_Requirements_Length);
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(_unmarshaled_m_Requirements_Length); i++)
+		{
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshal_pinvoke((unmarshaled.get_m_Requirements_1())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)), (marshaled.___m_Requirements_1)[i]);
+		}
+	}
+	else
+	{
+		marshaled.___m_Requirements_1 = NULL;
+	}
+	marshaled.___m_Controls_2 = unmarshaled.get_m_Controls_2();
 }
 IL2CPP_EXTERN_C void Match_tE2E63FA1C3F6AD6FC9001880245850AB04E85B9C_marshal_pinvoke_back(const Match_tE2E63FA1C3F6AD6FC9001880245850AB04E85B9C_marshaled_pinvoke& marshaled, Match_tE2E63FA1C3F6AD6FC9001880245850AB04E85B9C& unmarshaled)
 {
-	Exception_t* ___m_Controls_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Controls' of type 'Match'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Controls_2Exception, NULL);
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t unmarshaled_m_RequirementIndex_temp_0 = 0;
+	unmarshaled_m_RequirementIndex_temp_0 = marshaled.___m_RequirementIndex_0;
+	unmarshaled.set_m_RequirementIndex_0(unmarshaled_m_RequirementIndex_temp_0);
+	if (marshaled.___m_Requirements_1 != NULL)
+	{
+		if (unmarshaled.get_m_Requirements_1() == NULL)
+		{
+			unmarshaled.set_m_Requirements_1(reinterpret_cast<DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A*>((DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A*)SZArrayNew(DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A_il2cpp_TypeInfo_var, 1)));
+		}
+		il2cpp_array_size_t _arrayLength = (unmarshaled.get_m_Requirements_1())->max_length;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(_arrayLength); i++)
+		{
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B  _marshaled____m_Requirements_1_i__unmarshaled;
+			memset((&_marshaled____m_Requirements_1_i__unmarshaled), 0, sizeof(_marshaled____m_Requirements_1_i__unmarshaled));
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshal_pinvoke_back((marshaled.___m_Requirements_1)[i], _marshaled____m_Requirements_1_i__unmarshaled);
+			(unmarshaled.get_m_Requirements_1())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), _marshaled____m_Requirements_1_i__unmarshaled);
+		}
+	}
+	InputControlList_1_t93EF19606838D35DD384F2FA70936A23C387CDE8  unmarshaled_m_Controls_temp_2;
+	memset((&unmarshaled_m_Controls_temp_2), 0, sizeof(unmarshaled_m_Controls_temp_2));
+	unmarshaled_m_Controls_temp_2 = marshaled.___m_Controls_2;
+	unmarshaled.set_m_Controls_2(unmarshaled_m_Controls_temp_2);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.InputSystem.InputControlScheme/MatchResult/Match
 IL2CPP_EXTERN_C void Match_tE2E63FA1C3F6AD6FC9001880245850AB04E85B9C_marshal_pinvoke_cleanup(Match_tE2E63FA1C3F6AD6FC9001880245850AB04E85B9C_marshaled_pinvoke& marshaled)
 {
+	if (marshaled.___m_Requirements_1 != NULL)
+	{
+		const il2cpp_array_size_t marshaled____m_Requirements_1_CleanupLoopCount = 1;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(marshaled____m_Requirements_1_CleanupLoopCount); i++)
+		{
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshal_pinvoke_cleanup((marshaled.___m_Requirements_1)[i]);
+		}
+		il2cpp_codegen_marshal_free(marshaled.___m_Requirements_1);
+		marshaled.___m_Requirements_1 = NULL;
+	}
 }
 
 
 // Conversion methods for marshalling of: UnityEngine.InputSystem.InputControlScheme/MatchResult/Match
 IL2CPP_EXTERN_C void Match_tE2E63FA1C3F6AD6FC9001880245850AB04E85B9C_marshal_com(const Match_tE2E63FA1C3F6AD6FC9001880245850AB04E85B9C& unmarshaled, Match_tE2E63FA1C3F6AD6FC9001880245850AB04E85B9C_marshaled_com& marshaled)
 {
-	Exception_t* ___m_Controls_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Controls' of type 'Match'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Controls_2Exception, NULL);
+	marshaled.___m_RequirementIndex_0 = unmarshaled.get_m_RequirementIndex_0();
+	if (unmarshaled.get_m_Requirements_1() != NULL)
+	{
+		il2cpp_array_size_t _unmarshaled_m_Requirements_Length = (unmarshaled.get_m_Requirements_1())->max_length;
+		marshaled.___m_Requirements_1 = il2cpp_codegen_marshal_allocate_array<DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshaled_com>(_unmarshaled_m_Requirements_Length);
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(_unmarshaled_m_Requirements_Length); i++)
+		{
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshal_com((unmarshaled.get_m_Requirements_1())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)), (marshaled.___m_Requirements_1)[i]);
+		}
+	}
+	else
+	{
+		marshaled.___m_Requirements_1 = NULL;
+	}
+	marshaled.___m_Controls_2 = unmarshaled.get_m_Controls_2();
 }
 IL2CPP_EXTERN_C void Match_tE2E63FA1C3F6AD6FC9001880245850AB04E85B9C_marshal_com_back(const Match_tE2E63FA1C3F6AD6FC9001880245850AB04E85B9C_marshaled_com& marshaled, Match_tE2E63FA1C3F6AD6FC9001880245850AB04E85B9C& unmarshaled)
 {
-	Exception_t* ___m_Controls_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Controls' of type 'Match'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Controls_2Exception, NULL);
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t unmarshaled_m_RequirementIndex_temp_0 = 0;
+	unmarshaled_m_RequirementIndex_temp_0 = marshaled.___m_RequirementIndex_0;
+	unmarshaled.set_m_RequirementIndex_0(unmarshaled_m_RequirementIndex_temp_0);
+	if (marshaled.___m_Requirements_1 != NULL)
+	{
+		if (unmarshaled.get_m_Requirements_1() == NULL)
+		{
+			unmarshaled.set_m_Requirements_1(reinterpret_cast<DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A*>((DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A*)SZArrayNew(DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A_il2cpp_TypeInfo_var, 1)));
+		}
+		il2cpp_array_size_t _arrayLength = (unmarshaled.get_m_Requirements_1())->max_length;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(_arrayLength); i++)
+		{
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B  _marshaled____m_Requirements_1_i__unmarshaled;
+			memset((&_marshaled____m_Requirements_1_i__unmarshaled), 0, sizeof(_marshaled____m_Requirements_1_i__unmarshaled));
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshal_com_back((marshaled.___m_Requirements_1)[i], _marshaled____m_Requirements_1_i__unmarshaled);
+			(unmarshaled.get_m_Requirements_1())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), _marshaled____m_Requirements_1_i__unmarshaled);
+		}
+	}
+	InputControlList_1_t93EF19606838D35DD384F2FA70936A23C387CDE8  unmarshaled_m_Controls_temp_2;
+	memset((&unmarshaled_m_Controls_temp_2), 0, sizeof(unmarshaled_m_Controls_temp_2));
+	unmarshaled_m_Controls_temp_2 = marshaled.___m_Controls_2;
+	unmarshaled.set_m_Controls_2(unmarshaled_m_Controls_temp_2);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.InputSystem.InputControlScheme/MatchResult/Match
 IL2CPP_EXTERN_C void Match_tE2E63FA1C3F6AD6FC9001880245850AB04E85B9C_marshal_com_cleanup(Match_tE2E63FA1C3F6AD6FC9001880245850AB04E85B9C_marshaled_com& marshaled)
 {
+	if (marshaled.___m_Requirements_1 != NULL)
+	{
+		const il2cpp_array_size_t marshaled____m_Requirements_1_CleanupLoopCount = 1;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(marshaled____m_Requirements_1_CleanupLoopCount); i++)
+		{
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshal_com_cleanup((marshaled.___m_Requirements_1)[i]);
+		}
+		il2cpp_codegen_marshal_free(marshaled.___m_Requirements_1);
+		marshaled.___m_Requirements_1 = NULL;
+	}
 }
 // UnityEngine.InputSystem.InputControl UnityEngine.InputSystem.InputControlScheme/MatchResult/Match::get_control()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputControl_t8E008E36B2D6E8306C45DE55CDC77B764463D275 * Match_get_control_mE037620F542E22357DA1703496F6F517B28A0F3F (Match_tE2E63FA1C3F6AD6FC9001880245850AB04E85B9C * __this, const RuntimeMethod* method)

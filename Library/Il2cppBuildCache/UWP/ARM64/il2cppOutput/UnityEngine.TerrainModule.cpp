@@ -3558,6 +3558,10 @@ IL_013a:
 // System.Void UnityEngine.Experimental.TerrainAPI.TerrainCallbacks/HeightmapChangedCallback::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HeightmapChangedCallback__ctor_mB63473491843FCAFE4EC51977A276DF20F11B1D0 (HeightmapChangedCallback_tB00DA531F9C32468E88700A5C2D55E05189E0FA0 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -3654,7 +3658,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HeightmapChangedCallback_Invoke_m24BDB8F
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 2)
 				{
 					typedef void (*FunctionPointerType) (Terrain_t2C0E3B3A2895E81446EFF4F5AFD601CF977D1836 *, RectInt_tE7B8105A280C1AC73A4157ED41F9B86C9BD91E49 , bool, const RuntimeMethod*);
 					((FunctionPointerType)targetMethodPointer)(___terrain0, ___heightRegion1, ___synched2, targetMethod);
@@ -3700,6 +3704,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HeightmapChangedCallback_EndInvoke_m015E
 // System.Void UnityEngine.Experimental.TerrainAPI.TerrainCallbacks/TextureChangedCallback::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureChangedCallback__ctor_m7086172D805BDFEFEF9901EAC1C78904DBB63D29 (TextureChangedCallback_tD8BA8EA99CC9FA597E4AA143944720822EFB7D9F * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -3796,7 +3804,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureChangedCallback_Invoke_mC92D41CF0
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 3)
 				{
 					typedef void (*FunctionPointerType) (Terrain_t2C0E3B3A2895E81446EFF4F5AFD601CF977D1836 *, String_t*, RectInt_tE7B8105A280C1AC73A4157ED41F9B86C9BD91E49 , bool, const RuntimeMethod*);
 					((FunctionPointerType)targetMethodPointer)(___terrain0, ___textureName1, ___texelRegion2, ___synched3, targetMethod);
@@ -5185,6 +5193,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass4_0_U3CCreateFromPl
 // System.Void UnityEngine.Experimental.TerrainAPI.TerrainUtility/TerrainMap/TerrainFilter::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TerrainFilter__ctor_m6A1F2AE7CF7A3B502AFBCB351B615EBBE942B838 (TerrainFilter_t1A8786164AA07CE2D019E2B70A3217FD0F4A46E7 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -5282,7 +5294,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TerrainFilter_Invoke_m48E69E662BC21917E5
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 0)
 				{
 					typedef bool (*FunctionPointerType) (Terrain_t2C0E3B3A2895E81446EFF4F5AFD601CF977D1836 *, const RuntimeMethod*);
 					result = ((FunctionPointerType)targetMethodPointer)(___terrain0, targetMethod);

@@ -35142,6 +35142,10 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_HandJointDataGenerator_t9A5F7CF716C
 // System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandData/HandJointDataGenerator::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandJointDataGenerator__ctor_m1FE89A2AA806A429A5A0D6884B5F963C2AE3DC7C (HandJointDataGenerator_t9A5F7CF716C955CCACC63956E9327C62D8FC52FB * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -35238,7 +35242,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandJointDataGenerator_Invoke_m1DB21C6AE
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 0)
 				{
 					typedef void (*FunctionPointerType) (MixedRealityPoseU5BU5D_t322EC09791E11E0A99B2E1599FE18BFC27446277*, const RuntimeMethod*);
 					((FunctionPointerType)targetMethodPointer)(___jointPoses0, targetMethod);
@@ -35285,6 +35289,10 @@ IL2CPP_EXTERN_C  MixedRealityPose_t9A27AAE05672995793F76985CE167AA85B8DF5AF  Del
 // System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedMotionControllerData/MotionControllerPoseUpdater::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MotionControllerPoseUpdater__ctor_m3DF46ACE971251C7A6F324512E3B32598DD4451C (MotionControllerPoseUpdater_t122FC6D6DE54C94FE2253D7DD803CA7DACE99BA6 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);

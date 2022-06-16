@@ -16458,7 +16458,7 @@ IL_0037:
 		Type_t * L_12 = ___type0;
 		NullCheck(L_12);
 		String_t* L_13;
-		L_13 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_12);
+		L_13 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_12);
 		return L_13;
 	}
 
@@ -16467,7 +16467,7 @@ IL_003e:
 		Type_t * L_14 = ___type0;
 		NullCheck(L_14);
 		String_t* L_15;
-		L_15 = VirtFuncInvoker0< String_t* >::Invoke(29 /* System.String System.Type::get_AssemblyQualifiedName() */, L_14);
+		L_15 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, L_14);
 		return L_15;
 	}
 
@@ -29978,12 +29978,12 @@ IL_0135:
 		Type_t * L_65 = V_5;
 		NullCheck(L_65);
 		String_t* L_66;
-		L_66 = VirtFuncInvoker0< String_t* >::Invoke(29 /* System.String System.Type::get_AssemblyQualifiedName() */, L_65);
+		L_66 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, L_65);
 		Type_t ** L_67 = ___objectType1;
 		Type_t * L_68 = *((Type_t **)L_67);
 		NullCheck(L_68);
 		String_t* L_69;
-		L_69 = VirtFuncInvoker0< String_t* >::Invoke(29 /* System.String System.Type::get_AssemblyQualifiedName() */, L_68);
+		L_69 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, L_68);
 		String_t* L_70;
 		L_70 = StringUtils_FormatWith_m0C1E31943079BDDC649F300D393B1E6E6BAD71D5(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5443E3CFB150296B686B12DEC5A9A906246EC008)), L_64, L_66, L_69, /*hidden argument*/NULL);
 		JsonSerializationException_t1089D3825FC6AF0892636A87C43EE798D25BA320 * L_71;
@@ -30337,7 +30337,7 @@ IL_00fa:
 		L_70 = JsonContract_get_CreatedType_m96C509441ACA4385442DD43703413D499B3C7CAB_inline(L_69, /*hidden argument*/NULL);
 		NullCheck(L_70);
 		int32_t L_71;
-		L_71 = VirtFuncInvoker0< int32_t >::Invoke(30 /* System.Int32 System.Type::GetArrayRank() */, L_70);
+		L_71 = VirtFuncInvoker0< int32_t >::Invoke(29 /* System.Int32 System.Type::GetArrayRank() */, L_70);
 		RuntimeArray * L_72;
 		L_72 = CollectionUtils_ToMultidimensionalArray_m223B11F69E38525F3A05AB8E881664E3E47AEA52(L_66, L_68, L_71, /*hidden argument*/NULL);
 		V_3 = L_72;
@@ -33037,7 +33037,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * JsonSerializerInternalReader_
 		L_1 = JsonContract_get_UnderlyingType_mA8DCD09BF284C00275F31DB31050B8EE89E6F538_inline(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		int32_t L_2;
-		L_2 = VirtFuncInvoker0< int32_t >::Invoke(30 /* System.Int32 System.Type::GetArrayRank() */, L_1);
+		L_2 = VirtFuncInvoker0< int32_t >::Invoke(29 /* System.Int32 System.Type::GetArrayRank() */, L_1);
 		V_0 = L_2;
 		String_t* L_3 = ___id4;
 		if (!L_3)
@@ -36956,7 +36956,7 @@ IL_01b8:
 		Type_t * L_101 = ___objectType3;
 		NullCheck(L_101);
 		String_t* L_102;
-		L_102 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Type::get_Name() */, L_101);
+		L_102 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Type::get_Name() */, L_101);
 		String_t* L_103;
 		L_103 = StringUtils_FormatWith_m0C1E31943079BDDC649F300D393B1E6E6BAD71D5(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA32663807A568FB91925525AAFB75C7656184AAD)), L_99, L_100, L_102, /*hidden argument*/NULL);
 		JsonSerializationException_t1089D3825FC6AF0892636A87C43EE798D25BA320 * L_104;
@@ -37768,7 +37768,7 @@ IL_0133:
 			L_62 = JsonContract_get_UnderlyingType_mA8DCD09BF284C00275F31DB31050B8EE89E6F538_inline(L_61, /*hidden argument*/NULL);
 			NullCheck(L_62);
 			String_t* L_63;
-			L_63 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Type::get_Name() */, L_62);
+			L_63 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Type::get_Name() */, L_62);
 			String_t* L_64;
 			L_64 = StringUtils_FormatWith_m0C1E31943079BDDC649F300D393B1E6E6BAD71D5(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA32663807A568FB91925525AAFB75C7656184AAD)), L_59, L_60, L_63, /*hidden argument*/NULL);
 			JsonSerializationException_t1089D3825FC6AF0892636A87C43EE798D25BA320 * L_65;
@@ -40564,7 +40564,7 @@ IL_0037:
 		Type_t * L_15 = ___type1;
 		NullCheck(L_15);
 		String_t* L_16;
-		L_16 = VirtFuncInvoker0< String_t* >::Invoke(29 /* System.String System.Type::get_AssemblyQualifiedName() */, L_15);
+		L_16 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, L_15);
 		*((RuntimeObject **)L_14) = (RuntimeObject *)L_16;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject **)L_14, (void*)(RuntimeObject *)L_16);
 		return (bool)1;

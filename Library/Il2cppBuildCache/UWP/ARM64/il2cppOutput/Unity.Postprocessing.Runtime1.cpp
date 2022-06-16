@@ -17691,7 +17691,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostProcessEffectSettings_OnEnable_m0F9F
 		L_0 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E* L_1;
-		L_1 = VirtFuncInvoker1< FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E*, int32_t >::Invoke(48 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_0, ((int32_t)20));
+		L_1 = VirtFuncInvoker1< FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E*, int32_t >::Invoke(47 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_0, ((int32_t)20));
 		IL2CPP_RUNTIME_CLASS_INIT(U3CU3Ec_t582D59DA00DB9923A86F7788D2FDFB1DBECDC721_il2cpp_TypeInfo_var);
 		Func_2_t0BE5B54DD65017DAF1DC5DEC5A896A2B0550F8AE * L_2 = ((U3CU3Ec_t582D59DA00DB9923A86F7788D2FDFB1DBECDC721_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t582D59DA00DB9923A86F7788D2FDFB1DBECDC721_il2cpp_TypeInfo_var))->get_U3CU3E9__3_0_1();
 		Func_2_t0BE5B54DD65017DAF1DC5DEC5A896A2B0550F8AE * L_3 = L_2;
@@ -18297,7 +18297,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ParameterOverride_tED887E59B87A5DD3BFDAAAF745
 		FieldInfo_t * L_0 = ___t0;
 		NullCheck(L_0);
 		RuntimeObject * L_1;
-		L_1 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(21 /* System.Object System.Reflection.FieldInfo::GetValue(System.Object) */, L_0, __this);
+		L_1 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(20 /* System.Object System.Reflection.FieldInfo::GetValue(System.Object) */, L_0, __this);
 		return ((ParameterOverride_tED887E59B87A5DD3BFDAAAF745F82D9080FA4784 *)CastclassClass((RuntimeObject*)L_1, ParameterOverride_tED887E59B87A5DD3BFDAAAF745F82D9080FA4784_il2cpp_TypeInfo_var));
 	}
 }
@@ -19134,7 +19134,7 @@ IL_0076:
 			L_27 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_26, /*hidden argument*/NULL);
 			NullCheck(L_27);
 			String_t* L_28;
-			L_28 = VirtFuncInvoker0< String_t* >::Invoke(29 /* System.String System.Type::get_AssemblyQualifiedName() */, L_27);
+			L_28 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, L_27);
 			NullCheck(L_24);
 			L_24->set_typeName_0(L_28);
 			// if (!sortedList.Exists(b => b.assemblyQualifiedName == typeName))
@@ -28332,7 +28332,7 @@ IL_0017:
 		Type_t * L_8 = ___type0;
 		NullCheck(L_8);
 		String_t* L_9;
-		L_9 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_8);
+		L_9 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_8);
 		NullCheck(L_7);
 		Object_set_name_m87C4006618ADB325ABE5439DF159E10DD8DD0781(L_7, L_9, /*hidden argument*/NULL);
 		// effect.enabled.value = true;

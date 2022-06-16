@@ -32766,7 +32766,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CommonUtility_ReadElementAsString_m
 		String_t* L_1 = ___elementName0;
 		NullCheck(L_0);
 		bool L_2;
-		L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(52 /* System.Boolean System.Xml.XmlReader::IsStartElement(System.String) */, L_0, L_1);
+		L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(49 /* System.Boolean System.Xml.XmlReader::IsStartElement(System.String) */, L_0, L_1);
 		if (!L_2)
 		{
 			goto IL_0024;
@@ -32785,7 +32785,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CommonUtility_ReadElementAsString_m
 	{
 		XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138 * L_5 = ___reader1;
 		NullCheck(L_5);
-		VirtActionInvoker0::Invoke(40 /* System.Void System.Xml.XmlReader::Skip() */, L_5);
+		VirtActionInvoker0::Invoke(39 /* System.Void System.Xml.XmlReader::Skip() */, L_5);
 		goto IL_002b;
 	}
 
@@ -32812,7 +32812,7 @@ IL_002b:
 		XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138 * L_10 = ___reader1;
 		NullCheck(L_10);
 		int32_t L_11;
-		L_11 = VirtFuncInvoker0< int32_t >::Invoke(46 /* System.Xml.XmlNodeType System.Xml.XmlReader::MoveToContent() */, L_10);
+		L_11 = VirtFuncInvoker0< int32_t >::Invoke(44 /* System.Xml.XmlNodeType System.Xml.XmlReader::MoveToContent() */, L_10);
 		String_t* L_12 = V_0;
 		return L_12;
 	}
@@ -39535,7 +39535,7 @@ IL_0261:
 		L_134 = IntrospectionExtensions_GetTypeInfo_m77034F8576BE695819427C13103C591277C1B636(L_133, /*hidden argument*/NULL);
 		NullCheck(L_134);
 		bool L_135;
-		L_135 = VirtFuncInvoker0< bool >::Invoke(82 /* System.Boolean System.Reflection.TypeInfo::get_IsEnum() */, L_134);
+		L_135 = VirtFuncInvoker0< bool >::Invoke(81 /* System.Boolean System.Reflection.TypeInfo::get_IsEnum() */, L_134);
 		if (!L_135)
 		{
 			goto IL_027a;
@@ -39754,12 +39754,12 @@ IL_0050:
 			RuntimeObject * L_22 = V_3;
 			NullCheck(L_21);
 			RuntimeObject * L_23;
-			L_23 = VirtFuncInvoker2< RuntimeObject *, RuntimeObject *, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* >::Invoke(30 /* System.Object System.Reflection.PropertyInfo::GetValue(System.Object,System.Object[]) */, L_21, L_22, (ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)NULL);
+			L_23 = VirtFuncInvoker2< RuntimeObject *, RuntimeObject *, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* >::Invoke(29 /* System.Object System.Reflection.PropertyInfo::GetValue(System.Object,System.Object[]) */, L_21, L_22, (ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)NULL);
 			V_9 = L_23;
 			PropertyInfo_t * L_24 = V_8;
 			NullCheck(L_24);
 			Type_t * L_25;
-			L_25 = VirtFuncInvoker0< Type_t * >::Invoke(23 /* System.Type System.Reflection.PropertyInfo::get_PropertyType() */, L_24);
+			L_25 = VirtFuncInvoker0< Type_t * >::Invoke(22 /* System.Type System.Reflection.PropertyInfo::get_PropertyType() */, L_24);
 			V_10 = L_25;
 			RuntimeObject * L_26 = V_9;
 			if (L_26)
@@ -39780,11 +39780,11 @@ IL_0079:
 			PropertyInfo_t * L_32 = V_8;
 			NullCheck(L_32);
 			Type_t * L_33;
-			L_33 = VirtFuncInvoker0< Type_t * >::Invoke(23 /* System.Type System.Reflection.PropertyInfo::get_PropertyType() */, L_32);
+			L_33 = VirtFuncInvoker0< Type_t * >::Invoke(22 /* System.Type System.Reflection.PropertyInfo::get_PropertyType() */, L_32);
 			RuntimeObject * L_34;
 			L_34 = EntityPropertyConverter_ChangeType_m3D156771EAA9E4595768C01E35AB1C65A5CFF5A4(L_31, L_33, /*hidden argument*/NULL);
 			NullCheck(L_29);
-			VirtActionInvoker3< RuntimeObject *, RuntimeObject *, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* >::Invoke(32 /* System.Void System.Reflection.PropertyInfo::SetValue(System.Object,System.Object,System.Object[]) */, L_29, L_30, L_34, (ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)NULL);
+			VirtActionInvoker3< RuntimeObject *, RuntimeObject *, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* >::Invoke(31 /* System.Void System.Reflection.PropertyInfo::SetValue(System.Object,System.Object,System.Object[]) */, L_29, L_30, L_34, (ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)NULL);
 		}
 
 IL_0099:
@@ -39860,11 +39860,11 @@ IL_00d0:
 			PropertyInfo_t * L_56 = V_5;
 			NullCheck(L_56);
 			Type_t * L_57;
-			L_57 = VirtFuncInvoker0< Type_t * >::Invoke(23 /* System.Type System.Reflection.PropertyInfo::get_PropertyType() */, L_56);
+			L_57 = VirtFuncInvoker0< Type_t * >::Invoke(22 /* System.Type System.Reflection.PropertyInfo::get_PropertyType() */, L_56);
 			RuntimeObject * L_58;
 			L_58 = EntityPropertyConverter_ChangeType_m3D156771EAA9E4595768C01E35AB1C65A5CFF5A4(L_55, L_57, /*hidden argument*/NULL);
 			NullCheck(L_53);
-			VirtActionInvoker3< RuntimeObject *, RuntimeObject *, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* >::Invoke(32 /* System.Void System.Reflection.PropertyInfo::SetValue(System.Object,System.Object,System.Object[]) */, L_53, L_54, L_58, (ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)NULL);
+			VirtActionInvoker3< RuntimeObject *, RuntimeObject *, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* >::Invoke(31 /* System.Void System.Reflection.PropertyInfo::SetValue(System.Object,System.Object,System.Object[]) */, L_53, L_54, L_58, (ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)NULL);
 			RuntimeObject * L_59 = V_3;
 			V_6 = L_59;
 			goto IL_0136;
@@ -39892,11 +39892,11 @@ IL_00fe:
 			L_68 = Tuple_3_get_Item3_mF407F62CCACBEF7876F7271469886A461065E79B_inline(L_67, /*hidden argument*/Tuple_3_get_Item3_mF407F62CCACBEF7876F7271469886A461065E79B_RuntimeMethod_var);
 			NullCheck(L_68);
 			Type_t * L_69;
-			L_69 = VirtFuncInvoker0< Type_t * >::Invoke(23 /* System.Type System.Reflection.PropertyInfo::get_PropertyType() */, L_68);
+			L_69 = VirtFuncInvoker0< Type_t * >::Invoke(22 /* System.Type System.Reflection.PropertyInfo::get_PropertyType() */, L_68);
 			RuntimeObject * L_70;
 			L_70 = EntityPropertyConverter_ChangeType_m3D156771EAA9E4595768C01E35AB1C65A5CFF5A4(L_66, L_69, /*hidden argument*/NULL);
 			NullCheck(L_63);
-			VirtActionInvoker3< RuntimeObject *, RuntimeObject *, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* >::Invoke(32 /* System.Void System.Reflection.PropertyInfo::SetValue(System.Object,System.Object,System.Object[]) */, L_63, L_65, L_70, (ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)NULL);
+			VirtActionInvoker3< RuntimeObject *, RuntimeObject *, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* >::Invoke(31 /* System.Void System.Reflection.PropertyInfo::SetValue(System.Object,System.Object,System.Object[]) */, L_63, L_65, L_70, (ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)NULL);
 			Tuple_3_t3133C278A320F8D7B488219640CCCD19D880580E * L_71 = V_11;
 			NullCheck(L_71);
 			RuntimeObject * L_72;
@@ -40021,7 +40021,7 @@ IL_000b:
 		L_5 = IntrospectionExtensions_GetTypeInfo_m77034F8576BE695819427C13103C591277C1B636(L_4, /*hidden argument*/NULL);
 		NullCheck(L_5);
 		bool L_6;
-		L_6 = VirtFuncInvoker0< bool >::Invoke(82 /* System.Boolean System.Reflection.TypeInfo::get_IsEnum() */, L_5);
+		L_6 = VirtFuncInvoker0< bool >::Invoke(81 /* System.Boolean System.Reflection.TypeInfo::get_IsEnum() */, L_5);
 		if (!L_6)
 		{
 			goto IL_0026;
@@ -40180,7 +40180,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EntityPropertyConverter_ShouldSkip_mD40D
 		PropertyInfo_t * L_0 = ___propertyInfo0;
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtFuncInvoker0< bool >::Invoke(20 /* System.Boolean System.Reflection.PropertyInfo::get_CanWrite() */, L_0);
+		L_1 = VirtFuncInvoker0< bool >::Invoke(19 /* System.Boolean System.Reflection.PropertyInfo::get_CanWrite() */, L_0);
 		if (L_1)
 		{
 			goto IL_0028;
@@ -40193,7 +40193,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EntityPropertyConverter_ShouldSkip_mD40D
 		PropertyInfo_t * L_5 = ___propertyInfo0;
 		NullCheck(L_5);
 		String_t* L_6;
-		L_6 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_5);
+		L_6 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_5);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_6);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)L_6);
@@ -40212,7 +40212,7 @@ IL_0028:
 		PropertyInfo_t * L_9 = ___propertyInfo0;
 		NullCheck(L_9);
 		bool L_10;
-		L_10 = VirtFuncInvoker0< bool >::Invoke(19 /* System.Boolean System.Reflection.PropertyInfo::get_CanRead() */, L_9);
+		L_10 = VirtFuncInvoker0< bool >::Invoke(18 /* System.Boolean System.Reflection.PropertyInfo::get_CanRead() */, L_9);
 		if (L_10)
 		{
 			goto IL_0050;
@@ -40225,7 +40225,7 @@ IL_0028:
 		PropertyInfo_t * L_14 = ___propertyInfo0;
 		NullCheck(L_14);
 		String_t* L_15;
-		L_15 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_14);
+		L_15 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_14);
 		NullCheck(L_13);
 		ArrayElementTypeCheck (L_13, L_15);
 		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)L_15);
@@ -40464,7 +40464,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExceptionInfo__ctor_m52AD5E40D04E4EEBD0C
 		L_1 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		String_t* L_2;
-		L_2 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Type::get_Name() */, L_1);
+		L_2 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Type::get_Name() */, L_1);
 		ExceptionInfo_set_Type_mE52162B6CC5E63BAEB428E626613DC006A9D081B_inline(__this, L_2, /*hidden argument*/NULL);
 		Exception_t * L_3 = ___ex0;
 		NullCheck(L_3);
@@ -40647,7 +40647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExceptionInfo_ReadXml_m6721F279429DAE825
 	{
 		XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138 * L_0 = ___reader0;
 		NullCheck(L_0);
-		VirtActionInvoker1< String_t* >::Invoke(48 /* System.Void System.Xml.XmlReader::ReadStartElement(System.String) */, L_0, _stringLiteralBD0648A171A3F2B95446AD6800A0FB49A659E813);
+		VirtActionInvoker1< String_t* >::Invoke(46 /* System.Void System.Xml.XmlReader::ReadStartElement(System.String) */, L_0, _stringLiteralBD0648A171A3F2B95446AD6800A0FB49A659E813);
 		XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138 * L_1 = ___reader0;
 		IL2CPP_RUNTIME_CLASS_INIT(CommonUtility_t316CB2FB2BBA99E2C21D217BF57D61D757207C59_il2cpp_TypeInfo_var);
 		String_t* L_2;
@@ -40668,7 +40668,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExceptionInfo_ReadXml_m6721F279429DAE825
 		XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138 * L_9 = ___reader0;
 		NullCheck(L_9);
 		bool L_10;
-		L_10 = VirtFuncInvoker0< bool >::Invoke(51 /* System.Boolean System.Xml.XmlReader::IsStartElement() */, L_9);
+		L_10 = VirtFuncInvoker0< bool >::Invoke(48 /* System.Boolean System.Xml.XmlReader::IsStartElement() */, L_9);
 		if (!L_10)
 		{
 			goto IL_0086;
@@ -40689,21 +40689,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExceptionInfo_ReadXml_m6721F279429DAE825
 	{
 		XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138 * L_14 = ___reader0;
 		NullCheck(L_14);
-		VirtActionInvoker1< String_t* >::Invoke(48 /* System.Void System.Xml.XmlReader::ReadStartElement(System.String) */, L_14, _stringLiteral4B440A775CAFDD25BDE35F214C70E9B0AE1E0261);
+		VirtActionInvoker1< String_t* >::Invoke(46 /* System.Void System.Xml.XmlReader::ReadStartElement(System.String) */, L_14, _stringLiteral4B440A775CAFDD25BDE35F214C70E9B0AE1E0261);
 		XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138 * L_15 = ___reader0;
 		ExceptionInfo_tD2043D403B4DA5CF6D66BD8B26ACF3FB94658118 * L_16;
 		L_16 = ExceptionInfo_ReadFromXMLReader_m37D08232723A723A1549D1DADA50D5C59F95895C(L_15, /*hidden argument*/NULL);
 		ExceptionInfo_set_InnerExceptionInfo_m6E83CB8C305EE066EAB753F172617B6B78D8661F_inline(__this, L_16, /*hidden argument*/NULL);
 		XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138 * L_17 = ___reader0;
 		NullCheck(L_17);
-		VirtActionInvoker0::Invoke(50 /* System.Void System.Xml.XmlReader::ReadEndElement() */, L_17);
+		VirtActionInvoker0::Invoke(47 /* System.Void System.Xml.XmlReader::ReadEndElement() */, L_17);
 	}
 
 IL_0086:
 	{
 		XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138 * L_18 = ___reader0;
 		NullCheck(L_18);
-		VirtActionInvoker0::Invoke(50 /* System.Void System.Xml.XmlReader::ReadEndElement() */, L_18);
+		VirtActionInvoker0::Invoke(47 /* System.Void System.Xml.XmlReader::ReadEndElement() */, L_18);
 		return;
 	}
 }

@@ -12722,6 +12722,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Hose__ctor_mBDB8678C96E8B53F8AA6DF49B57E
 // System.Void IAM_EndAppear::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAM_EndAppear__ctor_m0CA7F68BBBF148946A90DD2700579F52A31B58DF (IAM_EndAppear_t39CF023F576CDD444C14556E50E135467FDF9ED0 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -12818,7 +12822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAM_EndAppear_Invoke_mF58D5A437DD03E6AEF
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 0)
 				{
 					typedef void (*FunctionPointerType) (InterfaceAnimManager_t9E9789FF59E8632F448B99548F4D9EAD1F6CE43A *, const RuntimeMethod*);
 					((FunctionPointerType)targetMethodPointer)(____IAM0, targetMethod);
@@ -12855,6 +12859,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAM_EndAppear_EndInvoke_mAED9B7AA2ECC019
 // System.Void IAM_EndDisappear::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAM_EndDisappear__ctor_mEDE92E3226D018FD7765BA84EB08F7FFF9FED564 (IAM_EndDisappear_tC8354ABB4C38D8D04EE6A60E306DBE2E30AF0336 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -12951,7 +12959,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAM_EndDisappear_Invoke_m2E4A5C62CAACD3A
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 0)
 				{
 					typedef void (*FunctionPointerType) (InterfaceAnimManager_t9E9789FF59E8632F448B99548F4D9EAD1F6CE43A *, const RuntimeMethod*);
 					((FunctionPointerType)targetMethodPointer)(____IAM0, targetMethod);
@@ -12988,6 +12996,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAM_EndDisappear_EndInvoke_m0C849E870DEA
 // System.Void IAM_StartAppear::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAM_StartAppear__ctor_m55C5589A7CFFC1B2B877AABFE25BBAEB1EDFE45F (IAM_StartAppear_tA6B8AABEBED6B98AD5470363AB84D4C103B760DF * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -13084,7 +13096,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAM_StartAppear_Invoke_m5903B046A98306A6
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 0)
 				{
 					typedef void (*FunctionPointerType) (InterfaceAnimManager_t9E9789FF59E8632F448B99548F4D9EAD1F6CE43A *, const RuntimeMethod*);
 					((FunctionPointerType)targetMethodPointer)(____IAM0, targetMethod);
@@ -13121,6 +13133,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAM_StartAppear_EndInvoke_m0AE6AACEDEB54
 // System.Void IAM_StartDisappear::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAM_StartDisappear__ctor_mCEA95BA0898C25637056B9A8253986345C9C0461 (IAM_StartDisappear_t605B73A75D27D958F7796D70F6F6E7B71E9B74ED * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -13217,7 +13233,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAM_StartDisappear_Invoke_mDF05AEA6A6578
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 0)
 				{
 					typedef void (*FunctionPointerType) (InterfaceAnimManager_t9E9789FF59E8632F448B99548F4D9EAD1F6CE43A *, const RuntimeMethod*);
 					((FunctionPointerType)targetMethodPointer)(____IAM0, targetMethod);

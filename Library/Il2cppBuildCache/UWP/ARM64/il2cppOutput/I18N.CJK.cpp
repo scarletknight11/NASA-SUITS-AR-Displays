@@ -8288,7 +8288,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CodeTable__ctor_m05F6BC60339A17BD8A88330
 		String_t* L_1 = ___name0;
 		NullCheck(L_0);
 		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_2;
-		L_2 = VirtFuncInvoker1< Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB *, String_t* >::Invoke(16 /* System.IO.Stream System.Reflection.Assembly::GetManifestResourceStream(System.String) */, L_0, L_1);
+		L_2 = VirtFuncInvoker1< Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB *, String_t* >::Invoke(14 /* System.IO.Stream System.Reflection.Assembly::GetManifestResourceStream(System.String) */, L_0, L_1);
 		__this->set_stream_0(L_2);
 		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_3 = __this->get_stream_0();
 		if (L_3)
@@ -10784,7 +10784,7 @@ IL_038d:
 		L_71 = il2cpp_codegen_get_executing_assembly(GB18030Source__cctor_m7AA25B50318D5FB80545EC2787D4B8340DCF8AA8_RuntimeMethod_var);
 		NullCheck(L_71);
 		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_72;
-		L_72 = VirtFuncInvoker1< Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB *, String_t* >::Invoke(16 /* System.IO.Stream System.Reflection.Assembly::GetManifestResourceStream(System.String) */, L_71, _stringLiteral6C0852A35F5B2C09467F4C96BBE883A402D2C15A);
+		L_72 = VirtFuncInvoker1< Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB *, String_t* >::Invoke(14 /* System.IO.Stream System.Reflection.Assembly::GetManifestResourceStream(System.String) */, L_71, _stringLiteral6C0852A35F5B2C09467F4C96BBE883A402D2C15A);
 		V_4 = L_72;
 	}
 

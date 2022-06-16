@@ -5691,6 +5691,10 @@ IL_002b:
 // System.Void Microsoft.Azure.SpatialAnchors.AnchorLocatedDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorLocatedDelegate__ctor_m8C4AC61EDFF76908A01EFE6405B2ED95DC8EA9CD (AnchorLocatedDelegate_t7FDFB5E1A64A68F7D883B82B39001CCDD6149A17 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -5787,7 +5791,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorLocatedDelegate_Invoke_m8A0DB282A7
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 1)
 				{
 					typedef void (*FunctionPointerType) (RuntimeObject *, AnchorLocatedEventArgs_t720725E81E3D70A4D051BB6D791FE28B7864C55B *, const RuntimeMethod*);
 					((FunctionPointerType)targetMethodPointer)(___sender0, ___args1, targetMethod);
@@ -5834,6 +5838,10 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_AnchorLocatedDelegateNative_tC9E188
 // System.Void Microsoft.Azure.SpatialAnchors.AnchorLocatedDelegateNative::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorLocatedDelegateNative__ctor_m7E9167A0243288BB650728239F07F39EBAD52D9E (AnchorLocatedDelegateNative_tC9E188748BBFEDC7A430C0E8B420E195123A9E76 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -8911,6 +8919,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CloudSpatialException__ctor_m7606E16E4A9
 // System.Void Microsoft.Azure.SpatialAnchors.LocateAnchorsCompletedDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocateAnchorsCompletedDelegate__ctor_mA0865702FA4E2D7A6AF709B0E84AFA89B90758A3 (LocateAnchorsCompletedDelegate_t73E51F6E92EAF6812D46CB7118A0E04DBD1ABF91 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -9007,7 +9019,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocateAnchorsCompletedDelegate_Invoke_m4
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 1)
 				{
 					typedef void (*FunctionPointerType) (RuntimeObject *, LocateAnchorsCompletedEventArgs_tA2B0431641D3164E78909D0F0CA77DA946732FBD *, const RuntimeMethod*);
 					((FunctionPointerType)targetMethodPointer)(___sender0, ___args1, targetMethod);
@@ -9054,6 +9066,10 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_LocateAnchorsCompletedDelegateNativ
 // System.Void Microsoft.Azure.SpatialAnchors.LocateAnchorsCompletedDelegateNative::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocateAnchorsCompletedDelegateNative__ctor_m698B0066FA35860DB625CC20596378503270A60C (LocateAnchorsCompletedDelegateNative_t40A008455ADD140F0F4766A1A3BF1572B04CB50E * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -12205,6 +12221,10 @@ IL_027a:
 // System.Void Microsoft.Azure.SpatialAnchors.OnLogDebugDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnLogDebugDelegate__ctor_mCB96B023B95AA467AAC0A8B50101B03C1D31F6E6 (OnLogDebugDelegate_t41B5853FC61DC3A7F697D2C2EB4ACC3BCD53F3BB * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -12301,7 +12321,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnLogDebugDelegate_Invoke_mC7884BE747188
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 1)
 				{
 					typedef void (*FunctionPointerType) (RuntimeObject *, OnLogDebugEventArgs_t9FFD8A004D1D3216B46D51CA360730474AA4C3EC *, const RuntimeMethod*);
 					((FunctionPointerType)targetMethodPointer)(___sender0, ___args1, targetMethod);
@@ -12348,6 +12368,10 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_OnLogDebugDelegateNative_t348C93A68
 // System.Void Microsoft.Azure.SpatialAnchors.OnLogDebugDelegateNative::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnLogDebugDelegateNative__ctor_mA52D62F3C52926DEB9D37507C044FE1428915FC4 (OnLogDebugDelegateNative_t348C93A689D4E97A6AAADD99C638761B4CC60116 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -13043,6 +13067,10 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_ProjectedObjectCleanupNative_tD33DF
 // System.Void Microsoft.Azure.SpatialAnchors.ProjectedObjectCleanupNative::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectedObjectCleanupNative__ctor_mE7613418872662DE2092230EB6C594C9CCF00150 (ProjectedObjectCleanupNative_tD33DF670D146402E99DDA5C2FD34B099D78E692D * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -13841,6 +13869,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t SessionConfiguration_ConvertCookieTo
 // System.Void Microsoft.Azure.SpatialAnchors.SessionErrorDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SessionErrorDelegate__ctor_m7901578A724F4E9F4E60C146727357472D2A6AC9 (SessionErrorDelegate_tE0A36A47233546A0AC10AA9E7E968EFA1E4D701E * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -13937,7 +13969,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SessionErrorDelegate_Invoke_m109DE1741BC
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 1)
 				{
 					typedef void (*FunctionPointerType) (RuntimeObject *, SessionErrorEventArgs_tBC6BD7D553FA7F076DDB179DBBC576D276D8482F *, const RuntimeMethod*);
 					((FunctionPointerType)targetMethodPointer)(___sender0, ___args1, targetMethod);
@@ -13984,6 +14016,10 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_SessionErrorDelegateNative_t47E85E2
 // System.Void Microsoft.Azure.SpatialAnchors.SessionErrorDelegateNative::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SessionErrorDelegateNative__ctor_m27FB558B34FC472D3420AFD6D0174888B5BD80B9 (SessionErrorDelegateNative_t47E85E2AE4CF26255DB45ADFD6B92629056E1C7B * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -14576,6 +14612,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t SessionStatus_ConvertCookieToHandle_
 // System.Void Microsoft.Azure.SpatialAnchors.SessionUpdatedDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SessionUpdatedDelegate__ctor_m0CD8239956416C11EE08AAD827312D18864E9A5B (SessionUpdatedDelegate_tD67BE8F2854C1D0B6FEF4EF4D5B63BA82F61BDE0 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -14672,7 +14712,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SessionUpdatedDelegate_Invoke_mD09A39FED
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 1)
 				{
 					typedef void (*FunctionPointerType) (RuntimeObject *, SessionUpdatedEventArgs_tCE57C6E5BCE313D16B632E5CBD2B041FA4011B46 *, const RuntimeMethod*);
 					((FunctionPointerType)targetMethodPointer)(___sender0, ___args1, targetMethod);
@@ -14719,6 +14759,10 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_SessionUpdatedDelegateNative_tADEA2
 // System.Void Microsoft.Azure.SpatialAnchors.SessionUpdatedDelegateNative::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SessionUpdatedDelegateNative__ctor_mAA9609436B9A6331F3769870B3CBEB70717A3214 (SessionUpdatedDelegateNative_tADEA247BC7CC4376F3A0D6CF90CA61AF27124B4C * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -15112,6 +15156,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t SessionUpdatedEventArgs_ConvertCooki
 // System.Void Microsoft.Azure.SpatialAnchors.TokenRequiredDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TokenRequiredDelegate__ctor_m75A9FAAB7B74F227D3BE78A4EB6F575B825D565E (TokenRequiredDelegate_t70A4360AC991AA247E387C0D21977CE65A95D266 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -15208,7 +15256,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TokenRequiredDelegate_Invoke_mE70B72E570
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 1)
 				{
 					typedef void (*FunctionPointerType) (RuntimeObject *, TokenRequiredEventArgs_t997C7BFBB58FC2C5B3AFBEB7AB283E0059F88B60 *, const RuntimeMethod*);
 					((FunctionPointerType)targetMethodPointer)(___sender0, ___args1, targetMethod);
@@ -15255,6 +15303,10 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_TokenRequiredDelegateNative_tDAF9E4
 // System.Void Microsoft.Azure.SpatialAnchors.TokenRequiredDelegateNative::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TokenRequiredDelegateNative__ctor_m66B72CA43B3AB3D1F36C30DFB00D58C375C4B3D7 (TokenRequiredDelegateNative_tDAF9E4ACF4803BA2248991E843ED9359ED40EEEB * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -15663,6 +15715,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TokenRequiredEventArgs_ConvertCookie
 // System.Void Microsoft.Azure.SpatialAnchors.UpdatedSensorFingerprintRequiredDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UpdatedSensorFingerprintRequiredDelegate__ctor_mC1F859FF1F111CB38B674B4A1325276218C2091A (UpdatedSensorFingerprintRequiredDelegate_t9FFD9542FE3966A12CB9A13394A156A1EA357C19 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -15759,7 +15815,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UpdatedSensorFingerprintRequiredDelegate
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 1)
 				{
 					typedef void (*FunctionPointerType) (RuntimeObject *, SensorFingerprintEventArgs_tC2D10DC671B9190FD90C8B3E4B9358EEAFDC5461 *, const RuntimeMethod*);
 					((FunctionPointerType)targetMethodPointer)(___sender0, ___args1, targetMethod);
@@ -15806,6 +15862,10 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_UpdatedSensorFingerprintRequiredDel
 // System.Void Microsoft.Azure.SpatialAnchors.UpdatedSensorFingerprintRequiredDelegateNative::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UpdatedSensorFingerprintRequiredDelegateNative__ctor_m08E022D1F6D5699AEE8FB305E86C120DD315B74B (UpdatedSensorFingerprintRequiredDelegateNative_t0F6719A83BFCE68FB645C34804647F18FC54C224 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);

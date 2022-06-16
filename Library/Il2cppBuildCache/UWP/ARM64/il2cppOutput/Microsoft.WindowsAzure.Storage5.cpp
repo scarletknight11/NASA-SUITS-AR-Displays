@@ -31722,7 +31722,7 @@ IL_0013:
 		TypeInfo_tFFBAC0D7187BFD2D25CC801679BC9645020EC04F * L_3 = ___typeInfo0;
 		NullCheck(L_3);
 		RuntimeObject* L_4;
-		L_4 = VirtFuncInvoker0< RuntimeObject* >::Invoke(139 /* System.Collections.Generic.IEnumerable`1<System.Reflection.PropertyInfo> System.Reflection.TypeInfo::get_DeclaredProperties() */, L_3);
+		L_4 = VirtFuncInvoker0< RuntimeObject* >::Invoke(138 /* System.Collections.Generic.IEnumerable`1<System.Reflection.PropertyInfo> System.Reflection.TypeInfo::get_DeclaredProperties() */, L_3);
 		U3CU3Ec__DisplayClass0_0_tEEA6E84555B74BFE843CE8EA9C57D48CCF2C6D2E * L_5 = V_0;
 		NullCheck(L_5);
 		Func_2_tAD7A316C25C061D1F5777D769694D48EED05C24F * L_6 = L_5->get_U3CU3E9__0_1();
@@ -31838,7 +31838,7 @@ IL_006c:
 		TypeInfo_tFFBAC0D7187BFD2D25CC801679BC9645020EC04F * L_24 = ___typeInfo0;
 		NullCheck(L_24);
 		Type_t * L_25;
-		L_25 = VirtFuncInvoker0< Type_t * >::Invoke(31 /* System.Type System.Reflection.TypeInfo::get_BaseType() */, L_24);
+		L_25 = VirtFuncInvoker0< Type_t * >::Invoke(30 /* System.Type System.Reflection.TypeInfo::get_BaseType() */, L_24);
 		Type_t * L_26 = L_25;
 		G_B12_0 = L_26;
 		if (L_26)

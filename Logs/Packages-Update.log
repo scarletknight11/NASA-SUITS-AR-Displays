@@ -6,3 +6,11 @@ Update Mode: updateDependencies
 
 The following packages were removed:
   com.unity.xr.windowsmr@4.6.2
+
+=== Wed Jun  8 22:22:06 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.collab-proxy from version 1.15.16 to 1.15.17

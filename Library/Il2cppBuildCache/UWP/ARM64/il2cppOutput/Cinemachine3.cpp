@@ -17471,7 +17471,7 @@ IL_005e:
 		L_17 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(__this, /*hidden argument*/NULL);
 		NullCheck(L_17);
 		String_t* L_18;
-		L_18 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_17);
+		L_18 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_17);
 		String_t* L_19;
 		L_19 = String_Concat_m37A5BF26F8F8F1892D60D727303B23FB604FEE78(L_16, _stringLiteral20543B3471A4F19DEEE5D3493EBD551C4EAAE0B6, L_18, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
@@ -31400,6 +31400,10 @@ IL2CPP_EXTERN_C  float DelegatePInvokeWrapper_AxisInputDelegate_tC74BFB577983EB5
 // System.Void Cinemachine.CinemachineCore/AxisInputDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AxisInputDelegate__ctor_m55631A6E688731D441A5822CE96218E7E9CC5B01 (AxisInputDelegate_tC74BFB577983EB520E974CB9EB9D0758BAD72677 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -31497,7 +31501,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AxisInputDelegate_Invoke_m860AF1CED1A9D
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 0)
 				{
 					typedef float (*FunctionPointerType) (String_t*, const RuntimeMethod*);
 					result = ((FunctionPointerType)targetMethodPointer)(___axisName0, targetMethod);
@@ -31536,6 +31540,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AxisInputDelegate_EndInvoke_m42BA5EAD29
 // System.Void Cinemachine.CinemachineCore/GetBlendOverrideDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetBlendOverrideDelegate__ctor_m0D9DFFA11AA07FC85C2903B99641E4CE9BF6DC9B (GetBlendOverrideDelegate_t32AB037CCB52F195B40C363B70D34205538CE864 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -31634,7 +31642,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CinemachineBlendDefinition_tFCB9356176B08582D
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 3)
 				{
 					typedef CinemachineBlendDefinition_tFCB9356176B08582D6AB0B036E25729EBEDBFAEE  (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, CinemachineBlendDefinition_tFCB9356176B08582D6AB0B036E25729EBEDBFAEE , MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A *, const RuntimeMethod*);
 					result = ((FunctionPointerType)targetMethodPointer)(___fromVcam0, ___toVcam1, ___defaultBlend2, ___owner3, targetMethod);
@@ -31723,6 +31731,10 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_OnGUIDelegate_t3A1214F1C0CB5EE0BA0A
 // System.Void Cinemachine.Utility.CinemachineDebug/OnGUIDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnGUIDelegate__ctor_m368CF0C4912A67D1DBDA8E1F2C2827D0163482FA (OnGUIDelegate_t3A1214F1C0CB5EE0BA0A5D45D4A9F946484E7530 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -31863,6 +31875,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VcamExtraState__ctor_m765B777C8201B5A5D2
 // System.Void Cinemachine.CinemachineFreeLook/CreateRigDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreateRigDelegate__ctor_m4DD0C7DBDBDA591D52EA8F0328BAB450BFCF51C2 (CreateRigDelegate_t7FF9E13258FAF45CD7A591B792B1171596A16270 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -31960,7 +31976,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CinemachineVirtualCamera_t5BD4629093D8B75CE9F
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 2)
 				{
 					typedef CinemachineVirtualCamera_t5BD4629093D8B75CE9F4A382AD28E6F96938C43C * (*FunctionPointerType) (CinemachineFreeLook_t210E7251D7C05CB0E55EA3053833CB3DE3F0304F *, String_t*, CinemachineVirtualCamera_t5BD4629093D8B75CE9F4A382AD28E6F96938C43C *, const RuntimeMethod*);
 					result = ((FunctionPointerType)targetMethodPointer)(___vcam0, ___name1, ___copyFrom2, targetMethod);
@@ -32001,6 +32017,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CinemachineVirtualCamera_t5BD4629093D8B75CE9F
 // System.Void Cinemachine.CinemachineFreeLook/DestroyRigDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestroyRigDelegate__ctor_m6B51E8D805DD7A663BE724FC16D490F5D0D05D69 (DestroyRigDelegate_tEC6C3F9493E6C7AF161C5BE580A398B3C333ED49 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -32097,7 +32117,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestroyRigDelegate_Invoke_mE9C9FD19BE4FD
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 0)
 				{
 					typedef void (*FunctionPointerType) (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 *, const RuntimeMethod*);
 					((FunctionPointerType)targetMethodPointer)(___rig0, targetMethod);
@@ -34012,6 +34032,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass6_0_U3CResolveForPl
 // System.Void CinemachineMixer/MasterDirectorDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MasterDirectorDelegate__ctor_mFC5DB393BD8432B57F3EA9E183CD4D224AD4E5B3 (MasterDirectorDelegate_tCE752BE5E9EB76BC476A6B3B12FFB06C34BBC3B8 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -34224,6 +34248,10 @@ IL2CPP_EXTERN_C  void Heading__ctor_m27AC6DA9204C9B4856DEA05AAAD89E2400FF639A_Ad
 // System.Void Cinemachine.CinemachineOrbitalTransposer/UpdateHeadingDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UpdateHeadingDelegate__ctor_mB9BA33C54488BC8DD418BEEF3A51DB6AF40E361B (UpdateHeadingDelegate_t11985A8C86B860B11663010E921F4E3D80D7E20D * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -34321,7 +34349,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float UpdateHeadingDelegate_Invoke_m3A58C1E3F
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 2)
 				{
 					typedef float (*FunctionPointerType) (CinemachineOrbitalTransposer_tD7A09D3A12B36C905C843BA199B7EEAD6D4677A2 *, float, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , const RuntimeMethod*);
 					result = ((FunctionPointerType)targetMethodPointer)(___orbital0, ___deltaTime1, ___up2, targetMethod);
@@ -35700,6 +35728,10 @@ IL_0012:
 // System.Void Cinemachine.CinemachineVirtualCamera/CreatePipelineDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreatePipelineDelegate__ctor_mF51B89DEB4EAE7A714B49CA9BF703B8541D419A0 (CreatePipelineDelegate_tB2027A3AD25F49EFC2BE7B2872BB15C1B7856C19 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -35797,7 +35829,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tA8193BB29D4D2C7EC04918F3ED18163451
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 2)
 				{
 					typedef Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * (*FunctionPointerType) (CinemachineVirtualCamera_t5BD4629093D8B75CE9F4A382AD28E6F96938C43C *, String_t*, CinemachineComponentBaseU5BU5D_t103C5C1C3257AA526385CAD3B1FD18E5CC1446EC*, const RuntimeMethod*);
 					result = ((FunctionPointerType)targetMethodPointer)(___vcam0, ___name1, ___copyFrom2, targetMethod);
@@ -35838,6 +35870,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tA8193BB29D4D2C7EC04918F3ED18163451
 // System.Void Cinemachine.CinemachineVirtualCamera/DestroyPipelineDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestroyPipelineDelegate__ctor_m3D90BC04CC0ADE49A4EE6503D20E7AB776F7A6AA (DestroyPipelineDelegate_tA69D0FA40EDBF1EF43F75E7FE8A33D85F8DD1B28 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -35934,7 +35970,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestroyPipelineDelegate_Invoke_m900F828A
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 0)
 				{
 					typedef void (*FunctionPointerType) (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 *, const RuntimeMethod*);
 					((FunctionPointerType)targetMethodPointer)(___pipeline0, targetMethod);

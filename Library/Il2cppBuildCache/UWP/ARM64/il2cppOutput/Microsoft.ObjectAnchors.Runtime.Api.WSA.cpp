@@ -9741,6 +9741,10 @@ IL_002f:
 // System.Void Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedHandler::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstanceChangedHandler__ctor_m3C1780DFB91CEA9CAAA2C969CF43EDF9C1A9ADE3 (ObjectInstanceChangedHandler_t7D2644AF12AC4DE5F0F5511824E09722ECBABCFB * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -9837,7 +9841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstanceChangedHandler_Invoke_mA54
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 1)
 				{
 					typedef void (*FunctionPointerType) (RuntimeObject *, ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323 *, const RuntimeMethod*);
 					((FunctionPointerType)targetMethodPointer)(___sender0, ___args1, targetMethod);
@@ -9884,6 +9888,10 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_ObjectInstanceChangedHandlerNative_
 // System.Void Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedHandlerNative::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstanceChangedHandlerNative__ctor_m3632527EAC6BF85311BE3FD3BAB5850BC2CA2E39 (ObjectInstanceChangedHandlerNative_t81D2FF40E93C9EB565BB1E3E4BC71185C712583A * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -11801,6 +11809,10 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_ProjectedObjectCleanupNative_tDEB9E
 // System.Void Microsoft.Azure.ObjectAnchors.ProjectedObjectCleanupNative::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectedObjectCleanupNative__ctor_m219DFBC33526DF92FE4F377F6813AFE151FFA14E (ProjectedObjectCleanupNative_tDEB9EBF5DD9B1AAB1046678B28785EE8D180B67E * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);

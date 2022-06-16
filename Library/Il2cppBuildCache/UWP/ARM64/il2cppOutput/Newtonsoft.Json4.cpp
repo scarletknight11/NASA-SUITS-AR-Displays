@@ -38685,7 +38685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JsonTypeReflector_CanTypeDescriptorConve
 		Type_t * L_8 = V_0;
 		NullCheck(L_8);
 		String_t* L_9;
-		L_9 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_8);
+		L_9 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_8);
 		bool L_10;
 		L_10 = String_Equals_mD65682B0BB7933CC7A8561AE34DED02E4F3BBBE5(L_9, _stringLiteralC6128051ED86EF60899892DB24B840C1ECCA27F3, 4, /*hidden argument*/NULL);
 		if (L_10)
@@ -38697,7 +38697,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JsonTypeReflector_CanTypeDescriptorConve
 		Type_t * L_11 = V_0;
 		NullCheck(L_11);
 		String_t* L_12;
-		L_12 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_11);
+		L_12 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_11);
 		bool L_13;
 		L_13 = String_Equals_mD65682B0BB7933CC7A8561AE34DED02E4F3BBBE5(L_12, _stringLiteral046B5B1FB680F3D45D6133532CE8EC24C2035D68, 4, /*hidden argument*/NULL);
 		if (L_13)
@@ -38709,7 +38709,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JsonTypeReflector_CanTypeDescriptorConve
 		Type_t * L_14 = V_0;
 		NullCheck(L_14);
 		String_t* L_15;
-		L_15 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_14);
+		L_15 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_14);
 		bool L_16;
 		L_16 = String_Equals_mD65682B0BB7933CC7A8561AE34DED02E4F3BBBE5(L_15, _stringLiteralF62A7B4905931F005A04B1DCEDAA5E1A89A41AD6, 4, /*hidden argument*/NULL);
 		if (L_16)
@@ -38868,7 +38868,7 @@ IL_0010:
 		PropertyInfo_t * L_10 = V_0;
 		NullCheck(L_10);
 		Type_t * L_11;
-		L_11 = VirtFuncInvoker0< Type_t * >::Invoke(9 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_10);
+		L_11 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_10);
 		V_2 = L_11;
 		goto IL_0058;
 	}
@@ -39319,7 +39319,7 @@ IL_000d:
 		Type_t * L_8 = V_3;
 		NullCheck(L_8);
 		String_t* L_9;
-		L_9 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_8);
+		L_9 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_8);
 		bool L_10;
 		L_10 = String_Equals_mD65682B0BB7933CC7A8561AE34DED02E4F3BBBE5(L_9, _stringLiteral47ADD84A5895853127FD08122B323A32CA8ED602, 4, /*hidden argument*/NULL);
 		if (!L_10)
@@ -39402,7 +39402,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JsonTypeReflector_IsNonSerializable_m54C
 		FieldInfo_t * L_2 = V_0;
 		NullCheck(L_2);
 		int32_t L_3;
-		L_3 = VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Reflection.FieldAttributes System.Reflection.FieldInfo::get_Attributes() */, L_2);
+		L_3 = VirtFuncInvoker0< int32_t >::Invoke(17 /* System.Reflection.FieldAttributes System.Reflection.FieldInfo::get_Attributes() */, L_2);
 		if ((!(((uint32_t)((int32_t)((int32_t)L_3&(int32_t)((int32_t)128)))) == ((uint32_t)((int32_t)128)))))
 		{
 			goto IL_001f;

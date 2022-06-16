@@ -18293,7 +18293,7 @@ IL_0033:
 		Type_t * L_13 = V_1;
 		NullCheck(L_12);
 		bool L_14;
-		L_14 = VirtFuncInvoker1< bool, Type_t * >::Invoke(123 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_12, L_13);
+		L_14 = VirtFuncInvoker1< bool, Type_t * >::Invoke(122 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_12, L_13);
 		if (L_14)
 		{
 			goto IL_0047;
@@ -33343,7 +33343,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t * U3CU3Ec__DisplayClass74_0_U3CMak
 		LightLambda_tAA9E7B051CFA283EE9A412D8A5671F0927CBC6CE * L_2 = ___lambda0;
 		NullCheck(L_0);
 		Delegate_t * L_3;
-		L_3 = VirtFuncInvoker2< Delegate_t *, Type_t *, RuntimeObject * >::Invoke(51 /* System.Delegate System.Reflection.MethodInfo::CreateDelegate(System.Type,System.Object) */, L_0, L_1, L_2);
+		L_3 = VirtFuncInvoker2< Delegate_t *, Type_t *, RuntimeObject * >::Invoke(50 /* System.Delegate System.Reflection.MethodInfo::CreateDelegate(System.Type,System.Object) */, L_0, L_1, L_2);
 		return L_3;
 	}
 }
@@ -39594,7 +39594,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetValueOrDefault__ctor_mAC3E374BBEB098C
 		MethodInfo_t * L_0 = ___mi0;
 		NullCheck(L_0);
 		Type_t * L_1;
-		L_1 = VirtFuncInvoker0< Type_t * >::Invoke(46 /* System.Type System.Reflection.MethodInfo::get_ReturnType() */, L_0);
+		L_1 = VirtFuncInvoker0< Type_t * >::Invoke(45 /* System.Type System.Reflection.MethodInfo::get_ReturnType() */, L_0);
 		__this->set_defaultValueType_6(L_1);
 		return;
 	}

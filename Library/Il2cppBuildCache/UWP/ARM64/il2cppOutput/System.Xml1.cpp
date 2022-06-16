@@ -22136,7 +22136,7 @@ IL_0016:
 		Type_t * L_15 = V_2;
 		NullCheck(L_14);
 		bool L_16;
-		L_16 = VirtFuncInvoker1< bool, Type_t * >::Invoke(121 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_14, L_15);
+		L_16 = VirtFuncInvoker1< bool, Type_t * >::Invoke(120 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_14, L_15);
 		return L_16;
 	}
 

@@ -18989,6 +18989,10 @@ IL2CPP_EXTERN_C  FourCC_tDD64E1ACC59544F800D5A5AA0DB0F7BD274D5E8A  InputDeviceCo
 // System.Void UnityEngine.InputSystem.LowLevel.InputDeviceCommandDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputDeviceCommandDelegate__ctor_m13A09B0D81263C0EA98A81D8DC13D0F09519506C (InputDeviceCommandDelegate_t88D46BBFCBC6D206F9B1BEDCC94CC7C5065520BD * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -19087,7 +19091,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t340361C8134256120F5769AC5A3F743DB
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 1)
 				{
 					typedef Nullable_1_t340361C8134256120F5769AC5A3F743DB6C11D1F  (*FunctionPointerType) (InputDevice_tBBA7C2969BF5304FDFE6ABBB41C001737B0E7A7B *, InputDeviceCommand_t9CEA6335C61F96BC67B589D0C4ECF176F0F4A019 *, const RuntimeMethod*);
 					result = ((FunctionPointerType)targetMethodPointer)(___device0, ___command1, targetMethod);
@@ -20571,6 +20575,10 @@ IL2CPP_EXTERN_C  int64_t DelegatePInvokeWrapper_InputDeviceExecuteCommandDelegat
 // System.Void UnityEngine.InputSystem.LowLevel.InputDeviceExecuteCommandDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputDeviceExecuteCommandDelegate__ctor_m0609527C22F407BB0CD82431DE6236524DBB16DC (InputDeviceExecuteCommandDelegate_t8D650AFFBE8FDC7C0743186F341A79CE6A951F03 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -20642,7 +20650,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t InputDeviceExecuteCommandDelegate_Inv
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 0)
 				{
 					typedef int64_t (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 					result = ((FunctionPointerType)targetMethodPointer)((RuntimeObject*)(reinterpret_cast<RuntimeObject*>(___command0) - 1), targetMethod);
@@ -20754,6 +20762,10 @@ IL2CPP_EXTERN_C  String_t* DelegatePInvokeWrapper_InputDeviceFindControlLayoutDe
 // System.Void UnityEngine.InputSystem.Layouts.InputDeviceFindControlLayoutDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputDeviceFindControlLayoutDelegate__ctor_m3B715E7828EFC06829C381EAF6BC6BE57A19180A (InputDeviceFindControlLayoutDelegate_t8BD1F5851E3FCFED842AF37095A9652DE17FA200 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
@@ -20825,7 +20837,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputDeviceFindControlLayoutDelegat
 			}
 			else
 			{
-				if (targetThis == NULL)
+				if (___parameterCount == 2)
 				{
 					typedef String_t* (*FunctionPointerType) (RuntimeObject*, String_t*, InputDeviceExecuteCommandDelegate_t8D650AFFBE8FDC7C0743186F341A79CE6A951F03 *, const RuntimeMethod*);
 					result = ((FunctionPointerType)targetMethodPointer)((RuntimeObject*)(reinterpret_cast<RuntimeObject*>(___description0) - 1), ___matchedLayout1, ___executeDeviceCommand2, targetMethod);
@@ -23529,13 +23541,26 @@ IL_005e:
 // Conversion methods for marshalling of: UnityEngine.InputSystem.LowLevel.InputEventBuffer
 IL2CPP_EXTERN_C void InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshal_pinvoke(const InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50& unmarshaled, InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___m_Buffer_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Buffer' of type 'InputEventBuffer'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Buffer_1Exception, NULL);
+	marshaled.___m_Buffer_1 = unmarshaled.get_m_Buffer_1();
+	marshaled.___m_SizeInBytes_2 = unmarshaled.get_m_SizeInBytes_2();
+	marshaled.___m_EventCount_3 = unmarshaled.get_m_EventCount_3();
+	marshaled.___m_WeOwnTheBuffer_4 = static_cast<int32_t>(unmarshaled.get_m_WeOwnTheBuffer_4());
 }
 IL2CPP_EXTERN_C void InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshal_pinvoke_back(const InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshaled_pinvoke& marshaled, InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50& unmarshaled)
 {
-	Exception_t* ___m_Buffer_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Buffer' of type 'InputEventBuffer'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Buffer_1Exception, NULL);
+	NativeArray_1_t3C2855C5B238E8C6739D4C17833F244B95C0F785  unmarshaled_m_Buffer_temp_0;
+	memset((&unmarshaled_m_Buffer_temp_0), 0, sizeof(unmarshaled_m_Buffer_temp_0));
+	unmarshaled_m_Buffer_temp_0 = marshaled.___m_Buffer_1;
+	unmarshaled.set_m_Buffer_1(unmarshaled_m_Buffer_temp_0);
+	int64_t unmarshaled_m_SizeInBytes_temp_1 = 0;
+	unmarshaled_m_SizeInBytes_temp_1 = marshaled.___m_SizeInBytes_2;
+	unmarshaled.set_m_SizeInBytes_2(unmarshaled_m_SizeInBytes_temp_1);
+	int32_t unmarshaled_m_EventCount_temp_2 = 0;
+	unmarshaled_m_EventCount_temp_2 = marshaled.___m_EventCount_3;
+	unmarshaled.set_m_EventCount_3(unmarshaled_m_EventCount_temp_2);
+	bool unmarshaled_m_WeOwnTheBuffer_temp_3 = false;
+	unmarshaled_m_WeOwnTheBuffer_temp_3 = static_cast<bool>(marshaled.___m_WeOwnTheBuffer_4);
+	unmarshaled.set_m_WeOwnTheBuffer_4(unmarshaled_m_WeOwnTheBuffer_temp_3);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.InputSystem.LowLevel.InputEventBuffer
 IL2CPP_EXTERN_C void InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshal_pinvoke_cleanup(InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshaled_pinvoke& marshaled)
@@ -23544,13 +23569,26 @@ IL2CPP_EXTERN_C void InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_
 // Conversion methods for marshalling of: UnityEngine.InputSystem.LowLevel.InputEventBuffer
 IL2CPP_EXTERN_C void InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshal_com(const InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50& unmarshaled, InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshaled_com& marshaled)
 {
-	Exception_t* ___m_Buffer_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Buffer' of type 'InputEventBuffer'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Buffer_1Exception, NULL);
+	marshaled.___m_Buffer_1 = unmarshaled.get_m_Buffer_1();
+	marshaled.___m_SizeInBytes_2 = unmarshaled.get_m_SizeInBytes_2();
+	marshaled.___m_EventCount_3 = unmarshaled.get_m_EventCount_3();
+	marshaled.___m_WeOwnTheBuffer_4 = static_cast<int32_t>(unmarshaled.get_m_WeOwnTheBuffer_4());
 }
 IL2CPP_EXTERN_C void InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshal_com_back(const InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshaled_com& marshaled, InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50& unmarshaled)
 {
-	Exception_t* ___m_Buffer_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Buffer' of type 'InputEventBuffer'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Buffer_1Exception, NULL);
+	NativeArray_1_t3C2855C5B238E8C6739D4C17833F244B95C0F785  unmarshaled_m_Buffer_temp_0;
+	memset((&unmarshaled_m_Buffer_temp_0), 0, sizeof(unmarshaled_m_Buffer_temp_0));
+	unmarshaled_m_Buffer_temp_0 = marshaled.___m_Buffer_1;
+	unmarshaled.set_m_Buffer_1(unmarshaled_m_Buffer_temp_0);
+	int64_t unmarshaled_m_SizeInBytes_temp_1 = 0;
+	unmarshaled_m_SizeInBytes_temp_1 = marshaled.___m_SizeInBytes_2;
+	unmarshaled.set_m_SizeInBytes_2(unmarshaled_m_SizeInBytes_temp_1);
+	int32_t unmarshaled_m_EventCount_temp_2 = 0;
+	unmarshaled_m_EventCount_temp_2 = marshaled.___m_EventCount_3;
+	unmarshaled.set_m_EventCount_3(unmarshaled_m_EventCount_temp_2);
+	bool unmarshaled_m_WeOwnTheBuffer_temp_3 = false;
+	unmarshaled_m_WeOwnTheBuffer_temp_3 = static_cast<bool>(marshaled.___m_WeOwnTheBuffer_4);
+	unmarshaled.set_m_WeOwnTheBuffer_4(unmarshaled_m_WeOwnTheBuffer_temp_3);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.InputSystem.LowLevel.InputEventBuffer
 IL2CPP_EXTERN_C void InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshal_com_cleanup(InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshaled_com& marshaled)
@@ -26367,17 +26405,53 @@ IL_000b:
 // Conversion methods for marshalling of: UnityEngine.InputSystem.LowLevel.InputEventStream
 IL2CPP_EXTERN_C void InputEventStream_t4E5478171AB9BBFE4D7546E7AE3D281F262BCB65_marshal_pinvoke(const InputEventStream_t4E5478171AB9BBFE4D7546E7AE3D281F262BCB65& unmarshaled, InputEventStream_t4E5478171AB9BBFE4D7546E7AE3D281F262BCB65_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___m_NativeBuffer_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_NativeBuffer' of type 'InputEventStream'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_NativeBuffer_0Exception, NULL);
+	InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshal_pinvoke(unmarshaled.get_m_NativeBuffer_0(), marshaled.___m_NativeBuffer_0);
+	marshaled.___m_CurrentNativeEventReadPtr_1 = unmarshaled.get_m_CurrentNativeEventReadPtr_1();
+	marshaled.___m_CurrentNativeEventWritePtr_2 = unmarshaled.get_m_CurrentNativeEventWritePtr_2();
+	marshaled.___m_RemainingNativeEventCount_3 = unmarshaled.get_m_RemainingNativeEventCount_3();
+	marshaled.___m_MaxAppendedEvents_4 = unmarshaled.get_m_MaxAppendedEvents_4();
+	InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshal_pinvoke(unmarshaled.get_m_AppendBuffer_5(), marshaled.___m_AppendBuffer_5);
+	marshaled.___m_CurrentAppendEventReadPtr_6 = unmarshaled.get_m_CurrentAppendEventReadPtr_6();
+	marshaled.___m_CurrentAppendEventWritePtr_7 = unmarshaled.get_m_CurrentAppendEventWritePtr_7();
+	marshaled.___m_RemainingAppendEventCount_8 = unmarshaled.get_m_RemainingAppendEventCount_8();
+	marshaled.___m_NumEventsRetainedInBuffer_9 = unmarshaled.get_m_NumEventsRetainedInBuffer_9();
+	marshaled.___m_IsOpen_10 = static_cast<int32_t>(unmarshaled.get_m_IsOpen_10());
 }
 IL2CPP_EXTERN_C void InputEventStream_t4E5478171AB9BBFE4D7546E7AE3D281F262BCB65_marshal_pinvoke_back(const InputEventStream_t4E5478171AB9BBFE4D7546E7AE3D281F262BCB65_marshaled_pinvoke& marshaled, InputEventStream_t4E5478171AB9BBFE4D7546E7AE3D281F262BCB65& unmarshaled)
 {
-	Exception_t* ___m_NativeBuffer_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_NativeBuffer' of type 'InputEventStream'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_NativeBuffer_0Exception, NULL);
+	InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50  unmarshaled_m_NativeBuffer_temp_0;
+	memset((&unmarshaled_m_NativeBuffer_temp_0), 0, sizeof(unmarshaled_m_NativeBuffer_temp_0));
+	InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshal_pinvoke_back(marshaled.___m_NativeBuffer_0, unmarshaled_m_NativeBuffer_temp_0);
+	unmarshaled.set_m_NativeBuffer_0(unmarshaled_m_NativeBuffer_temp_0);
+	unmarshaled.set_m_CurrentNativeEventReadPtr_1(marshaled.___m_CurrentNativeEventReadPtr_1);
+	unmarshaled.set_m_CurrentNativeEventWritePtr_2(marshaled.___m_CurrentNativeEventWritePtr_2);
+	int32_t unmarshaled_m_RemainingNativeEventCount_temp_3 = 0;
+	unmarshaled_m_RemainingNativeEventCount_temp_3 = marshaled.___m_RemainingNativeEventCount_3;
+	unmarshaled.set_m_RemainingNativeEventCount_3(unmarshaled_m_RemainingNativeEventCount_temp_3);
+	int32_t unmarshaled_m_MaxAppendedEvents_temp_4 = 0;
+	unmarshaled_m_MaxAppendedEvents_temp_4 = marshaled.___m_MaxAppendedEvents_4;
+	unmarshaled.set_m_MaxAppendedEvents_4(unmarshaled_m_MaxAppendedEvents_temp_4);
+	InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50  unmarshaled_m_AppendBuffer_temp_5;
+	memset((&unmarshaled_m_AppendBuffer_temp_5), 0, sizeof(unmarshaled_m_AppendBuffer_temp_5));
+	InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshal_pinvoke_back(marshaled.___m_AppendBuffer_5, unmarshaled_m_AppendBuffer_temp_5);
+	unmarshaled.set_m_AppendBuffer_5(unmarshaled_m_AppendBuffer_temp_5);
+	unmarshaled.set_m_CurrentAppendEventReadPtr_6(marshaled.___m_CurrentAppendEventReadPtr_6);
+	unmarshaled.set_m_CurrentAppendEventWritePtr_7(marshaled.___m_CurrentAppendEventWritePtr_7);
+	int32_t unmarshaled_m_RemainingAppendEventCount_temp_8 = 0;
+	unmarshaled_m_RemainingAppendEventCount_temp_8 = marshaled.___m_RemainingAppendEventCount_8;
+	unmarshaled.set_m_RemainingAppendEventCount_8(unmarshaled_m_RemainingAppendEventCount_temp_8);
+	int32_t unmarshaled_m_NumEventsRetainedInBuffer_temp_9 = 0;
+	unmarshaled_m_NumEventsRetainedInBuffer_temp_9 = marshaled.___m_NumEventsRetainedInBuffer_9;
+	unmarshaled.set_m_NumEventsRetainedInBuffer_9(unmarshaled_m_NumEventsRetainedInBuffer_temp_9);
+	bool unmarshaled_m_IsOpen_temp_10 = false;
+	unmarshaled_m_IsOpen_temp_10 = static_cast<bool>(marshaled.___m_IsOpen_10);
+	unmarshaled.set_m_IsOpen_10(unmarshaled_m_IsOpen_temp_10);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.InputSystem.LowLevel.InputEventStream
 IL2CPP_EXTERN_C void InputEventStream_t4E5478171AB9BBFE4D7546E7AE3D281F262BCB65_marshal_pinvoke_cleanup(InputEventStream_t4E5478171AB9BBFE4D7546E7AE3D281F262BCB65_marshaled_pinvoke& marshaled)
 {
+	InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshal_pinvoke_cleanup(marshaled.___m_NativeBuffer_0);
+	InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshal_pinvoke_cleanup(marshaled.___m_AppendBuffer_5);
 }
 
 
@@ -26386,17 +26460,53 @@ IL2CPP_EXTERN_C void InputEventStream_t4E5478171AB9BBFE4D7546E7AE3D281F262BCB65_
 // Conversion methods for marshalling of: UnityEngine.InputSystem.LowLevel.InputEventStream
 IL2CPP_EXTERN_C void InputEventStream_t4E5478171AB9BBFE4D7546E7AE3D281F262BCB65_marshal_com(const InputEventStream_t4E5478171AB9BBFE4D7546E7AE3D281F262BCB65& unmarshaled, InputEventStream_t4E5478171AB9BBFE4D7546E7AE3D281F262BCB65_marshaled_com& marshaled)
 {
-	Exception_t* ___m_NativeBuffer_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_NativeBuffer' of type 'InputEventStream'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_NativeBuffer_0Exception, NULL);
+	InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshal_com(unmarshaled.get_m_NativeBuffer_0(), marshaled.___m_NativeBuffer_0);
+	marshaled.___m_CurrentNativeEventReadPtr_1 = unmarshaled.get_m_CurrentNativeEventReadPtr_1();
+	marshaled.___m_CurrentNativeEventWritePtr_2 = unmarshaled.get_m_CurrentNativeEventWritePtr_2();
+	marshaled.___m_RemainingNativeEventCount_3 = unmarshaled.get_m_RemainingNativeEventCount_3();
+	marshaled.___m_MaxAppendedEvents_4 = unmarshaled.get_m_MaxAppendedEvents_4();
+	InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshal_com(unmarshaled.get_m_AppendBuffer_5(), marshaled.___m_AppendBuffer_5);
+	marshaled.___m_CurrentAppendEventReadPtr_6 = unmarshaled.get_m_CurrentAppendEventReadPtr_6();
+	marshaled.___m_CurrentAppendEventWritePtr_7 = unmarshaled.get_m_CurrentAppendEventWritePtr_7();
+	marshaled.___m_RemainingAppendEventCount_8 = unmarshaled.get_m_RemainingAppendEventCount_8();
+	marshaled.___m_NumEventsRetainedInBuffer_9 = unmarshaled.get_m_NumEventsRetainedInBuffer_9();
+	marshaled.___m_IsOpen_10 = static_cast<int32_t>(unmarshaled.get_m_IsOpen_10());
 }
 IL2CPP_EXTERN_C void InputEventStream_t4E5478171AB9BBFE4D7546E7AE3D281F262BCB65_marshal_com_back(const InputEventStream_t4E5478171AB9BBFE4D7546E7AE3D281F262BCB65_marshaled_com& marshaled, InputEventStream_t4E5478171AB9BBFE4D7546E7AE3D281F262BCB65& unmarshaled)
 {
-	Exception_t* ___m_NativeBuffer_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_NativeBuffer' of type 'InputEventStream'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_NativeBuffer_0Exception, NULL);
+	InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50  unmarshaled_m_NativeBuffer_temp_0;
+	memset((&unmarshaled_m_NativeBuffer_temp_0), 0, sizeof(unmarshaled_m_NativeBuffer_temp_0));
+	InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshal_com_back(marshaled.___m_NativeBuffer_0, unmarshaled_m_NativeBuffer_temp_0);
+	unmarshaled.set_m_NativeBuffer_0(unmarshaled_m_NativeBuffer_temp_0);
+	unmarshaled.set_m_CurrentNativeEventReadPtr_1(marshaled.___m_CurrentNativeEventReadPtr_1);
+	unmarshaled.set_m_CurrentNativeEventWritePtr_2(marshaled.___m_CurrentNativeEventWritePtr_2);
+	int32_t unmarshaled_m_RemainingNativeEventCount_temp_3 = 0;
+	unmarshaled_m_RemainingNativeEventCount_temp_3 = marshaled.___m_RemainingNativeEventCount_3;
+	unmarshaled.set_m_RemainingNativeEventCount_3(unmarshaled_m_RemainingNativeEventCount_temp_3);
+	int32_t unmarshaled_m_MaxAppendedEvents_temp_4 = 0;
+	unmarshaled_m_MaxAppendedEvents_temp_4 = marshaled.___m_MaxAppendedEvents_4;
+	unmarshaled.set_m_MaxAppendedEvents_4(unmarshaled_m_MaxAppendedEvents_temp_4);
+	InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50  unmarshaled_m_AppendBuffer_temp_5;
+	memset((&unmarshaled_m_AppendBuffer_temp_5), 0, sizeof(unmarshaled_m_AppendBuffer_temp_5));
+	InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshal_com_back(marshaled.___m_AppendBuffer_5, unmarshaled_m_AppendBuffer_temp_5);
+	unmarshaled.set_m_AppendBuffer_5(unmarshaled_m_AppendBuffer_temp_5);
+	unmarshaled.set_m_CurrentAppendEventReadPtr_6(marshaled.___m_CurrentAppendEventReadPtr_6);
+	unmarshaled.set_m_CurrentAppendEventWritePtr_7(marshaled.___m_CurrentAppendEventWritePtr_7);
+	int32_t unmarshaled_m_RemainingAppendEventCount_temp_8 = 0;
+	unmarshaled_m_RemainingAppendEventCount_temp_8 = marshaled.___m_RemainingAppendEventCount_8;
+	unmarshaled.set_m_RemainingAppendEventCount_8(unmarshaled_m_RemainingAppendEventCount_temp_8);
+	int32_t unmarshaled_m_NumEventsRetainedInBuffer_temp_9 = 0;
+	unmarshaled_m_NumEventsRetainedInBuffer_temp_9 = marshaled.___m_NumEventsRetainedInBuffer_9;
+	unmarshaled.set_m_NumEventsRetainedInBuffer_9(unmarshaled_m_NumEventsRetainedInBuffer_temp_9);
+	bool unmarshaled_m_IsOpen_temp_10 = false;
+	unmarshaled_m_IsOpen_temp_10 = static_cast<bool>(marshaled.___m_IsOpen_10);
+	unmarshaled.set_m_IsOpen_10(unmarshaled_m_IsOpen_temp_10);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.InputSystem.LowLevel.InputEventStream
 IL2CPP_EXTERN_C void InputEventStream_t4E5478171AB9BBFE4D7546E7AE3D281F262BCB65_marshal_com_cleanup(InputEventStream_t4E5478171AB9BBFE4D7546E7AE3D281F262BCB65_marshaled_com& marshaled)
 {
+	InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshal_com_cleanup(marshaled.___m_NativeBuffer_0);
+	InputEventBuffer_t1B3A725F083D27F3366D40671A16AC42BC62BC50_marshal_com_cleanup(marshaled.___m_AppendBuffer_5);
 }
 // System.Boolean UnityEngine.InputSystem.LowLevel.InputEventStream::get_isOpen()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputEventStream_get_isOpen_m700F40B4977C777E6E838B05485058C2851D965B (InputEventStream_t4E5478171AB9BBFE4D7546E7AE3D281F262BCB65 * __this, const RuntimeMethod* method)
@@ -31170,7 +31280,7 @@ IL_0017:
 		Type_t * L_8 = ___interactionType0;
 		NullCheck(L_8);
 		String_t* L_9;
-		L_9 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_8);
+		L_9 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_8);
 		NullCheck(L_9);
 		bool L_10;
 		L_10 = String_EndsWith_m9A6011FDF8EBFFD3BCB51FE5BE58BE265116DCBE(L_9, _stringLiteralAF8E649A3EF1AB74A43C9F88015FA68AC719215A, /*hidden argument*/NULL);
@@ -31186,11 +31296,11 @@ IL_0017:
 		Type_t * L_12 = ___interactionType0;
 		NullCheck(L_12);
 		String_t* L_13;
-		L_13 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_12);
+		L_13 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_12);
 		Type_t * L_14 = ___interactionType0;
 		NullCheck(L_14);
 		String_t* L_15;
-		L_15 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_14);
+		L_15 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_14);
 		NullCheck(L_15);
 		int32_t L_16;
 		L_16 = String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline(L_15, /*hidden argument*/NULL);
@@ -31210,7 +31320,7 @@ IL_0061:
 		Type_t * L_19 = ___interactionType0;
 		NullCheck(L_19);
 		String_t* L_20;
-		L_20 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_19);
+		L_20 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_19);
 		V_4 = L_20;
 		goto IL_0075;
 	}
@@ -32758,7 +32868,7 @@ IL_0030:
 		Type_t * L_10 = ___type1;
 		NullCheck(L_9);
 		bool L_11;
-		L_11 = VirtFuncInvoker1< bool, Type_t * >::Invoke(123 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_9, L_10);
+		L_11 = VirtFuncInvoker1< bool, Type_t * >::Invoke(122 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_9, L_10);
 		V_0 = L_11;
 		// var isControlLayout = typeof(InputControl).IsAssignableFrom(type);
 		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_12 = { reinterpret_cast<intptr_t> (InputControl_t8E008E36B2D6E8306C45DE55CDC77B764463D275_0_0_0_var) };
@@ -32767,7 +32877,7 @@ IL_0030:
 		Type_t * L_14 = ___type1;
 		NullCheck(L_13);
 		bool L_15;
-		L_15 = VirtFuncInvoker1< bool, Type_t * >::Invoke(123 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_13, L_14);
+		L_15 = VirtFuncInvoker1< bool, Type_t * >::Invoke(122 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_13, L_14);
 		V_1 = L_15;
 		// if (!isDeviceLayout && !isControlLayout)
 		bool L_16 = V_0;
@@ -32808,7 +32918,7 @@ IL_005c:
 		Type_t * L_22 = ___type1;
 		NullCheck(L_22);
 		String_t* L_23;
-		L_23 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_22);
+		L_23 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_22);
 		NullCheck(L_21);
 		ArrayElementTypeCheck (L_21, L_23);
 		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_23);
@@ -32820,10 +32930,10 @@ IL_005c:
 		Type_t * L_26 = ___type1;
 		NullCheck(L_26);
 		Type_t * L_27;
-		L_27 = VirtFuncInvoker0< Type_t * >::Invoke(31 /* System.Type System.Type::get_BaseType() */, L_26);
+		L_27 = VirtFuncInvoker0< Type_t * >::Invoke(30 /* System.Type System.Type::get_BaseType() */, L_26);
 		NullCheck(L_27);
 		String_t* L_28;
-		L_28 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_27);
+		L_28 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_27);
 		NullCheck(L_25);
 		ArrayElementTypeCheck (L_25, L_28);
 		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_28);
@@ -32861,7 +32971,7 @@ IL_00a7:
 		Type_t * L_39 = ___type1;
 		NullCheck(L_39);
 		Type_t * L_40;
-		L_40 = VirtFuncInvoker0< Type_t * >::Invoke(31 /* System.Type System.Type::get_BaseType() */, L_39);
+		L_40 = VirtFuncInvoker0< Type_t * >::Invoke(30 /* System.Type System.Type::get_BaseType() */, L_39);
 		V_8 = L_40;
 		goto IL_013f;
 	}
@@ -32956,7 +33066,7 @@ IL_0135:
 		Type_t * L_52 = V_8;
 		NullCheck(L_52);
 		Type_t * L_53;
-		L_53 = VirtFuncInvoker0< Type_t * >::Invoke(31 /* System.Type System.Type::get_BaseType() */, L_52);
+		L_53 = VirtFuncInvoker0< Type_t * >::Invoke(30 /* System.Type System.Type::get_BaseType() */, L_52);
 		V_8 = L_53;
 	}
 
@@ -34362,7 +34472,7 @@ IL_0032:
 		Type_t * L_12 = ___type0;
 		NullCheck(L_12);
 		String_t* L_13;
-		L_13 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_12);
+		L_13 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_12);
 		String_t* L_14;
 		L_14 = String_Concat_m89EAB4C6A96B0E5C3F87300D6BE78D386B9EFC44(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3C686C624D22B0C45E4FADFB00FA535DDDC88AD7)), L_13, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral86186031B6A596FFFE4131DF258F8F1FF70E4951)), /*hidden argument*/NULL);
 		ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 * L_15 = (ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00_il2cpp_TypeInfo_var)));
@@ -35160,7 +35270,7 @@ IL_0017:
 		Type_t * L_6 = ___type0;
 		NullCheck(L_5);
 		bool L_7;
-		L_7 = VirtFuncInvoker1< bool, Type_t * >::Invoke(123 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_5, L_6);
+		L_7 = VirtFuncInvoker1< bool, Type_t * >::Invoke(122 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_5, L_6);
 		V_2 = (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
 		bool L_8 = V_2;
 		if (!L_8)
@@ -35173,7 +35283,7 @@ IL_0017:
 		Type_t * L_9 = ___type0;
 		NullCheck(L_9);
 		String_t* L_10;
-		L_10 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_9);
+		L_10 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_9);
 		String_t* L_11;
 		L_11 = String_Concat_m89EAB4C6A96B0E5C3F87300D6BE78D386B9EFC44(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3C686C624D22B0C45E4FADFB00FA535DDDC88AD7)), L_10, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral92B8E551EF78EA21EABB85995C1DDDF9474CD320)), /*hidden argument*/NULL);
 		ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 * L_12 = (ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00_il2cpp_TypeInfo_var)));
@@ -35205,7 +35315,7 @@ IL_004e:
 		Type_t * L_18 = ___type0;
 		NullCheck(L_18);
 		String_t* L_19;
-		L_19 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_18);
+		L_19 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_18);
 		String_t* L_20;
 		L_20 = String_Concat_m89EAB4C6A96B0E5C3F87300D6BE78D386B9EFC44(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3C686C624D22B0C45E4FADFB00FA535DDDC88AD7)), L_19, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral86186031B6A596FFFE4131DF258F8F1FF70E4951)), /*hidden argument*/NULL);
 		ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 * L_21 = (ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00_il2cpp_TypeInfo_var)));
@@ -35355,7 +35465,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InternedString_tCD9FB98956EDF6D07A8ABF907C05C
 		Type_t * L_19 = V_4;
 		NullCheck(L_18);
 		bool L_20;
-		L_20 = VirtFuncInvoker1< bool, Type_t * >::Invoke(123 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_18, L_19);
+		L_20 = VirtFuncInvoker1< bool, Type_t * >::Invoke(122 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_18, L_19);
 		G_B5_0 = ((int32_t)(L_20));
 		goto IL_0076;
 	}
@@ -35533,7 +35643,7 @@ CATCH_0129:
 		L_47 = Exception_GetType_mC5B8B5C944B326B751282AB0E8C25A7F85457D9F(L_46, /*hidden argument*/NULL);
 		NullCheck(L_47);
 		String_t* L_48;
-		L_48 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_47);
+		L_48 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_47);
 		String_t* L_49;
 		L_49 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_48, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1AC853141D7454B4C667A91DBE770D9B7EFB2538)), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var)));
@@ -35631,13 +35741,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InternedString_tCD9FB98956EDF6D07A8ABF907C05C
 		Type_t * L_7 = ___type0;
 		NullCheck(L_7);
 		String_t* L_8;
-		L_8 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_7);
+		L_8 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_7);
 		InternedString__ctor_m9EF283DE7B8590BC07D241903C523382F66C64A5((InternedString_tCD9FB98956EDF6D07A8ABF907C05C5B5257C08F9 *)(&V_0), L_8, /*hidden argument*/NULL);
 		// RegisterControlLayout(type.Name, type);
 		Type_t * L_9 = ___type0;
 		NullCheck(L_9);
 		String_t* L_10;
-		L_10 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_9);
+		L_10 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_9);
 		Type_t * L_11 = ___type0;
 		InputManager_RegisterControlLayout_m64F685906981D03E8CC462B8E62C2F55CEC3C1CD(__this, L_10, L_11, /*hidden argument*/NULL);
 	}
@@ -46007,7 +46117,7 @@ CATCH_0097:
 		L_30 = Exception_GetType_mC5B8B5C944B326B751282AB0E8C25A7F85457D9F(L_29, /*hidden argument*/NULL);
 		NullCheck(L_30);
 		String_t* L_31;
-		L_31 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_30);
+		L_31 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_30);
 		StateChangeMonitorListener_tD265E667F5F412C592315E5C154A34E3670490B3  L_32 = V_4;
 		RuntimeObject* L_33 = L_32.get_monitor_1();
 		NullCheck(L_33);
@@ -46015,7 +46125,7 @@ CATCH_0097:
 		L_34 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_33, /*hidden argument*/NULL);
 		NullCheck(L_34);
 		String_t* L_35;
-		L_35 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_34);
+		L_35 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_34);
 		StateChangeMonitorListener_tD265E667F5F412C592315E5C154A34E3670490B3  L_36 = V_4;
 		InputControl_t8E008E36B2D6E8306C45DE55CDC77B764463D275 * L_37 = L_36.get_control_0();
 		String_t* L_38;

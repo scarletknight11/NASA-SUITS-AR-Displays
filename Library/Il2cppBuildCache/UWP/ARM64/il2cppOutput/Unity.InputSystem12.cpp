@@ -23427,7 +23427,7 @@ IL_0065:
 		Type_t * L_12 = __this->get_U3CcompositeTypeU3E5__1_5();
 		NullCheck(L_12);
 		FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E* L_13;
-		L_13 = VirtFuncInvoker1< FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E*, int32_t >::Invoke(48 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_12, ((int32_t)20));
+		L_13 = VirtFuncInvoker1< FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E*, int32_t >::Invoke(47 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_12, ((int32_t)20));
 		__this->set_U3CU3Es__2_6(L_13);
 		__this->set_U3CU3Es__3_7(0);
 		goto IL_00f2;
@@ -23461,7 +23461,7 @@ IL_0082:
 		FieldInfo_t * L_22 = __this->get_U3CfieldU3E5__4_8();
 		NullCheck(L_22);
 		String_t* L_23;
-		L_23 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_22);
+		L_23 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_22);
 		__this->set_U3CU3E2__current_1(L_23);
 		__this->set_U3CU3E1__state_0(1);
 		return (bool)1;
@@ -30550,7 +30550,7 @@ IL_003b:
 		Type_t * L_13 = V_1;
 		NullCheck(L_12);
 		bool L_14;
-		L_14 = VirtFuncInvoker1< bool, Type_t * >::Invoke(123 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_12, L_13);
+		L_14 = VirtFuncInvoker1< bool, Type_t * >::Invoke(122 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_12, L_13);
 		V_3 = L_14;
 		goto IL_0045;
 	}
@@ -33777,7 +33777,7 @@ IL_007b:
 		Type_t * L_21 = V_0;
 		NullCheck(L_20);
 		bool L_22;
-		L_22 = VirtFuncInvoker1< bool, Type_t * >::Invoke(123 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_20, L_21);
+		L_22 = VirtFuncInvoker1< bool, Type_t * >::Invoke(122 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_20, L_21);
 		V_4 = (bool)((((int32_t)L_22) == ((int32_t)0))? 1 : 0);
 		bool L_23 = V_4;
 		if (!L_23)
@@ -34409,7 +34409,7 @@ IL_002a:
 	{
 		NullCheck(G_B2_0);
 		String_t* L_6;
-		L_6 = VirtFuncInvoker0< String_t* >::Invoke(29 /* System.String System.Type::get_AssemblyQualifiedName() */, G_B2_0);
+		L_6 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, G_B2_0);
 		G_B3_0 = L_6;
 		G_B3_1 = G_B2_1;
 	}
@@ -38021,34 +38021,150 @@ IL_000f:
 // Conversion methods for marshalling of: UnityEngine.InputSystem.InputControlScheme/MatchResult
 IL2CPP_EXTERN_C void MatchResult_t93C22CB34F4278C47DB6992DC4948E94F79BAB19_marshal_pinvoke(const MatchResult_t93C22CB34F4278C47DB6992DC4948E94F79BAB19& unmarshaled, MatchResult_t93C22CB34F4278C47DB6992DC4948E94F79BAB19_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___m_Devices_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Devices' of type 'MatchResult'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Devices_2Exception, NULL);
+	marshaled.___m_Result_0 = unmarshaled.get_m_Result_0();
+	marshaled.___m_Score_1 = unmarshaled.get_m_Score_1();
+	marshaled.___m_Devices_2 = unmarshaled.get_m_Devices_2();
+	marshaled.___m_Controls_3 = unmarshaled.get_m_Controls_3();
+	if (unmarshaled.get_m_Requirements_4() != NULL)
+	{
+		il2cpp_array_size_t _unmarshaled_m_Requirements_Length = (unmarshaled.get_m_Requirements_4())->max_length;
+		marshaled.___m_Requirements_4 = il2cpp_codegen_marshal_allocate_array<DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshaled_pinvoke>(_unmarshaled_m_Requirements_Length);
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(_unmarshaled_m_Requirements_Length); i++)
+		{
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshal_pinvoke((unmarshaled.get_m_Requirements_4())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)), (marshaled.___m_Requirements_4)[i]);
+		}
+	}
+	else
+	{
+		marshaled.___m_Requirements_4 = NULL;
+	}
 }
 IL2CPP_EXTERN_C void MatchResult_t93C22CB34F4278C47DB6992DC4948E94F79BAB19_marshal_pinvoke_back(const MatchResult_t93C22CB34F4278C47DB6992DC4948E94F79BAB19_marshaled_pinvoke& marshaled, MatchResult_t93C22CB34F4278C47DB6992DC4948E94F79BAB19& unmarshaled)
 {
-	Exception_t* ___m_Devices_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Devices' of type 'MatchResult'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Devices_2Exception, NULL);
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t unmarshaled_m_Result_temp_0 = 0;
+	unmarshaled_m_Result_temp_0 = marshaled.___m_Result_0;
+	unmarshaled.set_m_Result_0(unmarshaled_m_Result_temp_0);
+	float unmarshaled_m_Score_temp_1 = 0.0f;
+	unmarshaled_m_Score_temp_1 = marshaled.___m_Score_1;
+	unmarshaled.set_m_Score_1(unmarshaled_m_Score_temp_1);
+	InputControlList_1_tBCD41B4F8125103167BD27D9BC522C3A0ECB0825  unmarshaled_m_Devices_temp_2;
+	memset((&unmarshaled_m_Devices_temp_2), 0, sizeof(unmarshaled_m_Devices_temp_2));
+	unmarshaled_m_Devices_temp_2 = marshaled.___m_Devices_2;
+	unmarshaled.set_m_Devices_2(unmarshaled_m_Devices_temp_2);
+	InputControlList_1_t93EF19606838D35DD384F2FA70936A23C387CDE8  unmarshaled_m_Controls_temp_3;
+	memset((&unmarshaled_m_Controls_temp_3), 0, sizeof(unmarshaled_m_Controls_temp_3));
+	unmarshaled_m_Controls_temp_3 = marshaled.___m_Controls_3;
+	unmarshaled.set_m_Controls_3(unmarshaled_m_Controls_temp_3);
+	if (marshaled.___m_Requirements_4 != NULL)
+	{
+		if (unmarshaled.get_m_Requirements_4() == NULL)
+		{
+			unmarshaled.set_m_Requirements_4(reinterpret_cast<DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A*>((DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A*)SZArrayNew(DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A_il2cpp_TypeInfo_var, 1)));
+		}
+		il2cpp_array_size_t _arrayLength = (unmarshaled.get_m_Requirements_4())->max_length;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(_arrayLength); i++)
+		{
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B  _marshaled____m_Requirements_4_i__unmarshaled;
+			memset((&_marshaled____m_Requirements_4_i__unmarshaled), 0, sizeof(_marshaled____m_Requirements_4_i__unmarshaled));
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshal_pinvoke_back((marshaled.___m_Requirements_4)[i], _marshaled____m_Requirements_4_i__unmarshaled);
+			(unmarshaled.get_m_Requirements_4())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), _marshaled____m_Requirements_4_i__unmarshaled);
+		}
+	}
 }
 // Conversion method for clean up from marshalling of: UnityEngine.InputSystem.InputControlScheme/MatchResult
 IL2CPP_EXTERN_C void MatchResult_t93C22CB34F4278C47DB6992DC4948E94F79BAB19_marshal_pinvoke_cleanup(MatchResult_t93C22CB34F4278C47DB6992DC4948E94F79BAB19_marshaled_pinvoke& marshaled)
 {
+	if (marshaled.___m_Requirements_4 != NULL)
+	{
+		const il2cpp_array_size_t marshaled____m_Requirements_4_CleanupLoopCount = 1;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(marshaled____m_Requirements_4_CleanupLoopCount); i++)
+		{
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshal_pinvoke_cleanup((marshaled.___m_Requirements_4)[i]);
+		}
+		il2cpp_codegen_marshal_free(marshaled.___m_Requirements_4);
+		marshaled.___m_Requirements_4 = NULL;
+	}
 }
 
 
 // Conversion methods for marshalling of: UnityEngine.InputSystem.InputControlScheme/MatchResult
 IL2CPP_EXTERN_C void MatchResult_t93C22CB34F4278C47DB6992DC4948E94F79BAB19_marshal_com(const MatchResult_t93C22CB34F4278C47DB6992DC4948E94F79BAB19& unmarshaled, MatchResult_t93C22CB34F4278C47DB6992DC4948E94F79BAB19_marshaled_com& marshaled)
 {
-	Exception_t* ___m_Devices_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Devices' of type 'MatchResult'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Devices_2Exception, NULL);
+	marshaled.___m_Result_0 = unmarshaled.get_m_Result_0();
+	marshaled.___m_Score_1 = unmarshaled.get_m_Score_1();
+	marshaled.___m_Devices_2 = unmarshaled.get_m_Devices_2();
+	marshaled.___m_Controls_3 = unmarshaled.get_m_Controls_3();
+	if (unmarshaled.get_m_Requirements_4() != NULL)
+	{
+		il2cpp_array_size_t _unmarshaled_m_Requirements_Length = (unmarshaled.get_m_Requirements_4())->max_length;
+		marshaled.___m_Requirements_4 = il2cpp_codegen_marshal_allocate_array<DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshaled_com>(_unmarshaled_m_Requirements_Length);
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(_unmarshaled_m_Requirements_Length); i++)
+		{
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshal_com((unmarshaled.get_m_Requirements_4())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)), (marshaled.___m_Requirements_4)[i]);
+		}
+	}
+	else
+	{
+		marshaled.___m_Requirements_4 = NULL;
+	}
 }
 IL2CPP_EXTERN_C void MatchResult_t93C22CB34F4278C47DB6992DC4948E94F79BAB19_marshal_com_back(const MatchResult_t93C22CB34F4278C47DB6992DC4948E94F79BAB19_marshaled_com& marshaled, MatchResult_t93C22CB34F4278C47DB6992DC4948E94F79BAB19& unmarshaled)
 {
-	Exception_t* ___m_Devices_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Devices' of type 'MatchResult'.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Devices_2Exception, NULL);
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t unmarshaled_m_Result_temp_0 = 0;
+	unmarshaled_m_Result_temp_0 = marshaled.___m_Result_0;
+	unmarshaled.set_m_Result_0(unmarshaled_m_Result_temp_0);
+	float unmarshaled_m_Score_temp_1 = 0.0f;
+	unmarshaled_m_Score_temp_1 = marshaled.___m_Score_1;
+	unmarshaled.set_m_Score_1(unmarshaled_m_Score_temp_1);
+	InputControlList_1_tBCD41B4F8125103167BD27D9BC522C3A0ECB0825  unmarshaled_m_Devices_temp_2;
+	memset((&unmarshaled_m_Devices_temp_2), 0, sizeof(unmarshaled_m_Devices_temp_2));
+	unmarshaled_m_Devices_temp_2 = marshaled.___m_Devices_2;
+	unmarshaled.set_m_Devices_2(unmarshaled_m_Devices_temp_2);
+	InputControlList_1_t93EF19606838D35DD384F2FA70936A23C387CDE8  unmarshaled_m_Controls_temp_3;
+	memset((&unmarshaled_m_Controls_temp_3), 0, sizeof(unmarshaled_m_Controls_temp_3));
+	unmarshaled_m_Controls_temp_3 = marshaled.___m_Controls_3;
+	unmarshaled.set_m_Controls_3(unmarshaled_m_Controls_temp_3);
+	if (marshaled.___m_Requirements_4 != NULL)
+	{
+		if (unmarshaled.get_m_Requirements_4() == NULL)
+		{
+			unmarshaled.set_m_Requirements_4(reinterpret_cast<DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A*>((DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A*)SZArrayNew(DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A_il2cpp_TypeInfo_var, 1)));
+		}
+		il2cpp_array_size_t _arrayLength = (unmarshaled.get_m_Requirements_4())->max_length;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(_arrayLength); i++)
+		{
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B  _marshaled____m_Requirements_4_i__unmarshaled;
+			memset((&_marshaled____m_Requirements_4_i__unmarshaled), 0, sizeof(_marshaled____m_Requirements_4_i__unmarshaled));
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshal_com_back((marshaled.___m_Requirements_4)[i], _marshaled____m_Requirements_4_i__unmarshaled);
+			(unmarshaled.get_m_Requirements_4())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), _marshaled____m_Requirements_4_i__unmarshaled);
+		}
+	}
 }
 // Conversion method for clean up from marshalling of: UnityEngine.InputSystem.InputControlScheme/MatchResult
 IL2CPP_EXTERN_C void MatchResult_t93C22CB34F4278C47DB6992DC4948E94F79BAB19_marshal_com_cleanup(MatchResult_t93C22CB34F4278C47DB6992DC4948E94F79BAB19_marshaled_com& marshaled)
 {
+	if (marshaled.___m_Requirements_4 != NULL)
+	{
+		const il2cpp_array_size_t marshaled____m_Requirements_4_CleanupLoopCount = 1;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(marshaled____m_Requirements_4_CleanupLoopCount); i++)
+		{
+			DeviceRequirement_t737C830E66AB85ACD6C38BB25EC3BE3D6F481B3B_marshal_com_cleanup((marshaled.___m_Requirements_4)[i]);
+		}
+		il2cpp_codegen_marshal_free(marshaled.___m_Requirements_4);
+		marshaled.___m_Requirements_4 = NULL;
+	}
 }
 // System.Single UnityEngine.InputSystem.InputControlScheme/MatchResult::get_score()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MatchResult_get_score_m246CD45F6644BFBFAD5BCBB34DFDB4FB8FFFBACB (MatchResult_t93C22CB34F4278C47DB6992DC4948E94F79BAB19 * __this, const RuntimeMethod* method)

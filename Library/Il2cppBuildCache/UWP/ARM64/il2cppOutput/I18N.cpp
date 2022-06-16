@@ -9232,10 +9232,10 @@ IL_005f:
 			L_16 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_15, /*hidden argument*/NULL);
 			NullCheck(L_16);
 			Assembly_t * L_17;
-			L_17 = VirtFuncInvoker0< Assembly_t * >::Invoke(25 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_16);
+			L_17 = VirtFuncInvoker0< Assembly_t * >::Invoke(24 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_16);
 			NullCheck(L_17);
 			AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * L_18;
-			L_18 = VirtFuncInvoker0< AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * >::Invoke(22 /* System.Reflection.AssemblyName System.Reflection.Assembly::GetName() */, L_17);
+			L_18 = VirtFuncInvoker0< AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * >::Invoke(20 /* System.Reflection.AssemblyName System.Reflection.Assembly::GetName() */, L_17);
 			AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * L_19 = L_18;
 			String_t* L_20 = V_1;
 			NullCheck(L_19);
@@ -9297,7 +9297,7 @@ IL_00a2:
 			L_30 = String_Concat_m89EAB4C6A96B0E5C3F87300D6BE78D386B9EFC44(L_28, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, L_29, /*hidden argument*/NULL);
 			NullCheck(L_27);
 			Type_t * L_31;
-			L_31 = VirtFuncInvoker3< Type_t *, String_t*, bool, bool >::Invoke(27 /* System.Type System.Reflection.Assembly::GetType(System.String,System.Boolean,System.Boolean) */, L_27, L_30, (bool)0, (bool)1);
+			L_31 = VirtFuncInvoker3< Type_t *, String_t*, bool, bool >::Invoke(25 /* System.Type System.Reflection.Assembly::GetType(System.String,System.Boolean,System.Boolean) */, L_27, L_30, (bool)0, (bool)1);
 			V_3 = L_31;
 			Type_t * L_32 = V_3;
 			IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
@@ -9435,7 +9435,7 @@ IL_0000:
 			L_0 = il2cpp_codegen_get_executing_assembly(Manager_LoadClassList_m0024AE70797E5EF091E346AD43654F7946734A6C_RuntimeMethod_var);
 			NullCheck(L_0);
 			FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26 * L_1;
-			L_1 = VirtFuncInvoker1< FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26 *, String_t* >::Invoke(15 /* System.IO.FileStream System.Reflection.Assembly::GetFile(System.String) */, L_0, _stringLiteral9A34E96139C451931C3456C97940A3FB4B56E24D);
+			L_1 = VirtFuncInvoker1< FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26 *, String_t* >::Invoke(13 /* System.IO.FileStream System.Reflection.Assembly::GetFile(System.String) */, L_0, _stringLiteral9A34E96139C451931C3456C97940A3FB4B56E24D);
 			V_0 = L_1;
 			FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26 * L_2 = V_0;
 			if (L_2)

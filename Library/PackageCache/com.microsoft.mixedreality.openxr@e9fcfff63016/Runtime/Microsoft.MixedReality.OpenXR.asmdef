@@ -1,0 +1,36 @@
+{
+    "name": "Microsoft.MixedReality.OpenXR",
+    "rootNamespace": "Microsoft.MixedReality.OpenXR",
+    "references": [
+        "Unity.XR.OpenXR",
+        "Unity.XR.OpenXR.Editor",
+        "Unity.XR.Management",
+        "Unity.XR.Management.Editor",
+        "Unity.XR.ARSubsystems",
+        "Unity.XR.ARSubsystems.Editor",
+        "Unity.Subsystem.Registration",
+        "UnityEngine.SpatialTracking",
+        "Unity.InputSystem",
+        "Unity.XR.ARFoundation"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "WSA",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "1.4.0",
+            "define": "INPUT_SYSTEM_1_4_OR_NEWER"
+        }
+    ],
+    "noEngineReferences": false
+}

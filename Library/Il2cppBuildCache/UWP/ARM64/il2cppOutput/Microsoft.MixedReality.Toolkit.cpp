@@ -17743,7 +17743,7 @@ IL_0001:
 		Assembly_t * L_0 = ___this0;
 		NullCheck(L_0);
 		TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* L_1;
-		L_1 = VirtFuncInvoker0< TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(18 /* System.Type[] System.Reflection.Assembly::GetTypes() */, L_0);
+		L_1 = VirtFuncInvoker0< TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(16 /* System.Type[] System.Reflection.Assembly::GetTypes() */, L_0);
 		V_0 = (RuntimeObject*)L_1;
 		goto IL_003a;
 	} // end try (depth: 1)
@@ -30524,7 +30524,7 @@ IL_0039:
 			L_20 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_19, /*hidden argument*/NULL);
 			NullCheck(L_20);
 			String_t* L_21;
-			L_21 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_20);
+			L_21 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_20);
 			NullCheck(L_18);
 			ArrayElementTypeCheck (L_18, L_21);
 			(L_18)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_21);
